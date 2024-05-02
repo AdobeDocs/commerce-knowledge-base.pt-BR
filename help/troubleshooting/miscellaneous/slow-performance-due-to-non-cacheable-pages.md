@@ -1,0 +1,60 @@
+---
+title: Desempenho lento devido a páginas não armazenáveis em cache
+description: Este artigo fornece soluções para aumentar os tempos de carregamento do site ou as interrupções devido ao cache de página inteira (por exemplo, o Fastly) ter sido desativado para qualquer bloco em qualquer página que precise ser armazenada em cache.
+exl-id: 7401d9bd-710c-4221-9c3d-d78042c1c1ad
+feature: Cache, Categories
+role: Developer
+source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+workflow-type: tm+mt
+source-wordcount: '342'
+ht-degree: 0%
+
+---
+
+# Desempenho lento devido a páginas não armazenáveis em cache
+
+Este artigo fornece soluções para aumentar os tempos de carregamento do site ou as interrupções devido ao cache de página inteira (por exemplo, o Fastly) ter sido desativado para qualquer bloco em qualquer página que precise ser armazenada em cache.
+
+## Produtos e versões afetados
+
+* Adobe Commerce na infraestrutura em nuvem 2.x.x
+* Adobe Commerce no local 2.x.x
+
+### Problema
+
+O site apresenta desempenho lento porque há blocos de cache em páginas que precisam ser armazenáveis em cache, mas foram definidas como `cacheable="false"` .
+
+### Causa
+
+Há páginas que precisam ser armazenadas em cache pelo Adobe Commerce. Essas páginas têm a maior taxa de transferência. Cada solicitação desses tipos de páginas, não do cache, torna o Adobe Commerce mais lento.
+
+Essas páginas são:
+
+* Categoria de catálogo (PLP)
+* Página de detalhes do produto (PDP)
+* Páginas de conteúdo estático (Página inicial, Fale conosco etc.)
+
+Armazenável em cache e não armazenável em cache são termos usados para indicar se uma página deve ou não ser armazenada em cache. Por padrão, todas as páginas podem ser armazenadas em cache. No entanto, se qualquer bloco em um layout for designado como não armazenável em cache, a página inteira será armazenável em cache.
+
+A captura de tela abaixo mostra um bloco com uma configuração `cacheable="false”`  ** ** que cria uma página não armazenável em cache.
+
+![non_cacheable_kb.png](assets/non_cacheable_kb.png)
+
+Os exemplos de páginas não armazenáveis em cache incluem páginas de comparação de produtos, carrinho e check-out.
+
+A seguinte lista de páginas não é armazenada em cache (os caches Fastly, Block e Layout são evitados.). Isso ocorre devido à configuração &quot;armazenável em cache&quot; no layout.
+
+### Solução
+
+Verifique se os arquivos especificados acima têm a configuração `cacheable="false”` . Se eles tiverem ativado, verifique se essa configuração é necessária ou obrigatória.
+
+* Se necessário, considere mover blocos não armazenáveis em cache para [mecanismo de conteúdo privado](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/cache/page-caching/private-content.html?itm_source=devdocs&amp;itm_medium=quick_search&amp;itm_campaign=federated_search&amp;itm_term=private%20co) em vez disso.
+* Se não for necessário, remova o atributo `cacheable="false”` e limpe o cache de layout.
+
+>[!NOTE]
+>
+>Para o Adobe Commerce na infraestrutura em nuvem 2.4.1 e posterior, é possível usar o [Ferramenta de análise do site](https://docs.magento.com/user-guide/reports/site-wide-analysis-tool.html) para verificar automaticamente se o Cache de página cheia não está configurado corretamente.
+
+### Leitura relacionada
+
+[Visão geral do cache do Adobe Commerce](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/cache_for_frontdevs.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=cacheable%2) na documentação do desenvolvedor.

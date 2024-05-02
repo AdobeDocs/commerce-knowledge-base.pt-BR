@@ -1,0 +1,62 @@
+---
+title: "MDVA-36309: a pesquisa de produtos por atributos está lenta nas grades de administração"
+description: O patch MDVA-36309 resolve o problema em que a pesquisa de produtos por atributos é lenta nas grades de administração. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.3 está instalada. A ID do patch é MDVA-36309. Observe que o problema foi corrigido no Adobe Commerce 2.4.3.
+exl-id: 5e6b426b-201d-44a2-8c03-8ed5de8ed203
+feature: Admin Workspace, Attributes, Products, Search
+role: Admin
+source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+workflow-type: tm+mt
+source-wordcount: '359'
+ht-degree: 0%
+
+---
+
+# MDVA-36309: A pesquisa de produtos por atributos está lenta nas grades de administração
+
+O patch MDVA-36309 resolve o problema em que a pesquisa de produtos por atributos é lenta nas grades de administração. Este patch está disponível quando a variável [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) O 1.1.3 está instalado. A ID do patch é MDVA-36309. Observe que o problema foi corrigido no Adobe Commerce 2.4.3.
+
+## Produtos e versões afetados
+
+**O patch é criado para a versão do Adobe Commerce:**
+
+* Adobe Commerce (todos os métodos de implantação) 2.4.2
+
+**Compatível com as versões do Adobe Commerce:**
+
+* Adobe Commerce (todos os métodos de implantação) 2.4.2 - 2.4.2-p2
+
+>[!NOTE]
+>
+>O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com sua versão do Adobe Commerce, atualize o `magento/quality-patches` pacote para a versão mais recente e verifique a compatibilidade no [[!DNL Quality Patches Tool]: Página Procurar patches](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+
+## Problema
+
+A pesquisa de produtos por atributos é lenta nas grades de administração.
+
+<u>Etapas a serem reproduzidas</u>:
+
+Execute a pesquisa em várias grades de administradores com diferentes tipos de atributos pesquisáveis.
+
+<u>Resultados esperados</u>:
+
+A pesquisa é realizada em tempo hábil.
+
+<u>Resultados reais</u>:
+
+A pesquisa leva muito tempo.
+
+## Aplicar o patch
+
+Para aplicar patches individuais, use os links a seguir, dependendo do método de implantação:
+
+* Adobe Commerce ou Magento Open Source no local: [Guia de atualização de software > Aplicar patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) na documentação do desenvolvedor.
+* Adobe Commerce na infraestrutura em nuvem: [Upgrades e Patches > Aplicar Patches](https://devdocs.magento.com/cloud/project/project-patch.html) na documentação do desenvolvedor.
+
+## Leitura relacionada
+
+Para saber mais sobre a Ferramenta de correção de qualidade, consulte:
+
+* [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatendimento de correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md).
+* [Verifique se o patch está disponível para o problema do Adobe Commerce usando a Ferramenta de patches de qualidade](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md).
+
+Para obter informações sobre outros patches disponíveis no QPT, consulte o [Patches disponíveis no QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-MQP-tool-) seção.

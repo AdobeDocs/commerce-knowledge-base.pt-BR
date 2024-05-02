@@ -1,0 +1,81 @@
+---
+title: "MDVA-40550: produtos ausentes no front-end após a reindexação"
+description: O patch MDVA-40550 resolve o problema em que a reindexação resulta na ausência de produtos em algumas ou todas as categorias da loja. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.6 está instalada. A ID do patch é MDVA-40550. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.4.
+exl-id: 0aca6eb2-6eb2-4ac4-8ae1-052f671c14e5
+feature: Categories, Console, Products
+role: Admin
+source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+workflow-type: tm+mt
+source-wordcount: '436'
+ht-degree: 0%
+
+---
+
+# MDVA-40550: Produtos ausentes no front-end após reindexação
+
+O patch MDVA-40550 resolve o problema em que a reindexação resulta na ausência de produtos em algumas ou todas as categorias da loja. Este patch está disponível quando a variável [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) O 1.1.6 está instalado. A ID do patch é MDVA-40550. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.4.
+
+## Produtos e versões afetados
+
+**O patch é criado para a versão do Adobe Commerce:**
+
+* Adobe Commerce (todos os métodos de implantação) 2.4.2-p1
+
+**Compatível com as versões do Adobe Commerce:**
+
+* Adobe Commerce (todos os métodos de implantação) 2.3.5 - 2.4.3-p1
+
+>[!NOTE]
+>
+>O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com sua versão do Adobe Commerce, atualize o `magento/quality-patches` pacote para a versão mais recente e verifique a compatibilidade no [[!DNL Quality Patches Tool]: Página Procurar patches](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+
+## Problema
+
+<u>Etapas a serem reproduzidas</u>:
+
+1. Crie um produto.
+1. Alternar indexadores para **Atualização por agendamento**.
+   * Atribua o produto a uma categoria.
+1. Habilitar xdebug e tornar o ponto de interrupção xdebug em `\Magento\Indexer\Model\Indexer::reindexAll` e `\Magento\Indexer\Model\IndexMutex::execute`.
+1. Executar um **reindexação completa** de `catalog_category_product` com o comando:
+
+   ```bash
+   bin/magento indexer:reindex catalog_category_product
+   ```
+
+   * Aguardar a execução parar no ponto de interrupção `\Magento\Indexer\Model\Indexer::reindexAll`.
+
+1. Em outro console, execute um **reindexação parcial** em paralelo com o comando:
+
+   ```bash
+   bin/magento cron:run --group=index --bootstrap=standaloneProcessStarted=1
+   ```
+
+1. Aguardar a execução parar no ponto de interrupção `\Magento\Indexer\Model\IndexMutex::execute`. Isso bloqueará o `catalog_category_product` indexador.
+1. Retomar a execução do reindexação completo de `catalog_category_product` e aguarde um tempo limite de bloqueio (60 segundos).
+
+<u>Resultados esperados</u>:
+
+Nenhuma mensagem de erro no console.
+
+<u>Resultados reais</u>:
+
+Você recebe o seguinte erro:
+
+*Não foi possível adquirir bloqueio para index: catalog_category_product.*
+
+## Aplicar o patch
+
+Para aplicar patches individuais, use os links a seguir, dependendo do método de implantação:
+
+* Adobe Commerce ou Magento Open Source no local: [Guia de atualização de software > Aplicar patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) na documentação do desenvolvedor.
+* Adobe Commerce na infraestrutura em nuvem: [Upgrades e Patches > Aplicar Patches](https://devdocs.magento.com/cloud/project/project-patch.html) na documentação do desenvolvedor.
+
+## Leitura relacionada
+
+Para saber mais sobre a Ferramenta de correção de qualidade, consulte:
+
+* [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatendimento de correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de conhecimento de suporte.
+* [Verifique se o patch está disponível para o problema do Adobe Commerce usando a Ferramenta de patches de qualidade](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de conhecimento de suporte.
+
+Para obter informações sobre outros patches disponíveis no QPT, consulte [Patches disponíveis no QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) na documentação do desenvolvedor.

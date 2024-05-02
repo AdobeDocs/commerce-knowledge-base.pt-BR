@@ -1,0 +1,70 @@
+---
+title: "MDVA-41399: não é possível acessar o Gerenciar carrinho de compras se um cliente adicionar produto à lista de desejos"
+description: O patch MDVA-41399 resolve o problema em que os usuários administradores não conseguem acessar a página Gerenciar carrinho de compras se um cliente adicionar um produto à lista de desejos. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.6 está instalada. A ID do patch é MDVA-41399. Observe que o problema foi corrigido no Adobe Commerce 2.4.2.
+exl-id: 227653c6-2d20-4475-b973-b9fa58db815b
+feature: Orders, Products, Shopping Cart
+role: Admin
+source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+workflow-type: tm+mt
+source-wordcount: '458'
+ht-degree: 0%
+
+---
+
+# MDVA-41399: Não é possível acessar o Gerenciar carrinho de compras se um cliente adicionar produto à lista de desejos
+
+O patch MDVA-41399 resolve o problema em que os usuários administradores não conseguem acessar a página Gerenciar carrinho de compras se um cliente adicionar um produto à lista de desejos. Este patch está disponível quando a variável [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) O 1.1.6 está instalado. A ID do patch é MDVA-41399. Observe que o problema foi corrigido no Adobe Commerce 2.4.2.
+
+## Produtos e versões afetados
+
+**O patch é criado para a versão do Adobe Commerce:**
+
+* Adobe Commerce (todos os métodos de implantação) 2.3.3-p1
+
+**Compatível com as versões do Adobe Commerce:**
+
+* Adobe Commerce (todos os métodos de implantação) 2.3.3 - 2.4.1-p1
+
+>[!NOTE]
+>
+>O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com sua versão do Adobe Commerce, atualize o `magento/quality-patches` pacote para a versão mais recente e verifique a compatibilidade no [[!DNL Quality Patches Tool]: Página Procurar patches](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+
+## Problema
+
+Os usuários administradores não podem acessar a página Gerenciar carrinho de compras se um cliente adicionar um produto à lista de desejos.
+
+<u>Pré-requisitos</u>:
+
+1. Crie dois ou mais produtos.
+1. Crie um cliente.
+1. Ative o Modo de desenvolvedor.
+
+<u>Etapas a serem reproduzidas</u>:
+
+1. Acesse a Loja e faça logon como cliente dentre as pré-condições.
+1. Adicione um produto à Lista de desejos.
+1. Vá para o painel Admin, navegue até a página de edição criada pelo cliente e clique na guia **Gerenciar carrinho de compras** botão.
+
+<u>Resultados esperados</u>:
+
+O usuário administrador pode gerenciar o carrinho de compras.
+
+<u>Resultados reais</u>:
+
+O usuário administrador recebe uma mensagem de erro: *Erro. Consulte o log de erros para obter detalhes.*
+
+## Aplicar o patch
+
+Para aplicar patches individuais, use os links a seguir, dependendo do método de implantação:
+
+* Adobe Commerce ou Magento Open Source no local: [Guia de atualização de software > Aplicar patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) na documentação do desenvolvedor.
+* Adobe Commerce na infraestrutura em nuvem: [Upgrades e Patches > Aplicar Patches](https://devdocs.magento.com/cloud/project/project-patch.html) na documentação do desenvolvedor.
+
+## Leitura relacionada
+
+Para saber mais sobre a Ferramenta de correção de qualidade, consulte:
+
+* [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatendimento de correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de conhecimento de suporte.
+* [Verifique se o patch está disponível para o problema do Adobe Commerce usando a Ferramenta de patches de qualidade](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de conhecimento de suporte.
+
+Para obter informações sobre outros patches disponíveis no QPT, consulte o [Patches disponíveis no QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-MQP-tool-) seção.

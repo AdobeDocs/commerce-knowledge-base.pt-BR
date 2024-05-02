@@ -1,0 +1,71 @@
+---
+title: "MDVA-29400: Pedidos duplicados feitos com o Check-out expresso do PayPal"
+description: O patch MDVA-29400 resolve o problema em que os pedidos duplicados são criados quando os clientes fazem pedidos com o Check-out do PayPal Express. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.4 está instalada. A ID do patch é MDVA-29400. Observe que o problema foi corrigido no Adobe Commerce 2.4.1.
+exl-id: 75b943c8-5f7c-4d94-ae92-935428fdfcf8
+feature: Checkout, Orders, Payments
+role: Admin
+source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+workflow-type: tm+mt
+source-wordcount: '427'
+ht-degree: 0%
+
+---
+
+# MDVA-29400: Pedidos duplicados feitos com o Check-out do PayPal Express
+
+O patch MDVA-29400 resolve o problema em que os pedidos duplicados são criados quando os clientes fazem pedidos com o Check-out do PayPal Express. Este patch está disponível quando a variável [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) O 1.1.4 está instalado. A ID do patch é MDVA-29400. Observe que o problema foi corrigido no Adobe Commerce 2.4.1.
+
+## Produtos e versões afetados
+
+**O patch é criado para a versão do Adobe Commerce:**
+
+* Adobe Commerce (todos os métodos de implantação) 2.3.4
+
+**Compatível com as versões do Adobe Commerce:**
+
+* Adobe Commerce (todos os métodos de implantação) 2.3.0 - 2.3.7-p1, 2.4.0 - 2.4.0-p1
+
+>[!NOTE]
+>
+>O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com sua versão do Adobe Commerce, atualize o `magento/quality-patches` pacote para a versão mais recente e verifique a compatibilidade no [[!DNL Quality Patches Tool]: Página Procurar patches](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+
+## Problema
+
+Pedidos duplicados são criados quando os usuários fazem pedidos com o Check-out do PayPal Express.
+
+<u>Pré-requisitos</u>:
+
+Finalização de compra ativada e configurada no PayPal Express.
+
+<u>Etapas a serem reproduzidas</u>:
+
+1. Adicionar um produto ao carrinho.
+1. Vá para a Página de Finalização e use o PayPal Express como método de pagamento.
+1. Ele será redirecionado para a página paypal/express/review/.
+1. Fazer pedido. Você será redirecionado para a Página de sucesso.
+1. Voltar para PayPal/express/review/ Page.
+1. Clique no link **Fazer pedido** botão.
+
+<u>Resultados esperados</u>:
+
+Somente uma ordem é criada.
+
+<u>Resultados reais</u>:
+
+Você recebe o seguinte erro: *O token de check-out do PayPal Express não existe*, mas a segunda ordem foi feita com êxito.
+
+## Aplicar o patch
+
+Para aplicar patches individuais, use os links a seguir, dependendo do método de implantação:
+
+* Adobe Commerce ou Magento Open Source no local: [Guia de atualização de software > Aplicar patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) na documentação do desenvolvedor.
+* Adobe Commerce na infraestrutura em nuvem: [Upgrades e Patches > Aplicar Patches](https://devdocs.magento.com/cloud/project/project-patch.html) na documentação do desenvolvedor.
+
+## Leitura relacionada
+
+Para saber mais sobre a Ferramenta de correção de qualidade, consulte:
+
+* [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatendimento de correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de conhecimento de suporte.
+* [Verifique se o patch está disponível para o problema do Adobe Commerce usando a Ferramenta de patches de qualidade](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de conhecimento de suporte.
+
+Para obter informações sobre outros patches disponíveis no QPT, consulte o [Patches disponíveis no QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-MQP-tool-) seção.

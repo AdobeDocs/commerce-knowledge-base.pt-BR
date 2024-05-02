@@ -1,0 +1,64 @@
+---
+title: "Adobe Commerce 2.4.1: mensagem incorreta na finalização de compra de convidado do PayPal-Braintree"
+description: Este artigo descreve um problema conhecido do Adobe Commerce 2.4.1 em que, se o check-out do convidado estiver desativado, um cliente convidado que tenta fazer um pedido no PayPal por meio do Braintree receberá uma mensagem de erro não informativa.
+exl-id: 758f5c57-997e-4aca-b299-9934c94fa121
+feature: Checkout, Orders, Payments
+role: Developer
+source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+workflow-type: tm+mt
+source-wordcount: '373'
+ht-degree: 0%
+
+---
+
+# Adobe Commerce 2.4.1: mensagem incorreta na finalização de compra de convidado PayPal-Braintree
+
+Este artigo descreve um problema conhecido do Adobe Commerce 2.4.1 em que, se o check-out do convidado estiver desativado, um cliente convidado que tenta fazer um pedido no PayPal por meio do Braintree receberá uma mensagem de erro não informativa.
+
+## Produtos e versões afetados
+
+* Adobe Commerce no local 2.4.0, 2.4.1
+* Adobe Commerce na infraestrutura em nuvem 2.4.0, 2.4.1
+
+## Problema
+
+Um erro inespecífico é exibido quando o check-out do convidado é desativado no back-end e a opção PayPal por meio do Braintree de pagamento é selecionada no Minicarrinho ou no Carrinho de compras.
+
+<u>Pré-requisitos</u>:
+
+1. No Administrador do Commerce, em **Lojas** > **Configuração** > **Vendas** > **Check-out**, definir **Permitir check-out de convidado** = *Não*.
+1. Ative o PayPal por meio do Braintree, conforme descrito na [Braintree](https://docs.magento.com/user-guide/payment/braintree.html?) em nosso guia do usuário.
+
+<u>Etapas a serem reproduzidas</u>:
+
+1. Adicione o produto ao carrinho como convidado.
+1. Selecionar **Minicarrinho** e clique em **Pagar com PayPal**.
+1. Conclua o checkout do Paypal e você será direcionado para a página de Revisão do pedido.
+1. Selecionar **Método de envio**.
+1. Clique em **Fazer pedido**.
+
+<u>Resultados esperados</u>:
+
+Quando um cliente clica no botão PayPal na página Minicarrinho ou Carrinho de compras, a seguinte mensagem deve ser exibida:
+
+<pre><code class="language-bash">To check out, please sign in with your email address.</code></pre>
+
+Se você habilitar o Paypal direto sem usar o Braintree, este cenário se comporta de forma diferente. Ele não permite que o usuário convidado continue com o processo de pagamento. Ele mostrará a seguinte mensagem quando o usuário convidado clicar no botão PayPal no Minicarrinho:
+
+<pre><code class="language-bash">To check out, please sign in with your email address.</code></pre>
+
+<u>Resultados reais</u>:
+
+O cliente é redirecionado para a página Carrinho de compras e a seguinte mensagem é exibida:
+
+<pre><code class="language-bash">The customer email is missing. Enter and try again.</code></pre>
+
+## Solução alternativa
+
+A solução alternativa para esse problema é que o cliente pode fazer logon em uma loja (os usuários conectados não usam o check-out de convidado). onde o check-out do convidado está desativado. Este problema foi corrigido no Adobe Commerce versão 2.4.2.
+
+## Leitura relacionada
+
+* [Prática recomendada para o número de produtos no carrinho no Adobe Commerce](https://support.magento.com/hc/en-us/articles/360048550332) em nossa base de conhecimento de suporte.
+* [Tutorial de processamento de pedidos: Etapa 1. Adicionar itens ao carrinho](https://devdocs.magento.com/guides/v2.4/rest/tutorials/orders/order-add-items.html) na documentação do desenvolvedor
+* [Tutorial de check-out do GraphQL: Etapa 1. Adicionar produtos ao carrinho](https://devdocs.magento.com/guides/v2.4/graphql/tutorials/checkout/checkout-add-product-to-cart.html) na documentação do desenvolvedor

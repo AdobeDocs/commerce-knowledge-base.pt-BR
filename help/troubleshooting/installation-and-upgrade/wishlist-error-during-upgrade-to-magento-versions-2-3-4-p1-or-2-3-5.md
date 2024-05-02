@@ -1,0 +1,64 @@
+---
+title: Erro de lista de desejos durante a atualização para o Adobe Commerce versões 2.3.4-p1 ou 2.3.5
+description: Este artigo fornece uma correção para o problema conhecido ao atualizar para as versões 2.3.4-p1 e 2.3.5 do Adobe Commerce relacionadas a um erro de lista de desejos durante a atualização para essas versões.
+exl-id: 97479615-bf3f-4544-a9c1-8f19ba74318e
+feature: Install, Upgrade
+role: Developer
+source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+workflow-type: tm+mt
+source-wordcount: '332'
+ht-degree: 0%
+
+---
+
+# Erro de lista de desejos durante a atualização para o Adobe Commerce versões 2.3.4-p1 ou 2.3.5
+
+Este artigo fornece uma correção para o problema conhecido ao atualizar para as versões 2.3.4-p1 e 2.3.5 do Adobe Commerce relacionadas a um erro de lista de desejos durante a atualização para essas versões.
+
+## Produtos e versões afetados
+
+* Adobe Commerce na infraestrutura em nuvem 2.3.4-p1 e 2.3.5
+* Adobe Commerce no local 2.3.4-p1 e 2.3.5
+
+## Problema
+
+Ao atualizar sua Adobe Commerce (todos os métodos de implantação) e o Magento Open Source para a versão 2.3.5 ou 2.3.4-p1, você pode obter um erro de lista de desejos (detalhado abaixo) do módulo:
+
+```php
+Magento_Wishlist
+```
+
+Atualização do Adobe Commerce (todos os métodos de implantação)/Magneto Open Source versão 2.3.4-p1 **para a versão 2.3.4-p2** ou do Adobe Commerce (todos os métodos de implantação)/Magneto Open Source versão 2.3.5 **para a versão 2.3.5-p1** O corrigirá o erro.
+
+<u>Etapas a serem reproduzidas</u>:
+
+Atualize seu Adobe Commerce (todos os métodos de implantação)/Magento Open Source para a versão 2.3.4-p1 ou 2.3.5.
+
+<u>Resultado esperado</u>:
+
+O processo de atualização para o Adobe Commerce (todos os métodos de implantação)/Magento Open Source versão 2.3.4-p1 ou 2.3.5 é concluído normalmente.
+
+<u>Resultado real</u>:
+
+Durante a atualização, você recebe este erro:
+
+```php
+Module ‘Magento_Wishlist’:
+
+Unable to apply data patch Magento\Wishlist\Setup\Patch\Data\CleanUpData for module Magento_Wishlist. Original exception message: Unable to unserialize value. Error: Syntax error
+```
+
+## Soluções
+
+* Se você estava atualizando para o Adobe Commerce (todos os métodos de implantação)/Magneto Open Source versão 2.3.5, **atualização para a versão 2.3.5-p1**. Adobe Commerce (todos os métodos de implantação)/Magento Open Source versão 2.3.5-p1 substitui 2.3.5.
+* Se você estava atualizando para Adobe Commerce (todos os métodos de implantação)/Magento Open Source versão 2.3.4-p1, **atualização para a versão 2.3.4-p2**. Adobe Commerce (todos os métodos de implantação)/Magneto Open Source versão 2.3.4-p2 substitui a versão 2.3.4-p1.
+
+## Leitura relacionada
+
+Em nossa documentação do desenvolvedor:
+
+* [guia da infraestrutura do Adobe Commerce na nuvem](https://devdocs.magento.com/cloud/bk-cloud.html)
+* [Adobe Commerce na infraestrutura em nuvem — atualização da versão do Adobe Commerce](https://devdocs.magento.com/cloud/project/project-upgrade.html)
+* [Adobe Commerce no local e Magento Open Source - atualize o aplicativo e os módulos do Adobe Commerce](https://devdocs.magento.com/guides/v2.3/comp-mgr/bk-compman-upgrade-guide.html)
+* [Página de configuração do item da lista de desejos](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/layouts/product-layouts.html#wishlist-item-configure-page)
+* [Módulos que fornecem relatórios avançados](https://devdocs.magento.com/guides/v2.3/advanced-reporting/modules.html)

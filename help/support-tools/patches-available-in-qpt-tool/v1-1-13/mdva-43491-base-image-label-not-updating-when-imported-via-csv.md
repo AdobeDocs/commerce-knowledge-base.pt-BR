@@ -1,0 +1,76 @@
+---
+title: "MDVA-43491: rótulo de imagem base não atualizado quando importado via CSV"
+description: O patch MDVA-43491 corrige o problema em que o "base_image_label" não é atualizado quando importado por meio de um arquivo CSV para um site de várias lojas. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.13 está instalada. A ID do patch é MDVA-43491. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.5.
+exl-id: d744423a-f582-4410-8d66-861229cce1b5
+feature: Data Import/Export
+role: Admin
+source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+workflow-type: tm+mt
+source-wordcount: '499'
+ht-degree: 0%
+
+---
+
+# MDVA-43491: Rótulo de imagem base não atualizado quando importado via CSV
+
+O patch MDVA-43491 corrige o problema em que o parâmetro `base_image_label` O não é atualizado quando importado por meio de um arquivo CSV para um site de várias lojas. Este patch está disponível quando a variável [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) O 1.1.13 está instalado. A ID do patch é MDVA-43491. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.5.
+
+## Produtos e versões afetados
+
+**O patch é criado para a versão do Adobe Commerce:**
+
+* Adobe Commerce (todos os métodos de implantação) 2.4.2-p2
+
+**Compatível com as versões do Adobe Commerce:**
+
+* Adobe Commerce (todos os métodos de implantação) 2.3.5 - 2.4.4
+
+>[!NOTE]
+>
+>O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com sua versão do Adobe Commerce, atualize o `magento/quality-patches` pacote para a versão mais recente e verifique a compatibilidade no [[!DNL Quality Patches Tool]: Página Procurar patches](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+
+## Problema
+
+A variável `base_image_label` O não é atualizado quando importado usando um arquivo CSV para um site de várias lojas.
+
+<u>Pré-requisitos</u>:
+
+Um ou mais sites, lojas e visualizações de loja não padrão existentes.
+
+<u>Etapas a serem reproduzidas</u>:
+
+1. Crie um novo produto.
+
+   * Carregar uma imagem.
+   * Atribua o produto aos sites recém-criados.
+
+1. Exporte o produto como CSV.
+1. Atualize o `base_image_label` para cada visualização de armazenamento, duplicando a linha padrão do arquivo CSV.
+1. Importe o arquivo CSV. Ele atualizará os rótulos de cada loja corretamente, que podem ser verificados na variável **Imagens e vídeos** na página de edição do produto.
+1. Exporte o arquivo CSV novamente e atualize o `base_image_label` coluna com valores diferentes.
+1. Importe o arquivo CSV novamente.
+1. Abra o produto no Administrador e verifique se o rótulo foi atualizado para cada exibição de loja.
+
+<u>Resultados esperados</u>:
+
+O texto alternativo (rótulo da imagem) é atualizado com o valor específico do armazenamento de acordo com o arquivo CSV.
+
+<u>Resultados reais</u>:
+
+O texto alternativo (rótulo da imagem) não é atualizado com o `base_image_label` no arquivo CSV.
+
+## Aplicar o patch
+
+Para aplicar patches individuais, use os links a seguir, dependendo do método de implantação:
+
+* Adobe Commerce ou Magento Open Source no local: [Guia de atualização de software > Aplicar patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) na documentação do desenvolvedor.
+* Adobe Commerce na infraestrutura em nuvem: [Upgrades e Patches > Aplicar Patches](https://devdocs.magento.com/cloud/project/project-patch.html) na documentação do desenvolvedor.
+
+## Leitura relacionada
+
+Para saber mais sobre a Ferramenta de correção de qualidade, consulte:
+
+* [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatendimento de correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de conhecimento de suporte.
+* [Verifique se o patch está disponível para o problema do Adobe Commerce usando a Ferramenta de patches de qualidade](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de conhecimento de suporte.
+
+Para obter informações sobre outros patches disponíveis no QPT, consulte [Patches disponíveis no QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) na documentação do desenvolvedor.

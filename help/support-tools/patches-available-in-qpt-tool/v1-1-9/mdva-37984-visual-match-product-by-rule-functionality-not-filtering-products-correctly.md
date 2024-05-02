@@ -1,0 +1,68 @@
+---
+title: "MDVA-37984: o Visual Merchandiser não está funcionando corretamente quando atualizações de preparo são aplicadas"
+description: O patch MDVA-37984 resolve o problema em que a funcionalidade "Corresponder produto por regra" do Visual Merchandiser não filtra produtos corretamente quando atualizações de preparo são aplicadas. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.9 está instalada. A ID do patch é MDVA-37984. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.5.
+exl-id: d806b94c-3b22-4d4c-8afb-7b57a0ebfe46
+feature: Categories, Merchandising, Products, Staging
+role: Admin
+source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+workflow-type: tm+mt
+source-wordcount: '474'
+ht-degree: 0%
+
+---
+
+# MDVA-37984: Merchandiser visual não está funcionando corretamente quando atualizações de preparo são aplicadas
+
+O patch MDVA-37984 resolve o problema em que a funcionalidade &quot;Corresponder produto por regra&quot; do Visual Merchandiser não filtra produtos corretamente quando atualizações de preparo são aplicadas. Este patch está disponível quando a variável [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) O 1.1.9 está instalado. A ID do patch é MDVA-37984. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.5.
+
+## Produtos e versões afetados
+
+**O patch é criado para a versão do Adobe Commerce:**
+
+* Adobe Commerce (todos os métodos de implantação) 2.4.2
+
+**Compatível com as versões do Adobe Commerce:**
+
+* Adobe Commerce (todos os métodos de implantação) 2.4.1 - 2.4.3-p1
+
+>[!NOTE]
+>
+>O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com sua versão do Adobe Commerce, atualize o `magento/quality-patches` pacote para a versão mais recente e verifique a compatibilidade no [[!DNL Quality Patches Tool]: Página Procurar patches](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+
+## Problema
+
+A funcionalidade &quot;Corresponder produto por regra&quot; do Visual Merchandiser não filtra produtos corretamente quando atualizações de preparo são aplicadas.
+
+<u>Etapas a serem reproduzidas</u>:
+
+1. Crie uma atualização de agendamento para qualquer produto existente.
+   * Definir valores diferentes para `entity_id` e `row_id`.
+1. Crie um novo produto configurável e depois um produto simples (para que o novo produto `entity_id` e `row_ids` também são diferentes).
+   * Para facilitar a replicação do problema, defina um valor de quantidade diferenciável para o produto simples - por exemplo, 5000.
+1. Ir para uma categoria > **Produtos na categoria** e habilitar **Combinar produtos por regra**.
+1. Agora selecione &quot;Quantidade&quot; como o atributo, &quot;Maior&quot; como o operador e &quot;4500&quot; como o valor.
+1. Clique em **save**.
+
+<u>Resultados esperados</u>:
+
+O produto configurável recém-criado é listado.
+
+<u>Resultados reais</u>:
+
+O produto configurável recém-criado não está listado.
+
+## Aplicar o patch
+
+Para aplicar patches individuais, use os links a seguir, dependendo do método de implantação:
+
+* Adobe Commerce ou Magento Open Source no local: [Guia de atualização de software > Aplicar patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) na documentação do desenvolvedor.
+* Adobe Commerce na infraestrutura em nuvem: [Upgrades e Patches > Aplicar Patches](https://devdocs.magento.com/cloud/project/project-patch.html) na documentação do desenvolvedor.
+
+## Leitura relacionada
+
+Para saber mais sobre a Ferramenta de correção de qualidade, consulte:
+
+* [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatendimento de correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de conhecimento de suporte.
+* [Verifique se o patch está disponível para o problema do Adobe Commerce usando a Ferramenta de patches de qualidade](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de conhecimento de suporte.
+
+Para obter informações sobre outros patches disponíveis no QPT, consulte [Patches disponíveis no QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) na documentação do desenvolvedor.

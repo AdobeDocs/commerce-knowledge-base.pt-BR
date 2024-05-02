@@ -1,0 +1,72 @@
+---
+title: "MDVA-37364: Atributo de cliente personalizado do tipo de data quebra a interface de grade"
+description: O patch MDVA-37364 resolve o problema em que o atributo de cliente personalizado do tipo de data quebra a interface do usuário da Grade do cliente. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2 está instalada. A ID do patch é MDVA-37364. Observe que o problema está programado para ser corrigido no Adobe Commerce versão 2.4.4.
+exl-id: d25baabf-45eb-403c-9f88-9c2448cc7b49
+feature: Attributes, Cache
+role: Developer
+source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+workflow-type: tm+mt
+source-wordcount: '449'
+ht-degree: 0%
+
+---
+
+# MDVA-37364: Atributo de cliente personalizado do tipo de data quebra a interface de grade
+
+O patch MDVA-37364 resolve o problema em que o atributo de cliente personalizado do tipo de data quebra a interface do usuário da Grade do cliente. Este patch está disponível quando a variável [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) O 1.1.2 está instalado. A ID do patch é MDVA-37364. Observe que o problema está programado para ser corrigido no Adobe Commerce versão 2.4.4.
+
+## Produtos e versões afetados
+
+**O patch é criado para a versão do Adobe Commerce:**
+
+* Adobe Commerce (todos os métodos de implantação) 2.4.2
+
+**Compatível com as versões do Adobe Commerce:**
+
+* Adobe Commerce (todos os métodos de implantação) 2.4.0-2.4.2-p2
+
+>[!NOTE]
+>
+>O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com sua versão do Adobe Commerce, atualize o `magento/quality-patches` pacote para a versão mais recente e verifique a compatibilidade no [[!DNL Quality Patches Tool]: Página Procurar patches](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+
+## Problema
+
+O atributo de cliente personalizado do tipo de data interrompe a interface do usuário da grade do cliente.
+
+<u>Etapas a serem reproduzidas</u>:
+
+1. Crie um atributo personalizado com tipo de data:
+   * Ir para **Lojas** > **Atributos** > **Adicionar atributo**.
+   * Defina o Tipo de entrada como Data.
+   * Defina as Opções Adicionar à Coluna como Sim.
+   * Salve o atributo.
+1. Ir para **Admin** > **Clientes** > **Todos os Clientes**.
+   * Adicione o atributo personalizado recém-adicionado à grade na opção de colunas.
+1. Crie/edite um cliente e defina o valor do campo de atributo de data personalizado criado.
+1. Salve, reindexe e limpe o cache.
+1. Ir para **Clientes** > **Todos os Clientes**.
+   * Verifique a Grade de Clientes.
+
+<u>Resultados esperados</u>:
+
+A Grade de clientes de administração mostra todos os dados, incluindo o novo atributo personalizado de data, sem romper a interface da Grade do cliente.
+
+<u>Resultados reais</u>:
+
+A interface do usuário da Grade de clientes de administração está com problemas.
+
+## Aplicar o patch
+
+Para aplicar patches individuais, use os links a seguir, dependendo do tipo de implantação:
+
+* Adobe Commerce ou Magento Open Source no local: [Guia de atualização de software > Aplicar patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) na documentação do desenvolvedor.
+* Adobe Commerce na infraestrutura em nuvem: [Upgrades e Patches > Aplicar Patches](https://devdocs.magento.com/cloud/project/project-patch.html) na documentação do desenvolvedor.
+
+## Leitura relacionada
+
+Para saber mais sobre a Ferramenta de correção de qualidade, consulte:
+
+* [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatendimento de correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md).
+* [Verifique se o patch está disponível para o problema do Adobe Commerce usando a Ferramenta de patches de qualidade](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md).
+
+Para obter informações sobre outros patches disponíveis no QPT, consulte o [Patches disponíveis no QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-MQP-tool-) seção.

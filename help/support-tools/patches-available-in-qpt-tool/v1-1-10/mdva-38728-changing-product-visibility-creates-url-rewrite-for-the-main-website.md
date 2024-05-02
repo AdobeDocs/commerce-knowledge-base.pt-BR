@@ -1,0 +1,77 @@
+---
+title: "MDVA-38728: alterar a visibilidade do produto cria regravação de URL para o site principal"
+description: O patch MDVA-38728 resolve o problema em que a alteração da visibilidade do produto do segundo site cria uma reescrita de URL para o site principal. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.10 está instalada. A ID do patch é MDVA-38728. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.5.
+exl-id: ad1d5f82-294d-485d-acd3-28c3cd0fbf56
+feature: Products
+role: Admin
+source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+workflow-type: tm+mt
+source-wordcount: '454'
+ht-degree: 0%
+
+---
+
+# MDVA-38728: Alterar a visibilidade do produto cria regravação de URL para o site principal
+
+O patch MDVA-38728 resolve o problema em que a alteração da visibilidade do produto do segundo site cria uma reescrita de URL para o site principal. Este patch está disponível quando a variável [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) O 1.1.10 está instalado. A ID do patch é MDVA-38728. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.5.
+
+## Produtos e versões afetados
+
+**O patch é criado para a versão do Adobe Commerce:**
+
+* Adobe Commerce (todos os métodos de implantação) 2.3.3-p1
+
+**Compatível com as versões do Adobe Commerce:**
+
+* Adobe Commerce (todos os métodos de implantação) 2.3.2 - 2.4.3-p1
+
+>[!NOTE]
+>
+>O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com sua versão do Adobe Commerce, atualize o `magento/quality-patches` pacote para a versão mais recente e verifique a compatibilidade no [[!DNL Quality Patches Tool]: Página Procurar patches](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+
+## Problema
+
+Alterar a visibilidade do produto do segundo site cria uma reescrita de URL para o site principal.
+
+<u>Etapas a serem reproduzidas</u>:
+
+1. Crie um site, uma loja e uma loja adicionais.
+1. Crie um produto simples.
+1. Defina a visibilidade como **Não visível individualmente**.
+1. Atribuir o produto somente ao segundo site.
+1. Preencha todos os outros campos obrigatórios.
+1. Salve o produto.
+1. Iniciar filas MySQL:
+
+   ```mysql
+   bin/magento queue:consumers:start product_action_attribute.update &
+   bin/magento queue:consumers:start product_action_attribute.website.update &
+   ```
+
+1. Vá para a Lista de produtos.
+1. Selecione o produto criado e atualize o atributo de visibilidade usando a atualização em massa para Catálogo e Pesquisa.
+1. Verifique a regravação do URL.
+
+<u>Resultados esperados</u>:
+
+A regravação é criada para o segundo site ao qual o produto é atribuído.
+
+<u>Resultados reais</u>:
+
+A regravação é criada para o site principal.
+
+## Aplicar o patch
+
+Para aplicar patches individuais, use os links a seguir, dependendo do método de implantação:
+
+* Adobe Commerce ou Magento Open Source no local: [Guia de atualização de software > Aplicar patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) na documentação do desenvolvedor.
+* Adobe Commerce na infraestrutura em nuvem: [Upgrades e Patches > Aplicar Patches](https://devdocs.magento.com/cloud/project/project-patch.html) na documentação do desenvolvedor.
+
+## Leitura relacionada
+
+Para saber mais sobre a Ferramenta de correção de qualidade, consulte:
+
+* [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatendimento de correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de conhecimento de suporte.
+* [Verifique se o patch está disponível para o problema do Adobe Commerce usando a Ferramenta de patches de qualidade](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de conhecimento de suporte.
+
+Para obter informações sobre outros patches disponíveis no QPT, consulte [Patches disponíveis no QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) na documentação do desenvolvedor.

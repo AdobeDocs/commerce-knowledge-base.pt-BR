@@ -1,0 +1,45 @@
+---
+title: Erros de implantação em que patches não foram encontrados
+description: "Este artigo fornece uma solução para o problema em que você vê um erro *Os próximos patches não foram encontrados: MDVA-XXXXX, ACSD-XXXXX. Verifique com o comando 'status' a disponibilidade desses patches para a versão atual do Magento*."
+exl-id: 5a2fd35a-892a-48af-a41f-f275297b3e2e
+source-git-commit: c903360ffb22f9cd4648f6fdb4a812cb61cd90c5
+workflow-type: tm+mt
+source-wordcount: '227'
+ht-degree: 0%
+
+---
+
+# Erros de implantação em que patches não foram encontrados
+
+Este artigo fornece uma solução para o problema que ocorria ao atualizar sua instância durante a falha da implantação e você vê um erro nos logs de implantação: *Os próximos patches não foram encontrados: MDVA-XXXXX, ACSD-XXXXX. Verifique com o comando &quot;status&quot; a disponibilidade desses patches para a versão atual do Magento*.
+
+## Produtos e versões afetados
+
+* Adobe Commerce na infraestrutura em nuvem, [todas as versões compatíveis](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
+
+
+## Problema
+
+Ocorreu um erro ao atualizar o Adobe Commerce: *Os próximos patches não foram encontrados*.
+
+## Causa
+
+Os patches aplicados anteriormente para suas versões mais antigas não se aplicam ou não estão mais disponíveis para sua nova versão.
+
+## Solução
+
+1. Verifique o seu `.magento.env.yaml` arquivo na seção QUALITY_PATCH, por exemplo,
+
+   ```yaml
+   QUALITY_PATCHES:
+    - MDVA-XXXXX
+    - ACSD-XXXXX
+   ```
+
+1. Procure as IDs de patch no [Notas de versão de correções de qualidade](/docs/commerce-operations/tools/quality-patches-tool/release-notes.html) para verificar se cada um pode ser aplicado à nova versão do Adobe Commerce para a qual você está atualizando.
+1. Se o patch não se aplicar à nova versão do Adobe Commerce para a qual você deseja atualizar, remova a ID do patch do `.magento.env.yaml` arquivo.
+1. Depois de ter revisado todas as IDs de patch indicadas pelo erro, envie as alterações para push e reimplante.
+
+## Leitura relacionada
+
+* [Aplicar patches](/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html?lang=en#apply-a-patch-in-a-local-environment) no Guia de infraestrutura do Commerce na nuvem.

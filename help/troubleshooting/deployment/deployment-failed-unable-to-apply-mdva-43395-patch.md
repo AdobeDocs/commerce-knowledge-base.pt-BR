@@ -1,0 +1,48 @@
+---
+title: "Falha na implantação: não é possível aplicar o patch MDVA-43395"
+description: Este artigo fornece uma solução para o problema, em que tentar aplicar o patch MDVA-43395 resulta em falha na implantação.
+exl-id: 5341be3a-a9d7-4a4b-9755-8c585c6922a4
+feature: Deploy
+role: Developer
+source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+workflow-type: tm+mt
+source-wordcount: '227'
+ht-degree: 0%
+
+---
+
+# Falha na implantação: não é possível aplicar o patch MDVA-43395
+
+Este artigo fornece uma solução para o problema, em que tentar aplicar o patch MDVA-43395 resulta em falha na implantação.
+
+## Produtos e versões afetados
+
+* Adobe Commerce na infraestrutura em nuvem (todas as versões)
+
+## Problema
+
+Você não pode aplicar o patch MDVA-43395.
+
+## Causa
+
+Os comerciantes em nuvem não precisam aplicar o patch MDVA-43395 separadamente se tiverem [magento/magento-cloud-patches 1.0.16](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html#v1016) instalado, o que já inclui o patch.
+
+## Solução
+
+Para resolver o problema, remova os patches MDVA-43395 e MDVA-43443 do `m2-hotfixes` diretório e reimplantar.
+
+Se você pôde aplicar o patch MDVA-43443 por meio do `m2-hotfixes` ainda precisará removê-lo, conforme mencionado acima. As versões futuras do Adobe Commerce já terão esses patches contidos neles, portanto, a implantação poderá falhar se você fizer a atualização mais tarde.
+
+Para verificar se o patch foi aplicado, execute o `vendor/bin/magento-patches -n status |grep 43443` comando.
+Se ele mostrar vários resultados como este, você deverá remover o patch MDVA-43443 do `m2-hotfixes` pasta:
+
+```bash
+$ vendor/bin/magento-patches -n status |grep 43443
+║ MDVA-43443              │ Parser token new fix                                         │ Other           │ Adobe Commerce Support │ Applied     │ Patch type: Required                                     ║
+║ N/A                     │ ../m2-hotfixes/MDVA-43443_EE_2.4.2-p2_COMPOSER_v1.patch      │ Other           │ Local                  │ Applied     │ Patch type: Custom                                       ║
+```
+
+## Leitura relacionada
+
+* [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de conhecimento de suporte.
+* [Patches da nuvem para o Commerce](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html#v1016) na documentação do desenvolvedor.

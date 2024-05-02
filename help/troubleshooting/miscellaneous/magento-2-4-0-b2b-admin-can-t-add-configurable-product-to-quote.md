@@ -1,0 +1,64 @@
+---
+title: O administrador B2B do Adobe Commerce 2.4.0 não pode adicionar o produto configurável à cotação
+description: Este artigo fala sobre um problema conhecido no Administrador do Commerce ao gerenciar uma Cotação B2B. Não é possível adicionar um produto configurável por **SKU** à cotação. Ao clicar no botão **Adicionar à cotação**, a página de edição **Cotação** fica travada e você não pode configurar o produto e salvar as alterações. Esse problema também ocorre no Administrador ao adicionar um produto por **SKU** a um pedido ou adicionar um produto por **SKU** na **Finalização avançada** (**Admin** &gt; **Clientes** &gt; **Todos os clientes** &gt; **Edição do cliente** &gt; **Gerenciar carrinho de compras**). Esse problema será resolvido em um patch para o Adobe Commerce 2.4.1.
+exl-id: 73f7231b-b496-4250-b9e2-29427c772d56
+feature: Admin Workspace, B2B, Catalog Management, Configuration, Products, Quotes
+role: Developer
+source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+workflow-type: tm+mt
+source-wordcount: '555'
+ht-degree: 0%
+
+---
+
+# O administrador B2B do Adobe Commerce 2.4.0 não pode adicionar o produto configurável à cotação
+
+Este artigo fala sobre um problema conhecido no Administrador do Commerce ao gerenciar uma Cotação B2B. Não é possível adicionar um produto configurável ao **SKU** à citação. Ao clicar no link **Adicionar à Cotação** botão, o botão **Aspas** a página de edição está travando e não é possível configurar o produto e salvar as alterações. Esse problema também ocorre no Administrador ao adicionar um produto do **SKU** a um pedido ou adicionando um produto por **SKU** in **Check-out avançado** (**Admin** > **Clientes** > **Todos os Clientes** > **Edição de cliente** > **Gerenciar carrinho de compras**). Esse problema será resolvido em um patch para o Adobe Commerce 2.4.1.
+
+## Produtos e versões afetados
+
+* Adobe Commerce no local 2.4.0
+* Adobe Commerce na infraestrutura em nuvem 2.4.0
+
+## Problema
+
+<u>Pré-condições</u>
+
+* O Adobe Commerce 2.4.0 está instalado.
+* B2B está instalado.
+* Definir recursos B2B para **Ativar empresa =**  *Sim* , **Habilitar Catálogo Compartilhado =**  *Não* , e **Ativar Cotação B2B =**  *Sim*.
+* Crie uma conta de cliente.
+* Crie uma conta da empresa com o cliente criado anteriormente como o administrador da empresa.
+* Criar um produto simples (Exemplo: nome e **SKU** = TEST SIMPLE 1) que não está atribuído a **Padrão (Geral)**.
+* Faça com que o administrador da empresa solicite uma cotação usando o produto simples criado acima (Exemplo: TESTE SIMPLES 1).
+
+<u>Etapas a serem reproduzidas</u>
+
+1. Vá para o painel Administrador do Commerce.
+1. Ir para **Vendas > Cotações**.
+1. Abra o **Aspas**.
+1. Clique em **Adicionar produto por SKU** botão.
+1. Insira o **SKU** de outro produto (exemplo: TEST SIMPLE 2) na **Inserir SKU** campo de entrada.
+1. Insira alguma quantidade válida na **Qtd** campo de entrada.
+1. Clique em **Adicionar à Cotação** botão.
+
+<u>Resultados esperados</u>
+
+* A variável **Produtos não adicionados à cotação** grade, contendo o nome e **SKU** do produto criado, será exibido conforme esperado.
+* Após a configuração do produto, o administrador pode adicioná-lo à **Aspas** clicando no link **Adicionar Produtos à Cotação** conforme esperado.
+
+<u>Resultados reais</u>
+
+* A variável **Produtos não adicionados à cotação** grade, contendo o nome e **SKU** do produto criado, não aparecerá.
+* A variável **Aspas** a página está travando o carregamento.
+
+## Recomendação
+
+Atualmente, não há solução alternativa para esse problema com a edição da Cotação B2B, mas para o gerenciamento de Pedidos e do Carrinho de compras, é possível selecionar produtos da **Lista de produtos** em vez de adicioná-los por **SKU**. Um patch para resolver o problema estará disponível para o Adobe Commerce 2.4.1, cujo lançamento está programado para o quarto trimestre de 2020.
+
+## Leitura relacionada
+
+* [Problema conhecido do Adobe Commerce 2.4.0: a atualização das Atividades do cliente não funciona](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md)
+* [Problema conhecido do Adobe Commerce 2.4.0: exibição de dados de mensagens brutas na loja](/help/troubleshooting/storefront/magento-2-4-0-issue-storefront-raw-message-data-display.md)
+* [Problema conhecido do Adobe Commerce 2.4.0: as taxas de imposto de exportação não funcionam](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
+* [Problema conhecido do Adobe Commerce 2.4.0: erros de exibição de pedidos](/help/troubleshooting/storefront/magento-2-4-0-known-issue-orders-display-error.md)

@@ -1,0 +1,32 @@
+---
+title: Erro "O aplicativo atualizador não está disponível"
+description: Este artigo fala sobre a solução para o problema "O aplicativo atualizador não está disponível" que você pode enfrentar ao tentar atualizar/instalar o Adobe Commerce no local usando o Assistente de configuração da Web.
+exl-id: 85e55ed8-0bc9-4378-b722-46be98ce2638
+feature: Configuration
+role: Developer
+source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+workflow-type: tm+mt
+source-wordcount: '125'
+ht-degree: 0%
+
+---
+
+# Erro &quot;O aplicativo atualizador não está disponível&quot;
+
+Este artigo fala sobre a solução para o problema &quot;O aplicativo atualizador não está disponível&quot; que você pode enfrentar ao tentar atualizar/instalar o Adobe Commerce no local usando o Assistente de configuração da Web.
+
+## Problema
+
+A seguinte mensagem é exibida na verificação de preparação:
+
+![Screen_Shot_2019-08-29_at_1.39.12_PM.png](assets/Screen_Shot_2019-08-29_at_1.39.12_PM.png)
+
+## Produtos/versões afetadas
+
+* Adobe Commerce no local 2.2.x, 2.3.x
+* Magento Open Source 2.2.x, 2.3.x
+
+
+## Solução
+
+Para resolver esse problema, consulte se há uma `<magento_root>/update` diretório que contém arquivos e subdiretórios. Caso contrário, consulte [Configurar o atualizador](https://devdocs.magento.com/guides/v2.3/comp-mgr/updater/update-updater.html) na documentação do desenvolvedor.

@@ -1,0 +1,67 @@
+---
+title: Não é possível salvar *contact* como chave de URL
+description: Este artigo fornece uma solução alternativa para o problema quando você não consegue salvar *contato* como uma chave de URL (por exemplo, "/contact") para produtos ou páginas de CMS. Ao tentar salvar a chave do URL, você recebe um erro que indica que a chave do URL é um URL duplicado.
+exl-id: eb340813-aba5-43a4-af5d-8fb64c93e021
+feature: CMS, Marketing Tools, Storefront
+role: Admin
+source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+workflow-type: tm+mt
+source-wordcount: '327'
+ht-degree: 0%
+
+---
+
+# Não é possível salvar *contato* como a chave do URL
+
+Este artigo fornece uma solução alternativa para o problema que ocorre quando não é possível salvar *contato* como uma chave de URL (por exemplo, &quot;/contact&quot;) para produtos ou páginas CMS.
+
+## Produtos e versões afetados
+
+Adobe Commerce (todos os métodos de implantação) 2.4.x
+
+## Problema
+
+Não é possível salvar um produto ou uma página do CMS usando o termo *contato* como a chave do URL. Ao tentar salvar a chave do URL, você recebe um erro que indica que a chave do URL é um URL duplicado.
+
+<u>Etapas a serem reproduzidas</u>:
+
+Crie uma página CMS com *contato* como a chave do URL.
+
+<u>Resultado esperado</u>:
+
+A página é salva com *contato* como a chave do URL.
+
+<u>Resultado real</u>:
+
+Não é possível salvar a página. Você recebe o erro: *O valor especificado no campo Chave de URL geraria uma URL que já existe.*
+
+## Causa
+
+*Contato* é uma palavra reservada definida em `vendor/magento/module-contact/view/frontend/layout/contact_index_index.xml`.
+
+```xml
+<router id="standard">
+      <route id="contact" frontName="contact">
+          <module name="Magento_Contact" />
+      </route>
+  </router>
+```
+
+## Solução
+
+Não é possível usar o termo *contato* como sua chave de URL, no entanto, você pode usar o termo *contato* combinado com outra letra ou número (por exemplo, *contact1* e *contact2*). Embora o termo não tenha de ser *contact+\&lt;another number=&quot;&quot; or=&quot;&quot; letter=&quot;&quot;>*, o termo pode ser qualquer cadeia de caracteres, desde que o comprimento não exceda 255 caracteres.
+
+Execute as seguintes etapas:
+
+1. Faça logon no Commerce Admin.
+1. Ir para **[!UICONTROL Marketing]** > **[!UICONTROL SEO & Search]** > **[!UICONTROL URL Rewrites]**.
+1. Clique em **[!UICONTROL Add URL Rewrite]**.
+1. Selecionar *[!UICONTROL Custom]* no [!UICONTROL Create URL Rewrite] menu suspenso.
+   1. No [!UICONTROL Request Path], digite &quot;contato&quot;. Observe que [!UICONTROL Request Path] é o que um usuário insere no navegador e no [!UICONTROL Target Path] é para onde ele deve ser redirecionado.
+   1. No [!UICONTROL Target Path], digite a nova chave de URL (por exemplo, &quot;contact1&quot;).
+   1. Selecionar *[!UICONTROL No]* no [!UICONTROL Redirect] menu suspenso.
+
+## Leitura relacionada
+
+* [Substituições de URL](https://docs.magento.com/user-guide/marketing/url-rewrite.html) em nosso guia do usuário.
+* [Práticas recomendadas da SEO](https://docs.magento.com/user-guide/marketing/seo-best-practices.html) em nosso guia do usuário.

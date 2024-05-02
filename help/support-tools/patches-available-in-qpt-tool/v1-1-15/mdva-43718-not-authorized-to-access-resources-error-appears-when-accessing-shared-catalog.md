@@ -1,0 +1,74 @@
+---
+title: "MDVA-43718: o erro 'o consumidor não está autorizado a acessar recursos' aparece ao acessar o catálogo compartilhado"
+description: O patch MDVA-43718 resolve o problema em que o erro *consumidor não está autorizado a acessar %resources.* é exibido ao acessar um catálogo compartilhado de uma integração personalizada. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.15 está instalada. A ID do patch é MDVA-43718. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.5.
+exl-id: fa783ed4-906e-4ee6-b82a-cfe6db5ae89e
+feature: Catalog Management
+role: Admin
+source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0
+workflow-type: tm+mt
+source-wordcount: '427'
+ht-degree: 0%
+
+---
+
+# MDVA-43718: o erro &quot;o consumidor não está autorizado a acessar recursos&quot; aparece ao acessar o catálogo compartilhado
+
+O patch MDVA-43718 resolve o problema em que o erro *o consumidor não está autorizado a acessar %resources.* é exibido ao acessar um catálogo compartilhado de uma integração personalizada. Este patch está disponível quando a variável [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) O 1.1.15 está instalado. A ID do patch é MDVA-43718. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.5.
+
+## Produtos e versões afetados
+
+**O patch é criado para a versão do Adobe Commerce:**
+
+* Adobe Commerce (todos os métodos de implantação) 2.4.1
+
+**Compatível com as versões do Adobe Commerce:**
+
+* Adobe Commerce (todos os métodos de implantação) 2.3.0 - 2.4.4
+
+>[!NOTE]
+>
+>O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com sua versão do Adobe Commerce, atualize o `magento/quality-patches` pacote para a versão mais recente e verifique a compatibilidade no [[!DNL Quality Patches Tool]: Página Procurar patches](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+
+## Problema
+
+O seguinte erro é exibido ao acessar um catálogo compartilhado de uma integração personalizada: *O consumidor não está autorizado a acessar %resources*.
+
+<u>Etapas a serem reproduzidas</u>:
+
+1. Crie uma nova integração pelo Admin > **Sistema** > **Integração** > **Adicionar integração**.
+1. Adicione acesso aos seguintes recursos e ative a integração:
+
+   * Magento_SharedCatalog::list
+   * Magento_SharedCatalog::manage
+   * Magento_Catalog::catálogo
+
+1. Uso do acesso de integração: `rest/default/V1/sharedCatalog/1`
+
+<u>Resultados esperados</u>:
+
+Os detalhes do catálogo compartilhado são retornados.
+
+<u>Resultados reais</u>:
+
+O seguinte erro é retornado:
+
+```JSON
+"message": "The consumer isn't authorized to access %resources.",
+"resources": "Magento_SharedCatalog::sharedCatalog"
+```
+
+## Aplicar o patch
+
+Para aplicar patches individuais, use os links a seguir, dependendo do método de implantação:
+
+* Adobe Commerce ou Magento Open Source no local: [Guia de atualização de software > Aplicar patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) na documentação do desenvolvedor.
+* Adobe Commerce na infraestrutura em nuvem: [Upgrades e Patches > Aplicar Patches](https://devdocs.magento.com/cloud/project/project-patch.html) na documentação do desenvolvedor.
+
+## Leitura relacionada
+
+Para saber mais sobre a Ferramenta de correção de qualidade, consulte:
+
+* [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatendimento de correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de conhecimento de suporte.
+* [Verifique se o patch está disponível para o problema do Adobe Commerce usando a Ferramenta de patches de qualidade](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de conhecimento de suporte.
+
+Para obter informações sobre outros patches disponíveis no QPT, consulte [Patches disponíveis no QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) na documentação do desenvolvedor.
