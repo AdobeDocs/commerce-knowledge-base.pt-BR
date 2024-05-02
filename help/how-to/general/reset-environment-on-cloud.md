@@ -3,9 +3,9 @@ title: Redefinir o ambiente no Adobe Commerce na infraestrutura em nuvem
 description: Este artigo mostra diferentes cenários de reversão de um ambiente no Adobe Commerce na infraestrutura em nuvem.
 exl-id: e6b27838-ca1e-415f-a098-2aa2576e3f20
 feature: Best Practices, Build, Cloud, Console
-source-git-commit: ddde2385f1d94194b34e9ed51f6cbda55c916d90
+source-git-commit: f2aeb0262ddcb3d7e78028d08b9323db243fc96b
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -156,8 +156,8 @@ Se estiver executando o `setup:uninstall` falha com um erro e não pode ser conc
 
 1. [SSH para o seu ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
 1. Conectar ao BD MySQL: `mysql -h database.internal` (Para ambientes Pro, consulte: [Configurar o serviço MySQL](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/mysql.html)).
-1. Solte o BD \`main\` : `drop database main;`
-1. Criar um BD \`main\` vazio: `create database main;`
+1. Solte o `main` BD: `drop database main;`
+1. Criar um vazio `main` BD: `create database main;`
 1. Exclua os seguintes arquivos de configuração: `config.php` , `config.php` , `.bak,` , `env.php`, `env.php.bak`
 
 Depois de redefinir o BD, [criar um [!DNL git] enviar para o ambiente para acionar a reimplantação](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/examples/example-using-cli.html) e instale o Adobe Commerce em um banco de dados recém-criado. Ou [executar o comando redeploy](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html#environment-commands).
