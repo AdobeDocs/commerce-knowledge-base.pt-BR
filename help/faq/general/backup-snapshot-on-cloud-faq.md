@@ -3,9 +3,9 @@ title: "Backup (instantâneo) na nuvem: Perguntas frequentes"
 description: Este artigo aborda os conceitos básicos para fazer backup de seus ambientes com snapshots no Adobe Commerce na infraestrutura em nuvem.
 exl-id: 0077db74-3e7e-4c98-b215-7f6c089f49e8
 feature: Cloud, Iaas
-source-git-commit: 9491279d147eac9ed36ad236c227b08e7c6e0211
+source-git-commit: 0958a8923e27c1341f4b536812b26205685b2b81
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Este artigo aborda o backup de seus ambientes com instantâneos no Adobe Commerc
 
 ## Restaurar um instantâneo do ambiente
 
-Para restaurar um instantâneo existente (no ambiente compatível: Integração, Preparo, Produção no plano Starter ou Integração no plano Pro), siga as etapas em [Gerenciamento de backup: restaurar um backup manual](/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup) em nosso Guia de infraestrutura do Commerce na nuvem.
+Para restaurar um instantâneo existente (no ambiente compatível: Integração, Preparo, Produção no plano Starter ou Integração no plano Pro), siga as etapas em [Gerenciamento de backup: restaurar um backup manual](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup) em nosso Guia de infraestrutura do Commerce na nuvem.
 
 ## Backup do banco de dados (BD)
 
