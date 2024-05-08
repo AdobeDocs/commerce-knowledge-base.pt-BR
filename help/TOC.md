@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: cdfcfbb1c6b91eb06bb028179676d022a1e27000
+source-git-commit: 76be98e46941bc6a7857aba8e95c8415ce3fc978
 workflow-type: tm+mt
-source-wordcount: '11006'
+source-wordcount: '11017'
 ht-degree: 0%
 
 ---
@@ -1110,6 +1110,7 @@ ht-degree: 0%
       * [Erros de implantação ao confirmar arquivos incorretos](/help/troubleshooting/deployment/deployment-error-when-committing-incorrect-files.md)
       * [Erros de implantação em que patches não foram encontrados](/help/troubleshooting/deployment/deployment-errors-where-patches-not-found.md)
       * [Falha na implantação: não há comandos definidos no erro de namespace do &#39;cache&#39;](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
+      * [Falha na implantação com as chaves de acesso corretas em env:COMPOSER_AUTH ou auth.json](/help/troubleshooting/deployment/deployment-failed-with-correct-access-key-env-composer-auth.md)
    * Problemas conhecidos {#known-issues-patches-attached}
       * [[!DNL UPS] migração da integração do método de envio do [!DNL SOAP] para [!DNL RESTful API]](/help/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.md)
       * [[!DNL USPS] Hotfix de suporte do método de envio Ground Advantage para AC-9182](/help/troubleshooting/known-issues-patches-attached/usps-ground-advantage-shipping-method-support-hotfix-for-ac-9182.md)
