@@ -4,9 +4,9 @@ description: Este artigo fornece uma correção para o problema em que você ten
 exl-id: 8e3bb65c-ea75-4af4-ad4b-4d94ab219bbb
 feature: Cache, Data Import/Export, Products, Variables
 role: Developer
-source-git-commit: 465eb89cf5c5169b0b459ab7e6bdcbd418781093
+source-git-commit: d55702ab97f3770d0ec71322f6c24448f0169ad4
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -92,6 +92,10 @@ Para adicionar o processo como um trabalho cron opcionalmente, você deve adicio
 >[!NOTE]
 >
 >Se não conseguir encontrar o `.magento.env.yaml` arquivo para o seu ambiente e achar que ele foi excluído, é necessário criar um novo `.magento.env.yaml`. Inicialmente, pode estar em branco. Você pode adicionar informações lá, conforme necessário. Consulte os seguintes artigos: [Configurar variáveis de ambiente para implantação](/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) e [Variáveis de ambiente](/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-intro.html) na documentação do desenvolvedor.
+
+>[!TIP]
+>
+>[Arquivos YAML](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) fazem distinção entre maiúsculas e minúsculas e não permitem guias. Tenha cuidado para usar recuo consistente em todo o arquivo .magento.env.yaml ou sua configuração pode não funcionar como esperado. Os exemplos na documentação e no arquivo de amostra usam recuo de dois espaços. Use o comando ece-tools validate para verificar sua configuração.
 
 >[!NOTE]
 >
