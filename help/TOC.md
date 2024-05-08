@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 0cb8c7c2e09a5abb97d6c0ba4193826152606546
+source-git-commit: cdfcfbb1c6b91eb06bb028179676d022a1e27000
 workflow-type: tm+mt
-source-wordcount: '10999'
+source-wordcount: '11006'
 ht-degree: 0%
 
 ---
@@ -1253,6 +1253,7 @@ ht-degree: 0%
    * [Como alterar o endereço de email na conta magento.com quando o campo está esmaecido](/help/how-to/general/change-email-address-on-magento-account.md)
    * [Como remover o Magento Order Management](/help/how-to/general/how-to-remove-mom.md)
    * [Dicas técnicas para preparação para feriados no Commerce](/help/how-to/general/tech-tips-for-commerce-holiday-readiness.md)
+   * [Como ignorar o WAF para solicitações do GraphQL](/help/how-to/general/how-to-bypass-waf-for-graphql-requests.md)
 * Perguntas frequentes {#faq}
    * [Visão geral das perguntas frequentes](/help/faq/overview.md)
    * [Web Application Firewall (WAF) ativado por Fastly: the FAQ](/help/faq/general/web-application-firewall-waf-powered-by-fastly-the-faq.md)
