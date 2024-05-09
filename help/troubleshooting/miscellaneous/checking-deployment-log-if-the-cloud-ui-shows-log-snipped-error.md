@@ -1,19 +1,19 @@
 ---
 title: Verificação do log de implantação se a interface do usuário da nuvem tiver um erro de "log recortado"
-description: Este artigo fornece uma solução para o problema em que a interface do usuário do Adobe Commerce na infraestrutura em nuvem mostra a mensagem de erro *log recortado porque era muito longo* ao tentar exibir o log de implantação.
+description: Este artigo fornece uma solução para o problema em que a interface do usuário do Adobe Commerce na infraestrutura em nuvem mostra a mensagem de erro *log recortado porque era muito longo* ao tentar exibir o log de implantação na interface do usuário do projeto em nuvem.
 exl-id: 04d28741-72c1-4722-be46-425fe136b9a6
 feature: Cloud, Deploy, Logs, Paas
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 71bec5b99063d771982f6dcab111b9e5a4aaec69
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
 
-# Verificação do log de implantação se a interface do usuário da nuvem tiver um erro de &quot;log recortado&quot;
+# Verificando o log de implantação se a interface da nuvem *log recortado* erro
 
-Este artigo fornece uma solução para o problema em que a interface do usuário do Adobe Commerce na infraestrutura em nuvem mostra a *log recortado porque era muito longo* mensagem de erro ao tentar exibir o log de implantação.
+Este artigo fornece uma solução para o problema em que a interface do usuário do Adobe Commerce na infraestrutura em nuvem mostra o *log recortado porque era muito longo* mensagem de erro ao tentar exibir o log de implantação na interface do usuário do projeto de nuvem. (Não se aplica ao [Console do Adobe Commerce Cloud](https://console.adobecommerce.com/).)
 
 ## Produtos afetados
 
@@ -21,7 +21,7 @@ Adobe Commerce na infraestrutura em nuvem (todas as versões compatíveis)
 
 ## Problema
 
-Ao tentar exibir o log de implantação, a interface do usuário do Adobe Commerce na infraestrutura em nuvem mostra a seguinte mensagem de erro: *log recortado porque era muito longo*.
+Ao tentar exibir o log de implantação na interface do usuário do projeto de nuvem, a interface do usuário do Adobe Commerce na infraestrutura em nuvem mostra a seguinte mensagem de erro: *log recortado porque era muito longo*.
 
 ## Etapas a serem reproduzidas
 
