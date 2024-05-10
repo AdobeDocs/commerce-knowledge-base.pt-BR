@@ -4,9 +4,9 @@ description: "Este artigo discute como resolver o erro de implantação com falh
 exl-id: 2f72d80a-05b2-4908-8fa8-61d06885ed07
 feature: Cloud, Deploy, Paas, Variables
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 9ca95444aa785191e4c8bf1603773f3430414797
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Alguns motivos para chaves não serem válidas são:
 Siga as etapas a seguir para resolver o problema com as chaves de autorização (consulte as seções abaixo para obter mais detalhes sobre cada etapa):
 
 1. Obter as chaves de autorização válidas (ignore se tiver certeza de que a chave é válida).
-1. Adicione o valor keys no `env:COMPOSER_AUTH` (ou verifique se o valor correto está lá) e verifique se as chaves são especificadas de forma consistente na variável e no `auth.json` arquivo na raiz do projeto.
+1. Adicione o valor keys no `env:COMPOSER_AUTH` (ou verifique se o valor correto está lá) e verifique se as chaves são especificadas de forma consistente na variável no nível do projeto e no nível do ambiente, bem como no `auth.json` arquivo (se existir) na raiz do projeto.
 1. Atualizar ou excluir `auth.json`, para ter um único local onde a chave é configurada, se os valores das chaves de autorização não forem especificados ou tiverem outro valor.
 
 ### 1. Obter chaves de autorização válidas
