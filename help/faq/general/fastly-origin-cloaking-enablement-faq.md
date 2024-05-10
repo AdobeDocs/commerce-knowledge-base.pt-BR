@@ -2,9 +2,9 @@
 title: "[!DNL Fastly] perguntas frequentes sobre a ativação de cloaking de origem"
 description: Estas Perguntas frequentes abordam perguntas comuns sobre [!DNL Fastly] ativação do cloaking de origem no Adobe Commerce (que foi totalmente implementada a partir de 2021).
 exl-id: d608abe7-7d64-44ce-bea1-34b201c29113
-source-git-commit: 348a1f6e455aff9ad7c562ea20c95f27c9ee0b86
+source-git-commit: 1021a1ab81481f92e850bd49330f1742fe9a21f2
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Esse recurso foi criado originalmente para beneficiar o Adobe Commerce na infrae
 
 ## Preciso solicitar a ativação do encobrimento de origem para meu projeto?
 
-Não. Esse recurso já deveria ter sido implementado em todos os projetos na nuvem, e qualquer projeto que tenha sido provisionado desde 2021 teria isso ativado por padrão. No entanto, você pode solicitar que o encobrimento de origem seja desativado para o seu projeto até [enviar uma solicitação de suporte](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
+Não. Esse recurso já deveria ter sido implementado em todos os projetos na nuvem, e qualquer projeto que tenha sido provisionado desde 2021 teria isso ativado por padrão.
 
 ## O cloaking de origem altera o endereço IP de saída?
 
@@ -37,8 +37,22 @@ Não, não tem.
 
 [!DNL Fastly] O não armazena chamadas de API em cache, portanto, o cliente deve estar preparado para a alteração. O cloaking de origem bloqueia somente solicitações que vão diretamente para a origem, como:
 
+* Produção
+
 ```php
 mywebsite.com.c.abcdefghijkl.ent.magento.cloud
+```
+
+* Estágios
+
+```php
+mcstaging2.mywebsite.com.c.abcdefghijkl.dev.ent.magento.cloud
+```
+
+* EstágiosX
+
+```php
+mcstagingX.mywebsite.com.c.abcdefghijkl.X.dev.ent.magento.cloud
 ```
 
 Neste exemplo, o cliente ainda poderá acessar a API se alterar o URL para ``mywebsite.com``:
