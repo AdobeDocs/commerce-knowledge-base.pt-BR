@@ -3,9 +3,9 @@ title: Guia do usuário da Central de ajuda do Adobe Commerce
 description: Saiba como enviar um tíquete de suporte para o Centro de ajuda da Adobe Commerce, fornecer acesso compartilhado às contas e navegar pela Base de conhecimento da Adobe Commerce.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: a2e68f63a53013b6f0b8bfa12838fafe2bb6e6c7
+source-git-commit: 4e8833d100b776ca3c66a96274cde2d68eb0fd10
 workflow-type: tm+mt
-source-wordcount: '3924'
+source-wordcount: '3993'
 ht-degree: 0%
 
 ---
@@ -231,6 +231,10 @@ Depois de receber acesso compartilhado do comerciante, é necessário executar a
 1. Faça logon no [Conta Magento no site magento.com](https://account.magento.com/).
 1. No **Trocar contas** no canto superior direito, selecione a conta de acesso compartilhado
 1. Clique no link **Suporte** no painel esquerdo. Isso garantirá que a Central de ajuda do Adobe Commerce seja configurada corretamente por meio da chamada SSO de Magento.com para a Central de ajuda do Adobe Commerce.
+
+Se você já tiver feito isso, verifique se recebeu *acesso compartilhado de mais de um comerciante* clicando no link [[!UICONTROL Shared with me] na sua conta](https://account.magento.com/grantor/manage/shared/):
+* Se somente um [!UICONTROL Share Name] está listado, ou seja, você só foi concedido por um comerciante, *você não verá um [!UICONTROL Organization] menu suspenso*.
+* Se houver vários [!UICONTROL Share Names], os direitos de suporte do comerciante podem ter expirado porque sua licença foi revogada anteriormente devido a problemas de pagamento.
 
 ### Acompanhe seus ingressos {#track-tickets}
 
