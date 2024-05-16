@@ -4,9 +4,9 @@ description: Durante a temporada de pico de vendas de feriados (aproximadamente 
 exl-id: 9d6910bf-30bc-4117-bf7f-a0316f9506b5
 feature: Cloud, Paas
 role: Admin
-source-git-commit: dfd3f788f42677b631ffb5b3153a1c79c2cc1ca3
+source-git-commit: 357e0acb1c849079ff0fe9f53fe386f60475c7f9
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Depois de concluir a estimativa recomendada, se sua equipe tiver identificado da
 
 **Visualizar o histórico dos uploads**
 
-Você pode visualizar o histórico dos redimensionamentos solicitados em seu [Portal de projetos (interface de integração)](https://devdocs.magento.com/cloud/onboarding/onboarding-tasks.html), em **Projeto** > **Serviços** > **Rastreamento de uso da CPU**.
+Você pode visualizar o histórico dos redimensionamentos solicitados solicitando as informações de seu **CSM (Customer Success Manager, Gerente de sucesso do cliente)**.
 As seguintes informações estão disponíveis para cada solicitação de redimensionamento:
 
 * **Data de início do tamanho**: data da solicitação de upsize.

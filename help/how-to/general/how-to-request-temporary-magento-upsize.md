@@ -3,9 +3,9 @@ title: Como solicitar o Adobe Commerce temporário no upsize da infraestrutura e
 description: Se sua organização estiver planejando um evento online em que você espera alto tráfego ou se você subitamente descobrir que seu site está passando por um evento de alto tráfego, poderá registrar um [Tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) para solicitar capacidade de nuvem adicional temporária para seu Adobe Commerce na loja de infraestrutura em nuvem.
 exl-id: 561e2bdd-718a-45c1-8b6c-a0e3a6c8ad04
 feature: Cloud, Iaas
-source-git-commit: a445bae7f013b29cb83fc96eb26dcbfd186a4de7
+source-git-commit: 357e0acb1c849079ff0fe9f53fe386f60475c7f9
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '898'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Enviar um [Tíquete de suporte no Centro de suporte da Adobe Commerce](/help/hel
 
 ## Visualizar o histórico dos uploads
 
-Você pode visualizar o histórico dos redimensionamentos solicitados em seu [Portal de projetos (interface de integração)](/docs/commerce-cloud-service/start/onboarding.html#cloud-project-portal-(onboarding-ui)), em **Projeto** > **Serviços** > **Rastreamento de uso da CPU**.
+Você pode visualizar o histórico dos redimensionamentos solicitados solicitando as informações de seu **CSM (Customer Success Manager, Gerente de sucesso do cliente)**.
 As seguintes informações estão disponíveis para cada solicitação de redimensionamento:
 
 * **Data de início do tamanho**: data da solicitação de upsize.
@@ -88,7 +88,7 @@ As seguintes informações estão disponíveis para cada solicitação de redime
 * Para obter insights, métodos e exemplos de como medir e melhorar o desempenho do site, consulte os seguintes artigos detalhados em nossa base de conhecimento de suporte:
    * [Cálculo de alocação de CPU para o Adobe Commerce na nuvem](/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-cpu-allocation-calculation.html)
    * [Verifique se o upsize das instâncias do host é necessário para o Adobe Commerce na nuvem](/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.html)
-   * [Verificar a configuração da CPU do host para o Adobe Commerce na nuvem](/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-hosts-cpu-configuration.html)
+   * [Verifique a configuração da CPU do host para o Adobe Commerce na nuvem](/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-hosts-cpu-configuration.html)
 * Para obter informações sobre como identificar interrupções, consulte [Identificar e medir paralisações do Adobe Commerce na nuvem](/docs/commerce-knowledge-base/kb/how-to/how-to-identify-outages.html) em nossa base de conhecimento de suporte.
 * Para obter informações sobre como melhorar o desempenho do site para evitar a necessidade de utilizar um aumento na capacidade, consulte estes artigos na documentação do desenvolvedor:
    * [Dimensionamento da imagem](/docs/commerce-admin/catalog/products/digital-assets/product-image-config.html#product-image-resizing)
