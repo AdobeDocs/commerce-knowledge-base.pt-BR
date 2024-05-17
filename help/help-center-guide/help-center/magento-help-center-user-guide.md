@@ -3,9 +3,9 @@ title: Guia do usuário da Central de ajuda do Adobe Commerce
 description: Saiba como enviar um tíquete de suporte para o Centro de ajuda da Adobe Commerce, fornecer acesso compartilhado às contas e navegar pela Base de conhecimento da Adobe Commerce.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 4e8833d100b776ca3c66a96274cde2d68eb0fd10
+source-git-commit: 86810427e8f902dc184b377257c8e86dd28f38f6
 workflow-type: tm+mt
-source-wordcount: '3993'
+source-wordcount: '3992'
 ht-degree: 0%
 
 ---
@@ -574,7 +574,7 @@ No entanto, após revogar as permissões desses usuários do Acesso compartilhad
 1. Localize o usuário do qual revogar o acesso compartilhado e clique em **[!UICONTROL Edit]** na linha do usuário (*[!UICONTROL Actions]* coluna).
 1. Desmarque todos os recursos em *[!UICONTROL Grant Account Permissions]*.
 
-![imagem](https://git.corp.adobe.com/storage/user/38345/files/2d42fa60-559f-4697-a3cf-287c7e765405)
+![grant-account-permissions-image](assets/help-center-user-guide-grant-account-permissions-image.png){width="800"}
 
 Para obter mais informações, consulte o [Gerenciar acesso do usuário](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#manage-users-from-the-project-web-interface) documentação em nosso Guia de infraestrutura do Commerce na nuvem.
 
