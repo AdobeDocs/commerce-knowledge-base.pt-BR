@@ -4,16 +4,18 @@ description: Este artigo fornece uma solução para o Adobe Commerce em emails d
 exl-id: b2535f66-8aec-4ddf-9a69-60879a0a1939
 feature: Cloud, Communications, Paas
 role: Developer
-source-git-commit: 075f295c5b600fcca9fbecc5aad20b0640d900f9
+source-git-commit: 0017d43e221ef3023630f714c34aa65b368e214f
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
 
 # Ex-membros da equipe recebem emails de notificação na nuvem do Adobe Commerce
 
-Este artigo fornece uma solução para o local em que os membros da equipe que não estão mais associados ao seu projeto continuarão a receber notificações.
+Este artigo fornece uma solução para remover usuários da lista de destinatários de emails de notificação que são:
+* Ex-membros da equipe que não estão mais associados ao seu projeto.
+* Membros atuais da equipe que não devem receber as notificações.
 
 ## Problema
 
