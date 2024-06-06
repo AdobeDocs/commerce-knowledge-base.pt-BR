@@ -3,9 +3,9 @@ title: Guia do usuário da Central de ajuda do Adobe Commerce
 description: Saiba como enviar um tíquete de suporte para o Centro de ajuda da Adobe Commerce, fornecer acesso compartilhado às contas e navegar pela Base de conhecimento da Adobe Commerce.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 86810427e8f902dc184b377257c8e86dd28f38f6
+source-git-commit: 751a315303be3d6435f4064cdd3fb28a0c811155
 workflow-type: tm+mt
-source-wordcount: '3992'
+source-wordcount: '3986'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,16 @@ Para enviar um novo tíquete de suporte usando a página inicial da Central de a
 1. Preencha os campos.
 1. Clique em **Enviar**.
 
-Você **deve fazer logon** à Central de ajuda usando sua conta Magento para enviar um tíquete de suporte. Até você estar conectado, [o **Enviar um tíquete** O botão não será exibido](#no-submit-link).
+Você *deve ter* Crie uma conta no https://account.adobe.com e no https://account.magento.com e faça logon na Central de ajuda usando sua conta do Adobe Commerce para enviar um tíquete de suporte. Até você estar conectado, [o **Enviar um tíquete** O botão não será exibido](#no-submit-link).
+
+>[!NOTE]
+>
+>Se você já tiver uma conta em https://account.magento.com, mas não conseguir fazer logon, talvez não tenha se registrado para uma conta em https://account.adobe.com, que é obrigatório a partir de agosto de 2022.
+>
+>Para resolver isso:
+>1. Crie uma conta em https://account.adobe.com usando o mesmo endereço de email em sua ID MAG.
+>1. Acesse https://account.magento.com para vincular seu Adobe ID com a ID MAG.
+
 
 #### Página da conta do Magento {#submit-ticket-magento-account-page}
 
@@ -182,7 +191,7 @@ Se tiver problemas ao fazer logon em sua conta ou acreditar que o Acesso compart
 
 >[!NOTE]
 >
->Não envie um email caso você consiga enviar um tíquete, mas tenha um problema ao acessar seu projeto na nuvem. Envie o tíquete para esse problema pelos canais regulares.
+>Se você tiver um problema com o acesso ao seu projeto na nuvem, envie o tíquete para esse problema por meio dos canais regulares. Não envie um email se você puder enviar um tíquete.
 
 ### Erro &quot;Verifique seu endereço de email&quot; na página da conta do Magento {#verify-email-address}
 
@@ -192,13 +201,8 @@ Você não poderá enviar um tíquete de suporte se receber o *Verifique seu end
 
 A solução é validar seu endereço de email:
 
-1. Clique no link **Validar email** abaixo do campo E-mail no campo [Editar informações da conta](https://account.magento.com/customer/account/edit/) semelhante à página abaixo.
-
-   ![Validate_Email_Solution](assets/Validate_Email_Solution.png){width="800"}
-
-1. Clicar no **Validar email** O botão enviará um email para o endereço de email registrado nessa conta do Magento com um link para validar o endereço de email.
-1. Clique no link de validação de email para validar seu email e resolver esse problema.
-1. Se você não receber um email com um link de validação, envie um email para [Problemas de logon na Central de ajuda](mailto:grp-magento-helpcenterloginissues@adobe.com) e indique que não é possível validar seu endereço de email.
+1. Faça logon em https://account.adobe.com e solicite uma senha, se necessário.
+1. Verifique sua conta Adobe.
 
 >[!NOTE]
 >
