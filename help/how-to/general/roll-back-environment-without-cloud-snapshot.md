@@ -3,7 +3,7 @@ title: Reverter ambiente sem instantâneo da nuvem
 description: Este artigo mostra duas soluções para reverter um ambiente sem ter um instantâneo do seu ambiente no Adobe Commerce na infraestrutura em nuvem.
 exl-id: 834d13a7-3b1a-460c-9ed0-9d560105f436
 feature: Build, Cloud, Console
-source-git-commit: f3c976bd44dbc47bd5cc8076f1679d56910cfaf3
+source-git-commit: 5347e8714ef1374440f5d246100a0221e4b189fc
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 0%
@@ -44,13 +44,13 @@ Leia as etapas detalhadas abaixo:
 
 Precisamos desabilitar o Gerenciamento de Configurações para que ele não aplique automaticamente as definições de configuração anteriores durante a implantação.
 
-Para desativar o Gerenciamento de configurações, verifique se `/app/etc/` o diretório não contém o `config.php` (para Adobe Commerce 2.2.x) ou `config.local.php` (para Adobe Commerce 2.1.x).
+Para desativar o Gerenciamento de configurações, verifique se `/app/etc/` o diretório não contém o `config.php` (para Adobe Commerce 2.4.x) ou `config.local.php` (para Adobe Commerce 2.1.x).
 
 Para remover o arquivo de configuração, siga estas etapas:
 
 1. [SSH para o seu ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
 1. Remova o arquivo de configuração:
-   * Para o Adobe Commerce 2.2:
+   * Para o Adobe Commerce 2.4:
 
    ```php
     rm app/etc/config.php
