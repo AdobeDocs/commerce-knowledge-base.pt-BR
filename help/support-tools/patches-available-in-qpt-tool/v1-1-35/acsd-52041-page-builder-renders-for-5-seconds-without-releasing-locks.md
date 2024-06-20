@@ -1,19 +1,19 @@
 ---
 title: "ACSD-52041: a renderização do Page Builder não libera bloqueios"
-description: Aplique o patch ACSD-52041 para corrigir o problema do Adobe Commerce em que o Page Builder é renderizado por 5 segundos sem liberar bloqueios.
+description: Aplique o patch ACSD-52041 para corrigir o problema do Adobe Commerce em que o Page Builder é renderizado por cinco segundos sem liberar bloqueios.
 feature: Page Builder
 role: Admin, Developer
 exl-id: f2a1fd36-2098-46a7-aa42-3a5a0014adc9
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: fc5dc9fcf610cae6f8c0a334b4ef15029c462c66
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
 
 # ACSD-52041: a renderização do Page Builder não libera bloqueios
 
-O patch ACSD-52041 corrige o problema em que o Page Builder é renderizado por 5 segundos sem liberar bloqueios. Este patch está disponível quando a variável [!DNL Quality Patches Tool (QPT)] O 1.1.35 está instalado. A ID do patch é ACSD-52041. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.7.
+O patch ACSD-52041 corrige o problema em que o Page Builder é renderizado por cinco segundos sem liberar bloqueios. Este patch está disponível quando a variável [!DNL Quality Patches Tool (QPT)] O 1.1.48 está instalado. A ID do patch é ACSD-52041-v2. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.7.
 
 ## Produtos e versões afetados
 
@@ -23,7 +23,7 @@ O patch ACSD-52041 corrige o problema em que o Page Builder é renderizado por 5
 
 **Compatível com as versões do Adobe Commerce:**
 
-* Adobe Commerce (todos os métodos de implantação) 2.4.4 - 2.4.6-p1
+* Adobe Commerce (todos os métodos de implantação) 2.4.4 - 2.4.4-p8, 2.4.5 - 2.4.5-p7, 2.4.6 - 2.4.6-p6
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ O patch ACSD-52041 corrige o problema em que o Page Builder é renderizado por 5
 
 ## Problema
 
-O Page Builder é renderizado por 5 segundos sem liberar bloqueios.
+O Page Builder é renderizado por cinco segundos sem liberar bloqueios.
 
 <u>Etapas a serem reproduzidas</u>:
 
