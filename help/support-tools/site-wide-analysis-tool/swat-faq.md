@@ -4,9 +4,9 @@ description: Saiba mais sobre o [!DNL Site-Wide Analysis Tool], uma ferramenta d
 exl-id: 7c843d55-9e2c-4b18-8859-0ebad0ae28cf
 feature: Best Practices, Saas, Support, Tools and External Services
 role: Admin
-source-git-commit: 4e327654279095f6523a7cbec77bd2dca57b2034
+source-git-commit: 580ad148cd4346868cd9892a1ae9a4d85f73edce
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -58,3 +58,7 @@ Todos os clientes, independentemente do [!DNL Site-Wide Analysis Tool] Índice d
 ## Como os relatórios são entregues?
 
 [!DNL Site-Wide Analysis Tool] os relatórios são entregues automaticamente por meio do sistema de tíquetes de suporte da Adobe Commerce, mensal ou trimestralmente. [!DNL Site-Wide Analysis Tool] os relatórios também podem ser gerados manualmente a partir do [!DNL Site-Wide Analysis Tool] Painel e salvos em sua área de trabalho. Esses [!DNL Site-Wide Analysis Tool] Os relatórios podem ser enviados por email como anexos.
+
+>[!NOTE]
+>
+>Depois de aplicar uma recomendação, a geração manual de um relatório não atualiza as recomendações. Pode levar alguns dias para que ele seja removido da [!DNL Site-Wide Analysis Tool Dashboard].
