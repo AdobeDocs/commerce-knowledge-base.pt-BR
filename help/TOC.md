@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 449e37e140e7df13be8d59a61a33c6298cb65f53
+source-git-commit: 366e27875cd3a764d99d62997336c11adafcb623
 workflow-type: tm+mt
-source-wordcount: '11040'
+source-wordcount: '11052'
 ht-degree: 0%
 
 ---
@@ -1066,7 +1066,7 @@ ht-degree: 0%
       * [Problemas conhecidos que afetam a instalação do xdebug](/help/troubleshooting/miscellaneous/known-issues-that-affect-installation.md)
       * [Não é possível fazer logon no suporte da Adobe Commerce ou na conta da nuvem](/help/troubleshooting/miscellaneous/unable-to-log-in-to-support-or-cloud-project.md)
       * [Dependências de componentes em conflito](/help/troubleshooting/miscellaneous/conflicting-component-dependencies.md)
-      * [Políticas do Serviço de Inteligência da Adobe Commerce](/help/troubleshooting/miscellaneous/mbi-service-policies.md)
+      * [Políticas de serviço do Adobe Commerce Intelligence](/help/troubleshooting/miscellaneous/mbi-service-policies.md)
       * [Novos ambientes colocados em produção quando enviados do Git](/help/troubleshooting/miscellaneous/when-pushed-from-git-environments-placed-under-production-on-magento-cloud.md)
       * [Erro ao fazer logon no Commerce Admin](/help/troubleshooting/miscellaneous/error-after-logging-in-to-the-magento-admin.md)
       * [O sistema Magento Order Management (OMS) para Adobe Commerce atinge o tempo limite](/help/troubleshooting/miscellaneous/mom-times-out-when-trying-to-connect-to-a-local-environment.md)
@@ -1113,6 +1113,7 @@ ht-degree: 0%
       * [Falha na implantação: não há comandos definidos no erro de namespace do &#39;cache&#39;](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
       * [Falha na implantação com as chaves de acesso corretas em env:COMPOSER_AUTH ou auth.json](/help/troubleshooting/deployment/deployment-failed-with-correct-access-key-env-composer-auth.md)
    * Problemas conhecidos {#known-issues-patches-attached}
+      * [Atualização de segurança disponível para o Adobe Commerce - [!DNL APSB24-40] Revisado para incluir correção isolada para [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-40-revised-to-include-isolated-patch-for-cve-2024-34102.md)
       * [[!DNL UPS] migração da integração do método de envio do [!DNL SOAP] para [!DNL RESTful API]](/help/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.md)
       * [[!DNL USPS] Hotfix de suporte do método de envio Ground Advantage para AC-9182](/help/troubleshooting/known-issues-patches-attached/usps-ground-advantage-shipping-method-support-hotfix-for-ac-9182.md)
       * [Adobe Commerce 2.4.3-p2 - Hotfix de segurança 2.4.5 para CVE-2022-35698](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-3-p2-2-4-5-security-hotfix-for-cve-2022-35698.md)
@@ -1165,7 +1166,7 @@ ht-degree: 0%
       * [Ordem de inserção de erros do Adobe Commerce 2.4.6 no painel Admin](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-6-error-placing-order-from-admin-panel.md)
       * [[!UICONTROL salesRule] problemas de rótulo ao atualizar de versões &lt; 2.4.5](/help/troubleshooting/known-issues-patches-attached/salesrule-label-issues-when-upgrade-from-versions-under-2-4-5.md)
       * [[!DNL JQuery UI] vulnerabilidade de segurança [!DNL CVE-2022-31160] correção para versões 2.4.4, 2.4.5 e 2.4.6](/help/troubleshooting/known-issues-patches-attached/jquery-cve-2022-31160-fix-2-4-4-2-4-5-2-4-6.md)
-      * [[!DNL FedEx] migração da integração do método de envio de SOAP para RESTful API](/help/troubleshooting/known-issues-patches-attached/fedex-shipping-method-integration-migration-soap-restful-api.md)
+      * [[!DNL FedEx] migração da integração do método de envio do SOAP para a API RESTful](/help/troubleshooting/known-issues-patches-attached/fedex-shipping-method-integration-migration-soap-restful-api.md)
    * Elasticsearch {#elasticsearch}
       * [Retornando para [!DNL Elasticsearch7] quando o mecanismo de pesquisa estiver definido como [!DNL Opensearch]](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
       * [Problemas de Elasticsearch após a atualização da infraestrutura em nuvem do Adobe Commerce 2.3.1+](/help/troubleshooting/elasticsearch/elasticsearch-issues-after-magento-commerce-cloud-2-3-1-upgrade.md)
@@ -1187,7 +1188,7 @@ ht-degree: 0%
    * [Como obter e aplicar patches de segurança](/help/how-to/general/how-to-obtain-and-apply-security-patches.md)
    * [Lista de verificação para configurar um novo [!DNL domain]](/help/how-to/general/checklist-for-setting-up-a-new-domain.md)
    * [Restaurar um instantâneo do banco de dados de preparo ou produção](/help/how-to/general/restore-a-db-snapshot-from-staging-or-production.md)
-   * [Adobe Commerce Intelligence Essentials: atualizar método de pagamento ou cancelar assinatura](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)
+   * [Adobe Commerce Intelligence Essentials: atualizar a forma de pagamento ou cancelar a assinatura](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)
    * [Vídeo de treinamento de inteligência do Adobe commerce: Report Builder SQL](/help/how-to/general/mbi-training-video-sql-report-builder.md)
    * [Definir o TTL de cache para imagens e outros conteúdos estáticos](/help/how-to/general/set-cache-ttl-for-images-and-other-static-content.md)
    * [Fornecer desconto apenas para a primeira compra (sem cupons)](/help/how-to/general/provide-discount-for-first-purchase-only-no-coupons.md)
@@ -1216,7 +1217,7 @@ ht-degree: 0%
    * [Alocar mais espaço para o MySQL no Adobe Commerce na nuvem](/help/how-to/general/allocate-more-space-for-mysql-in-magento-commerce-cloud.md)
    * [Alterar ID de incremento de uma entidade do BD (pedido, fatura, aviso de crédito etc.) em uma loja específica](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)
    * [Configurar o Fastly para o plano inicial na Nuvem](/help/how-to/general/set-up-fastly-for-starter-plan-on-cloud.md)
-   * [Vídeo de treinamento de inteligência do Adobe Commerce: Report Builder de coorte](/help/how-to/general/mbi-training-video-cohort-report-builder.md)
+   * [Vídeo de treinamento do Adobe Commerce Intelligence: Report Builder de coorte](/help/how-to/general/mbi-training-video-cohort-report-builder.md)
    * [Atualização do MariaDB 10.0 para 10.2 para Adobe Commerce na nuvem](/help/how-to/general/upgrade-mariadb-10-0-to-10-2-for-magento-commerce-cloud.md)
    * [Redefinir o ambiente no Adobe Commerce na infraestrutura em nuvem](/help/how-to/general/reset-environment-on-cloud.md)
    * [MBI: Reautenticação de integrações](/help/how-to/general/mbi-reauthenticating-integrations.md)
@@ -1224,7 +1225,7 @@ ht-degree: 0%
    * [Locais de registro (diretórios) para plano Pro: integração, preparo, produção](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)
    * [Adobe Commerce na nuvem: verifique se o upsize das instâncias do host é necessário](/help/how-to/general/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.md)
    * [Bootstrap Adobe Commerce 2 em um script de sandbox](/help/how-to/general/bootstrap-magento-2-in-a-sandbox-script.md)
-   * [Vídeo de Treinamento do Adobe Commerce Intelligence: Conjuntos de filtros](/help/how-to/general/mbi-training-video-filter-sets.md)
+   * [Vídeo de treinamento do Adobe Commerce Intelligence: conjuntos de filtros](/help/how-to/general/mbi-training-video-filter-sets.md)
    * [Como criar o perfil de consultas do banco de dados no Adobe Commerce na infraestrutura em nuvem](/help/how-to/general/how-to-profile-database-queries-on-cloud.md)
    * [Bloquear tráfego mal-intencionado para o Adobe Commerce no nível Fastly](/help/how-to/general/block-malicious-traffic-for-magento-commerce-on-fastly-level.md)
    * [Criar um patch para a instalação do Adobe Commerce Composer a partir de uma confirmação do GitHub](/help/how-to/general/create-a-patch-for-a-magento-2-composer-installation-from-a-github-commit.md)
@@ -1238,7 +1239,7 @@ ht-degree: 0%
    * [MBI: Criação e edição de colunas calculadas avançadas](/help/how-to/general/mbi-creating-and-editing-advanced-calculated-columns.md)
    * [Verificar limite de espaço em disco para o Adobe Commerce na infraestrutura em nuvem](/help/how-to/general/check-disk-space-limit-for-magento-commerce-cloud.md)
    * [Certificados SSL (TLS) para Adobe Commerce na infraestrutura em nuvem](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md)
-   * [Não é possível acessar a versão Beta mais recente](/help/how-to/general/cannot-access-the-latest-beta-version.md)
+   * [Não é possível acessar a versão mais recente do Beta](/help/how-to/general/cannot-access-the-latest-beta-version.md)
    * [Alternar o modo de Aplicativo](/help/how-to/general/switch-the-magento-mode.md)
    * [Como fazer logon na conta do Fastly fornecida com o Adobe Commerce na infraestrutura em nuvem](/help/how-to/general/accessing-the-fastly-account-provided-with-adobe-commerce-for-cloud.md)
    * [Exibir número do relatório de erros do Adobe Commerce em vez do erro Fastly 503](/help/how-to/general/display-magento-error-report-number-instead-of-fastly-503-error-on-cloud.md)
