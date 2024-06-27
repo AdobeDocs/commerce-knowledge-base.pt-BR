@@ -2,9 +2,9 @@
 title: '[!DNL Admin] o login não está funcionando - o tamanho máximo permitido da sessão foi excedido'
 description: Resolva o problema ao tentar fazer logon na sua [!DNL Admin] O painel e o formulário são atualizados e você não consegue fazer logon.
 exl-id: 12789df0-6130-4e60-a92a-68ed329bd7fd
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 8718148f6d9a40c9a71484a7fbc818a626e825e1
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,6 @@ Você pode definir como maior que *500000* dependendo do tamanho máximo existen
 
 ## Leitura relacionada
 
-* [Tamanho da sessão](/docs/commerce-admin/systems/security/security-session-management.html?lang=en#admin-sessions) no Guia de sistemas de administração.
-* [Modo de operação](/docs/commerce-operations/configuration-guide/cli/set-mode.html) no Guia de configuração.
-* [Conexões seguras](/docs/commerce-cloud-service/user-guide/develop/secure-connections.html) no Guia de infraestrutura do Commerce na nuvem.
+* [Tamanho da sessão](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#admin-sessions) no Guia de sistemas de administração.
+* [Modo de operação](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode) no Guia de configuração.
+* [Conexões seguras](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) no Guia de infraestrutura do Commerce na nuvem.

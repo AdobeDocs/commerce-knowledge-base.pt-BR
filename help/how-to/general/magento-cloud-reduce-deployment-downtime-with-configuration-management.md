@@ -3,7 +3,7 @@ title: Reduza o tempo de inatividade da implantação no Adobe Commerce na infra
 description: Para reduzir drasticamente o tempo de inatividade de manutenção e fornecer uma configuração eficiente da sua loja em todos os ambientes, a infraestrutura do Adobe Commerce na nuvem fornece o recurso **Gerenciamento de configuração**. Para implementações do Adobe Commerce na infraestrutura em nuvem 2.2.x e posteriores, esse recurso é compatível com conceitos e opções de Implantação de pipeline com etapas reduzidas.
 exl-id: fde3571c-d95c-4a9b-a024-3b29f9c491ab
 feature: Build, Cloud, Configuration, Deploy
-source-git-commit: f11c8944b83e294b61d9547aefc9203af344041d
+source-git-commit: 23d957ceac17f9989d14b215582304199d398545
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Os problemas dolorosos e demorados da implantação do armazenamento da Web incl
 
 * **Aplicar a mesma configuração em todos os ambientes.** Normalmente, você insere configurações manualmente ou por meio de atualizações complicadas do banco de dados. Com o Gerenciamento de configurações, você exporta configurações do banco de dados em um único arquivo para depois enviá-lo com seu código do ambiente de desenvolvimento local para Integração, Preparo e Produção.
 
-* **Tempo de inatividade do site ao implantar conteúdo estático.** Normalmente, o conteúdo estático é implantado durante o [fase de implantação](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html#deploy-phase). Isso pode levar até 30 minutos ou mais, o que não é aceitável para a empresa. O Gerenciamento de configurações move a implantação de conteúdo estático para o [fase de criação](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html?#build-phase), que não requer tempo de inatividade.
+* **Tempo de inatividade do site ao implantar conteúdo estático.** Normalmente, o conteúdo estático é implantado durante o [fase de implantação](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process#deploy-phase-deploy-phase). Isso pode levar até 30 minutos ou mais, o que não é aceitável para a empresa. O Gerenciamento de configurações move a implantação de conteúdo estático para o [fase de criação](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process#build-phase-build-phase), que não requer tempo de inatividade.
 
 ## Versões da tecnologia
 
@@ -34,7 +34,7 @@ Para encurtar a história, o processo de Gerenciamento de configurações (tamb�
 Isso oferece os seguintes benefícios:
 
 * **Configurações consistentes em todos os ambientes:** todas as configurações exportadas para o arquivo de configuração são bloqueadas (os campos correspondentes no Commerce Admin se tornam somente leitura), o que garante configurações consistentes à medida que você envia o arquivo por todos os ambientes.
-* **Tempo de inatividade reduzido:** a implantação do arquivo estático muda de [fase de implantação](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html#deploy-phase) (que exige que o site esteja no modo de Manutenção) para o [fase de criação](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html?#build-phase) (quando o site não estiver no modo de Manutenção e não será desativado se ocorrerem erros ou problemas).
+* **Tempo de inatividade reduzido:** a implantação do arquivo estático muda de [fase de implantação](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process#deploy-phase-deploy-phase) (que exige que o site esteja no modo de Manutenção) para o [fase de criação](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process#build-phase-build-phase) (quando o site não estiver no modo de Manutenção e não será desativado se ocorrerem erros ou problemas).
 * **Dados confidenciais protegidos:** com o Adobe Commerce na infraestrutura em nuvem 2.2 e posterior, o processo também exporta dados confidenciais (por exemplo, credenciais de gateway de pagamento) para o `env.php` arquivo. Esse arquivo só deve ser salvo no ambiente em que foi criado e não enviado com suas ramificações Git.
 
 É altamente recomendável aplicar a abordagem de Gerenciamento de configuração na sua implantação.
