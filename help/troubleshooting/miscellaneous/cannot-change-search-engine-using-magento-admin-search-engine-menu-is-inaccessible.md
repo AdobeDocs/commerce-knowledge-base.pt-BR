@@ -4,9 +4,9 @@ description: Este artigo fornece uma solução para alterar o Mecanismo de pesqu
 exl-id: 5b0f728c-6a8d-446d-9553-5abc3d01e516
 feature: Admin Workspace, Search, Variables
 role: Developer
-source-git-commit: e9f009cf4e072dcd9784693c10a4c16746af3cc5
+source-git-commit: 0ea7bbef7fec556f9a90151be9cf1077f5cfac45
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -41,13 +41,14 @@ Neste artigo:
 
 ## Alterar mecanismo de pesquisa usando o Administrador (etapas)
 
-1. Faça logon no Admin como Administrador.
-1. Na barra lateral Admin do lado esquerdo, clique em **Lojas**. Em seguida, em **Configurações**, escolha **Configuração**.
-1. No painel à esquerda, em **Catálogo,** escolher **Catálogo**.
-1. Expanda a **Pesquisa no catálogo** seção.    ![catalog_menu.png](assets/catalog_menu.png)
-1. Vá para a **Mecanismo de pesquisa** e remova a seleção do campo **Usar valor do sistema** caixa de seleção
-1. Clique em **Mecanismo de pesquisa** e selecione uma das opções disponíveis.    ![search_engine_menu.png](assets/search_engine_menu.png)
-1. Clique em **Salvar configuração** no canto superior direito da página.
+1. Faça logon no **[!UICONTROL Admin]** como Administrador.
+1. No lado esquerdo da janela **[!UICONTROL Admin]** clique em **[!UICONTROL Stores]**.
+1. Em **[!UICONTROL Settings]**, escolha **[!UICONTROL Configuration]**.
+1. Acesse o painel à esquerda em **[!UICONTROL Catalog],** e escolha **[!UICONTROL Catalog]**.
+1. Expanda a **[!UICONTROL Catalog Search]** seção.    ![catalog_menu.png](assets/catalog_menu.png)
+1. Vá para a **[!UICONTROL Search Engine]** e remova a seleção do campo **[!UICONTROL Use system value]** caixa de seleção
+1. Clique em **[!UICONTROL Search Engine]** e selecione uma das opções disponíveis conforme mostrado abaixo.    ![search_engine_menu.png](assets/search_engine_menu.png)
+1. Clique em **[!UICONTROL Save Config]** no canto superior direito da página.
 
 ## Problemas com o Adobe Commerce no local
 
@@ -65,10 +66,11 @@ O mecanismo de pesquisa é um conjunto de configurações globais no nível do a
 
 ### Solução: defina a exibição da loja para a configuração padrão
 
-1. Faça logon no Admin como Administrador.
-1. Na barra lateral Admin do lado esquerdo, clique em **Lojas**. Em seguida, em **Configurações**, escolha **Configuração**.
-1. No canto superior esquerdo, clique na guia **Exibição da loja** seletor e escolha *Configuração padrão*.
-1. Clique em **OK** na caixa de diálogo de confirmação para aprovar a alteração da exibição de loja.
+1. Faça logon no **[!UICONTROL Admin]** como Administrador.
+1. No lado esquerdo da janela **[!UICONTROL Admin]** clique em **[!UICONTROL Stores]**.
+1. Navegue até **[!UICONTROL Settings]** e escolha **[!UICONTROL Configuration]**.
+1. No canto superior esquerdo, clique na guia **[!UICONTROL Store View]** seletor e escolha **[!UICONTROL *Configuração padrão *]**.
+1. Clique em **[!UICONTROL OK]** na caixa de diálogo de confirmação para aprovar as alterações de exibição de loja.
 
 ![change_store_view.png](assets/change_store_view.png)
 
