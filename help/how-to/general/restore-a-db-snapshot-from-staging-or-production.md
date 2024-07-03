@@ -2,9 +2,9 @@
 title: Restaurar um instantâneo do banco de dados de preparo ou produção
 description: Este artigo mostra como restaurar um instantâneo do banco de dados de Preparo ou Produção na Adobe Commerce na infraestrutura em nuvem.
 exl-id: 1026a1c9-0ca0-4823-8c07-ec4ff532606a
-source-git-commit: b9e72ff8d541ad01788e5198e03abcb46a1bd11f
+source-git-commit: ad0ec2e6dc1d3e1023ad4ecda595b5c942716407
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -124,16 +124,22 @@ As etapas são:
 
 1. Digite o seguinte comando para importar o [!DNL snapshot]:
 
-   (Para [!DNL Production])
+   (Para importar o backup do banco de dados de [!DNL Production])
 
    ```sql
    zcat <cluster ID>.sql.gz | sed -e 's/DEFINER[ ]*=[ ]*[^*]*\*/\*/' | mysql -h 127.0.0.1 -p -u <db-user> <db-name>
    ```
 
-   (Para [!DNL Staging])
+   (Para importar o backup do banco de dados de [!DNL Staging])
 
    ```sql
    zcat <cluster ID_stg>.sql.gz | sed -e 's/DEFINER[ ]*=[ ]*[^*]*\*/\*/' | mysql -h 127.0.0.1 -p -u <db-user> <db-name>
+   ```
+
+   (Para importar um backup de banco de dados de qualquer outro ambiente)
+
+   ```sql
+   zcat <database-backup-name>.sql.gz | sed -e 's/DEFINER[ ]*=[ ]*[^*]*\*/\*/' | mysql -h 127.0.0.1 -p -u <db-user> <db-name>
    ```
 
 ## Leitura relacionada
