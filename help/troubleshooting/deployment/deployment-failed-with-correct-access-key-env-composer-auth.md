@@ -4,9 +4,9 @@ description: 'Este artigo fornece uma solução para o problema em que a implant
 feature: Deploy
 role: Admin
 exl-id: a18f4213-7381-4001-a5a0-3f8db4525469
-source-git-commit: 7804e7094fb05d1cce9747c8f96c3cfe6bc6171e
+source-git-commit: 9f9dc8374bb681398ed1c295ac15679553cfc74e
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,7 @@ Implantação bem-sucedida.
 >
 >Este é um exemplo de erro. Você pode receber um erro indicando um arquivo diferente (dependendo da versão do Adobe Commerce implantada).
 
-Você não implantou o com sucesso. Você vê um erro como *O arquivo &quot;https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip&quot; não pôde ser baixado (HTTP/1.1 404 Não encontrado)* no [log de implantação](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
-
+Você não implantou o com sucesso. Você vê um erro como *O arquivo &quot;https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip&quot; não pôde ser baixado (HTTP/1.1 404 Não encontrado)* no [log de implantação](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
 
 ### Causa
 
@@ -59,4 +58,4 @@ Para obter etapas, consulte [Níveis variáveis](https://experienceleague.adobe.
 ## Leitura relacionada
 
 * [O Adobe Commerce no repositório de nuvem não pôde ser acessado: erro 403 proibido ou 404 não encontrado ao implantar](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.html)
-* [Erro de implantação: erro 7 ao baixar ... porta 443: conexão recusada](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce)
+* [Erro de implantação: erro 7 ao baixar ... porta 443: conexão recusada](/help/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce.md)
