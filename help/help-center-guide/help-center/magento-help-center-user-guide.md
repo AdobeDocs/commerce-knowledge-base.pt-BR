@@ -3,7 +3,7 @@ title: Guia do usuário da Central de ajuda do Adobe Commerce
 description: Saiba como enviar um tíquete de suporte para o Centro de ajuda da Adobe Commerce, fornecer acesso compartilhado às contas e navegar pela Base de conhecimento da Adobe Commerce.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: bdef7c26141356727a225c0ea0a1f9a064d213db
+source-git-commit: 3e773131f6f44436fc533f74474efbe8597abb5f
 workflow-type: tm+mt
 source-wordcount: '4988'
 ht-degree: 0%
@@ -112,7 +112,7 @@ Depois de fazer logon, você pode enviar um caso de suporte usando a página ini
 
 Para enviar um novo caso de suporte usando a página inicial do Adobe Experience League, siga estas etapas:
 
->
+>[!NOTE]
 >
 >1. Se você pertencer a várias organizações, precisará selecionar a organização apropriada na lista suspensa.
 >1. Para enviar um caso, você deve ter direito a suporte. Caso não esteja, uma barra será exibida na parte superior da página informando que você não é um usuário com direito a suporte na organização.
@@ -276,6 +276,7 @@ Você *deve ter* Crie uma conta no https://account.adobe.com e no https://accoun
 >Se você já tiver uma conta em https://account.magento.com, mas não conseguir fazer logon, talvez não tenha se registrado para uma conta em https://account.adobe.com, que é obrigatório a partir de agosto de 2022.
 >
 >Para resolver isso:
+>
 >1. Crie uma conta em https://account.adobe.com usando o mesmo endereço de email em sua ID MAG.
 >1. Acesse https://account.magento.com para vincular seu Adobe ID com a ID MAG.
 
