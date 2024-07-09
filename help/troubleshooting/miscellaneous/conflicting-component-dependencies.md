@@ -4,9 +4,9 @@ description: Este artigo fornece uma solução para dependências de componentes
 exl-id: 782049c4-b6e1-4ead-a00f-80d2aa8475c9
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 8f0f7412e75e07a22e66236b88c095c698dbf23e
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -64,8 +64,8 @@ Dependências de componentes em conflito também podem ser causadas por módulos
 ## Adobe Commerce {#magento-commerce-magento-commerce-cloud}
 
 1. Entre em contato com o desenvolvedor da extensão para que ele possa ajudá-lo. Você pode encontrar as informações de contato na página da qual você comprou a extensão no Commerce Marketplace. Procure o **Contatar Vendedor** botão exibido no painel direito. Todos os desenvolvedores do Commerce devem fornecer um guia do usuário e de instalação quando publicarem uma extensão no Marketplace. Você pode encontrar ambos no lado direito da landing page.
-1. Se você não receber uma resposta do Vendedor em um período de tempo razoável, [informe o Commerce Marketplace](https://marketplacesupport.magento.com/hc/en-us) para que possamos lembrá-los de seus compromissos com o suporte ao cliente.
+1. Se você não receber uma resposta do Vendedor em um período de tempo razoável, [entre em contato com o Suporte do Marketplace](mailto:commercemarketplacesupport@adobe.com) para que possamos lembrá-los de seus compromissos com o suporte ao cliente.
 
 ## Magento Open Source {#opensource}
 
-Solicitar assistência em [nosso fórum principal](https://community.magento.com/) ou [entrar em contato com um parceiro da Adobe Commerce](https://magento.com/find-a-partner) que auxilia nos problemas de código aberto.
+Solicitar assistência em [nosso fórum principal](https://community.magento.com/) ou [entrar em contato com um parceiro da Adobe Commerce](https://magento.com/find-a-partner) que ajuda nos problemas do Open Source.
