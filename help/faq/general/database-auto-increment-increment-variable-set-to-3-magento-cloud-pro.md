@@ -23,13 +23,13 @@ A ID de incremento usada em clusters nem sempre é separada/incrementada por 3 d
 Cada um dos três servidores gerencia seu próprio espaço de ID, e o incremento que está sendo usado depende de qual é o servidor de banco de dados principal do MySQL (dependendo da carga relativa) - daí as lacunas variáveis.
 Se você usar SSH para cada nó e se conectar à instância do MySQL local em execução nesse nó usando a porta 3307 (em vez de usar proxy para o &quot;principal&quot; na porta padrão 3306), verá a seguinte figura:
 
-![auto_increment](assets/auto_increment_id.png)
+![incremento_automático](assets/auto_increment_id.png)
 
-Por exemplo, se o principal selecionado for o nó 1, em que `auto_increment_offset = 1`, a ID seria incrementada em 1. Em seguida, se um novo nó principal for selecionado posteriormente, por exemplo, nó 3, em que `auto_increment_offset = 3`, ele seria incrementado em 3.
+Por exemplo, se o principal selecionado for o nó 1, em que `auto_increment_offset = 1`, a ID será incrementada em 1. Em seguida, se um novo nó principal for selecionado posteriormente, por exemplo, nó 3, onde `auto_increment_offset = 3`, ele seria incrementado em 3.
 
 ## Links úteis
 
 Consulte na documentação do desenvolvedor:
 
 * [Nuvem para Adobe Commerce > Arquitetura Pro > Backup e recuperação de desastres](https://devdocs.magento.com/cloud/architecture/pro-architecture.html#backup-and-disaster-recovery)
-* [Cloud para Adobe Commerce > Instalar pré-requisitos: banco de dados](https://devdocs.magento.com/cloud/before/before-workspace-magento-prereqs.html#database)
+* [Nuvem para Adobe Commerce > Instalar pré-requisitos: banco de dados](https://devdocs.magento.com/cloud/before/before-workspace-magento-prereqs.html#database)

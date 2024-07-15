@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Erro 404 do Advanced Reporting na solução de banco de dados dividido
 
-Este artigo fornece um patch para usuários do Adobe Commerce 2.3.x com o [dividir solução de banco de dados](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master.html) que apresentam um erro 404 ao tentar usar o Relatórios avançados.
+Este artigo fornece um patch para usuários do Adobe Commerce 2.3.x com a [solução de banco de dados dividido](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master.html) que experimentam um erro 404 ao tentar usar o Relatórios Avançados.
 
 ## Produtos e versões afetados
 
@@ -25,7 +25,7 @@ O patch corrige o problema em que o nome de conexão errado é usado para coleta
 
 ## Solução
 
-Aplique o [correção](assets/MDVA-26831_EE_2.3.4_v1.composer.patch.zip) artigo.
+Aplique o [patch](assets/MDVA-26831_EE_2.3.4_v1.composer.patch.zip) fornecido neste artigo.
 
 ## Correção
 

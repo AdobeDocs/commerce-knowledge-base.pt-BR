@@ -17,17 +17,17 @@ Este artigo explica por que a conta de sandbox do PayPal para Serviços de pagam
 
 ## Produtos e versões afetados
 
-* [Payment Services](https://marketplace.magento.com/magento-payment-services.html) O agora é compatível com as versões 2.4.0 a 2.4.4 do Adobe Commerce.
+* [Os Serviços de Pagamento](https://marketplace.magento.com/magento-payment-services.html) agora são compatíveis com as versões 2.4.0 a 2.4.4 do Adobe Commerce.
 
 ## Problema
 
-Nosso [documentação de integração](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/onboard.html) O instrui você a se inscrever em uma conta do PayPal, fazer logon na conta de desenvolvedores do PayPal e criar uma conta de sandbox. Se você optar por criar uma nova conta durante a integração na janela pop-up de integração do PayPal, o PayPal não poderá verificar sua conta de sandbox e você não poderá concluir a integração.
+Nossa [documentação de integração](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/onboard.html) instrui você a se inscrever em uma conta do PayPal, fazer logon na conta de desenvolvedores do PayPal e criar uma conta de sandbox. Se você optar por criar uma nova conta durante a integração na janela pop-up de integração do PayPal, o PayPal não poderá verificar sua conta de sandbox e você não poderá concluir a integração.
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. Você [instalar Serviços de pagamento](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html) e [configurar os serviços da Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/connect.html#configure-commerce-services).
-1. Você navega até **Payment Services** em Admin e [iniciar integração de sandbox](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/onboard.html).
-1. No pop-up de integração do PayPal exibido, você cria uma nova conta Comercial (em vez de [fazer logon com uma conta de sandbox do PayPal criada anteriormente](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/sandbox.html#test-in-sandbox-environment) durante a integração.
+1. Você [instala Serviços de Pagamento](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html) e [configura os Serviços da Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/connect.html#configure-commerce-services).
+1. Você navega até **Serviços de pagamento** no Administrador e [inicia a integração da sandbox](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/onboard.html).
+1. Na janela pop-up de integração do PayPal exibida, você cria uma nova Conta comercial (em vez de [fazer logon com uma conta de sandbox do PayPal](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/sandbox.html#test-in-sandbox-environment) criada anteriormente) durante a integração.
 1. Você concluiu com êxito a integração do PayPal.
 1. Você verá uma notificação no Administrador de que seus pagamentos de sandbox estão pendentes e que você deve confirmar seu endereço de email no PayPal para concluir a integração.
 
@@ -39,6 +39,6 @@ O PayPal não poderá verificar sua conta de sandbox e você não poderá conclu
 
 ## Solução
 
-1. Uso de uma conta de sandbox criada no [Desenvolvedor do PayPal](https://developer.paypal.com/docs/api-basics/sandbox/accounts/#create-a-business-sandbox-account) Portal.
+1. Usando uma conta de sandbox criada no Portal [PayPal Developer](https://developer.paypal.com/docs/api-basics/sandbox/accounts/#create-a-business-sandbox-account).
 1. Clique em [redefinir sandbox](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/sandbox.html#test-in-sandbox-environment) e reinicie a integração da sandbox.
-1. [Entrar em contato com o suporte](mailto:payment-services-support@adobe.com) caso não consiga aliviar os problemas de sua conta para que possa retomar a integração e aceitar pagamentos.
+1. [Contate o suporte](mailto:payment-services-support@adobe.com) se não conseguir resolver seus problemas de conta para que você possa retomar a integração e aceitar pagamentos.

@@ -16,7 +16,7 @@ Este artigo fornece respostas rápidas a perguntas sobre como obter certificados
 
 ## Que certificado SSL/TLS o Adobe fornece?
 
-O Adobe fornece uma chave de [Vamos criptografar o certificado SSL/TLS](https://letsencrypt.org/) para veicular tráfego HTTPS seguro de [!DNL Fastly]. O Adobe fornece um certificado para cada ambiente de arquitetura do plano Adobe Commerce na infraestrutura em nuvem Pro, Preparo e Adobe Commerce na infraestrutura em nuvem Arquitetura do plano inicial para proteger todos os domínios nesse ambiente.
+O Adobe fornece um [Vamos criptografar o certificado SSL/TLS](https://letsencrypt.org/) validado pelo domínio para proteger o tráfego HTTPS de [!DNL Fastly]. O Adobe fornece um certificado para cada ambiente de arquitetura do plano Adobe Commerce na infraestrutura em nuvem Pro, Preparo e Adobe Commerce na infraestrutura em nuvem Arquitetura do plano inicial para proteger todos os domínios nesse ambiente.
 
 ## O que é coberto por um certificado?
 
@@ -26,10 +26,10 @@ Para os ambientes de arquitetura de plano inicial e Integração PaaS, haverá u
 
 ## Como adicionar um novo domínio para o certificado existente?
 
-Para adicionar o domínio ao serviço no [!DNL Fastly]:
+Para adicionar o domínio ao serviço em [!DNL Fastly]:
 
 1. Aponte seu domínio no DNS para prod.magentocloud.map.fastly.net e aguarde até 6 horas.
-1. [Enviar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) solicitar a adição desse domínio na configuração do Nginx (se não tiver feito isso antes).
+1. [Envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) solicitando a adição deste domínio na configuração do Nginx (se não tiver feito isso antes).
 
 ## Como solicitar um certificado?
 
@@ -39,18 +39,18 @@ Se você ainda não iniciou um site, pode ter recebido o CNAME do Desafio ACME d
 
 Caso 2
 
-Se o site já estiver no ar e/ou se você puder apontar os URLs que serão usados para o site no ar imediatamente, não será necessário solicitar um CNAME ACME. Depois de adicionar os URLs conforme necessário ao site da Adobe Commerce na infraestrutura de nuvem e apontar seu DNS para [!DNL Fastly], a validação de HTTP funcionará e criará seu certificado SSL pela primeira vez ou atualizará seu certificado com URLs adicionais.
+Se o site já estiver no ar e/ou se você puder apontar os URLs que serão usados para o site no ar imediatamente, não será necessário solicitar um CNAME ACME. Depois de adicionar as URLs conforme necessário ao site da infraestrutura na nuvem do Adobe Commerce e apontar seu DNS para [!DNL Fastly], a validação de HTTP funcionará e criará seu certificado SSL pela primeira vez ou atualizará seu certificado com URLs adicionais.
 
 ## Posso usar meu próprio certificado SSL/TLS?
 
-Você pode fornecer seu próprio certificado SSL/TLS em vez de usar o [Vamos criptografar o certificado](https://letsencrypt.org/) fornecido pela Adobe.
+Você pode fornecer seu próprio certificado SSL/TLS em vez de usar o [Vamos criptografar o certificado](https://letsencrypt.org/) fornecido pelo Adobe.
 
 No entanto, esse processo requer trabalho adicional para configurar e manter. Primeiro, você precisará gerar uma Solicitação de assinatura de certificado (CSR) para o nome de domínio do site (ou nome comum) e fornecê-la ao fornecedor de SSL para fornecer um certificado SSL.
 
-Depois de ter o certificado SSL, envie um [Tíquete de suporte do Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) ou trabalhe com seu CTA para adicionar certificados hospedados personalizados aos seus ambientes de nuvem.
+Depois de ter o certificado SSL, envie um [tíquete de Suporte da Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) ou trabalhe com seu CTA para adicionar certificados hospedados personalizados aos seus ambientes de nuvem.
 
 * Se os domínios não estiverem mais em uso, eles serão automaticamente removidos do nosso sistema e nenhuma outra ação será necessária.
-* Se você já tiver um certificado, faça upload dele usando um cliente SFTP (SSH File Transfer Protocol) para um local de arquivo inacessível para a Web no servidor e [enviar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) informando-os sobre o caminho do arquivo.
+* Se você já possui um certificado, carregue-o usando um cliente SFTP (SSH File Transfer Protocol) para um local de arquivo inacessível pela Web em seu servidor e [envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) para que eles saibam o caminho do arquivo.
 
 >[!WARNING]
 >
@@ -63,15 +63,15 @@ O nome do certificado SSL só importa para o URL principal, e é o nome de host 
 
 ## Que domínio será exibido no campo Nome Comum do certificado?
 
-O domínio exibido no certificado é apenas o primeiro domínio adicionado ao certificado TLS, ele preenche o **Nome comum** (**CN**) e os navegadores exibem esse nome primeiro. A variável **Nome alternativo do assunto** (**SAN**) contém todos os nomes DNS para o certificado TLS. Não há como alterar ou solicitar o Nome comum exibido.
+O domínio exibido no certificado é apenas o primeiro domínio adicionado ao certificado TLS, ele preenche o campo **Nome Comum** (**CN**) e os navegadores exibem esse nome primeiro. O campo **Nome Alternativo da Entidade** (**SAN**) contém todos os nomes DNS para o certificado TLS. Não há como alterar ou solicitar o Nome comum exibido.
 
 ## Posso usar certificados TLS curingas?
 
-Certificados TLS curinga só podem ser usados com seu certificado personalizado e não com certificados Let&#39;s Encrypt da Adobe Commerce. Como parte de nossa otimização de TLS, o Adobe está encerrando o suporte a certificados TLS curinga. Estamos identificando e entrando em contato com comerciantes que usam um certificado curinga com certificados Adobe Let&#39;s Encrypt e estão configurados na variável [!DNL Fastly] para o Adobe Commerce. Pedimos que esses certificados curingas sejam substituídos por domínios exatos para garantir a cobertura TLS. Para substituir um certificado TLS curinga, visite o [seção de domínio](https://devdocs.magento.com/cloud/cdn/configure-fastly-customize-cache.html#manage-domains) do [!DNL Fastly] plug-in. Aqui, domínios exatos podem ser adicionados e o curinga pode ser removido. Observe que o DNS precisará apontar para [!DNL Fastly] para que esses novos domínios sejam roteados pela CDN. Depois que os domínios forem adicionados e o DNS for atualizado, uma variável [Vamos criptografar](https://letsencrypt.org/) será provisionado. Se você não remover um domínio que aponte para [!DNL Fastly] usando um curinga, o Adobe excluirá o certificado compartilhado. Isso pode resultar em uma interrupção do site se você não tiver o FQDN de URL configurado e o mesmo FQDN de URL configurado em seu DNS. Portanto, você deve confirmar se os URLs configurados também têm uma correspondência um para um no DNS que aponta para [!DNL Fastly].
+Certificados TLS curinga só podem ser usados com seu certificado personalizado e não com certificados Let&#39;s Encrypt da Adobe Commerce. Como parte de nossa otimização de TLS, o Adobe está encerrando o suporte a certificados TLS curinga. Estamos identificando e entrando em contato com comerciantes que usam um certificado curinga com certificados Adobe Let&#39;s Encrypt e estão configurados no console [!DNL Fastly] para Adobe Commerce. Pedimos que esses certificados curingas sejam substituídos por domínios exatos para garantir a cobertura TLS. Para substituir um certificado TLS curinga, visite a [seção de domínio](https://devdocs.magento.com/cloud/cdn/configure-fastly-customize-cache.html#manage-domains) do plug-in [!DNL Fastly]. Aqui, domínios exatos podem ser adicionados e o curinga pode ser removido. Observe que o DNS precisará apontar para [!DNL Fastly] para que esses novos domínios sejam roteados pela CDN. Depois que os domínios forem adicionados e o DNS for atualizado, um certificado [Let&#39;s Encrypt](https://letsencrypt.org/) correspondente será provisionado. Se você não remover um domínio que aponte para [!DNL Fastly] usando um curinga, o Adobe excluirá o certificado compartilhado. Isso pode resultar em uma interrupção do site se você não tiver o FQDN de URL configurado e o mesmo FQDN de URL configurado em seu DNS. Portanto, você deve confirmar se as URLs configuradas também têm uma correspondência um para um no DNS que aponta para [!DNL Fastly].
 
 ## O que devo fazer se meu domínio não estiver mais apontando para o Adobe Commerce?
 
-Se o domínio não estiver mais apontando para o Adobe Commerce, remova-o da lista suspensa [!DNL Fastly]/Adobe Commerce. Consulte [!DNL Fastly] [Excluir um domínio](https://docs.fastly.com/en/guides/working-with-domains#deleting-a-domain) para saber mais. Embora não seja necessário apontar seu domínio para a Adobe Commerce, confirme se é necessário um certificado TLS de domínio de nível superior. Se um domínio de nível superior for necessário, atualize o DNS para apontar para a Adobe Commerce. Se já estiver apontando para o Adobe Commerce, atualize seu registro CAA para incluir [lets-encrypt](https://letsencrypt.org/). Se executar essas etapas, você verá o certificado LE atualizado com os URLs secundários necessários que o certificado cobre.&#x200B;
+Se o seu domínio não estiver mais apontando para o Adobe Commerce, remova-o do sistema [!DNL Fastly]/Adobe Commerce. Consulte [!DNL Fastly] [Excluindo um domínio](https://docs.fastly.com/en/guides/working-with-domains#deleting-a-domain) para saber mais. Embora não seja necessário apontar seu domínio para a Adobe Commerce, confirme se é necessário um certificado TLS de domínio de nível superior. Se um domínio de nível superior for necessário, atualize o DNS para apontar para a Adobe Commerce. Se ele já estiver apontando para o Adobe Commerce, atualize seu registro CAA para incluir [lets-encrypt](https://letsencrypt.org/). Se executar essas etapas, você verá o certificado LE atualizado com os URLs secundários necessários que o certificado cobre.&#x200B;
 
 ## Leitura relacionada
 

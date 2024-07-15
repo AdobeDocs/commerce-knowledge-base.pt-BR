@@ -49,8 +49,8 @@ O patch está anexado a este artigo. Para baixá-lo, role para baixo até o fina
 
 [B2B-709-composer.patch](assets/B2B-709-composer.patch.zip)
 
-O patch também está disponível para download no, `.git` e `.composer` , formatos em [Downloads da Adobe Commerce](https://magento.com/tech-resources/download) página, em **Correções** na navegação de coluna à esquerda. Procure o patch XXX.
+O patch também está disponível para download nos formatos `.git` e `.composer` , na página [Downloads da Adobe Commerce](https://magento.com/tech-resources/download), em **Patches**, na navegação de coluna à esquerda. Procure o patch XXX.
 
 ## Como aplicar o patch
 
-Consulte [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) na nossa base de conhecimento de suporte para obter instruções.
+Consulte [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de dados de conhecimento de suporte para obter instruções.

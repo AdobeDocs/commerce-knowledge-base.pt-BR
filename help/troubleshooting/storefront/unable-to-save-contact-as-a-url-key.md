@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# Não é possível salvar *contato* como a chave do URL
+# Não é possível salvar *contato* como a chave da URL
 
-Este artigo fornece uma solução alternativa para o problema que ocorre quando não é possível salvar *contato* como uma chave de URL (por exemplo, &quot;/contact&quot;) para produtos ou páginas CMS.
+Este artigo fornece uma solução alternativa para o problema quando você não pode salvar *contato* como uma chave de URL (por exemplo, &quot;/contato&quot;) para produtos ou páginas de CMS.
 
 ## Produtos e versões afetados
 
@@ -21,15 +21,15 @@ Adobe Commerce (todos os métodos de implantação) 2.4.x
 
 ## Problema
 
-Não é possível salvar um produto ou uma página do CMS usando o termo *contato* como a chave do URL. Ao tentar salvar a chave do URL, você recebe um erro que indica que a chave do URL é um URL duplicado.
+Não é possível salvar um produto ou uma página do CMS usando o termo *contato* como a chave da URL. Ao tentar salvar a chave do URL, você recebe um erro que indica que a chave do URL é um URL duplicado.
 
 <u>Etapas a serem reproduzidas</u>:
 
-Crie uma página CMS com *contato* como a chave do URL.
+Crie uma página CMS com *contato* como a chave da URL.
 
 <u>Resultado esperado</u>:
 
-A página é salva com *contato* como a chave do URL.
+A página é salva com *contato* como a chave da URL.
 
 <u>Resultado real</u>:
 
@@ -49,17 +49,17 @@ Não é possível salvar a página. Você recebe o erro: *O valor especificado n
 
 ## Solução
 
-Não é possível usar o termo *contato* como sua chave de URL, no entanto, você pode usar o termo *contato* combinado com outra letra ou número (por exemplo, *contact1* e *contact2*). Embora o termo não tenha de ser *contact+\&lt;another number=&quot;&quot; or=&quot;&quot; letter=&quot;&quot;>*, o termo pode ser qualquer cadeia de caracteres, desde que o comprimento não exceda 255 caracteres.
+Você não pode usar o termo *contato* como sua chave de URL, mas pode usar o termo *contato* combinado com outra letra ou número (por exemplo, *contato1* e *contato2*). Embora o termo não precise ser *contact+\&lt;outro número ou letra\>*, o termo pode ser qualquer cadeia de caracteres, desde que o comprimento não exceda 255 caracteres.
 
 Execute as seguintes etapas:
 
 1. Faça logon no Commerce Admin.
-1. Ir para **[!UICONTROL Marketing]** > **[!UICONTROL SEO & Search]** > **[!UICONTROL URL Rewrites]**.
+1. Vá para **[!UICONTROL Marketing]** > **[!UICONTROL SEO & Search]** > **[!UICONTROL URL Rewrites]**.
 1. Clique em **[!UICONTROL Add URL Rewrite]**.
-1. Selecionar *[!UICONTROL Custom]* no [!UICONTROL Create URL Rewrite] menu suspenso.
-   1. No [!UICONTROL Request Path], digite &quot;contato&quot;. Observe que [!UICONTROL Request Path] é o que um usuário insere no navegador e no [!UICONTROL Target Path] é para onde ele deve ser redirecionado.
-   1. No [!UICONTROL Target Path], digite a nova chave de URL (por exemplo, &quot;contact1&quot;).
-   1. Selecionar *[!UICONTROL No]* no [!UICONTROL Redirect] menu suspenso.
+1. Selecione *[!UICONTROL Custom]* no menu suspenso [!UICONTROL Create URL Rewrite].
+   1. Em [!UICONTROL Request Path], digite &quot;contato&quot;. Observe que o [!UICONTROL Request Path] é o que um usuário insere no navegador e o [!UICONTROL Target Path] é para onde ele deve ser redirecionado.
+   1. Em [!UICONTROL Target Path], digite a nova chave de URL (por exemplo, &quot;contact1&quot;).
+   1. Selecione *[!UICONTROL No]* no menu suspenso [!UICONTROL Redirect].
 
 ## Leitura relacionada
 

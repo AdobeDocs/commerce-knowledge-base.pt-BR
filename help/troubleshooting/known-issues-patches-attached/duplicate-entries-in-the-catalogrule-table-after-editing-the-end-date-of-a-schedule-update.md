@@ -13,33 +13,33 @@ ht-degree: 0%
 
 # Entradas duplicadas na tabela de catálogo após a edição da data final de uma atualização de agendamento
 
-Este artigo fornece um patch para o problema conhecido do Adobe Commerce 2.2.3, em que editar a data ou hora final de uma atualização de programação de regra de preço de catálogo resulta na adição de entradas duplicadas ao `catalogrule` tabela e erros na `catalogrule_rule` Reindexação do indexador (produto de regra de catálogo).
+Este artigo fornece um patch para o problema conhecido do Adobe Commerce 2.2.3 em que editar a data ou hora de término de uma atualização de agendamento de regra de preço de catálogo resulta na adição de entradas duplicadas à tabela `catalogrule` e erros na reindexação do indexador `catalogrule_rule` (Produto de regra de catálogo).
 
 ## Problema
 
-Quando você altera a data ou hora final de uma atualização de programação de regra de preço de catálogo existente, entradas duplicadas são criadas na variável `catalogrule` tabela de banco de dados. Como resultado, a `catalogrule_rule` a reindexação falha com o seguinte erro no log de exceções: *Já existe um item com a mesma ID*.
+Quando você altera a data ou hora final de uma atualização de agendamento de regra de preço de catálogo existente, entradas duplicadas são criadas na tabela de banco de dados `catalogrule`. Como resultado, a reindexação `catalogrule_rule` falha com o seguinte erro no log de exceções: *Já existe um item com a mesma ID*.
 
 <u>Etapas a serem reproduzidas</u>:
 
-Pré-requisitos: o `catalogrule_rule` indexador está definido como *[Atualização programada](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/indexer-configuration.html)* modo.
+Pré-requisitos: O indexador `catalogrule_rule` está definido para o modo *[Atualizar na Agenda](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/indexer-configuration.html)*.
 
 1. No Administrador do Commerce, crie uma nova Regra de preço de catálogo em **Marketing** > **Promoções** > **Regra de preço de catálogo**.
-1. No **Regra de preço de catálogo** , clique em **Editar**, e agendar uma nova Atualização e definir **Status** para *Ativo.*
-1. Clique em **Exibir/Editar** ao lado da atualização recém-criada e altere a data de término para uma data anterior.
+1. Na grade **Regra de Preço do Catálogo**, clique em **Editar**, agende uma nova Atualização e defina o **Status** como *Ativo.*
+1. Clique em **Exibir/Editar** ao lado da Atualização recém-criada e altere a data de término para uma data anterior.
 1. Salve a atualização.
-1. Execute o comando reindex para o `catalogrule_rule` indexador.
+1. Execute o comando reindex para o indexador `catalogrule_rule`.
 
 <u>Resultado esperado</u>:
 
-A variável `catalogrule_rule` indexador reindexado com sucesso. Nenhuma entrada duplicada na variável `catalogrule` tabela.
+O indexador `catalogrule_rule` foi reindexado com êxito. Nenhuma entrada duplicada na tabela `catalogrule`.
 
 <u>Resultado real</u>:
 
-A reindexação falha com o seguinte erro: *Já existe um item com a mesma ID*, porque há entradas duplicadas no `catalogrule` tabela.
+A reindexação falha com o seguinte erro: *Já existe um item com a mesma identificação*, pois há entradas duplicadas na tabela `catalogrule`.
 
 ## Solução
 
-Para resolver o problema, você precisa aplicar o patch anexado e remover as entradas duplicadas existentes. Consulte a [Remover entradas duplicadas](#remove) para obter detalhes sobre como verificar se as duplicatas existem e removê-las.
+Para resolver o problema, você precisa aplicar o patch anexado e remover as entradas duplicadas existentes. Consulte a seção [Remover entradas duplicadas](#remove) para obter detalhes sobre como verificar se as duplicatas existem e como removê-las.
 
 ## Correção
 
@@ -60,7 +60,7 @@ O patch também é compatível (mas pode não resolver o problema) com as seguin
 
 ## Como aplicar o patch
 
-Consulte [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) para obter instruções em nossa base de conhecimento de suporte.
+Consulte [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) para obter instruções em nossa base de dados de conhecimento de suporte.
 
 ## Remover entradas duplicadas {#remove}
 
@@ -78,9 +78,9 @@ Siga estas etapas para localizar as entradas duplicadas e excluí-las:
 
    Se não houver entradas duplicadas, a resposta estará vazia e você não precisará fazer mais nada. Se houver entradas duplicadas, você obterá o nome da tabela e `entity_id` da entidade duplicada, como no exemplo a seguir:
 
-   ![table_results1.png](assets/table_results1.png)
+   ![resultados_da_tabela1.png](assets/table_results1.png)
 
-   Considere que em determinadas tabelas o nome do campo com a ID da entidade será diferente de `entity_id`. Por exemplo, na variável `cms_page` tabela, seria `page_id` em vez de `entity_id`.
+   Considere que em determinadas tabelas o nome do campo com id de entidade será diferente de `entity_id`. Por exemplo, na tabela `cms_page`, seria `page_id` em vez de `entity_id`.
 
 1. Em seguida, você precisa examinar as duplicatas mais detalhadamente e entender quais devem ser removidas. Use uma query semelhante à seguinte para ver as duplicatas. Substitua o nome da tabela, o nome da ID da entidade e o valor de acordo com os resultados recebidos na etapa anterior.
 
@@ -90,9 +90,9 @@ Siga estas etapas para localizar as entradas duplicadas e excluí-las:
 
    Você receberá uma lista de registros com várias colunas. Exemplo:
 
-   ![table_results2.png](assets/table_results2.png)
+   ![resultados_da_tabela2.png](assets/table_results2.png)
 
-   A variável `created_in` e `updated_in` Os valores de devem seguir este padrão: a variável `created_in` o valor da linha atual é igual ao `updated_in` valor na linha anterior. Além disso, a variável **primeira linha** deve conter created\_in = 1 e as variáveis **última linha** deve conter atualizado\_in = 2147483647. (Se houver apenas uma linha, você deverá ver created\_in=1 **e** updated\_in=2147483647). A(s) linha(s) para a(s) qual(is) este padrão foi quebrado devem ser excluídas. No nosso exemplo, seria a linha com `row_id` =2052 como a segunda e a terceira linhas compartilham o mesmo valor para created_in: 1540837826, que não deve ocorrer.
+   Os valores `created_in` e `updated_in` devem seguir este padrão: o valor `created_in` da linha atual é igual ao valor `updated_in` na linha anterior. Além disso, a **primeira linha** deve conter created\_in = 1 e a **última linha** deve conter updated\_in = 2147483647. (Se houver apenas uma linha, você deverá ver created\_in=1 **and** updated\_in=2147483647). A(s) linha(s) para a(s) qual(is) este padrão foi quebrado devem ser excluídas. Em nosso exemplo, seria a linha com `row_id` =2052, pois a segunda e a terceira linhas compartilham o mesmo valor para created_in: 1540837826, o que não deveria ocorrer.
 
 1. Exclua a duplicata usando uma consulta semelhante à seguinte. Substitua o nome da tabela, o nome da ID da entidade e o valor de acordo com os resultados recebidos nas etapas anteriores:
 
@@ -106,7 +106,7 @@ Siga estas etapas para localizar as entradas duplicadas e excluí-las:
    bin/magento cache:clean
    ```
 
-   ou no Administrador do Commerce em **Sistema** > **Ferramentas** > **Gerenciamento de cache**.
+   ou no Administrador do Commerce em **Sistema** > **Ferramentas** > **Gerenciamento de Cache**.
 
 ## Links úteis em nossa documentação do desenvolvedor
 

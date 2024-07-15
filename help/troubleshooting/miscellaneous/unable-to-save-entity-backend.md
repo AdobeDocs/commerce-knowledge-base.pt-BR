@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Não é possível salvar o back-end do Adobe Commerce da entidade
 
-Este artigo fornece uma solução para quando não for possível salvar uma entidade no back-end do Adobe Commerce. Por exemplo, quando não é possível editar e salvar um `cart_price` regra.
+Este artigo fornece uma solução para quando não for possível salvar uma entidade no back-end do Adobe Commerce. Por exemplo, quando não é possível editar e salvar uma regra `cart_price` específica.
 
 ## Produtos e versões afetados
 
@@ -22,15 +22,15 @@ Esse problema pode afetar todas as versões do Adobe Commerce que têm o Tamanho
 
 ## Problema
 
-Quando você tenta reconfigurar seu armazenamento, a página é recarregada e suas alterações não são salvas. Uma mensagem pode ser vista no `var/log/system.log`:
+Quando você tenta reconfigurar seu armazenamento, a página é recarregada e suas alterações não são salvas. Uma mensagem pode ser vista em `var/log/system.log`:
 
-*[2021-11-27 00:30:52] report.WARNING: o tamanho da sessão de 418056 excedeu o tamanho máximo permitido de sessão de 256000. [][]*
+*[2021-11-27 00:30:52] report.WARNING: O tamanho de sessão 418056 excedeu o tamanho máximo de sessão permitido de 256000. [][]*
 
 <u>Etapas a serem reproduzidas</u>:
 
 Um exemplo de configuração de armazenamento que não está sendo salva:
 
-1. Selecione uma regra no armazenamento do Adobe Commerce em Produção > **Marketing** > **Regras de preço do carrinho**.
+1. Selecione uma regra no Adobe Commerce Store em Produção > **Marketing** > **Regras de preço do carrinho**.
 1. Escolha uma regra e defina como *Inativo* e salve a alteração.
 
 <u>Resultado esperado</u>:
@@ -48,7 +48,7 @@ Esse problema está relacionado à nova funcionalidade introduzida recentemente 
 
 ## Solução
 
-Aumente o valor &quot;Tamanho máximo da sessão&quot; no (**Lojas** > **Configuração** > **Avançado** > **Sistema** > **Segurança** > Tamanho máximo da sessão).
+Aumente o valor de &quot;Tamanho Máximo da Sessão&quot; em (**Lojas** > **Configuração** > **Avançado** > **Sistema** > **Segurança** > Tamanho Máximo da Sessão).
 
 ## Leitura relacionada
 

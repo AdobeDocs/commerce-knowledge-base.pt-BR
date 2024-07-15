@@ -16,12 +16,12 @@ Este artigo explica como fazer logon na sua conta do Fastly fornecida com o Adob
 
 ## Como visualizar as credenciais do Fastly
 
-Consulte a [Obter credenciais do Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#cloud-fastly-creds) na nossa documentação para desenvolvedores.
+Consulte a seção [Obter credenciais do Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#cloud-fastly-creds) em nossa documentação do desenvolvedor.
 
 ## Como testar as credenciais do Fastly
 
-Consulte a [Testar as credenciais do Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#test-the-fastly-credentials) na nossa documentação para desenvolvedores.
+Consulte a seção [Testar as credenciais do Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#test-the-fastly-credentials) em nossa documentação do desenvolvedor.
 
 ## Leitura relacionada
 
-[Altere o proprietário da conta (credenciais de acesso por meio de tokens de API) para o Fastly na Cloud](/help/how-to/general/change-account-owner-access-credentials-via-api-tokens-for-fastly-on-cloud.md) em nossa base de conhecimento de suporte.
+[Altere o proprietário da conta (acesse as credenciais via tokens de API) para o Fastly na Cloud](/help/how-to/general/change-account-owner-access-credentials-via-api-tokens-for-fastly-on-cloud.md) em nossa base de dados de suporte.

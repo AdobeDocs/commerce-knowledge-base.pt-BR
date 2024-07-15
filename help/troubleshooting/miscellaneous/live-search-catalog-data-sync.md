@@ -25,9 +25,9 @@ Os dados do catálogo não estão sincronizados corretamente ou um novo produto 
 
 <u>Etapas a serem reproduzidas</u>
 
-1. Configure e conecte o Live Search para sua instância do Adobe Commerce, conforme descrito em [Instale o Live Search > Configurar chaves de API](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#configure-api-keys) em nossa documentação do usuário.
-1. Após 30 minutos, verifique os dados do catálogo exportados conforme descrito em [Instale o Live Search > Verificar exportação](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#verify-export) em nossa documentação do usuário.
-1. Após 30 minutos, teste a conexão conforme descrito em [Instalar o Live Search > Testar a conexão](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#test-connection) em nossa documentação do usuário.
+1. Configure e conecte o Live Search para sua instância do Adobe Commerce conforme descrito em [Instalar o Live Search > Configurar chaves de API](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#configure-api-keys) na documentação do usuário.
+1. Após 30 minutos, verifique os dados do catálogo exportados conforme descrito em [Instalar Live Search > Verificar exportação](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#verify-export) na documentação do usuário.
+1. Após 30 minutos, teste a conexão conforme descrito em [Instalar Live Search > Testar a conexão](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#test-connection) na documentação do usuário.
 
 Ou
 
@@ -56,7 +56,7 @@ Após configurar e conectar, pode levar mais de 30 minutos para que o índice em
 
 Se os dados do seu produto não estiverem sincronizados corretamente para uma SKU específica, faça o seguinte:
 
-1. Use a consulta SQL a seguir e verifique se você tem os dados esperados na variável `feed_data` coluna. Além disso, anote o `modified_at` carimbo de data e hora.
+1. Use a consulta SQL a seguir e verifique se você tem os dados esperados na coluna `feed_data`. Além disso, anote o carimbo de data e hora `modified_at`.
 
    ```sql
    select * from catalog_data_exporter_products where sku = '<your_sku>' and store_view_code = '<your_ store_view_code>';
@@ -68,11 +68,11 @@ Se os dados do seu produto não estiverem sincronizados corretamente para uma SK
    bin/magento indexer:reindex catalog_data_exporter_products
    ```
 
-1. Se você ainda não vir os dados corretos, [criar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+1. Se você ainda não vir os dados corretos, [crie um tíquete de Suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ### Verificar carimbo de data e hora da última exportação de produto
 
-1. Se você vir os dados corretos no `catalog_data_exporter_products`, use a seguinte consulta SQL para verificar o carimbo de data e hora da última exportação. Deve ser após o término do `modified_at` carimbo de data/hora:
+1. Se você vir os dados corretos em `catalog_data_exporter_products`, use a seguinte consulta SQL para verificar o carimbo de data e hora da última exportação. Deve ser após o carimbo de data/hora `modified_at`:
 
    ```sql
    select * from flag where flag_code = 'products-feed-version';
@@ -84,13 +84,13 @@ Se os dados do seu produto não estiverem sincronizados corretamente para uma SK
    bin/magento cron:run --group=saas_data_exporter
    ```
 
-1. Aguardar `<>` hora (tempo para atualizações incrementais). Se você ainda não vir seus dados, [criar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+1. Aguarde `<>` vez (tempo para atualizações incrementais). Se você ainda não visualizar seus dados, [crie um tíquete de Suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ### Sincronizar código de atributo específico
 
 Se os dados do atributo do produto não estiverem sincronizados corretamente para um código de atributo específico, faça o seguinte:
 
-1. Use a consulta SQL a seguir e verifique se você tem os dados esperados na variável `feed_data` coluna. Além disso, anote o `modified_at` carimbo de data e hora.
+1. Use a consulta SQL a seguir e verifique se você tem os dados esperados na coluna `feed_data`. Além disso, anote o carimbo de data e hora `modified_at`.
 
    ```sql
    select * from catalog_data_exporter_product_attributes where json_extract(feed_data, '$.attributeCode') = '<your_attribute_code>' and store_view_code = '<your_ store_view_code>';
@@ -102,13 +102,13 @@ Se os dados do atributo do produto não estiverem sincronizados corretamente par
    bin/magento indexer:reindex catalog_data_exporter_product_attributes
    ```
 
-1. Se você ainda não vir os dados corretos, [criar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+1. Se você ainda não vir os dados corretos, [crie um tíquete de Suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ### Verificar carimbo de data/hora da última exportação de atributo de produto
 
-Se você vir os dados corretos no `catalog_data_exporter_product_attributes`:
+Se você vir os dados corretos em `catalog_data_exporter_product_attributes`:
 
-1. Use a seguinte consulta SQL para verificar o carimbo de data e hora da última exportação. Deve ser após o término do `modified_at` carimbo de data e hora.
+1. Use a seguinte consulta SQL para verificar o carimbo de data e hora da última exportação. Deve estar após o carimbo de data/hora `modified_at`.
 
    ```sql
    select * from flag where flag_code = 'product-attributes-feed-version';
@@ -120,7 +120,7 @@ Se você vir os dados corretos no `catalog_data_exporter_product_attributes`:
    bin/magento cron:run --group=saas_data_exporter
    ```
 
-1. Aguarde de 15 a 20 minutos (tempo para atualizações incrementais). Se você ainda não vir seus dados, [criar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+1. Aguarde de 15 a 20 minutos (tempo para atualizações incrementais). Se você ainda não visualizar seus dados, [crie um tíquete de Suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ### Sincronizar após alteração na configuração da API
 
@@ -133,4 +133,4 @@ bin/magento saas:resync --feed productattributes
 
 ## Leitura relacionada
 
-Consulte [Integração ao Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html) em nossa documentação do usuário.
+Consulte [Live Search integrado](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html) em nossa documentação do usuário.

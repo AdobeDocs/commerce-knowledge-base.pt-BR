@@ -18,8 +18,8 @@ A base de conhecimento de suporte da Adobe Commerce fornece soluções de soluç
 
 Também há recursos de solução de problemas separados para:
 
-* Aprendizado no Adobe Commerce: [https://learning.adobe.com/products-resources/contact-us.html](https://learning.adobe.com/products-resources/contact-us.html)
-* Parceiros de soluções: [https://solutionpartners.adobe.com/](https://solutionpartners.adobe.com/)
+* Aprendizado do Adobe Commerce: [https://learning.adobe.com/products-resources/contact-us.html](https://learning.adobe.com/products-resources/contact-us.html)
+* Parceiros de Soluções: [https://solutionpartners.adobe.com/](https://solutionpartners.adobe.com/)
 * Parceiros técnicos: [https://partners.adobe.com/exchangeprogram/experiencecloud.html](https://solutionpartners.adobe.com/)
 * Commerce Marketplace: [https://commercemarketplace.adobe.com](https://commercemarketplace.adobe.com)
 
@@ -34,7 +34,8 @@ Se estiver procurando documentação técnica ou de usuário final, use um dos l
 <td>Site</td>
 </tr>
 <tr>
-<td rowspan="2">Adobe Commerce no local e Adobe Commerce na infraestrutura em nuvem</td>
+<td rowspan="2">Adobe Commerce no local e
+Adobe Commerce na infraestrutura em nuvem</td>
 <td>
 <p>Documentação do desenvolvedor (técnica):</p>
 <p><a href="https://developer.adobe.com/commerce/docs/">https://developer.adobe.com/commerce/docs/</a></p>
@@ -100,6 +101,6 @@ Se estiver procurando documentação técnica ou de usuário final, use um dos l
 
 ## Blogs e comunicações
 
-* Centro de confiança Adobe (atualizações e correções de segurança): [https://www.adobe.com/trust/resources.html](https://www.adobe.com/trust/resources.html)
+* Central de Confiabilidade Adobe (atualizações e correções de segurança): [https://www.adobe.com/trust/resources.html](https://www.adobe.com/trust/resources.html)
 * Blog do desenvolvedor da comunidade do Adobe Commerce (instruções, práticas recomendadas e notícias técnicas da comunidade): [https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog](https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog)
 * Blog da Adobe Commerce (comércio eletrônico de alto nível):[https://business.adobe.com/blog/](https://business.adobe.com/blog/)

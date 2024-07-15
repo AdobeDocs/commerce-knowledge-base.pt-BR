@@ -23,8 +23,8 @@ Este artigo fornece uma correção para o problema em que a Ferramenta de verifi
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. Configure a Ferramenta de verificação de segurança para verificar seu site, conforme descrito em [Verificação de segurança](https://docs.magento.com/m2/ee/user_guide/magento/security-scan.html) em nosso guia do usuário.
-1. Na coluna Ações, selecione **Executar verificação**.
+1. Configure a Ferramenta de Verificação de Segurança para verificar seu site, conforme descrito em [Verificação de Segurança](https://docs.magento.com/m2/ee/user_guide/magento/security-scan.html) em nosso guia do usuário.
+1. Na coluna Ações, selecione **Executar Verificação**.
 
 <u>Resultados esperados</u>:
 
@@ -43,9 +43,9 @@ Esse problema pode ocorrer porque a Ferramenta de verificação de segurança n�
 Tente abrir seu site.
 
 * Incluir na lista de permissões Se a página for carregada com sucesso, talvez seja necessário adicionar os IPs usados pelas Ferramentas de verificação de segurança ao arquivo de firewall. Os seguintes IPs são usados: 52.87.98.44, 34.196.167.176, 3.218.25.102 nas portas 80 e 443.
-* Se o site não carregar e retornar a variável *&quot;Houve um erro ao processar sua solicitação&quot;* verifique se há possíveis erros no seu site.
+* Se o site não carregar e retornar a mensagem *&quot;Houve um erro ao processar sua solicitação&quot;*, verifique se há possíveis erros no site.
 
 ## Leitura relacionada
 
-* [Ativar e iniciar](https://devdocs.magento.com/guides/v2.3/cloud/live/live.html?_ga=2.73579601.273749082.1559572284-888339099.1547722854#security-scan) na documentação do desenvolvedor.
+* [Ativar e iniciar](https://devdocs.magento.com/guides/v2.3/cloud/live/live.html?_ga=2.73579601.273749082.1559572284-888339099.1547722854#security-scan) em nossa documentação de desenvolvedor.
 * [Verificação de segurança](https://docs.magento.com/m2/ee/user_guide/magento/security-scan.html) em nosso guia do usuário.

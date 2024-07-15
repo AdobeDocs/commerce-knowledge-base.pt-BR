@@ -23,7 +23,7 @@ Este artigo fornece uma solução para o problema em que o Sistema de Magento Or
 
 >[!WARNING]
 >
->Isenção de responsabilidade: a Adobe Commerce não recomenda nem endossa nenhuma ferramenta específica para o estabelecimento de túneis. As anteriores são apenas sugestões. Para obter mais informações, consulte o [Documentação de ngrok](https://ngrok.com/docs).
+>Isenção de responsabilidade: a Adobe Commerce não recomenda nem endossa nenhuma ferramenta específica para o estabelecimento de túneis. As anteriores são apenas sugestões. Para obter mais informações, consulte a [ngrok documentation](https://ngrok.com/docs).
 
 ## Problema
 
@@ -31,7 +31,7 @@ Este artigo fornece uma solução para o problema em que o Sistema de Magento Or
 
 1. Instale o Adobe Commerce em seu ambiente local.
 1. Configure o ngrok para criar um túnel para expor seu servidor local.
-1. Experimentar [conexão com o OMS](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/).
+1. Tente [conectar-se ao OMS](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/).
 
 <u>Resultado esperado</u>
 

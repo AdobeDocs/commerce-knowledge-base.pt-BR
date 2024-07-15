@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # Definir o TTL de cache para imagens e outros conteúdos estáticos
 
-Consulte a [Definir cache para arquivos estáticos](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/set-cache.html) em nosso guia do usuário.
+Consulte o [Definir cache para arquivos estáticos](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/set-cache.html) em nosso guia do usuário.

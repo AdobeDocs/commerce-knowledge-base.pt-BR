@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # MDVA-28651: B2B - carregamento lento
 
-O patch MDVA-28651 resolve o problema em que vários problemas de desempenho ocorrem com cotas de carregamento. Este patch está disponível quando a variável [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) O v.1.0.9 está instalado. Observe que o problema foi agendado para ser corrigido no Adobe Commerce versão 2.4.2.
+O patch MDVA-28651 resolve o problema em que vários problemas de desempenho ocorrem com cotas de carregamento. Este patch está disponível quando a [Ferramenta de Patches de Qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) v.1.0.9 está instalada. Observe que o problema foi agendado para ser corrigido no Adobe Commerce versão 2.4.2.
 
 ## Produtos e versões afetados
 
@@ -22,7 +22,7 @@ O patch MDVA-28651 resolve o problema em que vários problemas de desempenho oco
 
 >[!NOTE]
 >
->O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com sua versão do Adobe Commerce, atualize o `magento/quality-patches` pacote para a versão mais recente e verifique a compatibilidade no [[!DNL Quality Patches Tool]: Página Procurar patches](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+>O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com a sua versão do Adobe Commerce, atualize o pacote `magento/quality-patches` para a versão mais recente e verifique a compatibilidade na [[!DNL Quality Patches Tool]: página Procurar patches](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
 
 ## Problema
 
@@ -35,28 +35,28 @@ Problemas de desempenho na página da lista de cotações do cliente:
 <u>Etapas a serem reproduzidas</u>
 
 1. Mais de 40 cotações atribuídas a um cliente.
-1. Efetue logon e procure o **Minhas Cotações** página.
+1. Faça logon e navegue pela página **Minhas Cotações**.
 
 <u>Resultado real</u>
 
-O tempo de resposta para carregar totalmente o conteúdo do **Minhas Cotações** (carregamento da página + dados mostrados na grade) é ~ 45 segundos.
+O tempo de resposta para carregar totalmente o conteúdo da página **Minhas Cotações** (carregamento da página + dados mostrados na grade) é ~ 45 segundos.
 
 <u>Resultado esperado</u>
 
-O tempo de resposta para carregar totalmente o conteúdo do **Minhas Cotações** A página deve ter menos de 45 segundos.
+O tempo de resposta para carregar totalmente o conteúdo da página **Minhas Cotações** deve ser inferior a 45 segundos.
 
 ## Aplicar o patch
 
 Para aplicar patches individuais, use os links a seguir, dependendo do método de implantação:
 
-* Adobe Commerce ou Magento Open Source no local: [Guia de atualização de software > Aplicar patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) na documentação do desenvolvedor.
-* Adobe Commerce na infraestrutura em nuvem: [Upgrades e Patches > Aplicar Patches](https://devdocs.magento.com/cloud/project/project-patch.html) na documentação do desenvolvedor.
+* Adobe Commerce ou Magento Open Source no local: [Guia de Atualização de Software > Aplicar Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) na documentação do desenvolvedor.
+* Adobe Commerce na infraestrutura em nuvem: [Atualizações e patches > Aplicar patches](https://devdocs.magento.com/cloud/project/project-patch.html) na documentação do desenvolvedor.
 
 ## Leitura relacionada
 
 Para saber mais sobre a Ferramenta de correção de qualidade, consulte:
 
-* [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatendimento de correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de conhecimento de suporte.
-* [Verifique se o patch está disponível para o problema do Adobe Commerce usando a Ferramenta de patches de qualidade](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de conhecimento de suporte.
+* [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatender correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de dados de conhecimento de suporte.
+* [Verifique se o patch está disponível para o problema do Adobe Commerce usando a Ferramenta de Patches de Qualidade](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de dados de conhecimento de suporte.
 
-Para obter informações sobre outros patches disponíveis no QPT, consulte o [Patches disponíveis no QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-MQP-tool-) seção.
+Para obter informações sobre outros patches disponíveis no QPT, consulte a seção [Patches disponíveis no QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-MQP-tool-).

@@ -17,7 +17,7 @@ O Adobe Commerce no local, o Adobe Commerce na infraestrutura em nuvem e o Magen
 
 >[!WARNING]
 >
->Falhar ao instalar/configurar o Elasticsearch 6/7 antes de tentar atualizar pode causar problemas sérios com o Adobe Commerce. Observe que as atualizações de serviço na Adobe Commerce na infraestrutura em nuvem não podem ser enviadas para o ambiente de produção sem aviso prévio de 48 horas úteis para nossa equipe de infraestrutura. Isso é necessário, pois precisamos garantir que tenhamos um engenheiro de suporte de infraestrutura disponível para atualizar sua configuração dentro de um prazo desejado com tempo de inatividade mínimo para seu ambiente de produção. Portanto, 48 horas antes de quando suas alterações precisam estar em produção [enviar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) detalhando o upgrade de serviço necessário e informando o horário em que você deseja que o processo de upgrade tenha início.
+>Falhar ao instalar/configurar o Elasticsearch 6/7 antes de tentar atualizar pode causar problemas sérios com o Adobe Commerce. Observe que as atualizações de serviço na Adobe Commerce na infraestrutura em nuvem não podem ser enviadas para o ambiente de produção sem aviso prévio de 48 horas úteis para nossa equipe de infraestrutura. Isso é necessário, pois precisamos garantir que tenhamos um engenheiro de suporte de infraestrutura disponível para atualizar sua configuração dentro de um prazo desejado com tempo de inatividade mínimo para seu ambiente de produção. Portanto, 48 horas antes de quando suas alterações precisam estar em produção [envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) detalhando a atualização de serviço necessária e informando a hora em que deseja que o processo de atualização tenha início.
 
 O motivo para a remoção do mecanismo de pesquisa MySQL é que o Elasticsearch fornece recursos de pesquisa superiores, bem como otimizações de desempenho do catálogo.
 
@@ -44,7 +44,7 @@ O motivo para a remoção do mecanismo de pesquisa MySQL é que o Elasticsearch 
 </tr>
 <tr>
 <td class="wysiwyg-text-align-center" style="width: 133px;">ELASTICSEARCH 5</td>
-<td style="width: 478.2px;">O Elasticsearch 5 atingiu seu <a href="https://www.elastic.co/support/eol">Fim da vida útil</a> e foi descontinuado no Adobe Commerce 2.4.0. Atualize para o Elasticsearch 7 (preferencial) ou 6.</td>
+<td style="width: 478.2px;">O Elasticsearch 5 atingiu seu <a href="https://www.elastic.co/support/eol">Fim de Vida Útil</a> e foi descontinuado no Adobe Commerce 2.4.0. Atualize para o Elasticsearch 7 (preferencial) ou 6.</td>
 </tr>
 <tr>
 <td class="wysiwyg-text-align-center" style="width: 133px;">Elasticsearch 6 ou 7</td>
@@ -59,9 +59,9 @@ O motivo para a remoção do mecanismo de pesquisa MySQL é que o Elasticsearch 
 
 ## Instalação:
 
-Quando o Adobe Commerce no local e o Magento Open Source 2.4.0 for lançado, o Elasticsearch será um componente obrigatório, portanto, você deve ter uma configuração de host Elasticsearch e configurada antes da instalação da versão 2.4.0. Consulte [Instalar e configurar o Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html) na documentação do desenvolvedor.
+Quando o Adobe Commerce no local e o Magento Open Source 2.4.0 forem lançados, o Elasticsearch será um componente obrigatório, portanto, você deve ter uma configuração de host de Elasticsearch e configurada antes de instalar a versão 2.4.0. Consulte [Instalar e configurar o Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html) na documentação do desenvolvedor.
 
-Por padrão, a pesquisa no Adobe Commerce usará o Elasticsearch 7 como mecanismo de pesquisa e tentará se conectar a um servidor em localhost:9200. Elasticsearch 6.x também é suportado. Se a configuração não corresponder aos padrões, é possível definir essas configurações usando argumentos passados para `setup:install`, da mesma forma que a conexão de banco de dados é configurada.
+Por padrão, a pesquisa no Adobe Commerce usará o Elasticsearch 7 como mecanismo de pesquisa e tentará se conectar a um servidor em localhost:9200. Elasticsearch 6.x também é suportado. Se sua configuração não corresponder aos padrões, você poderá definir essas configurações usando argumentos passados para `setup:install`, da mesma forma que a conexão de banco de dados é configurada.
 
 Por exemplo, `setup:install --elasticsearch-host=es.mystore.com`
 

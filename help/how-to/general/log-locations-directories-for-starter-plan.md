@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # Locais de log (diretórios) para o plano inicial
 
-Consulte [Exibir e gerenciar logs](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html) no *Guia da infraestrutura do Commerce na nuvem* para saber onde encontrar os logs de build e implantação, de aplicativo e de serviço para projetos do Adobe Commerce implantados na infraestrutura em nuvem.
+Consulte [Exibir e gerenciar logs](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html) no *Guia de Infraestrutura do Commerce na Nuvem* para saber onde encontrar a compilação e implantar, o aplicativo e os logs de serviço para projetos do Adobe Commerce implantados na infraestrutura em nuvem.

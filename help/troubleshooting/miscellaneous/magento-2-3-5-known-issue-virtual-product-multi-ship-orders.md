@@ -25,7 +25,7 @@ Este artigo explica um problema conhecido no Adobe Commerce 2.3.5 em que um pedi
 <u>Etapas a serem reproduzidas</u>:
 
 1. Na loja, adicione produtos físicos e virtuais ao carrinho.
-1. Passe para o check-out e selecione **Fazer Check-out com Vários Endereços**.
+1. Vá para o check-out e selecione **Check-out com Vários Endereços**.
 1. Adicione todas as informações necessárias e faça o pedido.
 
 <u>Resultado esperado</u>:

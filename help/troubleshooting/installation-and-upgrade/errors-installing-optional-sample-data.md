@@ -34,11 +34,11 @@ Essas exceções resultam das configurações de permissões do sistema de arqui
 
 ### Solução
 
-[Definir a propriedade e as permissões do sistema de arquivos novamente](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/file-system-permissions.html) como usuário com `root` privilégios.
+[Defina novamente a propriedade e as permissões do sistema de arquivos](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/file-system-permissions.html) como um usuário com `root` privilégios.
 
 ## Sintoma (modo de produção)
 
-Se, atualmente, você estiver configurado para [modo de produção](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html), a instalação de dados de amostra falhará se você usar o [dados de amostra do magento:implantar](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/composer-packages.html) comando:
+Se você estiver definido atualmente para [modo de produção](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html), a instalação de dados de amostra falhará se você usar o comando [magento sampledata:deploy](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/composer-packages.html):
 
 ```php
 PHP Fatal error: Uncaught TypeError: Argument 1 passed to Symfony\Component\Console\Input\ArrayInput::__construct() must be of the type array, object given, called in /<path>/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 97 and defined in /<path>/vendor/symfony/console/Symfony/Component/Console/Input/ArrayInput.php:37
@@ -46,9 +46,9 @@ PHP Fatal error: Uncaught TypeError: Argument 1 passed to Symfony\Component\Cons
 
 ### Solução
 
-Não instale dados de amostra no modo de produção. Alternar para modo de desenvolvedor e limpar alguns `var` e tente novamente.
+Não instale dados de amostra no modo de produção. Alterne para o modo de desenvolvedor, limpe alguns diretórios `var` e tente novamente.
 
-Insira os seguintes comandos na ordem mostrada como [Proprietário do sistema de arquivos Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/overview.html):
+Digite os seguintes comandos na ordem mostrada como o [proprietário do sistema de arquivos do Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/overview.html):
 
 ```php
 cd <magento_root>
@@ -107,15 +107,15 @@ Este erro ocorre quando o tempo máximo de execução configurado de seus script
 
 ### Solução
 
-Como usuário com `root` privilégios, modificar `php.ini` para aumentar o valor de `max_execution_time` 600 ou mais. (600 segundos são 10 minutos. Você pode aumentar o valor para o valor que desejar.) Você deve alterar `max_execution_time` voltar ao valor anterior após a instalação ser bem-sucedida.
+Como um usuário com privilégios `root`, modifique `php.ini` para aumentar o valor de `max_execution_time` para 600 ou mais. (600 segundos são 10 minutos. Você pode aumentar o valor para o valor que desejar.) Você deve alterar `max_execution_time` de volta para seu valor anterior após a instalação ser bem-sucedida.
 
-Se não tiver certeza de onde `php.ini` for localizada, digite o seguinte comando:
+Se você não tiver certeza de onde `php.ini` está localizado, digite o seguinte comando:
 
 ```php
 php --ini
 ```
 
-O valor de `Loaded Configuration File` é o `php.ini` você deve modificar.
+O valor de `Loaded Configuration File` é o `php.ini` que você deve modificar.
 
 >[!NOTE]
 >

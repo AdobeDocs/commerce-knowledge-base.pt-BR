@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # ACSD-54067: o vídeo do produto não é reproduzido em um dispositivo móvel
 
-O patch ACSD-54067 corrige o problema em que um vídeo de produto não é reproduzido em um dispositivo móvel. Este patch está disponível quando a variável [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) O 1.1.41 está instalado. A ID do patch é ACSD-54067. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.7.
+O patch ACSD-54067 corrige o problema em que um vídeo de produto não é reproduzido em um dispositivo móvel. Este patch está disponível quando o [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.41 está instalado. A ID do patch é ACSD-54067. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.7.
 
 ## Produtos e versões afetados
 
-**O patch é criado para a versão do Adobe Commerce:**
+**O patch foi criado para a versão do Adobe Commerce:**
 
 * Adobe Commerce (todos os métodos de implantação) 2.4.6-p1
 
@@ -27,7 +27,7 @@ O patch ACSD-54067 corrige o problema em que um vídeo de produto não é reprod
 
 >[!NOTE]
 >
->O patch pode se tornar aplicável a outras versões com novos [!DNL Quality Patches Tool] versões. Para verificar se o patch é compatível com sua versão do Adobe Commerce, atualize o `magento/quality-patches` pacote para a versão mais recente e verifique a compatibilidade no [[!DNL Quality Patches Tool]: Página Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+>O patch pode se tornar aplicável a outras versões com as novas versões do [!DNL Quality Patches Tool]. Para verificar se o patch é compatível com a sua versão do Adobe Commerce, atualize o pacote `magento/quality-patches` para a versão mais recente e verifique a compatibilidade na [[!DNL Quality Patches Tool]: página Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
 
 ## Problema
 
@@ -38,10 +38,10 @@ Um vídeo de produto não é reproduzido em um dispositivo móvel.
 1. Instale o Adobe Commerce.
 1. Execute o comando:
    `bin/magento setup:perf:generate-fixtures setup/performance-toolkit/profiles/ce/small.xml`.
-1. Ir para **[!UICONTROL Admin product list]** página e filtrar por *[!UICONTROL SKU product_dynamic_120]*.
-1. Abra a página do produto e vá para **[!UICONTROL Images and Videos]** > adicione um vídeo > preencha o URL: https://vimeo.com/347119375 e salve.
-1. Acesse a loja e abra a página do produto para *[!UICONTROL product_dynamic_120]*.
-1. Defina o navegador como *dispositivo móvel* com uma largura de *320px* e atualizar.
+1. Vá para a página **[!UICONTROL Admin product list]** e filtre por *[!UICONTROL SKU product_dynamic_120]*.
+1. Abra a página do produto e acesse **[!UICONTROL Images and Videos]** > adicionar um vídeo > preencher o URL: https://vimeo.com/347119375 e salve.
+1. Vá para a loja e abra a página do produto para *[!UICONTROL product_dynamic_120]*.
+1. Defina o navegador como *dispositivo móvel* com largura de *320px* e atualize.
 1. No controle deslizante da galeria, selecione o vídeo e clique para reproduzi-lo.
 
 <u>Resultados esperados</u>:
@@ -56,14 +56,14 @@ O vídeo do produto não é reproduzido.
 
 Para aplicar patches individuais, use os links a seguir, dependendo do método de implantação:
 
-* Adobe Commerce ou Magento Open Source no local: [[!DNL Quality Patches Tool] > Uso](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) no [!DNL Quality Patches Tool] guia.
-* Adobe Commerce na infraestrutura em nuvem: [Upgrades e Patches > Aplicar Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) no guia do Commerce na infraestrutura em nuvem.
+* Adobe Commerce ou Magento Open Source no local: [[!DNL Quality Patches Tool] > Uso](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) no guia [!DNL Quality Patches Tool].
+* Adobe Commerce na infraestrutura em nuvem: [Atualizações e patches > Aplicar patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) no guia do Commerce na infraestrutura em nuvem.
 
 ## Leitura relacionada
 
 Para saber mais sobre [!DNL Quality Patches Tool], consulte:
 
-* [[!DNL Quality Patches Tool] lançado: uma nova ferramenta para autoatender correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de conhecimento de suporte.
-* [Verifique se o patch está disponível para o problema do Adobe Commerce usando [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de conhecimento de suporte.
+* [[!DNL Quality Patches Tool] versão: uma nova ferramenta para autoatender patches de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de dados de conhecimento de suporte.
+* [Verifique se há um patch disponível para o problema do Adobe Commerce usando o [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de dados de conhecimento de suporte.
 
-Para obter informações sobre outros patches disponíveis no QPT, consulte [[!DNL Quality Patches Tool]: Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) no [!DNL Quality Patches Tool] guia.
+Para obter informações sobre outros patches disponíveis no QPT, consulte [[!DNL Quality Patches Tool]: Pesquisar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) no guia [!DNL Quality Patches Tool].

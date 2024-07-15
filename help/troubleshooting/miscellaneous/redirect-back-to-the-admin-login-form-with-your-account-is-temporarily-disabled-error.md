@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Redirecione de volta para o formulário de logon de administrador do Commerce com o erro &quot;Sua conta está temporariamente desativada&quot;
 
-Este artigo fornece as soluções possíveis para o problema de logon de administrador do Commerce, em que você é redirecionado de volta para o formulário de logon com a seguinte mensagem de erro: *&quot;Sua conta está temporariamente desabilitada&quot;*. A solução sugerida é verificar e corrigir as configurações do banco de dados do usuário administrador.
+Este artigo fornece as soluções possíveis para o problema de logon de Administrador do Commerce, no qual você é redirecionado de volta ao formulário de logon com a seguinte mensagem de erro: *&quot;Sua conta está temporariamente desabilitada&quot;*. A solução sugerida é verificar e corrigir as configurações do banco de dados do usuário administrador.
 
 ## Edições e versões afetadas:
 
@@ -37,7 +37,7 @@ Você será redirecionado de volta ao formulário de logon, com a seguinte mensa
 ## Solução
 
 1. Criar um backup de banco de dados.
-1. Use uma ferramenta de banco de dados como [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin)ou acesse o DB manualmente a partir da linha de comando. No `admin_user` tabela do banco de dados, para seu registro de usuário administrador, verifique se `is_active` está definido como &quot;`1`&quot; e `lock_expires` é `NULL`. Redefina esses valores, se necessário.
+1. Use uma ferramenta de banco de dados, como o [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin), ou acesse o BD manualmente a partir da linha de comando. Na tabela do banco de dados `admin_user`, para seu registro de usuário administrador, verifique se `is_active` está definido como &quot;`1`&quot; e `lock_expires` é `NULL`. Redefina esses valores, se necessário.
 
 ## Leitura relacionada em nossa base de conhecimento de suporte
 

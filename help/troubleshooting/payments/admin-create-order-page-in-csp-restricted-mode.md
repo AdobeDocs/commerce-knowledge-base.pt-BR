@@ -1,5 +1,5 @@
 ---
-title: Solução de problemas de criação de página de pedido no [!UICONTROL CSP] modo restrito
+title: Solucionar problemas da página de criação de pedido no modo restrito [!UICONTROL CSP]
 description: Este artigo explica os erros ao criar um pedido no lado do Administrador quando o modo restrito da CSP está Habilitado e fornece soluções para corrigir esses erros.
 feature: Checkout,Security,Orders,Payments
 role: Developer
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# Solução de problemas de criação de página de pedido no [!UICONTROL CSP] modo restrito
+# Solucionar problemas da página de criação de pedido no modo restrito [!UICONTROL CSP]
 
-Este artigo fornece explicações e correções para problemas do Adobe Commerce 2.4.7 ao criar um pedido no lado do administrador com **[!UICONTROL CSP restricted mode]** é *Ativado*, com o &quot;*Recusou-se a executar o script integrado porque ele viola a seguinte diretiva de política de segurança de conteúdo: &quot;script-src ...*&quot;mensagem de erro no log do console do navegador.
+Este artigo fornece explicações e correções para os problemas do Adobe Commerce 2.4.7 ao criar uma ordem no lado do Administrador com **[!UICONTROL CSP restricted mode]** is *Enabled*, com o script &quot;*Recusado a executar o script integrado porque viola a seguinte diretiva de Política de Segurança de Conteúdo: mensagem de erro &quot;script-src ...*&quot; no log de console do navegador.
 
 ## Produtos e versões afetados
 
@@ -24,41 +24,41 @@ Adobe Commerce na infraestrutura em nuvem, Adobe Commerce no local e Magento Ope
 * 2,4,5-pX
 * 2,4,4-pX
 
-## Problema - Administrador **criar pedido** a página está quebrada ou não consegue carregar
+## Problema - A página **criar pedido** do administrador está corrompida ou não pode ser carregada
 
-O administrador **criar pedido** A página está quebrada ou não consegue carregar, com o &quot;*Recusou-se a executar o script integrado porque ele viola a seguinte diretiva de política de segurança de conteúdo: &quot;script-src ...*&quot;mensagem de erro no log do console do navegador.
+A página de ordem de criação **do administrador** está corrompida ou não pode ser carregada, com o script embutido &quot;*Recusado a executar porque viola a seguinte diretiva de Política de Segurança de Conteúdo: mensagem de erro &quot;script-src ...*&quot; no log de console do navegador.
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. Ir para **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
+1. Vá para **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 1. Criar um novo pedido.
 
 <u>Resultados esperados</u>:
 
-O administrador **criar pedido** A página é carregada normalmente.
+A página **criar ordem** do administrador é carregada normalmente.
 
 <u>Resultados reais</u>:
 
-O administrador **criar pedido** A página está em branco ou tem componentes ausentes. As seguintes [!DNL JS] o erro é exibido no log do console do navegador: &quot;*Recusou-se a executar o script integrado porque ele viola a seguinte diretiva de política de segurança de conteúdo: &quot;script-src ...*&quot;
+A página Admin **criar ordem** está em branco ou sem componentes. O seguinte erro [!DNL JS] é exibido no log do console do navegador: &quot;*Recusou-se a executar o script embutido porque ele viola a seguinte diretiva de Política de Segurança de Conteúdo: &quot;script-src ...*&quot;
 
 ### Causa
 
-No Adobe Commerce e Magento Open Source versões 2.4.7 e posteriores, **[!UICONTROL CSP]** está configurado em `restrict-mode`, por padrão, para páginas de pagamento nas áreas de vitrine e administração e no `report-only` para todas as outras páginas.
-Os correspondentes **[!UICONTROL CSP]** o cabeçalho não contém a variável `unsafe-inline` palavra-chave dentro do `script-src` diretiva para páginas de pagamento. Além disso, somente [!DNL whitelisted] scripts integrados são permitidos.
+No Adobe Commerce e Magento Open Source versões 2.4.7 e posteriores, o **[!UICONTROL CSP]** é configurado em `restrict-mode`, por padrão, para páginas de pagamento nas áreas de vitrine e administração, e no modo `report-only` para todas as outras páginas.
+O cabeçalho **[!UICONTROL CSP]** correspondente não contém a palavra-chave `unsafe-inline` dentro da diretiva `script-src` para páginas de pagamento. Além disso, somente [!DNL whitelisted] scripts integrados são permitidos.
 
 ### Solução
 
-Os usuários podem ver erros de navegador devido ao bloqueio de determinados scripts devido a [!UICONTROL CSP]:
+Os usuários podem ver erros de navegador devido ao bloqueio de determinados scripts por causa de [!UICONTROL CSP]:
 
 `Refused to execute inline script because it violates the following [!UICONTROL Content Security Policy] directive: "script-src`
 
 <u>Para corrigir esse problema, você deve</u>:
 
-1. [[!DNL Whitelist]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style) os scripts bloqueados usando o `SecureHtmlRenderer` classe.
-1. Use o `CSPNonceProvider` para permitir que scripts sejam executados.
-O Adobe Commerce e o Magento Open Source 2.4.7 e versões posteriores incluem uma **[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce] para facilitar a geração de dados únicos [!DNL nonce] strings para cada solicitação. Esses [!DNL nonce] as cadeias de caracteres são anexadas ao [!UICONTROL CSP] cabeçalho.
+1. [[!DNL Whitelist]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style) os scripts bloqueados usando a classe `SecureHtmlRenderer`.
+1. Use a classe `CSPNonceProvider` para permitir que scripts sejam executados.
+Adobe Commerce e Magento Open Source 2.4.7 e posterior incluem um provedor **[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce] para facilitar a geração de cadeias de caracteres [!DNL nonce] exclusivas para cada solicitação. Essas cadeias de caracteres [!DNL nonce] são anexadas ao cabeçalho [!UICONTROL CSP].
 
-   Use o `generateNonce` função em `Magento\Csp\Helper\CspNonceProvider` para obter uma [!DNL nonce] string.
+   Use a função `generateNonce` em `Magento\Csp\Helper\CspNonceProvider` para obter uma cadeia de caracteres [!DNL nonce].
 
    ```php
    use Magento\Csp\Helper\CspNonceProvider;
@@ -91,15 +91,15 @@ O Adobe Commerce e o Magento Open Source 2.4.7 e versões posteriores incluem um
    }
    ```
 
-1. [Adicionar um [!DNL hash]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#using-inline-scripts-and-styles-is-discouraged-in-favor-of-ui-components-and-classes) ao do seu módulo `csp_whitelist.xml` arquivo.
+1. [Adicione um [!DNL hash]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#using-inline-scripts-and-styles-is-discouraged-in-favor-of-ui-components-and-classes) ao arquivo `csp_whitelist.xml` do módulo.
 
 ## Problema - O método de pagamento está ausente ou não está funcionando
 
-O método de pagamento está ausente ou não está funcionando no Administrador **página de criação do pedido**, com o &quot;*Recusou-se a executar o script integrado porque ele viola a seguinte diretiva de política de segurança de conteúdo: &quot;script-src ...*&quot;mensagem de erro no log do console do navegador.
+O método de pagamento está ausente ou não está funcionando na **página de criação de pedido** do Administrador, com o script embutido &quot;*Recusado para executar porque ele viola a seguinte diretiva de Política de Segurança de Conteúdo: mensagem de erro &quot;script-src ...*&quot; no log de console do navegador.
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. Ir para **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
+1. Vá para **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 1. Criar um novo pedido.
 1. Crie um novo cliente.
 1. Informe os detalhes do cliente.
@@ -112,26 +112,26 @@ Você pode selecionar um método de pagamento e prosseguir para colocar um pedid
 
 <u>Resultados reais</u>:
 
-O método de pagamento está ausente ou não está funcionando. As seguintes [!DNL JS] o erro é exibido no log do console do navegador: &quot;*Recusou-se a executar o script integrado porque ele viola a seguinte diretiva de política de segurança de conteúdo: &quot;script-src ...*&quot;.
+O método de pagamento está ausente ou não está funcionando. O seguinte erro [!DNL JS] é exibido no log do console do navegador: &quot;*Recusou-se a executar o script embutido porque ele viola a seguinte diretiva de Política de Segurança de Conteúdo: &quot;script-src ...*&quot;.
 
 ### Causa
 
-No Adobe Commerce e Magento Open Source versões 2.4.7 e posteriores, **[!UICONTROL CSP]** está configurado em `restrict-mode`, por padrão, para páginas de pagamento nas áreas de vitrine e administração e no `report-only` para todas as outras páginas.
-Os correspondentes **[!UICONTROL CSP]** o cabeçalho não contém a variável `unsafe-inline` palavra-chave dentro do `script-src` diretiva para páginas de pagamento. Além disso, somente [!DNL whitelisted] scripts integrados são permitidos.
+No Adobe Commerce e Magento Open Source versões 2.4.7 e posteriores, o **[!UICONTROL CSP]** é configurado em `restrict-mode`, por padrão, para páginas de pagamento nas áreas de vitrine e administração, e no modo `report-only` para todas as outras páginas.
+O cabeçalho **[!UICONTROL CSP]** correspondente não contém a palavra-chave `unsafe-inline` dentro da diretiva `script-src` para páginas de pagamento. Além disso, somente [!DNL whitelisted] scripts integrados são permitidos.
 
 ### Solução
 
-Os usuários podem ver erros de navegador devido ao bloqueio de determinados scripts devido a **[!UICONTROL CSP]**:
+Os usuários podem ver erros de navegador devido ao bloqueio de determinados scripts por causa de **[!UICONTROL CSP]**:
 
 `Refused to execute inline script because it violates the following [!UICONTROL Content Security Policy] directive: "script-src`
 
 <u>Para corrigir esse problema, você deve</u>:
 
-1. [[!DNL Whitelist]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style) os scripts bloqueados usando o `SecureHtmlRenderer` classe.
-1. Use o `CSPNonceProvider` para permitir que scripts sejam executados.
-O Adobe Commerce e o Magento Open Source 2.4.7 e versões posteriores incluem uma **[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce] para facilitar a geração de dados únicos [!DNL nonce] strings para cada solicitação. Esses [!DNL nonce] as cadeias de caracteres são anexadas ao [!UICONTROL CSP] cabeçalho.
+1. [[!DNL Whitelist]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style) os scripts bloqueados usando a classe `SecureHtmlRenderer`.
+1. Use a classe `CSPNonceProvider` para permitir que scripts sejam executados.
+Adobe Commerce e Magento Open Source 2.4.7 e posterior incluem um provedor **[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce] para facilitar a geração de cadeias de caracteres [!DNL nonce] exclusivas para cada solicitação. Essas cadeias de caracteres [!DNL nonce] são anexadas ao cabeçalho [!UICONTROL CSP].
 
-   Use o `generateNonce` função em `Magento\Csp\Helper\CspNonceProvider` para obter uma [!DNL nonce] string.
+   Use a função `generateNonce` em `Magento\Csp\Helper\CspNonceProvider` para obter uma cadeia de caracteres [!DNL nonce].
 
    ```php
    use Magento\Csp\Helper\CspNonceProvider;
@@ -164,15 +164,15 @@ O Adobe Commerce e o Magento Open Source 2.4.7 e versões posteriores incluem um
    }
    ```
 
-1. [adicionar um [!DNL hash]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#using-inline-scripts-and-styles-is-discouraged-in-favor-of-ui-components-and-classes) ao do seu módulo `csp_whitelist.xml` arquivo.
+1. [adicione um [!DNL hash]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#using-inline-scripts-and-styles-is-discouraged-in-favor-of-ui-components-and-classes) ao arquivo `csp_whitelist.xml` do módulo.
 
 ## Problema - O administrador não pode fazer um pedido
 
-Um administrador não pode enviar um pedido para o Administrador **criar página de pedido**, com o &quot;*Recusou-se a executar o script integrado porque ele viola a seguinte diretiva de política de segurança de conteúdo: &quot;script-src ...*&quot;mensagem de erro no log do console do navegador.
+Um administrador não pode enviar um pedido na **página Criar pedido** do Administrador, com o script embutido &quot;*Recusado a executar, pois ele viola a seguinte diretiva de Política de Segurança de Conteúdo: mensagem de erro &quot;script-src ...*&quot; no log de console do navegador.
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. Ir para **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
+1. Vá para **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
 1. Criar um novo pedido.
 1. Crie um novo cliente.
 1. Informe os detalhes do cliente.
@@ -186,26 +186,26 @@ Você pode enviar um pedido com sucesso.
 
 <u>Resultados reais</u>:
 
-Você não pode enviar um pedido. As seguintes [!DNL JS] o erro é exibido no log do console do navegador: &quot;*Recusou-se a executar o script integrado porque ele viola a seguinte diretiva de política de segurança de conteúdo: &quot;script-src ...*&quot;
+Você não pode enviar um pedido. O seguinte erro [!DNL JS] é exibido no log do console do navegador: &quot;*Recusou-se a executar o script embutido porque ele viola a seguinte diretiva de Política de Segurança de Conteúdo: &quot;script-src ...*&quot;
 
 ### Causa
 
-No Adobe Commerce e Magento Open Source versões 2.4.7 e posteriores, **[!UICONTROL CSP]** está configurado em `restrict-mode`, por padrão, para páginas de pagamento nas áreas de vitrine e administração e no `report-only` para todas as outras páginas.
-Os correspondentes **[!UICONTROL CSP]** o cabeçalho não contém a variável `unsafe-inline` palavra-chave dentro do `script-src` diretiva para páginas de pagamento. Além disso, somente [!DNL whitelisted] scripts integrados são permitidos.
+No Adobe Commerce e Magento Open Source versões 2.4.7 e posteriores, o **[!UICONTROL CSP]** é configurado em `restrict-mode`, por padrão, para páginas de pagamento nas áreas de vitrine e administração, e no modo `report-only` para todas as outras páginas.
+O cabeçalho **[!UICONTROL CSP]** correspondente não contém a palavra-chave `unsafe-inline` dentro da diretiva `script-src` para páginas de pagamento. Além disso, somente [!DNL whitelisted] scripts integrados são permitidos.
 
 ### Solução
 
-Os usuários podem ver erros de navegador devido ao bloqueio de determinados scripts devido a **[!UICONTROL CSP]**:
+Os usuários podem ver erros de navegador devido ao bloqueio de determinados scripts por causa de **[!UICONTROL CSP]**:
 
 `Refused to execute inline script because it violates the following [!UICONTROL Content Security Policy] directive: "script-src`
 
 <u>Para corrigir esse problema, você deve</u>:
 
-1. [[!DNL Whitelist]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style) os scripts bloqueados usando o `SecureHtmlRenderer` classe.
-1. Use o `CSPNonceProvider` para permitir que scripts sejam executados.
-O Adobe Commerce e o Magento Open Source 2.4.7 e versões posteriores incluem uma **[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce] para facilitar a geração de dados únicos [!DNL nonce] strings para cada solicitação. Esses [!DNL nonce] as cadeias de caracteres são anexadas ao [!UICONTROL CSP] cabeçalho.
+1. [[!DNL Whitelist]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style) os scripts bloqueados usando a classe `SecureHtmlRenderer`.
+1. Use a classe `CSPNonceProvider` para permitir que scripts sejam executados.
+Adobe Commerce e Magento Open Source 2.4.7 e posterior incluem um provedor **[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce] para facilitar a geração de cadeias de caracteres [!DNL nonce] exclusivas para cada solicitação. Essas cadeias de caracteres [!DNL nonce] são anexadas ao cabeçalho [!UICONTROL CSP].
 
-   Use o `generateNonce` função em `Magento\Csp\Helper\CspNonceProvider` para obter uma [!DNL nonce] string.
+   Use a função `generateNonce` em `Magento\Csp\Helper\CspNonceProvider` para obter uma cadeia de caracteres [!DNL nonce].
 
    ```php
    use Magento\Csp\Helper\CspNonceProvider;
@@ -238,4 +238,4 @@ O Adobe Commerce e o Magento Open Source 2.4.7 e versões posteriores incluem um
    }
    ```
 
-1. [Adicionar um [!DNL hash]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#using-inline-scripts-and-styles-is-discouraged-in-favor-of-ui-components-and-classes) ao do seu módulo `csp_whitelist.xml` arquivo.
+1. [Adicione um [!DNL hash]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#using-inline-scripts-and-styles-is-discouraged-in-favor-of-ui-components-and-classes) ao arquivo `csp_whitelist.xml` do módulo.

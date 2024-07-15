@@ -27,10 +27,10 @@ Depois da primeira instalação ou atualização para ter o Inventory management
 
 ## Causa
 
-Quando você instala/atualiza pela primeira vez, todos os seus produtos são atribuídos à origem padrão, associando todas as quantidades a essa origem. A Origem padrão é atribuída ao Estoque padrão, com o Site padrão associado.
+Quando você instala/atualiza pela primeira vez, todos os seus produtos são atribuídos à origem padrão, associando todas as quantidades a essa origem. O Source padrão é atribuído ao Estoque padrão, com o Site padrão associado.
 
 ## Solução
 
 Se você tiver mais de um site, precisará adicioná-los como Sales Channel no Estoque padrão ou em outros estoques personalizados.
 
-Consulte a [Seção Stock do wiki/guia do usuário](https://docs.magento.com/m2/ce/user_guide/catalog/inventory-stock.html) em nosso guia do usuário para obter detalhes sobre como fazer isso.
+Consulte a seção [Stock do wiki/guia do usuário](https://docs.magento.com/m2/ce/user_guide/catalog/inventory-stock.html) em nosso guia do usuário para obter detalhes sobre como fazer isso.

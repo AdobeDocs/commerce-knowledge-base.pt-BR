@@ -11,4 +11,4 @@ ht-degree: 0%
 
 # Definição das configurações de DNS do Fastly nos ambientes de Preparo e Produção
 
-Consulte a [Configurar o Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html) consulte o artigo em nossa documentação do desenvolvedor para obter as informações mais recentes.
+Consulte o artigo [Setup Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html) em nossa documentação do desenvolvedor para obter as informações mais recentes.

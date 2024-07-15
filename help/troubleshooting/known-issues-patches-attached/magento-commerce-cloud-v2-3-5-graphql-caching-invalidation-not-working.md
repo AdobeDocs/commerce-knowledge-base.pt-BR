@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # A invalidação do armazenamento em cache do GraphQL do Adobe Commerce na infraestrutura em nuvem v2.3.5 não está funcionando
 
-Este artigo fornece uma correção para o problema em que o GraphQL `GET` a solicitação retorna informações desatualizadas se o cliente alterar as informações do produto.
+Este artigo fornece uma correção para o problema em que a solicitação do GraphQL `GET` retorna informações desatualizadas se o cliente alterar as informações do produto.
 
 ## Produtos e versões afetados
 
@@ -33,11 +33,11 @@ As solicitações do GraphQL são armazenadas em cache pelo Fastly e a versão e
 
 <u>Resultados esperados</u>:
 
-A variável `X-Cache` o cabeçalho contém `MISS`.
+O cabeçalho `X-Cache` contém `MISS`.
 
 <u>Resultados reais</u>:
 
-A variável `X-Cache` o cabeçalho contém `HIT`, o que significa que a resposta é armazenada em cache.
+O cabeçalho `X-Cache` contém `HIT`, o que significa que a resposta está armazenada em cache.
 
 ## Solução
 

@@ -27,7 +27,7 @@ Quando os clientes fazem pedidos, eles são exibidos na grade pedidos arquivados
 
 1. Adicione qualquer produto ao carrinho na loja, prossiga com o check-out e faça o pedido.
 1. No Administrador do Commerce, navegue até **Vendas** > **Operações** > **Pedido**. Veja a ordem de exibição na grade.
-1. Navegue até **Vendas** > **Arquivar** > **Pedidos**. Consulte a nova ordem na grade.
+1. Navegue até **Vendas** > **Arquivo** > **Pedidos**. Consulte a nova ordem na grade.
 
 <u>Resultados esperados</u>:
 
@@ -59,10 +59,10 @@ O patch também é compatível (mas pode não resolver o problema) com as seguin
 
 ## Como aplicar o patch
 
-Para obter instruções, consulte [Como aplicar um patch de compositor fornecido pelo Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de conhecimento de suporte.
+Para obter instruções, consulte [Como aplicar um patch de compositor fornecido pelo Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de dados de conhecimento de suporte.
 
 ## Links úteis em nosso guia do usuário
 
-* [Gerenciar pedidos arquivados](https://docs.magento.com/user-guide/sales/order-archive.html)
+* [Gerenciar ordens arquivadas](https://docs.magento.com/user-guide/sales/order-archive.html)
 
 ## Arquivos Anexados

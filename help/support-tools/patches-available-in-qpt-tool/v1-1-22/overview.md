@@ -1,6 +1,6 @@
 ---
-title: '"Visão geral: [!DNL Quality Patches Tool] (QPT) v1.1.22'''
-description: Esta subseção fornece uma descrição detalhada dos problemas corrigidos pelos patches disponíveis em [!DNL Quality Patches Tool] (QPT) v1.1.22.
+title: 'Visão geral: [!DNL Quality Patches Tool] (QPT) v1.1.22'
+description: Esta subseção fornece uma descrição detalhada dos problemas corrigidos pelos patches disponíveis no  [!DNL Quality Patches Tool] (QPT) v1.1.22.
 exl-id: 6cf830b2-11be-48e3-bd4b-f3c2dfb44f0f
 feature: Tools and External Services
 role: Admin
@@ -11,15 +11,15 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Quality Patches Tool] (QPT) v1.1.22 visão geral
+# Visão geral do [!DNL Quality Patches Tool] (QPT) v1.1.22
 
-Esta subseção fornece uma descrição detalhada dos problemas corrigidos pelos patches disponíveis em [!DNL Quality Patches Tool] (QPT) v1.1.22.
+Esta subseção fornece uma descrição detalhada dos problemas corrigidos pelos patches disponíveis no [!DNL Quality Patches Tool] (QPT) v1.1.22.
 
 O QPT v1.1.22 inclui os seguintes patches:
 
 1. **ACSD-47106**: corrige o problema em que um valor não pode ser salvo em um novo atributo personalizado em uma página de criação de empresa.
-1. **ACSD-47280**: corrige o problema em que a desativação do recurso de catálogo compartilhado em um escopo específico não funciona corretamente.
-1. **ACSD-47332**: corrige o problema em que o CRON falha com um erro que é relatado somente ao ser executado entre 00:00 e 00:59 UTC.
-1. **ACSD-47444**: corrige o _Tentando acessar o deslocamento da matriz no valor do tipo bool_ erro ao acessar certos caminhos de categorias não existentes para produtos conhecidos no PHP 7.4.
+1. **ACSD-47280**: corrige o problema em que a desabilitação do recurso de catálogo compartilhado em um escopo específico não funciona corretamente.
+1. **ACSD-47332**: corrige o problema em que o CRON falha com um erro que é relatado somente durante a execução entre 00:00 e 00:59 UTC.
+1. **ACSD-47444**: corrige o erro _Tentando acessar o deslocamento de matriz no valor do tipo bool_ ao acessar determinados caminhos de categoria não existentes para produtos conhecidos no PHP 7.4.
 
 Use o menu à esquerda para navegar até uma página de patch específica.

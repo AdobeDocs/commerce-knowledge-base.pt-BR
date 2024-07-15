@@ -17,7 +17,7 @@ Este artigo fornece uma solução para quando o cache da página estiver aquecen
 
 ## Produtos e versões afetados
 
-* Adobe Commerce na infraestrutura em nuvem, tudo [versões compatíveis](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
+* Adobe Commerce na infraestrutura em nuvem, todas as [versões com suporte](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
 
 ## Problema
 
@@ -37,8 +37,8 @@ O site não está disponível ou o tempo de resposta é muito alto.
 
 ## Solução
 
-Limitar o número de conexões simultâneas durante o aquecimento do cache. Isso requer a adição de `WARM_UP_CONCURRENCY` variável pós-implantação para especificar o número de solicitações de aquecimento que o script de aquecimento de cache pode enviar simultaneamente. Definir essa opção pode ajudar a gerenciar a carga na infraestrutura em nuvem da Adobe Commerce. Para etapas, consulte [Variáveis pós-implantação > WARM\_UP\_CONCURRENCY](https://devdocs.magento.com/cloud/env/variables-post-deploy.html#warm_up_concurrency) na documentação do desenvolvedor.
+Limitar o número de conexões simultâneas durante o aquecimento do cache. Isso requer a adição da variável de pós-implantação `WARM_UP_CONCURRENCY` para especificar o número de solicitações de aquecimento que o script de aquecimento de cache pode enviar simultaneamente. Definir essa opção pode ajudar a gerenciar a carga na infraestrutura em nuvem da Adobe Commerce. Para ver as etapas, consulte [Post-deploy variables > WARM\_UP\_CONCURRENCY](https://devdocs.magento.com/cloud/env/variables-post-deploy.html#warm_up_concurrency) na documentação do desenvolvedor.
 
 ## Leitura relacionada
 
-[Cache de página inteira](https://docs.magento.com/user-guide/system/cache-full-page.html) em nosso guia do usuário
+[Cache de Página Inteira](https://docs.magento.com/user-guide/system/cache-full-page.html) em nosso guia do usuário

@@ -30,12 +30,12 @@ Não há opção no Page Builder para adicionar o Recommendations do produto. O 
 ## Solução
 
 1. Verifique se você instalou o módulo separadamente executando o comando: `composer show magento/module-page-builder-product-recommendations`
-1. Se retornar a seguinte mensagem: *Pacote magento/module-page-builder-product-recommendations não encontrado*, você terá que instalá-lo executando o comando: `composer require magento/module-page-builder-product-recommendations`
+1. Se retornar a seguinte mensagem: *Pacote magento/module-page-builder-product-recommendations não encontrado*, será necessário instalá-lo executando o comando: `composer require magento/module-page-builder-product-recommendations`
 
-Ao ativar o Recommendations do produto no Page Builder, você poderá [adicionar uma unidade de recomendação](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html) a qualquer conteúdo criado no Page Builder.
+Ao habilitar o Recommendations do produto no Page Builder, você poderá [adicionar uma unidade de recomendação](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html) a qualquer conteúdo criado no Page Builder.
 
 ## Leitura relacionada
 
 * [Adicionar conteúdo - Recommendations do produto](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html) em nosso guia do usuário.
-* [Instalar e configurar o Recommendations do produto](https://devdocs.magento.com/recommendations/install-configure.html) na documentação do desenvolvedor.
-* [Guia do usuário do Adobe Commerce](https://docs.magento.com/user-guide/)
+* [Instale e configure o Recommendations do produto](https://devdocs.magento.com/recommendations/install-configure.html) na documentação do desenvolvedor.
+* [Guia do Usuário do Adobe Commerce](https://docs.magento.com/user-guide/)

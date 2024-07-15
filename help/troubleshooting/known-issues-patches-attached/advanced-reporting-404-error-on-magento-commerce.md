@@ -1,6 +1,6 @@
 ---
-title: '[!DNL Advanced Reporting] Erro 404 no Adobe Commerce'
-description: Este artigo fornece uma correção para o problema do Adobe Commerce quando um comerciante recebe um erro 404 ao tentar acessar [[!DNL Advanced Reporting]](https://experienceleague.adobe.com/docs/commerce-admin/config/general/advanced-reporting.html). Após a instalação deste patch, os usuários poderão acessar [!DNL Advanced Reporting].
+title: Erro '[!DNL Advanced Reporting] 404 no Adobe Commerce'
+description: Este artigo fornece uma correção para o problema do Adobe Commerce quando um comerciante recebe um erro 404 ao tentar acessar [[!DNL Advanced Reporting]](https://experienceleague.adobe.com/docs/commerce-admin/config/general/advanced-reporting.html). Após a instalação deste patch, os usuários poderão acessar o  [!DNL Advanced Reporting].
 exl-id: bac61704-44fe-4bd2-b342-af90219231ef
 feature: Configuration
 role: Developer
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 # [!DNL Advanced Reporting] Erro 404 no Adobe Commerce
 
-Este artigo fornece uma correção para o problema do Adobe Commerce quando um comerciante recebe um erro 404 ao tentar acessar o [[!DNL Advanced Reporting]](https://experienceleague.adobe.com/docs/commerce-admin/config/general/advanced-reporting.html). Após a instalação deste patch, os usuários poderão acessar [!DNL Advanced Reporting].
+Este artigo fornece uma correção para o problema do Adobe Commerce quando um comerciante recebe um erro 404 ao tentar acessar [[!DNL Advanced Reporting]](https://experienceleague.adobe.com/docs/commerce-admin/config/general/advanced-reporting.html). Após a instalação deste patch, os usuários poderão acessar [!DNL Advanced Reporting].
 
 Para verificar se esse patch pode resolver esse problema, revise primeiro os logs usando o seguinte comando:
 
 `zgrep analytics_collect_data var/log/support_report.log var/log/support_report.log.1.gz`
 
-Se você vir a variável `Not valid cipher` erro, aplique o patch anexado.
+Se você vir o erro `Not valid cipher`, aplique o patch anexado.
 
 ## Produtos e versões afetados
 
@@ -31,7 +31,7 @@ Um comerciante recebe um erro 404 ao tentar acessar [!DNL Advanced Reporting].
 
 ## Solução
 
-Para corrigir o problema, aplique a correção anexada a este artigo. Para baixá-lo, role para baixo até o final do artigo e clique no nome do arquivo ou clique no link a seguir: [Baixar MDVA-18980\_EE\_2.2.6\_COMPOSER\_v1](assets/MDVA-18980_EE_2.2.6_COMPOSER_v1.patch.zip)
+Para corrigir o problema, aplique a correção anexada a este artigo. Para baixá-lo, role até o final do artigo e clique no nome do arquivo ou clique no seguinte link: [Baixar MDVA-18980\_EE\_2.2.6\_COMPOSER\_v1](assets/MDVA-18980_EE_2.2.6_COMPOSER_v1.patch.zip)
 
 ## Como aplicar o patch
 

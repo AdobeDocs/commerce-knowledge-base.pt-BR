@@ -17,7 +17,7 @@ Este artigo fornece um patch para o problema B2B conhecido do Adobe Commerce 2.2
 
 ## Problema
 
-Os clientes (empresas) podem criar com êxito uma conta da empresa no site, mas obtenham a *&quot;Nenhuma entidade com customerId = &quot;* e *&quot;Você ainda não tem uma conta da empresa&quot;* mensagens de erro. Eles também podem obter a *&quot;Erro interno de servidor 500&quot;* ao tentar acessar a página Perfil da empresa.
+Os clientes (empresas) podem criar uma conta de empresa com êxito no site, mas recebem as mensagens de erro *&quot;Nenhuma entidade com customerId = &quot;* e *&quot;Você ainda não tem uma conta de empresa&quot;*. Eles também podem receber o *&quot;Erro interno de servidor 500&quot;* ao tentar acessar a página Perfil da empresa.
 
 ## Correção
 

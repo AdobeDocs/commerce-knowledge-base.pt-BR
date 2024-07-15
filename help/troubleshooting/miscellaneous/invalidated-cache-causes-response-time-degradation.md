@@ -41,23 +41,23 @@ Há dois tipos de cache no Adobe Commerce:
 
 ### Verifique se o cache foi invalidado
 
-Você pode encontrar informações sobre os tipos de cache invalidados na `<install_directory>/var/log/debug.log` arquivo.
+Você pode encontrar informações sobre os tipos de cache invalidados no arquivo `<install_directory>/var/log/debug.log`.
 
 Para fazer isso:
 
-1. Abertura `<install_directory>/var/log/debug.log`
-1. Pesquisar por &quot; *cache\_invalidate* &quot;.
+1. Abrir `<install_directory>/var/log/debug.log`
+1. Procure a mensagem &quot; *cache\_invalidate* &quot;.
 1. Em seguida, verifique a tag especificada. Indica qual cache foi liberado. Você pode ter problemas devido ao cache invalidado se vir uma tag sem uma ID de entidade específica especificada, por exemplo:
    * `cat_p` - significa cache de produto de catálogo.
    * `cat_c` - cache de categoria de catálogo.
    * `FPC` - cache de página inteira.
    * `CONFIG` - cache de configuração.
 
-   Mesmo que um deles fosse liberado, a resposta do site ficaria mais lenta. Se a tag contiver uma ID de entidade, por exemplo, `category_product_1258`, isso indicaria o cache de um produto ou categoria específica e assim por diante. A liberação do cache para um produto ou categoria específica não causaria uma queda significativa do tempo de resposta.
+   Mesmo que um deles fosse liberado, a resposta do site ficaria mais lenta. Se a marca contiver uma ID de entidade, por exemplo, `category_product_1258`, isso indicará o cache de um produto ou categoria específica, e assim por diante. A liberação do cache para um produto ou categoria específica não causaria uma queda significativa do tempo de resposta.
 
-Veja a seguir uma amostra de `debug.log` contendo registros sobre o `cat_p` e `category_product_15044` cache liberado:
+A seguir está uma amostra de um `debug.log` que contém registros sobre o cache `cat_p` e `category_product_15044` que foram liberados:
 
-![exemplo do conteúdo debug.log](assets/debug_log_sample.png)
+![amostra do conteúdo debug.log](assets/debug_log_sample.png)
 
 Normalmente, o cache é invalidado devido ao seguinte:
 
@@ -67,4 +67,4 @@ Normalmente, o cache é invalidado devido ao seguinte:
 ## Recomendação
 
 1. Evite liberar o cache da CLI do Commerce.
-1. Configurar indexadores para **Atualização por agendamento** em vez de **Atualizar no modo de salvamento** porque o último aciona uma reindexação completa. Para referência, consulte [Gerenciar os indexadores > Configurar indexadores](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#configure-indexers) na documentação do desenvolvedor.
+1. Configure indexadores para **Atualizar por agendamento** em vez de **Atualizar no modo de salvamento**, pois o último aciona a reindexação completa. Para referência, consulte [Gerenciar os indexadores > Configurar indexadores](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#configure-indexers) na documentação do desenvolvedor.

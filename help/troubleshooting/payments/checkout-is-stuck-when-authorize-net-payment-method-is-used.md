@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # O check-out fica paralisado quando o método de pagamento Authorize.net é usado
 
-Este artigo fornece uma explicação e correção para o problema do Adobe Commerce 2.3.X em que a finalização fica paralisada se Authorize.net for usado, com a *&#39;Não é possível ler a propriedade &#39;length&#39; de null&#39;* mensagem de erro no log do console do navegador.
+Este artigo fornece uma explicação e uma correção para o problema do Adobe Commerce 2.3.X em que o check-out fica interrompido se Authorize.net for usado, com a mensagem de erro *&#39;Não é possível ler a propriedade &#39;length&#39; de null&#39;* no log de console do navegador.
 
 ## Produtos e versões afetados
 
@@ -21,7 +21,7 @@ Este artigo fornece uma explicação e correção para o problema do Adobe Comme
 
 >[!NOTE]
 >
->A integração de pagamento principal do Adobe Commerce Authorize.Net foi descontinuada desde a versão 2.3.4 e foi completamente removida na versão 2.4.0. Use uma extensão que atenda às suas necessidades no [Adobe Commerce [!DNL Marketplace]](https://commercemarketplace.adobe.com/) em vez disso.
+>A integração de pagamento principal do Adobe Commerce Authorize.Net foi descontinuada desde a versão 2.3.4 e foi completamente removida na versão 2.4.0. Em vez disso, use uma extensão que atenda às suas necessidades da [Adobe Commerce [!DNL Marketplace]](https://commercemarketplace.adobe.com/).
 
 ## Problema
 
@@ -39,7 +39,7 @@ O iframe Authorize.net é carregado.
 
 <u>Resultado real</u>
 
-O ponteiro do Ajax é exibido e a página nunca é carregada. O seguinte erro JS é exibido no log do console do navegador: *&#39;TypeError não capturado: não é possível ler a propriedade &#39;length&#39; de nulo em b (jstest.authorize.net/v1/AcceptCore.js:1)&#39;*
+O ponteiro do Ajax é exibido e a página nunca é carregada. O seguinte erro JS é exibido no log do console do navegador: *&#39;TypeError Não Capturado: Não é possível ler a propriedade &#39;length&#39; de nulo em b (jstest.authorize.net/v1/AcceptCore.js:1)&#39;*
 
 ## Causa
 
@@ -47,7 +47,7 @@ Um dos motivos mais comuns para esse problema é a chave pública do cliente nã
 
 ## Solução
 
-Em **Lojas** > **Configurações** > **Configuração** > **Vendas** > **Métodos de pagamento**, no **Authorize.net** verifique se o valor está especificado na variável **Chave pública do cliente** campo. Se estiver vazio, insira o valor da chave da sua conta de comerciante Authorize.Net.
+Em **Lojas** > **Configurações** > **Configuração** > **Vendas** > **Métodos de Pagamento**, na seção **Authorize.net**, verifique se o valor está especificado no campo **Chave Pública do Cliente**. Se estiver vazio, insira o valor da chave da sua conta de comerciante Authorize.Net.
 
 Para que as alterações sejam aplicadas, limpe o cache executando
 

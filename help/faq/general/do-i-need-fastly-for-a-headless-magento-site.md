@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Todos os clientes devem usar o Fastly em seus ambientes de produção e preparo. O Fastly é uma Rede de Entrega de Conteúdo (CDN) que fornece armazenamento em cache de página completa, otimização de imagem e serviços de segurança (DDoS e WAF) como parte de seu Adobe Commerce em projetos de infraestrutura em nuvem. Esses são os componentes principais da solução da Adobe Commerce, fornecendo melhor desempenho e segurança. Esses recursos fazem parte da Conformidade com a PCI do Adobe. Você deve configurar esses serviços do Fastly nos ambientes Starter Master, Staging, Pro Staging e Production. Se você estiver usando o Adobe Commerce em uma implantação headless, todo o tráfego da API proveniente da Internet pública deverá passar pelo Fastly e recomendamos que você use o Fastly para armazenar as respostas do GraphQL em cache. Consulte [Guia do desenvolvedor do GraphQL > Armazenamento em cache com o Fastly](https://devdocs.magento.com/guides/v2.3/graphql/caching.html#caching-with-fastly) na documentação do desenvolvedor.
+>Todos os clientes devem usar o Fastly em seus ambientes de produção e preparo. O Fastly é uma Rede de Entrega de Conteúdo (CDN) que fornece armazenamento em cache de página completa, otimização de imagem e serviços de segurança (DDoS e WAF) como parte de seu Adobe Commerce em projetos de infraestrutura em nuvem. Esses são os componentes principais da solução da Adobe Commerce, fornecendo melhor desempenho e segurança. Esses recursos fazem parte da Conformidade com a PCI do Adobe. Você deve configurar esses serviços do Fastly nos ambientes Starter Master, Staging, Pro Staging e Production. Se você estiver usando o Adobe Commerce em uma implantação headless, todo o tráfego da API proveniente da Internet pública deverá passar pelo Fastly e recomendamos que você use o Fastly para armazenar as respostas do GraphQL em cache. Consulte o [Guia do desenvolvedor do GraphQL > Armazenamento em cache com o Fastly](https://devdocs.magento.com/guides/v2.3/graphql/caching.html#caching-with-fastly) em nossa documentação do desenvolvedor.
 
 ## **Pergunta**
 
@@ -25,7 +25,7 @@ Estou desenvolvendo uma implementação headless do Adobe Commerce. Ainda precis
 Não, você não. Nessa situação, você pode pular o uso do Fastly - pelo menos, no início do desenvolvimento.
 
 A única situação que talvez você não queira ativar é para uma implantação headless.
-Consulte [Nuvem para Adobe Commerce > Fastly](https://devdocs.magento.com/cloud/cdn/cloud-fastly.html) na documentação do desenvolvedor.
+Consulte [Cloud para Adobe Commerce > Fastly](https://devdocs.magento.com/cloud/cdn/cloud-fastly.html) em nossa documentação do desenvolvedor.
 
 Ainda assim, provavelmente, você precisará do Fastly para usar seu certificado SSL.
 
@@ -33,5 +33,5 @@ Todos os clientes do Adobe Commerce na infraestrutura em nuvem obtêm um certifi
 
 ## Mais informações
 
-* [Sites headless: qual é a grande vantagem da arquitetura dissociada?](https://pantheon.io/blog/headless-websites-whats-big-deal-decoupled-architecture) por [Josh Koenig](https://pantheon.io/team/josh-koenig).
-* [Fastly](https://devdocs.magento.com/cloud/cdn/cloud-fastly.html) na documentação do desenvolvedor.
+* [Sites headless: qual é a grande vantagem da arquitetura dissociada?](https://pantheon.io/blog/headless-websites-whats-big-deal-decoupled-architecture) de [Josh Koenig](https://pantheon.io/team/josh-koenig).
+* [Fastly](https://devdocs.magento.com/cloud/cdn/cloud-fastly.html) em nossa documentação para desenvolvedores.

@@ -24,19 +24,19 @@ Este artigo descreve um problema B2B conhecido do Adobe Commerce 2.4.2 em que um
 
 ## Problema
 
-<u>Etapas a serem reproduzidas</u> :
+<u>Etapas a serem reproduzidas</u>:
 
-1. Criar um carrinho **Regra de preço** que está vinculado a um método de pagamento (Exemplo: os usuários do Paypal recebem um desconto de 20%.).
+1. Crie uma **Regra de Preço** do carrinho vinculada a um método de pagamento (Exemplo: os usuários do Paypal recebem um desconto de 20%.).
 1. Crie uma Ordem de Compra (OC) e selecione Paypal como método de pagamento. O desconto é aplicado.
 1. A OC está aprovada.
 1. Ir para a página de pagamento para concluir o pedido.
 1. Selecione um método de pagamento diferente.
 
-<u>Resultados reais</u> :
+<u>Resultados reais</u>:
 
 O desconto da forma de pagamento permanece aplicado ao total do pedido.  Nenhuma mensagem de erro é exibida. O proprietário da loja poderá ver isso ao verificar o histórico do pedido.
 
-<u>Resultados esperados</u> : o desconto do método de pagamento é removido do total do pedido, conforme esperado.
+<u>Resultados esperados</u>: o desconto do método de pagamento foi removido do total do pedido, conforme esperado.
 
 ## Solução
 

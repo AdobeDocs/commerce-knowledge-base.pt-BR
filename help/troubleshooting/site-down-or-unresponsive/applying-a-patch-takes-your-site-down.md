@@ -50,13 +50,13 @@ Para versões Adobe Commerce no local e Magento Open Source 2.x,
 
    (Se o comando acima não funcionar, tente usar `-p2` em vez de `-p1`)
 
-1. Para que as alterações sejam refletidas, atualize o cache no Administrador em **Sistema** > **Gerenciamento de cache**.
+1. Para que as alterações sejam refletidas, atualize o cache no Administrador em **Sistema** > **Gerenciamento de Cache**.
 
 ### Adobe Commerce na infraestrutura em nuvem, todas as versões
 
 Para o Adobe Commerce na infraestrutura em nuvem, todas as versões,
 
-1. Remova o `%patch_name%.composer.patch` arquivo(s) do `m2-hotfixes` diretório.
+1. Remova o(s) arquivo(s) `%patch_name%.composer.patch` do diretório `m2-hotfixes`.
 1. Confirme e envie por push as alterações de código:
 
    ```
@@ -65,4 +65,4 @@ Para o Adobe Commerce na infraestrutura em nuvem, todas as versões,
 
 ## Leitura relacionada
 
-* [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de conhecimento de suporte.
+* [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de dados de conhecimento de suporte.

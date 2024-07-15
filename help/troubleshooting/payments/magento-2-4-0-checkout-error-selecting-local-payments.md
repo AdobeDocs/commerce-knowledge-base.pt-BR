@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Este artigo fala sobre uma solução para um problema conhecido no Adobe Commerce durante a finalização da compra, em que uma mensagem de erro é exibida ao selecionar um método de pagamento local para alguns países. Isso ocorre para os países: Bélgica, Itália, Países Baixos, Polônia e Espanha.
 
-A mensagem de erro, &quot;*No momento, não há métodos de pagamento disponíveis. Atualize seu endereço de cobrança.*&quot; aparecerá, mas os métodos de pagamento locais ainda aparecerão e funcionarão corretamente. Uma correção permanente estará disponível no Adobe Commerce 2.4.1.
+A mensagem de erro, &quot;*Não há métodos de pagamento disponíveis no momento. Atualize seu endereço de cobrança.*&quot; aparecerá, mas os métodos de pagamento locais ainda aparecerão e funcionarão corretamente. Uma correção permanente estará disponível no Adobe Commerce 2.4.1.
 
 ## Produtos e versões afetados
 
@@ -28,7 +28,7 @@ A mensagem de erro, &quot;*No momento, não há métodos de pagamento disponíve
 
 * O Adobe Commerce 2.4.0 está instalado.
 * Crie um produto e uma categoria.
-* Configurar [Método de pagamento Braintree](https://devdocs.magento.com/guides/v2.4/graphql/payment-methods/braintree.html).
+* Configurar [Método De Pagamento Braintree](https://devdocs.magento.com/guides/v2.4/graphql/payment-methods/braintree.html).
 
 <u>Etapas a serem reproduzidas</u>:
 
@@ -44,7 +44,7 @@ Os métodos de pagamento locais devem ser exibidos normalmente, sem uma mensagem
 
 <u>Resultado real</u>:
 
-A mensagem de erro, &quot;*No momento, não há métodos de pagamento disponíveis. Atualize seu endereço de cobrança.*&quot; for exibido, mas os métodos de pagamento locais ainda serão exibidos e funcionarão corretamente.
+A mensagem de erro, &quot;*Não há métodos de pagamento disponíveis no momento. Atualize seu endereço de cobrança.*&quot; aparece, mas os métodos de pagamento locais ainda serão exibidos e funcionarão corretamente.
 
 ## Solução
 

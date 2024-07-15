@@ -21,13 +21,13 @@ Adobe Commerce (todos os métodos de implantação) 2.4.4
 
 ## Problema
 
-Ao usar o Apple Pay ou o Google Pay como métodos de pagamento, os usuários obtêm o erro &quot;*O comando &#39;vault_capture&#39; não existe. Verifique o comando e tente novamente.*&quot; ao criar NFFs parciais.
+Ao usar o Apple Pay ou o Google Pay como métodos de pagamento, os usuários obtêm o erro &quot;*O comando ‘vault_capture’ não existe. Verifique o comando e tente novamente.*&quot; ao criar faturas parciais.
 
 <u>Etapas a serem reproduzidas</u>:
 
 1. Abra o site do Adobe Commerce.
 1. Adicione um produto simples ao carrinho (qtd. 2).
-1. Escolher **Apple Pay** ou **Google Pay** como a forma de pagamento do carrinho de compras.
+1. Escolha **Pagamento do Apple** ou **Pagamento do Google** como o método de pagamento do carrinho de compras.
 1. Coloque o pedido.
 1. Abrir detalhes do pedido no back-end.
 1. Criar uma fatura parcial.

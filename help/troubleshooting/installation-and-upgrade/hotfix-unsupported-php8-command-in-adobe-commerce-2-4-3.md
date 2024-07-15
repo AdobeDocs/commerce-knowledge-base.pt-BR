@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Este artigo fornece uma correção para quando os comerciantes tentam atualizar para o Adobe Commerce (todos os métodos de implantação) ou para o Magento Open Source 2.4.3 ou 2.3.7-p1. O seguinte erro é exibido:
 
-*Erro fatal do PHP: Erro não capturado: chamada para função indefinida Magento\Framework\Filesystem\Directory\str_contains() em &lt;...>/magento/vendor/magento/framework/Filesystem/Directory/DenyListPathValidator.php:74*
+*Erro fatal de PHP: Erro não capturado: chamada para função indefinida Magento\Framework\Filesystem\Directory\str_contains() em &lt;...>/magento/vendor/magento/framework/Filesystem/Directory/DenyListPathValidator.php:74*
 
 O problema será corrigido no escopo das versões 2.4.4, 2.4.3-p1 e 2.3.7-p2.
 
@@ -26,9 +26,9 @@ O problema será corrigido no escopo das versões 2.4.4, 2.4.3-p1 e 2.3.7-p2.
 
 ## Problema
 
-O problema é causado pelas novas versões do Adobe Commerce 2.4.3 e 2.3.7-p1 usando a função somente do PHP 8 `str_contains`. Adobe Commerce 2.4.3 e 2.3.7-p1 só são compatíveis com o PHP 7.4, então esta função não pode ser usada.
+O problema é causado pelas novas versões do Adobe Commerce 2.4.3 e 2.3.7-p1 usando apenas a função `str_contains` do PHP 8. Adobe Commerce 2.4.3 e 2.3.7-p1 só são compatíveis com o PHP 7.4, então esta função não pode ser usada.
 
-<u>Etapas a serem reproduzidas</u> :
+<u>Etapas a serem reproduzidas</u>:
 
 Tente atualizar para o Adobe Commerce 2.4.3 ou 2.3.7-p1.
 
@@ -42,7 +42,7 @@ Erro fatal do PHP.
 
 ## Solução
 
-Como solução alternativa, você executa o seguinte comando na CLI/Terminal: `composer require symfony/polyfill-php80` da pasta raiz Magento ou instale um patch de compositor.
+Como solução alternativa, você executa o seguinte comando no CLI/Terminal: `composer require symfony/polyfill-php80` da pasta raiz do Magento ou instala um patch de compositor.
 
 Para corrigir o problema da versão 2.4.3, o Adobe Commerce (todos os métodos de implantação) e os comerciantes de Magento Open Source devem aplicar o patch:
 
@@ -58,4 +58,4 @@ Consulte [Como aplicar um patch de compositor fornecido pelo Magento](/help/how-
 
 ## Leitura relacionada
 
-GitHub [Comando do PHP 8 não suportado no Magento 2.4.3 EE #33680](https://github.com/magento/magento2/issues/33680)
+GitHub [Comando PHP 8 sem suporte no Magento 2.4.3 EE #33680](https://github.com/magento/magento2/issues/33680)

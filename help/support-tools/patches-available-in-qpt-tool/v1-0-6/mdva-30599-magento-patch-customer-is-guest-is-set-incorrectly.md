@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # MDVA-30599: customer_is_guest foi definido incorretamente
 
-O patch MDVA-30599 corrige o problema em que as cotações de convidado criadas usando a API são marcadas incorretamente como cotações para clientes conectados. Este patch está disponível quando a variável [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) O 1.0.6 está instalado. O problema foi corrigido no Adobe Commerce 2.4.2.
+O patch MDVA-30599 corrige o problema em que as cotações de convidado criadas usando a API são marcadas incorretamente como cotações para clientes conectados. Este patch está disponível quando a [Ferramenta de Patches de Qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.6 está instalada. O problema foi corrigido no Adobe Commerce 2.4.2.
 
 ## Produtos e versões afetados
 
-**O patch é criado para a versão do Adobe Commerce:**
+**O patch foi criado para a versão do Adobe Commerce:**
 
 Adobe Commerce na infraestrutura em nuvem 2.3.5-p2
 
@@ -27,7 +27,7 @@ Adobe Commerce (todos os métodos de implantação) 2.3.4 - 2.4.0
 
 >[!NOTE]
 >
->O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com sua versão do Adobe Commerce, atualize o `magento/quality-patches` pacote para a versão mais recente e verifique a compatibilidade no [[!DNL Quality Patches Tool]: Página Procurar patches](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+>O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com a sua versão do Adobe Commerce, atualize o pacote `magento/quality-patches` para a versão mais recente e verifique a compatibilidade na [[!DNL Quality Patches Tool]: página Procurar patches](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
 
 ## Problema
 
@@ -36,8 +36,8 @@ As cotações de convidado criadas usando a API são marcadas incorretamente com
 <u>Etapas a serem reproduzidas</u>:
 
 1. Na loja do Adobe Commerce, adicione um produto ao carrinho como usuário convidado.
-1. No banco de dados do Adobe Commerce, localize as `quote_id_mask`.
-1. Enviar uma solicitação de API ao `quoteGuestCartRepositoryV1` Interface do Repositório de carrinho para carrinhos convidados. Isso pode ser feito por meio de solicitação Swagger ou cURL.
+1. No banco de dados do Adobe Commerce, localize o `quote_id_mask` correspondente.
+1. Envie uma solicitação de API para a interface do Repositório de Carrinhos `quoteGuestCartRepositoryV1` para carrinhos convidados. Isso pode ser feito por meio de solicitação Swagger ou cURL.
 
 ```curl
 curl -X GET "http://web2-73.sparta.corp.magento.com/dev/support/ee24dev/rest/all/V1/guest-carts/ToOwPtSBxkorkCLq6ztwupPd99y8zhky" -H "accept: application/json"
@@ -55,8 +55,8 @@ Em resposta, você recebe `"customer_is_guest": false`
 
 Para aplicar patches individuais, use os links a seguir, dependendo do método de implantação:
 
-* Adobe Commerce ou Magento Open Source no local: [Guia de atualização de software > Aplicar patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) na documentação do desenvolvedor.
-* Adobe Commerce na infraestrutura em nuvem: [Upgrades e Patches > Aplicar Patches](https://devdocs.magento.com/cloud/project/project-patch.html) na documentação do desenvolvedor.
+* Adobe Commerce ou Magento Open Source no local: [Guia de Atualização de Software > Aplicar Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) na documentação do desenvolvedor.
+* Adobe Commerce na infraestrutura em nuvem: [Atualizações e patches > Aplicar patches](https://devdocs.magento.com/cloud/project/project-patch.html) na documentação do desenvolvedor.
 
 ## Etapas adicionais necessárias após a instalação do patch
 
@@ -74,7 +74,7 @@ UPDATE quote SET customer_is_guest = 1 WHERE customer_id IS NULL;
 
 Para saber mais sobre a Ferramenta de correção de qualidade, consulte:
 
-* [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatendimento de correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de conhecimento de suporte.
-* [Verifique se o patch está disponível para o problema do Adobe Commerce usando a Ferramenta de patches de qualidade](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de conhecimento de suporte.
+* [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatender correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de dados de conhecimento de suporte.
+* [Verifique se o patch está disponível para o problema do Adobe Commerce usando a Ferramenta de Patches de Qualidade](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de dados de conhecimento de suporte.
 
 Para obter informações sobre outros patches disponíveis no QPT, consulte [Patches disponíveis no QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) na documentação do desenvolvedor.

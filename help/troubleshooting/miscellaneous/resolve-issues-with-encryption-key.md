@@ -21,7 +21,7 @@ Este artigo fala sobre como corrigir os problemas causados por a chave de cripto
 
 ## Problema
 
-Após importar um [dump do banco de dados](/help/how-to/general/create-database-dump-on-cloud.md) dos ambientes de Produção aos de Preparo/Integração, os números de cartão de crédito salvos parecem incorretos e/ou os pagamentos falham em integrações de pagamento que exigem o uso de credenciais de comerciantes.
+Depois de importar um [despejo de banco de dados](/help/how-to/general/create-database-dump-on-cloud.md) dos ambientes de Produção para os de Preparo/Integração, os números de cartão de crédito salvos parecem incorretos e/ou os pagamentos falham para integrações de pagamento que exigem o uso de credenciais de comerciante.
 
 ## Causa
 
@@ -33,8 +33,8 @@ Você precisa copiar a chave de criptografia do ambiente de origem e adicioná-l
 
 Para copiar a chave de criptografia:
 
-1. O SSH para o projeto que foi a origem do dump do banco de dados, conforme descrito em [SSH para o ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html) na documentação do desenvolvedor.
-1. Abertura `app/etc/env.php` em um editor de texto.
+1. O SSH para o projeto que foi a origem do despejo do banco de dados, conforme descrito em [SSH para o ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html) na documentação do desenvolvedor.
+1. Abra `app/etc/env.php` em um editor de texto.
 1. Copie o valor de `key` para `crypt`.
 
 ```php
@@ -44,12 +44,12 @@ return array ('crypt' =>      array ('key' => '<your encryption key>', ),);
 Para definir o valor da chave para o projeto de destino:
 
 1. Abra o [Cloud Console](https://console.adobecommerce.com) e localize o projeto.
-1. Defina o valor de [CRYPT\_KEY](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html) (em nossa documentação do desenvolvedor), conforme descrito em [Configurar o projeto](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html) na documentação do desenvolvedor. Isso acionará o processo de implantação e `CRYPT_KEY` será substituído na variável `app/etc/env.php` em cada implantação.
+1. Defina o valor da variável [CRYPT\_KEY](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html) (na documentação do desenvolvedor), conforme descrito em [Configurar o projeto](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html) na documentação do desenvolvedor. Isso disparará o processo de implantação e `CRYPT_KEY` será substituído no arquivo `app/etc/env.php` em cada implantação.
 
-Como opção, você pode substituir manualmente a chave de criptografia na `app/etc/env.php` arquivo:
+Como opção, você pode substituir manualmente a chave de criptografia no arquivo `app/etc/env.php`:
 
 1. SSH para o ambiente de destino.
-1. Abertura `app/etc/env.php` em um editor de texto.
-1. Cole os dados copiados como o `key` valor para `crypt`.
-1. Salvar o editado `env.php`.
-1. Limpar o cache no ambiente de destino executando `bin/magento cache:clean` ou no Administrador do Commerce em **Sistema** > **Ferramentas** > **Gerenciamento de cache**.
+1. Abra `app/etc/env.php` em um editor de texto.
+1. Cole os dados copiados como o valor `key` para `crypt`.
+1. Salve o `env.php` editado.
+1. Limpe o cache no ambiente de destino executando o `bin/magento cache:clean` ou no Administrador do Commerce em **Sistema** > **Ferramentas** > **Gerenciamento de Cache**.

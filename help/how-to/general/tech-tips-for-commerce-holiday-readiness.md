@@ -18,8 +18,8 @@ O pdf anexado oferece dicas sobre como preparar sua infraestrutura para alto tr�
 
 ## Produtos e versões afetados
 
-* Adobe Commerce na infraestrutura em nuvem, tudo [versões compatíveis](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf).
+* Adobe Commerce na infraestrutura em nuvem, todas as [versões com suporte](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf).
 
 ## Baixar o pdf
 
-Clique em [Dicas técnicas para preparação para feriados no Commerce.pdf](assets/tech-tips-for-commerce-holiday-readiness.pdf) para baixar o pdf.
+Clique em [Dicas técnicas para preparação para feriados do Commerce.pdf](assets/tech-tips-for-commerce-holiday-readiness.pdf) para baixar o pdf.

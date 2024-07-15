@@ -17,13 +17,13 @@ ATUALIZADO: 29 de fevereiro de 2019
 
 Este artigo fornece uma correção para quando a implantação falha porque o módulo Fastly é incompatível com sua versão atual do Adobe Commerce.
 
-**Problema:** A implantação falha após uma nova confirmação e envio por push, com a seguinte mensagem de erro:
+**Problema:** Falha na implantação após uma nova confirmação e envio por push, com a seguinte mensagem de erro:
 
 >\[Exceção\] Aviso: argumento ausente 3 para Fastly\\Cdn\\Plugin\\..., chamado em /app/vendor/magento/framework/Interception/Interceptor.php ... e definido em /app/vendor/fastly/magento2/Plugin/ExcludeFilesFromMinification.php ...
 
 **Causa:** alterações incompatíveis com versões anteriores no módulo Fastly v1.2.79.
 
-**Solução (temporária):** atualize o módulo Fastly para a versão 1.2.82 ou superior e faça upload de um novo VCL no Administrador do Commerce. Em seguida, confirme e envie as alterações para acionar uma implantação bem-sucedida.
+**Solução (temporária):** atualize o módulo Fastly para a versão 1.2.82 ou superior e carregue um novo VCL no Administrador do Commerce. Em seguida, confirme e envie as alterações para acionar uma implantação bem-sucedida.
 
 ## Versões afetadas
 
@@ -54,7 +54,7 @@ A implantação pode falhar com as seguintes mensagens de erro:
 [2019-01-23 00:00:00] CRITICAL: Command php ./bin/magento setup:static-content:deploy --ansi --no-interaction --jobs 1 --exclude-theme Magento/luma en_GB en_US returned code 1
 ```
 
-Se você estiver usando a solução Adobe Commerce na infraestrutura em nuvem, verá essa mensagem de erro no [implantar log](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html#log-deploy-log). Para o Adobe Commerce no local, você verá o erro na linha de comando.
+Se você estiver usando o Adobe Commerce na solução de infraestrutura em nuvem, verá esta mensagem de erro no [log de implantação](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html#log-deploy-log). Para o Adobe Commerce no local, você verá o erro na linha de comando.
 
 ## Causa
 
@@ -70,4 +70,4 @@ Para fazer isso, siga estas etapas:
    * se o módulo Fastly estiver incluído no magento-cloud-metappackage:    <pre>atualização do composer magento/magento-cloud-metappackage</pre>
    * se o módulo Fastly foi instalado separadamente (por exemplo, caso você esteja usando o Adobe Commerce no local, não o cloud edition) <pre>atualização rápida do composer/magento2</pre>
 1. Confirme e envie as alterações e acione o processo de implantação se ele não for feito automaticamente.
-1. No Administrador, [fazer upload do novo VCL para o Fastly](https://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html#upload-vcl-snippets).
+1. No Administrador, [carregue o novo VCL para o Fastly](https://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html#upload-vcl-snippets).

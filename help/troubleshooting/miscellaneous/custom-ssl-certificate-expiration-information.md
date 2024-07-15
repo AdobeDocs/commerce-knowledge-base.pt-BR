@@ -17,7 +17,7 @@ Este artigo fornece uma solução para quando um certificado SSL personalizado f
 
 ## Produtos e versões afetados
 
-Adobe Commerce na infraestrutura em nuvem, [todas as versões compatíveis](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+Adobe Commerce na infraestrutura em nuvem, [todas as versões com suporte](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Problema
 
@@ -41,11 +41,11 @@ O Adobe Commerce atualiza qualquer certificado quando ele está a 30 dias da exp
 
 Quando um comerciante opta por usar seu próprio certificado SSL personalizado, ele deve ser atualizado mais de 30 dias antes da expiração do certificado para garantir que não seja substituído por um certificado SSL interno da Adobe Commerce.
 
-Se você estiver em uma situação em que seu SSL personalizado foi substituído pelo nosso SSL interno e deseja substituí-lo pelo seu certificado SSL personalizado atualizado, [enviar uma solicitação de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) com o local em que você fez upload dos novos arquivos de certificado. Inclua a data de início do novo SSL. Depois que tivermos essas informações, poderemos prosseguir com a instalação do novo certificado SSL.
+Se você estiver em uma situação em que seu SSL personalizado foi substituído pelo nosso SSL interno e quiser substituí-lo pelo seu certificado SSL personalizado atualizado, [envie uma solicitação de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) com o local em que você carregou seus novos arquivos de certificado. Inclua a data de início do novo SSL. Depois que tivermos essas informações, poderemos prosseguir com a instalação do novo certificado SSL.
 
 ## Leitura relacionada
 
-* [Certificados SSL (TLS) para o Magento Commerce Cloud: Perguntas frequentes](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md) em nossa base de conhecimento de suporte.
-* [Referência de ferramentas de linha de comando: magento-cloud certificate:add](https://devdocs.magento.com/guides/v2.4/reference/cli/magento-cloud.html#certificateadd) na documentação do desenvolvedor.
-* [Lista de verificação de inicialização](https://devdocs.magento.com/cloud/live/site-launch-checklist.html)na documentação do desenvolvedor.
-* [Ferramenta de análise do acesso em todo o site](https://docs.magento.com/user-guide/reports/site-wide-analysis-tool.html#step-2-access-site-wide-analysis-tool) em nosso guia do usuário.
+* [Certificados SSL (TLS) para Magento Commerce Cloud: Perguntas frequentes](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md) em nossa base de dados de conhecimento de suporte.
+* [Referência de ferramentas de linha de comando: magento-cloud certificate:add](https://devdocs.magento.com/guides/v2.4/reference/cli/magento-cloud.html#certificateadd) em nossa documentação do desenvolvedor.
+* [Iniciar lista de verificação](https://devdocs.magento.com/cloud/live/site-launch-checklist.html)na documentação do desenvolvedor.
+* [Acesse a Ferramenta de Análise em Todo o Site](https://docs.magento.com/user-guide/reports/site-wide-analysis-tool.html#step-2-access-site-wide-analysis-tool) em nosso guia do usuário.

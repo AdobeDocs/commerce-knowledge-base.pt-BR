@@ -1,5 +1,5 @@
 ---
-title: Políticas do Serviço de Inteligência da Adobe Commerce
+title: Políticas de serviço do Adobe Commerce Intelligence
 description: Na Commerce Intelligence, nossa meta é fornecer um excelente atendimento ao cliente, proteger seus dados e fornecer o know-how necessário para tomar decisões orientadas por dados.
 exl-id: 2e1ef4b3-a77c-4281-8337-fb90574a44f7
 feature: Commerce Intelligence, User Account
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ---
 
-# Políticas do Serviço de Inteligência da Adobe Commerce
+# Políticas de serviço do Adobe Commerce Intelligence
 
 Na Commerce Intelligence, nossa meta é fornecer um excelente atendimento ao cliente, proteger seus dados e fornecer o know-how necessário para tomar decisões orientadas por dados.
 
@@ -38,16 +38,16 @@ Embora não possamos executar essas ações em seu nome, estamos dispostos a ori
 * Especificando ou modificando informações sobre faturamento
 * [Compartilhamento de painéis com outros usuários](/docs/commerce-business-intelligence/mbi/build/dashboards/share-dashboard-with-users.html?lang=en)
 * Discutir, criar ou modificar conexões de dados e detalhes do servidor
-* Executar funções de nível administrativo para usuários padrão ou somente leitura (por exemplo, [adicionar/editar métricas](/docs/commerce-business-intelligence/mbi/build/reports/ess-manage-data-metrics.html))
+* Executando funções de nível administrativo para usuários padrão ou somente leitura (por exemplo, [adicionando/editando métricas](/docs/commerce-business-intelligence/mbi/build/reports/ess-manage-data-metrics.html))
 * Divulgação de detalhes da conta - por exemplo, relatórios ou informações de faturamento - em chamadas telefônicas de entrada. Acompanharemos com um endereço de email registrado.
 
 Além das funções de segurança de dados listadas acima, há algumas solicitações relacionadas ao produto que nossa equipe de suporte não pode acomodar:
 
-* **Instrução de SQL** - Quer usar o Report Builder SQL, mas você não sabe o SQL? Sem preocupações - reunimos uma [tutorial](/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html) para ajudá-lo com as noções básicas.
+* **SQL de Ensino** - Deseja usar o Report Builder SQL, mas você não sabe o SQL? Não se preocupe - preparamos um [tutorial](/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html) para ajudá-lo com as noções básicas.
 
-* **Problemas de visualização de SQL não causados por defeitos do produto** - Se um gráfico acabar parecendo um pouco estranho e ele **não está** causado por um defeito do produto, é provável que a causa seja a própria consulta. Dê uma olhada em nosso [Tutorial de criação de visualizações de consultas SQL](/docs/commerce-business-intelligence/mbi/tutorials/create-visuals-from-sql.html) em nosso guia do usuário para obter orientação sobre como estruturar suas consultas para visualização.
-* **Depuração de consultas SQL** - Periodicamente, você pode encontrar erros non-EXPLAIN que impedem a execução da consulta. Recomendamos consultar o [Guia do usuário do Commerce Intelligence: uso do Report Builder SQL](/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html) e nosso tutorial SQL para obter ajuda sobre como a consulta deu errado.
+* **Problemas de visualização de SQL não causados por defeitos de produto** - Se um gráfico acabar parecendo um pouco estranho e **não for** causado por um defeito de produto, é provável que a causa seja a própria consulta. Veja nosso [Tutorial de criação de visualizações de consultas SQL](/docs/commerce-business-intelligence/mbi/tutorials/create-visuals-from-sql.html) em nosso guia do usuário para obter orientação sobre como estruturar suas consultas para visualização.
+* **Depurando consultas SQL** - Periodicamente, você pode encontrar erros não EXPLICAR que impedem a execução da consulta. Recomendamos consultar o [Guia do Usuário do Commerce Intelligence: usar o Report Builder SQL](/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html) e nosso tutorial SQL para ajudar a identificar onde a consulta deu errado.
 
 ## Como faço para enviar um tíquete?
 
-Você pode [enviar um tíquete](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) à nossa equipe de suporte clicando no link **Enviar um tíquete** na parte superior da página. Recomendamos fazer check-out [Informações no tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#info-in-support-ticket) antes de entrar em contato conosco para verificar se todas as informações necessárias estão no seu envio inicial.
+Você pode [enviar um tíquete](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) para nossa equipe de suporte clicando no link **Enviar um tíquete** na parte superior da página. Recomendamos verificar as [Informações no seu tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#info-in-support-ticket) antes de entrar em contato conosco para verificar se todas as informações necessárias estão no seu envio inicial.

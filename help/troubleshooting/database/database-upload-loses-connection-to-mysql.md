@@ -35,16 +35,16 @@ Isso geralmente ocorre devido à falta de espaço em disco para importar o banco
 
 ## Solução
 
-Verifique se há falta de espaço em disco. Para fazer isso, execute o `netcat` na CLI em relação à porta de banco de dados 3306; haverá uma mensagem de disco cheio se estiver cheio:
+Verifique se há falta de espaço em disco. Para fazer isso, execute o comando `netcat` na CLI em relação à porta de banco de dados 3306; haverá uma mensagem de disco cheio se estiver cheio:
 
 ```
 web@ddc35c264bd89a72042f1f3e5a:~$ nc database.internal 3306
 Database out of space
 ```
 
-Será necessário alocar mais espaço para o banco de dados em seu `services.yaml` e implantar se você tiver algum espaço não utilizado. Para etapas, consulte [Espaço em disco do serviço](https://devdocs.magento.com/cloud/project/manage-disk-space.html#service-disk-space).
+Será necessário alocar mais espaço para o banco de dados no `services.yaml` e implantar se houver espaço não utilizado. Para obter as etapas, consulte [Espaço em Disco do Serviço](https://devdocs.magento.com/cloud/project/manage-disk-space.html#service-disk-space).
 
-Observação: No plano Pro architecture, você pode verificar o espaço alocado em sua partição executando o seguinte comando: `df -h`
+Observação: no plano Pro architecture, você pode verificar o espaço alocado em sua partição executando o seguinte comando: `df -h`
 
 Espere uma saída semelhante à seguinte. Neste exemplo, 10 GB dos 25 GB alocados são usados, com 15 GB de espaço MySQL não sendo usados.
 

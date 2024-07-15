@@ -20,8 +20,8 @@ Este artigo instrui como aplicar um patch de compositor para Adobe Commerce no l
 
 ## Como aplicar um patch compositor para Adobe Commerce na infraestrutura em nuvem {#cloud}
 
-1. Se você não tiver um diretório chamado `m2-hotfixes` na raiz do projeto, crie uma.
-1. Copie o `%patch_name%.composer.patch` arquivo(s) para o `m2-hotfixes` diretório.
+1. Se você não tiver um diretório chamado `m2-hotfixes` na raiz do projeto, crie um.
+1. Copie o(s) arquivo(s) `%patch_name%.composer.patch` para o diretório `m2-hotfixes`.
 1. Adicionar, confirmar e enviar por push suas alterações de código:
 
    ```git
@@ -49,4 +49,4 @@ Para obter informações adicionais sobre como aplicar patches a projetos na nuv
 
    (Se o comando acima não funcionar, tente usar `-p2` em vez de `-p1` )
 
-1. Para que as alterações sejam refletidas, atualize o cache no Administrador em **Sistema** > **Gerenciamento de cache**.
+1. Para que as alterações sejam refletidas, atualize o cache no Administrador em **Sistema** > **Gerenciamento de Cache**.

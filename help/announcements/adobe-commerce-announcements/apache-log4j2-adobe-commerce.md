@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # Vulnerabilidade do Apache log4j2 no Adobe Commerce
 
-Consulte a [Vulnerabilidade do Apache Log4j2 no Adobe Commerce](https://community.magento.com/t5/Magento-DevBlog/Apache-Log4j2-Vulnerability-in-Adobe-Commerce/ba-p/488683) Publicação do DevBlog para a comunicação mais recente do Adobe Commerce relacionada à vulnerabilidade da biblioteca Apache log4j.
+Consulte a [Vulnerabilidade do Apache Log4j2 no DevBlog do Adobe Commerce](https://community.magento.com/t5/Magento-DevBlog/Apache-Log4j2-Vulnerability-in-Adobe-Commerce/ba-p/488683) para obter a comunicação mais recente do Adobe Commerce relacionada à vulnerabilidade da biblioteca Apache log4j.

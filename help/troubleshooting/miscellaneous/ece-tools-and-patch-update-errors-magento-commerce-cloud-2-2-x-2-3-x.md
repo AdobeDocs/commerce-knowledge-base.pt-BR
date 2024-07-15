@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Erros de atualização de patch e ferramentas ECE Adobe Commerce cloud infrastructure 2.2.x., 2.3.x
 
-Este artigo fornece uma solução para o problema em que você vê mensagens de erro, incluindo &quot;*falha ao abrir o fluxo:*&quot; ou &quot;*Arquivo ou diretório inexistente*&quot; ao tentar implantar atualizações para ECE-Tools, patches ou outras alterações.
+Este artigo fornece uma solução para o problema em que você vê mensagens de erro, incluindo &quot;*falha ao abrir o fluxo:*&quot; ou &quot;*Arquivo ou diretório inexistente*&quot; ao tentar implantar atualizações para Ferramentas ECE, patches ou outras alterações.
 
 ## Produtos e versões afetados
 
@@ -21,7 +21,7 @@ Adobe Commerce na infraestrutura em nuvem 2.2.x., 2.3.x
 
 ## Problema
 
-Erros ao tentar implantar atualizações para ECE-Tools, patches ou outras alterações incluem: erros de PHP no Cloud Console e no `var/log/cloud.log`
+Erros ao tentar implantar atualizações para ECE-Tools, patches ou outras alterações incluem: erros de PHP no Console da Nuvem e no `var/log/cloud.log`
 
 ```
 W: PHP Warning: require(<path to file>): failed to open stream: No such file or directory in <path to file> on line 70
@@ -65,11 +65,11 @@ on line 63 in /app/vendor/magento/framework/App/ErrorHandler.php:61
 
 ## Causa
 
-Configuração incorreta do `composer.json` arquivo.
+Configuração incorreta do arquivo `composer.json`.
 
 ## Solução
 
-Se uma configuração não estiver presente no seu `composer.json` alguns diretórios não serão copiados da Base de código Adobe Commerce. O pacote e a atualização/correção não podem ser aplicados porque os arquivos não serão encontrados.
+Se uma configuração estiver ausente no arquivo `composer.json`, alguns diretórios não serão copiados da Base de Código Adobe Commerce. O pacote e a atualização/correção não podem ser aplicados porque os arquivos não serão encontrados.
 
 Altere sua seção extra para corresponder à fornecida abaixo e tente implantar novamente.
 
@@ -82,4 +82,4 @@ Altere sua seção extra para corresponder à fornecida abaixo e tente implantar
 
 ## Leitura relacionada
 
-* [Atualizações e patches](https://devdocs.magento.com/guides/v2.3/cloud/project/project-upgrade-parent.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=update%20ece%20tools) na documentação do desenvolvedor.
+* [Atualizações e correções](https://devdocs.magento.com/guides/v2.3/cloud/project/project-upgrade-parent.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=update%20ece%20tools) em nossa documentação para desenvolvedores.

@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # MDVA-31763: as regras de preço do catálogo são revertidas até a reindexação manual
 
-O patch MDVA-31763 resolve o problema em que as regras de preço do catálogo são revertidas até a reindexação manual. Este patch está disponível quando a variável [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) O 1.1.5 está instalado. A ID do patch é MDVA-31763. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.4.
+O patch MDVA-31763 resolve o problema em que as regras de preço do catálogo são revertidas até a reindexação manual. Este patch está disponível quando a [Ferramenta de Patches de Qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.5 está instalada. A ID do patch é MDVA-31763. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.4.
 
 ## Produtos e versões afetados
 
-**O patch é criado para a versão do Adobe Commerce:**
+**O patch foi criado para a versão do Adobe Commerce:**
 
 * Adobe Commerce (todos os métodos de implantação) 2.3.5-p1
 
@@ -27,18 +27,18 @@ O patch MDVA-31763 resolve o problema em que as regras de preço do catálogo s�
 
 >[!NOTE]
 >
->O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com sua versão do Adobe Commerce, atualize o `magento/quality-patches` pacote para a versão mais recente e verifique a compatibilidade no [[!DNL Quality Patches Tool]: Página Procurar patches](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+>O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com a sua versão do Adobe Commerce, atualize o pacote `magento/quality-patches` para a versão mais recente e verifique a compatibilidade na [[!DNL Quality Patches Tool]: página Procurar patches](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
 
 ## Problema
 
-Quando `catalogrule_product` o indexador parcial é executado em produtos configuráveis, as regras de catálogo desaparecem.
+Quando o indexador parcial `catalogrule_product` é executado em produtos configuráveis, as regras de catálogo desaparecem.
 
 <u>Etapas a serem reproduzidas</u>:
 
 1. Faça logon no back-end do Administrador.
-1. Ir para **Lojas** > **Atributos** > **Produto** e procure pelo atributo &quot;fabricante&quot;.
-   * Adicione algumas opções e defina &quot;Usar para condições de regra promocional&quot; como *Sim*.
-1. Ir para **Lojas** > **Atributos** > **Conjuntos de atributos**.
+1. Vá para **Lojas** > **Atributos** > **Produto** e procure o atributo &quot;fabricante&quot;.
+   * Adicione algumas opções e defina &quot;Usar para Condições de Regra Promocional&quot; como *Sim*.
+1. Vá para **Lojas** > **Atributos** > **Conjuntos de Atributos**.
    * Selecione o conjunto de atributos padrão e adicione o atributo &quot;fabricante&quot; a ele.
 1. Crie um produto configurável com algumas variações.
 1. Defina o valor do atributo &quot;fabricante&quot; para o produto configurável criado anteriormente.
@@ -46,7 +46,7 @@ Quando `catalogrule_product` o indexador parcial é executado em produtos config
    * Ativo = Sim
    * Sites = Site Principal
    * Grupos de Clientes = NÃO CONECTADO
-   * Condições: fabricante = \&lt;selected value=&quot;&quot; for=&quot;&quot; configurable=&quot;&quot; product=&quot;&quot;>
+   * Condições: fabricante = \&lt;valor selecionado para o produto configurável>
    * Ações: Qualquer desconto
 1. Fazer um índice completo.
 1. Verifique o preço do produto no PDP e certifique-se de que o preço esteja correto.
@@ -65,14 +65,14 @@ As regras de preço de catálogo definidas em produtos configuráveis desaparece
 
 Para aplicar patches individuais, use os links a seguir, dependendo do método de implantação:
 
-* Adobe Commerce ou Magento Open Source no local: [Guia de atualização de software > Aplicar patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) na documentação do desenvolvedor.
-* Adobe Commerce na infraestrutura em nuvem: [Upgrades e Patches > Aplicar Patches](https://devdocs.magento.com/cloud/project/project-patch.html) na documentação do desenvolvedor.
+* Adobe Commerce ou Magento Open Source no local: [Guia de Atualização de Software > Aplicar Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) na documentação do desenvolvedor.
+* Adobe Commerce na infraestrutura em nuvem: [Atualizações e patches > Aplicar patches](https://devdocs.magento.com/cloud/project/project-patch.html) na documentação do desenvolvedor.
 
 ## Leitura relacionada
 
 Para saber mais sobre a Ferramenta de correção de qualidade, consulte:
 
-* [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatendimento de correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de conhecimento de suporte.
-* [Verifique se o patch está disponível para o problema do Adobe Commerce usando a Ferramenta de patches de qualidade](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de conhecimento de suporte.
+* [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatender correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de dados de conhecimento de suporte.
+* [Verifique se o patch está disponível para o problema do Adobe Commerce usando a Ferramenta de Patches de Qualidade](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de dados de conhecimento de suporte.
 
-Para obter informações sobre outros patches disponíveis no QPT, consulte o [Patches disponíveis no QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-MQP-tool-) seção.
+Para obter informações sobre outros patches disponíveis no QPT, consulte a seção [Patches disponíveis no QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-MQP-tool-).

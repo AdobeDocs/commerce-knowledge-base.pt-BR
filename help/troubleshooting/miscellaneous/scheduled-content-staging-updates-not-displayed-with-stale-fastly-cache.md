@@ -17,27 +17,27 @@ Este artigo fornece uma correção para quando as lojas Adobe Commerce não exib
 
 ## Problema
 
-Atualizações programadas para um ativo de conteúdo de armazenamento (página, produto, bloco etc.) não são exibidos na loja imediatamente após a hora de início da atualização. Isso acontece quando as atualizações foram agendadas usando o [Preparo de conteúdo](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html) funcionalidade.
+Atualizações programadas para um ativo de conteúdo de armazenamento (página, produto, bloco etc.) não são exibidos na loja imediatamente após a hora de início da atualização. Isso acontece quando as atualizações foram agendadas usando a funcionalidade [Preparo de conteúdo](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html).
 
 ## Causa
 
-Devido à funcionalidade Soft Purge do Fastly (ativada por padrão), a loja do Adobe Commerce ainda recebe o conteúdo antigo (obsoleto) em cache ao enviar **o primeiro** solicitação de atualização do ativo para o Fastly. O Fastly requer uma segunda solicitação para gerar novamente os dados do site.
+Devido à funcionalidade de Limpeza suave do Fastly (habilitada por padrão), a loja do Adobe Commerce ainda recebe o conteúdo antigo em cache (obsoleto) ao enviar a **primeira** solicitação do ativo atualizado para o Fastly. O Fastly requer uma segunda solicitação para gerar novamente os dados do site.
 
 Como resultado, o Fastly pode enviar conteúdo obsoleto até a segunda solicitação do conteúdo atualizado.
 
-**Armazenamento em cache esperado:** Depois de agendar uma atualização para um ativo de conteúdo usando o Preparo de conteúdo, o Adobe Commerce envia uma solicitação para atualizar o cache para o Fastly. O Fastly invalida o conteúdo em cache anterior (sem excluir o conteúdo) e inicia o fornecimento do conteúdo atualizado.
+**Cache esperado:** depois que agendamos uma atualização para um ativo de conteúdo usando o Armazenamento temporário de conteúdo, o Adobe Commerce envia uma solicitação para atualizar o cache para o Fastly. O Fastly invalida o conteúdo em cache anterior (sem excluir o conteúdo) e inicia o fornecimento do conteúdo atualizado.
 
-**Armazenamento em cache real:** Se o Fastly ainda enviar o conteúdo obsoleto ao receber **o primeiro** solicitação para o conteúdo atualizado, ele só enviará conteúdo gerado novamente e correto depois de receber **o segundo** solicitação. Esse comportamento foi implementado para reduzir a carga do servidor, renovando o cache somente em áreas com tráfego comprovado, sem regenerar o cache para todo o site. O Fastly atualiza o cache gradualmente, salvando os recursos do aplicativo.
+**Cache real:** se o Fastly ainda enviar o conteúdo obsoleto ao receber a **primeira** solicitação do conteúdo atualizado, ele só enviará conteúdo regenerado e correto depois de receber a **segunda** solicitação. Esse comportamento foi implementado para reduzir a carga do servidor, renovando o cache somente em áreas com tráfego comprovado, sem regenerar o cache para todo o site. O Fastly atualiza o cache gradualmente, salvando os recursos do aplicativo.
 
 ## Solução
 
 Se o fornecimento de conteúdo obsoleto, mesmo para a primeira solicitação, for inaceitável, você poderá desativar a Expurgação Temporária e ativar a página Expurgar CMS:
 
 1. Faça logon no Administrador local do Commerce como administrador.
-1. Ir para **Lojas** > **Configuração** > **Avançado** > **Sistema** > **Cache de Página Inteira**.
-1. Expandir **Configuração do Fastly**, em seguida, expandir **Avançado**.
-1. Definir **Usar limpeza suave** para *Não*.
-1. Definir **Página Expurgar CMS** para *Sim*.
+1. Vá para **Lojas** > **Configuração** > **Avançado** > **Sistema** > **Cache de Página Inteira**.
+1. Expanda **Configuração Rápida** e **Avançado**.
+1. Definir **Usar Limpeza Flexível** para *Não*.
+1. Defina **Limpar página CMS** como *Sim*.
 1. Clique em **Salvar configuração** na parte superior da página.
 
 
@@ -45,6 +45,6 @@ Se o fornecimento de conteúdo obsoleto, mesmo para a primeira solicitação, fo
 
 ## Documentação relacionada
 
-* [Configurar opções de limpeza](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) no Guia de infraestrutura do Commerce na nuvem.
-* [Preparo de conteúdo](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html) na documentação Conteúdo e design.
-* [Disponibilização de conteúdo obsoleto](https://docs.fastly.com/guides/performance-tuning/serving-stale-content) na documentação do Fastly.
+* [Configure as opções de limpeza](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) no Guia de Infraestrutura do Commerce na Nuvem.
+* [Preparo de conteúdo](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html) na documentação de Conteúdo e Design.
+* [Veiculação de conteúdo obsoleto](https://docs.fastly.com/guides/performance-tuning/serving-stale-content) na documentação do Fastly.

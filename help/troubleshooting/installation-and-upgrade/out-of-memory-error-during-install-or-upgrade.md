@@ -40,24 +40,24 @@ O também pode ser exibido na linha de comando.
 
 ## Solução {#solution}
 
-Recomendamos você [alocar 2 GB de memória para o PHP](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html) na documentação do desenvolvedor para garantir que a instalação ou atualização seja bem-sucedida.
+Recomendamos que você [aloque 2GB de memória para o PHP](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html) em nossa documentação do desenvolvedor para ter certeza de que sua instalação ou atualização terá êxito.
 
-Se você já tiver feito isso, crie um arquivo de troca em sua máquina. Uma máquina Linux usa *espaço de troca* se precisar de mais recursos de memória e a RAM estiver cheia. O espaço de permuta é usado para páginas inativas na memória.
+Se você já tiver feito isso, crie um arquivo de troca em sua máquina. Um computador Linux usa *espaço de troca* se precisar de mais recursos de memória e a RAM estiver cheia. O espaço de permuta é usado para páginas inativas na memória.
 
-Estas são apenas sugestões; outras opções podem estar disponíveis. Consulte um administrador de rede ou outro recurso qualificado antes de continuar. Você deve executar os comandos para criar um arquivo de troca como um usuário com `root` privilégios.
+Estas são apenas sugestões; outras opções podem estar disponíveis. Consulte um administrador de rede ou outro recurso qualificado antes de continuar. Você deve executar os comandos para criar um arquivo de troca como um usuário com privilégios `root`.
 
 ### Trocar arquivo no Ubuntu {#swap-file-on-ubuntu}
 
-Use o `fallocate` conforme discutido nestas referências:
+Use o comando `fallocate` conforme discutido nestas referências:
 
 * [Como adicionar troca no Ubuntu 14.04 (DigitalOcean)](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-14-04)
-* [Como adicionar espaço de troca no Ubuntu 16.04 (Digitalmarine)](https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-16-04)
-* [SwapFaq (help.ubuntu.com)](https://help.ubuntu.com/community/SwapFaq)
+* [Como Adicionar Espaço De Troca No Ubuntu 16.04 (DigitalOcean)](https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-16-04)
+* [PerguntasFrequentesSwap (help.ubuntu.com)](https://help.ubuntu.com/community/SwapFaq)
 
 ### Trocar arquivo no CentOS {#swap-file-on-centos}
 
-Use o `mkswap` conforme discutido nestas referências:
+Use o comando `mkswap` conforme discutido nestas referências:
 
-* [Como adicionar troca no CentOS 6 (Digitalmarine)](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-centos-6)
-* [Como adicionar troca no CentOS 7 (DigitalOcean)](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-centos-7)
-* [Espaço de troca (portal do cliente RedHat)](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Storage_Administration_Guide/ch-swapspace.html)
+* [Como Adicionar Troca no CentOS 6 (DigitalOcean)](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-centos-6)
+* [Como Adicionar Troca no CentOS 7 (DigitalOcean)](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-centos-7)
+* [Espaço de Troca (portal do cliente RedHat)](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Storage_Administration_Guide/ch-swapspace.html)

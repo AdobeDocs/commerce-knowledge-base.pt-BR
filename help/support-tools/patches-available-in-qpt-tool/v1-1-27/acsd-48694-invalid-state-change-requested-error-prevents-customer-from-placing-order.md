@@ -11,13 +11,13 @@ ht-degree: 0%
 
 ---
 
-# ACSD-48694: *Alteração de estado inválida solicitada* o erro impede que o cliente faça o pedido
+# ACSD-48694: *Solicitação de alteração de estado inválida*. O erro impede que o cliente faça o pedido
 
-O patch ACSD-48694 corrige o problema em que o erro *Alteração de estado inválida solicitada* impede que um cliente faça um pedido. Este patch está disponível quando a variável [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) O 1.1.27 está instalado. A ID do patch é ACSD-48694. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.7.
+O patch ACSD-48694 corrige o problema em que o erro *Alteração de estado inválida solicitada* impede que um cliente faça um pedido. Este patch está disponível quando o [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.27 está instalado. A ID do patch é ACSD-48694. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.7.
 
 ## Produtos e versões afetados
 
-**O patch é criado para a versão do Adobe Commerce:**
+**O patch foi criado para a versão do Adobe Commerce:**
 
 * Adobe Commerce (todos os métodos de implantação) 2.4.4
 
@@ -27,17 +27,17 @@ O patch ACSD-48694 corrige o problema em que o erro *Alteração de estado invá
 
 >[!NOTE]
 >
->O patch pode se tornar aplicável a outras versões com novos [!DNL Quality Patches Tool] versões. Para verificar se o patch é compatível com sua versão do Adobe Commerce, atualize o `magento/quality-patches` pacote para a versão mais recente e verifique a compatibilidade no [[!DNL Quality Patches Tool]: Página Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+>O patch pode se tornar aplicável a outras versões com as novas versões do [!DNL Quality Patches Tool]. Para verificar se o patch é compatível com a sua versão do Adobe Commerce, atualize o pacote `magento/quality-patches` para a versão mais recente e verifique a compatibilidade na [[!DNL Quality Patches Tool]: página Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
 
 ## Problema
 
-O erro *Alteração de estado inválida solicitada* impede que um cliente faça um pedido.
+O erro *Solicitação de alteração de estado inválida* impede que um cliente faça um pedido.
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. Adicione um pequeno atraso durante o `/estimate-shipping-methods` incluindo uma `sleep()` em `app/code/Magento/Quote/Model/GuestCart/GuestShippingMethodManagement.php::estimateByExtendedAddress()` , para que a `/estimate-shipping-methods` A solicitação do é concluída após o `/shipping-information` ao ir da etapa de envio para a etapa de pagamento durante a finalização da compra.
-1. Configurar a sessão a ser usada [!DNL Redis] com o *disable_locking: 1* configuração.
-1. Abertura **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Customers]** e habilitar *[!UICONTROL Persistent Shopping Cart]*.
+1. Adicione um pequeno atraso durante a solicitação `/estimate-shipping-methods` ao incluir uma função `sleep()` em `app/code/Magento/Quote/Model/GuestCart/GuestShippingMethodManagement.php::estimateByExtendedAddress()`, para que a solicitação `/estimate-shipping-methods` seja concluída após `/shipping-information` ao ir da etapa de envio para a etapa de pagamento durante o check-out.
+1. Configure a sessão para usar [!DNL Redis] com a configuração *disable_locking: 1*.
+1. Abrir **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Customers]** e habilitar *[!UICONTROL Persistent Shopping Cart]*.
 1. Faça logon como cliente e adicione um produto ao carrinho.
 1. Deixe a sessão do cliente expirar. O cookie persistente e o carrinho ainda persistem.
 1. Agora vá para o check-out, adicione o endereço de entrega e navegue até a seção de pagamento.
@@ -49,24 +49,24 @@ O erro *Alteração de estado inválida solicitada* impede que um cliente faça 
 <u>Resultados esperados</u>:
 
 * Não há erros.
-* O pedido foi feito com êxito e uma *Obrigado* é exibida.
+* O pedido foi feito com êxito, e a página *Obrigado* é exibida.
 
 <u>Resultados reais</u>:
 
-O erro *Alteração de estado inválida solicitada* é exibido, mas a ordem é feita.
+O erro *Solicitação de alteração de estado inválida* é exibido, mas o pedido foi feito.
 
 ## Aplicar o patch
 
 Para aplicar patches individuais, use os links a seguir, dependendo do método de implantação:
 
-* Adobe Commerce ou Magento Open Source no local: [[!DNL Quality Patches Tool] > Uso](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) no [!DNL Quality Patches Tool] guia.
-* Adobe Commerce na infraestrutura em nuvem: [Upgrades e Patches > Aplicar Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) no guia do Commerce na infraestrutura em nuvem.
+* Adobe Commerce ou Magento Open Source no local: [[!DNL Quality Patches Tool] > Uso](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) no guia [!DNL Quality Patches Tool].
+* Adobe Commerce na infraestrutura em nuvem: [Atualizações e patches > Aplicar patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) no guia do Commerce na infraestrutura em nuvem.
 
 ## Leitura relacionada
 
 Para saber mais sobre [!DNL Quality Patches Tool], consulte:
 
-* [[!DNL Quality Patches Tool] lançado: uma nova ferramenta para autoatender correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de conhecimento de suporte.
-* [Verifique se o patch está disponível para o problema do Adobe Commerce usando [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de conhecimento de suporte.
+* [[!DNL Quality Patches Tool] versão: uma nova ferramenta para autoatender patches de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de dados de conhecimento de suporte.
+* [Verifique se há um patch disponível para o problema do Adobe Commerce usando o [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de dados de conhecimento de suporte.
 
-Para obter informações sobre outros patches disponíveis no QPT, consulte [[!DNL Quality Patches Tool]: Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) no [!DNL Quality Patches Tool] guia.
+Para obter informações sobre outros patches disponíveis no QPT, consulte [[!DNL Quality Patches Tool]: Pesquisar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) no guia [!DNL Quality Patches Tool].

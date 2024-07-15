@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# Patch MDVA-30284: Elasticsearch 7 - Limite de campos totais [XXXXX] no índice foi excedido
+# Patch MDVA-30284: Elasticsearch 7 - Limite do total de campos [XXXXX] no índice excedido
 
-O patch MDVA-30284 resolve o problema em que você recebe uma mensagem de erro de que &quot;O limite do total de campos \[XXXXX\] no índice foi excedido&quot; ao usar o Elasticsearch 7. Este patch está disponível quando a variável [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) O v.1.0.5 está instalado. A ID do patch é MDVA-30284.
+O patch MDVA-30284 resolve o problema em que você recebe uma mensagem de erro de que &quot;O limite do total de campos \[XXXXX\] no índice foi excedido&quot; ao usar o Elasticsearch 7. Este patch está disponível quando a [Ferramenta de Patches de Qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) v.1.0.5 está instalada. A ID do patch é MDVA-30284.
 
 ## Produtos e versões afetados
 
@@ -22,13 +22,13 @@ O patch MDVA-30284 resolve o problema em que você recebe uma mensagem de erro d
 
 >[!NOTE]
 >
->O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com sua versão do Adobe Commerce, atualize o `magento/quality-patches` pacote para a versão mais recente e verifique a compatibilidade no [[!DNL Quality Patches Tool]: Página Procurar patches](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+>O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com a sua versão do Adobe Commerce, atualize o pacote `magento/quality-patches` para a versão mais recente e verifique a compatibilidade na [[!DNL Quality Patches Tool]: página Procurar patches](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
 
 ## Problema
 
 O limite de campos Elasticsearch está errado, resultando no seguinte erro ao executar o indexador \[catalogsearch\_fulltext\]:
 
-*Limite do total de campos [xxx] no índice [xxxxxx] foi excedido*
+*O limite total de campos [xxx] no índice [xxxxxx] foi excedido*
 
 Esse problema ocorre quando você tem um grande número de atributos de produto. O problema é acionado pela maneira como o Elasticsearch calcula a contagem de campos. Às vezes, quando houver atributos com campos atribuídos a eles, esses campos serão indexados como indexadores separados. Isso resulta no limite ter sido excedido no aviso.
 
@@ -64,14 +64,14 @@ Todos os produtos estão disponíveis no índice Elasticsearch.
 
 Para aplicar patches individuais, use os links a seguir, dependendo do método de implantação:
 
-* Adobe Commerce ou Magento Open Source no local: [Guia de atualização de software > Aplicar patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) na documentação do desenvolvedor.
-* Adobe Commerce na infraestrutura em nuvem: [Upgrades e Patches > Aplicar Patches](https://devdocs.magento.com/cloud/project/project-patch.html) na documentação do desenvolvedor.
+* Adobe Commerce ou Magento Open Source no local: [Guia de Atualização de Software > Aplicar Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) na documentação do desenvolvedor.
+* Adobe Commerce na infraestrutura em nuvem: [Atualizações e patches > Aplicar patches](https://devdocs.magento.com/cloud/project/project-patch.html) na documentação do desenvolvedor.
 
 ## Leitura relacionada
 
 Para saber mais sobre a Ferramenta de correção de qualidade, consulte:
 
-* [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatendimento de correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de conhecimento de suporte.
-* [Verifique se o patch está disponível para o problema do Adobe Commerce usando a Ferramenta de patches de qualidade](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de conhecimento de suporte.
+* [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatender correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de dados de conhecimento de suporte.
+* [Verifique se o patch está disponível para o problema do Adobe Commerce usando a Ferramenta de Patches de Qualidade](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de dados de conhecimento de suporte.
 
 Para obter informações sobre outros patches disponíveis no QPT, consulte [Patches disponíveis no QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) na documentação do desenvolvedor.

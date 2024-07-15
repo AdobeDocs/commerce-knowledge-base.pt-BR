@@ -23,4 +23,4 @@ Sim, para manter os sistemas sincronizados continuamente, o Adobe Commerce busca
 
 ## Para recusar esses emails:
 
-Siga estas instruções para [Atualizando preferências de notificação no site do Amazon](https://sellercentral.amazon.com/gp/help/external/G871).
+Siga estas instruções para [Atualizar Preferências de Notificação no site da Amazon](https://sellercentral.amazon.com/gp/help/external/G871).

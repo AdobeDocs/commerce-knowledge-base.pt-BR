@@ -37,11 +37,11 @@ Para ativar os projetos do Commerce Intelligence para Cloud Starter, crie uma co
 
 Siga estas etapas:
 
-1. Crie sua conta do Adobe Commerce Intelligence:
+1. Crie sua conta da Adobe Commerce Intelligence:
 
    * Ir para [accounts.magento.com/customer/account/login](https://account.magento.com/customer/account/login).
    * Navegue até **[!UICONTROL My Account]** > **[!UICONTROL My MBI Instances]**.
-   * Clique em **[!UICONTROL Create Instance]**. Se você não vir esse botão, entre em contato com o Gerente de sucesso do cliente ou o Consultor técnico do cliente.
+   * Clique no **[!UICONTROL Create Instance]**. Se você não vir esse botão, entre em contato com o Gerente de sucesso do cliente ou o Consultor técnico do cliente.
    * Selecione sua assinatura do Cloud Starter. Se você tiver apenas uma assinatura do Cloud Starter, ela será selecionada automaticamente.
    * Clique em **[!UICONTROL Continue]**.
    * Insira suas informações para criar sua conta.
@@ -62,24 +62,24 @@ Siga estas etapas:
 
 1. Insira informações sobre sua loja para definir suas preferências.
 
-   ![Adicionar informações da loja](/help/troubleshooting/miscellaneous/assets/add_store_info_mbi.png)
+   ![Adicionar informações do armazenamento](/help/troubleshooting/miscellaneous/assets/add_store_info_mbi.png)
 
-   Você precisará coletar algumas informações antes de conectar o banco de dados para a terceira etapa do fluxo de integração. Você preencherá o *[!UICONTROL Connect your database]* página na etapa 9.
+   Você precisará coletar algumas informações antes de conectar o banco de dados para a terceira etapa do fluxo de integração. Você preencherá a página *[!UICONTROL Connect your database]* na etapa 9.
 
 1. Crie um usuário dedicado do Commerce Intelligence.
 
-   * Criar um novo usuário em [account.adobe.com](https://account.adobe.com/).
-   * Ir para [https://accounts.magento.com/customer/account/](https://accounts.magento.com/customer/account/) para gerar sua conta do Adobe Commerce.
+   * Crie um novo usuário em [account.adobe.com](https://account.adobe.com/).
+   * Acesse [https://accounts.magento.com/customer/account/](https://accounts.magento.com/customer/account/) para gerar sua conta da Adobe Commerce.
    * Por que um novo usuário? O Adobe Commerce Intelligence precisa de um usuário adicionado ao projeto para buscar continuamente novos dados que serão transferidos para o data warehouse Commerce Intelligence da conta. Este usuário servirá como essa conexão. A adição desse usuário ao projeto será apresentada na etapa 4.
-   * O motivo para ter um usuário dedicado do Commerce Intelligence é impedir que o usuário adicionado seja desativado ou excluído inadvertidamente e interromper a conexão do Commerce Intelligence.
+   * O motivo para ter um usuário dedicado do Commerce Intelligence é impedir que o usuário adicionado seja inadvertidamente desativado ou excluído e interromper a conexão do Commerce Intelligence.
 
 1. Adicione o usuário recém-criado ao ambiente primário do projeto como um *Colaborador*.
 
-   ![Adicionar usuário como colaborador](/help/troubleshooting/miscellaneous/assets/contributor_user_mbi.png)
+   ![Adicionar usuário como Colaborador](/help/troubleshooting/miscellaneous/assets/contributor_user_mbi.png)
 
 1. Obtenha suas chaves SSH do Commerce Intelligence.
 
-   * Vá para a **[!UICONTROL Connect your database]** página da interface do usuário de configuração do Commerce Intelligence e rolar para baixo até **[!UICONTROL Encryption settings]**.
+   * Vá para a página **[!UICONTROL Connect your database]** da interface do usuário de configuração do Commerce Intelligence e role para baixo até **[!UICONTROL Encryption settings]**.
    * Para o campo, **[!UICONTROL Encryption Type]**, escolha **[!UICONTROL SSH Tunnel]**.
    * Na lista suspensa, é possível copiar e colar a Chave pública do Magento BI Essentials fornecida.
 
@@ -87,8 +87,8 @@ Siga estas etapas:
 
 1. Adicione sua nova chave pública do Magento BI Essentials ao usuário do Commerce Intelligence criado na etapa 5.
 
-   * Ir para [accounts.magento.com/customer/account/login](https://account.magento.com/customer/account/login). Faça logon com as informações de logon da sua conta para o novo usuário do Commerce Intelligence criado. Em seguida, acesse o **[!UICONTROL Account Settings]** guia.
-   * Role para baixo na página e expanda o menu suspenso para chaves SSH. Clique em **[!UICONTROL Add a public key]**.
+   * Ir para [accounts.magento.com/customer/account/login](https://account.magento.com/customer/account/login). Faça logon com as informações de logon da sua conta para o novo usuário do Commerce Intelligence criado. Vá para a guia **[!UICONTROL Account Settings]**.
+   * Role para baixo na página e expanda o menu suspenso para chaves SSH. Depois clique em **[!UICONTROL Add a public key]**.
 
    ![Adicionar uma chave pública](/help/troubleshooting/miscellaneous/assets/add_public_key_mbi.png)
 
@@ -129,7 +129,7 @@ Siga estas etapas:
 
 1. Obtenha informações para conectar seu banco de dados ao Commerce Intelligence.
 
-   Executar `echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 --decode | json_pp` para obter informações sobre como conectar seu banco de dados.
+   Execute `echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 --decode | json_pp` para obter informações sobre como conectar seu banco de dados.
 
    Você deve receber informações semelhantes à saída abaixo:
 
@@ -156,17 +156,17 @@ Siga estas etapas:
 
 1. Conecte seu banco de dados do Adobe Commerce.
 
-   ![Conectar seu banco de dados do Adobe Commerce](/help/troubleshooting/miscellaneous/assets/connect_magento_database_mbi.png)
+   ![Conectar ao Banco de Dados do Adobe Commerce](/help/troubleshooting/miscellaneous/assets/connect_magento_database_mbi.png)
 
    *Entradas*:
 
-   * Nome da integração: [Escolha um nome para a integração.]
+   * Nome da Integração: [Escolha um nome para a integração.]
    * Host: `mbi.internal`
    * Porta: 3306
    * Nome de usuário: mbi
    * Senha: [senha de entrada fornecida na saída da Etapa 8.]
    * Nome do banco de dados: main
-   * Prefixos de tabela: [deixe em branco se não houver prefixos de tabela]
+   * Prefixos de Tabela: [deixe em branco se não houver prefixos de tabela]
 
 1. Defina seu [!UICONTROL Timezone Settings].
 
@@ -175,15 +175,15 @@ Siga estas etapas:
    *Entradas*
 
    * Banco de dados: Fuso horário: UTC
-   * Fuso horário desejado: [Escolha o fuso horário em que deseja que seus dados sejam exibidos.]
+   * Fuso Horário Desejado: [Escolha o fuso horário em que deseja que seus dados sejam exibidos.]
 
 1. Obter informações para suas configurações de criptografia.
 
-   * A interface do projeto fornece uma cadeia de caracteres de acesso SSH. Essa string pode ser usada para coletar as informações necessárias para o Endereço remoto e o Nome de usuário na configuração do **[!UICONTROL Encryption settings]**. Selecionar **[!UICONTROL SSH]** para ver seu Nome de usuário e Endereço remoto. A sequência de caracteres de texto antes da variável *@* é seu Nome de usuário e a sequência de texto depois de *@* é o seu endereço remoto.
+   * A interface do projeto fornece uma cadeia de caracteres de acesso SSH. Esta cadeia de caracteres pode ser usada para coletar as informações necessárias para o Endereço Remoto e o Nome de Usuário na configuração do **[!UICONTROL Encryption settings]**. Selecione **[!UICONTROL SSH]** para ver seu Nome de Usuário e Endereço Remoto. A cadeia de texto antes de *@* é seu Nome de Usuário e a cadeia de texto depois de *@* é seu Endereço Remoto.
 
    ![Acessar site mestre](/help/troubleshooting/miscellaneous/assets/access_site_mbi.png)
 
-1. Informações de entrada para seu [!UICONTROL Encryption Settings].
+1. Informações de entrada para [!UICONTROL Encryption Settings].
 
    ![Configurações de criptografia](/help/troubleshooting/miscellaneous/assets/encryption_type_mbi.png)
 
@@ -196,4 +196,4 @@ Siga estas etapas:
 
 1. Clique em **[!UICONTROL Save Integration]**.
 1. Agora você se conectou com êxito à sua conta do Commerce Intelligence Essentials.
-1. Se você for um cliente do Adobe Commerce Intelligence Pro, entre em contato com o Gerente de sucesso do cliente ou o Consultor técnico do cliente para coordenar as próximas etapas.
+1. Se você for um cliente Adobe Commerce Intelligence Pro, entre em contato com seu Gerente de sucesso do cliente ou com o Supervisor técnico do cliente para coordenar as próximas etapas.

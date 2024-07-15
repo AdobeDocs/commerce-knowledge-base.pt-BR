@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# Erro &quot;Código de área não definido&quot; ao executar `setup:upgrade`
+# Erro &#39;Código de área não definido&#39; ao executar `setup:upgrade`
 
-Este artigo fornece um patch para o problema conhecido do Adobe Commerce na infraestrutura em nuvem 2.2.3 relacionado à obtenção do *&quot;Código de área não definido&quot;* erro ao executar o seguinte comando:
+Este artigo fornece um patch para o problema conhecido do Adobe Commerce na infraestrutura de nuvem 2.2.3 relacionado à obtenção do erro *&quot;O código de área não está definido&quot;* ao executar o seguinte comando:
 
 ```bash
 setup:upgrade
@@ -31,7 +31,7 @@ Ao executar o
 bin/magento setup:upgrade
 ```
 
-, você receberá a seguinte mensagem de erro: *&quot;Módulo &#39;Magento\_AdvancedSalesRule&#39;: instalando dados...Código de área não definido: O código de área deve ser definido antes de iniciar uma sessão&quot;* e a execução do comando é interrompida. O problema ocorre porque a configuração de área é solicitada antes de ser realmente definida. O patch permite capturar o erro e não interromper o processo de atualização.
+, você receberá a seguinte mensagem de erro: *&quot;Module &#39;Magento\_AdvancedSalesRule&#39;: Installing data...Area code not set: Area code must be set before starting a session&quot;* and the command execution is stopped. O problema ocorre porque a configuração de área é solicitada antes de ser realmente definida. O patch permite capturar o erro e não interromper o processo de atualização.
 
 ## Correção
 
@@ -51,6 +51,6 @@ O patch também é compatível (mas pode não resolver o problema) com as seguin
 
 ## Como aplicar o patch
 
-Para obter instruções, consulte [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de conhecimento de suporte.
+Para obter instruções, consulte [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de dados de conhecimento de suporte.
 
 ## Arquivos Anexados

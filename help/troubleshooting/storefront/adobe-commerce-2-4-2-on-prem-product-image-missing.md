@@ -21,7 +21,7 @@ Este artigo descreve um problema conhecido do Adobe Commerce no local 2.4.2 em q
 
 ## Problema
 
-A imagem do produto é salva na tag `s3` bucket, mas não é sincronizado de volta ao `pub/media` diretório. Esse problema ocorre somente ao usar:
+A imagem do produto é salva no bucket `s3`, mas não é sincronizada de volta ao diretório `pub/media`. Esse problema ocorre somente ao usar:
 
 * Nginx habilitado para o site para redimensionar imagens
 * AWS `s3` como armazenamento de mídia
@@ -32,10 +32,10 @@ Adobe Commerce instalado com Nginx.
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. Configurar o Adobe Commerce para usar o AWS `s3` como armazenamento de mídia.
-1. Configure o Nginx usando o `nginx.conf.sample` arquivo de configuração fornecido no diretório de instalação do Adobe Commerce e um host virtual Nginx. Consulte [Configurar Nginx](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/nginx.html#configure-nginx-ubuntu) na documentação do desenvolvedor.
+1. Configure o Adobe Commerce para usar o AWS `s3` como armazenamento de mídia.
+1. Configure o Nginx usando o arquivo de configuração `nginx.conf.sample` fornecido no diretório de instalação do Adobe Commerce e um host virtual Nginx. Consulte [Configurar Nginx](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/nginx.html#configure-nginx-ubuntu) na documentação do desenvolvedor.
 1. Crie um produto simples com uma imagem de produto.
-1. O Nginx tem uma configuração sem comentários para redimensionamento da imagem no `nginx.conf.sample` semelhante a este:
+1. O Nginx tem uma configuração não comentada para redimensionamento de imagem em `nginx.conf.sample` semelhante a esta:
 
 ```conf
 load_module /etc/nginx/modules/ngx_http_image_filter_module.so;

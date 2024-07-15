@@ -1,6 +1,6 @@
 ---
-title: '"ACSD-48313: [!UICONTROL configurable_variations] coluna não analisada se o valor do atributo contiver vírgula'''
-description: Aplique o patch ACSD-48313 para corrigir o problema do Adobe Commerce em que o [!UICONTROL configurable_variations] A coluna não será analisada se o valor do atributo contiver uma vírgula.
+title: "ACSD-48313: coluna [!UICONTROL configurable_variations] não analisada se o valor do atributo contiver vírgula"
+description: Aplique o patch ACSD-48313 para corrigir o problema do Adobe Commerce em que a coluna [!UICONTROL configurable_variations] não é analisada se o valor do atributo contiver uma vírgula.
 exl-id: 0ac3f8da-4da3-4308-bea4-98a5b6926b0d
 feature: Attributes, Configuration
 role: Admin
@@ -11,13 +11,13 @@ ht-degree: 0%
 
 ---
 
-# ACSD-48313: **[!UICONTROL configurable_variations]** coluna não analisada se o valor do atributo contiver vírgula
+# ACSD-48313: coluna **[!UICONTROL configurable_variations]** não analisada se o valor do atributo contiver vírgula
 
-O patch ACSD-48313 resolve o problema em que **[!UICONTROL configurable_variations]** A coluna não será analisada se o valor do atributo contiver uma vírgula. Este patch está disponível quando a variável [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) O 1.1.25 está instalado. A ID do patch é ACSD-48313. A versão na qual esse problema será corrigido ainda não está disponível.
+O patch ACSD-48313 resolve o problema em que a coluna **[!UICONTROL configurable_variations]** não é analisada se o valor do atributo contiver uma vírgula. Este patch está disponível quando o [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.25 está instalado. A ID do patch é ACSD-48313. A versão na qual esse problema será corrigido ainda não está disponível.
 
 ## Produtos e versões afetados
 
-**O patch é criado para a versão do Adobe Commerce:**
+**O patch foi criado para a versão do Adobe Commerce:**
 * Adobe Commerce (todos os métodos de implantação) 2.4.4
 
 **Compatível com as versões do Adobe Commerce:**
@@ -25,24 +25,24 @@ O patch ACSD-48313 resolve o problema em que **[!UICONTROL configurable_variatio
 
 >[!NOTE]
 >
->O patch pode se tornar aplicável a outras versões com novos [!DNL Quality Patches Tool] versões. Para verificar se o patch é compatível com sua versão do Adobe Commerce, atualize o `magento/quality-patches` pacote para a versão mais recente e verifique a compatibilidade no [[!DNL Quality Patches Tool]: Página Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+>O patch pode se tornar aplicável a outras versões com as novas versões do [!DNL Quality Patches Tool]. Para verificar se o patch é compatível com a sua versão do Adobe Commerce, atualize o pacote `magento/quality-patches` para a versão mais recente e verifique a compatibilidade na [[!DNL Quality Patches Tool]: página Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
 
 ## Problema
 
-Após a exportação de produtos configuráveis, o arquivo resultante não poderá ser importado novamente devido a um problema de formatação com o **[!UICONTROL configurable_variations]** atributo. Isso acontece quando há opções de atributo que incluem vírgula.
+Após a exportação de produtos configuráveis, o arquivo resultante não pode ser importado novamente devido a um problema de formatação com o atributo **[!UICONTROL configurable_variations]**. Isso acontece quando há opções de atributo que incluem vírgula.
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. Ir para **[!UICONTROL Stores]** > **[!UICONTROL Attributes]** > **[!UICONTROL Product]** e criar um novo atributo _Tamanho_:
-1. Tipo de Entrada de Catálogo para o Proprietário da Loja: **[!UICONTROL Dropdown]**.
+1. Vá para **[!UICONTROL Stores]** > **[!UICONTROL Attributes]** > **[!UICONTROL Product]** e crie um novo atributo _Size_:
+1. Tipo de Entrada de Catálogo para o Proprietário do Repositório: **[!UICONTROL Dropdown]**.
 1. Crie opções que incluam vírgula, por exemplo:
    * 10,2 cm
    * 15,5 cm
 1. **[!UICONTROL Advanced Attribute Properties]** - Escopo: _Global_.
 1. Crie um novo produto configurável usando a funcionalidade Criar configurações.
-1. Selecione o atributo acima _Tamanho_ e as duas opções que incluem vírgula.
-1. Ir para **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** > **[!UICONTROL Export]** e criar uma nova exportação de produtos (execute o cron para acionar a geração do arquivo CSV).
-1. Ir para **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** > **[!UICONTROL Import]** e tente reimportar o mesmo arquivo CSV criado acima.
+1. Selecione o atributo acima _Size_ e as duas opções que incluem a vírgula.
+1. Vá para **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** > **[!UICONTROL Export]** e crie uma nova exportação de produtos (execute o cron para acionar a geração do arquivo CSV).
+1. Vá para **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** > **[!UICONTROL Import]** e tente reimportar o mesmo arquivo CSV criado acima.
 
 <u>Resultados esperados</u>:
 
@@ -60,15 +60,15 @@ O usuário deve conseguir importar o arquivo.
 
 Para aplicar patches individuais, use os links a seguir, dependendo do método de implantação:
 
-* Adobe Commerce ou Magento Open Source no local: [[!DNL Quality Patches Tool] > Uso](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) no [!DNL Quality Patches Tool] guia.
-* Adobe Commerce na infraestrutura em nuvem: [Upgrades e Patches > Aplicar Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) no guia do Commerce na infraestrutura em nuvem.
+* Adobe Commerce ou Magento Open Source no local: [[!DNL Quality Patches Tool] > Uso](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) no guia [!DNL Quality Patches Tool].
+* Adobe Commerce na infraestrutura em nuvem: [Atualizações e patches > Aplicar patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) no guia do Commerce na infraestrutura em nuvem.
 
 
 ## Leitura relacionada
 
 Para saber mais sobre [!DNL Quality Patches Tool], consulte:
 
-* [[!DNL Quality Patches Tool] lançado: uma nova ferramenta para autoatender correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de conhecimento de suporte.
-* [Verifique se o patch está disponível para o problema do Adobe Commerce usando [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de conhecimento de suporte.
+* [[!DNL Quality Patches Tool] versão: uma nova ferramenta para autoatender patches de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de dados de conhecimento de suporte.
+* [Verifique se há um patch disponível para o problema do Adobe Commerce usando o [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de dados de conhecimento de suporte.
 
-Para obter informações sobre outros patches disponíveis no QPT, consulte [[!DNL Quality Patches Tool]: Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) no [!DNL Quality Patches Tool] guia.
+Para obter informações sobre outros patches disponíveis no QPT, consulte [[!DNL Quality Patches Tool]: Pesquisar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) no guia [!DNL Quality Patches Tool].

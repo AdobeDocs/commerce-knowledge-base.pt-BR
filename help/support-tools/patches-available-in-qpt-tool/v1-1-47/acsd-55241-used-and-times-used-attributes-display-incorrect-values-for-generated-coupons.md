@@ -11,13 +11,13 @@ ht-degree: 0%
 
 ---
 
-# ACSD-55241: **Usado** e **Vezes usado** os atributos exibem valores incorretos para cupons gerados
+# ACSD-55241: **Used** e **Times Used** exibem valores incorretos para cupons gerados
 
-O patch ACSD-55241 corrige o problema em que o **Usado** e **Vezes usado** Os atributos do exibem valores incorretos para cupons gerados. Este patch está disponível quando a variável [!DNL Quality Patches Tool (QPT)] O 1.1.47 está instalado. A ID do patch é ACSD-55241. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.7.
+O patch ACSD-55241 corrige o problema em que os atributos **Used** e **Times Used** exibem valores incorretos para cupons gerados. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.47 está instalado. A ID do patch é ACSD-55241. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.7.
 
 ## Produtos e versões afetados
 
-**O patch é criado para a versão do Adobe Commerce:**
+**O patch foi criado para a versão do Adobe Commerce:**
 
 * Adobe Commerce (todos os métodos de implantação) 2.4.6-p1
 
@@ -27,49 +27,49 @@ O patch ACSD-55241 corrige o problema em que o **Usado** e **Vezes usado** Os at
 
 >[!NOTE]
 >
->O patch pode se tornar aplicável a outras versões com novos [!DNL Quality Patches Tool] versões. Para verificar se o patch é compatível com sua versão do Adobe Commerce, atualize o `magento/quality-patches` pacote para a versão mais recente e verifique a compatibilidade no [[!DNL Quality Patches Tool]: Página Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+>O patch pode se tornar aplicável a outras versões com as novas versões do [!DNL Quality Patches Tool]. Para verificar se o patch é compatível com a sua versão do Adobe Commerce, atualize o pacote `magento/quality-patches` para a versão mais recente e verifique a compatibilidade na [[!DNL Quality Patches Tool]: página Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
 
 ## Problema
 
-**Usado** e **Vezes usado** Os atributos do exibem valores incorretos para cupons gerados.
+Os atributos **Used** e **Times Used** exibem valores incorretos para cupons gerados.
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. Criar **[!UICONTROL Cart Price Rules]** de **[!UICONTROL Admin]** > **[!UICONTROL Marketing]** > **[!UICONTROL Promotion]** e adicione qualquer condição que corresponda ao fazer um pedido (Exemplo: subtotal maior que *5$*)
+1. Crie **[!UICONTROL Cart Price Rules]** de **[!UICONTROL Admin]** > **[!UICONTROL Marketing]** > **[!UICONTROL Promotion]** e adicione qualquer condição que corresponda ao fazer um pedido (Exemplo: subtotal maior que *5$*)
 
 * Aplicar qualquer desconto.
-* Selecionar **[!UICONTROL Auto Coupon]**.
-* Ele gerará alguns códigos de cupom do **Gerenciar códigos de cupom**.
+* Selecione **[!UICONTROL Auto Coupon]**.
+* Ele gerará alguns Códigos de Cupom de **Gerenciar Códigos de Cupom**.
 * Reindexe e limpe o cache.
 
-1. Criar um **[!UICONTROL customer account]** e faça logon no front-end.
-1. Adicionar um produto com mais de *2* quantidades no carrinho e aplique um cupom.
+1. Crie um **[!UICONTROL customer account]** e faça logon no front-end.
+1. Adicione um produto com mais de *2* quantidades no carrinho e aplique um cupom.
 1. Clique em **[!UICONTROL Check Out with Multiple Addresses]**.
 1. Selecione um endereço separado para cada quantidade, faça o pedido e conclua o processo de finalização.
 1. Observe o total do pedido do administrador e veja o desconto aplicado.
 1. Faça outro pedido com outro cupom.
-1. Execute o `php81 bin/Magento queue:consumers: start sales.rule.update.coupon.usage &` comando para atualizar o uso do código do cupom.
+1. Execute o comando `php81 bin/Magento queue:consumers: start sales.rule.update.coupon.usage &` para atualizar o uso do código do cupom.
 
 <u>Resultados esperados</u>:
 
-A contagem correta deve ser exibida no **Tempo usado** e **Usado** colunas com **Sim** valor para **[!UICONTROL manage coupon]** no **[!UICONTROL cart price rule]** no admin.
+A contagem correta deve ser exibida nas colunas **Tempo usado** e **Usado** com o valor **Sim** para **[!UICONTROL manage coupon]** no **[!UICONTROL cart price rule]** no administrador.
 
 <u>Resultados reais</u>:
 
-A contagem de código de cupom usada não é atualizada no **Tempo usado** na grade de cupons, e a variável **Usado** mostra a *Não* se você colocar um pedido com vários endereços de entrega.
+A contagem de código de cupom usada não é atualizada na coluna **Tempo de Uso** da grade de cupons, e a coluna **Usado** mostrará o valor *Não* se você fizer um pedido com vários endereços de envio.
 
 ## Aplicar o patch
 
 Para aplicar patches individuais, use os links a seguir, dependendo do método de implantação:
 
-* Adobe Commerce ou Magento Open Source no local: [[!DNL Quality Patches Tool] > Uso](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) no [!DNL Quality Patches Tool] guia.
-* Adobe Commerce na infraestrutura em nuvem: [Upgrades e Patches > Aplicar Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) no guia do Commerce na infraestrutura em nuvem.
+* Adobe Commerce ou Magento Open Source no local: [[!DNL Quality Patches Tool] > Uso](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) no guia [!DNL Quality Patches Tool].
+* Adobe Commerce na infraestrutura em nuvem: [Atualizações e patches > Aplicar patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) no guia do Commerce na infraestrutura em nuvem.
 
 ## Leitura relacionada
 
 Para saber mais sobre [!DNL Quality Patches Tool], consulte:
 
-* [[!DNL Quality Patches Tool] lançado: uma nova ferramenta para autoatender correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de conhecimento de suporte.
-* [Verifique se o patch está disponível para o problema do Adobe Commerce usando [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de conhecimento de suporte.
+* [[!DNL Quality Patches Tool] versão: uma nova ferramenta para autoatender patches de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de dados de conhecimento de suporte.
+* [Verifique se há um patch disponível para o problema do Adobe Commerce usando o [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de dados de conhecimento de suporte.
 
-Para obter informações sobre outros patches disponíveis no QPT, consulte [[!DNL Quality Patches Tool]: Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) no [!DNL Quality Patches Tool] guia.
+Para obter informações sobre outros patches disponíveis no QPT, consulte [[!DNL Quality Patches Tool]: Pesquisar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) no guia [!DNL Quality Patches Tool].

@@ -30,7 +30,7 @@ Se você tiver uma interrupção possivelmente causada por um banco de dados sob
    grep 'Query_time: [5-9][0-9]\|Query_time: [0-9][0-9][0-9]' /var/log/mysql/mysql-slow.log -A 3
    ```
 
-1. Ir para <https://www.unixtimestamp.com/> (ou um Conversor de carimbo de data e hora Unix semelhante) e insira o carimbo de data e hora de quando a consulta lenta foi executada.
+1. Vá para <https://www.unixtimestamp.com/> (ou um Conversor de Carimbo de Data/Hora Unix semelhante) e insira o carimbo de data/hora de quando a consulta lenta foi executada.
 1. Se o tempo estiver correlacionado com qualquer interrupção de site que você tenha experimentado, pode ser causado por um banco de dados sobrecarregado. Verifique quais cargas estavam no banco de dados naquele momento. Exemplos dessas cargas:
 
 * Processos Cron
@@ -43,9 +43,9 @@ Se você tiver uma interrupção possivelmente causada por um banco de dados sob
 
 Se seu projeto do Adobe Commerce for implantado na arquitetura Pro, você poderá usar o [!DNL Percona Toolkit] para analisar consultas.
 
-1. Execute o `pt-query-digest --type=slowlog` comando em logs de consulta lenta do MySQL.
-   * Para encontrar o local dos logs de consultas lentas, consulte **[[!UICONTROL Log locations > Service Logs]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)** na documentação do desenvolvedor.
-   * Consulte a [[!DNL Percona Toolkit] > pt-query-digest](https://www.percona.com/doc/percona-toolkit/LATEST/pt-query-digest.html#pt-query-digest) documentação.
+1. Execute o comando `pt-query-digest --type=slowlog` nos logs de consulta lenta do MySQL.
+   * Para encontrar o local dos logs de consulta lenta, consulte **[[!UICONTROL Log locations > Service Logs]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)** em nossa documentação para desenvolvedores.
+   * Consulte a documentação [[!DNL Percona Toolkit] > pt-query-digest](https://www.percona.com/doc/percona-toolkit/LATEST/pt-query-digest.html#pt-query-digest).
 1. Com base nos problemas encontrados, siga as etapas para corrigir o query, para que ele seja executado mais rapidamente.
 
 ## Verificando a &quot;lista de processos&quot; do MySQL
@@ -78,7 +78,7 @@ Isso ajudará a identificar se o servidor MySQL está ativo e se não há consul
 
 ## Leitura relacionada
 
-* [MySQL Mostrar Sintaxe de Lista de Processadores](https://dev.mysql.com/doc/refman/8.0/en/show-processlist.html) em dev.mysql.com.
+* [Sintaxe MySQL Show Processlist](https://dev.mysql.com/doc/refman/8.0/en/show-processlist.html) em dev.mysql.com.
 * [Sintaxe de eliminação do MySQL](https://dev.mysql.com/doc/refman/8.0/en/kill.html) em dev.mysql.com.
 * [Segurança, desempenho e manuseio de dados](https://devdocs.magento.com/guides/v2.3/ext-best-practices/extension-coding/security-performance-data-bp.html) na documentação do desenvolvedor.
-* [Ajuda do MySQL](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/mysql.html) na documentação do desenvolvedor.
+* [Ajuda do MySQL](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/mysql.html) em nossa documentação para desenvolvedores.

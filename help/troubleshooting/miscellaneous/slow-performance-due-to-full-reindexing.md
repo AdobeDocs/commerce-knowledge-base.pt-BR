@@ -36,7 +36,7 @@ As ações que podem produzir reindexação completa foram executadas pelo admin
 >
 >Essas ações devem ser executadas fora do horário comercial para garantir que essas ações não afetem o desempenho durante o horário comercial.
 
-[Extensões de terceiros](https://support.magento.com/hc/en-us/articles/360042361152-Best-Practices-for-using-third-party-extensions-in-Magento) também pode causar reindexação completa. A reindexação completa também pode ser executada manualmente da CLI. Para descobrir se você tem índices sendo reindexados e possivelmente causando downgrade de desempenho:
+[Extensões de terceiros](https://support.magento.com/hc/en-us/articles/360042361152-Best-Practices-for-using-third-party-extensions-in-Magento) também podem causar reindexação completa. A reindexação completa também pode ser executada manualmente da CLI. Para descobrir se você tem índices sendo reindexados e possivelmente causando downgrade de desempenho:
 
 1. Execute esta consulta para localizar os indexadores que foram totalmente reindexados nos últimos 15 minutos:
 
@@ -49,13 +49,13 @@ As ações que podem produzir reindexação completa foram executadas pelo admin
 1. Se você encontrar reindexação completa frequente, investigue o seguinte:
    * Quem pode estar fazendo isso manualmente na CLI
    * Qual módulo de terceiros está fazendo a reindexação
-   * Qual módulo de terceiros está marcando indexadores como *Inválido*
+   * Que módulo de terceiros está marcando indexadores como *Inválido*
 
 ### Solução
 
-Execute a reindexação somente quando necessário. Para etapas, analise [Configurar Indexadores](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#configure-indexers) na documentação do desenvolvedor. Uma recomendação geral e a prática recomendada é permitir que o mecanismo de reindexação parcial cuide da reindexação de dados sem a necessidade de ação manual de um comerciante. Toda reindexação deve ser feita usando a funcionalidade nativa do Adobe Commerce (Mview). O Mview executa a reindexação parcial, que é a maneira mais eficiente de reindexar dados. Para saber mais sobre o Mview, consulte [Visão geral da indexação: mview](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview) na documentação do desenvolvedor.
+Execute a reindexação somente quando necessário. Para ver as etapas, consulte [Configurar indexadores](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#configure-indexers) em nossa documentação para desenvolvedores. Uma recomendação geral e a prática recomendada é permitir que o mecanismo de reindexação parcial cuide da reindexação de dados sem a necessidade de ação manual de um comerciante. Toda reindexação deve ser feita usando a funcionalidade nativa do Adobe Commerce (Mview). O Mview executa a reindexação parcial, que é a maneira mais eficiente de reindexar dados. Para saber mais sobre o Mview, consulte [Visão geral de indexação: Mview](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview) em nossa documentação para desenvolvedores.
 
 ## Leitura relacionada
 
-* [Visão geral da indexação: como reindexar](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#how-to-reindex) na documentação do desenvolvedor.
-* [O cache invalidado causa degradação do tempo de resposta](/help/troubleshooting/miscellaneous/invalidated-cache-causes-response-time-degradation.md) em nossa base de conhecimento de suporte.
+* [Visão geral da indexação: como reindexar](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#how-to-reindex) em nossa documentação do desenvolvedor.
+* [O cache invalidado causa degradação do tempo de resposta](/help/troubleshooting/miscellaneous/invalidated-cache-causes-response-time-degradation.md) em nossa base de dados de conhecimento de suporte.

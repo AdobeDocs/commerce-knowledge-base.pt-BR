@@ -17,20 +17,20 @@ Este solucionador de problemas do Fastly para usuários do Adobe Commerce guiar�
 
 ## Etapa 1 - Verificar o serviço Fastly {#step-1}
 
-+++**O cliente relata um problema envolvendo o Fastly. O serviço Fastly está inativo?**
++++**O cliente relata um problema que envolve o Fastly. O serviço Fastly está inativo?**
 
-a. SIM - Verificar [Status do serviço Fastly](https://status.fastly.com/), e [enviar um tíquete de suporte do Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
-b. NÃO - Vá para [Etapa 2](#step-2).
+a. SIM - Verifique o [Status do serviço rápido](https://status.fastly.com/) e [envie um tíquete de suporte da Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
+b. NÃO - Continue na [Etapa 2](#step-2).
 
 +++
 
 ## Etapa 2 - Verificar arquivo de configuração de VCL {#step-2}
 
-+++**Você tem erros ao executar o Testador de backend?**
++++**Você tem algum erro ao executar o Testador de Back-end?**
 
-Execute o URL do projeto por meio da [Testador de backend - Fastly](https://magento-tester.global.ssl.fastly.net/magento-tester/). Ela mostra a versão do arquivo de configuração de VCL, se a página for armazenável em cache, a versão do módulo Fastly e outras informações úteis para solução de problemas. Você tem algum erro?
+Execute a URL do seu projeto por meio do [Testador de backend - Fastly](https://magento-tester.global.ssl.fastly.net/magento-tester/). Ela mostra a versão do arquivo de configuração de VCL, se a página for armazenável em cache, a versão do módulo Fastly e outras informações úteis para solução de problemas. Você tem algum erro?
 
-a. SIM - Você tem a mensagem _A versão do VCL do plug-in está desatualizada! Faça upload novamente._ Para a solução desse erro, consulte [Erro do Fastly: a versão do VCL do plug-in está desatualizada! Faça upload novamente](/help/troubleshooting/miscellaneous/fastly-error-plugin-vcl-version-is-outdated-please-re-upload.md).\
+a. SIM - Você tem a mensagem _A versão do VCL do plug-in está desatualizada! Faça upload novamente._ Para obter a solução para este erro, consulte [Erro do Fastly: A versão do VCL do plug-in está desatualizada! Recarregue ](/help/troubleshooting/miscellaneous/fastly-error-plugin-vcl-version-is-outdated-please-re-upload.md).\
 b. NÃO - [Etapa 3](#step-3).
 
 +++
@@ -39,16 +39,16 @@ b. NÃO - [Etapa 3](#step-3).
 
 +++**Erro de otimização de imagem?**
 
-a. SIM - [Erro ao ativar a otimização de imagem](/help/troubleshooting/miscellaneous/error-enabling-image-optimization-in-magento-commerce.md).\
-b. NÃO - verifique o DNS executando na CLI/terminal: `dig [your website.com] + short`. Vá para [Etapa 4](#step-4).
+a. SIM - [Erro ao habilitar a otimização de imagem](/help/troubleshooting/miscellaneous/error-enabling-image-optimization-in-magento-commerce.md).\
+b. NÃO - Verifique o DNS executando na CLI/terminal: `dig [your website.com] + short`. Vá para [Etapa 4](#step-4).
 
 +++
 
 ## Etapa 4 - Verificar DNS {#step-4}
 
-+++**O que acontece quando você corre `dig`?**
++++**O que acontece quando você executa o `dig`?**
 
-Quando você correu `dig` ele retornou um registro apontando para prod.magentocloud.map.fastly.net ou um dos seguintes endereços IP (consulte [Atualizar configuração DNS com configuração de produção](https://devdocs.magento.com/cloud/live/site-launch-checklist.html#dns) na documentação do desenvolvedor):
+Quando você executou o `dig`, ele retornou um registro apontando para prod.magentocloud.map.fastly.net ou um dos seguintes endereços IP (consulte [Atualizar configuração de DNS com configuração de produção](https://devdocs.magento.com/cloud/live/site-launch-checklist.html#dns) na documentação do desenvolvedor):
 
 * 151.101.1.124
 * 151.101.65.124
@@ -56,16 +56,16 @@ Quando você correu `dig` ele retornou um registro apontando para prod.magentocl
 * 151.101.193.124
 
 a. SIM - O problema não está relacionado ao DNS. Vá para [Etapa 5](#step-5).\
-b. NÃO - O problema provavelmente está relacionado ao DNS. O cliente deve [verificar configuração de DNS](https://devdocs.magento.com/cloud/live/site-launch-checklist.html#dns "https://devdocs.magento.com/cloud/live/site-launch-checklist.html#dns") ou entre em contato com o provedor de DNS para obter mais informações.
+b. NÃO - O problema provavelmente está relacionado ao DNS. O cliente deve [verificar a configuração de DNS](https://devdocs.magento.com/cloud/live/site-launch-checklist.html#dns "https://devdocs.magento.com/cloud/live/site-launch-checklist.html#dns") ou contatar o provedor de DNS para obter mais informações.
 
 +++
 
 ## Etapa 5 - Confirmar conexão {#step-5}
 
-+++**Você recebe uma mensagem de &quot;Conexão não segura&quot; ou &quot;Não segura&quot; ao executar `curl -svo /dev/null "https://website.com"` na CLI/terminal?**
++++**Você recebeu a mensagem &quot;Conexão Não Segura&quot; ou &quot;Não Segura&quot; ao executar `curl -svo /dev/null "https://website.com"` na CLI/terminal?**
 
-a. SIM - isso provavelmente é um problema de certificado. Visite o site em um navegador, selecione o ícone de bloqueio e procure uma expiração de certificado. Vá para [Etapa 6](#step-6).\
-b. NÃO - Visita [http://fastly-debug.com](https://www.fastly-debug.com/) e compartilhe essas informações em um [tíquete de suporte do Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+a. SIM - isso provavelmente é um problema de certificado. Visite o site em um navegador, selecione o ícone de bloqueio e procure uma expiração de certificado. Vá para a [Etapa 6](#step-6).\
+b. NÃO - Visite [http://fastly-debug.com](https://www.fastly-debug.com/) e compartilhe essas informações em um [tíquete de suporte da Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 +++
 

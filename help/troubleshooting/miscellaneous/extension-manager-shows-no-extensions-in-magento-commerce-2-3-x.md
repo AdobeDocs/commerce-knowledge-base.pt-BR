@@ -23,7 +23,7 @@ Este artigo fornece uma solução alternativa para as extensões ausentes no Ext
 
 Ao comprar extensões por meio do Commerce Marketplace, não é possível instalá-las usando o Extension Manager principal do Adobe Commerce. Quando você adiciona suas chaves de acesso e sincroniza com o Marketplace, o Extension Manager não mostra extensões.
 
-A variável **Solução alternativa** o problema é usar a linha de comando instalação do Adobe Commerce, como mostrado na [Instalação geral da CLI](https://devdocs.magento.com/extensions/install/) na documentação do desenvolvedor.
+A **solução alternativa** para o problema é usar a instalação do Adobe Commerce na linha de comando, conforme mostrado em [Instalação geral do CLI](https://devdocs.magento.com/extensions/install/) na documentação do desenvolvedor.
 
 <u>Etapas a serem reproduzidas</u>:
 
@@ -37,11 +37,11 @@ A extensão é exibida na seção Extension Manager do Administrador do Commerce
 
 <u>Resultado real</u>:
 
-**Nenhuma extensão é exibida na seção Extension Manager do Commerce Admin, semelhante à imagem abaixo:**
+**Nenhuma extensão é exibida na seção Extension Manager do Administrador do Commerce, semelhante à imagem abaixo:**
 
 
 ![KB-607_Image_1.png](assets/KB-607_Image_1.png)
 
 ## Solução alternativa
 
-Use a linha de comando para instalação do Adobe Commerce, conforme mostrado na [Instalação geral da CLI](https://devdocs.magento.com/extensions/install/) na documentação do desenvolvedor.
+Use a linha de comando de instalação do Adobe Commerce conforme mostrado em [Instalação geral do CLI](https://devdocs.magento.com/extensions/install/) na documentação do desenvolvedor.

@@ -25,18 +25,20 @@ Ao modificar um perfil na conta da nuvem, os seguintes campos podem ser modifica
 
 Para modificar esses campos, siga estas etapas:
 
-1. Acesse sua conta em [Login da conta Adobe](https://accounts.magento.cloud).
-1. Clique no link **[!UICONTROL Account Settings]** guia.
-1. Selecione o *criar nova senha* caixa de seleção
-1. Faça as alterações necessárias e clique em *save*.
+1. Acesse sua conta em [logon de conta Adobe](https://accounts.magento.cloud).
+1. Clique na guia **[!UICONTROL Account Settings]**.
+1. Marque a caixa de seleção *criar nova senha*.
+1. Faça as alterações necessárias e clique em *salvar*.
 
-**NOTA**: *Sua senha não será alterada.*
+**OBSERVAÇÃO**: *Sua senha não será alterada.*
 
 ## O que não pode ser modificado?
 
-1. **[!UICONTROL Password]**: Para alterar a senha, visite [Adobe redefinição de senha](https://account.adobe.com/), pois esse perfil está vinculado à sua conta/endereço de email.
+1. **[!UICONTROL Password]**:
+Para alterar sua senha, visite [Adobe password reset](https://account.adobe.com/), pois este perfil está vinculado à sua conta/endereço de email.
 
-1. **[!UICONTROL Email Address]**: a modificação desse campo depende de suas circunstâncias individuais.
+1. **[!UICONTROL Email Address]**:
+A modificação desse campo depende de suas circunstâncias individuais.
 
 Se precisar transferir a propriedade da conta atual para um novo proprietário ou um endereço de email diferente, será necessário atualizar o email do usuário principal associado à conta.
 

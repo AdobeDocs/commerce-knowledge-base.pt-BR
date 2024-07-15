@@ -52,7 +52,7 @@ Tente usar um navegador diferente e aumente o tempo de vida da sessão do admini
 Para aumentar o tempo de vida da sessão de administrador, siga estas etapas:
 
 1. Criar um backup de banco de dados.
-1. Use uma ferramenta de banco de dados como [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin)ou acesse o BD manualmente a partir da linha de comando para executar a seguinte consulta SQL:
+1. Use uma ferramenta de banco de dados como [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin) ou acesse o BD manualmente a partir da linha de comando para executar a seguinte consulta SQL:
 
    ```sql
    UPDATE core_config_data SET value = 7200 WHERE path = 'admin/security/session_lifetime';
@@ -69,7 +69,7 @@ Para aumentar o tempo de vida da sessão de administrador, siga estas etapas:
 Para verificar os valores das configurações de cookies e limpá-los, siga estas etapas:
 
 1. Criar um backup de banco de dados.
-1. Use uma ferramenta de banco de dados como [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin)ou acesse o BD manualmente a partir da linha de comando para executar a seguinte consulta SQL:
+1. Use uma ferramenta de banco de dados como [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin) ou acesse o BD manualmente a partir da linha de comando para executar a seguinte consulta SQL:
 
    ```sql
    SELECT * FROM core_config_data WHERE (path = "web/cookie/cookie_domain" OR path = "web/cookie/cookie_path");
@@ -89,5 +89,5 @@ Para verificar os valores das configurações de cookies e limpá-los, siga esta
 
 ## Artigos relacionados
 
-* [Redirecione de volta para o formulário de login do administrador com o erro &quot;Sua conta está temporariamente desativada&quot;](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md) em nossa base de conhecimento de suporte.
-* [Redirecione de volta para o formulário de logon do Administrador com o erro &quot;Sua sessão atual expirou&quot;](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-current-session-has-been-expired-error.md) em nossa base de conhecimento de suporte.
+* [Redirecione de volta para o formulário de logon do Administrador com o erro &quot;Sua conta está temporariamente desabilitada&quot;](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md) em nossa knowledge base de suporte.
+* [Redirecione de volta para o formulário de logon do Administrador com o erro &quot;Sua sessão atual expirou&quot;](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-current-session-has-been-expired-error.md) em nossa base de dados de conhecimento de suporte.

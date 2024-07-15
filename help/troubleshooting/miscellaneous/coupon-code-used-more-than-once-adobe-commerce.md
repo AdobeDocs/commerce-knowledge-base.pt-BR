@@ -33,7 +33,7 @@ Os comerciantes configuram um cupom para uso único e os clientes podem usá-lo 
 
 <u>Resultado esperado</u>:
 
-O cupom só pode ser usado uma vez. Uma mensagem é exibida: *O código de cupom &quot;COUPON_NAME&quot; não é válido*.
+O cupom só pode ser usado uma vez. Uma mensagem é exibida: *O código do cupom &quot;COUPON_NAME&quot; não é válido*.
 
 <u>Resultado real</u>:
 
@@ -42,11 +42,11 @@ O cupom pode ser usado mais de uma vez.
 
 ## Causa
 
-Os comerciantes não têm `sales.rule.update.coupon.usage` configuração e funcionamento do consumidor que resulta em comportamento inadequado.
+Os comerciantes não têm o consumidor `sales.rule.update.coupon.usage` configurado e em execução, o que resulta em comportamento inadequado.
 
 ## Solução
 
-Adicione o `sales.rule.update.coupon.usage` consumidor para o `app/etc/env.php` arquivo.
+Adicionar o consumidor `sales.rule.update.coupon.usage` ao arquivo `app/etc/env.php`.
 
 ```php
 ...

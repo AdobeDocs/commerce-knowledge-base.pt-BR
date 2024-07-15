@@ -11,13 +11,13 @@ ht-degree: 0%
 
 ---
 
-# ACSD-48204: regra de preço de catálogo criada com base em *Sim/Não* o atributo não considera o escopo selecionado
+# ACSD-48204: a regra de preço de catálogo criada com base no atributo *Sim/Não* não considera o escopo selecionado
 
-O patch ACSD-48204 corrige o problema em que a regra de preço de catálogo criada com base em *Sim/Não* O atributo não considera o escopo selecionado. Este patch está disponível quando a variável [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) O 1.1.28 está instalado. A ID do patch é ACSD-48204. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.7.
+O patch ACSD-48204 corrige o problema em que a regra de preço do catálogo criada com base no atributo *Sim/Não* não considera o escopo selecionado. Este patch está disponível quando o [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.28 está instalado. A ID do patch é ACSD-48204. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.7.
 
 ## Produtos e versões afetados
 
-**O patch é criado para a versão do Adobe Commerce:**
+**O patch foi criado para a versão do Adobe Commerce:**
 
 * Adobe Commerce (todos os métodos de implantação) 2.4.2-p2
 
@@ -27,21 +27,21 @@ O patch ACSD-48204 corrige o problema em que a regra de preço de catálogo cria
 
 >[!NOTE]
 >
->O patch pode se tornar aplicável a outras versões com novos [!DNL Quality Patches Tool] versões. Para verificar se o patch é compatível com sua versão do Adobe Commerce, atualize o `magento/quality-patches` pacote para a versão mais recente e verifique a compatibilidade no [[!DNL Quality Patches Tool]: Página Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+>O patch pode se tornar aplicável a outras versões com as novas versões do [!DNL Quality Patches Tool]. Para verificar se o patch é compatível com a sua versão do Adobe Commerce, atualize o pacote `magento/quality-patches` para a versão mais recente e verifique a compatibilidade na [[!DNL Quality Patches Tool]: página Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
 
 ## Problema
 
-A regra de preço de catálogo criada com base em *Sim/Não* O atributo não considera o escopo selecionado.
+A regra de preço de catálogo criada com base no atributo *Sim/Não* não considera o escopo selecionado.
 
 <u>Etapas a serem reproduzidas</u>:
 
 1. Crie dois sites (Padrão e W2).
-1. Criar um atributo de produto de *Sim/Não* tipo.
-   * Definir [!UICONTROL Default value] = [!UICONTROL No]
+1. Crie um atributo de produto do tipo *Sim/Não*.
+   * Conjunto [!UICONTROL Default value] = [!UICONTROL No]
    * [!UICONTROL Scope] = [!UICONTROL Website]
    * [!UICONTROL Use for Promo Rule Conditions] = [!UICONTROL Yes]
 1. Crie um produto configurável com base em qualquer atributo com duas variações (V1 e V2).
-   * Adicione o *Sim/Não* atributo para o conjunto de atributos de variações configuráveis
+   * Adicionar o atributo *Sim/Não* ao conjunto de atributos de variações configuráveis
    * Para uma das variações (V1), defina o valor como *[!UICONTROL Yes]* no site não padrão (W2)
 1. Criar uma regra de catálogo:
    * Aplicado a ambos os sites
@@ -66,14 +66,14 @@ O desconto desaparece.
 
 Para aplicar patches individuais, use os links a seguir, dependendo do método de implantação:
 
-* Adobe Commerce ou Magento Open Source no local: [[!DNL Quality Patches Tool] > Uso](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) no [!DNL Quality Patches Tool] guia.
-* Adobe Commerce na infraestrutura em nuvem: [Upgrades e Patches > Aplicar Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) no guia do Commerce na infraestrutura em nuvem.
+* Adobe Commerce ou Magento Open Source no local: [[!DNL Quality Patches Tool] > Uso](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) no guia [!DNL Quality Patches Tool].
+* Adobe Commerce na infraestrutura em nuvem: [Atualizações e patches > Aplicar patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) no guia do Commerce na infraestrutura em nuvem.
 
 ## Leitura relacionada
 
 Para saber mais sobre [!DNL Quality Patches Tool], consulte:
 
-* [[!DNL Quality Patches Tool] lançado: uma nova ferramenta para autoatender correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de conhecimento de suporte.
-* [Verifique se o patch está disponível para o problema do Adobe Commerce usando [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de conhecimento de suporte.
+* [[!DNL Quality Patches Tool] versão: uma nova ferramenta para autoatender patches de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de dados de conhecimento de suporte.
+* [Verifique se há um patch disponível para o problema do Adobe Commerce usando o [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de dados de conhecimento de suporte.
 
-Para obter informações sobre outros patches disponíveis no QPT, consulte [[!DNL Quality Patches Tool]: Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) no [!DNL Quality Patches Tool] guia.
+Para obter informações sobre outros patches disponíveis no QPT, consulte [[!DNL Quality Patches Tool]: Pesquisar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) no guia [!DNL Quality Patches Tool].

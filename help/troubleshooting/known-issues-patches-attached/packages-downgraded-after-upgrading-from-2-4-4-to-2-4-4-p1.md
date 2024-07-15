@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Pacotes rebaixados após a atualização de 2.4.4 para 2.4.4-p1
 
-Este artigo fornece uma correção para o problema que ocorria quando os comerciantes na versão 2.4.4 executavam a `composer update` e, em seguida, os pacotes (módulos) listados abaixo estão sendo rebaixados para suas versões anteriores que não são compatíveis com a versão 2.4.4 e só devem ser usadas com a versão 2.4.5 e superior.
+Este artigo fornece um hotfix para o problema quando os comerciantes na versão 2.4.4 executam o comando `composer update` e, em seguida, os pacotes (módulos) listados abaixo estão sendo rebaixados para suas versões anteriores que não são compatíveis com a versão 2.4.4 e só devem ser usados com a versão 2.4.5 e superior.
 
 ## Produtos e versões afetados
 
@@ -82,7 +82,7 @@ Durante a atualização da versão 2.4.4 para 2.4.4-p1, as versões desses pacot
 
 <u>Etapas a serem reproduzidas</u>:
 
-Quando os comerciantes do 2.4.4 executam o `composer update` e, em seguida, os mesmos pacotes (módulos) listados acima em **Cenário 1** atualize para as versões mais recentes, que são compatíveis somente com a versão 2.4.5 e não devem ser usadas com a versão 2.4.4.
+Quando os comerciantes da versão 2.4.4 executam o comando `composer update`, os mesmos pacotes (módulos) listados acima no **Cenário 1** são atualizados para suas versões mais recentes, que são compatíveis somente com a versão 2.4.5 e não devem ser usados com a versão 2.4.4.
 
 <u>Resultados esperados</u>:
 
@@ -94,7 +94,7 @@ Os pacotes (módulos) são rebaixados após a atualização da versão 2.4.4 par
 
 ## Solução 1: Patch
 
-O patch está anexado a este artigo. Para baixá-lo, role para baixo até o final do artigo e clique no nome do arquivo ou clique no link a seguir: [Baixar ACPLTSRV-2017-fix.sh.zip](assets/ACPLTSRV-2017-fix.sh.zip)
+O patch está anexado a este artigo. Para baixá-lo, role para baixo até o final do artigo e clique no nome do arquivo ou clique no seguinte link: [Baixar ACPLTSRV-2017-fix.sh.zip](assets/ACPLTSRV-2017-fix.sh.zip)
 
 ## Versões compatíveis do Adobe Commerce e Magento Open Source:
 
@@ -110,27 +110,27 @@ A correção foi criada para:
 
 ## Como aplicar o patch
 
-Usar o script bash anexado [ACPLTSRV-2017-fix.sh.zip](assets/ACPLTSRV-2017-fix.sh.zip) como solução alternativa para esse problema.
+Use o script bash anexado [ACPLTSRV-2017-fix.sh.zip](assets/ACPLTSRV-2017-fix.sh.zip) como solução alternativa para esse problema.
 
 **Instruções exatas sobre como usar o script:**
 
 ### No Adobe Commerce sobre infraestrutura em nuvem:
 
-1. Baixar o arquivo de script bash `ACPLTSRV-2017-fix.sh` para o check-out local da base de código de nuvem.
-1. Execute o arquivo de script bash `ACPLTSRV-2017-fix.sh` para modificar os arquivos do compositor localmente.
+1. Baixe o arquivo de script bash `ACPLTSRV-2017-fix.sh` no check-out local da base de código de nuvem.
+1. Execute o arquivo de script bash `ACPLTSRV-2017-fix.sh` para modificar os arquivos compositor localmente.
 1. Adicione e confirme os arquivos do compositor modificados no repositório Git.
 
 ### No Adobe Commerce ou Magento Open Source no local:
 
-1. Coloque o script bash `ACPLTSRV-2017-fix.sh` no `root` pasta da sua instalação do Adobe Commerce/Magento Open Source 2.4.4 (a mesma pasta da `composer.json`).
-1. Execute o script bash com um `apply` argumento para bloquear pacotes afetados (módulos) às suas versões 2.4.4:
+1. Coloque o script bash `ACPLTSRV-2017-fix.sh` na pasta `root` da sua instalação do Adobe Commerce/Magento Open Source 2.4.4 (a mesma pasta que o `composer.json`).
+1. Execute o script bash com um argumento `apply` para bloquear os pacotes afetados (módulos) às suas versões 2.4.4:
 
    ```bash
    sh ACPLTSRV-2017-fix.sh apply
    ```
 
 1. Execute o composer atualizado para instalar os pacotes bloqueados (módulos).
-1. Quando estiver pronto para atualizar para 2.4.5 ou 2.4.4-p1, execute o script com um `rollback` argumento:
+1. Quando estiver pronto para atualizar para 2.4.5 ou 2.4.4-p1, execute o script com um argumento `rollback`:
 
    ```bash
    sh ACPLTSRV-2017-fix.sh rollback
@@ -141,4 +141,4 @@ Usar o script bash anexado [ACPLTSRV-2017-fix.sh.zip](assets/ACPLTSRV-2017-fix.s
 
 ## Solução alternativa 2
 
-A 2ª solução alternativa para esse problema é não executar o `composer update` comando sem nenhum argumento.
+A 2ª solução alternativa para esse problema é não executar o comando `composer update` sem argumentos.

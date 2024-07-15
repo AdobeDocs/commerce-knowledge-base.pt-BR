@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Tíquete de suporte Descrições do motivo de contato
 
-Este artigo lista o tíquete de suporte **Motivo do contato** opções de campo e descrições mais detalhadas de cada uma.
+Este artigo lista as opções de campo do tíquete de suporte **Motivo do Contato** e descrições mais detalhadas de cada uma.
 
 ## Motivos de contato
 
@@ -52,7 +52,7 @@ Este artigo lista o tíquete de suporte **Motivo do contato** opções de campo 
 
 ## Motivos de aplicação do Adobe Commerce
 
-Estas são as opções que aparecerão se **Aplicativo Adobe Commerce** está selecionado como **Motivo do contato**:
+Estas são as opções que aparecerão se o **Aplicativo Adobe Commerce** for selecionado como o **Motivo do Contato**:
 
 <table class="tg">
 <thead>
@@ -95,7 +95,7 @@ Estas são as opções que aparecerão se **Aplicativo Adobe Commerce** está se
 
 ## Motivos da infraestrutura Adobe Commerce Cloud
 
-Estas são as opções que aparecerão se **Infraestrutura Adobe Commerce Cloud** está selecionado como **Motivo do contato**:
+Estas são as opções que aparecerão se a **Infraestrutura do Adobe Commerce Cloud** for selecionada como o **Motivo do Contato**:
 
 <table class="tg">
 <thead>
@@ -150,4 +150,4 @@ Estas são as opções que aparecerão se **Infraestrutura Adobe Commerce Cloud*
 
 ## Leitura relacionada
 
-Consulte [Guia do Centro de ajuda > Campos de tíquete de suporte explicados](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-tickets) para ver detalhes sobre outros campos de formulário de entrada de tíquetes.
+Consulte [Guia da Central de Ajuda > Campos de tíquete de suporte explicados](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-tickets) para ver detalhes sobre outros campos de formulário de entrada de tíquetes.

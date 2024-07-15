@@ -29,5 +29,5 @@ Após instalar a ferramenta, você pode verificar os patches disponíveis, aplic
 
 Consulte nossa documentação do desenvolvedor para obter detalhes:
 
-* [Patches disponíveis na Ferramenta de patches de qualidade](https://devdocs.magento.com/quality-patches/tool.html#patch-grid)
+* [Patches disponíveis na Ferramenta de Patches de Qualidade](https://devdocs.magento.com/quality-patches/tool.html#patch-grid)
 * [Notas de versão da Ferramenta de correções de qualidade](https://devdocs.magento.com/quality-patches/release-notes.html)

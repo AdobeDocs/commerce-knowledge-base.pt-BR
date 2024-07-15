@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Problema conhecido do Adobe Commerce 2.4.0: os botões Criar novo pedido não aparecem
 
-Este artigo fornece uma solução alternativa para um problema conhecido no Administrador do Commerce para dois botões ausentes na página de criação de pedidos. Ao criar um novo pedido para um cliente novo ou existente, não é possível adicionar produtos ao pedido a partir do catálogo, pois o **Adicionar produtos por SKU** e **Adicionar produtos** botões ausentes. Isso é causado pelo empacotamento de JS que está ativado. Uma correção estará disponível no Adobe Commerce 2.4.1.
+Este artigo fornece uma solução alternativa para um problema conhecido no Administrador do Commerce para dois botões ausentes na página de criação de pedidos. Ao criar um novo pedido para um cliente novo ou existente, não é possível adicionar produtos ao pedido do catálogo, pois os botões **Adicionar produtos por SKU** e **Adicionar produtos** estão ausentes. Isso é causado pelo empacotamento de JS que está ativado. Uma correção estará disponível no Adobe Commerce 2.4.1.
 
 ## Produtos e versões afetados
 
@@ -24,17 +24,17 @@ Este artigo fornece uma solução alternativa para um problema conhecido no Admi
 
 <u>Etapas a serem reproduzidas</u>
 
-1. Ir para **Clientes > Todos os clientes**.
-1. Clique em **Editar** em um cliente.
-1. Clique em **Criar pedido** botão.
+1. Vá para **Clientes > Todos os clientes**.
+1. Clique no link **Editar** em um cliente.
+1. Clique no botão **Criar Pedido**.
 
 <u>Resultado esperado</u>
 
-A variável **Adicionar produtos por SKU** e **Adicionar produtos** botões são exibidos no **Criar novo pedido** página.
+Os botões **Adicionar Produtos por SKU** e **Adicionar Produtos** aparecem na página **Criar Novo Pedido**.
 
 <u>Resultado real</u>
 
-A variável **Adicionar produtos por SKU** e **Adicionar produtos** botões ausentes no **Criar novo pedido** página.
+Os botões **Adicionar Produtos por SKU** e **Adicionar Produtos** estão ausentes na página **Criar Novo Pedido**.
 
 ## Solução alternativa
 

@@ -1,6 +1,6 @@
 ---
-title: "[!DNL Cron] a tarefa está paralisada em **status de execução**"
-description: Este artigo fornece soluções para quando o Adobe Commerce [!DNL cron] tarefas não terminam de ser executadas e persistem em um status "em execução", o que impede que outras [!DNL cron] tarefas em execução. Isso pode acontecer por vários motivos, como problemas de rede, falhas em aplicativos e problemas de reimplantação.
+title: "O trabalho [!DNL Cron] está preso no status **em execução**"
+description: Este artigo fornece soluções para quando os trabalhos do Adobe Commerce [!DNL cron]  não terminarem de ser executados e persistirem em um status "em execução", o que impede a execução de outros trabalhos do  [!DNL cron] . Isso pode acontecer por vários motivos, como problemas de rede, falhas em aplicativos e problemas de reimplantação.
 exl-id: 11e01a2b-2fcf-48c2-871c-08f29cd76250
 feature: Configuration
 role: Developer
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Cron] a tarefa está paralisada no status &quot;em execução&quot;
+# O trabalho [!DNL Cron] está preso no status &quot;em execução&quot;
 
-Este artigo fornece soluções para quando o Adobe Commerce [!DNL cron] tarefas não terminam de ser executadas e persistem em um status &quot;em execução&quot;, o que impede que outras [!DNL cron] tarefas em execução. Isso pode acontecer por vários motivos, como problemas de rede, falhas em aplicativos e problemas de reimplantação.
+Este artigo fornece soluções para quando os trabalhos do Adobe Commerce [!DNL cron] não terminarem de ser executados e persistirem em um status &quot;em execução&quot;, o que impede a execução de outros trabalhos do [!DNL cron]. Isso pode acontecer por vários motivos, como problemas de rede, falhas em aplicativos e problemas de reimplantação.
 
 ## Produtos e versões afetados
 
@@ -21,38 +21,38 @@ Adobe Commerce na infraestrutura em nuvem, todas as versões
 
 ## Sintoma {#symptom}
 
-Sintomas de [!DNL cron] os trabalhos que devem ser redefinidos incluem:
+Os sintomas de [!DNL cron] trabalhos que devem ser redefinidos incluem:
 
-* Uma grande quantidade de trabalhos aparece na `cron_schedule` fila
+* Uma grande quantidade de trabalhos aparece na fila `cron_schedule`
 * O desempenho do site começa a diminuir
 * Os trabalhos não são executados de acordo com o agendamento
 
 ## Soluções {#solutions}
 
-### Solução para interromper todos [!DNL cron] tarefas de uma só vez {#solution-stop-all-crons-at-once}
+### Solução para interromper todos os [!DNL cron] trabalhos de uma só vez {#solution-stop-all-crons-at-once}
 
 >[!WARNING]
 >
->Executar este comando sem o `--job-code` a opção é redefinida *all* [!DNL cron] tarefas, incluindo aquelas em execução no momento, portanto, recomendamos usá-lo somente em casos excepcionais, como depois de verificar que todas [!DNL cron] os trabalhos devem ser redefinidos. Reimplantação executa este comando por padrão para redefinir [!DNL cron] trabalhos, para que eles se recuperem adequadamente após o backup do ambiente. Evite usar esta solução quando os indexadores estiverem em execução.
+>A execução deste comando sem a opção `--job-code` redefine *todos* os trabalhos [!DNL cron], incluindo aqueles em execução no momento. Portanto, recomendamos usá-lo somente em casos excepcionais, como quando você verifica se todos os trabalhos [!DNL cron] devem ser redefinidos. A reimplantação executa esse comando por padrão para redefinir [!DNL cron] trabalhos, para que eles sejam recuperados adequadamente após o backup do ambiente. Evite usar esta solução quando os indexadores estiverem em execução.
 
-Para resolver esse problema, redefina o [!DNL cron] tarefa(s) usando o `cron:unlock` comando. Esse comando altera o status da variável [!DNL cron] job no banco de dados, encerrando o job de forma forçada para permitir que outros jobs agendados continuem.
+Para resolver esse problema, você deve redefinir o(s) trabalho(s) [!DNL cron] usando o comando `cron:unlock`. Este comando altera o status do trabalho [!DNL cron] no banco de dados, encerrando o trabalho à força para permitir que outros trabalhos agendados continuem.
 
-1. Abra um terminal e use sua [Chaves SSH](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) para conectar-se ao ambiente afetado.
+1. Abra um terminal e use suas [chaves SSH](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) para se conectar ao ambiente afetado.
 1. Obtenha as credenciais do banco de dados MySQL:    ```shell    echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 -d | json_pp    ```
-1. Conectar ao banco de dados usando `mysql` :    ```shell    mysql -hdatabase.internal -uuser -ppassword main    ```
-1. Selecione o `main` banco de dados:    ```shell    use main    ```
-1. Localizar tudo em execução [!DNL cron] tarefas:    ```shell    SELECT * FROM cron_schedule WHERE status = 'running';    ```
-1. Copie o `job_code` de qualquer tarefa que esteja sendo executada por mais tempo do que o normal.
-1. Use as IDs de programação da etapa anterior para desbloquear IDs [!DNL cron] tarefas:    ```shell    ./vendor/bin/ece-tools cron:unlock --job-code=<job_code_1> [... --job-code=<job_code_x>]    ```
+1. Conectar ao banco de dados usando `mysql`:    ```shell    mysql -hdatabase.internal -uuser -ppassword main    ```
+1. Selecione o banco de dados `main`:    ```shell    use main    ```
+1. Localizar todos os [!DNL cron] trabalhos em execução:    ```shell    SELECT * FROM cron_schedule WHERE status = 'running';    ```
+1. Copie o `job_code` de qualquer trabalho que esteja sendo executado por mais tempo do que o normal.
+1. Use as IDs de agendamento da etapa anterior para desbloquear [!DNL cron] trabalhos específicos:    ```shell    ./vendor/bin/ece-tools cron:unlock --job-code=<job_code_1> [... --job-code=<job_code_x>]    ```
 
-### Solução para interromper um único [!DNL cron] {#solution-stop-a-single-cron}
+### Solução para parar um único [!DNL cron] {#solution-stop-a-single-cron}
 
-1. Abra um terminal e use sua [Chaves SSH](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) para conectar-se ao ambiente afetado.
+1. Abra um terminal e use suas [chaves SSH](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) para se conectar ao ambiente afetado.
 1. Verifique as tarefas de longa duração usando o seguinte comando:
 
    ```date; ps aux | grep '[%]CPU\|cron\|magento\|queue' | grep -v 'grep\|cron -f'```
 
-1. Na saída, como na saída de exemplo abaixo, você verá a data atual e a lista de processos. A variável `START` mostra a hora ou data inicial do processo:
+1. Na saída, como na saída de exemplo abaixo, você verá a data atual e a lista de processos. A coluna `START` mostra a hora ou a data de início do processo:
 
    ```
    Wed May  8 22:41:31 UTC 2019
@@ -72,8 +72,8 @@ Para resolver esse problema, redefina o [!DNL cron] tarefa(s) usando o `cron:unl
    bxc2qly+ 25896 29.0  0.6 475320 109876 ?       R    20:51   0:00 /usr/bin/php7.1-zts /app/bxc2qlykqhbqe/bin/magento cron:run --group=ddg_automation --bootstrap=standaloneProcessStarted=1
    ```
 
-1. Se você observar uma longa [!DNL cron] tarefas que podem ser o processo de implantação de bloco, é possível encerrar o processo usando o `kill` comando. Você pode identificar o **ID do processo** (encontrou o `PID` coluna) e depois coloque isso `PID` no comando para eliminar o processo.
-A variável **eliminar processo** é:
+1. Se você observar trabalhos [!DNL cron] de longa execução que possam bloquear o processo de implantação, é possível encerrar o processo usando o comando `kill`. Você pode identificar a **ID do Processo** (localizada a coluna `PID`) e colocar essa `PID` no comando para eliminar o processo.
+O comando **eliminar processo** é:
 
    ```kill -9 <PID>```
 

@@ -23,7 +23,7 @@ Este artigo fornece uma solução para o problema em que a instalação do Adobe
 ## Problema
 
 <u>Pré-requisitos:</u>
-Uma extensão de terceiros com dependências em APIs para o módulo Store em comandos CLI é configurada conforme exigido em `composer.json`. Isso faz com que a instalação do Adobe Commerce 2.4.0 falhe com uma mensagem de erro: *O site padrão não está definido. Defina o site e tente novamente.* exibido no console.
+Uma extensão de terceiros com dependências em APIs para o módulo Store em comandos CLI está configurada conforme exigido em `composer.json`. Isso faz com que a instalação do Adobe Commerce 2.4.0 falhe com uma mensagem de erro: *O site padrão não está definido. Defina o site e tente novamente.* exibido no console.
 
 ## Causa
 

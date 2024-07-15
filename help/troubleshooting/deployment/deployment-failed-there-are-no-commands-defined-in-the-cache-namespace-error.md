@@ -42,11 +42,11 @@ Implantação bem-sucedida.
 
 <u>Resultados reais</u>:
 
-Você não implantou o com sucesso. Nos logs, você vê um erro de implantação com uma mensagem semelhante à seguinte *Não há comandos no namespace do cache*.
+Você não implantou o com sucesso. Nos logs, você vê um erro de implantação com uma mensagem semelhante à seguinte *Não há comandos no namespace de cache*.
 
 ### Causa
 
-A variável **core_config_data** A tabela contém configurações para uma ID de loja ou ID de site que não existe mais no banco de dados. Isso ocorre quando você importa um backup de banco de dados de outra instância/ambiente e as configurações desses escopos permanecem no banco de dados por meio do(s) armazenamento(s)/site(s) associado(s) que foi(ram) excluído(s).
+A tabela **core_config_data** contém configurações para uma ID de armazenamento ou ID de site que não existe mais no banco de dados. Isso ocorre quando você importa um backup de banco de dados de outra instância/ambiente e as configurações desses escopos permanecem no banco de dados por meio do(s) armazenamento(s)/site(s) associado(s) que foi(ram) excluído(s).
 
 ### Solução
 
@@ -82,7 +82,7 @@ Para resolver esse problema, identifique as linhas inválidas restantes dessas c
 
    `bin/magento`
 
-   Se você receber um erro como o abaixo, que indica que o site com a ID X solicitada não foi encontrado, você tem configurações restantes no banco de dados do(s) site(s), bem como lojas que foram excluídas.
+   Se você receber um erro como o abaixo, que indica que o site com a ID X solicitada não foi encontrado, você tem configurações restantes        no banco de dados a partir de site(s) e armazenamento(s) que foram excluídos.
 
    ```
    In WebsiteRepository.php line 110:
@@ -102,7 +102,7 @@ Para resolver esse problema, identifique as linhas inválidas restantes dessas c
    delete from core_config_data where scope='websites' and scope_id not in (select website_id from store_website);
    ```
 
-Para confirmar se a solução funcionou, execute o `bin/magento` novamente. Você não deve mais ver os erros e pode implantar com êxito.
+Para confirmar se a solução funcionou, execute o comando `bin/magento` novamente. Você não deve mais ver os erros e pode implantar com êxito.
 
 ## Leitura relacionada
 

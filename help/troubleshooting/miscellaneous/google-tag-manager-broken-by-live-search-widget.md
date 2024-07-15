@@ -1,6 +1,6 @@
 ---
-title: O Gerenciador de tags da Google foi interrompido pelo [!DNL Live Search] widget
-description: Este artigo oferece uma solução para o [!DNL Live Search Product Listing Widget] causando [!DNL Google Tag Manager] para parar de funcionar.
+title: O Gerenciador de Marcas do Google foi desfeito pelo widget  [!DNL Live Search]
+description: Este artigo oferece uma solução para a [!DNL Live Search Product Listing Widget] causa [!DNL Google Tag Manager] parar de funcionar.
 feature: Install, Search, Best Practices
 role: Admin, Developer
 exl-id: 485f8ccb-cba2-4785-a8e1-a1e98c88b21e
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Google Tag Manager] foi interrompido pelo [!DNL Live Search] widget
+# [!DNL Google Tag Manager] foi interrompido pelo widget [!DNL Live Search]
 
-Este artigo oferece uma solução para o [!DNL Live Search Product Listing Widget] causando [!DNL Google Tag Manager] para parar de funcionar.
+Este artigo oferece uma solução para o [!DNL Live Search Product Listing Widget], fazendo com que o [!DNL Google Tag Manager] pare de funcionar.
 
 ## Produtos e versões afetados
 
@@ -21,16 +21,16 @@ Este artigo oferece uma solução para o [!DNL Live Search Product Listing Widge
 
 ## Problema
 
-A variável [!DNL Live Search Product Listing Widget] causas [!DNL Google Tag Manager] para parar de funcionar.
+O [!DNL Live Search Product Listing Widget] faz com que [!DNL Google Tag Manager] pare de funcionar.
 
 ## Solução
 
-Para assegurar que [!DNL Google Tag Manager] funciona com [!DNL Live Search], use o *Pesquisar adaptador*.
+Para garantir que [!DNL Google Tag Manager] funcione com [!DNL Live Search], use o *Adaptador de Pesquisa*.
 
-Para fazer isso, desative o widget no Administrador. [!DNL Live Search] em seguida, o padrão é usar o *Pesquisar adaptador*.
+Para fazer isso, desative o widget no Administrador. [!DNL Live Search] em seguida, usa como padrão o *Adaptador de Pesquisa*.
 
 ## Leitura relacionada
 
-* [[!DNL Live Search] Visão geral do guia](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html) em nossa Documentação do Adobe Commerce Live Search
+* [[!DNL Live Search] Visão geral do Guia](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html) em nossa Documentação do Adobe Commerce Live Search
 
 * [Instalando [!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html) em nossa Documentação do Adobe Commerce Live Search

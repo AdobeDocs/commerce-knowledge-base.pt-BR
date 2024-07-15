@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # MDVA-37478: Não é possível criar fatura parcial via API REST
 
-O patch MDVA-37478 corrige o problema quando você não consegue criar uma fatura parcial por meio da API REST para um pedido feito com a forma de pagamento **Pagamento por conta**. Este patch está disponível quando a variável [Ferramenta de correções de qualidade (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) O 1.0.23 está instalado. A ID do patch é MDVA-37478. Observe que o problema está programado para ser corrigido no Adobe Commerce versão 2.4.3.
+O patch MDVA-37478 corrige o problema quando você não consegue criar uma fatura parcial via API REST para um pedido feito com o método de pagamento **Pagamento na conta**. Este patch está disponível quando a [Ferramenta de Patches de Qualidade (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.23 está instalada. A ID do patch é MDVA-37478. Observe que o problema está programado para ser corrigido no Adobe Commerce versão 2.4.3.
 
 ## Produtos e versões afetados
 
@@ -22,7 +22,7 @@ O patch MDVA-37478 corrige o problema quando você não consegue criar uma fatur
 
 >[!NOTE]
 >
->O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com sua versão do Adobe Commerce, atualize o `magento/quality-patches` pacote para a versão mais recente e verifique a compatibilidade no [[!DNL Quality Patches Tool]: Página Procurar patches](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+>O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com a sua versão do Adobe Commerce, atualize o pacote `magento/quality-patches` para a versão mais recente e verifique a compatibilidade na [[!DNL Quality Patches Tool]: página Procurar patches](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
 
 ## Problema
 
@@ -32,13 +32,13 @@ Adobe Commerce com módulo B2B instalado
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. Ativar **Empresa B2B**.
-1. Ativar **Pagamento por conta** método de pagamento.
+1. Habilitar **empresa B2B**.
+1. Habilitar o método de pagamento **Pagamento na Conta**.
 1. Crie 2 produtos simples.
 1. Crie uma conta de empresa.
 1. Adicione créditos da empresa que excedem o preço total de 2 produtos criados.
 1. Faça logon no front-end usando a conta da empresa criada.
-1. Adicione os 2 produtos criados ao carrinho e faça checkout usando o **Pagamento por conta** método de pagamento.
+1. Adicione os 2 produtos criados ao carrinho e finalize a compra usando o método de pagamento **Pagamento na conta**.
 1. Tente criar uma fatura parcial para o pedido criado pela API REST:
 
    ```php
@@ -55,7 +55,7 @@ Adobe Commerce com módulo B2B instalado
 
 <u>Resultados esperados</u>:
 
-A fatura parcial é criada para um pedido feito usando o **Pagamento por conta** método de pagamento, conforme esperado.
+A fatura parcial é criada para um pedido feito usando o método de pagamento **Pagamento na Conta**, conforme esperado.
 
 <u>Resultados reais</u>:
 
@@ -69,14 +69,14 @@ O seguinte erro é retornado da API REST:
 
 Para aplicar patches individuais, use os seguintes links, dependendo do seu produto Adobe Commerce:
 
-* Adobe Commerce ou Magento Open Source no local: [Guia de atualização de software > Aplicar patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) na documentação do desenvolvedor.
-* Adobe Commerce na infraestrutura em nuvem: [Upgrades e Patches > Aplicar Patches](https://devdocs.magento.com/cloud/project/project-patch.html) na documentação do desenvolvedor.
+* Adobe Commerce ou Magento Open Source no local: [Guia de Atualização de Software > Aplicar Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) na documentação do desenvolvedor.
+* Adobe Commerce na infraestrutura em nuvem: [Atualizações e patches > Aplicar patches](https://devdocs.magento.com/cloud/project/project-patch.html) na documentação do desenvolvedor.
 
 ## Leitura relacionada
 
 Para saber mais sobre a Ferramenta de correção de qualidade, consulte:
 
-* [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatendimento de correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de conhecimento de suporte.
-* [Verifique se o patch está disponível para o problema do Adobe Commerce usando a Ferramenta de patches de qualidade](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de conhecimento de suporte.
+* [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatender correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de dados de conhecimento de suporte.
+* [Verifique se o patch está disponível para o problema do Adobe Commerce usando a Ferramenta de Patches de Qualidade](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de dados de conhecimento de suporte.
 
-Para obter informações sobre outros patches disponíveis na ferramenta QPT, consulte o [Correções disponíveis na ferramenta QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) seção.
+Para obter informações sobre outros patches disponíveis na ferramenta QPT, consulte a seção [Patches disponíveis na ferramenta QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-).

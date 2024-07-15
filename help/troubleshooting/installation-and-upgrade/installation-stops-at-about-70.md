@@ -32,11 +32,11 @@ Defina todos os itens a seguir conforme apropriado.
 
 ### Todos os servidores Web e Verniz {#all-web-servers-and-varnish}
 
-1. Localize seu `php.ini` usando um [`phpinfo.php`](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/optional.html#install-optional-phpinfo) arquivo.
-1. Como usuário com `root` privilégios, abrir `php.ini` em um editor de texto.
-1. Localize o `max_execution_time` configuração.
-1. Alterar seu valor para `18000` .
-1. Salvar as alterações em `php.ini` e saia do editor de texto.
+1. Localize seu `php.ini` usando um arquivo [`phpinfo.php`](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/optional.html#install-optional-phpinfo).
+1. Como um usuário com privilégios `root`, abra o `php.ini` em um editor de texto.
+1. Localize a configuração `max_execution_time`.
+1. Altere seu valor para `18000`.
+1. Salve as alterações em `php.ini` e saia do editor de texto.
 1. Reiniciar o Apache:
 
    * CentOS: `service httpd restart`
@@ -46,7 +46,7 @@ Defina todos os itens a seguir conforme apropriado.
 
 ### somente nginx {#nginx-only}
 
-Se você usa nginx, use o nosso incluído `nginx.conf.sample` ou adicione uma configuração de tempo limite no arquivo de configuração do host nginx ao `location ~ ^/setup/index.php` seção, como segue:
+Se você usa nginx, use nosso `nginx.conf.sample` incluído ou adicione uma configuração de tempo limite no arquivo de configuração do host nginx à seção `location ~ ^/setup/index.php` da seguinte maneira:
 
 ```php
 location ~ ^/setup/index.php {
@@ -60,7 +60,7 @@ Reiniciar o nginx: `service nginx restart`
 
 ### Somente verniz {#varnish-only}
 
-Se você usar Verniz, edite `default.vcl` e adicione um valor de limite de tempo à variável `backend` estrofe do seguinte modo:
+Se você usar Verniz, edite `default.vcl` e adicione um valor de limite de tempo à estrofe `backend` da seguinte maneira:
 
 ```php
 backend default {

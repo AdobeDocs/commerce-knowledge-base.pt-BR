@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Este artigo fornece uma solução alternativa para um problema conhecido do Adobe Commerce 2.4.0 em que os métodos de pagamento de Braintree não estão incluídos ao trabalhar com a finalização de vários endereços. Observe que o problema foi corrigido no Adobe Commerce 2.4.1.
 
-Observação: a Adobe Commerce recomenda usar o [extensão Commerce Marketplace Braintree](https://marketplace.magento.com/paypal-module-braintree.html) para versões 2.3 e posteriores, a fim de manter a conformidade com o PSD. A extensão não oferece a funcionalidade de finalização de vários endereços.
+Observação: a Adobe Commerce recomenda usar a [extensão de Braintree Commerce Marketplace](https://marketplace.magento.com/paypal-module-braintree.html) para as versões 2.3 e posteriores, a fim de manter a conformidade com PSD. A extensão não oferece a funcionalidade de finalização de vários endereços.
 
 ## Produtos e versões afetados
 
@@ -35,8 +35,8 @@ A integração de Braintree principal é usada.
 1. Adicione um produto ao carrinho.
 1. Abra o carrinho.
 1. Pressione **Exibir e editar carrinho**.
-1. Pressione **Fazer Check-out com Vários Endereços**.
-1. Pressione **Ir para Informações de Remessa**.
+1. Pressione **Verificar com Vários Endereços**.
+1. Pressione **Ir para Informações de Envio**.
 1. Pressione **Continuar para Informações de Cobrança**.
 
 <u>Resultado esperado</u>:

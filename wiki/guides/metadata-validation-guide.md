@@ -37,7 +37,7 @@ labels: patch: 2041.1,article,labels,tags
 ---
 ```
 
-Para evitar esse erro, envolva o título ou os rótulos (ou ambos se tiverem dois pontos) em **aspas simples**.
+Para evitar este erro, envolva o título ou os rótulos (ou ambos se tiverem dois pontos) em **aspas simples**.
 
 **Exemplo:**
 
@@ -61,7 +61,7 @@ labels: patch: 2041.1,'article',labels,tags
 ---
 ```
 
-Este erro é corrigido ao envolver o título ou os rótulos (ou ambos) em **aspa dupla**.
+Este erro é corrigido colocando-se o título ou os rótulos (ou ambos) entre **aspas duplas**.
 
 **Exemplo:**
 
@@ -83,7 +83,7 @@ labels: patch: 2041.1,'article',"labels",can't,tags
 ---
 ```
 
-Quando isso acontecer, envolva o título ou os rótulos (ou ambos) em **aspa dupla** e usar um **barra invertida** para evitar todas as aspas duplas no título e nos rótulos.
+Quando isso acontecer, envolva o título ou rótulos (ou ambos) em **aspas duplas** e use uma **barra invertida** para omitir todas as aspas duplas no título e rótulos.
 
 **Exemplo:**
 

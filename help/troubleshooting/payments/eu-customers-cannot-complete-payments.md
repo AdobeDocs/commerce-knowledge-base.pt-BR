@@ -27,8 +27,8 @@ Os clientes da UE queixam-se de que as suas transações com cartões de crédit
 
 ## Causa
 
-A União Europeia reviu um regulamento denominado Diretiva Serviços de Pagamento (PSD) com uma versão atualizada [PSD 2](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32015L2366&amp;from=EN). Trata-se de uma diretiva da União Europeia (UE) aplicada para regulamentar serviços de pagamento e prestadores de serviços de pagamento em toda a UE e no Espaço Econômico Europeu (EEE). A SCA (Autenticação de Cliente Forte) é um requisito do PSD2 para aumentar a segurança e a autenticação dos dados de pagamento. Se suas soluções de pagamento não cumprirem os requisitos da diretiva, os clientes poderão não conseguir concluir os pagamentos. Encontre mais detalhes no [publicação relacionada do Adobe Commerce DevBlog](https://community.magento.com/t5/Magento-DevBlog/3D-Secure-2-0-changes/ba-p/136460).
+A União Europeia revisou um regulamento chamado Diretiva de Serviços de Pagamento (PSD) com uma versão atualizada [PSD2](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32015L2366&amp;from=EN). Trata-se de uma diretiva da União Europeia (UE) aplicada para regulamentar serviços de pagamento e prestadores de serviços de pagamento em toda a UE e no Espaço Econômico Europeu (EEE). A SCA (Autenticação de Cliente Forte) é um requisito do PSD2 para aumentar a segurança e a autenticação dos dados de pagamento. Se suas soluções de pagamento não cumprirem os requisitos da diretiva, os clientes poderão não conseguir concluir os pagamentos. Encontre mais detalhes na [publicação relacionada do DevBlog do Adobe Commerce](https://community.magento.com/t5/Magento-DevBlog/3D-Secure-2-0-changes/ba-p/136460).
 
 ## Solução
 
-Siga as recomendações do [Seção Recommendations do Adobe Commerce Payment Provider do DevBlog](https://community.magento.com/t5/Magento-DevBlog/3D-Secure-2-0-changes/ba-p/136460#recommendations).
+Siga as recomendações da [seção Recommendations do Provedor de Pagamento do Adobe Commerce do DevBlog](https://community.magento.com/t5/Magento-DevBlog/3D-Secure-2-0-changes/ba-p/136460#recommendations).

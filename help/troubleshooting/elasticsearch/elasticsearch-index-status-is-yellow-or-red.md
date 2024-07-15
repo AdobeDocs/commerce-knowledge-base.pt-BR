@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 > [O mecanismo de pesquisa do catálogo MySQL será removido no Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md). Você deve ter o Elasticsearch host configurado antes de instalar a versão 2.4.0. Consulte [Instalar e configurar o Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html).
 
-O artigo fornece uma correção para quando o status do índice de Elasticsearch não é &#39;*verde*&#39;. &#39;*amarelo*&#39; indica normal, e &#39;*vermelho*&#39; indica ruim. O status &quot;amarelo&quot; ou &quot;vermelho&quot; pode ocorrer em conjunto com produtos ausentes ou com a exibição de informações antigas do produto.
+O artigo fornece uma correção para quando o Status do Índice Elasticsearch não é &#39;*green*&#39;. &#39;*amarelo*&#39; indica normal, e &#39;*vermelho*&#39; indica ruim. O status &quot;amarelo&quot; ou &quot;vermelho&quot; pode ocorrer em conjunto com produtos ausentes ou com a exibição de informações antigas do produto.
 
 ## Versões e produtos afetados
 
@@ -24,7 +24,7 @@ O artigo fornece uma correção para quando o status do índice de Elasticsearch
 
 ## Problema
 
-O índice de pesquisa do catálogo de Elasticsearch é lento, resultando em um status de &#39;*amarelo*&#39; ou &#39;*vermelho*&#39; em vez de &#39;*verde*&#39;. Você também pode experimentar alterações ausentes no front-end.
+O índice de pesquisa do catálogo de Elasticsearch está lento, resultando em um status de &#39;*amarelo*&#39; ou &#39;*vermelho*&#39; em vez de &#39;*verde*&#39;. Você também pode experimentar alterações ausentes no front-end.
 
 ## Causa
 
@@ -55,8 +55,8 @@ Crie um novo despejo mysql antes de seguir essas etapas e execute-as fora do hor
    curl --silent -X GET localhost:9200/_cat/indices?v
    ```
 
-Se essas etapas não funcionarem, [enviar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+Se essas etapas não funcionarem, [envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ## Leitura relacionada
 
-Para saber mais, consulte [API de integridade do cluster Elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/current/cluster-health.html).
+Para saber mais, consulte a [API de integridade do cluster Elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/current/cluster-health.html).

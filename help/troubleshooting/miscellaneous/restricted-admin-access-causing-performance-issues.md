@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Acesso de administrador restrito que causa problemas de desempenho
 
-Este artigo fornece soluções para quando o desempenho é afetado negativamente pelo uso de [Funções do administrador com escopo de função restrito pelo site](https://docs.magento.com/m2/ee/user_guide/system/permissions-user-roles.html#step-2assign-resources) em nosso guia do usuário.
+Este artigo fornece soluções para situações em que o desempenho é afetado negativamente ao usar as [funções de Administrador com escopo de função restrito pelo site](https://docs.magento.com/m2/ee/user_guide/system/permissions-user-roles.html#step-2assign-resources) em nosso guia do usuário.
 
 ## Produtos e versões afetados
 
@@ -30,9 +30,9 @@ O problema foi corrigido no Adobe Commerce 2.2.10 e 2.3.3.
 
 A seguir estão as opções para evitar o problema:
 
-* Atualize a versão do aplicativo do Adobe Commerce para 2.2.10 ou 2.3.3. (para obter instruções, consulte [Atualizar a versão do Adobe Commerce na infraestrutura em nuvem](https://devdocs.magento.com/guides/v2.3/cloud/project/project-upgrade.html) na documentação do desenvolvedor).
+* Atualize a versão do aplicativo do Adobe Commerce para 2.2.10 ou 2.3.3. (para obter instruções, consulte a [Atualização do Adobe Commerce na versão da infraestrutura em nuvem](https://devdocs.magento.com/guides/v2.3/cloud/project/project-upgrade.html) em nossa documentação de desenvolvedor).
 * Evite restringir o escopo da função de usuário Administrador por site, se possível.
-* [Enviar um tíquete de suporte Magento](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket), para solicitar um patch, se estiver disponível.
+* [Enviar um tíquete de Suporte Magento](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket), para solicitar um patch, se estiver disponível.
 
 ## Leitura relacionada
 

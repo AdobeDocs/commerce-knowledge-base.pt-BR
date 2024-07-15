@@ -25,9 +25,9 @@ Durante a instalação, uma mensagem semelhante à seguinte é exibida:
 
 ## Solução {#solution}
 
-Limpar todos os diretórios e arquivos no Adobe Commerce `var` subdiretório e instale o software Adobe Commerce novamente.
+Limpe todos os diretórios e arquivos no subdiretório `var` da Adobe Commerce e instale o software da Adobe Commerce novamente.
 
-Como a variável [Proprietário do sistema de arquivos Adobe Commerce](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html) ou como usuário com `root` insira os seguintes comandos:
+Como o [proprietário do sistema de arquivos do Adobe Commerce](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html) ou como um usuário com privilégios `root`, insira os seguintes comandos:
 
 ```bash
 $ cd <your Magento install directory>/var

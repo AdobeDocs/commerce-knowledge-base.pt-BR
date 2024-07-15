@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Adobe Commerce 2.3.6, 2.4.0-p1, 2.4.1 problema conhecido: dotdigital login
 
-Este artigo descreve um problema conhecido do Adobe Commerce 2.3.6, 2.4.0-p1 e 2.4.1 em que é impossível fazer logon no [dotdigital](https://dotdigital.com/) no Painel de administração quando a conta dotdigital estiver ativada.
+Este artigo descreve um problema conhecido do Adobe Commerce 2.3.6, 2.4.0-p1 e 2.4.1 em que é impossível fazer logon no [dotdigital](https://dotdigital.com/) por meio do Painel de Administração quando a conta dotdigital está habilitada.
 
 ## Produtos e versões afetados
 
@@ -30,8 +30,8 @@ Este artigo descreve um problema conhecido do Adobe Commerce 2.3.6, 2.4.0-p1 e 2
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. Ir para **Lojas** > **Configuração** > **DOTDIGITAL** > **Configurações do chat** > **Ativado** está definida como *Sim.*
-1. Clique em **Configurar** in **Configurar widget de chat** ou **Configurar equipes de chat**.
+1. Vá para **Lojas** > **Configuração** > **DOTDIGITAL** > **Configurações de Chat** > **Habilitadas** está definido como *Sim.*
+1. Clique em **Configurar** em **Configurar Widget de Chat** ou **Configurar equipes de chat**.
 
 <u>Resultados esperados</u>:
 
@@ -47,4 +47,4 @@ Solução alternativa: use um navegador alternativo para o Safari para essa situ
 
 ## Leitura relacionada
 
-[Problema conhecido do Adobe Commerce 2.4.1 - O endereço Vertex não é validado com endereços de entrega/faturamento diferentes](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md) em nossa base de conhecimento de suporte.
+[Problema conhecido do Adobe Commerce 2.4.1 - O endereço Vertex não está sendo validado com endereços de remessa/cobrança diferentes](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md) em nossa base de dados de conhecimento de suporte.

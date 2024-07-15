@@ -21,7 +21,7 @@ Ao fazer um pedido pelo painel Admin, você fica preso na seleção da loja.
 
 <u>Etapas a serem reproduzidas</u>
 
-1. Ir para **[!UICONTROL Sales]** > **[!UICONTROL Orders]** e selecione um cliente para criar um pedido.
+1. Vá para **[!UICONTROL Sales]** > **[!UICONTROL Orders]** e selecione um cliente para criar um pedido.
 2. Selecione a loja para colocar o pedido na tela do seletor de loja.
 
 <u>Resultado esperado</u>
@@ -44,5 +44,5 @@ O patch foi criado para e compatível com o Adobe Commerce na infraestrutura em 
 
 ## Como aplicar o patch
 
-* Para obter instruções sobre como aplicar patches para o Adobe Commerce na infraestrutura em nuvem, consulte [Aplicar patches](/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) em nosso Guia de infraestrutura do Commerce na nuvem.
-* Para obter instruções sobre como aplicar patches para o Adobe Commerce no local, consulte [Aplicar patches](/docs/commerce-operations/upgrade-guide/patches/apply.html?lang=en#composer) em nosso Guia de atualização do Commerce.
+* Para obter instruções sobre como aplicar patches para o Adobe Commerce na infraestrutura em nuvem, consulte [Aplicar patches](/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) no Guia do Commerce na Infraestrutura em Nuvem.
+* Para obter instruções sobre como aplicar patches para o Adobe Commerce no local, consulte [Aplicar patches](/docs/commerce-operations/upgrade-guide/patches/apply.html?lang=en#composer) no Guia de Atualização do Commerce.

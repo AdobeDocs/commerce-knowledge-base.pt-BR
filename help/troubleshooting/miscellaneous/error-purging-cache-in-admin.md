@@ -14,7 +14,7 @@ ht-degree: 0%
 # Erro ao limpar o cache no Commerce Admin
 
 Este artigo explica como identificar a causa de uma mensagem de erro que ocorre ao limpar o cache no Commerce Admin. Ao tentar limpar o cache por meio do Administrador, você recebe a seguinte mensagem:
-*O arquivo /app/project-id/pub/media/catalog/product/cache/diretory/filename&quot; não pode ser excluído. Aviso!unlink(/app/project id/pub/media/catalog/product/cache/diretory/filename): esse arquivo ou diretório não existe*
+O arquivo */app/project-id/pub/media/catalog/product/cache/diretory/filename&quot; não pode ser excluído. Aviso!unlink(/app/project id/pub/media/catalog/product/cache/diretory/filename): esse arquivo ou diretório não existe*
 
 ## Produtos e versões afetados
 
@@ -26,7 +26,7 @@ Ao tentar limpar o cache por meio do Administrador, você recebe uma mensagem de
 
 <u>Etapas a serem reproduzidas:</u>
 
-1. No Administrador, acesse **Sistema** > **Ferramentas** > **Gerenciamento de cache**.
+1. No Admin, vá para **Sistema** > **Ferramentas** > **Gerenciamento de Cache**.
 1. Selecione qualquer uma das opções de limpeza de cache.
 
 <u>Resultado esperado:</u>
@@ -56,7 +56,7 @@ ls: cannot access 'pub/media/catalog/product/cache/directory/filename/': No such
 ```
 
 houve uma tentativa de limpar os arquivos quando a operação já tinha sido concluída. Isso não é um erro; é um problema de simultaneidade de mensagens que deve ocorrer às vezes. Não há problemas a serem solucionados.
-No entanto, se a saída mostrar que os arquivos ainda estão no cache, será necessário [enviar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+No entanto, se a saída mostrar que os arquivos ainda estão no cache, você precisará [enviar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ## Leitura relacionada
 

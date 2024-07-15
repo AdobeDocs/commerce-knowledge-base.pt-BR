@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Falha na instalação; não é possível criar o install.log
 
-Este artigo fornece uma correção para uma instalação com falha porque o Assistente de configuração não cria o `install.log` durante a instalação.
+Este artigo fornece uma correção para uma instalação com falha porque o Assistente para Instalação não cria o `install.log` durante a instalação.
 
 ## Problema
 
@@ -21,20 +21,21 @@ A execução simultânea de processos do Adobe Commerce pode causar problemas ao
 
 ## Causa
 
-Instalação-failures-cannot-create-install.log Revise suas configurações para `open_basedir` in `php.ini`. O Assistente de configuração usa o [sys\_get\_temp\_dir ( void )](https://php.net/manual/en/function.sys-get-temp-dir.php) Chamada PHP para obter o valor do diretório temporário. Se [open\_basedir](http://php.net/manual/en/ini.core.php#ini.open-basedir) está definido para recusar conexões com um diretório especificado por `sys_get_temp_dir`, a instalação falha.
-Revise suas configurações para `open_basedir` in `php.ini`. O Assistente de configuração usa o [sys\_get\_temp\_dir ( void )](https://php.net/manual/en/function.sys-get-temp-dir.php) Chamada PHP para obter o valor do diretório temporário. Se [open\_basedir](https://php.net/manual/en/ini.core.php#ini.open-basedir) está definido para recusar conexões com um diretório especificado por `sys_get_temp_dir`, a instalação falha.
+Installation-failures-cannot-create-install.log
+Revise sua configuração para `open_basedir` em `php.ini`. O Assistente de Instalação usa a chamada PHP [sys\_get\_temp\_dir ( void )](https://php.net/manual/en/function.sys-get-temp-dir.php) para obter o valor do diretório temporário. Se [open\_basedir](http://php.net/manual/en/ini.core.php#ini.open-basedir) estiver definido para recusar conexões com um diretório especificado por `sys_get_temp_dir`, a instalação falhará.
+Revise sua configuração para `open_basedir` em `php.ini`. O Assistente de Instalação usa a chamada PHP [sys\_get\_temp\_dir ( void )](https://php.net/manual/en/function.sys-get-temp-dir.php) para obter o valor do diretório temporário. Se [open\_basedir](https://php.net/manual/en/ini.core.php#ini.open-basedir) estiver definido para recusar conexões com um diretório especificado por `sys_get_temp_dir`, a instalação falhará.
 
 
 ## Solução
 
-Para resolver o problema, altere o valor de `open_basedir` e reinicie o servidor web.
+Para resolver o problema, altere o valor de `open_basedir` e reinicie o servidor Web.
 
 Se não tiver certeza de como alterar esse valor, siga as etapas abaixo:
 
 1. Se ainda não tiver feito isso, crie [phpinfo.php](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/optional.html#install-optional-phpinfo).
-1. Insira o seguinte URL no campo de endereço ou local do navegador: `https://<your web server IP or hostname>/<path to docroot>/phpinfo.php`
-1. Procure a localização de `php.ini`.     `php.ini` é normalmente especificado como **Arquivo de configuração carregado** nos resultados exibidos.
+1. Digite a seguinte URL no campo de endereço ou local do seu navegador: `https://<your web server IP or hostname>/<path to docroot>/phpinfo.php`
+1. Procure a localização de `php.ini`.     `php.ini` é normalmente especificado como **Arquivo de Configuração Carregado** nos resultados exibidos.
 1. Como um usuário com privilégios raiz, abra `php.ini` em um editor de texto.
-1. Localize o valor de `open_basedir` e alterá-lo.
-1. Salvar as alterações em `php.ini`.
+1. Localize o valor de `open_basedir` e altere-o.
+1. Salve as alterações em `php.ini`.
 1. Reinicie o servidor Web.

@@ -29,4 +29,4 @@ No momento, o Inventário Magento não permite usar o cálculo de taxas de entre
 
 ## Leitura relacionada
 
-* [Perguntas frequentes sobre o Inventário Magento](https://github.com/magento/inventory/wiki/MSI-FAQs) no GitHub.
+* [Perguntas frequentes sobre o Inventário de Magento](https://github.com/magento/inventory/wiki/MSI-FAQs) no GitHub.

@@ -29,9 +29,9 @@ Certifique-se de ter aplicado as mesmas configurações e ativado as mesmas func
 
 ### Exemplo de problema de configurações
 
-Ao aplicar a solução Check-out expresso do PayPal, as transações baseadas nas respostas AVS/CSC devem ser recusadas em **PayPal Manager** (Configurações de serviço > Configuração > Opções de segurança) e em **Administrador do Commerce** ( **Lojas** > Configuração > **Vendas** > **Métodos de pagamento** ...).
+Ao aplicar a solução Check-out do PayPal Express, as transações baseadas nas respostas AVS/CSC devem ser recusadas no **PayPal Manager** (Configurações de Serviço > Configurar > Opções de Segurança) e no **Commerce Admin** ( **Lojas** > Configuração > **Vendas** > **Métodos de pagamento** ...).
 ![magento_paypal_settings_2.4.1.png](assets/magento_paypal_settings_2.4.1.png)
-Para obter mais informações, consulte a documentação: [PayPal](https://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/setup.htm) e [Adobe Commerce](/docs/commerce-admin/stores-sales/payments/paypal/paypal-express-checkout.html) em nosso guia do usuário.
+Para obter mais informações, consulte a documentação: [PayPal](https://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/setup.htm) e [Adobe Commerce](/docs/commerce-admin/stores-sales/payments/paypal/paypal-express-checkout.html) no nosso guia do usuário.
 
 ## Permitir transações de referência
 
@@ -41,14 +41,14 @@ Se o método de pagamento do PayPal envolver API com Contratos de faturamento e 
 
 Consulte os seguintes artigos:
 
-* [Solicitação rejeitada do gateway do PayPal - problema de fatura duplicado](/help/troubleshooting/payments/paypal-gateway-rejected-request-duplicate-invoice-issue.md) em nossa base de conhecimento de suporte.
-* [Alterar ID de incremento para nova entidade de armazenamento](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md) em nossa base de conhecimento de suporte.
+* [Solicitação rejeitada pelo gateway do PayPal - problema de fatura duplicado](/help/troubleshooting/payments/paypal-gateway-rejected-request-duplicate-invoice-issue.md) em nossa base de dados de conhecimento de suporte.
+* [Alterar ID de incremento para nova entidade de armazenamento](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md) em nossa base de dados de conhecimento de suporte.
 
 ## Entre em contato com o Suporte para coletar logs de pagamento avançado
 
 Para solucionar problemas complicados de pagamento, a Equipe de suporte da Adobe Commerce pode solicitar a aplicação de uma correção dedicada para ativar o registro de pagamento avançado. Nesse caso, suas etapas devem ser as seguintes:
 
-[Enviar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) com os seguintes detalhes:
+[Envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) com os seguintes detalhes:
 
 * Especifique seu problema com o maior número de detalhes possível.
 * Liste as etapas que você tentou deste artigo, da knowledge base e de outros recursos. Incluir todos os resultados.

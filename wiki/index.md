@@ -9,7 +9,7 @@ ht-degree: 0%
 
 Bem-vindo à página inicial da documentação do repositório da Base de conhecimento de suporte da Adobe Commerce.
 Aqui você pode encontrar documentos que ajudam a fazer contribuições e modelos mais adequados, atendendo ao mesmo propósito.
-Se precisar saber mais sobre o fluxo de contribuição geral, acesse [Guia do colaborador](../.github/CONTRIBUTING.md).
+Se precisar saber mais sobre o fluxo de contribuição geral, acesse o [Guia do colaborador](../.github/CONTRIBUTING.md).
 
 ## Guias
 

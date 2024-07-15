@@ -1,6 +1,6 @@
 ---
-title: '"ACSD-53309: aplicação de imposto incompleta para opções personalizáveis e [!UICONTROL Regular Price] rótulo'''
-description: Aplique o patch ACSD-53309 para corrigir o problema do Adobe Commerce em que o imposto não é totalmente aplicado no '[!UICONTROL Regular Price]' quando uma opção personalizável é selecionada.
+title: "ACSD-53309: aplicativo de imposto incompleto para opções personalizáveis e rótulo [!UICONTROL Regular Price]"
+description: Aplique o patch ACSD-53309 para corrigir o problema do Adobe Commerce em que o imposto não é totalmente aplicado no rótulo '[!UICONTROL Regular Price]' quando uma opção personalizável é selecionada.
 feature: Taxes, Shipping/Delivery
 role: Admin, Developer
 exl-id: de9b151e-6f92-4231-9e9f-4818c2961782
@@ -11,13 +11,13 @@ ht-degree: 0%
 
 ---
 
-# ACSD-53309: aplicação de imposto incompleta para opções personalizáveis e &#39;[!UICONTROL Regular Price]Rótulo &#39;
+# ACSD-53309: aplicativo de imposto incompleto para opções personalizáveis e rótulo &#39;[!UICONTROL Regular Price]&#39;
 
-O patch ACSD-53309 corrige o problema em que o imposto não é totalmente aplicado no &#39;[!UICONTROL Regular Price]&#39; quando uma opção personalizável é selecionada. Este patch está disponível quando a variável [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) O 1.1.43 está instalado. A ID do patch é ACSD-53309. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.7.
+O patch ACSD-53309 corrige o problema em que o imposto não é totalmente aplicado no rótulo &#39;[!UICONTROL Regular Price]&#39; quando uma opção personalizável é selecionada. Este patch está disponível quando o [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.43 está instalado. A ID do patch é ACSD-53309. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.7.
 
 ## Produtos e versões afetados
 
-**O patch é criado para a versão do Adobe Commerce:**
+**O patch foi criado para a versão do Adobe Commerce:**
 
 * Adobe Commerce (todos os métodos de implantação) 2.4.5-p2
 
@@ -27,16 +27,16 @@ O patch ACSD-53309 corrige o problema em que o imposto não é totalmente aplica
 
 >[!NOTE]
 >
->O patch pode se tornar aplicável a outras versões com novos [!DNL Quality Patches Tool] versões. Para verificar se o patch é compatível com sua versão do Adobe Commerce, atualize o `magento/quality-patches` pacote para a versão mais recente e verifique a compatibilidade no [[!DNL Quality Patches Tool]: Página Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+>O patch pode se tornar aplicável a outras versões com as novas versões do [!DNL Quality Patches Tool]. Para verificar se o patch é compatível com a sua versão do Adobe Commerce, atualize o pacote `magento/quality-patches` para a versão mais recente e verifique a compatibilidade na [[!DNL Quality Patches Tool]: página Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
 
 ## Problema
 
-O imposto não é totalmente refletido na[!UICONTROL Regular Price]&quot; quando uma opção personalizável é escolhida.
+O imposto não é totalmente refletido no rótulo &#39;[!UICONTROL Regular Price]&#39; quando uma opção personalizável é escolhida.
 
 <u>Etapas a serem reproduzidas</u>:
 
 1. Faça logon no Painel de administração.
-1. Navegue até **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Tax]** para definir as definições de imposto.
+1. Navegue até **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Tax]** para definir as configurações de imposto.
 
    * [!UICONTROL Tax Classes]:
 
@@ -64,9 +64,9 @@ O imposto não é totalmente refletido na[!UICONTROL Regular Price]&quot; quando
       * [!UICONTROL Display Subtotal] = [!UICONTROL Including Tax]
       * [!UICONTROL Display Shipping Amount] = [!UICONTROL Including Tax]
 
-1. Definir **[!UICONTROL Shipping Settings]** > **[!UICONTROL Origin]** > **[!UICONTROL Country]** = *Reino Unido*.
+1. Conjunto **[!UICONTROL Shipping Settings]** > **[!UICONTROL Origin]** > **[!UICONTROL Country]** = *Reino Unido*.
 
-1. Crie o seguinte *[!UICONTROL Tax Rate]* e *[!UICONTROL Tax Rules]*:
+1. Criar os seguintes *[!UICONTROL Tax Rate]* e *[!UICONTROL Tax Rules]*:
 
    * [!UICONTROL Country] = Estados Unidos
    * [!UICONTROL Zip Code] = *
@@ -93,14 +93,14 @@ O imposto não é totalmente refletido na[!UICONTROL Regular Price]&quot; quando
 
 Para aplicar patches individuais, use os links a seguir, dependendo do método de implantação:
 
-* Adobe Commerce ou Magento Open Source no local: [[!DNL Quality Patches Tool] > Uso](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) no [!DNL Quality Patches Tool] guia.
-* Adobe Commerce na infraestrutura em nuvem: [Upgrades e Patches > Aplicar Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) no guia do Commerce na infraestrutura em nuvem.
+* Adobe Commerce ou Magento Open Source no local: [[!DNL Quality Patches Tool] > Uso](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) no guia [!DNL Quality Patches Tool].
+* Adobe Commerce na infraestrutura em nuvem: [Atualizações e patches > Aplicar patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) no guia do Commerce na infraestrutura em nuvem.
 
 ## Leitura relacionada
 
 Para saber mais sobre [!DNL Quality Patches Tool], consulte:
 
-* [[!DNL Quality Patches Tool] lançado: uma nova ferramenta para autoatender correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de conhecimento de suporte.
-* [Verifique se o patch está disponível para o problema do Adobe Commerce usando [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de conhecimento de suporte.
+* [[!DNL Quality Patches Tool] versão: uma nova ferramenta para autoatender patches de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de dados de conhecimento de suporte.
+* [Verifique se há um patch disponível para o problema do Adobe Commerce usando o [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de dados de conhecimento de suporte.
 
-Para obter informações sobre outros patches disponíveis no QPT, consulte [[!DNL Quality Patches Tool]: Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) no [!DNL Quality Patches Tool] guia.
+Para obter informações sobre outros patches disponíveis no QPT, consulte [[!DNL Quality Patches Tool]: Pesquisar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) no guia [!DNL Quality Patches Tool].

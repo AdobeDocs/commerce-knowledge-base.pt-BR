@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Erro &quot;A versão atual do RDBMS não é compatível&quot; na implantação
 
-Este artigo fornece uma solução para quando uma implantação falhar e você tiver o seguinte erro no log de implantação: *A versão atual do RDBMS não é compatível*.
+Este artigo fornece uma solução para quando uma implantação falha e você tem o seguinte erro no log de implantação: *não há suporte para a versão atual do RDBMS*.
 
 ## Produtos e versões afetados
 
@@ -34,7 +34,7 @@ Implantação bem-sucedida.
 
 <u>Resultado real</u>:
 
-Falha na implantação com mensagem de erro: *A versão atual do RDBMS não é compatível*.
+Falha na implantação com mensagem de erro: *não há suporte para a versão atual do RDBMS*.
 
 ## Causa
 
@@ -45,12 +45,12 @@ Sua versão do MariaDB não é compatível com a versão do Adobe Commerce para 
 Você deve atualizar o serviço MariaDB para uma versão compatível antes de atualizar o aplicativo.
 
 
-Para a ramificação de integração no Adobe Commerce na infraestrutura em nuvem Arquitetura do plano Pro (e todas as ramificações na arquitetura Starter), siga [Configurar serviço](https://devdocs.magento.com/cloud/project/services.html) na documentação do desenvolvedor.
+Para obter a ramificação de integração na arquitetura de plano Pro da infraestrutura em nuvem do Adobe Commerce (e todas as ramificações na arquitetura Starter), siga [Configurar serviço](https://devdocs.magento.com/cloud/project/services.html) na documentação do desenvolvedor.
 
-Para preparo e produção na arquitetura do plano Adobe Commerce na infraestrutura em nuvem Pro, [enviar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) para solicitar que os serviços sejam atualizados antes de implantar a atualização de versão do Adobe Commerce.
+Para Preparo e Produção na arquitetura do plano Pro da infraestrutura em nuvem do Adobe Commerce, [envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) para solicitar que os serviços sejam atualizados antes de implantar a atualização da versão do Adobe Commerce.
 
 
 ## Leitura relacionada
 
-* [Práticas recomendadas para builds e implantação](https://devdocs.magento.com/cloud/reference/discover-deploy.html#best-practices) na documentação do desenvolvedor.
-* [Atualização do Adobe Commerce 2.3.5: tabelas compactas para dinâmicas](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html) em nossa base de conhecimento de suporte.
+* [Práticas recomendadas para compilações e implantação](https://devdocs.magento.com/cloud/reference/discover-deploy.html#best-practices) em nossa documentação para desenvolvedores.
+* [Atualização do Adobe Commerce 2.3.5: compacte para tabelas dinâmicas](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html) em nossa base de dados de suporte.

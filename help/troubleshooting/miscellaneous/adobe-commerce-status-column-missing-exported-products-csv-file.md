@@ -13,21 +13,21 @@ ht-degree: 0%
 
 # Coluna de status do Adobe Commerce sem o arquivo CSV de produtos exportados
 
-Este artigo fornece uma solução para o problema quando não é possível localizar a coluna de status (ou seja, indicando se o produto está ativado ou desativado) no arquivo CSV que contém os produtos exportados. O status do produto é indicado pela variável [!UICONTROL product_online] coluna.
+Este artigo fornece uma solução para o problema quando não é possível localizar a coluna de status (ou seja, indicando se o produto está ativado ou desativado) no arquivo CSV que contém os produtos exportados. O status do produto é indicado pela coluna [!UICONTROL product_online].
 
 ## Produtos e versões afetados
 
-Adobe Commerce (todos os métodos de implantação) all [versões compatíveis](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
+Adobe Commerce (todos os métodos de implantação) todas as [versões com suporte](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 ## Problema
 
-Não é possível localizar o [!UICONTROL status] no arquivo CSV que contém os produtos exportados. Portanto, por exemplo, você exporta um CSV de todos os SKUs, com os respectivos status, mas a tabela parece não ter os [!UICONTROL status] coluna.
+Você não pode localizar a coluna [!UICONTROL status] no arquivo CSV que contém produtos exportados. Assim, por exemplo, você exporta um CSV de todos os SKUs, com seus status, mas a tabela parece não ter a coluna [!UICONTROL status].
 
 <u>Etapas a serem reproduzidas:</u>
 
-1. No Administrador do Adobe Commerce, selecione **[!UICONTROL System]**, em **[!UICONTROL Data Transfer]** selecionar **[!UICONTROL Export]**.
-1. No **[!UICONTROL Export Settings]** selecione no menu **[!UICONTROL Entity Type]** lista suspensa **[!UICONTROL Products]**.
-1. Pesquisar por **[!UICONTROL status]**, listados em **[!UICONTROL Attribute Code]**. Você verá esse código de atributo na lista de atributos disponíveis (**[!UICONTROL Enable Product]**).
+1. No Administrador do Adobe Commerce, selecione **[!UICONTROL System]**, em **[!UICONTROL Data Transfer]**, selecione **[!UICONTROL Export]**.
+1. Na seção **[!UICONTROL Export Settings]**, selecione no menu suspenso **[!UICONTROL Products]** de **[!UICONTROL Entity Type]**.
+1. Pesquisa por **[!UICONTROL status]**, listada em **[!UICONTROL Attribute Code]**. Você vê esse código de atributo na lista de atributos disponíveis (**[!UICONTROL Enable Product]**).
 1. Clique em **[!UICONTROL Export]**.
 
 <u>Resultado esperado:</u>
@@ -40,15 +40,15 @@ Você não vê uma coluna rotulada [!UICONTROL status] no arquivo csv exportado.
 
 ## Causa
 
-O atributo de status do produto foi renomeado no arquivo CSV. Agora é o [!UICONTROL product_online] coluna.
+O atributo de status do produto foi renomeado no arquivo CSV. Agora é a coluna [!UICONTROL product_online].
 
 ## Solução
 
-1. Selecionar **[!UICONTROL System]**, em **[!UICONTROL Data Transfer]** selecionar **[!UICONTROL Import]**.
+1. Selecione **[!UICONTROL System]**, em **[!UICONTROL Data Transfer]**, selecione **[!UICONTROL Import]**.
 1. Clique em **[!UICONTROL Download Sample File]**.
-1. Você pode ver [!UICONTROL product_online] no arquivo CSV.
+1. Você pode ver a coluna [!UICONTROL product_online] no arquivo CSV.
 
 ## Leitura relacionada
 
-* [Trabalhar com arquivos CSV](https://docs.magento.com/user-guide/system/data-csv.html) em nosso guia do usuário.
-* [Referência dos atributos de exportação do produto](https://docs.magento.com/user-guide/system/data-attributes-product.html) em nosso guia do usuário.
+* [Trabalhando com arquivos CSV](https://docs.magento.com/user-guide/system/data-csv.html) em nosso guia do usuário.
+* [Referência a atributos de exportação do produto](https://docs.magento.com/user-guide/system/data-attributes-product.html) em nosso guia do usuário.

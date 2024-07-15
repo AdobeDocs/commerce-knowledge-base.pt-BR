@@ -18,7 +18,7 @@ Os números em um determinado relatório parecem imprecisos? Você vê valores N
 * [Lista de verificação de diagnóstico de discrepância de dados](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
 * [Uso de exportações para apontar discrepâncias de dados](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
 
-Também recomendamos que você garanta a [métodos de replicação](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/cfg-replication-methods.html) e [recheques](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/cfg-data-rechecks.html) foram definidas para as tabelas e colunas envolvidas na discrepância. Observe que você precisa de permissões de Administrador para acessar o método de replicação e verificar novamente as informações.
+Também recomendamos que você verifique se os [métodos de replicação](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/cfg-replication-methods.html) e as [reverificações](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/cfg-data-rechecks.html) corretos foram definidos para as tabelas e colunas envolvidas na discrepância. Observe que você precisa de permissões de Administrador para acessar o método de replicação e verificar novamente as informações.
 
 ## Eu ainda preciso de ajuda!
 

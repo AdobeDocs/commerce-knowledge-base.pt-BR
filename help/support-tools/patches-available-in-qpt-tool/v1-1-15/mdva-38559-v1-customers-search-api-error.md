@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # MDVA-38559: /V1/customers/search API retorna um erro
 
-O patch do MDVA-38559 corrige o problema em que a variável `/V1/customers/search` A API retorna um erro para clientes que têm mais de uma assinatura. Este patch está disponível quando a variável [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) O 1.1.15 está instalado. A ID do patch é MDVA-38559. Observe que o problema foi corrigido no Adobe Commerce 2.4.3.
+O patch MDVA-38559 corrige o problema em que a API `/V1/customers/search` retorna um erro para clientes que têm mais de uma assinatura. Este patch está disponível quando a [Ferramenta de Patches de Qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.15 está instalada. A ID do patch é MDVA-38559. Observe que o problema foi corrigido no Adobe Commerce 2.4.3.
 
 ## Produtos e versões afetados
 
-**O patch é criado para a versão do Adobe Commerce:**
+**O patch foi criado para a versão do Adobe Commerce:**
 
 * Adobe Commerce (todos os métodos de implantação) 2.4.1-p1
 
@@ -27,11 +27,11 @@ O patch do MDVA-38559 corrige o problema em que a variável `/V1/customers/searc
 
 >[!NOTE]
 >
->O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com sua versão do Adobe Commerce, atualize o `magento/quality-patches` pacote para a versão mais recente e verifique a compatibilidade no [[!DNL Quality Patches Tool]: Página Procurar patches](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+>O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com a sua versão do Adobe Commerce, atualize o pacote `magento/quality-patches` para a versão mais recente e verifique a compatibilidade na [[!DNL Quality Patches Tool]: página Procurar patches](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
 
 ## Problema
 
-`/V1/customers/search` A API retorna um erro para clientes com mais de uma assinatura.
+A API `/V1/customers/search` retorna um erro para clientes com mais de uma assinatura.
 
 <u>Pré-requisitos</u>:
 
@@ -39,8 +39,8 @@ A loja da Adobe Commerce usa mais de um site.
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. Ir para **Loja** > **Configuração** > **Cliente** > **Configuração do cliente** > **Opções de compartilhamento de conta** e selecione **Global**.
-1. Ir para **Clientes** > **Todos os Clientes**, selecione **Editar** em qualquer cliente e selecione **Informativo**.
+1. Vá para **Loja** > **Configuração** > **Cliente** > **Configuração do Cliente** > **Opções de Compartilhamento de Conta** e selecione **Global**.
+1. Vá para **Clientes** > **Todos os Clientes**, selecione **Editar** em qualquer cliente e selecione **Informativo**.
 1. Assine um boletim informativo para mais de um site e salve o cliente.
 1. Envie a seguinte solicitação:
 
@@ -54,20 +54,20 @@ Os resultados da pesquisa do cliente são exibidos.
 
 <u>Resultados reais</u>:
 
-O seguinte erro é registrado em exception.log: *Já existe um item (Magento\Customer\Model\Customer\Interceptor) com a mesma ID &quot;1&quot;.*
+O seguinte erro está registrado em exception.log: *Já existe um item (Magento\Customer\Model\Customer\Interceptor) com a mesma ID &quot;1&quot;.*
 
 ## Aplicar o patch
 
 Para aplicar patches individuais, use os links a seguir, dependendo do método de implantação:
 
-* Adobe Commerce ou Magento Open Source no local: [Guia de atualização de software > Aplicar patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) na documentação do desenvolvedor.
-* Adobe Commerce na infraestrutura em nuvem: [Upgrades e Patches > Aplicar Patches](https://devdocs.magento.com/cloud/project/project-patch.html) na documentação do desenvolvedor.
+* Adobe Commerce ou Magento Open Source no local: [Guia de Atualização de Software > Aplicar Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) na documentação do desenvolvedor.
+* Adobe Commerce na infraestrutura em nuvem: [Atualizações e patches > Aplicar patches](https://devdocs.magento.com/cloud/project/project-patch.html) na documentação do desenvolvedor.
 
 ## Leitura relacionada
 
 Para saber mais sobre a Ferramenta de correção de qualidade, consulte:
 
-* [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatendimento de correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de conhecimento de suporte.
-* [Verifique se o patch está disponível para o problema do Adobe Commerce usando a Ferramenta de patches de qualidade](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de conhecimento de suporte.
+* [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatender correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de dados de conhecimento de suporte.
+* [Verifique se o patch está disponível para o problema do Adobe Commerce usando a Ferramenta de Patches de Qualidade](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de dados de conhecimento de suporte.
 
 Para obter informações sobre outros patches disponíveis no QPT, consulte [Patches disponíveis no QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) na documentação do desenvolvedor.

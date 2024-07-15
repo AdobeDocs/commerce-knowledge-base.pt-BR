@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # ACSD-49179: O relatório de pedidos mostra valores incorretos para armazenamentos diferentes
 
-O patch ACSD-49179 corrige o problema em que o relatório de pedidos mostra valores incorretos no caso de moedas diferentes para lojas diferentes. Este patch está disponível quando a variável [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) O 1.1.28 está instalado. A ID do patch é ACSD-49179. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.7.
+O patch ACSD-49179 corrige o problema em que o relatório de pedidos mostra valores incorretos no caso de moedas diferentes para lojas diferentes. Este patch está disponível quando o [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.28 está instalado. A ID do patch é ACSD-49179. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.7.
 
 ## Produtos e versões afetados
 
-**O patch é criado para a versão do Adobe Commerce:**
+**O patch foi criado para a versão do Adobe Commerce:**
 
 * Adobe Commerce (todos os métodos de implantação) 2.4.3-p3
 
@@ -27,7 +27,7 @@ O patch ACSD-49179 corrige o problema em que o relatório de pedidos mostra valo
 
 >[!NOTE]
 >
->O patch pode se tornar aplicável a outras versões com novos [!DNL Quality Patches Tool] versões. Para verificar se o patch é compatível com sua versão do Adobe Commerce, atualize o `magento/quality-patches` pacote para a versão mais recente e verifique a compatibilidade no [[!DNL Quality Patches Tool]: Página Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+>O patch pode se tornar aplicável a outras versões com as novas versões do [!DNL Quality Patches Tool]. Para verificar se o patch é compatível com a sua versão do Adobe Commerce, atualize o pacote `magento/quality-patches` para a versão mais recente e verifique a compatibilidade na [[!DNL Quality Patches Tool]: página Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
 
 ## Problema
 
@@ -35,9 +35,9 @@ O relatório de pedidos mostra valores incorretos no caso de moedas diferentes p
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. Ir para **[!UICONTROL Stores]** > **[!UICONTROL Config]** > **[!UICONTROL Catalog]** > **[!UICONTROL Price]** e defina [!UICONTROL Catalog Price Scope] = [!UICONTROL Website].
+1. Vá para **[!UICONTROL Stores]** > **[!UICONTROL Config]** > **[!UICONTROL Catalog]** > **[!UICONTROL Price]** e defina [!UICONTROL Catalog Price Scope] = [!UICONTROL Website].
 1. Crie um site adicional, loja e visualização de loja.
-1. Ir para **[!UICONTROL Stores]** > **[!UICONTROL Config]** > **[!UICONTROL General]** > **[!UICONTROL Currency Setup]** > **[!UICONTROL Currency Options]** e defina:
+1. Vá para **[!UICONTROL Stores]** > **[!UICONTROL Config]** > **[!UICONTROL General]** > **[!UICONTROL Currency Setup]** > **[!UICONTROL Currency Options]** e defina:
    * Configuração padrão:
       * Moeda de base: USD
       * Moeda de Exibição Padrão: USD
@@ -50,15 +50,15 @@ O relatório de pedidos mostra valores incorretos no caso de moedas diferentes p
       * Moeda de base: THB (Baht tailandês)
       * Moeda de exibição padrão: THB (Baht tailandês)
       * Moedas permitidas: THB (Baht tailandês)
-1. Ir para **[!UICONTROL Stores]** > **[!UICONTROL Currency]** > **[!UICONTROL Currency Rates]** e defina as taxas de conversão vazias para o THB (defina as taxas como 1,0000).
+1. Vá para **[!UICONTROL Stores]** > **[!UICONTROL Currency]** > **[!UICONTROL Currency Rates]** e defina as taxas de conversão vazias para o THB (defina as taxas como 1.0000).
 1. Crie um produto, atribua-o aos dois sites e faça um pedido com esse produto no site adicional criado anteriormente.
-1. Certifique-se de que o pedido esteja em *Processando* status (faturar).
-1. No back-end, acesse **[!UICONTROL Reports]** > **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
-1. Clique no link **[!UICONTROL Yellow]** aviso para atualizar as estatísticas.
+1. Verifique se o pedido está no status *Processando* (fatura).
+1. No back-end, vá para **[!UICONTROL Reports]** > **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
+1. Clique no aviso **[!UICONTROL Yellow]** para atualizar as estatísticas.
 1. Defina o escopo do relatório no site adicional criado anteriormente e defina o filtro da seguinte maneira:
    * [!UICONTROL Date Used]: [!UICONTROL Created]
    * [!UICONTROL Period]: [!UICONTROL Day]
-   * [!UICONTROL From and To]: o mesmo dia em que o pedido de teste foi feito
+   * [!UICONTROL From and To]: O mesmo dia quando a ordem de teste foi feita
    * [!UICONTROL Order Status]: [!UICONTROL Any]
    * [!UICONTROL Empty rows]: [!UICONTROL No]
    * [!UICONTROL Show Actual Values]: [!UICONTROL No]
@@ -75,14 +75,14 @@ O total é zero.
 
 Para aplicar patches individuais, use os links a seguir, dependendo do método de implantação:
 
-* Adobe Commerce ou Magento Open Source no local: [[!DNL Quality Patches Tool] > Uso](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) no [!DNL Quality Patches Tool] guia.
-* Adobe Commerce na infraestrutura em nuvem: [Upgrades e Patches > Aplicar Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) no guia do Commerce na infraestrutura em nuvem.
+* Adobe Commerce ou Magento Open Source no local: [[!DNL Quality Patches Tool] > Uso](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) no guia [!DNL Quality Patches Tool].
+* Adobe Commerce na infraestrutura em nuvem: [Atualizações e patches > Aplicar patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) no guia do Commerce na infraestrutura em nuvem.
 
 ## Leitura relacionada
 
 Para saber mais sobre [!DNL Quality Patches Tool], consulte:
 
-* [[!DNL Quality Patches Tool] lançado: uma nova ferramenta para autoatender correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de conhecimento de suporte.
-* [Verifique se o patch está disponível para o problema do Adobe Commerce usando [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de conhecimento de suporte.
+* [[!DNL Quality Patches Tool] versão: uma nova ferramenta para autoatender patches de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de dados de conhecimento de suporte.
+* [Verifique se há um patch disponível para o problema do Adobe Commerce usando o [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de dados de conhecimento de suporte.
 
-Para obter informações sobre outros patches disponíveis no QPT, consulte [[!DNL Quality Patches Tool]: Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) no [!DNL Quality Patches Tool] guia.
+Para obter informações sobre outros patches disponíveis no QPT, consulte [[!DNL Quality Patches Tool]: Pesquisar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) no guia [!DNL Quality Patches Tool].

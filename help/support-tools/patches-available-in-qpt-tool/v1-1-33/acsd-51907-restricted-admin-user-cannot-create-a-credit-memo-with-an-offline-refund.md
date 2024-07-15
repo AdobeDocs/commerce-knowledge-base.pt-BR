@@ -11,11 +11,11 @@ ht-degree: 0%
 
 # ACSD-51907: O usuário administrador restrito não pode criar aviso de crédito para reembolso offline
 
-O patch ACSD-51907 corrige o problema de desempenho em que o usuário administrador restrito não pode criar um memorando de crédito com um reembolso offline. Este patch está disponível quando a variável [!DNL Quality Patches Tool (QPT)] O 1.1.33 está instalado. A ID do patch é ACSD-51907. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.7.
+O patch ACSD-51907 corrige o problema de desempenho em que o usuário administrador restrito não pode criar um memorando de crédito com um reembolso offline. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.33 está instalado. A ID do patch é ACSD-51907. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.7.
 
 ## Produtos e versões afetados
 
-**O patch é criado para a versão do Adobe Commerce:**
+**O patch foi criado para a versão do Adobe Commerce:**
 
 * Adobe Commerce (todos os métodos de implantação) 2.4.2-p2
 
@@ -25,7 +25,7 @@ O patch ACSD-51907 corrige o problema de desempenho em que o usuário administra
 
 >[!NOTE]
 >
->O patch pode se tornar aplicável a outras versões com novos [!DNL Quality Patches Tool] versões. Para verificar se o patch é compatível com sua versão do Adobe Commerce, atualize o `magento/quality-patches` pacote para a versão mais recente e verifique a compatibilidade no [[!DNL Quality Patches Tool]: Página Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+>O patch pode se tornar aplicável a outras versões com as novas versões do [!DNL Quality Patches Tool]. Para verificar se o patch é compatível com a sua versão do Adobe Commerce, atualize o pacote `magento/quality-patches` para a versão mais recente e verifique a compatibilidade na [[!DNL Quality Patches Tool]: página Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
 
 ## Problema
 
@@ -33,42 +33,42 @@ O usuário administrador restrito não pode criar um aviso de crédito com um re
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. Criar um **cliente** no site padrão.
-1. Criar **novo site** com relacionados *loja* e *exibição de loja*.
+1. Crie um **cliente** no site padrão.
+1. Criar **novo site** com *loja* relacionada e *exibição de loja*.
 1. Defina o site padrão para o novo site, limpe os caches.
-1. Alterar configuração do cliente: **Admin** > **Loja** > **Configuração** > **Clientes** > **Configuração do cliente** > **Compartilhar contas de clientes = Global**.
-1. Crie uma nova função de usuário administrador com o escopo da função definido para o novo site criado *(acesso somente aos dados de vendas)* in **Admin** > **Sistema** > **Permissões**.
+1. Alterar Configuração do Cliente: **Admin** > **Loja** > **Configuração** > **Clientes** > **Configuração do Cliente** > **Compartilhar Contas do Cliente = Global**.
+1. Crie uma nova função de usuário administrador com o escopo de função definido para o novo site criado *(acesso somente a dados de vendas)* em **Administrador** > **Sistema** > **Permissões**.
 1. Crie uma nova conta de administrador com esta função.
-1. Criar novo pedido usando a forma de pagamento online *(por exemplo, Auth.net ou PayPal)*.
+1. Criar novo pedido usando o método de pagamento online *(por exemplo, Auth.net ou PayPal)*.
 1. Faça logon como um usuário administrador restrito.
-1. Ir para **Vendas** > **Pedidos** > depois **página de exibição do pedido**.
+1. Vá para **Vendas** > **Pedidos** > e **página de exibição de pedidos**.
 1. Criar uma NFF.
 1. Navegue até a guia NFFs.
 1. Clique em **Fatura**.
 1. Clique em **[!UICONTROL Credit Memo]**.
-1. Verifique a **[!UICONTROL Refund to Store Credit]** , defina o campo de texto próximo a ele como *1* valor.
-1. Clique no link **[!UICONTROL Refund Offline]** botão.
+1. Marque a caixa de seleção **[!UICONTROL Refund to Store Credit]** e defina o campo de texto próximo ao valor *1*.
+1. Clique no botão **[!UICONTROL Refund Offline]**.
 
 <u>Resultados esperados</u>:
 
-O memorando de crédito é criado e *$ 1* é reembolsado ao crédito da loja.
+O memorando de crédito é criado, e *$1* é reembolsado para o crédito da loja.
 
 <u>Resultados reais</u>:
 
-A mensagem de erro, *São necessárias mais permissões para exibir este item* é exibido.
+A mensagem de erro, *Mais permissões são necessárias para exibir este item* é exibida.
 
 ## Aplicar o patch
 
 Para aplicar patches individuais, use os links a seguir, dependendo do método de implantação:
 
-* Adobe Commerce ou Magento Open Source no local: [[!DNL Quality Patches Tool] > Uso](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) no [!DNL Quality Patches Tool] guia.
-* Adobe Commerce na infraestrutura em nuvem: [Upgrades e Patches > Aplicar Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) no guia do Commerce na infraestrutura em nuvem.
+* Adobe Commerce ou Magento Open Source no local: [[!DNL Quality Patches Tool] > Uso](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) no guia [!DNL Quality Patches Tool].
+* Adobe Commerce na infraestrutura em nuvem: [Atualizações e patches > Aplicar patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) no guia do Commerce na infraestrutura em nuvem.
 
 ## Leitura relacionada
 
 Para saber mais sobre [!DNL Quality Patches Tool], consulte:
 
-* [[!DNL Quality Patches Tool] lançado: uma nova ferramenta para autoatender correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de conhecimento de suporte.
-* [Verifique se o patch está disponível para o problema do Adobe Commerce usando [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de conhecimento de suporte.
+* [[!DNL Quality Patches Tool] versão: uma nova ferramenta para autoatender patches de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de dados de conhecimento de suporte.
+* [Verifique se há um patch disponível para o problema do Adobe Commerce usando o [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de dados de conhecimento de suporte.
 
-Para obter informações sobre outros patches disponíveis no QPT, consulte [[!DNL Quality Patches Tool]: Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) no [!DNL Quality Patches Tool] guia.
+Para obter informações sobre outros patches disponíveis no QPT, consulte [[!DNL Quality Patches Tool]: Pesquisar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) no guia [!DNL Quality Patches Tool].

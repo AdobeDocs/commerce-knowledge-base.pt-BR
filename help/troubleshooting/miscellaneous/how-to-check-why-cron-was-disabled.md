@@ -1,5 +1,5 @@
 ---
-title: Como verificar o motivo [!DNL cron] foi desabilitado
+title: Como verificar por que  [!DNL cron]  foi desabilitado
 description: Este artigo oferece soluções de problemas com o cron na Adobe Commerce em produtos de infraestrutura em nuvem.
 feature: Configuration
 role: Developer
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# Como verificar o motivo [!DNL cron] foi desabilitado
+# Como verificar por que [!DNL cron] foi desabilitado
 
-Este artigo oferece soluções de problemas com [!DNL cron] em produtos de infraestrutura em nuvem do Adobe Commerce.
+Este artigo oferece soluções de problemas com o [!DNL cron] nos produtos Adobe Commerce on cloud infrastructure.
 
 ## Produtos e versões afetados
 
@@ -21,10 +21,10 @@ Este artigo oferece soluções de problemas com [!DNL cron] em produtos de infra
 
 ## Problema
 
-## A seguir estão os sintomas de [!DNL cron] problemas:
+## Estes são os sintomas de [!DNL cron] problemas:
 
-Você notou que o seu [!DNL cron] não estava correndo.
-Por exemplo: você vê as seguintes linhas no `app/etc/env.php` arquivo:
+Você notou que o [!DNL cron] não estava em execução.
+Por exemplo: você vê as seguintes linhas no arquivo `app/etc/env.php`:
 
 ```'cron' =>
   array (
@@ -32,7 +32,7 @@ Por exemplo: você vê as seguintes linhas no `app/etc/env.php` arquivo:
   ),
 ```
 
-Uma matriz vazia significaria que a variável [!DNL cron] é **habilitado**:
+Uma matriz vazia significaria que [!DNL cron] está **habilitado**:
 
 ```'cron' =>
   array (
@@ -41,43 +41,43 @@ Uma matriz vazia significaria que a variável [!DNL cron] é **habilitado**:
 
 ## Causas
 
-Existem várias razões pelas quais a [!DNL cron] não está ativo no momento:
+Há vários motivos pelos quais o [!DNL cron] não está ativo no momento:
 
-1. A variável [!DNL cron] foi desativado devido a erro [!DNL OpCache] configurações.
-1. A equipe de infraestrutura desativou seu [!DNL cron], pois estava causando um desempenho insatisfatório/inativo no site.
-1. A variável [!DNL cron] não foi reabilitado porque sua implantação falhou.
+1. O [!DNL cron] foi desabilitado devido a configurações [!DNL OpCache] ausentes.
+1. A equipe de Infraestrutura desabilitou [!DNL cron] porque estava causando mau desempenho/inatividade no site.
+1. O [!DNL cron] não foi reabilitado porque sua implantação falhou.
 
 Consulte uma das seções a seguir para obter uma solução para o seu problema.
 
 ## Soluções
 
-### Solução para perdido [!DNL OpCache] configurações {#solution-missed-opcache-settings}
+### Solução para configurações perdidas [!DNL OpCache] {#solution-missed-opcache-settings}
 
-Consulte [[!DNL Cron] interrompido devido a uma configuração incorreta ou ausente [!DNL OpCache] configurações](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/crons-blocked-running-missing-opache-settings) na nossa base de conhecimento Commerce.
+Consulte [[!DNL Cron] interrompido devido a configurações incorretas ou ausentes [!DNL OpCache] configurações](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/crons-blocked-running-missing-opache-settings) em nossa base de dados de conhecimento Commerce.
 
 ### Solução para desabilitados pela equipe de infraestrutura {#solution-disabled-by-infrastructure-team}
 
 1. Verifique os tíquetes de suporte anteriores em que o site estava inativo ou não estava respondendo.
 1. Em seguida, verifique se a equipe de infraestrutura indicou que a desativou.
 1. Verifique se você solucionou os problemas/preocupações apresentados pela equipe de infraestrutura.
-1. Enviar um [Solicitação de suporte](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-tickets) se precisar de mais assistência para solicitar a reativação do [!DNL cron] e explique como você abordou os problemas indicados pela equipe de infraestrutura.
+1. Envie uma [Solicitação de suporte](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-tickets) se precisar de mais assistência para solicitar a reativação de [!DNL cron] e explicar como você resolveu os problemas indicados pela equipe de infraestrutura.
 
 ### Falha na solução para implantação {#solution-deployment-failed}
 
 Verifique os logs de implantação:
 
-* [Exibir e gerenciar logs](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations) em nosso Guia de infraestrutura do Commerce na nuvem.
-* [Verificação do log de implantação se a interface do Cloud tem *`log snipped`* erro](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error) na nossa base de conhecimento Commerce.
+* [Exiba e gerencie logs](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations) em nosso Guia do Commerce na Infraestrutura em Nuvem.
+* [Verificando o log de implantação se a Interface do Usuário da Nuvem tem *`log snipped`* erro](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error) em nossa Base de Dados de Conhecimento Commerce.
 
-1. Se a implantação tiver falhado durante `setup:upgrade` etapa, a variável [!DNL cron] não terá sido reativada.
+1. Se a implantação falhou durante a etapa `setup:upgrade`, o [!DNL cron] não terá sido reativado.
 Por exemplo: você verá esta linha no log de implantação:
 
    ```The command "/bin/bash -c "set -o pipefail; php ./bin/magento setup:upgrade --keep-generated --ansi --no-interaction  | tee -a /app/$<project_id>/var/log/install_upgrade.log"" failed. Cache types config flushed successfully```
 
-1. Caso contrário, a implantação pode ter falhado durante algum outro estágio. Verifique o log de implantação e verifique se ambas as linhas são exibidas (exemplo abaixo). Se você não vir ambas as linhas semelhantes a esta no log, significa que a variável [!DNL cron] não foi reativado:
+1. Caso contrário, a implantação pode ter falhado durante algum outro estágio. Verifique o log de implantação e verifique se ambas as linhas são exibidas (exemplo abaixo). Se você não vir ambas as linhas semelhantes a esta no log, significa que o [!DNL cron] não foi reativado:
 
    ```  [2024-03-06T10:55:39.345564+00:00] INFO: Disable cron```<br>
-..<br>
+...<br>
    ```  [2024-02-07T10:50:09.579005+00:00] INFO: Enable cron```
 
-**Enviar um [Solicitação de suporte](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-tickets) se precisar de mais assistência.**
+**Envie uma [Solicitação de suporte](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-tickets) se precisar de mais ajuda.**

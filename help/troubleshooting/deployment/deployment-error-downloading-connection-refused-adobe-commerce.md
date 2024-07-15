@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ---
 
-# Erro de implantação: *erro 7 ao baixar ... porta 443: conexão recusada*
+# Erro de implantação: *erro 7 ao baixar... porta 443: conexão recusada*
 
 Este artigo fornece uma correção para o problema em que a implantação falha com a seguinte mensagem de erro:
 
@@ -25,11 +25,11 @@ W:    refused
 
 ## Versões afetadas
 
-Adobe Commerce na infraestrutura em nuvem, [todas as versões compatíveis](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
+Adobe Commerce na infraestrutura em nuvem, [todas as versões com suporte](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 ## Problema
 
-Falha na implantação com um **erro de curl 7** mensagem.
+Falha na implantação com uma mensagem de erro de **curl 7**.
 
 <u>Etapas a serem reproduzidas</u>:
 
@@ -41,7 +41,7 @@ Implantação bem-sucedida.
 
 <u>Comportamento real</u>:
 
-Falha na implantação e o seguinte erro: *erro 7 de curl ao baixar... porta 443: conexão recusada* aparece no log de implantação.
+Falha na implantação e o seguinte erro: *erro de curl 7 ao baixar ... porta 443: conexão recusada* aparece no log de implantação.
 
 ## Causa
 
@@ -55,10 +55,10 @@ Peça a um superusuário no projeto para executar este comando:
 magento-cloud project:clear-build-cache -p <project ID>
 ```
 
-Para verificar quem é o Superusuário no projeto, consulte [Exibir a função de projeto de um usuário](/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=en#view-a-user’s-project-role) no Guia de infraestrutura do Commerce na nuvem.
+Para verificar quem é o Superusuário do projeto, consulte [Exibir a função de projeto de um usuário](/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=en#view-a-user’s-project-role) no Guia de Infraestrutura do Commerce na Nuvem.
 
 ## Leitura recomendada
 
 * [Solução de problemas de implantação do Adobe Commerce](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-deployment-troubleshooter.html).
-* [O Adobe Commerce no repositório de nuvem não pôde ser acessado: erro 403 proibido ou 404 não encontrado ao implantar](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.html).
-* [Falha na implantação com &quot;Erro ao criar projeto: o gancho de criação falhou com o código de status 1&quot;](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/deployment-fails-with-error-building-project-the-build-hook-failed-with-status-code-1.html).
+* [O Adobe Commerce no repositório de nuvem não pôde ser acessado: erro 403 Proibido ou 404 Não encontrado ao implantar](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.html).
+* [Falha na implantação com &quot;Erro ao criar projeto: falha no gancho de compilação com código de status 1&quot;](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/deployment-fails-with-error-building-project-the-build-hook-failed-with-status-code-1.html).

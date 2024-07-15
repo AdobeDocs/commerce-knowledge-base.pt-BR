@@ -43,7 +43,7 @@ Object(Magento\Indexer\Model\Resource\Indexer\State\Collection), 'indexer_config
 
 ## Solução
 
-Limpe a `<magento_root>/generated/code` e outros diretórios em `var` e `generated` do seguinte modo:
+Limpe o `<magento_root>/generated/code` e outros diretórios em `var` e `generated` da seguinte maneira:
 
 ```bash
 rm -rf <magento_root>/generated/code/* <magento_root>/generated/metadata/* <magento_root>/var/cache/*

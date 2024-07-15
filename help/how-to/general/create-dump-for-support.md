@@ -20,15 +20,15 @@ Adobe Commerce (todos os métodos de implantação) 2.3.x, 2.4.x.
 
 Crie um despejo &quot;depurado&quot; na página Admin:
 
-1. No Administrador do Commerce, acesse **Sistema** > **Suporte** > **Coletor de dados**.
-1. Clique em **Novo backup**.
-1. Após alguns minutos, clique em **Atualizar status** (pode demorar mais, repita a cada 5 minutos até concluir).
-1. Realocar os arquivos de despejo gerados do `/var/support` para o diretório raiz do Adobe Commerce.
+1. No Administrador do Commerce, vá para **Sistema** > **Suporte** > **Coletor de Dados**.
+1. Clique em **Novo Backup**.
+1. Após alguns minutos, clique em **Atualizar Status** (pode demorar mais, repita a cada 5 minutos até ser concluído).
+1. Realocar os arquivos de despejo gerados do diretório `/var/support` para o diretório raiz do Adobe Commerce.
 
 Em seguida, você pode fornecer ao Suporte o link de download direto para os arquivos de despejo (o endereço da loja e o nome do arquivo conforme exibido).
 
-Se você tiver problemas ao criar despejos do Administrador, considere usar comandos da CLI conforme descrito em [Execute os utilitários de suporte](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-spt-util.html) na documentação do desenvolvedor.
+Se você tiver problemas ao criar despejos do Administrador, considere usar comandos da CLI conforme descrito em [Executar os utilitários de suporte](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-spt-util.html) em nossa documentação de desenvolvedor.
 
 ## Leitura relacionada
 
-* [Criar backup completo do banco de dados para o Adobe Commerce na infraestrutura em nuvem](/help/how-to/general/create-database-dump-on-cloud.md) em nossa base de conhecimento de suporte.
+* [Crie um backup completo do banco de dados para o Adobe Commerce na infraestrutura em nuvem](/help/how-to/general/create-database-dump-on-cloud.md) em nossa base de dados de conhecimento de suporte.

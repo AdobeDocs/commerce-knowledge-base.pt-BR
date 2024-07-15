@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # PWA Studio: O navegador exibe o erro &quot;Não é possível usar proxy para&quot;
 
-Este tópico discute uma solução quando o navegador da Web exibe uma &quot;*Não é possível usar proxy para*&quot; e o console exibir um
+Este tópico discute uma solução quando o navegador da Web exibe um &quot;*Não é possível usar proxy para*&quot; e o console exibe um
 
 ```
 ENOTFOUND
@@ -27,7 +27,7 @@ erro ao usar o Progressive Web App (PWA) Studio para Adobe Commerce.
 
 ## Problema
 
-<u>Etapa para reproduzir</u>:
+<u>Etapa de reprodução</u>:
 
 * Carregue sua loja Adobe Commerce em um navegador.
 
@@ -37,7 +37,7 @@ erro ao usar o Progressive Web App (PWA) Studio para Adobe Commerce.
 
 <u>Resultado real</u>:
 
-* Seu navegador da Web exibe a mensagem &quot;*Não é possível usar proxy para*&quot;e o console exibe um erro como:
+* Seu navegador da Web exibe o erro &quot;*Não é possível intermediar para*&quot; e o console exibe um erro como:
 
 ```
     ENOTFOUND
@@ -51,7 +51,7 @@ O NodeJS não pode resolver o nome do host de seu armazenamento do Adobe Commerc
 ## Solução
 
 1. Certifique-se de que o armazenamento do Adobe Commerce seja carregado em mais de um navegador da Web.
-1. Se você estiver executando um servidor DNS ou VPN local, adicione uma entrada ao arquivo de host (localizado em `/etc/hosts`) e mapear manualmente esse domínio ([Instruções genéricas sobre a edição do arquivo de host](https://linuxize.com/post/how-to-edit-your-hosts-file/)) para que o NodeJS possa resolvê-lo.
+1. Se você estiver executando um servidor DNS ou VPN local, adicione uma entrada ao arquivo de host (localizado em `/etc/hosts`) e mapeie manualmente esse domínio ([Instruções genéricas sobre a edição do arquivo de host](https://linuxize.com/post/how-to-edit-your-hosts-file/)) para que o NodeJS possa resolvê-lo.
 
 ## Leitura relacionada
 

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Alternar para o OpenSearch para Adobe Commerce na nuvem 2.4.4
 
-O Adobe Commerce na infraestrutura em nuvem 2.4.4 não oferecerá suporte a versões do Elasticsearch após a 7.10. **Você deve atualizar para o Adobe Commerce 2.4.4 primeiro e, em seguida, mudar imediatamente do Elasticsearch para o OpenSearch 1.2.x.** O Adobe fornecerá instruções detalhadas mais próximas da versão 2.4.4 GA do Adobe Commerce.
+O Adobe Commerce na infraestrutura em nuvem 2.4.4 não oferecerá suporte a versões do Elasticsearch após a versão 7.10. **Primeiro, você deve atualizar para o Adobe Commerce 2.4.4 e, em seguida, alternar imediatamente do Elasticsearch para o OpenSearch 1.2.x.** O Adobe fornecerá instruções detalhadas mais próximas da versão 2.4.4 GA do Adobe Commerce.
 
 >[!NOTE]
 >
@@ -25,13 +25,13 @@ O Adobe Commerce no local está adicionando suporte para o Elasticsearch 7.16 e 
 
 ## O que é o OpenSearch?
 
-OpenSearch é uma bifurcação de Elasticsearch e Kibana. Ele é mantido pela AWS em vez do Elastic.co. Para saber mais, consulte GitHub [opensearch-project/OpenSearch](https://github.com/opensearch-project/OpenSearch).
+OpenSearch é uma bifurcação de Elasticsearch e Kibana. Ele é mantido pela AWS em vez do Elastic.co. Para saber mais, reveja o GitHub [opensearch-project/OpenSearch](https://github.com/opensearch-project/OpenSearch).
 
 **Compatibilidade entre versões:**
 
-**O Adobe Commerce na infraestrutura em nuvem será compatível com o Elasticsearch 7.10?**
+**O Adobe Commerce na infraestrutura em nuvem oferecerá suporte ao Elasticsearch 7.10?**
 
-**Sim** - a partir de meados de janeiro de 2022, o Adobe Commerce no cloud infrastructure versões 2.4.3-p1, 2.4.3-p2 e 2.3.7-p3 oferecerá suporte ao Elasticsearch 7.10.
+**Sim** - a partir de meados de janeiro de 2022, o Adobe Commerce nas versões 2.4.3-p1, 2.4.3-p2 e 2.3.7-p3 oferece suporte ao Elasticsearch 7.10.
 
 Para o Adobe Commerce no local, a versão 7.16.x mais recente é recomendada para atenuar o Log4j.
 
@@ -47,10 +47,10 @@ Antes de começar o processo de atualização para o Adobe Commerce 2.4.4, no en
 
 Se a versão principal do Adobe Commerce em que eles estão suportar o Elasticsearch 7.10, eles podem usá-lo.
 
-Revisão [Requisitos do sistema](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html) na documentação do desenvolvedor para compatibilidade de versões.
+Revise os [Requisitos do sistema](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html) em nossa documentação do desenvolvedor para obter compatibilidade de versão.
 
 >[!NOTE]
 >
 >É recomendável planejar a atualização para o Adobe Commerce 2.4.4 o mais rápido possível, pois o Elasticsearch 7.10 será EOL em maio de 2022.
 
-Os parceiros do Adobe podem se inscrever no nosso programa beta [aqui](https://experienceleague.adobe.com/docs/commerce-operations/release/beta-program.html) para obter acesso ao nosso código beta4 mais recente que foi testado em relação ao Elasticsearch 7.16.1 e OpenSearch 1.1.
+Os parceiros Adobe podem se inscrever no nosso programa beta [aqui](https://experienceleague.adobe.com/docs/commerce-operations/release/beta-program.html) para obter acesso ao nosso código beta4 mais recente que foi testado em relação ao Elasticsearch 7.16.1 e OpenSearch 1.1.

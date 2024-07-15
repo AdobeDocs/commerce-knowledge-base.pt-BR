@@ -25,12 +25,12 @@ Este artigo descreve um problema conhecido do Adobe Commerce 2.4.2 em que os ped
 
 Ativar pagamento Venmo na configuração Braintree.
 
-<u>Etapas a serem reproduzidas</u> :
+<u>Etapas a serem reproduzidas</u>:
 
 1. Na loja, adicione qualquer item ao carrinho de compras.
 1. Vá para **Check-out**.
 1. Selecione o método de envio apropriado.
-1. Selecionar **Venmo** como método de pagamento.
+1. Selecione **Venmo** como método de pagamento.
 1. Clique em **Pagar com Venmo**.
 1. Clique em **Fazer pedido**.
 

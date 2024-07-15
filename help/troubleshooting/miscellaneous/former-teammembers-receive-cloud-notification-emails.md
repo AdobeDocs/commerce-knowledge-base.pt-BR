@@ -25,12 +25,12 @@ Um aviso de interrupção detectada ou problema importante relacionado ao projet
 
 Há duas maneiras de interromper as notificações removendo o(s) usuário(s) do projeto:
 
-* Método 1: usar a nuvem [!DNL Project URL]. Consulte [Gerenciar acesso do usuário](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) no guia Commerce na infraestrutura em nuvem para ver as etapas.
-* Método 2: usar a magento-cloud [!DNL CLI]. Consulte [Gerenciar usuários com o [!DNL CLI]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#manage-users-with-the-cli) no guia Commerce na infraestrutura em nuvem para ver as etapas.
+* Método 1: uso da nuvem [!DNL Project URL]. Consulte [Gerenciar o acesso do usuário](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) no guia de infraestrutura do Commerce na nuvem para ver as etapas.
+* Método 2: usar a magento-cloud [!DNL CLI]. Consulte [Gerenciar usuários com o  [!DNL CLI]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#manage-users-with-the-cli) no guia de infraestrutura do Commerce na nuvem para ver as etapas.
 
-Se isso já tiver sido feito e, ainda assim, as notificações por email continuarem a incluir esses usuários, envie um tíquete de suporte para solicitar que eles sejam removidos do *[!UICONTROL Always CC]* na conta.
+Se isso já tiver sido feito e, ainda assim, as notificações por email continuarem a incluir esses usuários, envie um tíquete de suporte para solicitar que eles sejam removidos da configuração *[!UICONTROL Always CC]* na conta.
 
 ## Leitura relacionada
 
-* [Exibir a função de projeto de um usuário](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#view-a-user’s-project-role) no guia Commerce on cloud infrastructure.
-* [Como incluir um membro da equipe nas notificações de suporte](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-include-a-team-member-in-support-notifications.html) na Base de conhecimento do Commerce.
+* [Exiba a função de projeto de um usuário](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#view-a-user’s-project-role) no guia da infraestrutura do Commerce na nuvem.
+* [Como incluir um membro da equipe nas notificações de suporte](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-include-a-team-member-in-support-notifications.html) na base de conhecimento da Commerce.

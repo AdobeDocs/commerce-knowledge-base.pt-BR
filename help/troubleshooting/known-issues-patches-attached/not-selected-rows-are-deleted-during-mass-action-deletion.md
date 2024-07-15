@@ -17,11 +17,11 @@ Este artigo fornece um patch para o problema conhecido do Adobe СCommerce na in
 
 ## Problema
 
-No Administrador, se você selecionar registros de cliente ou cliente a serem excluídos, filtre a grade e selecione o **Excluir** ação, todos os registros são excluídos.
+No Administrador, se você selecionar registros de cliente ou cliente a serem excluídos, filtrar a grade e selecionar a ação **Excluir**, todos os registros serão excluídos.
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. Navegue até **Catálogo** > **Produtos** em Admin.
+1. Navegue até **Catálogo** > **Produtos** no Administrador.
 1. Selecione um ou vários produtos.
 1. Selecione Excluir no menu suspenso Ações.
 

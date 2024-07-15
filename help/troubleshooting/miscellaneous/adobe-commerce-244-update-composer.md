@@ -30,7 +30,7 @@ Ao atualizar para o Adobe Commerce 2.4.4 ou superior após julho de 2022, você 
 Pré-requisitos: o Adobe Commerce 2.4.3 ou anterior está instalado.
 
 1. Inicie a atualização conforme descrito em [Executar uma atualização](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html).
-1. Execute o `composer update` comando para atualizar o aplicativo Adobe Commerce.
+1. Execute o comando `composer update` para atualizar o aplicativo Adobe Commerce.
 
 <u>Resultados esperados</u>:
 
@@ -58,11 +58,11 @@ Plugin initialization failed (require(app/etc/NonComposerComponentRegistration.p
 
 ## Causa
 
-Depois de julho de 2022, o Composer altera o valor padrão do [`allow-plugins` opção](https://getcomposer.org/doc/06-config.md#allow-plugins) para `{}` Os plug-ins do e do não serão mais carregados, a menos que permitido.
+Depois de julho de 2022, o Composer alterará o valor padrão da [`allow-plugins` opção](https://getcomposer.org/doc/06-config.md#allow-plugins) para `{}` e os plug-ins não carregarão mais, a menos que permitido.
 
 ## Solução
 
-Adicione o seguinte ao `composer.json` dependendo de como você instalou o Adobe Commerce:
+Adicione o seguinte ao arquivo `composer.json`, dependendo de como você instalou o Adobe Commerce:
 
 * Se o projeto foi criado [usando o `composer create-project` comando](https://devdocs.magento.com/guides/v2.4/install-gde/composer.html#get-the-metapackage):
 
@@ -76,7 +76,7 @@ Adicione o seguinte ao `composer.json` dependendo de como você instalou o Adobe
   }
   ```
 
-* Se o projeto tiver sido criado por outra forma e não tiver `"dealerdirect/phpcodesniffer-installer"` in `"require-dev"` seção:
+* Se o projeto foi criado por outra forma e não tem `"dealerdirect/phpcodesniffer-installer"` na seção `"require-dev"`:
 
   ```json
   "config": {
@@ -87,4 +87,4 @@ Adicione o seguinte ao `composer.json` dependendo de como você instalou o Adobe
   }
   ```
 
-Depois de atualizar o `composer.json` arquivo, execute o `composer update` e reinicie o processo de atualização.
+Depois de atualizar o arquivo `composer.json`, execute o comando `composer update` e reinicie o processo de atualização.

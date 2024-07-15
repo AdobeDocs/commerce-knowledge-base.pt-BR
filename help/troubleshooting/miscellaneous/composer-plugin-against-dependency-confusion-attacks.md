@@ -21,7 +21,7 @@ Este artigo fornece informações sobre o plug-in compositor lançado para os at
 
 ## Problema
 
-Um caso potencial de um ataque de Confusão de Dependência ativa é detectado por meio de pelo menos uma das dependências diretas ou indiretas definidas no `composer.json` pelo plug-in compositor `magento/composer-dependency-version-audit-plugin` durante a instalação/atualização do composer.
+Um caso potencial de um ataque ativo de Confusão de Dependências é detectado por meio de pelo menos uma das dependências diretas ou indiretas definidas em `composer.json` pelo plug-in compositor `magento/composer-dependency-version-audit-plugin` durante a instalação/atualização do compositor.
 
 <u>Etapas a serem reproduzidas</u>:
 
@@ -47,5 +47,5 @@ Os invasores podem explorar essa vulnerabilidade se um pacote só estiver dispon
 
 ### Expectativas dos desenvolvedores de extensão
 
-* Não há como saber com certeza se o pacote de um plug-in, se de um repositório público, foi comprometido ou não. O plug-in detectará quando uma versão pública de um pacote em packagist.org tiver uma versão mais alta do que a disponível em um repositório privado como [repo.magento.com](https://repo.magento.com). Recomendamos que os desenvolvedores de extensão evitem essas situações e não publiquem versões mais recentes do que as disponíveis por meio do [repo.magento.com](https://repo.magento.com).
+* Não há como saber com certeza se o pacote de um plug-in, se de um repositório público, foi comprometido ou não. O plug-in detectará quando uma versão pública de um pacote em packagist.org tiver uma versão mais alta do que a disponível em um repositório privado como o [repo.magento.com](https://repo.magento.com). Recomendamos que os desenvolvedores de extensão evitem essas situações e não publiquem versões mais recentes do que as disponíveis por meio do [repo.magento.com](https://repo.magento.com).
 * A Adobe Commerce entende que o processo de revisão do Marketplace pode atrasar a disponibilidade das extensões, mas o processo está lá para manter os comerciantes seguros e ajudar os desenvolvedores de extensões a encontrar erros acidentais que podem ter perdido.

@@ -17,37 +17,37 @@ Este artigo lista alguns exemplos rápidos comuns de erros fatais do PHP que voc
 
 ## Exemplo
 
-*&#39;Erro fatal do PHP: o tempo máximo de execução de 60 segundos foi excedido em...&#39;*
+Erro fatal do PHP *: o tempo máximo de execução de 60 segundos foi excedido em...&#39;*
 
 ## Solução
 
-Você pode atualizar o tempo máximo de execução definindo um intervalo de tempo `max_execution_time` valor no seu `php.ini` arquivo e reimplantação.
+Você pode atualizar o tempo máximo de execução definindo um valor `max_execution_time` personalizado no arquivo `php.ini` e reimplantando.
 
 Por exemplo:
 
 `max_execution_time = 120`
 
-Consulte o [Personalizar configurações do php.ini](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html) artigo.
+Consulte o artigo [Personalizar configurações do php.ini](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html).
 
 ## Exemplo
 
-*&#39;Erro fatal do PHP: tamanho de memória permitido de 792723456 bytes esgotado&#39;* (Esse é apenas um exemplo de tamanho em bytes.)
+Erro fatal do PHP *: tamanho de memória permitido de 792723456 bytes esgotado&#39;* (Este é apenas um exemplo de tamanho de byte.)
 
 ## Solução
 
-Personalize seu `php.ini` configurações. Consulte este [Personalizar configurações do php.ini](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html) artigo.
+Personalize suas configurações do `php.ini`. Consulte este artigo [Personalizar configurações do php.ini](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html).
 
 ## Exemplo
 
-*&#39;Aviso do PHP: Desconhecido: falha ao abrir fluxo: esse arquivo ou diretório não existe&#39;*
+&#39;Aviso PHP *: Desconhecido: falha ao abrir fluxo: esse arquivo ou diretório não existe&#39;*
 
 ## Solução
 
-Certifique-se de não remover as terminações estilo Windows no `php.ini` arquivo. No Windows, as terminações de linha são terminadas com uma combinação de um retorno de carro (ASCII 0x0d ou \r) e uma nova linha(\n), também conhecida como CR/LF.
+Certifique-se de não remover as terminações de estilo Windows no arquivo `php.ini`. No Windows, as terminações de linha são terminadas com uma combinação de um retorno de carro (ASCII 0x0d ou \r) e uma nova linha(\n), também conhecida como CR/LF.
 
 ## Exemplo
 
-*&#39;PHP Erro fatal: PDOException não capturado: SQLSTATE\[HY000\] \[1040\] Muitas conexões em&#39;*
+Erro fatal de PHP de *: PDOException não capturada: SQLSTATE\[HY000\] \[1040\] Muitas conexões em&#39;*
 
 ## Solução
 
@@ -55,18 +55,18 @@ O ambiente MySQL ficou sem espaço em disco. Forneça mais espaço em disco para
 
 ## Exemplo
 
-*&#39;Erro fatal de PHP: TypeError não detectado: valor de retorno de Magento&#39;*
+Erro fatal de PHP de *: TypeError não detectado: valor de retorno de Magento&#39;*
 
 ## Solução
 
-Verifique a `<root>/tmp` diretório porque provavelmente está cheio. Se estiver cheio, forneça mais espaço no diretório. Isso pode envolver simplesmente mover os arquivos para outro diretório ou excluí-los.
+Verifique o diretório `<root>/tmp` porque ele provavelmente está cheio. Se estiver cheio, forneça mais espaço no diretório. Isso pode envolver simplesmente mover os arquivos para outro diretório ou excluí-los.
 
 ## Leitura relacionada
 
 Em nossa documentação do desenvolvedor:
 
-* [Erros de configurações de PHP](https://devdocs.magento.com/guides/v2.3/install-gde/trouble/php/tshoot_php-set.html)
-* [Configurações necessárias do PHP](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html)
+* [erros de configurações do PHP](https://devdocs.magento.com/guides/v2.3/install-gde/trouble/php/tshoot_php-set.html)
+* [Configurações de PHP necessárias](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html)
 * [Verificação Redis](https://devdocs.magento.com/guides/v2.3/config-guide/redis/redis-session.html#redis-verify)
 * [Configurar Redis](https://devdocs.magento.com/guides/v2.3/config-guide/redis/config-redis.html)
 * [Erro de limite de memória do PHP](https://devdocs.magento.com/guides/v2.3/install-gde/trouble/php/tshoot_php-set.html#trouble-php-memory)

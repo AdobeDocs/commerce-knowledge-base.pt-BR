@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # ACSD-54418: valor de desconto fixo adicionado incorretamente ao produto filho do pacote com preço dinâmico.
 
-O patch ACSD-54418 corrige o problema em que o valor fixo do desconto é aplicado incorretamente a cada produto filho do pacote com preço dinâmico. Este patch está disponível quando a variável [!DNL Quality Patches Tool (QPT)] O 1.1.42 está instalado. A ID do patch é ACSD-54418. Observe que o problema foi corrigido no Adobe Commerce 2.4.7.
+O patch ACSD-54418 corrige o problema em que o valor fixo do desconto é aplicado incorretamente a cada produto filho do pacote com preço dinâmico. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.42 está instalado. A ID do patch é ACSD-54418. Observe que o problema foi corrigido no Adobe Commerce 2.4.7.
 
 ## Produtos e versões afetados
 
-**O patch é criado para a versão do Adobe Commerce:**
+**O patch foi criado para a versão do Adobe Commerce:**
 
 * Adobe Commerce (todos os métodos de implantação) 2.4.6-p1
 
@@ -27,7 +27,7 @@ O patch ACSD-54418 corrige o problema em que o valor fixo do desconto é aplicad
 
 >[!NOTE]
 >
->O patch pode se tornar aplicável a outras versões com novos [!DNL Quality Patches Tool] versões. Para verificar se o patch é compatível com sua versão do Adobe Commerce, atualize o `magento/quality-patches` pacote para a versão mais recente e verifique a compatibilidade no [[!DNL Quality Patches Tool]: Página Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+>O patch pode se tornar aplicável a outras versões com as novas versões do [!DNL Quality Patches Tool]. Para verificar se o patch é compatível com a sua versão do Adobe Commerce, atualize o pacote `magento/quality-patches` para a versão mais recente e verifique a compatibilidade na [[!DNL Quality Patches Tool]: página Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
 
 ## Problema
 
@@ -35,10 +35,10 @@ O valor do desconto fixo é aplicado incorretamente a cada produto filho do paco
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. Criar um **[!UICONTROL bundle product]** com preços dinâmicos e *2* opções do pacote.
-1. Criar um **[!UICONTROL cart price rule]** com um código de cupom específico que se aplica somente ao produto agrupado **[!UICONTROL SKU]** e tem um desconto fixo.
+1. Crie um **[!UICONTROL bundle product]** com preços dinâmicos e *2* opções de pacote.
+1. Crie um **[!UICONTROL cart price rule]** com um código de cupom específico que se aplique apenas ao produto agrupado **[!UICONTROL SKU]** e que tenha um desconto fixo.
 1. Adicione o produto incluído ao carrinho.
-1. Aplique o **[!UICONTROL coupon code]**.
+1. Aplicar o **[!UICONTROL coupon code]**.
 1. Marque o desconto aplicado ao carrinho de compras.
 
 <u>Resultados esperados</u>:
@@ -53,14 +53,14 @@ O desconto é aplicado a cada produto filho do pacote.
 
 Para aplicar patches individuais, use os links a seguir, dependendo do método de implantação:
 
-* Adobe Commerce ou Magento Open Source no local: [[!DNL Quality Patches Tool] > Uso](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) no [!DNL Quality Patches Tool] guia.
-* Adobe Commerce na infraestrutura em nuvem: [Upgrades e Patches > Aplicar Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) no guia do Commerce na infraestrutura em nuvem.
+* Adobe Commerce ou Magento Open Source no local: [[!DNL Quality Patches Tool] > Uso](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) no guia [!DNL Quality Patches Tool].
+* Adobe Commerce na infraestrutura em nuvem: [Atualizações e patches > Aplicar patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) no guia do Commerce na infraestrutura em nuvem.
 
 ## Leitura relacionada
 
 Para saber mais sobre [!DNL Quality Patches Tool], consulte:
 
-* [[!DNL Quality Patches Tool] lançado: uma nova ferramenta para autoatender correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de conhecimento de suporte.
-* [Verifique se o patch está disponível para o problema do Adobe Commerce usando [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de conhecimento de suporte.
+* [[!DNL Quality Patches Tool] versão: uma nova ferramenta para autoatender patches de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de dados de conhecimento de suporte.
+* [Verifique se há um patch disponível para o problema do Adobe Commerce usando o [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de dados de conhecimento de suporte.
 
-Para obter informações sobre outros patches disponíveis no QPT, consulte [[!DNL Quality Patches Tool]: Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) no [!DNL Quality Patches Tool] guia.
+Para obter informações sobre outros patches disponíveis no QPT, consulte [[!DNL Quality Patches Tool]: Pesquisar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) no guia [!DNL Quality Patches Tool].

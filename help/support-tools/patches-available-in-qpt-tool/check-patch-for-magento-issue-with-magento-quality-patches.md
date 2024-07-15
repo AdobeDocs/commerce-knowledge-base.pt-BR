@@ -17,12 +17,12 @@ Este artigo fornece uma visão geral da Ferramenta de correções de qualidade (
 
 ## Produtos e versões afetados
 
-* Adobe Commerce no local, tudo [versões compatíveis](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
-* Adobe Commerce na infraestrutura em nuvem, tudo [versões compatíveis](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce local, todas as [versões com suporte](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce na infraestrutura em nuvem, todas as [versões com suporte](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## O que são a Ferramenta de correção de qualidade
 
-A variável [Ferramenta Correções de qualidade](https://github.com/magento/quality-patches) (QPT) são patches individuais desenvolvidos pela Adobe e pela comunidade Magento Open Source.
+A [Ferramenta de Patches de Qualidade](https://github.com/magento/quality-patches) (QPT) são patches individuais desenvolvidos pela Adobe e pela comunidade Magento Open Source.
 
 Ele permite:
 
@@ -38,11 +38,11 @@ A ferramenta tem como objetivo permitir que você faça o autoatendimento com pa
 
 >[!NOTE]
 >
->O QPT é apenas para correções de qualidade. Os patches de segurança estão disponíveis no [Centro de segurança do Magento](https://magento.com/security/patches).
+>O QPT é apenas para correções de qualidade. Os patches de segurança estão disponíveis na [Central de Segurança do Magento](https://magento.com/security/patches).
 
 ## Patches disponíveis na Ferramenta de patches de qualidade
 
-Consulte [Ferramenta Correções de qualidade](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) na documentação do desenvolvedor para obter a lista de patches disponíveis.
+Consulte a [Ferramenta de Patches de Qualidade](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) em nossa documentação do desenvolvedor para obter a lista de patches disponíveis.
 
 ## Como instalar e usar a Ferramenta de correções de qualidade
 
@@ -50,13 +50,13 @@ Os comandos de instalação e uso são diferentes para o Adobe Commerce no local
 
 ### Como instalar e usar o QPT para Adobe Commerce no local
 
-Consulte [Guia de atualização de software > Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) na documentação do desenvolvedor, para obter detalhes sobre como instalar e usar o QPT para aplicar e reverter patches.
+Consulte o [Guia de Atualização de Software > Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) em nossa documentação do desenvolvedor para obter detalhes sobre como instalar e usar o QPT para aplicar e reverter patches.
 
 ### Como instalar e usar o QPT para Adobe Commerce na infraestrutura em nuvem
 
-Consulte [Nuvem para Adobe Commerce > Aplicar patches](https://devdocs.magento.com/cloud/project/project-patch.html) na documentação do desenvolvedor, para obter detalhes sobre como instalar e usar o QPT para aplicar e reverter patches no Adobe Commerce na infraestrutura em nuvem.
+Consulte [Nuvem para Adobe Commerce > Aplicar patches](https://devdocs.magento.com/cloud/project/project-patch.html) em nossa documentação do desenvolvedor para obter detalhes sobre como instalar e usar o QPT para aplicar e reverter patches no Adobe Commerce na infraestrutura em nuvem.
 
 ## Leitura relacionada
 
-* [Notas de versão da Ferramenta de correções de qualidade](https://devdocs.magento.com/quality-patches/release-notes.html) na documentação do desenvolvedor.
-* [Como aplicar patches do compositor fornecidos pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de conhecimento de suporte.
+* [Notas de versão da Ferramenta de correções de qualidade](https://devdocs.magento.com/quality-patches/release-notes.html) em nossa documentação do desenvolvedor.
+* [Como aplicar os patches do compositor fornecidos pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de dados de conhecimento de suporte.

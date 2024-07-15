@@ -29,7 +29,7 @@ Ao excluir uma atualização de agendamento ativa entre suas datas inicial e fin
 1. Crie uma nova subcategoria em **Catálogo** > **Categorias**.
 1. Crie uma nova Atualização de preparo com a hora de início e término.
 1. Aguarde até que a atualização seja aplicada; essa é a hora de início.
-1. Exclua a atualização usando o **Exibir/Editar** link.
+1. Exclua a atualização usando o link **Exibir/Editar**.
 
 <u>Resultados esperados</u>:
 

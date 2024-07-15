@@ -26,20 +26,20 @@ Este artigo fornece um patch para o problema conhecido do Adobe Commerce 2.4.0 q
 
 1. Faça e conclua um pedido com um dos seguintes métodos principais de envio: FedEx, DHL, UPS e USPS.
 1. Crie e autorize devoluções para este pedido.
-1. Abrir um autorizado **Informações da devolução** e clique no link **Criar etiqueta de remessa** botão.
+1. Abra uma página **Informações de Retorno** autorizada e clique no botão **Criar Etiqueta de Envio**.
 1. Selecione o método de envio, adicione um produto a um pacote e clique em Salvar.
 
 <u>Resultado esperado:</u>
 
-Um rótulo de remessa é criado com sucesso e você verá uma mensagem: *Você criou uma etiqueta de remessa.*
+Um rótulo de remessa foi criado com êxito e você verá uma mensagem: *Você criou um rótulo de remessa.*
 
 <u>Resultado real:</u>
 
-A variável **Informações da devolução** for interrompida e você verá uma mensagem de erro na página Informações de retorno: *Informações gerais Foram feitas alterações nesta seção que não foram salvas. Esta guia contém dados inválidos*.
+A página **Informações de Retorno** está corrompida e você verá uma mensagem de erro na página Informações de Retorno: *Foram feitas alterações nesta seção que não foram salvas. Esta guia contém dados inválidos*.
 
 ## Solução
 
-Aplicar [correção](assets/MC-35984-2.4.0-CE-composer.patch.zip) artigo.
+Aplique o [patch](assets/MC-35984-2.4.0-CE-composer.patch.zip) fornecido neste artigo.
 
 ## Correção
 
@@ -47,7 +47,7 @@ O patch está anexado a este artigo. Para baixá-lo, role para baixo até o fina
 
 [MC-35984-2.4.0-CE-composer.patch](assets/MC-35984-2.4.0-CE-composer.patch.zip)
 
-O patch também está disponível para download no, `.git` e `.composer`, formatos em [Downloads da Adobe Commerce](https://magento.com/tech-resources/download) página, em **Correções** na navegação de coluna à esquerda. Procure o patch MC-35984.
+O patch também está disponível para download nos formatos `.git` e `.composer`, na página [Downloads da Adobe Commerce](https://magento.com/tech-resources/download), em **Patches**, na navegação de coluna à esquerda. Procure o patch MC-35984.
 
 ## Como aplicar o patch
 

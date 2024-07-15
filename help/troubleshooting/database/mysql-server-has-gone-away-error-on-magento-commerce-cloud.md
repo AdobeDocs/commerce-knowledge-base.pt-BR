@@ -13,15 +13,15 @@ ht-degree: 0%
 
 # O servidor MySQL desapareceu&#x200B; erro no Adobe Commerce na nuvem
 
-Este artigo aborda a solução para o problema em que você recebe uma &quot; *O SQL Server desapareceu* &quot;mensagem de erro no `cron.log` arquivo. Pode haver vários sintomas, incluindo problemas de importação de arquivos de imagem ou falha de implantação.
+Este artigo fala sobre a solução do problema em que você recebe a mensagem de erro &quot; *O SQL Server desapareceu* &quot; no arquivo `cron.log`. Pode haver vários sintomas, incluindo problemas de importação de arquivos de imagem ou falha de implantação.
 
 ## Produtos e versões afetados
 
-* Adobe Commerce na infraestrutura em nuvem, tudo [versões compatíveis](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
+* Adobe Commerce na infraestrutura em nuvem, todas as [versões com suporte](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
 
 ## Problema
 
-Você recebe um &quot; *O SQL Server desapareceu* &quot;mensagem de erro no `cron.log` arquivo.
+Você recebe uma mensagem de erro &quot; *O SQL Server desapareceu* &quot; no arquivo `cron.log`.
 
 <u>Etapas a serem reproduzidas</u>
 
@@ -33,20 +33,20 @@ Implantação bem-sucedida.
 
 <u>Resultado real</u>
 
-Mensagem de erro em `cron.log` :&quot; *SQLSTATE\[HY000\] \[2006\] O servidor MySQL desapareceu at/app/AAAAAAAAA/vendor/magento/zendframework1/library/Zend/Db/Adapter/Pdo/Abstract.php:144&quot;*
+Mensagem de erro em `cron.log` :&quot; *SQLSTATE\[HY000\] \[2006\] O servidor MySQL foi desativado at/app/AAAAAAAAA/vendor/magento/zendframework1/library/Zend/Db/Adapter/Pdo/Abstract.php:144&quot;*
 
 ## Causa
 
-A variável `default_socket_timeout` está definido como muito baixo. Isso é causado pela configuração `default_socket_timeout` . Se o php não receber nada do banco de dados MySQL dentro deste período, ele assume que está desconectado e emite o erro.
+O valor `default_socket_timeout` está definido como muito baixo. Isso é causado pela configuração `default_socket_timeout`. Se o php não receber nada do banco de dados MySQL dentro deste período, ele assume que está desconectado e emite o erro.
 
 ## Solução
 
-1. Verificar o período de tempo limite atual para `default_socket_timeout` executando na CLI:    ```    php -i |grep default_socket_timeout    ```
-1. Dependendo do aumento da configuração de tempo limite, a variável `default_socket_timeout` para o maior tempo de execução possível esperado no `/etc/platform/<project_name>/php.ini` arquivo. Sugere-se que você defina entre 10 e 15 minutos.
+1. Verifique o período de tempo limite atual para `default_socket_timeout` executando na CLI:    ```    php -i |grep default_socket_timeout    ```
+1. Dependendo do aumento da configuração de tempo limite, a variável `default_socket_timeout` ultrapassará o tempo de execução mais longo possível esperado no arquivo `/etc/platform/<project_name>/php.ini`. Sugere-se que você defina entre 10 e 15 minutos.
 1. Confirme-o no GIT e reimplante.
 
 ## Leitura relacionada
 
 * [O upload do banco de dados perde a conexão com o MySQL](/help/troubleshooting/database/database-upload-loses-connection-to-mysql.md)
-* [Práticas recomendadas de banco de dados para o Adobe Commerce na infraestrutura em nuvem](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)
+* [Práticas recomendadas do banco de dados para o Adobe Commerce na infraestrutura em nuvem](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)
 * [Problemas mais comuns de banco de dados no Adobe Commerce na infraestrutura em nuvem](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html)

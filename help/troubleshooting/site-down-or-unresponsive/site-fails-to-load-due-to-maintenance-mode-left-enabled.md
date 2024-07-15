@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Falha ao carregar o site devido ao modo de manutenção deixado habilitado
 
-Este artigo fornece uma correção para quando o site não é carregado porque o modo de manutenção está ativado ou não foi desativado automaticamente. Você pode receber uma mensagem de erro: *Serviço temporariamente indisponível O servidor está temporariamente incapaz de atender sua solicitação devido a problemas de capacidade ou tempo de inatividade de manutenção.*
+Este artigo fornece uma correção para quando o site não é carregado porque o modo de manutenção está ativado ou não foi desativado automaticamente. Você pode receber uma mensagem de erro: *Serviço temporariamente indisponível O servidor está temporariamente incapaz de atender à sua solicitação devido a problemas de capacidade ou tempo de inatividade de manutenção.*
 
 ## Versões e produtos afetados
 
@@ -44,4 +44,4 @@ bin/magento maintenance:disable
 
 ## Leitura relacionada
 
-Para saber quando usar o modo de manutenção, consulte [Ativar ou desativar modo de manutenção](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=maintenance%20mode) na documentação do desenvolvedor.
+Para saber quando usar o modo de manutenção, consulte [Habilitar ou desabilitar o modo de manutenção](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=maintenance%20mode) na documentação do desenvolvedor.

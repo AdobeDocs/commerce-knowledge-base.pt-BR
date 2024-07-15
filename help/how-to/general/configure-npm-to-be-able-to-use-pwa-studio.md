@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Configurar NPM para poder usar o PWA Studio
 
-[Progressive Web Apps (PWA) Studio](https://magento.github.io/pwa-studio/) O é um novo projeto disponível para o Adobe Commerce na infraestrutura em nuvem 2.3.x ou posterior. Para usar e instalar o PWA Studio, é necessário definir a versão do gerenciador de pacotes NPM como 5.x ou posterior para obter suporte para Node.js 8.x. Isso é feito no `hooks:build` seção do `.magento.app.yaml` arquivo de configuração.
+O [Progressive Web Apps (PWA) Studio](https://magento.github.io/pwa-studio/) é um novo projeto disponível para o Adobe Commerce na infraestrutura de nuvem 2.3.x ou posterior. Para usar e instalar o PWA Studio, é necessário definir a versão do gerenciador de pacotes NPM como 5.x ou posterior para obter suporte para Node.js 8.x. Isso é feito na seção `hooks:build` do arquivo de configuração `.magento.app.yaml`.
 
 ## Ambiente e tecnologias
 
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 ## Definir versão do NPM: etapas
 
-Para definir a versão NPM necessária, especifique-a na caixa `.magento.app.yaml` arquivo de configuração. Siga estas etapas:
+Para definir a versão do NPM necessária, especifique-a no arquivo de configuração `.magento.app.yaml`. Siga estas etapas:
 
-1. No ambiente de desenvolvimento local, localize o `.magento.app.yaml` arquivo de configuração.
+1. No ambiente de desenvolvimento local, localize o arquivo de configuração `.magento.app.yaml`.
 1. Abra o arquivo para edição usando o editor de texto simples ou o IDE.
-1. Defina a versão necessária no `hooks:build` seção. No exemplo a seguir, a configuração está definida para instalar o NPM v9.5.0, o mais alto disponível no momento (4 de fevereiro de 2019):
+1. Defina a versão necessária na seção `hooks:build`. No exemplo a seguir, a configuração está definida para instalar o NPM v9.5.0, o mais alto disponível no momento (4 de fevereiro de 2019):
 
    ```yaml
    hooks:
@@ -48,10 +48,10 @@ Para definir a versão NPM necessária, especifique-a na caixa `.magento.app.yam
    > ```
 
 1. Salvar alterações no arquivo.
-1. O Git envia o arquivo editado para o seu [ambiente de integração](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md).
+1. O Git envia por push o arquivo editado para seu [ambiente de integração](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md).
 
 As alterações entrarão em vigor depois que o Git enviar o arquivo YAML atualizado para o ambiente.
 
 ## Documentação relacionada
 
-* [Configuração do aplicativo: ganchos](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/hooks-property.html) em nosso Guia de infraestrutura do Adobe Commerce na nuvem.
+* [Configuração do aplicativo: ganchos](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/hooks-property.html) em nosso Guia do Adobe Commerce na Infraestrutura em Nuvem.

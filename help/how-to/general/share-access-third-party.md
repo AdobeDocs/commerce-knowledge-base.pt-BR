@@ -27,11 +27,11 @@ Dependendo dos seus padrões internos de segurança, você pode optar pela solu�
 
 * Forneça acesso de terceiros ao ambiente de nuvem. Artigos relacionados:
 
-   * [Guia do usuário da Central de ajuda do Adobe Commerce > ACESSO COMPARTILHADO: CONCEDER PRIVILÉGIOS PARA OUTROS USUÁRIOS ACESSAREM SUA CONTA](/help/help-center-guide/help-center/magento-help-center-user-guide.md#shared-access) em nossa base de conhecimento de suporte.
-   * [Compartilhamento da sua conta da Commerce](https://docs.magento.com/user-guide/magento/magento-account-share.html) em nosso guia do usuário.
+   * [Guia do Usuário da Central de Ajuda do Adobe Commerce > ACESSO COMPARTILHADO: CONCEDER PRIVILÉGIOS PARA QUE OUTROS USUÁRIOS ACESSEM SUA CONTA](/help/help-center-guide/help-center/magento-help-center-user-guide.md#shared-access) em nossa base de dados de conhecimento de suporte.
+   * [Compartilhando sua conta da Commerce](https://docs.magento.com/user-guide/magento/magento-account-share.html) em nosso guia do usuário.
 
-* Crie um despejo de banco de dados (ou conceda acesso a fornecedor de terceiros para fazer isso). Isso pode ser feito usando a CLI ou no Commerce Admin. Esse despejo de BD ofuscará os dados do cliente, de modo que tudo o que eles obtêm é código e SKUs de produto etc., sem dados de propriedade/cliente. Para referência, use [Compartilhamento da sua conta da Commerce] (/help/how-to/general/create-database-dump-on-cloud.md) em nossa base de conhecimento de suporte.
-* Quando o teste for concluído, certifique-se de revogar o acesso compartilhado ao seu ambiente de nuvem, conforme descrito em [Guia do usuário da Central de ajuda do Adobe Commerce > Revogar (excluir acesso compartilhado)](/help/help-center-guide/help-center/magento-help-center-user-guide.md#revoke-shared-access) em nossa base de conhecimento de suporte.
+* Crie um despejo de banco de dados (ou conceda acesso a fornecedor de terceiros para fazer isso). Isso pode ser feito usando a CLI ou no Commerce Admin. Esse despejo de BD ofuscará os dados do cliente, de modo que tudo o que eles obtêm é código e SKUs de produto etc., sem dados de propriedade/cliente. Para referência, use o [Compartilhamento de sua conta da Commerce] (/help/how-to/general/create-database-dump-on-cloud.md) em nossa knowledge base de suporte.
+* Quando o teste for concluído, revogue o acesso compartilhado ao seu ambiente de nuvem, conforme descrito no [Guia do Usuário da Central de Ajuda da Adobe Commerce > Revogar (excluir acesso compartilhado)](/help/help-center-guide/help-center/magento-help-center-user-guide.md#revoke-shared-access) em nossa base de dados de conhecimento de suporte.
 
 ## Prática recomendada de teste
 
@@ -39,4 +39,4 @@ A prática padrão é solucionar problemas em um ambiente local. Se o problema n
 
 ## Leitura relacionada
 
-* [Práticas recomendadas para usar extensões de terceiros no Adobe Commerce](https://support.magento.com/hc/en-us/articles/360042361152-Best-Practices-for-using-third-party-extensions-in-Magento) em nossa base de conhecimento de suporte.
+* [Práticas recomendadas para usar extensões de terceiros no Adobe Commerce](https://support.magento.com/hc/en-us/articles/360042361152-Best-Practices-for-using-third-party-extensions-in-Magento) em nossa base de dados de conhecimento de suporte.

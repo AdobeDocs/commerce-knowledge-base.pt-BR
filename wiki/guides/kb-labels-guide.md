@@ -8,7 +8,7 @@ ht-degree: 0%
 # Guia de etiquetas da Base de Dados de Conhecimento
 
 Este documento fornece diretrizes para adicionar rótulos aos artigos na Base de conhecimento de suporte da Adobe Commerce.
-Os rótulos (também chamados de tags) melhoram a experiência de pesquisa no [Knowledge base de suporte do Adobe Commerce](https://support.magento.com/hc/en-us).
+Os rótulos (também chamados de marcas) melhoram a experiência de pesquisa na [Base de Dados de Conhecimento de Suporte da Adobe Commerce](https://support.magento.com/hc/en-us).
 Os rótulos são adicionados no campo &quot;rótulos&quot; na seção de metadados de um arquivo de artigo, separados por vírgulas, sem espaço entre uma vírgula e o rótulo seguinte.
 Consulte [../../.github/CONTRIBUTING.md#metadata] para obter detalhes.
 
@@ -84,7 +84,8 @@ Consulte as seções abaixo para obter recomendações detalhadas sobre como def
 
 * Adicione um rótulo separado para cada versão do Adobe Commerce. Exemplo: &quot;2.3.7&quot;
 * Não adicione rótulos para intervalos.
-Ou seja, se 2.3.0 - 2.3.5 for afetado, adicione: &quot;2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2&quot; NOT &quot;2.3.0 - 2.3.5&quot;
+Ou seja, se 2.3.0-2.3.5 for afetado, adicione: &quot;2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2&quot;
+NÃO &quot;2.3.0-2.3.5&quot;
 * Não adicione rótulos com .x. Exemplo: &quot;2.3.x&quot;
 
 ## Rótulos para tipo de conteúdo (com base na categoria)

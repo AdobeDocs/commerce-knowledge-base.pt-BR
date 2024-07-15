@@ -15,9 +15,9 @@ ht-degree: 0%
 
 >[!WARNING]
 >
->Em qualquer versão do Adobe Commerce, como algumas extensões funcionam somente com tabelas simples, há um risco se você desativar as tabelas simples. Se você souber que tem algumas extensões que usam indexadores de catálogo simples, talvez precise levar isso em consideração ao definir esses valores como &quot; *Não* &quot;.
+>Em qualquer versão do Adobe Commerce, como algumas extensões funcionam somente com tabelas simples, há um risco se você desativar as tabelas simples. Se você souber que tem algumas extensões que usam indexadores de Catálogo Simples, talvez precise levar isso em consideração ao definir esses valores como &quot; *Não* &quot;.
 
-Este artigo descreve como resolver problemas de desempenho do site e crons travados e de execução lenta causados por [tabelas simples e indexadores](https://docs.magento.com/m2/ce/user_guide/catalog/catalog-flat.html) foi habilitada.
+Este artigo descreve como resolver problemas de desempenho do site e cronogramas de execução lenta e travados causados por [tabelas simples e indexadores](https://docs.magento.com/m2/ce/user_guide/catalog/catalog-flat.html) habilitados.
 
 PRODUTOS E VERSÕES AFETADOS
 
@@ -40,22 +40,22 @@ Tabelas simples e indexadores habilitados.
 
 A partir do Adobe Commerce e do Magento Open Source 2.1.x e superior, o uso de um catálogo simples não é mais uma prática recomendada e não é recomendado. O uso continuado desse recurso é conhecido por causar degradação de desempenho e outros problemas de indexação. Para desativar o catálogo simples:
 
-1. Em Admin, navegue até **Lojas** > **Configurações** > **Configuração**.
-1. No painel à esquerda, em **Catálogo** , escolha **Catálogo**.
-1. Expanda a **Loja** e faça o seguinte:
-   * Definir **Usar categoria de catálogo simples** para *Não*.
-   * Definir **Usar produto de catálogo simples** para *Não*.
+1. No Administrador, navegue até **Lojas** > **Configurações** > **Configuração**.
+1. No painel à esquerda, em **Catálogo**, escolha **Catálogo**.
+1. Expanda a seção **Vitrine** e faça o seguinte:
+   * Definir **Usar Categoria de Catálogo Simples** como *Não*.
+   * Definir **Usar Produto de Catálogo Simples** como *Não*.
 1. Quando terminar, clique em **Salvar configuração**. Em seguida, quando solicitado, atualize o cache.
 1. Liberar cache executando `php bin/magento cache:flush`.
 
-Se você não puder alterar o **Usar categoria de catálogo simples** e **Usar produto de catálogo simples** para *Não* como as opções estão esmaecidas, desative indexadores simples em `app/etc/config.php`:
+Se você não puder alterar a **Usar Categoria de Catálogo Simples** e o **Usar Produto de Catálogo Simples** para *Não* porque as opções estão esmaecidas, desabilite indexadores simples no `app/etc/config.php`:
 
 1. Execute este comando para verificar se todos os indexadores estão definidos como Update by schedule: `php bin/magento indexer:set-mode schedule`.
-1. Editar `app/etc/config.php` e localize as linhas com `flat_catalog_product` e `flat_catalog_category` - altere-os de 1 para 0 para desativá-los.
-1. Execute o comando `php bin/magento app:config:import`
-1. Execute este comando para confirmar se os indexadores simples estão desativados: `php        bin/magento indexer:status`.
+1. Edite `app/etc/config.php` e localize as linhas com `flat_catalog_product` e `flat_catalog_category` - altere-as de 1 para 0 para desabilitá-las.
+1. Executar o comando `php bin/magento app:config:import`
+1. Execute este comando para confirmar se os indexadores simples estão desabilitados: `php        bin/magento indexer:status`.
 1. Liberar cache executando `php bin/magento cache:flush`.
 
 ## Informações relacionadas
 
-[Redefinir trabalhos cron do Adobe Commerce travados manualmente na nuvem](/help/how-to/general/reset-stuck-magento-cron-jobs-manually-on-cloud.md) em nossa base de conhecimento de suporte.
+[Redefinir trabalhos cron do Adobe Commerce travados manualmente na Nuvem](/help/how-to/general/reset-stuck-magento-cron-jobs-manually-on-cloud.md) em nossa base de dados de conhecimento de suporte.

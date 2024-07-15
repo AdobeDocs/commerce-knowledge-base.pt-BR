@@ -25,7 +25,7 @@ Não há limites rígidos para o número de emails que podem ser enviados em pro
 
 ## Como verificar se seus créditos foram excedidos:
 
-Arquitetura do plano Pro da infraestrutura em nuvem do Adobe Commerce: verifique a `/var/log/mail.log` - você poderá ver uma mensagem como esta:
+Arquitetura do plano Pro da infraestrutura na nuvem do Adobe Commerce: verifique o `/var/log/mail.log` - você poderá ver uma mensagem como esta:
 
 `May 28 21:13:00 <i-node> postfix/error[21335]: BC7941A2BBF: to=<to@email.com>, relay=none, delay=4642, delays=4642/0.56/0/0.03, dsn=4.0.0, status=deferred (delivery temporarily suspended: SASL authentication failed; server smtp.sendgrid.net[ip address] said: 451 Authentication failed: Maximum credits exceeded).`
 
@@ -35,9 +35,9 @@ Há limites para o número de emails permitidos que podem ser enviados.
 
 ## Solução
 
-* Se você vir essa mensagem no ambiente de produção, [enviar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) e fornecer a mensagem acima e solicitar o aumento dos créditos.
-* Se você não vir esta mensagem ou se estiver na arquitetura de plano inicial do Adobe Commerce na infraestrutura em nuvem, também [enviar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) e mencionar que a `mail.log` não indica que os créditos foram excedidos.
+* Se você vir esta mensagem no ambiente de Produção, [envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket), forneça a mensagem acima e solicite o aumento dos créditos.
+* Se você não vir esta mensagem ou se estiver na arquitetura de plano inicial do Adobe Commerce na infraestrutura em nuvem, também [envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) e mencione que o arquivo `mail.log` não indica que os créditos foram excedidos.
 
 ## Leitura relacionada
 
-* [SendGrid](https://devdocs.magento.com/cloud/project/sendgrid.html) na documentação do desenvolvedor.
+* [SendGrid](https://devdocs.magento.com/cloud/project/sendgrid.html) em nossa documentação do desenvolvedor.

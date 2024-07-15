@@ -16,12 +16,12 @@ Este artigo fornece os números de linha direta de notificação P1 da Adobe Com
 
 ## Definição de incidente P1
 
-Conforme definido em [Termos e condições dos serviços de suporte da Adobe Commerce](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Magento-Support-Services-Terms-and-Conditions.pdf): &quot;Um incidente P1 é um incidente de produção catastrófico no Serviço que afeta seriamente o Local do Cliente, fazendo com que o local pare de operar ou aceitar pedidos, ou por causa do qual o Local do Cliente está completamente inativo ou não está funcionando, ou que resulta em perda de dados de produção e não há solução alternativa. Incidentes P1 devem ser relatados no número de telefone P1 para Adobe gratuitos para agilizar a resolução. A Adobe envidará esforços contínuos, com escalonamento apropriado para a alta administração, para fornecer uma solução para um incidente P1 assim que for comercialmente razoável.&quot;
+Conforme definido nos [Termos e Condições dos Serviços de Suporte da Adobe Commerce](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Magento-Support-Services-Terms-and-Conditions.pdf): &quot;Um incidente P1 é um incidente de produção catastrófico no Serviço que afeta seriamente o Site do Cliente, fazendo com que o site pare de operar ou aceitar pedidos, ou por causa do qual o Site do Cliente está completamente inativo ou não está funcionando, ou que resulta em perda de dados de produção e não existe nenhuma solução alternativa. Incidentes P1 devem ser relatados no número de telefone P1 para Adobe gratuitos para agilizar a resolução. A Adobe envidará esforços contínuos, com escalonamento apropriado para a alta administração, para fornecer uma solução para um incidente P1 assim que for comercialmente razoável.&quot;
 
 ## Políticas de telefone de linha direta de notificação P1
 
 * A linha direta de notificação P1 está disponível para reportar problemas de nível P1. (consulte a definição de incidente P1 na seção anterior).
-* [Enviar um tíquete de suporte](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) antes de ligar para a linha direta de notificação Adobe Commerce P1.
+* [Envie um tíquete de suporte](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) antes de chamar a linha direta de notificação P1 da Adobe Commerce.
 * A investigação, a solução de problemas e a comunicação ocorrerão exclusivamente no tíquete de suporte.
 * Adicione todas as informações adicionais relacionadas ao problema diretamente ao ticket, antes de chamar.
 * Ao ligar, certifique-se de ter o número do tíquete.

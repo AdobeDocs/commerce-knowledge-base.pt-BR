@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Problema conhecido do Adobe Commerce 2.4.0: falta o rótulo &quot;Reembolso&quot; no Klarna
 
-Este artigo fornece uma solução alternativa para um problema conhecido no Admin para um **Reembolso** rótulo no Klarna VBE (Vendor Bundled Extension). Quando, no portal Klarna, é efetuado um reembolso, a **Reembolso** rótulo não é exibido ao lado do produto Empacotado que foi reembolsado.
+Este artigo fornece uma solução alternativa para um problema conhecido no Admin para um rótulo **Reembolso** ausente no Klarna VBE (Vendor Bundled Extension). Quando estiver no portal Klarna realizando um reembolso, o rótulo **Reembolso** não será exibido ao lado do produto Empacotado que foi reembolsado.
 
 ## Produtos e versões afetados
 
@@ -29,29 +29,29 @@ Este artigo fornece uma solução alternativa para um problema conhecido no Admi
 
 <u>Etapas a serem reproduzidas</u>
 
-1. Acesse o front-end do Adobe Commerce e adicione um produto incluído ao **carrinho**.
+1. Vá para o front-end do Adobe Commerce e adicione um produto incluído ao **carrinho**.
 1. Navegue até check-out.
-1. Insira as informações do consumidor no check-out e clique em **Próxima**.
-1. Selecionar **Opção KP** e clique em **Fazer pedido**.
-1. Ir para **Admin** > **Vendas** > **Pedidos**.
+1. Insira as informações do consumidor no check-out e clique em **Avançar**.
+1. Selecione a **opção KP** e clique em **Fazer Pedido**.
+1. Vá para **Admin** > **Vendas** > **Pedidos**.
 1. Abra o pedido.
 1. Criar fatura para o produto.
-1. Ir para **Faturas** > **Selecionar fatura** > Clique **Aviso de Crédito** > Clique **Reembolso** (Não **Reembolso offline**).
+1. Vá para **Faturas** > **Selecionar fatura** > Clique em **Memorando de Crédito** > Clique em **Reembolso** (Não **Reembolso Offline**).
 1. Vá para o portal Klarna.
 1. Abra o pedido.
-1. A variável **Reembolso** rótulo está presente.
+1. O rótulo **Reembolso** está presente.
 
 <u>Resultado esperado</u>
 
-No portal Klarna, o **Reembolso** rótulo é exibido ao lado do produto que foi reembolsado.
+No portal Klarna, o rótulo **Reembolso** é exibido ao lado do produto que foi reembolsado.
 
 <u>Resultado real</u>
 
-No portal Klarna, o **Reembolso** rótulo não é exibido ao lado do produto reembolsado.
+No portal Klarna, o rótulo **Reembolso** não é exibido ao lado do produto reembolsado.
 
 ## Solução alternativa
 
-A solução alternativa para esse problema é ignorar o **Reembolso** no portal Klarna para os produtos agrupados reembolsados. O reembolso ocorreu, mesmo que o **Reembolso** o rótulo não foi exibido. O problema deve ser corrigido no Adobe Commerce 2.4.1, com lançamento previsto para o quarto trimestre de 2020.
+A solução alternativa para esse problema é ignorar o rótulo **Reembolso** ausente no portal Klarna para produtos agrupados reembolsados. O reembolso ocorreu, mesmo que o rótulo **Reembolso** não tenha sido exibido. O problema deve ser corrigido no Adobe Commerce 2.4.1, com lançamento previsto para o quarto trimestre de 2020.
 
 ## Leituras relacionadas em nossa base de conhecimento de suporte:
 

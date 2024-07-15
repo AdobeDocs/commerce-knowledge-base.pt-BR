@@ -17,17 +17,17 @@ Este artigo fornece uma correção para a limitação conhecida do Adobe Commerc
 
 >[!NOTE]
 >
->A integração de pagamento principal do Adobe Commerce Cybersource está obsoleta desde a versão 2.3.3 e será completamente removida na versão 2.4.0. Use o [extensão oficial](https://marketplace.magento.com/cybersource-global-payment-management.html) do marketplace em vez disso.
+>A integração de pagamento principal do Adobe Commerce Cybersource está obsoleta desde a versão 2.3.3 e será completamente removida na versão 2.4.0. Em vez disso, use a [extensão oficial](https://marketplace.magento.com/cybersource-global-payment-management.html) do marketplace.
 
 ## Problema
 
-A implementação anterior da integração Cybersource permitiu o processamento de pagamentos apenas de um domínio. Como resultado, se sua loja Adobe Commerce estiver em um domínio diferente do administrador do Commerce, você receberá o seguinte erro ao tentar fazer um pedido usando o Cybersource no administrador: &quot; *Carga negada pelo X-Frame-Options: https://%your\_domain%/cybersource/SilentOrder/TokenResponse/ não permite enquadramento entre origens.* ..&quot;
+A implementação anterior da integração Cybersource permitiu o processamento de pagamentos apenas de um domínio. Como resultado, se sua loja Adobe Commerce estiver em um domínio diferente do Commerce Admin, você receberá o seguinte erro ao tentar fazer um pedido usando o Cybersource no Admin: &quot; *Load denied by X-Frame-Options: https://%your\_domain%/cybersource/SilentOrder/TokenResponse/ does not permit cross-origin framing.* ..&quot;
 
 <u>Etapas a serem reproduzidas</u>:
 
 1. Configure o Admin em um subdomínio diferente.
-1. Configurar o Cybersource para o armazenamento em **Lojas** > Configurações > **Configuração** > **Vendas** > **Métodos de pagamento** > **CyberSource**.
-1. Ir para **Vendas** > **Pedidos**.
+1. Configure o Cybersource para o armazenamento em **Lojas** > Configurações > **Configuração** > **Vendas** > **Métodos de Pagamento** > **CyberSource**.
+1. Vá para **Vendas** > **Pedidos**.
 1. Criar novo pedido.
 1. Criar novo cliente.
 1. Informe os detalhes do cliente.
@@ -35,13 +35,13 @@ A implementação anterior da integração Cybersource permitiu o processamento 
 1. Selecione Cybersource como o método de pagamento.
 1. Enviar pedido.
 
-<u>Resultado esperado</u>: o pedido é feito sem problemas.
+<u>Resultado esperado</u>: o pedido foi feito sem problemas.
 
 <u>Resultado real</u>: a página Pedido mostra um ícone de carregamento, mas o pedido nunca é feito. O erro é exibido no console.
 
 ## Solução
 
-O patch anexado oferece a melhoria para a integração com o Cybersource. Depois de aplicar o patch, você precisa criar mais um perfil com o Cybersource para processar pagamentos no Administrador e adicionar as credenciais necessárias na configuração do Cybersource no Administrador do Commerce em **Lojas** > Configurações > **Configuração** > **Vendas** > **Métodos de pagamento** > **CyberSource**.
+O patch anexado oferece a melhoria para a integração com o Cybersource. Depois de aplicar o patch, é necessário criar mais um perfil com o Cybersource para processar pagamentos no Administrador e adicionar as credenciais necessárias na configuração do Cybersource no Administrador do Commerce em **Lojas** > Configurações > **Configuração** > **Vendas** > **Métodos de Pagamento** > **CyberSource**.
 
 >[!NOTE]
 >
@@ -69,6 +69,6 @@ Os patches também são compatíveis com as seguintes versões:
 
 ## Como aplicar um patch
 
-Para obter instruções, consulte [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de conhecimento de suporte.
+Para obter instruções, consulte [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de dados de conhecimento de suporte.
 
 ## Arquivos Anexados

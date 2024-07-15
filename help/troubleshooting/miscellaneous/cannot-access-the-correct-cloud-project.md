@@ -18,8 +18,8 @@ ht-degree: 0%
 Este artigo fornece uma correção para os seguintes problemas depois que uma alteração é feita na propriedade da conta ou nos endereços de email associados:
 
 1. Você não pode acessar o(s) projeto(s) correto(s) do Cloud Adobe Commerce.
-1. Nenhum projeto do Cloud Adobe Commerce é mostrado na sua conta em [accounts.magento.cloud/user](https://accounts.magento.cloud/user).
-1. Você está vendo os detalhes de outra conta (ou seja, o proprietário da conta anterior) em [accounts.magento.cloud/user](https://accounts.magento.cloud/user).
+1. Nenhum projeto do Cloud Adobe Commerce é exibido na sua conta em [accounts.magento.cloud/user](https://accounts.magento.cloud/user).
+1. Você está vendo os detalhes de outra conta (ou seja, o proprietário anterior) em [accounts.magento.cloud/user](https://accounts.magento.cloud/user).
 
 ## Problema
 
@@ -27,36 +27,36 @@ Você não pode acessar o projeto correto do Cloud Adobe Commerce quando há alt
 
 ## Produtos e versões afetados
 
-* Adobe Commerce na infraestrutura em nuvem, [todas as versões compatíveis](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
+* Adobe Commerce na infraestrutura em nuvem, [todas as versões com suporte](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 ## Causa
 
 Normalmente, esse problema ocorre quando o logon único (SSO) do proprietário do projeto anterior ainda está integrado ao Adobe.com após:
 
-1. A propriedade do projeto na nuvem foi transferida para você (o usuário) e você vê a conta do proprietário original do projeto. Clique aqui para o [solução](#solution-for-cause-one-and-two).
+1. A propriedade do projeto na nuvem foi transferida para você (o usuário) e você vê a conta do proprietário original do projeto. Clique aqui para a [solução](#solution-for-cause-one-and-two).
 
    OU
 
-1. Você (o usuário) foi movido para uma empresa diferente, acompanhado por uma alteração no endereço de email e nos projetos aos quais você tem acesso. Você vê os projetos aos quais recebeu acesso na sua função/empresa anterior. Clique aqui para o [solução](#solution-for-cause-one-and-two).
+1. Você (o usuário) foi movido para uma empresa diferente, acompanhado por uma alteração no endereço de email e nos projetos aos quais você tem acesso. Você vê os projetos aos quais recebeu acesso na sua função/empresa anterior. Clique aqui para a [solução](#solution-for-cause-one-and-two).
 
    OU
 
-1. Você alterou seu endereço de email em https://account.adobe.com para outro endereço de email que não está atualmente associado a um projeto na nuvem. Clique aqui para o [solução](#solution-for-cause-three).
+1. Você alterou seu endereço de email em https://account.adobe.com para outro endereço de email que não está atualmente associado a um projeto na nuvem. Clique aqui para a [solução](#solution-for-cause-three).
 
 ## Solução para causa um e dois {#solution-for-cause-one-and-two}
 
 A solução para quando o problema for causado por um e dois é desconectar a integração de logon único com Adobe.com. Siga as etapas abaixo para desconectar:
 
-1. Em https://accounts.magento.cloud/user, expanda a variável **[!UICONTROL Single Sign-On]** seção. Clique em **[!UICONTROL Disconnect from Adobe.com]**, para desconectar.
+1. Em https://accounts.magento.cloud/user, expanda a seção **[!UICONTROL Single Sign-On]**. Clique em **[!UICONTROL Disconnect from Adobe.com]** para desconectar.
 
-   ![single-sign-on-adobe-connect](assets/sso-adobe-disconnect.png)
+   ![logon único-adobe-connect](assets/sso-adobe-disconnect.png)
 
 1. Clique em **[!UICONTROL Disconnect]**.
 
    ![adobe-disconnect](assets/adobe-disconnect.png)
 
 1. Faça logout.
-1. Clique no link **[!UICONTROL Adobe.com]** botão.
+1. Clique no botão **[!UICONTROL Adobe.com]**.
 
    ![Magento.com](assets/adobe-welcome-login.png)
 

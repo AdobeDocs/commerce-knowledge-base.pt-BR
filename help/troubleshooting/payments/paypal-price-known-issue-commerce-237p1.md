@@ -29,12 +29,12 @@ Ao fazer um pedido usando o método de pagamento PayPal Express Checkout, o prod
 
 1. Na loja, adicione qualquer produto ao carrinho (produto A, preço US$ 50).
 1. Clique no link do carrinho para abrir o carrinho.
-1. Clique em **Check-out do PayPal** botão.
+1. Clique no botão **Check-out do PayPal**.
 1. Use suas credenciais do PayPal para fazer logon no PayPal e enviar o pagamento.
 1. Concluir o posicionamento do pedido no lado do armazenamento.
 1. Retorne ao catálogo e adicione um produto diferente (produto B, preço US$ 100) ao carrinho.
 1. Clique no link do carrinho para abrir o carrinho.
-1. Clique em **Check-out do PayPal** botão.
+1. Clique no botão **Check-out do PayPal**.
 
 <u>Resultado real:</u>
 

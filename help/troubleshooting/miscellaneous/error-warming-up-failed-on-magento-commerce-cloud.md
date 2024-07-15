@@ -15,11 +15,11 @@ ht-degree: 0%
 
 Este artigo fornece uma solução para quando o cache da página está sendo aquecido e falha com um erro:
 
-*ERRO: falha no aquecimento:`<website link>`*
+*ERRO: Falha no aquecimento:`<website link>`*
 
 ## Produtos e versões afetados
 
-* Adobe Commerce na infraestrutura em nuvem, tudo [versões compatíveis](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce na infraestrutura em nuvem, todas as [versões com suporte](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Problema
 
@@ -35,7 +35,7 @@ Páginas ou todo o site é carregado.
 
 <u>Resultado real</u>:
 
-O site não está disponível ou o tempo de resposta é muito alto. *ERRO: falha no aquecimento:`<website link>`*
+O site não está disponível ou o tempo de resposta é muito alto. *ERRO: Falha no aquecimento:`<website link>`*
 
 ## Causa
 
@@ -43,9 +43,9 @@ O aquecimento de cache não funciona com o controle de acesso HTTP ativado.
 
 ## Solução
 
-Certifique-se de que o controle de acesso não está ativado: vá para a ramificação/ambiente específico e clique no **Configurações** e marque a opção **Controle de acesso HTTP** configuração - o aquecimento do cache não pode ocorrer neste cenário e o controle de acesso deve ser desabilitado.
+Verifique se o controle de acesso está habilitado: vá para a ramificação/ambiente específico, clique no ícone **Configurações** e verifique a configuração **Controle de acesso HTTP** - o aquecimento do cache não pode ocorrer neste cenário e o controle de acesso deve ser desabilitado.
 
 ## Leitura relacionada
 
-* [Guia do usuário do Adobe Commerce > Cache de página inteira](https://docs.magento.com/user-guide/system/cache-full-page.html) em nosso guia do usuário.
-* [Aquecimento de cache e site indisponível no Adobe Commerce](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md) em nossa base de conhecimento de suporte.
+* [Guia do Usuário do Adobe Commerce > Cache de Página Inteira](https://docs.magento.com/user-guide/system/cache-full-page.html) em nosso guia do usuário.
+* [Aquecimento de cache e site não disponível no Adobe Commerce](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md) em nossa base de dados de conhecimento de suporte.

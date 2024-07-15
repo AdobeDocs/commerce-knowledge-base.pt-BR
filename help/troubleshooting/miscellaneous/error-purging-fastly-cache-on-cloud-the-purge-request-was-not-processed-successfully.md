@@ -37,7 +37,7 @@ Talvez você tenha credenciais incorretas definidas no ambiente ou precise fazer
 Verifique se você tem a ID de serviço Fastly e o token da API no seu ambiente. Se você tiver credenciais de armazenamento temporário em produção, as remoções podem não ser processadas ou processadas incorretamente.
 
 1. Faça logon no Administrador local do Commerce como administrador.
-1. Clique em **Lojas** > Configurações > **Configuração** > **Avançado** > **Sistema** e expandir **Cache de Página Inteira**.    ![magento_full_page_cache_2.4.1.png](assets/magento_full_page_cache_2.4.1.png)
+1. Clique em **Lojas** > Configurações > **Configuração** > **Avançado** > **Sistema** e expanda **Cache de Página Inteira**.    ![magento_full_page_cache_2.4.1.png](assets/magento_full_page_cache_2.4.1.png)
 1. Expanda Configuração do Fastly e verifique a ID do Serviço Fastly e o token da API para seu ambiente.
 1. Se você modificar os valores, clique em Testar credenciais.
 
@@ -49,12 +49,12 @@ Se as credenciais estiverem corretas, você poderá ter problemas com suas VCLs.
 curl -X GET -s https://api.fastly.com/service/<Service ID>/version/<Editable Version #>/snippet -H "Fastly-Key:FASTLY_API_TOKEN"
 ```
 
-Revise a lista de VCLs. Se tiver problemas com os VCLs padrão do Fastly, você poderá fazer upload novamente ou verificar o conteúdo de acordo com [VCLs padrão do Fastly](https://github.com/fastly/fastly-magento2/tree/master/etc/vcl_snippets). Para editar seus VCLs personalizados, consulte [Trechos de VCL Fastly personalizados](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html) no Guia de infraestrutura do Commerce na nuvem.
+Revise a lista de VCLs. Se tiver problemas com os VCLs padrão do Fastly, você poderá carregar novamente ou verificar o conteúdo de acordo com os [VCLs padrão do Fastly](https://github.com/fastly/fastly-magento2/tree/master/etc/vcl_snippets). Para editar seus VCLs personalizados, consulte [Fragmentos de VCL personalizados](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html) no Guia de Infraestrutura do Commerce na Nuvem.
 
 ## Mais informações
 
 Em nossa documentação do desenvolvedor:
 
 * [Sobre o Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
-* [Configurar o Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)
-* [Trechos de VCL Fastly personalizados](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)
+* [Configurar Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)
+* [Snippets de VCL Fastly personalizados](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)

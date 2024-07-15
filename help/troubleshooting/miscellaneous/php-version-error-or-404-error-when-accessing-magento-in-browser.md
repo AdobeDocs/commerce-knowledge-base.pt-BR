@@ -29,7 +29,7 @@ A seguinte mensagem é exibida quando você tenta acessar a loja da Adobe Commer
 
 Tente o seguinte:
 
-* Atualize o PHP para a versão 7.3. Para obter mais informações, consulte [Requisitos da pilha de tecnologia do Adobe Commerce 2.3](https://devdocs.magento.com/guides/v2.3/install-gde/system-requirements.html#php) na documentação do desenvolvedor.
+* Atualize o PHP para a versão 7.3. Para obter mais informações, consulte [requisitos da pilha de tecnologia do Adobe Commerce 2.3](https://devdocs.magento.com/guides/v2.3/install-gde/system-requirements.html#php) na documentação do desenvolvedor.
 * Reinicie o Apache, já que ele pode não estar usando a mesma versão do PHP que está no sistema de arquivos. Para reiniciar o Apache, use os seguintes comandos:
    * Ubuntu: `service apache2 restart`
    * CentOS: `service httpd restart`
@@ -42,5 +42,5 @@ Um erro 404 (Não encontrado) é exibido ao tentar acessar a loja da Adobe Comme
 
 Tente o seguinte:
 
-* Verifique se [Regravações do servidor Apache](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/apache.html) são ativados. Se as regravações do servidor Apache estiverem definidas incorretamente, os arquivos estáticos não serão enviados do local correto.
-* Pode haver um problema com o URL de base inserido durante a instalação. Você especifica o URL base como o valor de `--base-url=` ao instalar o Adobe Commerce a partir da linha de comando ou como o valor do **Seu endereço da loja** na página Configuração da Web do instalador da Web. O URL base *deve* comece com o esquema (como `http://` ) e terminam com uma barra à direita (/). Execute o instalador novamente com um valor válido e tente acessar o Adobe Commerce depois disso.
+* Verifique se as [regravações do Apache Server](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/apache.html) estão habilitadas. Se as regravações do servidor Apache estiverem definidas incorretamente, os arquivos estáticos não serão enviados do local correto.
+* Pode haver um problema com o URL de base inserido durante a instalação. Você especifica a URL de base como o valor de `--base-url=` ao instalar o Adobe Commerce a partir da linha de comando ou como o valor do campo **Seu endereço de armazenamento** na página Configuração da Web do instalador da Web. A URL base *deve* começar com o esquema (como `http://` ) e terminar com uma barra à direita (/). Execute o instalador novamente com um valor válido e tente acessar o Adobe Commerce depois disso.

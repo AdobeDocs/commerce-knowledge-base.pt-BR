@@ -30,9 +30,9 @@ Todas as versões do Adobe Commerce no local e do Adobe Commerce na infraestrutu
 
 <u>Etapas a serem reproduzidas:</u>
 
-1. Ir para **Lojas** > **Configuração** > **Clientes** > **Configuração do cliente** > **Criar novas opções de conta** e defina **Ativar atribuição automática** para **Grupo de Clientes** para *Sim*.
-1. Ir para **Geral** > **Armazenar informações** > e defina um País e um Número de IVA válidos.
-1. Clique em **Validar Número IVA**.
+1. Acesse **Lojas** > **Configuração** > **Clientes** > **Configuração do Cliente** > **Criar Novas Opções de Conta** e defina **Habilitar Atribuição Automática** para **Grupo de Clientes** para *Sim*.
+1. Vá para **Geral** > **Armazenar Informações** > e defina um País e um Número de IVA válidos.
+1. Clique em **Validar número IVA**.
 
 <u>Resultado esperado:</u>
 
@@ -40,11 +40,11 @@ Validação bem-sucedida.
 
 <u>Resultado real:</u>
 
-O seguinte erro é exibido: &quot;*Erro durante a verificação do número IVA.*&quot;
+O seguinte erro é exibido: &quot;*Erro durante a verificação do Número VAT.*&quot;
 
 ## Solução
 
-Aplique o [correção](assets/MDVA-27623_EE_2.3.2-p2_COMPOSER_v1.patch.zip) artigo.
+Aplique o [patch](assets/MDVA-27623_EE_2.3.2-p2_COMPOSER_v1.patch.zip) fornecido neste artigo.
 
 ## Correção
 

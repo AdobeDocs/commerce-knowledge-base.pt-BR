@@ -17,29 +17,29 @@ Este artigo fornece uma correção para o problema quando você luta para criar 
 
 ## Problema
 
-A variável **Criar uma conta** botão no **Criar nova conta** A página permanecerá desativada se um comprador tiver inserido dados inválidos. Isso impede que os compradores tentem criar uma conta novamente após cometer um erro.
+O botão **Criar uma Conta** na página **Criar Nova Conta** permanecerá desabilitado se um comprador tiver inserido dados inválidos. Isso impede que os compradores tentem criar uma conta novamente após cometer um erro.
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. Ir para **Criar nova conta de cliente**.
-1. Preencha os campos do formulário. No **Senha** , valores de entrada que não atendem aos requisitos de senha. Por exemplo:
-   * As senhas no **Senha** e a variável **Confirmar senha** os campos não correspondem.
-   * As senhas no **Senha** e a variável **Confirmar senha** Os campos não são longos o suficiente.
-1. Clique em **Criar uma conta** botão.
+1. Vá para **Criar nova conta de cliente**.
+1. Preencha os campos do formulário. No campo **Senha**, insira valores que não atendem aos requisitos de senha. Por exemplo:
+   * As senhas nos campos **Senha** e **Confirmar Senha** não coincidem.
+   * As senhas nos campos **Senha** e **Confirmar Senha** não são longas o suficiente.
+1. Clique no botão **Criar uma Conta**.
 
 <u>Resultados esperados</u>:
 
-* **Criar uma conta** O botão deve permanecer ativo/ativado.
+* O botão **Criar uma Conta** deve permanecer ativo/habilitado.
 * O usuário deve conseguir criar uma nova conta.
 
 <u>Resultados reais</u>:
 
-* **Criar uma conta** O botão permanece desativado mesmo após preencher todos os campos obrigatórios com dados válidos/corretos.
+* O botão **Criar uma Conta** permanece desabilitado, mesmo depois de preencher todos os campos obrigatórios com dados válidos/corretos.
 * O cliente não pode criar uma nova conta.
 
 ## Correção
 
-O patch está anexado a este artigo. Para baixá-lo, role para baixo até o final do artigo e clique no nome do arquivo ou clique no link a seguir: [Baixar MC-38509-composer.patch](assets/MC-38509-composer.patch.zip)
+O patch está anexado a este artigo. Para baixá-lo, role para baixo até o final do artigo e clique no nome do arquivo ou clique no seguinte link: [Baixar MC-38509-composer.patch](assets/MC-38509-composer.patch.zip)
 
 ## Versões compatíveis do Adobe Commerce:
 
@@ -56,5 +56,5 @@ Consulte [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to
 
 ## Leitura relacionada
 
-* [GitHub Adobe Commerce > Enviar formulário inválido para criar conta deixa o botão enviar desativado](https://github.com/magento/magento2/issues/30513)
-* [Guia do usuário do Adobe Commerce > Introdução > Criação de uma conta](https://docs.magento.com/user-guide/magento/magento-account-create.html)
+* [GitHub Adobe Commerce > O envio de um formulário de criação de conta inválido deixa o botão de envio desativado](https://github.com/magento/magento2/issues/30513)
+* [Guia do Usuário do Adobe Commerce > Introdução > Criando uma Conta](https://docs.magento.com/user-guide/magento/magento-account-create.html)

@@ -19,7 +19,7 @@ Este artigo fala sobre a solução para o problema &quot;O aplicativo atualizado
 
 A seguinte mensagem é exibida na verificação de preparação:
 
-![Screen_Shot_2019-08-29_at_1.39.12_PM.png](assets/Screen_Shot_2019-08-29_at_1.39.12_PM.png)
+![Captura de tela_2019-08-29_at_1.39.12_PM.png](assets/Screen_Shot_2019-08-29_at_1.39.12_PM.png)
 
 ## Produtos/versões afetadas
 
@@ -29,4 +29,4 @@ A seguinte mensagem é exibida na verificação de preparação:
 
 ## Solução
 
-Para resolver esse problema, consulte se há uma `<magento_root>/update` diretório que contém arquivos e subdiretórios. Caso contrário, consulte [Configurar o atualizador](https://devdocs.magento.com/guides/v2.3/comp-mgr/updater/update-updater.html) na documentação do desenvolvedor.
+Para resolver esse problema, veja se há um diretório `<magento_root>/update` que contenha arquivos e subdiretórios. Caso contrário, consulte [Configurar o atualizador](https://devdocs.magento.com/guides/v2.3/comp-mgr/updater/update-updater.html) na documentação do desenvolvedor.

@@ -24,10 +24,10 @@ Este artigo fornece uma solução alternativa para um problema conhecido no Adob
 
 <u>Etapas a serem reproduzidas</u>
 
-1. Ir para **Painel de administração** > **Conteúdo** > **Páginas** e selecione **Editar** de qualquer página.
-1. Ir para **Conteúdo** e clique no link **Editar com o Page Builder** botão.
-1. Arraste o **dotdigital form** bloquear e selecionar **Editar**.
-1. Selecione um dos formulários de teste e escolha **Incorporado** e salve o formulário.
+1. Vá para **Painel de Administração** > **Conteúdo** > **Páginas** e selecione **Editar** de qualquer página.
+1. Vá para **Conteúdo** e clique no botão **Editar com o Page Builder**.
+1. Arraste o bloco **dotdigital form** e selecione **Editar**.
+1. Selecione um dos formulários de teste, escolha o modo **Incorporado** e salve o formulário.
 1. Salve a modificação da página.
 
 <u>Resultado esperado:</u>
@@ -45,6 +45,6 @@ A solução alternativa é usar um navegador alternativo para o Safari. O proble
 ## Leitura relacionada
 
 * [O que é o Page Builder?](https://devdocs.magento.com/page-builder/docs/) na documentação do desenvolvedor.
-* [Configuração do Page Builder](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/setup.html) na documentação do desenvolvedor.
+* [Configuração do Page Builder](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/setup.html) em nossa documentação do desenvolvedor.
 * [Page Builder](https://docs.magento.com/user-guide/cms/page-builder.html) em nosso guia do usuário.
-* [Page Builder - Elementos](https://docs.magento.com/user-guide/cms/page-builder-elements.html) em nosso guia do usuário.
+* [Page Builder - Elementos](https://docs.magento.com/user-guide/cms/page-builder-elements.html) no nosso guia do usuário.

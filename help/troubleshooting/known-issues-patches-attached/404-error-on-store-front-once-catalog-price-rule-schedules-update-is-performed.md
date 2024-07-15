@@ -22,16 +22,16 @@ As páginas da vitrine eletrônica ficam indisponíveis, retornando o erro 404. 
 <u>Etapas a serem reproduzidas</u>:
 
 1. No Administrador do Commerce, crie uma nova Regra de preço de catálogo em **Marketing** > **Promoções** > **Regra de preço de catálogo**.
-1. No **Regra de preço de catálogo** , clique em **Editar,** agendar uma nova Atualização e definir **Status** para *Ativo.*
-1. Navegue até **Conteúdo** > **Preparo de conteúdo** > **Painel.**
+1. Na grade **Regra de Preço do Catálogo**, clique em **Editar,** agendar uma nova Atualização e definir o **Status** como *Ativo.*
+1. Navegue até **Conteúdo** > **Estágios de Conteúdo** > **Painel.**
 1. Selecione a atualização criada recentemente e altere sua hora inicial.
 1. Salve as alterações.
 
-<u>Resultado esperado</u> :
+<u>Resultado esperado</u>:
 
 Quando a data inicial de Atualização se torna efetiva, a regra de preço de catálogo é aplicada com sucesso.
 
-<u>Resultado real</u> :
+<u>Resultado real</u>:
 
 Quando a data de início da Atualização entrar em vigor, todos os catálogos e produtos da loja ficarão indisponíveis, retornando o erro 404.
 
@@ -42,11 +42,11 @@ Para restaurar páginas de catálogo e usar totalmente a funcionalidade de atual
 Veja a seguir uma descrição detalhada das etapas necessárias:
 
 1. [Aplicar o patch](#patch).
-1. No Administrador do Commerce, exclua a regra de preço do catálogo relacionada ao problema (em que a hora de início foi atualizada). Para fazer isso, abra a página de regra em **Marketing** > **Promoções** > **Regra de preço de catálogo** e clique em **Excluir regra**.
-1. O acesso ao banco de dados exclui manualmente o registro relacionado do `catalogrule` tabela.
-1. Corrija os links inválidos no banco de dados. Consulte a [parágrafo relacionado](#fix_links) para obter detalhes.
-1. No Administrador do Commerce, em **Marketing**, vá para **Promoções** > **Regra de preço de catálogo** e crie a nova regra com a configuração necessária.
-1. Limpe o cache do navegador em **Sistema** > **Gerenciamento de cache**.
+1. No Administrador do Commerce, exclua a regra de preço do catálogo relacionada ao problema (em que a hora de início foi atualizada). Para fazer isso, abra a página de regras em **Marketing** > **Promoções** > **Regra de Preço de Catálogo** e clique em **Excluir Regra**.
+1. O acesso ao banco de dados exclui manualmente o registro relacionado da tabela `catalogrule`.
+1. Corrija os links inválidos no banco de dados. Consulte o [parágrafo relacionado](#fix_links) para obter detalhes.
+1. No Administrador do Commerce em **Marketing**, vá para **Promoções** > **Regra de preço de catálogo** e crie a nova regra com a configuração necessária.
+1. Limpe o cache do navegador em **Sistema** > **Gerenciamento de Cache**.
 1. Verifique se os trabalhos cron estão configurados corretamente e podem ser executados com êxito.
 
 ## Correção {#patch}
@@ -68,7 +68,7 @@ O patch também é compatível (mas pode não resolver o problema) com as seguin
 
 ## Como aplicar o patch
 
-Para obter instruções, consulte [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de conhecimento de suporte.
+Para instruções, consulte [Como aplicar um patch de compositor fornecido por Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de dados de conhecimento de suporte.
 
 ## Corrigir os links inválidos para preparo no BD {#fix_links}
 
@@ -76,24 +76,24 @@ Para obter instruções, consulte [Como aplicar um patch de compositor fornecido
 >
 >É altamente recomendável criar um backup de banco de dados antes de qualquer manipulação de banco de dados. Também recomendamos testar primeiro as consultas no ambiente de desenvolvimento.
 
-Execute as seguintes etapas para corrigir as linhas com links inválidos para a `staging_update` tabela.
+Siga as etapas a seguir para corrigir as linhas com links inválidos para a tabela `staging_update`.
 
-1. Verifique se os links inválidos para o `staging_update` a tabela existe no `flag` tabela. Estes seriam registros em que `flag_code=staging`.
-1. Identificar a versão inválida no `flag` usando a seguinte consulta:
+1. Verifique se os links inválidos para a tabela `staging_update` existem na tabela `flag`. Estes seriam registros onde `flag_code=staging`.
+1. Identifique a versão inválida da tabela `flag` usando a seguinte consulta:
 
    ```sql
    SELECT flag_data FROM flag WHERE flag_code = 'staging';
    ```
 
-1. No `staging_update` , selecione a versão existente que seja menor que a versão atual (inválida) e obtenha o valor da versão que é dois números de volta. Você toma essa opção, não a versão anterior, para evitar a situação em que a versão anterior é a versão máxima na `staging_update` tabela que poderia ser aplicada e ainda precisamos reaplicá-la.
+1. Na tabela `staging_update`, selecione a versão existente que seja menor que a versão atual (inválida) e obtenha o valor da versão que seja dois números de volta. Você pode usá-la, não a versão anterior, para evitar a situação em que a versão anterior é a versão máxima na tabela `staging_update` que pode ser aplicada e ainda precisamos reaplicá-la.
 
    ```sql
    SELECT id FROM staging_update WHERE id < %current_id% ORDER BY id DESC LIMIT 1, 1
    ```
 
-   A versão recebida em resposta é sua versão válida `id`.
+   A versão que você recebe em resposta é sua versão válida `id`.
 
-1. Para as linhas com links inválidos na variável `flag` , defina o `flag_data` aos dados que conterão uma id de versão válida. Isso ajuda a salvar o desempenho na etapa de reindexação e permite evitar a reindexação de todas as entidades.
+1. Para as linhas com links inválidos na tabela `flag`, defina os valores de `flag_data` como dados que conterão uma ID de versão válida. Isso ajuda a salvar o desempenho na etapa de reindexação e permite evitar a reindexação de todas as entidades.
 
    ```sql
    UPDATE flag SET flag_data=REPLACE(flag_data, '%invalid_id%', '%new_valid_id%') WHERE flag_code='staging';

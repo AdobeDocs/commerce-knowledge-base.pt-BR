@@ -16,7 +16,7 @@ ht-degree: 0%
 ## Produtos e versões afetados
 
 * Adobe Commerce na infraestrutura em nuvem 2.4.2 - 2.4.7
-* Isso é específico para clusters Pro dedicados. Os ambientes de Início e Integração são de nó único e não têm o `/data/exports` diretório.
+* Isso é específico para clusters Pro dedicados. Os ambientes de Iniciação e Integração são de nó único e não têm o diretório `/data/exports`.
 
 ## Sinais de pouco espaço em disco
 
@@ -28,15 +28,15 @@ Para ver a quantidade de espaço em disco usada pelo sistema de arquivos, execut
 
 ## Como excluir arquivos com segurança para aumentar o espaço em disco
 
-É possível excluir arquivos dos pontos de montagem do aplicativo, a partir de `/app` caminho ou através `/mnt/shared`. São duas maneiras diferentes de acessar os mesmos arquivos.
+Você pode excluir arquivos dos pontos de montagem do aplicativo, do caminho `/app` ou através de `/mnt/shared`. São duas maneiras diferentes de acessar os mesmos arquivos.
 
 >[!WARNING]
 >
->**Nunca modifique ou exclua o conteúdo de`/data/exports`**.
+>**Nunca modificar ou excluir o conteúdo de`/data/exports`**.
 >
->`/data/exports` é o armazenamento subjacente por trás do sistema de arquivos compartilhado, gerenciado pelo GlusterFS.
+>`/data/exports` é o armazenamento subjacente por trás do sistema de arquivos compartilhado, e é gerenciado pelo GlusterFS.
 >
->O sistema de arquivos contém não apenas o conteúdo do arquivo, mas metadados sobre o estado do sistema de arquivos para permitir a sincronização entre os nós do cluster. **A alteração ou exclusão de arquivos diretamente neste sistema de arquivos corromperá o sistema de arquivos compartilhado, exigindo reparos extensos ou recuperação de dados.**
+>O sistema de arquivos contém não apenas o conteúdo do arquivo, mas metadados sobre o estado do sistema de arquivos para permitir a sincronização entre os nós do cluster. **Alterar ou excluir arquivos diretamente neste sistema de arquivos corromperá o sistema de arquivos compartilhado, exigindo reparos extensos ou recuperação de dados.**
 
 Para localizar os maiores arquivos que podem ser bons candidatos para limpeza, execute o seguinte comando (em projetos grandes ou ocupados, pode levar até uma hora):
 

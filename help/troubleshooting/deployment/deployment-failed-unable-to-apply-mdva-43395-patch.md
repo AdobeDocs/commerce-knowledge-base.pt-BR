@@ -25,16 +25,16 @@ Você não pode aplicar o patch MDVA-43395.
 
 ## Causa
 
-Os comerciantes em nuvem não precisam aplicar o patch MDVA-43395 separadamente se tiverem [magento/magento-cloud-patches 1.0.16](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html#v1016) instalado, o que já inclui o patch.
+Os comerciantes da nuvem não precisam aplicar o patch MDVA-43395 separadamente se tiverem o [magento/magento-cloud-patches 1.0.16](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html#v1016) instalado, que já inclui o patch.
 
 ## Solução
 
-Para resolver o problema, remova os patches MDVA-43395 e MDVA-43443 do `m2-hotfixes` diretório e reimplantar.
+Para resolver o problema, remova os patches MDVA-43395 e MDVA-43443 do diretório `m2-hotfixes` e reimplante.
 
-Se você pôde aplicar o patch MDVA-43443 por meio do `m2-hotfixes` ainda precisará removê-lo, conforme mencionado acima. As versões futuras do Adobe Commerce já terão esses patches contidos neles, portanto, a implantação poderá falhar se você fizer a atualização mais tarde.
+Se você puder aplicar o patch MDVA-43443 por meio do diretório `m2-hotfixes`, ainda precisará removê-lo, como mencionado acima. As versões futuras do Adobe Commerce já terão esses patches contidos neles, portanto, a implantação poderá falhar se você fizer a atualização mais tarde.
 
-Para verificar se o patch foi aplicado, execute o `vendor/bin/magento-patches -n status |grep 43443` comando.
-Se ele mostrar vários resultados como este, você deverá remover o patch MDVA-43443 do `m2-hotfixes` pasta:
+Para verificar se o patch foi aplicado, execute o comando `vendor/bin/magento-patches -n status |grep 43443`.
+Se ele mostrar vários resultados como este, você deverá remover o patch MDVA-43443 da pasta `m2-hotfixes`:
 
 ```bash
 $ vendor/bin/magento-patches -n status |grep 43443
@@ -44,5 +44,5 @@ $ vendor/bin/magento-patches -n status |grep 43443
 
 ## Leitura relacionada
 
-* [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de conhecimento de suporte.
-* [Patches da nuvem para o Commerce](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html#v1016) na documentação do desenvolvedor.
+* [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de dados de conhecimento de suporte.
+* [Patches da nuvem para o Commerce](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html#v1016) em nossa documentação para desenvolvedores.

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ## Alocar espaço na Integração do plano inicial e do plano Pro
 
-Para todos os ambientes de plano Starter e plano Pro [Ambiente de integração](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md), você pode alocar mais espaço para o MySQL no `.magento/services.yaml` arquivo, aumentando o `mysql: disk:` parâmetro. Por exemplo:
+Para todos os ambientes de plano Starter e plano Pro [ambiente de integração](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md), é possível alocar mais espaço para MySQL no arquivo `.magento/services.yaml`, aumentando o parâmetro `mysql: disk:`. Por exemplo:
 
 ```yaml
 mysql:
@@ -23,9 +23,9 @@ mysql:
     disk: 2048
 ```
 
-Consulte a [Configurar o serviço MySQL](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_services-mysql.html) artigo de referência.
+Consulte o artigo [Configurar serviço MySQL](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_services-mysql.html) para referência.
 
-Depois de alterar a variável `.magento/services.yaml` arquivo, é necessário confirmar e enviar as alterações para que sejam aplicadas. O push acionará o processo de implantação.
+Depois de alterar o arquivo `.magento/services.yaml`, você precisa confirmar e enviar suas alterações para que elas sejam aplicadas. O push acionará o processo de implantação.
 
 >[!WARNING]
 >
@@ -33,9 +33,9 @@ Depois de alterar a variável `.magento/services.yaml` arquivo, é necessário c
 
 ## Alocar espaço em produção ou preparo de plano Pro
 
-Para fazer essas alterações no ambiente de Preparo ou Produção do plano Pro, você deve criar um [tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#merchant-not-displayed). Ao enviar um tíquete de suporte para aumentar o armazenamento, o suporte precisará saber a quantidade e a qual partição o armazenamento deve ser aplicado (`/mysql` ou `/exports`). Uma solicitação de aumento de armazenamento requer a aprovação da equipe de conta do Adobe, que verificará a quantidade de armazenamento que você tem direito (de acordo com o formulário de pedido) antes da aprovação.
+Para fazer essas alterações para o ambiente de preparo ou produção do plano Pro, você deve criar um [tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#merchant-not-displayed). Ao enviar um tíquete de suporte para aumentar o armazenamento, o suporte precisará saber a quantidade e a qual partição o armazenamento deve ser aplicado (`/mysql` ou `/exports`). Uma solicitação de aumento de armazenamento requer a aprovação da equipe de conta do Adobe, que verificará a quantidade de armazenamento que você tem direito (de acordo com o formulário de pedido) antes da aprovação.
 
 ## Diminuição do espaço alocado não disponível (plano Pro e Starter)
 
-O suporte da Adobe Commerce pode aumentar uma partição (`/mysql` ou `/exports`), mas não pode reduzir uma partição. Há risco de corrupção de dados ao fazer isso, por isso a diminuição do armazenamento para uma partição não está disponível.
+O Suporte Adobe Commerce pode aumentar uma partição (`/mysql` ou `/exports`), mas não pode reduzir uma partição. Há risco de corrupção de dados ao fazer isso, por isso a diminuição do armazenamento para uma partição não está disponível.
 Também é verdade para o plano Inicial, em que você mesmo pode aumentar o espaço alocado: diminuir não é altamente recomendado e pode resultar em corrupção de dados catastrófica.

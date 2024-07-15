@@ -29,17 +29,17 @@ A organização de hierarquia correta para suas ramificações é:
 
 Para reorganizar ramificações de nuvem:
 
-1. Você deve ter o [[!DNL Super User]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) função.
-1. Instalar a magento-cloud [!DNL CLI] (se você não tiver feito isso).
+1. Você deve ter a função [[!DNL Super User]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html).
+1. Instale a magento-cloud [!DNL CLI] (se ainda não tiver instalado).
 1. Execute o seguinte comando para as ramificações que precisam ser movidas:
    `magento-cloud environment:info -e <branch to move> parent <target parent>`
 
-Nota: Você pode especificar a ramificação pai ao criar uma nova ramificação. Para obter etapas, consulte [Introdução à criação de ramificações](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted) na documentação do desenvolvedor.
+Nota: Você pode especificar a ramificação pai ao criar uma nova ramificação. Para ver as etapas, consulte [Introdução à criação de ramificações](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted) em nossa documentação para desenvolvedores.
 
-Você pode criar uma nova ramificação de ambiente usando o `branch <environment-name> <parent-environment-ID>` comando magento-cloud environment.
+Você pode criar uma nova ramificação de ambiente usando o comando de ambiente magento-cloud `branch <environment-name> <parent-environment-ID>`.
 
 Pode levar algum tempo adicional para criar e ativar uma nova ramificação de ambiente.
 
 ## Leitura relacionada
 
-[Gerenciar ramificações com o [!DNL CLI]](https://devdocs.magento.com/cloud/env/environments-start.html) na documentação do desenvolvedor.
+[Gerencie ramificações com o [!DNL CLI]](https://devdocs.magento.com/cloud/env/environments-start.html) em nossa documentação do desenvolvedor.

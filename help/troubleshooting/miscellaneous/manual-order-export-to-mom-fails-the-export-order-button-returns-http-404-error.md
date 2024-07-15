@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Falha na exportação manual da ordem para o MOM. O botão Exportar pedido retorna o erro HTTP 404
 
-Este artigo discute como corrigir um problema no qual tentar exportar um pedido para o Magento Order Management (MOM) clicando no link **Ordem de exportação** na visualização de pedido no Commerce Admin retorna um &quot; *Página 404 Não Encontrada* &quot;erro.
+Este artigo explica como corrigir um problema, no qual tentar exportar um pedido para o Magento Order Management (MOM) clicando no botão **Exportar pedido** na exibição do pedido no Commerce Admin retorna o erro &quot; *404 Página não encontrada* &quot;.
 
 ## Produtos e versões afetados
 
@@ -24,10 +24,10 @@ Este artigo discute como corrigir um problema no qual tentar exportar um pedido 
 
 <u>Etapas a serem reproduzidas:</u>:
 
-1. No Administrador do Commerce, clique em **Vendas > Ordens**.
-1. Clique em **Criar novo pedido** botão.
-1. Selecione um usuário, adicione um ou mais itens, selecione métodos de pagamento e envio e clique no botão **Enviar pedido** botão.
-1. Clique em **Ordem de exportação** e depois **OK**.
+1. No Administrador do Commerce, clique em **Vendas > Pedidos**.
+1. Clique no botão **Criar novo pedido**.
+1. Selecione um usuário, adicione um ou mais itens, escolha métodos de pagamento e envio e clique no botão **Enviar Pedido**.
+1. Clique no botão **Exportar pedido** e em **OK**.
 
 <u>Resultado esperado</u>:
 
@@ -35,7 +35,7 @@ O pedido é enviado ao MOM.
 
 <u>Resultado real</u>:
 
-A &quot; *Erro 404: Página Não Encontrada* &quot; é exibida.
+Uma página &quot; *404 Erro: Página não encontrada* &quot; é exibida.
 
 ## Solução
 

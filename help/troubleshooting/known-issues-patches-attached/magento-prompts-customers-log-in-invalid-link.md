@@ -21,11 +21,11 @@ O artigo fornece um link para o patch de um problema conhecido do Adobe Commerce
 
 ## Problema
 
-O Adobe Commerce solicita que os clientes façam logon exibindo esta mensagem: *&quot;Essa conta não foi confirmada. Clique aqui para reenviar o email de confirmação&quot;*. A variável **Clique aqui** O link deve abrir a página Enviar link de confirmação, mas está inativo.
+A Adobe Commerce solicita que os clientes façam logon exibindo esta mensagem: *&quot;Esta conta não foi confirmada. Clique aqui para reenviar o email de confirmação &quot;*. O link **Clique aqui** deve abrir a página Enviar link de confirmação, mas está inativo.
 
 ## Solução
 
-Uma correção para esse problema está disponível no Adobe Commerce Technical Resources: [Reenviar a correção de problema de link de email de confirmação da conta para o Adobe Commerce 2.3.5](https://magento.com/tech-resources/download?_ga=2.193540264.409362045.1590506265-807369446.1578680711#download2368). Uma correção permanente estará disponível no Adobe Commerce 2.3.6, com lançamento previsto para o quarto trimestre de 2020.
+Uma correção para esse problema está disponível nos Recursos Técnicos da Adobe Commerce: [Reenviar correção de problema de link de email de confirmação de conta para o Adobe Commerce 2.3.5](https://magento.com/tech-resources/download?_ga=2.193540264.409362045.1590506265-807369446.1578680711#download2368). Uma correção permanente estará disponível no Adobe Commerce 2.3.6, com lançamento previsto para o quarto trimestre de 2020.
 
 Consulte [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) para obter instruções sobre como aplicar um patch de compositor.
 

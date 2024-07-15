@@ -26,7 +26,7 @@ Este artigo explica como remover credenciais de logon com falha pré-existentes 
 
 ## Problema
 
-Em 2019, um erro foi relatado ao Adobe Commerce que permitia que tentativas de logon com falha fossem registradas em um banco de dados no Adobe Commerce 2.3.x e 2.2.x. Em resposta, a Adobe Commerce incluiu uma correção para esse problema no Adobe Commerce 2.3.3 e 2.2.10 (lançado em outubro de 2019). Embora a correção desse erro tenha interrompido o registro de tentativas de logon com falha, as informações coletadas antes da atualização para essas versões atuais ainda podem existir. A correção mais recente apaga as informações de tentativas de logon registradas anteriormente, se houver.   CVE-2019-8118 é descrito e rastreado em [Vulnerabilidades e Exposições Comuns](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-8118).
+Em 2019, um erro foi relatado ao Adobe Commerce que permitia que tentativas de logon com falha fossem registradas em um banco de dados no Adobe Commerce 2.3.x e 2.2.x. Em resposta, a Adobe Commerce incluiu uma correção para esse problema no Adobe Commerce 2.3.3 e 2.2.10 (lançado em outubro de 2019). Embora a correção desse erro tenha interrompido o registro de tentativas de logon com falha, as informações coletadas antes da atualização para essas versões atuais ainda podem existir. A correção mais recente apaga as informações de tentativas de logon registradas anteriormente, se houver.   O CVE-2019-8118 é descrito e rastreado em [Vulnerabilidades e Exposições Comuns](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-8118).
 
 ## Solução
 
@@ -36,25 +36,25 @@ Se você precisa usar o script anexado e o patch ou apenas o script, depende da 
 
 Para essas versões, você deve aplicar o patch e executar o script de limpeza do banco de dados anexado para encerrar o registro contínuo e eliminar logs.
 
-1. Execute o patch do compositor para parar o registro. Este patch está anexado ao artigo. Para baixá-lo, role até o final do artigo e clique no nome do arquivo ou clique no link a seguir [CLEANUP\_PATCH\_COMPOSER\_2.3.2.patch](assets/CLEANUP_PATCH_COMPOSER_2.3.2.patch.zip). Para obter instruções sobre como aplicar o patch, consulte [Como aplicar um patch de compositor fornecido pelo Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de conhecimento de suporte.
+1. Execute o patch do compositor para parar o registro. Este patch está anexado ao artigo. Para baixá-lo, role para baixo até o final do artigo e clique no nome do arquivo ou clique no seguinte link [CLEANUP\_PATCH\_COMPOSER\_2.3.2.patch](assets/CLEANUP_PATCH_COMPOSER_2.3.2.patch.zip). Para obter instruções sobre como aplicar o patch, consulte [Como aplicar um patch compositor fornecido pelo Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de dados de suporte.
 
-1. Agora execute o script para limpar o banco de dados das tentativas de logon com falha pré-existentes. Este script é anexado ao artigo. Para baixá-lo, role até o final do artigo e clique no nome do arquivo ou clique no link a seguir [DB\_CLEANUP\_SCRIPT\_v2.php](assets/DB_CLEANUP_SCRIPT_v2.php.zip).
+1. Agora execute o script para limpar o banco de dados das tentativas de logon com falha pré-existentes. Este script é anexado ao artigo. Para baixá-lo, role para baixo até o final do artigo e clique no nome do arquivo ou clique no seguinte link [DB\_CLEANUP\_SCRIPT\_v2.php](assets/DB_CLEANUP_SCRIPT_v2.php.zip).
 
-Consulte a [**Como executar o script**](/help/troubleshooting/known-issues-patches-attached/remove-failed-login-attempts-from-the-database.md#run_script) para obter instruções.
+Consulte a seção [**Como executar o script**](/help/troubleshooting/known-issues-patches-attached/remove-failed-login-attempts-from-the-database.md#run_script) para obter instruções.
 
 **Adobe Commerce e Magento Open Source versões 2.3.3 e posteriores/2.2.10 e posteriores**<br>
-Para essas versões somente, execute o script abaixo para limpar registros antigos (o registro foi encerrado anteriormente para essas versões por meio de uma correção lançada em outubro de 2019). Este script é anexado ao artigo. Para baixá-lo, role até o final do artigo e clique no nome do arquivo ou clique no link a seguir [DB\_CLEANUP\_SCRIPT\_v2.php](assets/DB_CLEANUP_SCRIPT_v2.php.zip).
+Para essas versões somente, execute o script abaixo para limpar registros antigos (o registro foi encerrado anteriormente para essas versões por meio de uma correção lançada em outubro de 2019). Este script é anexado ao artigo. Para baixá-lo, role para baixo até o final do artigo e clique no nome do arquivo ou clique no seguinte link [DB\_CLEANUP\_SCRIPT\_v2.php](assets/DB_CLEANUP_SCRIPT_v2.php.zip).
 
-Consulte a [**Como executar o script**](/help/troubleshooting/known-issues-patches-attached/remove-failed-login-attempts-from-the-database.md#run_script) seção em nossa base de conhecimento de suporte, para obter instruções.
+Consulte a seção [**Como executar o script**](/help/troubleshooting/known-issues-patches-attached/remove-failed-login-attempts-from-the-database.md#run_script) da nossa base de dados de conhecimento de suporte para obter instruções.
 
 **Como executar o script**
 
 Siga as instruções abaixo para executar o script:
 
-1. Put `DB_CLEANUP_SCRIPT_v2.php` no diretório raiz da instalação do Adobe Commerce ou Magento Open Source (no mesmo diretório que o aplicativo que contém `app/bootstrap.php`).
-1. Execute este comando no terminal: `php DB_CLEANUP_SCRIPT_v2.php` e iniciará o processo de limpeza do banco de dados.
+1. Coloque `DB_CLEANUP_SCRIPT_v2.php` no diretório raiz da instalação do Adobe Commerce ou Magento Open Source (no mesmo diretório do aplicativo que contém `app/bootstrap.php`).
+1. Execute este comando no terminal: `php DB_CLEANUP_SCRIPT_v2.php` e ele iniciará o processo de limpeza do banco de dados.
 
-Se você encontrar problemas ao executar o script, [enviar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) ou envie um email para [security@magento.com](mailto:security@magento.com).
+Se você encontrar problemas ao executar o script, [envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) ou envie um email para [security@magento.com](mailto:security@magento.com).
 
 **Arquivos anexados**
 

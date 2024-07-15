@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Localizar tabelas MySQL grandes
 
-Para identificar as tabelas grandes, conecte-se ao banco de dados conforme descrito na seção [Conectar ao banco de dados](https://devdocs.magento.com/cloud/project/project-conf-files_services-mysql.html#connect-to-the-database) e execute o seguinte comando, onde `project_id` é a ID do projeto na nuvem:
+Para identificar as tabelas grandes, conecte-se ao banco de dados conforme descrito no artigo [Conectar-se ao banco de dados](https://devdocs.magento.com/cloud/project/project-conf-files_services-mysql.html#connect-to-the-database) e execute o seguinte comando, em que `project_id` é a ID do projeto na Nuvem:
 
 ```sql
 SELECT TABLE_NAME AS `Table`,

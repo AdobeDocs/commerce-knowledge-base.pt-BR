@@ -17,7 +17,7 @@ Este artigo fornece soluções para o problema de implantações com falha relac
 
 ## Produtos e versões afetados
 
-* Adobe Commerce na infraestrutura em nuvem, [todas as versões compatíveis](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce na infraestrutura em nuvem, [todas as versões com suporte](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 * Composer versões 1.10.20 e anteriores
 
 >[!NOTE]
@@ -28,7 +28,7 @@ Este artigo fornece soluções para o problema de implantações com falha relac
 
 As implantações falham e os logs de implantação contêm informações semelhantes às seguintes:
 
-*Erro fatal: Uncaught UnexpectedValueException: Seu token oauth do github para github.com contém caracteres inválidos: &quot;ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&quot; em /app/vendor/composer/composer/src/Composer/IO/BaseIO.php:129*
+*Erro fatal: Uncaught UnexpectedValueException: Seu token oauth do github para github.com contém caracteres inválidos: &quot;ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&quot; em /app/vendor/composer/composer/src/Composer/IO/BaseIO.php:129*
 
 ## Causa
 
@@ -38,13 +38,13 @@ Chaves Composer desatualizadas causam falhas no token Github, que resultam em im
 
 Para resolver o problema, atualize sua versão do Composer para 1.10.22:
 
-1. No ambiente local, execute `composer require “composer/composer”:”>1.10.21`.
-1. Isso adiciona o requisito para a versão do pacote do Composer. Verificar o arquivo de bloqueio - `composer/composer` A versão deve ser 1.0.22 ou superior.
-1. Confirmar `composer.json` e `composer.lock` e enviar uma implantação.
+1. Em seu ambiente local, execute `composer require “composer/composer”:”>1.10.21`.
+1. Isso adiciona o requisito para a versão do pacote do Composer. Verificar o arquivo de bloqueio - a versão `composer/composer` deve ser 1.0.22 ou superior.
+1. Confirme `composer.json` e `composer.lock` e envie uma implantação por push.
 
-Se esse método não funcionar, [enviar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+Se este método não funcionar, [envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ## Leitura relacionada
 
-* [Blog do GitHub: por trás dos novos formatos de token de autenticação do GitHub](https://github.blog/2021-04-05-behind-githubs-new-authentication-token-formats/)
-* [InfoQ.com artigo de notícias: GitHub altera o formato do token para melhorar a identificação, a verificação secreta e a entropia](https://www.infoq.com/news/2021/04/github-new-token-format/)
+* [Blog do Github: por trás dos novos formatos de token de autenticação do GitHub](https://github.blog/2021-04-05-behind-githubs-new-authentication-token-formats/)
+* [Artigo de notícias do InfoQ.com: O GitHub altera o formato do token para melhorar a identificação, a verificação secreta e a entropia](https://www.infoq.com/news/2021/04/github-new-token-format/)

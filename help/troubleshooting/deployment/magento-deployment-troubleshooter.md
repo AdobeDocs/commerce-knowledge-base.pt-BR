@@ -17,11 +17,11 @@ Implantações travadas e com falha no Adobe Commerce podem ser resolvidas usand
 
 ## Etapa 1 - Verificar se o serviço está em execução {#step-1}
 
-+++**O serviço Adobe Commerce na infraestrutura em nuvem está ativo?**
++++**O Adobe Commerce está funcionando no serviço de infraestrutura em nuvem?**
 
-Implantação paralisada - o serviço de infraestrutura em nuvem do Adobe Commerce está ativo? Marcar [Adobe Commerce Cloud](https://status.adobe.com/products/3350/).
+Implantação paralisada - o serviço de infraestrutura em nuvem do Adobe Commerce está ativo? Verificar [Adobe Commerce Cloud](https://status.adobe.com/products/3350/).
 
-a. SIM - Vá para [Etapa 2](#step-2).\
+a. SIM - Continue na [Etapa 2](#step-2).\
 b. NÃO - manutenção ou paralisações globais. Verifique a duração estimada e as atualizações.
 
 +++
@@ -42,7 +42,7 @@ Para obter uma lista de atividades em andamento, execute o seguinte comando usan
 magento-cloud -p <project-id or project-url> --state=in_progress
 ```
 
-Para encontrar informações sobre uma atividade de implantação existente (consulte [Verificação do log de implantação se a interface do usuário da nuvem tiver um erro de &quot;log recortado&quot;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error.html)
+Para encontrar informações sobre uma atividade de implantação existente (consulte [Verificando o log de implantação se a interface de nuvem tiver um erro de &quot;log recortado&quot;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error.html)
 para obter detalhes), execute este comando para obter um log em execução dessa atividade:
 
 ```bash
@@ -58,28 +58,28 @@ b. NÃO - Solucionar problemas do ambiente atual. Vá para [Etapa 3](#step-3).
 
 ## Etapa 3 - Verificar o SSH em todos os nós {#step-3}
 
-+++**SSH bem-sucedido em todos os nós?**
++++**SSH bem-sucedido para todos os nós?**
 
-a. SIM - Vá para [Etapa 4](#step-4).\
+a. SIM - Continue na [Etapa 4](#step-4).\
 b. NÃO - [Enviar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 +++
 
 ## Etapa 4 - Verificar todos os serviços em execução {#step-4}
 
-+++**Todos os serviços estão sendo executados?**
++++**Todos os serviços estão em execução?**
 
-a. SIM - Vá para [Etapa 5](#step-5).\
+a. SIM - Continue na [Etapa 5](#step-5).\
 b. NÃO - [Enviar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 +++
 
 ## Etapa 5 - Verificar a execução do Bitbucket {#step-5}
 
-+++**Usando o Bitbucket?**
++++**Usando Bitbucket?**
 
 a. SIM - Verificar [status.bitbucket.com](https://bitbucket.status.atlassian.com/).\
-b. NÃO - Verifique os erros do log de implantação no [Criar e implantar logs](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html). Vá para [Etapa 6](#step-6).
+b. NÃO - Verifique os erros do log de implantação nos [Logs de compilação e implantação](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html). Vá para a [Etapa 6](#step-6).
 
 +++
 
@@ -87,8 +87,8 @@ b. NÃO - Verifique os erros do log de implantação no [Criar e implantar logs]
 
 +++**Código de erro relatado?**
 
-a. SIM - Vá para [Etapa 7](#step-7).\
-b. NÃO - Vá para [Etapa 8](#step-8).
+a. SIM - Continue na [Etapa 7](#step-7).\
+b. NÃO - Continue na [Etapa 8](#step-8).
 
 +++
 
@@ -96,17 +96,17 @@ b. NÃO - Vá para [Etapa 8](#step-8).
 
 +++**403 Proibido?**
 
-a. SIM - Vá para [Etapa 16](#step-16).
-b. NÃO - Vá para [Etapa 9](#step-9).
+a. SIM - Continue na [Etapa 16](#step-16).
+b. NÃO - Continue na [Etapa 9](#step-9).
 
 +++
 
 ## Etapa 8 - Verificar trabalhos cron em execução {#step-8}
 
-+++**Os trabalhos cron estão em execução atualmente?** Faça logon por ssh na ramificação e execute `ps aufxx |grep cron`.
++++**Os trabalhos do cron estão em execução no momento?** Faça logon por ssh na ramificação e execute `ps aufxx |grep cron`.
 
-a. SIM - Faça logon por ssh na ramificação afetada (por exemplo, principal). Eliminar e desbloquear trabalhos cron. Isso eliminará as tarefas do cron e redefinirá o status. Executar `php vendor/bin/ece-tools cron:kill` e depois `php vendor/bin/ece-tools cron:unlock`. Se você estava em processo de mesclar um ambiente em outro, verifique se os dois ambientes estão executando crons.\
-b. NÃO - Vá para [Etapa 17](#step-17).
+a. SIM - Faça logon por ssh na ramificação afetada (por exemplo, principal). Eliminar e desbloquear trabalhos cron. Isso eliminará as tarefas do cron e redefinirá o status. Execute `php vendor/bin/ece-tools cron:kill` e depois `php vendor/bin/ece-tools cron:unlock`. Se você estava em processo de mesclar um ambiente em outro, verifique se os dois ambientes estão executando crons.\
+b. NÃO - Continue na [Etapa 17](#step-17).
 
 +++
 
@@ -114,26 +114,26 @@ b. NÃO - Vá para [Etapa 17](#step-17).
 
 +++**Não é possível carregar o aplicativo para o erro de cluster remoto?**
 
-a. SIM - Vá para [Etapa 10](#step-10).\
-b. NÃO - Vá para [Etapa 11](#step-11).
+a. SIM - Continue na [Etapa 10](#step-10).\
+b. NÃO - Continue na [Etapa 11](#step-11).
 
 +++
 
 ## Etapa 10 - Verificar armazenamento suficiente {#step-10}
 
-+++**Armazenamento disponível, ok?**
++++**Armazenamento disponível ok?**
 
-a. SIM - Continue com [Etapa 11](#step-11).\
-b. NÃO - Revisão [Gerenciar espaço em disco](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html).
+a. SIM - Continue com a [Etapa 11](#step-11).\
+b. NÃO - Revise [Gerenciar espaço em disco](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html).
 
 +++
 
 ## Etapa 11 - Verificar espaço em disco {#step-11}
 
-+++**_O arquivo não pôde ser gravado Aviso _?**
++++**_Não foi possível gravar o arquivo Aviso _?**
 
-a. SIM - Por favor [aumente o valor do disco em .magento.app.yaml](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#application-disk-space) e reimplantar. Se isso não funcionar, [enviar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
-b. NÃO - Continue com [Etapa 12](#step-12).
+a. SIM - [Aumente o valor do disco em .magento.app.yaml](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#application-disk-space) e reimplante. Se isso não funcionar, [envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
+b. NÃO - Continue com a [Etapa 12](#step-12).
 
 +++
 
@@ -141,8 +141,8 @@ b. NÃO - Continue com [Etapa 12](#step-12).
 
 +++**Erro de falha na reimplantação do ambiente?**
 
-a. SIM - Continue com [Etapa 13](#step-13).\
-b. NÃO - Continue com [Etapa 8](#step-8).
+a. SIM - Continue com a [Etapa 13](#step-13).\
+b. NÃO - Continue com a [Etapa 8](#step-8).
 
 +++
 
@@ -150,35 +150,35 @@ b. NÃO - Continue com [Etapa 8](#step-8).
 
 +++**Elasticsearch sendo atualizado ou implantado?**
 
-a. SIM - falha nas etapas de atualização do Elasticsearch. Consulte [Compatibilidade de software de Elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-upgrade.html). Se a atualização do Elasticsearch ainda não funcionar, [enviar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket). **Nota**: no Adobe Commerce na infraestrutura em nuvem, esteja ciente de que as atualizações de serviço não podem ser enviadas para o ambiente de produção sem aviso prévio de 48 horas úteis para nossa equipe de infraestrutura. Isso é necessário, pois precisamos garantir que tenhamos um engenheiro de suporte de infraestrutura disponível para atualizar sua configuração dentro do prazo desejado com tempo de inatividade mínimo para seu ambiente de produção. Portanto, 48 horas antes de quando suas alterações precisam estar em produção, [enviar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) detalhando o upgrade de serviço necessário e informando o horário em que você deseja que o processo de upgrade tenha início.\
-b. NÃO - Vá para [Etapa 14](#step-14).
+a. SIM - falha nas etapas de atualização do Elasticsearch. Consulte [compatibilidade de software de Elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-upgrade.html). Se a atualização do Elasticsearch ainda não funcionar, [envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket). **Observação**: no Adobe Commerce na infraestrutura em nuvem, esteja ciente de que as atualizações de serviço não podem ser enviadas para o ambiente de produção sem aviso prévio de 48 horas úteis para nossa equipe de infraestrutura. Isso é necessário, pois precisamos garantir que tenhamos um engenheiro de suporte de infraestrutura disponível para atualizar sua configuração dentro do prazo desejado com tempo de inatividade mínimo para seu ambiente de produção. Portanto, 48 horas antes de quando suas alterações precisam estar em produção, [envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) detalhando a atualização de serviço necessária e informando a hora em que deseja que o processo de atualização tenha início.\
+b. NÃO - Continue na [Etapa 14](#step-14).
 
 +++
 
 ## Etapa 14 - Verificar limites de espaço {#step-14}
 
-+++**Sistema de arquivos sem inodes ou espaço suficiente?**
++++**Sistema de arquivos sem inodes ou espaço?**
 
 a. SIM - Consulte [Gerenciar espaço em disco](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#application-disk-space).\
-b. NÃO - Vá para [Etapa 15](#step-15).
+b. NÃO - Continue na [Etapa 15](#step-15).
 
 +++
 
 ## Etapa 15 - Erro de versão do Elasticsearch {#step-15}
 
-+++**Erro sobre as versões de Elasticsearch?**
++++**Erro sobre as versões de Elasticseach?**
 
-a. SIM - Vá para [Etapa 16](#step-16).\
-b. NÃO - Vá para [Etapa 21](#step-21).
+a. SIM - Continue na [Etapa 16](#step-16).\
+b. NÃO - Continue na [Etapa 21](#step-21).
 
 +++
 
 ## Etapa 16 - Verificar configuração do Composer {#step-16}
 
-+++**A configuração do compositor está correta?**
++++**Configuração correta do compositor?**
 
-a. SIM - Vá para [Etapa 10](#step-10).\
-b. NÃO - Revisão [Página da Web da Solução de problemas do Compositor](https://getcomposer.org/doc/articles/troubleshooting.md).
+a. SIM - Continue na [Etapa 10](#step-10).\
+b. NÃO - Revise a [página da Web de solução de problemas do Composer](https://getcomposer.org/doc/articles/troubleshooting.md).
 
 +++
 
@@ -189,29 +189,29 @@ b. NÃO - Revisão [Página da Web da Solução de problemas do Compositor](http
 a. SIM - Identificar processos de longa duração e, em seguida, eliminar processos:
 1. Execute o seguinte comando no terminal: `ps aufx`.
 1. Localize o PID do processo de longa duração.
-1. Encerre o processo usando `kill -9 <PID>`.
+1. Encerrar o processo usando `kill -9 <PID>`.
 
 Monitore implantações para recorrência.
 
-b. NÃO - Vá para [Etapa 18](#step-18).
+b. NÃO - Continue na [Etapa 18](#step-18).
 
 +++
 
 ## Etapa 18 - Verificar falha do gancho de postagem {#step-18}
 
-+++**Falha/travamento do gancho de postagem?**
++++**Falha/travamento do gancho do Post?**
 
-a. SIM - Base de dados: [Espaço livre em disco](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#allocate-disk-space), corrupção, tabelas incompletas/corrompidas.\
-b. NÃO - Vá para [Etapa 19](#step-19).
+a. SIM - Banco de Dados: [Espaço livre em disco](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#allocate-disk-space), corrompido, tabelas incompletas/corrompidas.\
+b. NÃO - Continue na [Etapa 19](#step-19).
 
 +++
 
 ## Etapa 19 - Verificar se extensões de terceiros bloqueiam a implantação {#step-19}
 
-+++**Usar extensões de terceiros?**
++++**Usando extensões de terceiros?**
 
-a. SIM - Tente [Desabilitação das extensões de terceiros](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html) e executar a implantação (para ver se elas são a causa do problema), especialmente se houver nomes de extensão em quaisquer erros.\
-b. NÃO - Vá para [Etapa 20](#step-20).
+a. SIM - Tente [desabilitar as extensões de terceiros](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html) e executar a implantação (para ver se elas são a causa do problema), especialmente se houver nomes de extensão em quaisquer erros.\
+b. NÃO - Continue na [Etapa 20](#step-20).
 
 +++
 
@@ -221,14 +221,14 @@ b. NÃO - Vá para [Etapa 20](#step-20).
 
 [Verificar log de consulta lenta e show processlist do MySQL](/help/troubleshooting/database/checking-slow-queries-and-processes-mysql.md).
 
-a. SIM - Elimine consultas de longa execução. Revisão [Sintaxe de eliminação do MySQL.](https://dev.mysql.com/doc/refman/8.0/en/kill.html)\
+a. SIM - Elimine consultas de longa execução. Revisar [Sintaxe de eliminação do MySQL.](https://dev.mysql.com/doc/refman/8.0/en/kill.html)\
 b. NÃO - [Enviar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 +++
 
 ## Etapa 21 - Fazer downgrade da versão do Elasticsearch {#step-21}
 
-+++**Fazendo o downgrade das versões do Elasticsearch?**
++++**Rebaixando versões do Elasticsearch?**
 
 a. SIM - não pode ser feito por meio de configuração. [Enviar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
 b. NÃO - [Enviar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).

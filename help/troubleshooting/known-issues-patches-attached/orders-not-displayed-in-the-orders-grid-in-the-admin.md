@@ -17,7 +17,7 @@ Este artigo fornece uma correção para o problema conhecido do Adobe Commerce 2
 
 ## Problema
 
-No Adobe Commerce 2.2.1 com extensão B2B instalada, os pedidos criados na loja por um cliente registrado não são exibidos na lista de pedidos na conta do cliente no Administrador do Commerce. No log de depuração (`./var/log/debug.log`), o seguinte erro é registrado:
+No Adobe Commerce 2.2.1 com extensão B2B instalada, os pedidos criados na loja por um cliente registrado não são exibidos na lista de pedidos na conta do cliente no Administrador do Commerce. No log de depuração (`./var/log/debug.log`), o seguinte erro foi registrado:
 
 `report.CRITICAL: You cannot define a correlation name ‘company_order’ more than once`
 
@@ -30,7 +30,7 @@ O catálogo da loja contém produtos, não dados de amostra do Adobe Commerce, e
 1. Navegue até a loja e crie uma conta de cliente.
 1. Adicione um produto ao carrinho, conclua o check-out e envie um pedido.
 1. Faça logon no Administrador.
-1. Navegue até **Clientes,** escolha **Todos os Clientes**.
+1. Navegue até **Clientes** e escolha **Todos os Clientes**.
 1. Para o cliente recém-criado, clique em **Editar**.
 1. Clique em **Pedidos** no painel à esquerda.
 
@@ -61,6 +61,6 @@ O patch também é compatível (mas pode não resolver o problema) com as seguin
 
 ## Como aplicar o patch
 
-Consulte [Como aplicar um patch de compositor fornecido pelo Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) na nossa base de conhecimento de suporte, para obter instruções.
+Consulte [Como aplicar um patch de compositor fornecido pelo Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de dados de suporte, para obter instruções.
 
 ## Arquivos Anexados

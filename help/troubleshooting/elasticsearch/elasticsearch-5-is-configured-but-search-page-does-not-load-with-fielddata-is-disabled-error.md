@@ -39,7 +39,7 @@ Na solicitação de pesquisa, a seguinte exceção é gerada nos logs:
 
 ## Causa
 
-Por padrão, somente determinados tipos de atributos de produto podem ser usados na Navegação em camadas. Eles são Sim/Não, Lista suspensa, Seleção múltipla e Preço. É por isso que, no Administrador do Commerce, não é possível definir um atributo de nenhum outro tipo como **Usar na navegação em camadas** = *Filtro* ou **Usar na navegação em camadas dos resultados da pesquisa** = *Sim*. Mas há uma possibilidade técnica de contornar essa limitação alterando diretamente o `is_filterable` e `is_filterable_in_search` valores no banco de dados. Se isso acontecer e qualquer outro tipo de atributo, como Data, Texto, etc., for definido para ser usado na Navegação em camadas, o Elasticsearch 5 acionará uma exceção.
+Por padrão, somente determinados tipos de atributos de produto podem ser usados na Navegação em camadas. Eles são Sim/Não, Lista suspensa, Seleção múltipla e Preço. É por isso que, no Administrador do Commerce, você não pode definir um atributo de nenhum outro tipo como **Usar na Navegação em Camadas** = *Filtrável* ou **Usar na Navegação em Camadas de Resultados da Pesquisa** = *Sim*. Mas há uma possibilidade técnica de contornar essa limitação alterando diretamente os valores `is_filterable` e `is_filterable_in_search` no banco de dados. Se isso acontecer e qualquer outro tipo de atributo, como Data, Texto, etc., for definido para ser usado na Navegação em camadas, o Elasticsearch 5 acionará uma exceção.
 
 Para garantir que esse seja o caso, você precisa descobrir se há algum outro atributo diferente de Suspenso, Seleção múltipla e Preço que estejam definidos para serem usados na Navegação em camadas. Execute a seguinte consulta para procurar esses atributos:
 
@@ -53,10 +53,10 @@ O resultado conterá uma lista de atributos usados para a Navegação em camadas
 
 ## Solução
 
-Para corrigir o problema, é necessário definir `is_filterable` (ou seja, usado na Navegação em camadas) e `filterable_in_search` (ou seja, usado na Navegação em camadas dos resultados da pesquisa) para &quot;0&quot; (não usado). Para fazer isso, siga estas etapas:
+Para corrigir o problema, você precisa definir `is_filterable` (ou seja, usado na Navegação em Camadas) e `filterable_in_search` (ou seja, usado na Navegação em Camadas dos resultados da pesquisa) como &quot;0&quot; (não usado). Para fazer isso, siga estas etapas:
 
 1. Criar um backup de banco de dados.
-1. Use uma ferramenta de banco de dados como [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin)ou acesse o BD manualmente a partir da linha de comando para executar a seguinte consulta SQL:
+1. Use uma ferramenta de banco de dados como [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin) ou acesse o BD manualmente a partir da linha de comando para executar a seguinte consulta SQL:
 
    ```sql
    UPDATE catalog_eav_attribute AS cea
@@ -79,6 +79,6 @@ Para corrigir o problema, é necessário definir `is_filterable` (ou seja, usado
    bin/magento cache:clean
    ```
 
-ou no Administrador do Commerce em **Sistema** > **Ferramentas** > **Gerenciamento de cache**.
+ou no Administrador do Commerce em **Sistema** > **Ferramentas** > **Gerenciamento de Cache**.
 
 Agora você pode realizar pesquisas em catálogos sem problemas.

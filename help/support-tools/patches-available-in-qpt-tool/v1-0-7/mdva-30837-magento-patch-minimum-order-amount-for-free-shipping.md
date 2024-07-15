@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # MDVA-30837: valor mínimo de pedido para frete grátis
 
-O patch MDVA-30837 adiciona opções de configuração para o cálculo de frete gratuito para que o usuário possa configurar a Quantidade mínima do pedido para obter frete gratuito com base no Subtotal (ou Total geral). Isso permite personalizações locais para métodos de imposto e envio. Este patch está disponível quando a variável [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) O 1.0.7 está instalado. Observe que o problema foi corrigido no Adobe Commerce 2.4.2.
+O patch MDVA-30837 adiciona opções de configuração para o cálculo de frete gratuito para que o usuário possa configurar a Quantidade mínima do pedido para obter frete gratuito com base no Subtotal (ou Total geral). Isso permite personalizações locais para métodos de imposto e envio. Este patch está disponível quando a [Ferramenta de Patches de Qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.7 está instalada. Observe que o problema foi corrigido no Adobe Commerce 2.4.2.
 
 ## Produtos e versões afetados
 
-**O patch é criado para a versão do Adobe Commerce:**
+**O patch foi criado para a versão do Adobe Commerce:**
 
 * Adobe Commerce na infraestrutura em nuvem 2.3.4-p2
 
@@ -27,38 +27,38 @@ O patch MDVA-30837 adiciona opções de configuração para o cálculo de frete 
 
 >[!NOTE]
 >
->O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com sua versão do Adobe Commerce, atualize o `magento/quality-patches` pacote para a versão mais recente e verifique a compatibilidade no [[!DNL Quality Patches Tool]: Página Procurar patches](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+>O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com a sua versão do Adobe Commerce, atualize o pacote `magento/quality-patches` para a versão mais recente e verifique a compatibilidade na [[!DNL Quality Patches Tool]: página Procurar patches](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
 
 ## Problema
 
-O patch MDVA-30837 adiciona a definição de configuração para definir o **Valor Mínimo do Pedido** configuração para obter frete grátis com base no Subtotal (ou Total geral):
+O patch MDVA-30837 adiciona a configuração para definir a configuração **Quantia Mínima do Pedido** para obter frete grátis com base no Subtotal (ou Total Geral):
 
 * **Incluir Imposto no Valor**: *Sim/Não* na configuração do método de envio gratuito.
-   * Quando **Incluir Imposto no Valor** está definida como *Sim*, o valor mínimo do pedido é calculado como Subtotal + Imposto - Desconto.
-   * Quando **Incluir Imposto no Valor** está definida como *Não*, o valor mínimo do pedido é calculado como Subtotal - Desconto.
+   * Quando **Incluir Imposto no Valor** estiver definido como *Sim*, o valor mínimo da ordem será calculado como Subtotal + Imposto - Desconto.
+   * Quando **Incluir Imposto no Valor** estiver definido como *Não*, o valor mínimo da ordem será calculado como Subtotal - Desconto.
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. Ir para **Lojas** > Configurações > **Configuração** > **Vendas** > **Imposto** e defina o seguinte:
+1. Vá para **Lojas** > Configurações > **Configuração** > **Vendas** > **Imposto** e defina o seguinte:
 
-   * Cálculo do Imposto Baseado em *Endereço de entrega*
-   * Ativar comércio transfronteiriço: *Não*
-   * Exibir Preços de Produção no Catálogo: *Excluindo Imposto*
-   * Exibir preços de envio: *Excluindo Imposto*
-   * Exibir preços: *Excluindo Imposto*
+   * Cálculo de Imposto Baseado em *Endereço de Remessa*
+   * Habilitar Comércio Transfronteiriço: *Não*
+   * Exibir Preços de Produtos no Catálogo: *Excluindo Imposto*
+   * Exibir Preços De Envio: *Excluindo Imposto*
+   * Exibir Preços: *Excluindo Imposto*
    * Exibir Subtotal: *Excluindo Imposto*
-   * Exibir Valor da Remessa: *Excluindo Imposto*
-   * Exibir preços de quebra de presente: *Excluindo Imposto*
-   * Exibir preços de cartão impresso: *Excluindo Imposto*
-   * Incluir imposto no total do pedido: *Sim*
-   * Exibir Sumário de Imposto Completo: *Sim*
+   * Exibir Valor Do Envio: *Excluindo Imposto*
+   * Exibir Preços De Encapsulamento De Presente: *Excluindo Imposto*
+   * Exibir Preços do Cartão Impresso: *Excluindo Imposto*
+   * Incluir Imposto no Total do Pedido: *Sim*
+   * Exibir Resumo Completo de Impostos: *Sim*
 
-1. Ir para **Vendas** > **Configurações de envio** > **Envio gratuito** e defina **Valor Mínimo do Pedido** = *30*.
-1. Ir para **Marketing** > Promoções > **Regras de preço do carrinho** e criar uma nova regra de preço (para obter etapas detalhadas, consulte [Criar uma regra de preço do carrinho](https://docs.magento.com/user-guide/marketing/price-rules-cart-create.html) no guia do usuário).
+1. Vá para **Vendas** > **Configurações de Remessa** > **Remessa Gratuita** e defina o **Valor Mínimo do Pedido** = *30*.
+1. Acesse **Marketing** > Promoções > **Regras de preço do carrinho** e crie uma nova regra de preço (para obter etapas detalhadas, consulte [Criar uma regra de preço do carrinho](https://docs.magento.com/user-guide/marketing/price-rules-cart-create.html) no guia do usuário).
 
    * Código Do Cupom = *Cupom Específico*.
    * Condições: Subtotal igual ou maior que US$ 25.
-   * Ações: envio gratuito = *Para entregas com itens correspondentes*.
+   * Ações: Remessa gratuita = *Para remessas com itens correspondentes*.
 
 1. Crie um produto com um preço de US$ 23,10.
 1. Adicione o imposto CA à regra de imposto padrão.
@@ -68,10 +68,10 @@ O patch MDVA-30837 adiciona a definição de configuração para definir o **Val
 
 <u>Resultados esperados</u>:
 
-Há uma definição de configuração adicional - Incluir Imposto na Quantia: *Sim*/*Não* na configuração do método de envio gratuito:
+Há uma definição de configuração adicional - Incluir Imposto no Valor: *Sim*/*Não* na configuração do método de envio gratuito:
 
-* Quando Incluir Imposto no Valor estiver definido como *Sim*, a Quantia Mínima do Pedido é calculada como Subtotal + Imposto - Desconto.
-* Quando Incluir Imposto no Valor estiver definido como *Não*, a Quantia Mínima do Pedido é calculada como Subtotal - Desconto.
+* Quando Incluir Imposto no Valor estiver definido como *Sim*, o Valor Mínimo do Pedido será calculado como Subtotal + Imposto - Desconto.
+* Quando Incluir Imposto no Valor estiver definido como *Não*, o Valor Mínimo do Pedido será calculado como Subtotal - Desconto.
 
 <u>Resultados reais</u>:
 
@@ -81,14 +81,14 @@ A condição da regra de preço de Frete Gratuito só pode ser baseada no Subtot
 
 Para aplicar patches individuais, use os links a seguir, dependendo do método de implantação:
 
-* Adobe Commerce ou Magento Open Source no local: [Guia de atualização de software > Aplicar patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) na documentação do desenvolvedor.
-* Adobe Commerce na infraestrutura em nuvem: [Upgrades e Patches > Aplicar Patches](https://devdocs.magento.com/cloud/project/project-patch.html) na documentação do desenvolvedor.
+* Adobe Commerce ou Magento Open Source no local: [Guia de Atualização de Software > Aplicar Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) na documentação do desenvolvedor.
+* Adobe Commerce na infraestrutura em nuvem: [Atualizações e patches > Aplicar patches](https://devdocs.magento.com/cloud/project/project-patch.html) na documentação do desenvolvedor.
 
 ## Leitura relacionada
 
 Para saber mais sobre a Ferramenta de correção de qualidade, consulte:
 
-* [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatendimento de correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de conhecimento de suporte.
-* [Verifique se o patch está disponível para o problema do Adobe Commerce usando a Ferramenta de patches de qualidade](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de conhecimento de suporte.
+* [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatender correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de dados de conhecimento de suporte.
+* [Verifique se o patch está disponível para o problema do Adobe Commerce usando a Ferramenta de Patches de Qualidade](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de dados de conhecimento de suporte.
 
 Para obter informações sobre outros patches disponíveis no QPT, consulte [Patches disponíveis no QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) na documentação do desenvolvedor.

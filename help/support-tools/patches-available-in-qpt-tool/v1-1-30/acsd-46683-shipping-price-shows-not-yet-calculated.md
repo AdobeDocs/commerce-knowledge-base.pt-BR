@@ -11,13 +11,13 @@ ht-degree: 0%
 
 ---
 
-# ACSD-46683: preços de envio *Ainda não calculado*
+# ACSD-46683: O preço de envio mostra *Ainda não calculado*
 
-O patch ACSD-46683 corrige o problema em que o preço de envio mostra *Ainda não calculado*. Este patch está disponível quando a variável [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) O 1.1.30 está instalado. A ID do patch é ACSD-46683. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.7.
+O patch ACSD-46683 corrige o problema em que o preço de envio mostra *Ainda não calculado*. Este patch está disponível quando o [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30 está instalado. A ID do patch é ACSD-46683. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.7.
 
 ## Produtos e versões afetados
 
-**O patch é criado para a versão do Adobe Commerce:**
+**O patch foi criado para a versão do Adobe Commerce:**
 
 * Adobe Commerce (todos os métodos de implantação) 2.4.3-p2
 
@@ -27,7 +27,7 @@ O patch ACSD-46683 corrige o problema em que o preço de envio mostra *Ainda nã
 
 >[!NOTE]
 >
->O patch pode se tornar aplicável a outras versões com novos [!DNL Quality Patches Tool] versões. Para verificar se o patch é compatível com sua versão do Adobe Commerce, atualize o `magento/quality-patches` pacote para a versão mais recente e verifique a compatibilidade no [[!DNL Quality Patches Tool]: Página Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+>O patch pode se tornar aplicável a outras versões com as novas versões do [!DNL Quality Patches Tool]. Para verificar se o patch é compatível com a sua versão do Adobe Commerce, atualize o pacote `magento/quality-patches` para a versão mais recente e verifique a compatibilidade na [[!DNL Quality Patches Tool]: página Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
 
 ## Problema
 
@@ -39,14 +39,14 @@ Os módulos Adobe Commerce Inventory management (MSI) são instalados.
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. Criar um produto simples e definir seu preço como *$ 34*.
+1. Crie um produto simples e defina seu preço como *$34*.
 1. Configure o método de delivery de frete grátis.
 1. Configure pelo menos mais um método de delivery.
-1. Ir para **[!UICONTROL Marketing]** > **[!UICONTROL Cart Price Rules]** e crie uma nova regra:
-   * Nome = *75mais*
+1. Vá para **[!UICONTROL Marketing]** > **[!UICONTROL Cart Price Rules]** e crie uma nova regra:
+   * Nome = *75more*
    * Cupom = Nenhum
    * Prioridade = 1
-   * Condições: O subtotal é igual ou maior que *$ 75*
+   * Condições: Subtotal é igual ou maior que *$75*
    * Ações:
       * Aplicar à Quantia de Entrega = Sim
       * Descartar regras subsequentes = Não
@@ -64,10 +64,10 @@ Os módulos Adobe Commerce Inventory management (MSI) são instalados.
       * Frete Gratuito = Não
 1. Abra a loja e adicione três produtos ao carrinho para que o subtotal exceda US$ 75.
 1. Prossiga para o check-out como convidado.
-1. Na etapa de envio, selecione **US$ 0 - frete grátis** e prossiga para a etapa de pagamento.
-1. Verifique a [!UICONTROL Order Summary] na etapa de pagamento. Ele mostra *[!UICONTROL $0 - Free Shipping - Free]*.
-1. Aplicar o código do cupom *35off*, ele atualizará o subtotal e o tornará inferior a US$ 75.
-1. Marcar [!UICONTROL Order Summary] na etapa de pagamento.
+1. Na etapa de envio, selecione **$0 - envio gratuito** e prossiga para a etapa de pagamento.
+1. Verifique o [!UICONTROL Order Summary] na etapa de pagamento. Ele mostra *[!UICONTROL $0 - Free Shipping - Free]*.
+1. Aplique o código do cupom *35off*, ele atualizará o subtotal e o tornará menor que $75.
+1. Verifique [!UICONTROL Order Summary] na etapa de pagamento.
 
 <u>Resultados esperados</u>:
 
@@ -75,20 +75,20 @@ A seguinte mensagem é exibida: *O método de envio selecionado não está dispo
 
 <u>Resultados reais</u>:
 
-O preço de envio é exibido *Ainda não calculado*.
+O preço de envio exibe *Ainda não calculado*.
 
 ## Aplicar o patch
 
 Para aplicar patches individuais, use os links a seguir, dependendo do método de implantação:
 
-* Adobe Commerce ou Magento Open Source no local: [[!DNL Quality Patches Tool] > Uso](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) no [!DNL Quality Patches Tool] guia.
-* Adobe Commerce na infraestrutura em nuvem: [Upgrades e Patches > Aplicar Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) no guia do Commerce na infraestrutura em nuvem.
+* Adobe Commerce ou Magento Open Source no local: [[!DNL Quality Patches Tool] > Uso](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) no guia [!DNL Quality Patches Tool].
+* Adobe Commerce na infraestrutura em nuvem: [Atualizações e patches > Aplicar patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) no guia do Commerce na infraestrutura em nuvem.
 
 ## Leitura relacionada
 
 Para saber mais sobre [!DNL Quality Patches Tool], consulte:
 
-* [[!DNL Quality Patches Tool] lançado: uma nova ferramenta para autoatender correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de conhecimento de suporte.
-* [Verifique se o patch está disponível para o problema do Adobe Commerce usando [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de conhecimento de suporte.
+* [[!DNL Quality Patches Tool] versão: uma nova ferramenta para autoatender patches de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de dados de conhecimento de suporte.
+* [Verifique se há um patch disponível para o problema do Adobe Commerce usando o [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de dados de conhecimento de suporte.
 
-Para obter informações sobre outros patches disponíveis no QPT, consulte [[!DNL Quality Patches Tool]: Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) no [!DNL Quality Patches Tool] guia.
+Para obter informações sobre outros patches disponíveis no QPT, consulte [[!DNL Quality Patches Tool]: Pesquisar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) no guia [!DNL Quality Patches Tool].

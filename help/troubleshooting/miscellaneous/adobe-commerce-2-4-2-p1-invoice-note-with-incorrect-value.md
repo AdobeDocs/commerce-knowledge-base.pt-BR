@@ -26,20 +26,20 @@ Quando o grupo de clientes é alterado no momento da criação da ordem, a fatur
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. Criar um **Testar Conta do Cliente** e adicione-o à **Grupo de Clientes de Varejo**.
-1. Criar um **Novo pedido** para o cliente de teste, adicione **Produto** e **Endereço**.
-1. Selecionar **Método de envio**.
-1. No **Informações da conta** seção, alterar grupo de clientes de **Varejista** para **Governo**.
+1. Crie uma **Conta de Cliente de Teste** e adicione-a ao **Grupo de Clientes de Varejo**.
+1. Criar um **Novo Pedido** para o cliente de teste, adicionar **Produto** e **Endereço**.
+1. Selecione **Método de envio**.
+1. Na seção **Informações da Conta**, altere o grupo de clientes de **Varejista** para **Governo**.
 1. Clique em **Fazer pedido**.
-1. Clique em **Fatura** > **Enviar fatura**.
+1. Clique em **Fatura** > **Enviar Fatura**.
 
 <u>Resultados esperados</u>:
 
-A seguinte nota deve aparecer sob o título **Notas deste pedido**  seção: &quot;Fatura de vértice enviada com êxito. Quantia: US$ 0,00.&quot;
+A seguinte observação deve aparecer na seção **Notas desta ordem**: &quot;Fatura de vértice enviada com êxito. Quantia: US$ 0,00.&quot;
 
 <u>Resultados reais</u>:
 
-A seguinte observação aparece sob o **Notas deste pedido** seção: &quot;Fatura de vértice enviada com êxito. Quantia: US$ 3,23.&quot;
+A seguinte observação é exibida na seção **Observações para esta ordem**: &quot;Fatura Vertex enviada com êxito. Quantia: US$ 3,23.&quot;
 
 ## Solução
 

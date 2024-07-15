@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # PWA Studio: o Webpack trava antes de iniciar a compilação
 
-Este artigo fala sobre uma solução sugerida para quando um javascript [Webpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack) O trava há muito tempo antes de iniciar a compilação no Progressive Web App Studio (PWA Studio).
+Este artigo fala sobre uma solução sugerida para quando um javascript [Webpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack) trava por muito tempo antes de iniciar a compilação no Progressive Web App Studio (PWA Studio).
 
 ## Produtos e versões afetados
 
@@ -21,13 +21,13 @@ Este artigo fala sobre uma solução sugerida para quando um javascript [Webpack
 
 ## Problema
 
-[Verifique qual é a versão mais recente do pwa-buildpack](https://github.com/magento/pwa-studio/tree/master/packages/pwa-buildpack), e o
+[Verifique qual é a versão mais recente do pwa-buildpack](https://github.com/magento/pwa-studio/tree/master/packages/pwa-buildpack) e a
 
 ```yaml
 pwa-buildpack
 ```
 
-o número da versão estará ao lado da variável `package.json` listagem do nome do arquivo. Se você tiver uma versão antiga do
+o número da versão estará ao lado da lista de nomes de arquivo `package.json`. Se você tiver uma versão antiga do
 
 ```yaml
 pwa-buildpack
@@ -37,7 +37,7 @@ projeto, o webpack pode travar por muito tempo antes de iniciar a compilação.
 
 <u>Etapas a serem reproduzidas</u>:
 
-<u>Pré-requisitos</u>: configure uma loja de PWA Studio, como Venia, com uma instância local do Adobe Commerce e execute um
+<u>Pré-requisitos</u>: configure uma loja de PWA Studio, como Venia, com uma instância do Adobe Commerce local e execute um
 
 ```yaml
 build
@@ -88,12 +88,12 @@ openssl version
 
 A versão deve ser a 1.0 ou superior (ou LibreSSL 2, no caso do OSX High Sierra).
 
-Você pode instalar versões superiores do OpenSSL com [Homebrew](https://brew.sh/) no OSX, [Chocolatey](https://chocolatey.org/) no Windows ou no gerenciador de pacotes da sua distribuição Linux.
+Você pode instalar versões superiores do OpenSSL com o [Homebrew](https://brew.sh/) no OSX, o [Chocolatey](https://chocolatey.org/) no Windows ou o gerenciador de pacotes da sua distribuição Linux.
 
 ## Leitura relacionada
 
-* [Javascript Webpack: Conceitos](https://webpack.js.org/concepts/)
+* [Webpack de Javascript: Conceitos](https://webpack.js.org/concepts/)
 * [Configuração da vitrine Venia](https://magento.github.io/pwa-studio/venia-pwa-concept/setup/)
-* [PWA Buildpack](https://magento.github.io/pwa-studio/pwa-buildpack/)
-* [Interface de linha de comando do buildpack](https://magento.github.io/pwa-studio/pwa-buildpack/reference/buildpack-cli/)
+* [Pacote de compilação do PWA](https://magento.github.io/pwa-studio/pwa-buildpack/)
+* [Interface de Linha de Comando do buildpack](https://magento.github.io/pwa-studio/pwa-buildpack/reference/buildpack-cli/)
 * [Ferramentas e bibliotecas: buildpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack)

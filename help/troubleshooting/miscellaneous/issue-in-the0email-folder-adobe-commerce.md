@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # A permissão var/export da pasta emite Adobe Commerce na nuvem
 
-Este artigo fornece uma solução para um problema em que você não pode exportar dados do produto devido a um problema de permissões de arquivo no servidor do `var/export/email` pasta. Os sintomas incluem exportações de Produto e Catálogo não disponíveis na interface do usuário, mas visíveis ao usar SSH.
+Este artigo fornece uma solução para um problema em que você não pode exportar dados do produto devido a um problema de permissões de arquivo no servidor na pasta `var/export/email`. Os sintomas incluem exportações de Produto e Catálogo não disponíveis na interface do usuário, mas visíveis ao usar SSH.
 
 ## Produtos e versões afetados
 
@@ -21,13 +21,13 @@ Adobe Commerce na infraestrutura em nuvem, 2.3.0-2.3.7-p2, 2.4.0-2.4.3-p1
 
 ## Problema
 
-Não é possível exportar arquivos no `var/export/email` ou `var/export/archive` pasta.
-Esta implantação falhou devido a permissões em `var/export/email` ou `var/export/email/archive` como a pasta de arquivamento é criada por email e se eu apenas fizer a exportação/email, às vezes ainda há um problema) além de adicionar algo à conta para a subpasta `var/export/email/archive`.
+Não é possível exportar arquivos na pasta `var/export/email` ou `var/export/archive`.
+Esta implantação falhou devido a permissões em `var/export/email` ou `var/export/email/archive` porque a pasta de arquivamento é criada por email e se eu apenas fizer a exportação/email (às vezes, ainda há um problema) que não seja adicionar algo à conta para a subpasta `var/export/email/archive`.
 
 <u>Etapas a serem reproduzidas</u>:
 
-No Administrador, acesse **Sistema** > *Transferência de dados* > **Exportar**.
-Selecione os arquivos CSV a serem salvos na `var/export/` pasta.
+No Admin, vá para **Sistema** > *Transferência de Dados* > **Exportar**.
+Selecione os arquivos CSV para salvar na pasta `var/export/`.
 
 <u>Resultado esperado</u>:
 
@@ -35,13 +35,13 @@ Os arquivos CSV estão visíveis e podem ser exportados.
 
 <u>Resultado real</u>:
 
-Os arquivos CSV não estão visíveis. Você também verá uma mensagem de permissão negada: *RecursiveDirectoryIterator::__construct(/app/project id>/var/export/email): falha ao abrir dir: Permissão negada*
+Os arquivos CSV não estão visíveis. Você também vê uma mensagem de permissão negada: *RecursiveDirectoryIterator::__construct(/app/project id>/var/export/email): falha ao abrir o dir: Permissão negada*
 
 Você recebe a mesma mensagem para todos os tipos de exportação: Advanced Pricing, Customer Finances, Customer Main File e Customer Addresses.
 
 ## Causa
 
-Isso é causado por uma pasta criada dentro de `/var` que tem permissões imperfeitas: `d-wxrwsr-T`. O bit fixo T significa que os usuários só podem excluir os arquivos que possuem, mas o executável ausente significa que não podem criar arquivos no diretório.
+Isso é causado por uma pasta criada em `/var` que tem permissões imperfeitas: `d-wxrwsr-T`. O bit fixo T significa que os usuários só podem excluir os arquivos que possuem, mas o executável ausente significa que não podem criar arquivos no diretório.
 
 Isso geralmente é notado quando o sistema cria uma pasta chamada `export`, que contém uma pasta chamada `email`, que contém uma pasta chamada `archive`.
 

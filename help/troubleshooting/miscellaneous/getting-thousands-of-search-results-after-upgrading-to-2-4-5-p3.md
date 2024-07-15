@@ -17,14 +17,14 @@ Este artigo fornece uma solução para o problema em que você obtém milhares d
 
 ## Produtos e versões afetados
 
-* Todas as versões do Adobe Commerce com [!DNL ElasticSearch] instalado
+* Adobe Commerce todas as versões com [!DNL ElasticSearch] instalado
 
 ## Problemas
 
-Você está procurando um produto específico (por exemplo, *WSH12-32-Vermelho*), mas a pesquisa retorna muitos produtos semelhantes.
+Você está procurando um produto específico (por exemplo, *WSH12-32-Red*), mas a pesquisa retorna muitos produtos semelhantes.
 
 ## Soluções
 
-A natureza de uma pesquisa de texto completo no [!DNL ElasticSearch] é baseado na relevância, não na correspondência exata. Portanto, as correspondências mais relevantes (como SKU com correspondência exata) são solicitadas primeiro.
+A natureza de uma pesquisa de texto completo em [!DNL ElasticSearch] é baseada na relevância, não na correspondência exata. Portanto, as correspondências mais relevantes (como SKU com correspondência exata) são solicitadas primeiro.
 
-No entanto, se você precisar de um resultado de pesquisa que corresponda exatamente ao termo de pesquisa (correspondência exata), você deve usar aspas para a consulta de pesquisa. Por exemplo, query para *WSH12-32-Vermelho* sem aspas retornará vários resultados com a correspondência exata (produto com *SKU WSH12-32-Vermelho*) que aparece primeiro no resultado. Mas consulta citada *&quot;WSH12-32-Vermelho&quot;* retornará apenas um resultado de correspondência exata.
+No entanto, se você precisar de um resultado de pesquisa que corresponda exatamente ao termo de pesquisa (correspondência exata), você deve usar aspas para a consulta de pesquisa. Por exemplo, a consulta para *WSH12-32-Red* sem aspas retornará vários resultados com a correspondência exata (produto com *SKU WSH12-32-Red*) aparecendo primeiro no resultado. Mas a consulta citada *&quot;WSH12-32-Red&quot;* retornará apenas um resultado de correspondência exata.

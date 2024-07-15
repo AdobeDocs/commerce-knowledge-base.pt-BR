@@ -17,7 +17,7 @@ Este artigo fornece um patch para o problema conhecido do Adobe Commerce 2.2.2 r
 
 ## Problema
 
-Quando você define/altera o preço especial de um produto, a data e a hora atuais são salvas no banco de dados como um valor para a variável `special_from_date` atributo (não visível ao editar um produto). Se você editar o preço especial e sua conta de usuário administrador for definida como um local de interface diferente, um valor incorreto poderá ser definido como `special_from_date` devido aos problemas na análise do formato de data para locais diferentes.
+Ao definir/alterar o preço especial de um produto, a data e a hora atuais são salvas no banco de dados como um valor para o atributo `special_from_date` (não visível ao editar um produto). Se você editar o preço especial e sua conta de usuário administrador for definida como uma localidade de interface diferente, um valor incorreto poderá ser definido como `special_from_date` devido aos problemas no formato de data de análise para localidades diferentes.
 
 <u>Etapas a serem reproduzidas</u>:
 
@@ -33,7 +33,7 @@ Pré-requisitos: a localidade do usuário administrador é inglês (Estados Unid
 1. Adicione um preço especial.
 1. Salve o produto.
 1. Repita as etapas 7 a 9.
-1. Ir para **Sistema** > **Logs de ação**.
+1. Vá para **Sistema** > **Logs de Ação**.
 1. Verifique o log para obter atualizações de produto.
 
 <u>Resultados esperados</u>:

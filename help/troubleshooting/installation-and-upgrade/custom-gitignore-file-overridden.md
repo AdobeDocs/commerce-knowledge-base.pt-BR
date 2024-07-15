@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # O comando de instalação do Composer substitui o arquivo .gitignore, Adobe Commerce
 
-Este artigo fornece uma solução para quando um `.gitignore` o arquivo é substituído pelo composer no Adobe Commerce na infraestrutura em nuvem 2.4.2-p1 e 2.3.7.
+Este artigo fornece uma solução para quando um arquivo `.gitignore` rastreado é substituído pelo compositor no Adobe Commerce na infraestrutura de nuvem 2.4.2-p1 e 2.3.7.
 
 ## Produtos e versões afetados
 
@@ -21,7 +21,7 @@ Adobe Commerce na infraestrutura em nuvem 2.4.2-p1 e 2.3.7.
 
 ## Problema
 
-`.gitignore` o arquivo está sendo sobrescrito ao executar o comando de instalação do composer.
+O arquivo `.gitignore` está sendo substituído durante a execução do comando de instalação do compositor.
 
 <u>Etapas a serem reproduzidas</u>:
 
@@ -58,15 +58,15 @@ Adobe Commerce na infraestrutura em nuvem 2.4.2-p1 e 2.3.7.
 
 <u>Resultado esperado</u>:
 
-`.gitignore` não é substituído pelo compositor.
+`.gitignore` não foi substituído pelo compositor.
 
 <u>Resultado real</u>:
 
-`.gitignore` é substituído por cada execução de instalação do composer.
+`.gitignore` é substituído por cada execução de instalação do compositor.
 
 ## Solução
 
-Para manter sua `.gitignore file` você precisa ignorá-lo na variável `magento-deploy-ignore` seção.
+Para manter seu `.gitignore file` personalizado, você precisa ignorá-lo na seção `magento-deploy-ignore`.
 
 ```git
 {
@@ -84,4 +84,4 @@ Para manter sua `.gitignore file` você precisa ignorá-lo na variável `magento
 
 ## Leitura relacionada
 
-* [O arquivo .gitignore rastreado é substituído pelo compositor!](https://github.com/magento/magento2/issues/32888) no GitHub Magento2.
+* [O arquivo .gitignore rastreado foi substituído pelo compositor!](https://github.com/magento/magento2/issues/32888) no GitHub Magento2.

@@ -26,12 +26,12 @@ Quando os produtos de catálogo são criados ou atualizados programaticamente a 
 
 ## Causa
 
-O problema pode aparecer devido a restrições de ACL definidas para as funções de administrador da instância do Adobe Commerce. No caso de um aplicativo inicializado, não haverá sessões de administrador inicializadas com configurações de ACL apropriadas. Isso causaria a falha das validações no `Magento_AdminGws` que é responsável pela verificação de permissões dessas ações.
+O problema pode aparecer devido a restrições de ACL definidas para as funções de administrador da instância do Adobe Commerce. No caso de um aplicativo inicializado, não haverá sessões de administrador inicializadas com configurações de ACL apropriadas. Isso resultaria em falha nas validações no módulo `Magento_AdminGws`, que é responsável pela verificação de permissões dessas ações.
 
 ## Solução para status de produto incorreto
 
-Defina uma preferência de ID dinâmica para a variável `Magento\Framework\Authorization\PolicyInterface`, conforme descrito na seção [ObjectManager>Atualizações programáticas do produto](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/object-manager.html#programmatic-product-updates) tópico na documentação do desenvolvedor.
+Defina uma preferência de ID dinâmica para o `Magento\Framework\Authorization\PolicyInterface`, conforme descrito no tópico [ObjectManager>Atualizações programáticas do produto](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/object-manager.html#programmatic-product-updates) da documentação do desenvolvedor.
 
 ## Leitura relacionada
 
-* [GitHub: não é possível alterar o status do produto que foi criado com o productRepository](https://github.com/magento/magento2/issues/5664)
+* [Github: não é possível alterar o status do produto que foi criado com productRepository](https://github.com/magento/magento2/issues/5664)

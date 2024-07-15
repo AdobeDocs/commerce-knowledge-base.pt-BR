@@ -19,9 +19,9 @@ Este artigo é uma ferramenta de solução de problemas para usuários locais do
 
 +++Problema de Redis?
 
-a. SIM - Vá para [Etapa 2](#step2)</a>.
+a. SIM - Continue na [Etapa 2](#step2)</a>.
 
-b. NÃO - Retornar para [support.magento.com](https://support.magento.com/hc/en-us) e procure por artigos relevantes para a solução de problemas.
+b. NÃO - Retorne ao [support.magento.com](https://support.magento.com/hc/en-us) e procure artigos relevantes para a solução de problemas.
 
 +++
 
@@ -29,9 +29,9 @@ b. NÃO - Retornar para [support.magento.com](https://support.magento.com/hc/en-
 
 +++Patches Redis atuais instalados?
 
-a. SIM - Vá para [Etapa 3](#step3)</a>.
+a. SIM - Continue na [Etapa 3](#step3)</a>.
 
-b. NÃO - Verifique se você tem a versão mais recente do pacote `magento-cloud-patches` instalado. Este pacote tem os patches necessários para o Redis. Para acessar, acesse [Magneto-cloud-patches do GitHub](https://github.com/magento/magento-cloud-patches/).
+b. NÃO - Verifique se você tem a versão mais recente do pacote `magento-cloud-patches` instalada. Este pacote tem os patches necessários para o Redis. Para acessar, acesse [GitHub magneto-cloud-patches](https://github.com/magento/magento-cloud-patches/).
 
 +++
 
@@ -39,23 +39,23 @@ b. NÃO - Verifique se você tem a versão mais recente do pacote `magento-cloud
 
 +++No Redis versões 3.2 ou 5.0?
 
-Verifique executando os seguintes comandos na CLI. Pro ou armazenamento temporário: `$ redis-cli -p %port-number% info | grep redis_version`, onde `%port-number%` é o número da porta, que pode ser encontrado no campo `app/etc/env.php` ou executando um destes comandos: `$ vendor/bin/ece-tools env:config:show | grep -i redis -A 3` ou `$ cat app/etc/env.php | grep redis -A 3` Início ou integração: `$ redis-cli -h 'redis.internal' info | grep redis_version`
+Verifique executando os seguintes comandos na CLI. Pro ou Staging: `$ redis-cli -p %port-number% info | grep redis_version`, onde `%port-number%` é o número da porta, que pode ser encontrado no arquivo `app/etc/env.php` ou executando um destes comandos: `$ vendor/bin/ece-tools env:config:show | grep -i redis -A 3` ou `$ cat app/etc/env.php | grep redis -A 3` Starter ou Integração: `$ redis-cli -h 'redis.internal' info | grep redis_version`
 
-a. SIM - Vá para [Etapa 4](#step4).
+a. SIM - Continue na [Etapa 4](#step4).
 
-b. NÃO - a Adobe Commerce oferece suporte às versões 3.2 e 5.0 do Redis. Se você estiver executando o Adobe Commerce na infraestrutura em nuvem 2.3.3 ou superior, recomendamos atualizar para o Redis 5. Para obter etapas de configuração sobre a arquitetura do plano Pro da infraestrutura em nuvem do Adobe Commerce, ambientes de Integração e Início, incluindo a ramificação mestre, consulte [Adobe Commerce na infraestrutura em nuvem > Configurar o serviço Redis](https://devdocs.magento.com/cloud/project/services-redis.html)</a> na documentação do desenvolvedor. **É necessário [enviar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) para alterar a configuração do serviço nos ambientes de produção e preparo da arquitetura Pro. Além disso, para o Adobe Commerce na infraestrutura em nuvem e o Adobe Commerce no local 2.3.5+, recomenda-se a implementação do cache Redis estendido. Esse tipo de implementação do cache Redis fornece melhorias que minimizam o número de consultas a Redis que são executadas em cada solicitação Adobe Commerce. Para obter etapas, consulte [Implementação do cache Redis estendido Adobe Commerce 2.3.5+](https://support.magento.com/hc/en-us/articles/360049292532) em nossa base de conhecimento de suporte. Para todos os outros usuários do Adobe Commerce, consulte [Guia de configuração do Adobe Commerce > Configurar Redis](https://devdocs.magento.com/guides/v2.4/config-guide/redis/config-redis.html) na documentação do desenvolvedor, para obter etapas.
+b. NÃO - a Adobe Commerce oferece suporte às versões 3.2 e 5.0 do Redis. Se você estiver executando o Adobe Commerce na infraestrutura em nuvem 2.3.3 ou superior, recomendamos atualizar para o Redis 5. Para obter as etapas de configuração dos ambientes Pro plan architecture, Integration and Starter do Adobe Commerce on cloud infrastructure, incluindo a ramificação mestre, consulte [Adobe Commerce on cloud infrastructure > Configurar o serviço Redis](https://devdocs.magento.com/cloud/project/services-redis.html)</a> em nossa documentação para desenvolvedores. **Você deve [enviar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) para alterar a configuração do serviço em ambientes de Produção e Preparo da arquitetura Pro. Além disso, para o Adobe Commerce na infraestrutura em nuvem e o Adobe Commerce no local 2.3.5+, recomenda-se a implementação do cache Redis estendido. Esse tipo de implementação do cache Redis fornece melhorias que minimizam o número de consultas a Redis que são executadas em cada solicitação Adobe Commerce. Para ver as etapas, consulte [Implementação do cache Redis estendido Adobe Commerce 2.3.5+](https://support.magento.com/hc/en-us/articles/360049292532) em nossa knowledge base de suporte. Para todos os outros usuários do Adobe Commerce, consulte o [Guia de Configuração do Adobe Commerce > Configurar Redis](https://devdocs.magento.com/guides/v2.4/config-guide/redis/config-redis.html) na documentação do desenvolvedor, para ver as etapas.
 
 +++
 
 ## Etapa 4 - Verificar a versão mais recente de ECE-Tools {#step-4}
 
-+++Você tem a versão mais recente do [Ferramentas ECE > v2002.1.1](https://github.com/magento/ece-tools/releases)?
++++Você tem a versão mais recente do [ECE Tools > v2002.1.1](https://github.com/magento/ece-tools/releases)?
 
 Verifique qual versão você tem executando o comando no CLI/Terminal: `$php vendor/bin/composer info magento/ece-tools`.
 
-a. SIM - Vá para [Etapa 5](#step5).
+a. SIM - Continue na [Etapa 5](#step5).
 
-b. NÃO - [Atualizar ECE-Tools](https://devdocs.magento.com/cloud/project/ece-tools-update.html) para a versão mais recente.
+b. NÃO - [Atualize ECE-Tools](https://devdocs.magento.com/cloud/project/ece-tools-update.html) para a versão mais recente.
 
 +++
 
@@ -63,9 +63,9 @@ b. NÃO - [Atualizar ECE-Tools](https://devdocs.magento.com/cloud/project/ece-to
 
 +++Há muito tráfego de rede entre o aplicativo e o Redis?
 
-a. SIM - Tente o seguinte: para uma arquitetura não dividida, verifique se uma [conexão secundária](/help/troubleshooting/database/mysql-high-load-bottleneck-in-magento-commerce-cloud.md) é usada. Para arquitetura dividida, a variável [O cache L2 deve estar habilitado](https://devdocs.magento.com/guides/v2.4/config-guide/cache/two-level-cache.html).
+a. SIM - Tente o seguinte: para uma arquitetura não dividida, verifique se uma [conexão secundária](/help/troubleshooting/database/mysql-high-load-bottleneck-in-magento-commerce-cloud.md) está sendo usada. Para arquitetura dividida, o cache L2 [deve ser habilitado](https://devdocs.magento.com/guides/v2.4/config-guide/cache/two-level-cache.html).
 
-b. NÃO - Define a configuração do cache L2 utilizando [Atualizando backend Redis](https://devdocs.magento.com/cloud/env/variables-deploy.html#redis_backend). Vá para [Etapa 6](#step6).
+b. NO - Configure a configuração do cache L2 por [Atualizando o Back-end Redis](https://devdocs.magento.com/cloud/env/variables-deploy.html#redis_backend). Vá para a [Etapa 6](#step6).
 
 +++
 
@@ -73,7 +73,7 @@ b. NÃO - Define a configuração do cache L2 utilizando [Atualizando backend Re
 
 +++O site ainda está funcionando lentamente após ativar o cache L2?
 
-a. SIM - Verifique o diretório temporário `/dev/shm` para ver se é necessário aumentar o espaço. Se precisar de mais espaço, [enviar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+a. SIM - Verifique o diretório temporário `/dev/shm` para ver se você precisa aumentar o espaço. Se precisar de mais espaço, [envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 b. NÃO - A ativação do cache L2 parece ter resolvido seus problemas com o Redis.
 
 +++

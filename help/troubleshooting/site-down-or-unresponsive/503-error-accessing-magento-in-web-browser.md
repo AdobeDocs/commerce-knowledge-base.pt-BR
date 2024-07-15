@@ -23,7 +23,7 @@ Adobe Commerce 2.3.x
 
 <u>Etapas a serem reproduzidas</u>
 
-(Pré-requisitos: verifique se o armazenamento não está em [modo de manutenção](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-mode.html#config-mode-show)).
+(Pré-requisitos: verifique se o repositório não está no [modo de manutenção](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-mode.html#config-mode-show)).
 
 Navegue até o administrador do Commerce ou a loja em um navegador da Web.
 
@@ -35,15 +35,15 @@ A página é carregada.
 
 Você recebe o erro HTTP 503 (Serviço indisponível). O Apache `error.log` inclui a seguinte mensagem:
 
-*Comando inválido &quot;Order&quot;, talvez com ortografia incorreta ou definido por um módulo não incluído na configuração do servidor.*
+*Comando &#39;Ordem&#39; inválido, talvez com ortografia incorreta ou definido por um módulo não incluído na configuração do servidor.*
 
 ## Causa {#details}
 
-Módulo de compatibilidade do Apache 2.4 `mod_access_compat` está desativado, o que resulta em substituições de URL do Adobe Commerce que não funcionam corretamente.
+O módulo de compatibilidade `mod_access_compat` do Apache 2.4 está desabilitado, o que resulta em regravações de URL Adobe Commerce não funcionando corretamente.
 
 ## Solução {#suggested-solution}
 
-Ativar o `mod_access_compat` Módulo Apache e reinicie o Apache, executando o seguinte como um usuário com privilégios &quot;root&quot;:
+Habilite o módulo Apache `mod_access_compat` e reinicie o Apache, executando o seguinte como um usuário com privilégios &#39;root&#39;:
 
 ```bash
 a2enmod access_compat
@@ -80,5 +80,5 @@ apache2
 
 * [Documentação do Apache sobre mod\_access\_compat](https://httpd.apache.org/docs/current/mod/mod_access_compat.html)
 * [Documentação do Apache sobre mod\_authz\_host](https://httpd.apache.org/docs/current/mod/mod_authz_host.html)
-* [Ordenar, Permitir, Negar no Guia definitivo do Apache](https://docstore.mik.ua/orelly/linux/apache/ch05_06.htm)
+* [Pedir, Permitir, Negar no Guia Definitivo do Apache](https://docstore.mik.ua/orelly/linux/apache/ch05_06.htm)
 * [askubuntu.com](https://askubuntu.com/questions/335228/changes-in-apache-config-between-12-04-2-and-12-04-3-lts)

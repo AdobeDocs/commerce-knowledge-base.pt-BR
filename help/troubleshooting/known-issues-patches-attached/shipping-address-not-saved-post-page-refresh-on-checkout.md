@@ -19,9 +19,9 @@ Este artigo fornece um patch para o problema conhecido do Adobe Commerce 2.2.3 e
 
 Os clientes passam pelo checkout do convidado e preenchem todos os formulários, inclusive o endereço de envio. Eles chegam à seção Revisar e pagamentos e recarregam a página. O formulário está vazio e eles precisam inserir novamente o endereço de entrega. A funcionalidade de carrinho de compras persistente está habilitada.
 
-<u>Etapas a serem reproduzidas</u> :
+<u>Etapas a serem reproduzidas</u>:
 
-**Pré-requisitos**: a funcionalidade de carrinho de compras persistente está ativada. Verifique se está ativado no Administrador, em **Lojas** > **Configuração** > **Clientes** ou **Lojas** > **Configuração** > **Vendas,** dependendo da sua versão do Adobe Commerce.
+**Pré-requisitos**: a funcionalidade de carrinho de compras persistente está habilitada. Verifique se está habilitado no Administrador, em **Lojas** > **Configuração** > **Clientes** ou **Lojas** > **Configuração** > **Vendas**, dependendo da sua versão do Adobe Commerce.
 
 1. Vá para a loja.
 1. Adicione produtos ao carrinho de compras.
@@ -47,7 +47,7 @@ O patch está anexado a este artigo. Para baixá-lo, role para baixo até o fina
 
 ### Versões compatíveis do Adobe Commerce
 
-**A correção foi criada para:**
+**O patch foi criado para:**
 
 * Adobe Commerce 2.2.3
 
@@ -61,6 +61,6 @@ O patch está anexado a este artigo. Para baixá-lo, role para baixo até o fina
 
 ## Como aplicar o patch
 
-Para obter instruções, consulte [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de conhecimento de suporte.
+Para obter instruções, consulte [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de dados de conhecimento de suporte.
 
 ## Arquivos Anexados

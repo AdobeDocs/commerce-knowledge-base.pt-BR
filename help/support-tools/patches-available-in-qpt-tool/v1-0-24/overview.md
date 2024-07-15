@@ -1,6 +1,6 @@
 ---
-title: '"Visão geral: [!DNL Quality Patches Tool] (QPT) v1.0.24'''
-description: Esta subseção fornece uma descrição detalhada dos problemas corrigidos pelos patches disponíveis em [!DNL Quality Patches Tool] (QPT) v1.0.24.
+title: 'Visão geral: [!DNL Quality Patches Tool] (QPT) v1.0.24'
+description: Esta subseção fornece uma descrição detalhada dos problemas corrigidos pelos patches disponíveis no [!DNL Quality Patches Tool] (QPT) v1.0.24.
 exl-id: 052ddc26-ab6b-436b-8b9b-8403db037a11
 feature: Tools and External Services
 role: Admin
@@ -11,16 +11,16 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Quality Patches Tool] (QPT) v1.0.24 visão geral
+# Visão geral do [!DNL Quality Patches Tool] (QPT) v1.0.24
 
-Esta subseção fornece uma descrição detalhada dos problemas corrigidos pelos patches disponíveis em [!DNL Quality Patches Tool] (QPT) v1.0.24.
+Esta subseção fornece uma descrição detalhada dos problemas corrigidos pelos patches disponíveis no [!DNL Quality Patches Tool] (QPT) v1.0.24.
 
 O QPT v1.0.24 inclui os seguintes patches:
 
-1. **MDVA-34330**: corrige o problema em que os pedidos na grade de pedidos não são filtrados de acordo com o fuso horário do administrador.
-1. **MDVA-36832**: corrige o problema em que as imagens são duplicadas nas páginas quando a largura de exibição é 768px.
-1. **MDVA-37779**: corrige o problema que ocorria ao adicionar um produto configurável ao carrinho por meio do GraphQL quando a ID do site não coincidia com a ID da loja.
-1. **MDVA-37874**: corrige o problema em que *Valor de desconto fixo para o carrinho inteiro* é aplicado incorretamente a um produto de pacote que contém mais de uma opção.
-1. **MDVA-37913**: corrige o problema em que os links baixáveis desaparecem se o produto baixável for atualizado por meio da API.
+1. **MDVA-34330**: corrige o problema em que os pedidos na grade de pedidos não são filtrados de acordo com o fuso horário do Administrador.
+1. **MDVA-36832**: corrige o problema em que imagens são duplicadas em páginas quando a largura de exibição é 768px.
+1. **MDVA-37779**: corrige o problema ao adicionar um produto configurável ao carrinho via GraphQL quando a ID do site não coincide com a ID da loja.
+1. **MDVA-37874**: corrige o problema em que o *Valor fixo de desconto para o carrinho inteiro* é aplicado incorretamente a um produto de pacote que contém mais de uma opção.
+1. **MDVA-37913**: corrige o problema em que os links baixáveis desaparecem se o produto baixável for atualizado pela API.
 
 Use o menu à esquerda para navegar até uma página de patch específica.

@@ -29,7 +29,7 @@ Você tem produtos com valores de atributo `Saga 1` e `Saga 16` em lojas Adobe C
 <u>Etapas a serem reproduzidas:</u>
 
 1. Na frente de uma loja habilitada para o Adobe Commerce 2.3, digite *Saga 1* no campo de pesquisa e clique em **Pesquisar**.
-1. Observe que, nos resultados da pesquisa, você só obtém os produtos com o valor do atributo `Saga 1`.
+1. Observe que, nos resultados da pesquisa, você só obtém os produtos com o valor de atributo `Saga 1`.
 1. Na frente de uma loja habilitada para o Adobe Commerce 2.4, digite *Saga 1* no campo de pesquisa e clique em **Pesquisar**.
 
 <u>Resultado real:</u>
@@ -38,7 +38,7 @@ Os resultados da pesquisa na versão 2.4 incluem produtos com valores de atribut
 
 <u>Resultado esperado:</u>
 
-Os resultados da pesquisa no 2.4 são semelhantes ao 2.3 e incluem apenas produtos com valor de atributo `Saga 1`.
+Os resultados da pesquisa na versão 2.4 são semelhantes à 2.3 e incluem apenas produtos com valor de atributo `Saga 1`.
 
 ## Causa
 
@@ -46,6 +46,6 @@ A funcionalidade de pesquisa nativa do Adobe Commerce usada na versão 2.3.x for
 
 ## Leitura relacionada
 
-[Instalar o Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html) em nosso guia do usuário.
+[Instale o Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html) em nosso guia do usuário.
 
-[Live Search](https://devdocs.magento.com/live-search/overview.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=Live%20Search) na documentação do desenvolvedor.
+[Live Search](https://devdocs.magento.com/live-search/overview.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=Live%20Search) em nossa documentação para desenvolvedores.

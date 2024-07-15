@@ -1,5 +1,5 @@
 ---
-title: O "Magento-cloud" [!DNL CLI] não mostra um ambiente ativo
+title: A 'Magento-cloud' [!DNL CLI] não mostra um ambiente ativo
 description: Este artigo descreve um problema conhecido do Adobe Commerce em que o "Magento-cloud" [!DNL CLI] (ferramenta de linha de comando) não mostra um ambiente ativo.
 feature: Cloud, Integration, Configuration
 role: Developer
@@ -11,11 +11,11 @@ ht-degree: 0%
 
 ---
 
-# A variável `Magento-cloud` [!DNL CLI] não mostra um ambiente ativo
+# O `Magento-cloud` [!DNL CLI] não mostra um ambiente ativo
 
 ## Problema
 
-Há vários ambientes ativos e você está tentando interagir com um ambiente executando um `Magento-cloud` [!DNL CLI] (ferramenta de linha de comando). (Por exemplo: `ssh`, `db:size`, `db:sql`, etc.)
+Existem vários ambientes ativos e você está tentando interagir com um ambiente executando um comando `Magento-cloud` [!DNL CLI] (ferramenta de linha de comando). (Por exemplo: `ssh`, `db:size`, `db:sql`, etc.)
 No entanto, o prompt para escolher o ambiente desejado não lista esse ambiente. (Por exemplo: o ambiente de integração)
 
 ```
@@ -34,7 +34,7 @@ O ambiente pode não estar disponível devido a uma implantação que está em a
 
 ## Solução
 
-Será necessário especificar manualmente o ambiente com o `e|-environment` sinalizador.
+Será necessário especificar manualmente o ambiente com o sinalizador `e|-environment`.
 
 1. Encontre a lista de ambientes ativos e anote os nomes dos ambientes:
 

@@ -55,11 +55,11 @@ A instalação requer comandos da CLI para a instância do Adobe Commerce. Pode 
 
 #### Instalar o Google reCAPTCHA e fazer check-out das atualizações do formulário
 
-A variável `magento/module-paypal-recaptcha` O pacote contém integração com atualizações de formulário de pagamento do Google reCAPTCHA e Payflow Pro. Mesmo que você tenha o módulo reCAPTCHA instalado e configurado, recomendamos instalar este pacote.
+O pacote `magento/module-paypal-recaptcha` contém integração com atualizações de formulário de pagamento do Google reCAPTCHA e Payflow Pro. Mesmo que você tenha o módulo reCAPTCHA instalado e configurado, recomendamos instalar este pacote.
 
 Execute os seguintes comandos para instalá-lo.
 
-**Para Adobe Commerce no local:**
+**Para Adobe Commerce local:**
 
 ```bash
 composer require magento/module-paypal-recaptcha
@@ -86,11 +86,11 @@ bin/magento cache:clean
 
 #### Instalar atualizações do formulário de check-out para CAPTCHA
 
-A variável `magento/module-paypal-captcha` O pacote contém integração com o módulo CAPTCHA nativo do Adobe Commerce.
+O pacote `magento/module-paypal-captcha` contém integração com o módulo CAPTCHA nativo do Adobe Commerce.
 
 Execute os seguintes comandos para instalá-lo:
 
-**Para Adobe Commerce no local:**
+**Para Adobe Commerce local:**
 
 ```bash
 composer require magento/module-paypal-captcha
@@ -129,13 +129,13 @@ A nova opção de formulário de check-out é:
 
 ## Suporte e contatos do PayPal
 
-Entre em contato com o Suporte ao comerciante do PayPal Payflow para saber mais sobre os Serviços de Proteção contra Fraude. Você pode solicitar que a equipe de suporte do PayPal habilite [Serviços básicos de proteção contra fraudes](https://developer.paypal.com/api/nvp-soap/payflow/fraud-protection/) filtros para fornecer o controle mais rígido possível sobre os pagamentos, de modo que você possa negar automaticamente os pagamentos que possam resultar em transações fraudulentas e aceitar pagamentos que normalmente não são um problema. Observe que após ativar os filtros de Serviços de Proteção contra Fraude do PayPal, as transações podem levar até 2 horas para serem liquidadas.
+Entre em contato com o Suporte ao comerciante do PayPal Payflow para saber mais sobre os Serviços de Proteção contra Fraude. Você pode solicitar que a equipe de Suporte do PayPal habilite os [Serviços Básicos de Proteção contra Fraude](https://developer.paypal.com/api/nvp-soap/payflow/fraud-protection/) para fornecer o controle mais rígido possível sobre os pagamentos, de modo que você possa negar automaticamente os pagamentos que provavelmente resultarão em transações fraudulentas e aceitar pagamentos que normalmente não são um problema. Observe que após ativar os filtros de Serviços de Proteção contra Fraude do PayPal, as transações podem levar até 2 horas para serem liquidadas.
 
 >[!NOTE]
 >
->Para obter informações adicionais, consulte a Base de conhecimento do PayPal [&quot;O Adobe entrou em contato comigo sobre minha integração com o Payflow Pro. O que eu preciso fazer?&quot;](https://www.paypal.com/us/smarthelp/article/ts2242).
+>Adobe Para obter informações adicionais, consulte a Base de Dados de Conhecimento [&quot;do PayPal, que me contatou sobre minha integração com o Payflow Pro. O que preciso fazer?&quot;](https://www.paypal.com/us/smarthelp/article/ts2242).
 
-**PayPal Payflow Merchant Support Details (Detalhes de suporte ao comerciante do PayPal Payflow)**
+**Detalhes de Suporte ao Comerciante do PayPal Payflow**
 
 O horário comercial do Suporte ao comerciante de Fluxo de Pagamento é de segunda a sexta-feira, das 7h às 20h CST. Você pode entrar em contato com o Suporte ao comerciante do Payflow para obter assistência da conta por telefone ou email:
 

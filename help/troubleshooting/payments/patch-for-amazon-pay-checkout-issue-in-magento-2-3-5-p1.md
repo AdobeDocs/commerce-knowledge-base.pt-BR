@@ -24,7 +24,7 @@ Esta correção soluciona o problema de incapacidade de alterar um método de pa
 
 Quando um comprador finaliza a compra com o Amazon Pay, faz logon, prossegue para a etapa de pagamento e tenta alterar seu cartão de crédito de pagamento no widget de pagamentos, uma mensagem de erro é exibida. O check-out não pode ser concluído se o comprador ignorar o erro e prosseguir para o check-out.
 
-Para resolver esse problema e remover o erro, criamos uma [correção](assets/BUNDLE-2554_EE_2.3.5-p1.composer.patch.zip).
+Para resolver esse problema e remover o erro, criamos um [patch](assets/BUNDLE-2554_EE_2.3.5-p1.composer.patch.zip).
 
 <u>Etapas a serem reproduzidas</u>:
 
@@ -33,13 +33,13 @@ Para resolver esse problema e remover o erro, criamos uma [correção](assets/BU
 1. Selecione o método de envio e prossiga para a etapa de pagamento.
 1. Tente alterar o cartão de crédito para outro.
 
-<u>Resultado esperado</u>: um cartão de crédito diferente é selecionado como método de pagamento sem um erro.
+<u>Resultado esperado</u>: um cartão de crédito diferente foi selecionado como método de pagamento sem erro.
 
-<u>Resultado real</u>: A mensagem de erro é exibida: *&quot;Entre em contato com este comerciante para obter ajuda para concluir seu pedido.&quot;*
+<u>Resultado real</u>: a mensagem de erro aparece: *&quot;Contate este comerciante para obter ajuda para concluir seu pedido.&quot;*
 
 ## Solução
 
-[Aplicar o patch](assets/BUNDLE-2554_EE_2.3.5-p1.composer.patch.zip) abaixo.
+[Aplique o patch](assets/BUNDLE-2554_EE_2.3.5-p1.composer.patch.zip) abaixo.
 
 ## Correção
 
@@ -61,6 +61,6 @@ O patch também é compatível (mas pode não resolver o problema) com as seguin
 
 ## Como aplicar o patch
 
-Consulte [Como aplicar um patch de compositor fornecido pelo Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) na nossa base de conhecimento de suporte para obter instruções.
+Consulte [Como aplicar um patch de compositor fornecido pelo Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de dados de conhecimento de suporte para obter instruções.
 
 ## Arquivos Anexados

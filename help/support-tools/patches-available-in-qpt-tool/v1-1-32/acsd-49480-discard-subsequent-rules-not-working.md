@@ -11,13 +11,13 @@ ht-degree: 0%
 
 ---
 
-# ACSD-49480: [!UICONTROL Cart Price Rule - Discard Subsequent Rules] não está funcionando como pretendido
+# ACSD-49480: [!UICONTROL Cart Price Rule - Discard Subsequent Rules] não está funcionando como esperado
 
-O patch ACSD-49480 corrige o problema em que a variável [!UICONTROL Cart Price Rule - Discard Subsequent Rules] não está funcionando como esperado. Este patch está disponível quando a variável [!DNL Quality Patches Tool (QPT)] O 1.1.32 está instalado. A ID do patch é ACSD-49480. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.7.
+O patch ACSD-49480 corrige o problema em que o [!UICONTROL Cart Price Rule - Discard Subsequent Rules] não está funcionando como esperado. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.32 está instalado. A ID do patch é ACSD-49480. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.7.
 
 ## Produtos e versões afetados
 
-**O patch é criado para a versão do Adobe Commerce:**
+**O patch foi criado para a versão do Adobe Commerce:**
 
 * Adobe Commerce (todos os métodos de implantação) 2.4.4
 
@@ -27,7 +27,7 @@ O patch ACSD-49480 corrige o problema em que a variável [!UICONTROL Cart Price 
 
 >[!NOTE]
 >
->O patch pode se tornar aplicável a outras versões com novos [!DNL Quality Patches Tool] versões. Para verificar se o patch é compatível com sua versão do Adobe Commerce, atualize o `magento/quality-patches` pacote para a versão mais recente e verifique a compatibilidade no [[!DNL Quality Patches Tool]: Página Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+>O patch pode se tornar aplicável a outras versões com as novas versões do [!DNL Quality Patches Tool]. Para verificar se o patch é compatível com a sua versão do Adobe Commerce, atualize o pacote `magento/quality-patches` para a versão mais recente e verifique a compatibilidade na [[!DNL Quality Patches Tool]: página Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
 
 ## Problema
 
@@ -35,33 +35,33 @@ O patch ACSD-49480 corrige o problema em que a variável [!UICONTROL Cart Price 
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. Criar um **[!UICONTROL Cart Price Rule]** com um código de cupom (nomeie-o como *TESTE*) que oferece um desconto de US$ 10 para o *ID do produto 1* no **[!UICONTROL Actions]** guia com [!UICONTROL Discard Subsequent Rules] definir como *[!UICONTROL Yes]* e [!UICONTROL Priority] definir como *1*.
-1. Criar outro **[!UICONTROL Cart Price Rule]** sem um código de cupom que dê um desconto de US$ 5 para *ID do produto 2* no **[!UICONTROL Actions]** guia com [!UICONTROL Priority] definir como *2*. Aqui, assumimos, esta é uma venda global para *ID do produto 2*.
-1. Ir para o site de front-end e adicionar *ID do produto 1* e *ID do produto 2* no carrinho.
-1. Aplique o *TESTE* código do cupom.
+1. Crie um **[!UICONTROL Cart Price Rule]** com um código de cupom (nomeie-o como *TEST*) que concede um desconto de US$10 à *ID do Produto 1* na guia **[!UICONTROL Actions]** com [!UICONTROL Discard Subsequent Rules] definido como *[!UICONTROL Yes]* e [!UICONTROL Priority] definido como *1*.
+1. Crie outro **[!UICONTROL Cart Price Rule]** sem um código de cupom que dê um desconto de $5 para *ID do Produto 2* na guia **[!UICONTROL Actions]** com [!UICONTROL Priority] definido como *2*. Aqui, supomos que esta é uma venda global para *ID do Produto 2*.
+1. Vá para o site de front-end e adicione a *ID do Produto 1* e a *ID do Produto 2* ao carrinho.
+1. Aplicar o código de cupom *TEST*.
 
 <u>Resultados esperados</u>
 
-* *Desconto 1* é aplicado a *ID do produto 1*.
-* *Desconto 2* é aplicado a *ID do produto 2*.
+* *O desconto 1* é aplicado à *ID do Produto 1*.
+* *O desconto 2* é aplicado à *ID do Produto 2*.
 
 <u>Resultados reais</u>
 
-* Somente *Desconto 1* é aplicado a *ID do produto 1*.
-* *Desconto 2* não é aplicado a *ID do produto 2*.
+* Somente *O desconto 1* é aplicado à *ID do Produto 1*.
+* *O desconto 2* não foi aplicado à *ID do Produto 2*.
 
 ## Aplicar o patch
 
 Para aplicar patches individuais, use os links a seguir, dependendo do método de implantação:
 
-* Adobe Commerce ou Magento Open Source no local: [[!DNL Quality Patches Tool] > Uso](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) no [!DNL Quality Patches Tool] guia.
-* Adobe Commerce na infraestrutura em nuvem: [Upgrades e Patches > Aplicar Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) no guia do Commerce na infraestrutura em nuvem.
+* Adobe Commerce ou Magento Open Source no local: [[!DNL Quality Patches Tool] > Uso](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) no guia [!DNL Quality Patches Tool].
+* Adobe Commerce na infraestrutura em nuvem: [Atualizações e patches > Aplicar patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) no guia do Commerce na infraestrutura em nuvem.
 
 ## Leitura relacionada
 
 Para saber mais sobre [!DNL Quality Patches Tool], consulte:
 
-* [[!DNL Quality Patches Tool] lançado: uma nova ferramenta para autoatender correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de conhecimento de suporte.
-* [Verifique se o patch está disponível para o problema do Adobe Commerce usando [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de conhecimento de suporte.
+* [[!DNL Quality Patches Tool] versão: uma nova ferramenta para autoatender patches de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de dados de conhecimento de suporte.
+* [Verifique se há um patch disponível para o problema do Adobe Commerce usando o [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de dados de conhecimento de suporte.
 
-Para obter informações sobre outros patches disponíveis no QPT, consulte [[!DNL Quality Patches Tool]: Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) no [!DNL Quality Patches Tool] guia.
+Para obter informações sobre outros patches disponíveis no QPT, consulte [[!DNL Quality Patches Tool]: Pesquisar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) no guia [!DNL Quality Patches Tool].

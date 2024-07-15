@@ -22,40 +22,40 @@ Este artigo fornece um patch para um problema conhecido do Adobe Commerce 2.4.0,
 
 ## Problema
 
-<u>Pré-requisitos</u>: crie um pedido usando o método de envio FedEx, DHL, UPS ou USPS.
+<u>Pré-requisitos</u>: criar um pedido usando o método de envio FedEx, DHL, UPS ou USPS.
 
 ### Cenário 1: criar uma etiqueta ao adicionar uma remessa
 
 <u>Etapas a serem reproduzidas:</u>
 
-1. Abra o pedido no Administrador, em **Vendas** > **Pedidos**.
-1. Clique em **Remessa** botão. A variável **Nova Remessa** é aberta.
+1. Abra o pedido feito no Administrador em **Vendas** > **Pedidos**.
+1. Clique no botão **Enviar**. A página **Nova remessa** é aberta.
 
 <u>Resultado esperado:</u>
 
-A variável **Criar etiqueta de remessa** é exibida na parte inferior da página.
+A caixa de seleção **Criar etiqueta de remessa** é exibida na parte inferior da página.
 
 <u>Resultado real:</u>
 
-A variável **Criar etiqueta de remessa** não é exibida.
+A caixa de seleção **Criar etiqueta de remessa** não é exibida.
 
 ### Cenário 2: criar uma etiqueta para remessa existente
 
 <u>Etapas a serem reproduzidas:</u>
 
-1. Abra o pedido no Administrador, em **Vendas** > **Pedidos**.
-1. Clique em **Remessa** botão. A variável **Nova Remessa** é aberta.
-1. Clique em **Enviar Remessa** botão. Uma entrega é criada.
+1. Abra o pedido feito no Administrador em **Vendas** > **Pedidos**.
+1. Clique no botão **Enviar**. A página **Nova remessa** é aberta.
+1. Clique no botão **Enviar Remessa**. Uma entrega é criada.
 1. Abra a entrega recém-criada.
-1. Clique em **Criar etiqueta de remessa** botão. A variável **Criar pacotes** será aberta.
+1. Clique no botão **Criar etiqueta de remessa**. A caixa de diálogo **Criar Pacotes** é aberta.
 
 <u>Resultado esperado:</u>
 
-A variável **Adicionar produtos ao pacote** botão no **Criar pacotes** janela modal exibe campos com itens de ordem.
+O botão **Adicionar Produtos ao Pacote** na janela modal **Criar Pacotes** exibe campos com itens de pedido.
 
 <u>Resultado real:</u>
 
-A variável **Criar pacotes** a janela modal não é exibida corretamente, não é possível adicionar itens de pedido à remessa.
+A janela modal **Criar Pacotes** não é exibida corretamente. Não é possível adicionar itens de pedido à remessa.
 
 ## Solução
 
@@ -67,7 +67,7 @@ O patch está anexado a este artigo. Para baixá-lo, role para baixo até o fina
 
 [MC-35514-2.4.0-CE-composer-2.patch](assets/MC-35514-2.4.0-CE-composer-2.patch.zip)
 
-O patch também está disponível para download no, `.git` e `.composer`, formatos em [Downloads da Adobe Commerce](https://magento.com/tech-resources/download) página, em **Correções** na navegação de coluna à esquerda. Procure o patch MC-35514.
+O patch também está disponível para download nos formatos `.git` e `.composer`, na página [Downloads da Adobe Commerce](https://magento.com/tech-resources/download), em **Patches**, na navegação de coluna à esquerda. Procure o patch MC-35514.
 
 ### Versões compatíveis do Adobe Commerce:
 

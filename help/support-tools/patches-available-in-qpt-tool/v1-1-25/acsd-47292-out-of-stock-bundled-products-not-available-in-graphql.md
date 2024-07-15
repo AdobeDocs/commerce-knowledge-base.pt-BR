@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # ACSD-47292: os produtos empacotados esgotados não estão disponíveis na resposta da GraphQL
 
-O patch ACSD-47292 corrige o problema em que os produtos empacotados esgotados não estão disponíveis na resposta da GraphQL, mesmo se o [!UICONTROL Display Out-of-Stock Products] está definida como *[!UICONTROL Yes]*. Este patch está disponível quando a variável [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) O 1.1.25 está instalado. A ID do patch é ACSD-47292. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.6.
+O patch ACSD-47292 corrige o problema em que os produtos empacotados esgotados não estão disponíveis na resposta da GraphQL, mesmo que [!UICONTROL Display Out-of-Stock Products] esteja definido como *[!UICONTROL Yes]*. Este patch está disponível quando o [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.25 está instalado. A ID do patch é ACSD-47292. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.6.
 
 ## Produtos e versões afetados
 
-**O patch é criado para a versão do Adobe Commerce:**
+**O patch foi criado para a versão do Adobe Commerce:**
 
 * Adobe Commerce (todos os métodos de implantação) 2.4.4
 
@@ -27,15 +27,15 @@ O patch ACSD-47292 corrige o problema em que os produtos empacotados esgotados n
 
 >[!NOTE]
 >
->O patch pode se tornar aplicável a outras versões com novos [!DNL Quality Patches Tool] versões. Para verificar se o patch é compatível com sua versão do Adobe Commerce, atualize o `magento/quality-patches` pacote para a versão mais recente e verifique a compatibilidade no [[!DNL Quality Patches Tool]: Página Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+>O patch pode se tornar aplicável a outras versões com as novas versões do [!DNL Quality Patches Tool]. Para verificar se o patch é compatível com a sua versão do Adobe Commerce, atualize o pacote `magento/quality-patches` para a versão mais recente e verifique a compatibilidade na [[!DNL Quality Patches Tool]: página Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
 
 ## Problema
 
-Os produtos empacotados esgotados não estão disponíveis na resposta da GraphQL, mesmo se o [!UICONTROL Display Out-of-Stock Products] está definida como *[!UICONTROL Yes]*.
+Os produtos empacotados esgotados não estão disponíveis na resposta do GraphQL, mesmo se [!UICONTROL Display Out-of-Stock Products] estiver definido como *[!UICONTROL Yes]*.
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. Acesse o Administrador do Adobe Commerce > **[!UICONTROL System]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Inventory]** e defina o [!UICONTROL Display Out-of-Stock Products] para *[!UICONTROL Yes]*.
+1. Vá para Adobe Commerce Admin > **[!UICONTROL System]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Inventory]** e defina o [!UICONTROL Display Out-of-Stock Products] como *[!UICONTROL Yes]*.
 1. Crie dois produtos simples, s1 e s2.
 1. Tornar s1 indisponível e invisível individualmente e s2 em estoque e invisível individualmente e atribuí-los a uma categoria.
 1. Crie um produto agrupado com pelo menos um produto de opção e atribua s1 e s2 a essa opção (tipo de entrada &quot;RadioButton&quot;).
@@ -79,7 +79,7 @@ Os produtos empacotados esgotados não estão disponíveis na resposta da GraphQ
 
 <u>Resultados esperados</u>:
 
-a opção de pacote s1 está listada na resposta do GraphQL desde [!UICONTROL Display Out-of-Stock Products] está definida como *[!UICONTROL Yes]* e está visível na loja.
+A opção do pacote s1 está listada na resposta do GraphQL, pois [!UICONTROL Display Out-of-Stock Products] está definida como *[!UICONTROL Yes]* e está visível na loja.
 
 <u>Resultados reais</u>:
 
@@ -110,14 +110,14 @@ a opção de pacote s1 não está listada na resposta do GraphQL.
 
 Para aplicar patches individuais, use os links a seguir, dependendo do método de implantação:
 
-* Adobe Commerce ou Magento Open Source no local: [[!DNL Quality Patches Tool] > Uso](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) no [!DNL Quality Patches Tool] guia.
-* Adobe Commerce na infraestrutura em nuvem: [Upgrades e Patches > Aplicar Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) no guia do Commerce na infraestrutura em nuvem.
+* Adobe Commerce ou Magento Open Source no local: [[!DNL Quality Patches Tool] > Uso](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) no guia [!DNL Quality Patches Tool].
+* Adobe Commerce na infraestrutura em nuvem: [Atualizações e patches > Aplicar patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) no guia do Commerce na infraestrutura em nuvem.
 
 ## Leitura relacionada
 
 Para saber mais sobre [!DNL Quality Patches Tool], consulte:
 
-* [[!DNL Quality Patches Tool] lançado: uma nova ferramenta para autoatender correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de conhecimento de suporte.
-* [Verifique se o patch está disponível para o problema do Adobe Commerce usando [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de conhecimento de suporte.
+* [[!DNL Quality Patches Tool] versão: uma nova ferramenta para autoatender patches de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de dados de conhecimento de suporte.
+* [Verifique se há um patch disponível para o problema do Adobe Commerce usando o [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de dados de conhecimento de suporte.
 
-Para obter informações sobre outros patches disponíveis no QPT, consulte [[!DNL Quality Patches Tool]: Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) no [!DNL Quality Patches Tool] guia.
+Para obter informações sobre outros patches disponíveis no QPT, consulte [[!DNL Quality Patches Tool]: Pesquisar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) no guia [!DNL Quality Patches Tool].

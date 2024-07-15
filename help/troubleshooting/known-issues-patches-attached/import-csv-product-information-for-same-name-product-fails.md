@@ -13,22 +13,22 @@ ht-degree: 0%
 
 # Falha ao importar informações de produto CSV para produto com o mesmo nome
 
-Este artigo fornece um patch para o problema conhecido do Adobe Commerce 2.2.3 relacionado à obtenção de erros ao tentar importar um `.csv` arquivo com informações de produtos se houver produtos com o mesmo nome.
+Este artigo fornece um patch para o problema conhecido do Adobe Commerce 2.2.3 relacionado à obtenção de erros ao tentar importar um arquivo `.csv` com informações de produtos se houver produtos com o mesmo nome.
 
 ## Problema
 
-Quando um `.csv` for importado e houver produtos com o mesmo nome, você receberá o seguinte erro na etapa Verificar dados: *&quot;`URL Key XYZ was already generated for an item with the SKU %sku%"`*. O problema é causado pela regravação dos URLs dos produtos durante a importação, mesmo quando não há coluna para os URLs dos produtos na importação `.csv` arquivo.
+Quando um arquivo `.csv` com informações sobre produtos é importado e há produtos com o mesmo nome, você recebe o seguinte erro na etapa Verificar Dados: *&quot;`URL Key XYZ was already generated for an item with the SKU %sku%"`*. O problema é causado pela regravação das URLs dos produtos durante a importação, mesmo quando não há coluna para as URLs dos produtos no arquivo `.csv` importado.
 
 <u>Etapas a serem reproduzidas</u>:
 
 1. Crie dois produtos configuráveis com o mesmo nome no Administrador do Commerce.
-1. Criar um `.csv` arquivo para importar dados para esses produtos, que tem, por exemplo, estas colunas: `sku` | `product_type` | `name` | `product_websites` | `store_view_code`
-1. Ir para **Sistema** > **Transferência de dados** > **Importar** e selecione o `.csv` arquivo.
-1. Clique em **Verificar dados**.
+1. Crie um arquivo `.csv` para importar dados para esses produtos, que tem, por exemplo, estas colunas: `sku` | `product_type` | `name` | `product_websites` | `store_view_code`
+1. Vá para **Sistema** > **Transferência de Dados** > **Importar** e selecione o arquivo `.csv`.
+1. Clique em **Verificar Dados**.
 
 <u>Resultado esperado</u>:
 
-Nenhum problema encontrado; você pode importar o `.csv` arquivo com êxito.
+Nenhum problema encontrado. Você pode importar o arquivo `.csv` com êxito.
 
 <u>Resultado real</u>:
 
@@ -53,7 +53,7 @@ O patch também é compatível (mas pode não resolver o problema) com as seguin
 
 ## Como aplicar o patch
 
-Consulte [Como aplicar um patch de compositor fornecido pelo Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) na nossa base de conhecimento de suporte para obter instruções.
+Consulte [Como aplicar um patch de compositor fornecido pelo Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de dados de conhecimento de suporte para obter instruções.
 
 ## Links úteis
 

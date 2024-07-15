@@ -21,7 +21,7 @@ Este tópico discute uma solução para um problema típico que você pode ter c
 
 ## Problema
 
-Ao implantar seu código em ambientes, os scripts de criação e implantação verificam a `master/production/staging` a ramificação é implantada para manter o Google Analytics ativado. Ao implantar ramificações de desenvolvimento (ou secundárias) de mestre em ambientes de desenvolvedor (Integração), o script de implantação desativa o Google Analytics.
+Ao implantar seu código em ambientes, os scripts de compilação e implantação verificam se a ramificação `master/production/staging` está implantada para manter o Google Analytics habilitado. Ao implantar ramificações de desenvolvimento (ou secundárias) de mestre em ambientes de desenvolvedor (Integração), o script de implantação desativa o Google Analytics.
 
 ## Causa
 
@@ -29,7 +29,7 @@ Esse é um recurso destinado a garantir que os dados e as interações do desenv
 
 ## Solução
 
-Se quiser ter o Google Analytics sempre ativado, defina a variável de implantação `ENABLE_GOOGLE_ANALYTICS = true`, conforme descrito em [Implantar variáveis](https://devdocs.magento.com/guides/v2.3/cloud/env/variables-deploy.html#enable_google_analytics) na documentação do desenvolvedor.
+Se quiser que o Google Analytics sempre esteja habilitado, defina a variável de implantação `ENABLE_GOOGLE_ANALYTICS = true`, conforme descrito em [Implantar variáveis](https://devdocs.magento.com/guides/v2.3/cloud/env/variables-deploy.html#enable_google_analytics) na documentação do desenvolvedor.
 
 >[!NOTE]
 >

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Implantação paralisada com o erro &quot;Não é possível fazer upload do aplicativo para o cluster remoto&quot;
 
-Este artigo fornece uma solução para o problema do Adobe Commerce, em que a implantação trava, e a seguinte mensagem de erro pode ser encontrada no log de implantação: *&quot;Erro: não é possível fazer upload do aplicativo para o cluster remoto&quot;*.
+Este artigo fornece uma solução para o problema do Adobe Commerce, em que a implantação trava, e a seguinte mensagem de erro pode ser encontrada no log de implantação: *&quot;Erro: não é possível carregar o aplicativo para o cluster remoto&quot;*.
 
 ## Produtos e versões afetados
 
@@ -31,7 +31,7 @@ A implantação foi concluída com êxito.
 
 <u>Resultado real</u>:
 
-A implantação trava e, no log de erros de implantação na interface da nuvem, a seguinte mensagem de erro é exibida: *&quot;Erro: não é possível carregar o aplicativo para o cluster remoto&quot; encontrado no log de implantação após falha na implantação, o site pode exibir o erro &quot;Tempo limite de 503 primeiros bytes&quot;*.
+A implantação trava e, no log de erros de implantação na interface da nuvem, a seguinte mensagem de erro é exibida: *&quot;Erro: não é possível carregar o aplicativo para o cluster remoto&quot;, encontrado no log de implantação após falha na implantação, o site pode exibir o erro &quot;Tempo limite de 503 primeiros bytes&quot;*.
 
 ## Causa
 
@@ -48,4 +48,4 @@ Diretórios que devem ser considerados para limpeza:
 * `var/debug/`
 * `var`
 
-Para obter detalhes sobre como aumentar o espaço em disco se você estiver na arquitetura de plano inicial do Adobe Commerce na infraestrutura em nuvem, consulte [Aumentar o espaço em disco para o ambiente de integração na nuvem](/help/how-to/general/increase-disk-space-for-integration-environment-on-cloud.md) em nossa base de conhecimento de suporte. As mesmas instruções podem ser usadas para aumentar o espaço do ambiente de integração da arquitetura de plano Pro da infraestrutura de nuvem do Adobe Commerce. Para produção/preparo profissional, é necessário [registre um tíquete no Suporte da Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket-Submit-a-support-ticket) e solicite mais espaço em disco. Mas normalmente, você não precisará lidar com isso no ambiente de Preparo/Produção do plano Pro, pois o Adobe Commerce monitora esses parâmetros para você e alerta e/ou executa ações de acordo com o contrato.
+Para obter detalhes sobre como aumentar o espaço em disco se você estiver na arquitetura de plano inicial do Adobe Commerce na infraestrutura de nuvem, consulte [Aumentar espaço em disco para o ambiente de integração na nuvem](/help/how-to/general/increase-disk-space-for-integration-environment-on-cloud.md) em nossa base de dados de conhecimento de suporte. As mesmas instruções podem ser usadas para aumentar o espaço do ambiente de integração da arquitetura de plano Pro da infraestrutura de nuvem do Adobe Commerce. Para produção/preparo profissional, você precisa [registrar um tíquete para o Suporte da Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket-Submit-a-support-ticket) e solicitar mais espaço em disco. Mas normalmente, você não precisará lidar com isso no ambiente de Preparo/Produção do plano Pro, pois o Adobe Commerce monitora esses parâmetros para você e alerta e/ou executa ações de acordo com o contrato.

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Limpeza de endereço Vertex: endereços diferentes não permitidos
 
-Este artigo fala sobre a solução do problema em que o usuário tenta inserir um **diferente** endereço de entrega e cobrança, com a validação de endereço Vertex ativada, a loja não permitirá que o usuário a insira.
+Este artigo fala sobre a solução do problema em que, quando um usuário tenta inserir um **diferente** endereço de entrega e cobrança, com a validação do endereço Vertex habilitada, a loja não permitirá que o usuário o insira.
 
 ## Produtos e versões afetados
 
@@ -23,15 +23,15 @@ Este artigo fala sobre a solução do problema em que o usuário tenta inserir u
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. Ir para Admin > **Lojas** > **Configuração** > **Vendas** > **Limpeza de endereço**.
-1. Selecionar *Ativado* do **Usar limpeza de endereço Vertex** e **Salvar configuração**.
+1. Acesse Admin > **Lojas** > **Configuração** > **Vendas** > **Limpeza de Endereço**.
+1. Selecione *Habilitado* no menu suspenso **Usar Limpeza de Endereço Vertex** e **Salvar Configuração**.
 1. Acesse o front-end como convidado e adicione um produto ao carrinho.
-1. Clique no ícone Carrinho e **Prosseguir para o check-out**.
+1. Clique no ícone do carrinho e **Prosseguir para o check-out**.
 1. Preencha os campos de endereço.
-1. Selecione o desejado **Método de envio** e clique em **Próxima**.
-1. Clique no link **Próxima** botão novamente.
-1. Desmarcar **Meu endereço para cobrança e entrega** **são as mesmas** e insira um novo endereço de cobrança (diferente de Endereço).
-1. Clique em **Atualizar** e clique em **Atualizar endereço**.
+1. Selecione o **Método de envio** desejado e clique em **Avançar**.
+1. Clique novamente no botão **Avançar**.
+1. Desmarque **Meu endereço de cobrança e de entrega** **são iguais** e insira um novo endereço de cobrança (diferente de Endereço).
+1. Clique no botão **Atualizar** e em **Atualizar endereço**.
 
 <u>Resultados esperados</u>:
 

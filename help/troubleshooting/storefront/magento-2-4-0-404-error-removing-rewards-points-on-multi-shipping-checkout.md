@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Adobe Commerce 2.4.0: erro 404 ao remover pontos de recompensa na finalização de remessa múltipla
 
-Este artigo fornece uma solução alternativa para um problema conhecido no Adobe Commerce 2.4.0 para um &quot;*404 Não encontrado*&quot;erro na página da Web ao remover pontos de recompensa em uma página de check-out de vários envios. Atualmente, na página de checkout de vários envios, ao tentar remover pontos de recompensa que eram usados para pagar um pedido, um &quot;*404 Não encontrado* A página &quot; é exibida em vez do cancelamento bem-sucedido de pontos de premiação. Este problema será resolvido em com uma versão de patch do Adobe Commerce 2.4.1.
+Este artigo fornece uma solução alternativa para um problema conhecido no Adobe Commerce 2.4.0 para um erro da página da Web &quot;*404 Não encontrado*&quot; ao remover pontos de recompensa em uma página de check-out de vários envios. Atualmente, na página de check-out de remessa múltipla, ao tentar remover pontos de premiação usados para pagar um pedido, uma página &quot;*404 Não encontrado*&quot; é exibida em vez do cancelamento bem-sucedido de pontos de premiação. Este problema será resolvido em com uma versão de patch do Adobe Commerce 2.4.1.
 
 ## Produtos e versões afetados
 
@@ -24,30 +24,30 @@ Este artigo fornece uma solução alternativa para um problema conhecido no Adob
 <u>Etapas a serem reproduzidas</u>
 
 1. Navegue até a loja e faça logon como cliente.
-1. Adicione pelo menos dois produtos à **Carrinho de compras**.
+1. Adicione pelo menos dois produtos ao **carrinho de compras**.
 1. Abra o **Minicarrinho**.
-1. Clique em **Exibir e editar carrinho** link.
-1. Clique em **Fazer Check-out com Vários Endereços** link.
-1. Selecione os endereços de entrega no **Vários Endereços para Entrega** página.
-1. Clique em **Ir para Informações de Remessa** botão.
-1. Selecione o **Taxa Uniforme - Método de Remessa Fixa** para cada endereço.
-1. Clique em **Continuar para Informações de Cobrança** botão.
-1. Verifique a **Use Seus Pontos De Recompensa** caixa de seleção na **Informações de Cobrança** página.
-1. Clique em **Ir para Revisar seu pedido** botão.
-1. Clique em **Remover** link para qualquer endereço para remover os pontos de premiação.
+1. Clique no link **Exibir e editar carrinho**.
+1. Clique no link **Fazer Check-out com Vários Endereços**.
+1. Selecione os endereços de envio na página **Enviar para vários endereços**.
+1. Clique no botão **Ir para Informações de Envio**.
+1. Selecione a **Taxa Uniforme - Método de Remessa Fixo** para cada endereço.
+1. Clique no botão **Continuar para informações de cobrança**.
+1. Marque a caixa de seleção **Usar seus pontos de recompensa** na página **Informações de Cobrança**.
+1. Clique no botão **Ir para Revisão do Pedido**.
+1. Clique no link **Remover** de qualquer endereço para remover os pontos de premiação.
 
 <u>Resultados esperados</u>
 
-* A variável **Carrinho de compras** deve ser exibida.
-* O &quot;*Você removeu os pontos de premiação deste pedido.* A mensagem &quot; deve ser exibida.
+* A página **Carrinho de Compras** deve ser exibida.
+* O &quot;*Você removeu os pontos de premiação desta ordem.A mensagem* deve ser exibida.
 
 <u>Resultado real</u>
 
-A &quot;*404 Não encontrado* &quot; é exibida.
+Uma página de erro &quot;*404 Não encontrado*&quot; é exibida.
 
 ## Solução alternativa
 
-A solução alternativa é fazer com que o comprador navegue de volta para a **Carrinho** e remova os pontos de premiação do **Carrinho** página da Web. Espera-se que o problema seja corrigido no patch do Adobe Commerce versão 2.4.1, que está programado para ser lançado no quarto trimestre de 2020.
+A solução é fazer com que o comprador navegue de volta para o **Carrinho** e remova os pontos de premiação da página da Web **Carrinho**. Espera-se que o problema seja corrigido no patch do Adobe Commerce versão 2.4.1, que está programado para ser lançado no quarto trimestre de 2020.
 
 ## Leitura relacionada
 

@@ -28,10 +28,10 @@ As versões do ElasticSuite anteriores à 2.9.8/2.10.7 estão armazenando índic
 Se o plug-in de terceiros ElasticSuite estiver instalado, você pode ter problemas de memória de Elasticsearch e o serviço de Elasticsearch pode travar devido aos índices de rastreamento do ElasticSuite. Os sintomas incluem:
 
 * O Elasticsearch trava sem erros de memória.
-* Ao executar um comando de funcionamento `curl -m1 localhost:9200/_cluster/health?pretty` ou `curl -m1 elasticsearch.internal:9200/_cluster/health?pretty` (para contas iniciais) existem centenas ou milhares de `unassigned_shards`
+* Ao executar um comando de integridade `curl -m1 localhost:9200/_cluster/health?pretty` ou `curl -m1 elasticsearch.internal:9200/_cluster/health?pretty` (para contas iniciais) há centenas ou milhares de `unassigned_shards`
 * O desempenho do Elasticsearch ou do site foi gravemente degradado.
-* *&quot;Nenhum nó ativo encontrado no cluster&quot;* em erros de implantação ou registro de Elasticsearch.
-* *&quot;Rejeição da atualização de mapeamento em [&lt;\*>_ tracking_log_event _&lt;\*>]&quot;* em erros de implantação ou de log.
+* *&quot;Nenhum nó ativo encontrado no cluster&quot;* em erros de implantação ou log de Elasticsearch.
+* *&quot;Rejeitando atualização de mapeamento para [&lt;\*>_ tracking_log_event _&lt;\*>]&quot;* em erros de implantação ou log.
 
 ## Causa
 
@@ -43,7 +43,7 @@ O ElasticSuite tem um novo recurso que cria índices de rastreamento. Esses índ
 
 Depois de atualizar o plug-in ElasticSuite para uma versão superior a 2.8.0, você pode configurar uma limpeza periódica dos índices.
 
-Ir para **Lojas** > **Configuração** > **Rastreamento** > **Configuração global** > **Atraso de retenção**
+Ir para **Lojas** > **Configuração** > **Rastreamento** > **Configuração Global** > **Atraso de Retenção**
 
 O período de retenção padrão é de 365 dias. Você pode reduzi-la para 30 ou 15 dias.
 
@@ -53,7 +53,7 @@ Depois de atualizar o plug-in ElasticSuite para a versão > 2.9.8/2.10.7, os ín
 
 Você ainda pode reduzir o período de retenção:
 
-Ir para **Lojas** > **Configuração** > **Rastreamento** > **Configuração global** > **Atraso de retenção**
+Ir para **Lojas** > **Configuração** > **Rastreamento** > **Configuração Global** > **Atraso de Retenção**
 
 O período de retenção padrão é de 12 meses (gerará 12 índices). Você pode reduzi-lo para 3 ou 6 meses.
 

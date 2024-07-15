@@ -55,15 +55,15 @@ Altere seu perfil do PayPal para permitir vários pagamentos por ID de fatura. V
 
 1. Faça logon em sua conta em [https://www.paypal.com](https://www.paypal.com/).
 1. Clique em **Perfil** > **Perfil e configurações** (canto superior direito).
-1. Ir para **Minhas ferramentas de vendas**.
+1. Ir para **Minhas ferramentas de venda**.
 1. Navegue até **Receber e gerenciar meu risco** > **Bloquear pagamentos** e clique em **Atualizar**.
-1. **Preferências de venda**, clique em **Preferências de Recebimento de Pagamento**.
-1. Em **Bloquear pagamentos acidentais**, escolha **Não, permitir vários pagamentos por ID de fatura**.    ![paypal_allow_multiple_payments_per_Invoice_id.png](assets/paypal_allow_multiple_payments_per_invoice_id.png)
+1. **Preferências de Venda**, clique em **Preferências de Recebimento de Pagamento**.
+1. Em **Bloquear Pagamentos Acidentais**, escolha **Não, permitir vários pagamentos por ID de fatura**.    ![paypal_allow_multiple_payments_per_Invoice_id.png](assets/paypal_allow_multiple_payments_per_invoice_id.png)
 1. Role para baixo e clique em **Salvar**.
 
 ## Mais informações
 
-* [Bloquear pagamentos acidentais](https://developer.paypal.com/docs/admin/setup-account/#block-accidental-payments) nos Documentos do desenvolvedor do PayPal.
+* [Bloquear pagamentos acidentais](https://developer.paypal.com/docs/admin/setup-account/#block-accidental-payments) nos Documentos do Desenvolvedor do PayPal.
 * Pagamentos do PayPal em nosso guia do usuário:
    * [Check-out do PayPal Express](/docs/commerce-admin/stores-sales/payments/paypal/paypal-express-checkout.html)
    * [Outras soluções do PayPal](/docs/commerce-admin/stores-sales/payments/paypal/paypal.html)

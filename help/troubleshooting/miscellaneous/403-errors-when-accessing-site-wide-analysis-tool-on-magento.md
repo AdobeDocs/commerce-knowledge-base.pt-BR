@@ -25,7 +25,7 @@ Você recebe um erro 403 ao tentar acessar a Ferramenta de análise do site.
 
 <u>Etapas a serem reproduzidas:</u>
 
-Faça logon no painel Admin do Commerce e clique em **Relatórios** > *Insights do sistema* > **Ferramenta de análise do site**.
+Faça logon no painel de administração do Commerce e clique em **Relatórios** > *Insights do Sistema* > **Ferramenta de Análise do Site**.
 
 <u>Resultado esperado:</u>
 
@@ -33,12 +33,12 @@ Você verá a Ferramenta de análise do site inteiro.
 
 <u>Resultado real:</u>
 
-Você verá: *Erro 403.*
+Você vê: *Erro 403.*
 
 
 ## Solução
 
-Para garantir que a Ferramenta de análise do site tenha o acesso adequado ao aplicativo, execute o comando a seguir na CLI. Substituir `<store URL>` com o URL da loja:
+Para garantir que a Ferramenta de análise do site tenha o acesso adequado ao aplicativo, execute o comando a seguir na CLI. Substituir `<store URL>` pela URL de armazenamento:
 
 ```cURL
 curl -sIL -X GET <store URL>/swat/key/index | grep HTTP
@@ -57,26 +57,26 @@ Se o código de resposta for 403, você pode ter a proteção de bot Cloudflare 
 
 ### Corrija o código de resposta 200 e a saída JSON
 
-Se a resposta for o código 200 correto e a saída JSON, [enviar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) para escalonar o problema com o acesso da Ferramenta de análise do site.
+Se a resposta for o código 200 correto e a saída JSON, [envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) para escalonar o problema com o acesso à Ferramenta de Análise do Site.
 
 
 ### Código de resposta 500 (erro fatal)
 
 Se um código de resposta for 500 (erro fatal), instale o patch MDVA-38526. Utilize um dos links a seguir para fazer download do patch, dependendo do tipo de patch desejado:
 
-* Correção do Adobe Commerce na infraestrutura em nuvem: [MDVA-38526_EE_2.4.1-p1_v3.patch.zip](assets/MDVA-38526_EE_2.4.1-p1_v3.patch.zip)
-* patch do Adobe Commerce no cloud infrastructure composer: [MDVA-38526_EE_2.4.1-p1_COMPOSER_v3.patch.zip](assets/MDVA-38526_EE_2.4.1-p1_COMPOSER_v3.patch.zip)
+* Correção do Adobe Commerce na infraestrutura da nuvem: [MDVA-38526_EE_2.4.1-p1_v3.patch.zip](assets/MDVA-38526_EE_2.4.1-p1_v3.patch.zip)
+* Patch do Adobe Commerce no Cloud Infrastructure Composer: [MDVA-38526_EE_2.4.1-p1_COMPOSER_v3.patch.zip](assets/MDVA-38526_EE_2.4.1-p1_COMPOSER_v3.patch.zip)
 
 O patch é aplicável ao Adobe Commerce na infraestrutura em nuvem versões 2.4.1 e posteriores.
 
 ### Resposta não JSON
 
-Se a saída da resposta não for JSON, talvez seja devido à implementação de PWA/Headless. Se você estiver usando a implementação Headless, atualize a configuração UPWARD para ignorar as solicitações do Adobe Commerce Origin. Para fazer isso, no Administrador do Adobe Commerce, em **Lojas** > **Configuração** > **Geral** > **Web** > **Configuração de PWA ASCENDENTE** > **Nome da frente ➡ Incluir na lista de permissões**, adicionar *swat*.
+Se a saída da resposta não for JSON, talvez seja devido à implementação de PWA/Headless. Se você estiver usando a implementação Headless, atualize a configuração UPWARD para ignorar as solicitações do Adobe Commerce Origin. Para fazer isso, no Administrador do Adobe Commerce, em **Lojas** > **Configuração** > **Geral** > **Web** > **Configuração de PWA ASCENDENTE** > **Inclui na lista de permissões de Nome principal**, adicione *swat*.
 
 ![Upward_configuration](assets/upward_pwa.png)
 
-Se você ainda não conseguir acessar a Ferramenta de análise do site, ao fazer logon da próxima vez no painel de administração do Commerce e navegar até **Relatórios** > *Insights do sistema* > **Ferramenta de análise do site**, [enviar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+Se você ainda não conseguir acessar a Ferramenta de Análise do Site, ao fazer logon da próxima vez no painel de administração do Commerce e navegar até **Relatórios** > *Insights do Sistema* > **Ferramenta de Análise do Site**, [envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ## Leitura relacionada
 
-* [Guia da Ferramenta de análise do site](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/intro.html)
+* [Guia da Ferramenta de Análise do Site](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/intro.html)

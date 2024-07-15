@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Desative a saída do banner do Adobe Commerce para melhorar o desempenho do site
 
-Este artigo fornece uma correção para o baixo desempenho do site. O baixo desempenho do site pode ser causado pela `Magento_Banner` o módulo está sendo ativado, mas não está sendo usado. Desativar a saída do módulo pode melhorar o desempenho do site. Consulte o artigo para ver as etapas de resolução.
+Este artigo fornece uma correção para o baixo desempenho do site. O baixo desempenho do site pode ser causado pelo módulo `Magento_Banner` estar habilitado, mas não ser usado. Desativar a saída do módulo pode melhorar o desempenho do site. Consulte o artigo para ver as etapas de resolução.
 
 >[!NOTE]
 >
->Se você usar a funcionalidade de banner do Adobe Commerce, consulte a [Solicitações de AJAX de alta taxa de transferência causam baixo desempenho](/help/troubleshooting/miscellaneous/high-throughput-ajax-requests-cause-poor-performance.md) artigo da nossa base de conhecimento de suporte para obter recomendações sobre como evitar problemas de desempenho causados por solicitações excessivas de Ajax.
+>Se você usa a funcionalidade de banner do Adobe Commerce, consulte o artigo [Solicitações de AJAX de alta taxa de transferência causam baixo desempenho](/help/troubleshooting/miscellaneous/high-throughput-ajax-requests-cause-poor-performance.md) em nossa base de conhecimento de suporte para obter recomendações sobre como evitar problemas de desempenho causados por solicitações excessivas de Ajax.
 
 ## Produtos e versões afetados
 
@@ -26,7 +26,7 @@ Este artigo fornece uma correção para o baixo desempenho do site. O baixo dese
 
 ## Problema
 
-A variável `Magento_Banner` o módulo está ativado, mas não é usado.
+O módulo `Magento_Banner` está habilitado, mas não está em uso.
 
 Para verificar se esse é o caso:
 
@@ -36,25 +36,25 @@ Para o Adobe Commerce na infraestrutura em nuvem 2.2.x:
 1. Navegue até **Conteúdo** > *Elementos* > **Banners**.
 1. Se a grade exibida nessa página estiver vazia, significa que você não tem banners.
 
-Se você não vir a variável **Banners** opção em **Conteúdo** > *Elementos*, esse não é o caso e as recomendações deste artigo não podem ser aplicadas.
+Se você não vir a opção **Banners** em **Conteúdo** > *Elementos*, esse não será o caso e as recomendações deste artigo não poderão ser aplicadas.
 
-Para o Adobe Commerce na infraestrutura em nuvem 2.3.x (a funcionalidade foi [renomeado na v 2.3.x](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.0Commerce.html#banner-now-dynamic-block)):
+Para o Adobe Commerce na infraestrutura em nuvem 2.3.x (a funcionalidade foi [renomeada na v 2.3.x](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.0Commerce.html#banner-now-dynamic-block)):
 
 1. Faça logon no Administrador do Commerce.
-1. Navegue até **Conteúdo** > *Elementos >*  **Blocos dinâmicos**.
+1. Navegue até **Conteúdo** > *Elementos >* **Blocos Dinâmicos**.
 1. Se a grade exibida nessa página estiver vazia, significa que você não tem blocos dinâmicos (banners).
 
-Se você não vir a variável **Blocos dinâmicos** opção em **Conteúdo** > *Elementos*, esse não é o caso e as recomendações deste artigo não podem ser aplicadas.
+Se você não vir a opção **Blocos Dinâmicos** em **Conteúdo** > *Elementos*, esse não será o caso e as recomendações deste artigo não poderão ser aplicadas.
 
 ## Causa
 
-Quando a variável `Magento_Banner` estiver ativado, o Adobe Commerce envia solicitações do Ajax da loja para o servidor para obter as informações do banner. Essas solicitações do Ajax têm um impacto no desempenho, especialmente em condições de alta carga (alto volume e alto tráfego). Se a funcionalidade não for usada, é recomendável desativar a saída do módulo. Não é recomendável desativar o módulo, devido a problemas de dependência.
+Quando o módulo `Magento_Banner` está habilitado, o Adobe Commerce envia solicitações do Ajax da loja para o servidor para obter as informações do banner. Essas solicitações do Ajax têm um impacto no desempenho, especialmente em condições de alta carga (alto volume e alto tráfego). Se a funcionalidade não for usada, é recomendável desativar a saída do módulo. Não é recomendável desativar o módulo, devido a problemas de dependência.
 
 ## Solução
 
 >[!WARNING]
 >
->Recomendamos testar as alterações em [Ambiente de preparo/integração](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) primeiro, antes de aplicá-lo à Produção. Também recomendamos ter um backup recente antes de qualquer manipulação.
+>Recomendamos testar as alterações em [Ambiente de preparo/integração](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) primeiro, antes de aplicá-lo à produção. Também recomendamos ter um backup recente antes de qualquer manipulação.
 
-1. Desative o `Magento_Banner` saída do módulo, conforme descrito em [Desabilitar saída do módulo](https://devdocs.magento.com/guides/v2.3/config-guide/config/disable-module-output.html) na documentação do desenvolvedor. O nome do módulo que você precisa usar é `Magento_Banner`.
-1. Implante seu código. Para o Adobe Commerce na infraestrutura em nuvem, implante conforme descrito na seção [Implante sua loja](https://devdocs.magento.com/guides/v2.3/cloud/live/stage-prod-live.html) artigo em nossa documentação para desenvolvedores.
+1. Desative a saída do módulo `Magento_Banner`, conforme descrito em [Desativar saída do módulo](https://devdocs.magento.com/guides/v2.3/config-guide/config/disable-module-output.html) na documentação do desenvolvedor. O nome do módulo que você precisa usar é `Magento_Banner`.
+1. Implante seu código. Para o Adobe Commerce na infraestrutura em nuvem, implante conforme descrito no artigo [Implante sua loja](https://devdocs.magento.com/guides/v2.3/cloud/live/stage-prod-live.html) na documentação do desenvolvedor.

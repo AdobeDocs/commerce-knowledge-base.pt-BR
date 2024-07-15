@@ -24,21 +24,21 @@ Este artigo oferece soluções de problemas com o cron em produtos Adobe Commerc
 
 ## A seguir estão os sintomas de problemas de cron:
 
-* Sua atualização nunca é executada; ela permanece em um `pending` estado.
-* Uma mensagem de erro sobre o [PHP](https://glossary.magento.com/php) configuração `$HTTP_RAW_POST_DATA` é exibido mesmo se estiver definido corretamente.
+* Sua atualização nunca é executada; ela permanece em um estado `pending`.
+* Uma mensagem de erro sobre a configuração `$HTTP_RAW_POST_DATA` do [PHP](https://glossary.magento.com/php) é exibida mesmo que esteja configurada corretamente.
 * Falha na verificação de preparação do cron. Os possíveis erros incluem caminhos não graváveis e cron não configurado. Um exemplo é o seguinte:
 
-  ![up-tshoot-no-cron2.png](assets/upgr-tshoot-no-cron2.png)
+  ![upgr-tshoot-no-cron2.png](assets/upgr-tshoot-no-cron2.png)
 
 * A verificação de preparação do PHP não exibe a versão do PHP como mostra a figura a seguir.
 
-  ![Screen_Shot_2019-08-29_at_1.36.08_PM.png](assets/Screen_Shot_2019-08-29_at_1.36.08_PM.png)
+  ![Captura de tela_2019-08-29_at_1.36.08_PM.png](assets/Screen_Shot_2019-08-29_at_1.36.08_PM.png)
 
 * O seguinte erro é exibido no Commerce Admin:
 
   ![compman-cron-not-running.png](assets/compman-cron-not-running.png)
 
-Para ver o erro, clique em **Mensagens do sistema** na parte superior da janela, como a seguir:
+Para ver o erro, talvez seja necessário clicar em **Mensagens do Sistema** na parte superior da janela da seguinte maneira:
 
 ![compman_sys-messages.png](assets/compman_sys-messages.png)
 
@@ -48,9 +48,9 @@ Esta seção discute como ver se o cron está em execução no momento e como ve
 
 Para verificar se o crontab está ou não configurado, siga estas etapas:
 
-1. Efetue login no servidor Magento como ou alterne para o [proprietário do sistema de arquivos Magento](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html).
-1. Consulte se o seguinte arquivo existe:    `bash    ls -al <magento_root>/var/.setup_cronjob_status`. Se o arquivo existir, o cron foi executado com sucesso no passado. Se o arquivo *não* existe, você ainda não instalou o Magento ou o cron não está em execução. Em ambos os casos, continue com a próxima etapa.
-1. Obtenha mais detalhes sobre cron. Como usuário com `root` insira o seguinte comando:    `bash    crontab -u <Magento file system owner name> -l`. Por exemplo, no CentOS `bash    crontab -u magento_user -l`.  Se nenhum crontab tiver sido configurado para o usuário, a seguinte mensagem será exibida:    `terminal    no crontab for magento_user`. Seu crontab lhe diz o seguinte:
+1. Faça logon no servidor Magento como, ou alterne para, o [proprietário do sistema de arquivos Magento](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html).
+1. Consulte se o seguinte arquivo existe:    `bash    ls -al <magento_root>/var/.setup_cronjob_status`. Se o arquivo existir, o cron foi executado com sucesso no passado. Se o arquivo *não* existir, você ainda não instalou o Magento ou o cron não está em execução. Em ambos os casos, continue com a próxima etapa.
+1. Obtenha mais detalhes sobre cron. Como um usuário com privilégios `root`, digite o seguinte comando:    `bash    crontab -u <Magento file system owner name> -l`. Por exemplo, no CentOS `bash    crontab -u magento_user -l`.  Se nenhum crontab tiver sido configurado para o usuário, a seguinte mensagem será exibida:    `terminal    no crontab for magento_user`. Seu crontab lhe diz o seguinte:
 
    * Qual binário PHP você está usando (em alguns casos, você tem mais de um)
    * Quais scripts Magento cron você está executando (especificamente, os caminhos para esses scripts)
@@ -68,7 +68,7 @@ Para verificar se os trabalhos cron estão configurados corretamente, consulte [
 
 Se o seu trabalho cron usa um binário PHP diferente do plug-in do servidor Web, erros de configuração de PHP podem ser exibidos. Para resolver o problema, defina configurações idênticas do PHP para a linha de comando do PHP e o plug-in do servidor Web PHP.
 
-Para obter mais informações sobre as configurações do PHP, consulte [Configurações necessárias do PHP](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html) na documentação do desenvolvedor.
+Para obter mais informações sobre as configurações do PHP, consulte [Configurações do PHP necessárias](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html) na documentação do desenvolvedor.
 
 ### Solução para cron em execução com erros {#solution-cron-running-with-errors}
 
@@ -76,4 +76,4 @@ Tente executar cada comando manualmente porque o comando pode exibir mensagens d
 
 >[!NOTE]
 >
->Você deve executar o cron pelo menos *duas vezes* para que o job seja executado; a primeira vez que os jobs são enfileirados e a segunda vez que eles são executados.
+>Você deve executar o cron pelo menos *duas vezes* para que o trabalho seja executado; na primeira vez para colocar trabalhos em fila e na segunda vez para executá-los.

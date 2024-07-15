@@ -26,13 +26,13 @@ As alterações feitas no banco de dados não são refletidas na loja ou há um 
 
 ## Causa
 
-Se seus indexadores estiverem [configurado para atualizar por agendamento](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#configure-indexers), o problema pode ser causado por uma ou mais tabelas com logs de alteração muito grandes ou acionadores MySQL não configurados.
+Se seus indexadores estiverem [configurados para atualizar de acordo com a agenda](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#configure-indexers), o problema poderá ser causado por uma ou mais tabelas com logs de alteração muito grandes ou disparadores MySQL não configurados.
 
 ### Tabelas de log de alterações superdimensionadas
 
-As tabelas de log de alterações se tornarão tão grandes se a variável `indexer_update_all_views` o trabalho cron não foi concluído várias vezes com êxito.
+As tabelas de log de alterações aumentam tanto se o trabalho `indexer_update_all_views` não for concluído com êxito várias vezes.
 
-As tabelas de log de alterações são as tabelas de banco de dados nas quais as alterações nas entidades são rastreadas. Um registro é armazenado em uma tabela de log de alterações desde que a alteração não seja aplicada, o que é executado pelo `indexer_update_all_views` trabalho cron. Há várias tabelas de log de alterações em um banco de dados Adobe Commerce, que são nomeadas de acordo com o seguinte padrão: INDEXER\_TABLE\_NAME + ‘\_cl’, por exemplo `catalog_category_product_cl`, `catalog_product_category_cl`. Você pode encontrar mais detalhes sobre como as alterações são rastreadas no banco de dados na [Visão geral da indexação > Visualizar](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview) artigo em nossa documentação para desenvolvedores.
+As tabelas de log de alterações são as tabelas de banco de dados nas quais as alterações nas entidades são rastreadas. Um registro é armazenado em uma tabela de log de alterações desde que a alteração não seja aplicada, o que é executado pelo trabalho cron `indexer_update_all_views`. Há várias tabelas de log de alterações em um banco de dados Adobe Commerce, elas são nomeadas de acordo com o seguinte padrão: INDEXER\_TABLE\_NAME + ‘\_cl’, por exemplo `catalog_category_product_cl`, `catalog_product_category_cl`. Você pode encontrar mais detalhes sobre como as alterações são rastreadas no banco de dados no artigo [Visão geral da indexação > Mview](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview) na documentação do desenvolvedor.
 
 ### Acionadores do banco de dados MySQL não configurados
 
@@ -46,16 +46,16 @@ Você suspeitaria que os acionadores do banco de dados não estivessem sendo con
 
 ### Evitar que as tabelas de log de alterações sejam superdimensionadas
 
-Certifique-se de que o `indexer_update_all_views` o trabalho cron é sempre concluído com sucesso.
+Certifique-se de que o trabalho cron `indexer_update_all_views` seja sempre concluído com êxito.
 
-Você pode usar a seguinte consulta SQL para obter todas as instâncias com falha da `indexer_update_all_views` trabalho cron:
+Você pode usar a seguinte consulta SQL para obter todas as instâncias com falha do trabalho cron `indexer_update_all_views`:
 
 ```sql
 select * from cron_schedule where job_code = "indexer_update_all_views" and status
   <> "success" and status <> "pending";
 ```
 
-Ou você pode verificar seu status nos logs procurando pelo `indexer_update_all_views` entradas:
+Ou você pode verificar seu status nos logs procurando pelas entradas `indexer_update_all_views`:
 
 * `<install_directory>/var/log/cron.log` - para as versões 2.3.1+ e 2.2.8+
 * `<install_directory>/var/log/system.log` - para versões anteriores
@@ -71,7 +71,7 @@ Use o seguinte comando para executar esta operação.
 
 >[!WARNING]
 >
->Antes de alternar os modos do indexador, recomendamos colocar seu site no [manutenção](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#maintenance-mode) e [desabilitar trabalhos cron](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html#disable-cron-jobs) para evitar bloqueios de banco de dados.
+>Antes de alternar os modos de indexador, recomendamos colocar seu site no modo [manutenção](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#maintenance-mode) e [desabilitar trabalhos cron](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html#disable-cron-jobs) para evitar bloqueios de banco de dados.
 
 ```bash
 php bin/magento indexer:set-mode {realtime|schedule} [indexerName]
@@ -83,5 +83,5 @@ php bin/magento indexer:set-mode {realtime|schedule} [indexerName]
 
 ## Leitura relacionada
 
-<ul><li title="As tabelas MySQL são muito grandes"><a href="/help/troubleshooting/database/mysql-tables-are-too-large.md">As tabelas MySQL são muito grandes</a> em nossa base de conhecimento de suporte.</li>
-<li title="As tabelas MySQL são muito grandes"><a href="https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview">Visão geral do indexador &gt; Visualizar</a> na documentação do desenvolvedor.</li></ul>
+<ul><li title="As tabelas MySQL são muito grandes"><a href="/help/troubleshooting/database/mysql-tables-are-too-large.md">As tabelas do MySQL são muito grandes</a> em nossa base de dados de conhecimento de suporte.</li>
+<li title="As tabelas MySQL são muito grandes"><a href="https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview">Visão geral do Indexador &gt; Mview</a> na documentação do desenvolvedor.</li></ul>

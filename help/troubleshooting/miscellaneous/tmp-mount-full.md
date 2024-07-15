@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Solução de problemas de montagem /tmp completa para o Adobe Commerce
 
-Este artigo fornece uma solução para quando o `/tmp` a montagem está cheia, o site pode estar inativo e você não pode aplicar SSH a um nó.
+Este artigo fornece uma solução para quando a montagem do `/tmp` estiver cheia, o site pode estar inativo e você não pode executar SSH em um nó.
 
 ## Produtos e versões afetados
 
@@ -21,29 +21,29 @@ Este artigo fornece uma solução para quando o `/tmp` a montagem está cheia, o
 
 ## Problema
 
-A variável `/tmp` A montagem cheia pode resultar em vários sintomas possíveis, incluindo os seguintes erros:
+A montagem `/tmp` pode resultar em vários sintomas possíveis, incluindo os seguintes erros:
 
 * *SQLSTATE[HY000]: Erro geral: 3 Erro ao gravar arquivo*
 * *Código de erro: 28*
 * *Não há mais espaço no dispositivo (28)*
-* *error session_start(): failed: sem espaço no dispositivo*
+* *erro session_start(): falha: sem espaço no dispositivo*
 * *ERRO 1 (HY000): não é possível criar/gravar no arquivo &#39;/tmp/*
-* *Erro SQL: 3, SQLState: HY000*
-* *Erro geral: disco 1021 cheio (/tmp)*
+* *Erro de SQL: 3, SQLState: HY000*
+* *Erro geral: 1021 Disco cheio (/tmp)*
 * *Não é possível acessar o nó via SSH:*
   *bash: não é possível criar arquivo temporário para here-document: sem espaço no dispositivo*
 * *errno: 28 &quot;Não há espaço disponível no dispositivo&quot;*
-* *mysqld: o disco está cheio gravando &#39;/tmp&#39;*
+* *mysqld: disco com gravação completa &#39;/tmp&#39;*
 * *[ERRO] mysqld: disco cheio (/tmp)*
-* *SQLSTATE[HY000]: Erro geral: 1 Não é possível criar/gravar no arquivo &#39;/tmp/&#39;*
-* *SQLSTATE[HY000]: Erro geral: 23 Falta de recursos ao abrir o arquivo &#39;/tmp/&#39;*
+* *SQLSTATE[HY000]: erro geral: 1 Não é possível criar/gravar no arquivo &#39;/tmp/&#39;*
+* *SQLSTATE[HY000]: erro geral: 23 recursos insuficientes ao abrir o arquivo &#39;/tmp/&#39;*
 * *Errcode: 24 &quot;Muitos arquivos abertos&quot;*
-* *Erro recebido: 23: Sem recursos ao abrir o arquivo*
+* *Erro recebido: 23: recursos insuficientes ao abrir o arquivo*
 
 
 <u>Etapas a serem reproduzidas:</u>
 
-Para verificar o nível de `/tmp` a montagem é, no switch da CLI para `/tmp` e execute o seguinte comando:
+Para verificar se a montagem `/tmp` está cheia, no switch CLI para `/tmp` e execute o seguinte comando:
 
 ```bash
  df -h
@@ -59,15 +59,15 @@ Em torno de 100%.
 
 ## Causa
 
-A variável `/tmp` a montagem tem muitos arquivos, o que pode ser causado por:
+A montagem `/tmp` tem muitos arquivos, o que pode ser causado por:
 
 * Consultas SQL incorretas gerando tabelas temporárias grandes e/ou muitas.
-* Serviços que gravam em `/tmp` diretório.
-* Backups/despejos de banco de dados deixados na `/tmp` diretório.
+* Serviços gravando no diretório `/tmp`.
+* Backups/despejos de banco de dados deixados no diretório `/tmp`.
 
 ## Solução
 
-Há coisas que você pode fazer para liberar espaço uma vez e há práticas recomendadas que podem impedir `\tmp` de ficar cheio.
+Há coisas que você pode fazer para liberar espaço uma vez, e há práticas recomendadas que impediriam `\tmp` de ficar cheio.
 
 ### Verificar e liberar inodes
 
@@ -92,7 +92,7 @@ Há vários serviços que podem estar salvando arquivos em `/tmp`.
 
 #### Verificar e liberar espaço no MySQL
 
-Siga as instruções em [O espaço em disco do MySQL é insuficiente no Adobe Commerce na infraestrutura de nuvem > Verificar e liberar espaço de armazenamento](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md#check_and_free) em nossa base de conhecimento de suporte.
+Siga as instruções em [O espaço em disco do MySQL é insuficiente no Adobe Commerce na infraestrutura de nuvem > Verificar e liberar espaço de armazenamento](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md#check_and_free) em nossa base de dados de suporte.
 
 #### Verificar Elasticsearch heapdumps
 
@@ -106,7 +106,7 @@ Remover despejos de pilha (`*.hprof`) usando o shell do sistema:
 find /tmp/*.hprof -type f -delete
 ```
 
-Se você não tiver permissões para excluir arquivos criados por outro usuário (neste caso, Elasticsearch), mas perceber que os arquivos são grandes, [criar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) para lidar com eles.
+Se você não tiver permissões para excluir arquivos criados por outro usuário (neste caso, Elasticsearch), mas perceber que os arquivos são grandes, [crie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) para lidar com eles.
 
 #### Verificar despejos/backups do banco de dados
 
@@ -114,15 +114,15 @@ Se você não tiver permissões para excluir arquivos criados por outro usuário
 >
 >Geralmente, os backups do banco de dados são criados para uma finalidade. Se não tiver certeza se o arquivo ainda é necessário, considere movê-lo para um local separado em vez de excluí-lo.
 
-Marcar `/tmp` para `.sql` ou `.sql.gz` arquivos e limpe-os. Eles podem ter sido criados por ece-tools durante o backup ou ao criar manualmente despejos de banco de dados usando o `mysqldump` ferramenta.
+Verifique `/tmp` para arquivos `.sql` ou `.sql.gz` e limpe-os. Eles podem ter sido criados por ece-tools durante o backup ou ao criar manualmente despejos de banco de dados usando a ferramenta `mysqldump`.
 
 ### Práticas recomendadas
 
-Para evitar problemas com o `/tmp` por estar cheio, siga estas recomendações:
+Para evitar problemas com o `/tmp` cheio, siga estas recomendações:
 
 * Não use MySQL para pesquisa. O Elasticsearch para pesquisa geralmente elimina a necessidade da maioria das criações pesadas de tabelas temporárias. Consulte [Configurar o Adobe Commerce para usar o Elasticsearch](https://devdocs.magento.com/guides/v2.2/config-guide/elasticsearch/configure-magento.html) na documentação do desenvolvedor.
-* Evite executar o `SELECT` consulta em colunas sem índices, pois isso consome uma grande quantidade de espaço temporário em disco. Você também pode adicionar os índices.
-* Criar um cron para limpar `/tmp` executando o seguinte comando na CLI:
+* Evite executar a consulta `SELECT` em colunas sem índices, pois isso consome uma grande quantidade de espaço temporário em disco. Você também pode adicionar os índices.
+* Crie um cron para limpar `/tmp` executando o seguinte comando na CLI:
 
   ```bash
   sudo find /tmp -type f -atime +10 -delete
@@ -130,4 +130,4 @@ Para evitar problemas com o `/tmp` por estar cheio, siga estas recomendações:
 
 ## Leitura relacionada
 
-[O espaço em disco do MySQL é insuficiente no Adobe Commerce na infraestrutura em nuvem](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md) em nossa base de conhecimento de suporte.
+[O espaço em disco do MySQL é insuficiente na infraestrutura de nuvem do Adobe Commerce](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md) em nossa base de dados de conhecimento de suporte.

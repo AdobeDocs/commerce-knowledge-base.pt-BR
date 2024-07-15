@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # Personalizar a configuração de design no Administrador do Commerce
 
-Para obter as informações mais atualizadas sobre como personalizar a configuração de design no Administrador do Commerce, consulte [Personalizar o design do administrador do Adobe Commerce](https://devdocs.magento.com/guides/v2.4/howdoi/admin/customize_admin.html) na documentação do desenvolvedor.
+Para obter as informações mais atualizadas sobre como personalizar a configuração de design no Commerce Admin, consulte [Personalizar o Adobe Commerce Admin Design](https://devdocs.magento.com/guides/v2.4/howdoi/admin/customize_admin.html) na documentação do desenvolvedor.

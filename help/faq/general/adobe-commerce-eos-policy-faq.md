@@ -18,7 +18,7 @@ As Perguntas frequentes a seguir têm como objetivo ajudar comerciantes, desenvo
 
 ### Onde posso encontrar as datas de suporte de software para todas as versões do Adobe Commerce?
 
-Você pode encontrar a política de ciclo de vida do software Adobe Commerce e as datas de suporte do software na [Política de ciclo de vida do software Adobe Commerce](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf). Também publicamos datas de fim de suporte (EOS) em nossa [página de documentação do desenvolvedor](https://devdocs.magento.com/release/released-versions.html).
+Você pode encontrar a política de ciclo de vida do software Adobe Commerce e as datas de suporte ao software na [Política de ciclo de vida do software Adobe Commerce](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf). Também publicamos datas de fim de suporte (EOS) em nossa [página de documentação do desenvolvedor](https://devdocs.magento.com/release/released-versions.html).
 
 ### O que significa quando o Adobe encerra o suporte para uma versão do software Adobe Commerce?
 
@@ -35,13 +35,13 @@ Quando o Adobe encerra o suporte para uma versão do seu software Adobe Commerce
 
 Se decidir continuar usando software que encerrou o suporte, você não receberá mais atualizações importantes do produto ou suporte técnico, o que geralmente inclui as atualizações de segurança mais recentes. O uso de software incompatível pode afetar as seguintes áreas:
 
-**Proporcionando experiências seguras de compra:**
+**Fornecendo experiências de compra segura:**
 
 * Você precisará gastar recursos para avaliar e empregar fornecedores terceirizados para fornecer suporte de segurança, correções e atualizações.
-* Quando uma versão do software Adobe Commerce não é mais suportada, essa versão não é mais [Compatível com PCI](https://www.pcisecuritystandards.org/pci_security/maintaining_payment_security). Quando isso acontece, você pode estar sujeito a multas, remoção da capacidade de processamento do cartão de crédito ou outras penalidades como resultado.
+* Quando uma versão do Adobe Commerce Software não for mais suportada, ela não será mais [compatível com PCI](https://www.pcisecuritystandards.org/pci_security/maintaining_payment_security). Quando isso acontece, você pode estar sujeito a multas, remoção da capacidade de processamento do cartão de crédito ou outras penalidades como resultado.
 * Como a maioria das explorações tende a direcionar instalações que não estão atualizadas com as atualizações de segurança mais recentes, recomendamos sempre que os comerciantes mantenham seus softwares atualizados e instalem atualizações de segurança assim que estiverem disponíveis. Cabe ao comerciante manter sua loja on-line segura com salvaguardas e controles de segurança adequados para proteger seu site e os dados pessoais de seus clientes. Uma das melhores maneiras de fazer isso é ter os patches, correções e atualizações de software mais recentes instalados e monitorar continuamente seu site e o Admin Console em busca de atividades incomuns.
 
-**Operar com eficiência e eficácia**
+**Operando com eficiência e eficácia**
 
 * Como as versões não compatíveis da era do software Adobe Commerce, há um número cada vez menor de desenvolvedores e parceiros disponíveis, capazes de oferecer suporte a versões desatualizadas, à medida que orientam suas operações para tecnologias mais recentes. Em geral, o resultado é que a quantidade e a qualidade de talentos para a manutenção de software diminuem, enquanto o custo para manter o software aumenta.
 * No caso de software Adobe Commerce não suportado, as dependências e tecnologias periféricas também podem atingir seu próprio fim de vida útil (por exemplo, PHP, MYSQL, REDIS, SOLR). Isso torna cada vez mais difícil gerenciar e manter um site seguro e em conformidade.
@@ -68,9 +68,9 @@ Há várias maneiras de você se beneficiar significativamente ao manter-se atua
 
 Sua plataforma comercial é um sistema comercial importante para sua empresa e manter-se atualizado e atualizado é um investimento crítico contínuo nos negócios. As últimas atualizações de tecnologia e segurança para sua loja digital são importantes em vários níveis e podem ajudar a aprimorar as inovações e o crescimento.
 
-A migração para a versão mais recente do software Adobe Commerce pode demorar tempo e recursos para ser bem executada. É prática recomendada planejar o máximo possível antes do fim do suporte, para ajudar a garantir que você tenha o tempo e os recursos apropriados para atingir suas metas estratégicas dentro do cronograma e do orçamento. Para ajudá-lo com a próxima atualização, o Adobe publicou o [Guia de atualização do 2.4](https://experienceleague.adobe.com/docs/commerce-operations/assets/adobe-commerce-2-4-upgrade-guide.pdf) que inclui as práticas recomendadas e as etapas técnicas a serem seguidas, bem como as ferramentas e os recursos a serem usados ao executar sua atualização.
+A migração para a versão mais recente do software Adobe Commerce pode demorar tempo e recursos para ser bem executada. É prática recomendada planejar o máximo possível antes do fim do suporte, para ajudar a garantir que você tenha o tempo e os recursos apropriados para atingir suas metas estratégicas dentro do cronograma e do orçamento. Para ajudá-lo com a próxima atualização, o Adobe publicou o [Guia de Atualização do 2.4](https://experienceleague.adobe.com/docs/commerce-operations/assets/adobe-commerce-2-4-upgrade-guide.pdf), que inclui as práticas recomendadas e as etapas técnicas a serem seguidas, bem como as ferramentas e os recursos a serem usados ao executar a atualização.
 
-Outra consideração importante é reservar recursos de desenvolvedores e parceiros o mais rápido possível. O tempo e os recursos dos parceiros são reservados com frequência bem antes do fim do suporte, resultando em um número significativamente menor de recursos para ajudar nos projetos de migração. Recomenda-se que você tenha um plano rotativo de três anos, que deve ser discutido no mínimo anualmente e que garanta que o próximo ano seja planejado e orçado. Uso [calendário de lançamento do Adobe](https://devdocs.magento.com/release/) para rastrear as datas de lançamento.
+Outra consideração importante é reservar recursos de desenvolvedores e parceiros o mais rápido possível. O tempo e os recursos dos parceiros são reservados com frequência bem antes do fim do suporte, resultando em um número significativamente menor de recursos para ajudar nos projetos de migração. Recomenda-se que você tenha um plano rotativo de três anos, que deve ser discutido no mínimo anualmente e que garanta que o próximo ano seja planejado e orçado. Use o [calendário de lançamento do Adobe](https://devdocs.magento.com/release/) para acompanhar as datas de lançamento.
 
 ### Posso usar um provedor de serviços terceirizado para suporte de software quando o Suporte da Adobe Commerce for interrompido?
 
@@ -102,7 +102,7 @@ Não, o Adobe não prioriza novamente os tíquetes de suporte com base na data d
 
 ### Para tíquetes de suporte abertos ANTES da data de término do suporte, há um alerta para lembrar os comerciantes do próximo fim do suporte?
 
-Não, não há alertas de lembrete notificando os usuários do tíquete de suporte sobre as datas futuras de término do suporte. É responsabilidade do abridor de tíquetes saber as datas de fim de suporte da versão do Adobe Commerce em que estão, que podem ser encontradas em nosso [Política de ciclo de vida do software Adobe Commerce](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
+Não, não há alertas de lembrete notificando os usuários do tíquete de suporte sobre as datas futuras de término do suporte. É de responsabilidade do abridor de tíquetes saber as datas de fim de suporte da versão do Adobe Commerce em que estão, que podem ser encontradas em nossa [política de ciclo de vida do software Adobe Commerce](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
 
 ### Se um tíquete de suporte para uma versão de software for aberto APÓS a data de término do suporte para essa versão, ele ainda será processado para resolução?
 

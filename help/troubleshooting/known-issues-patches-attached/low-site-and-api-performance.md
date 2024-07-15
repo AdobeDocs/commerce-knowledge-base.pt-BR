@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Baixo desempenho do site e da API
 
-Este artigo fornece um patch para o problema conhecido do Adobe Commerce na infraestrutura em nuvem 2.2.1 relacionado ao baixo desempenho do site e da API causado por um longo tempo necessário para gravar `debug.log`.
+Este artigo fornece um patch para o problema conhecido do Adobe Commerce na infraestrutura na nuvem 2.2.1 relacionado ao baixo desempenho do site e da API causado por um longo tempo necessário para gravar `debug.log`.
 
 ## Problema
 
-O desempenho do site está lento. As operações da API são executadas lentamente, por exemplo, atualização de produtos usando o `PUT` método. Quando você observa as operações de maneira mais detalhada usando o New Relic, a maior parte da memória e da CPU é consumida ao gravar em `/var/log/debug.log`.
+O desempenho do site está lento. As operações de API são executadas lentamente, por exemplo, atualização de produtos usando o método `PUT`. Quando você examina de perto as operações usando o New Relic, a maior parte da memória e da CPU são consumidas ao gravar em `/var/log/debug.log`.
 
 ## Solução
 
@@ -42,6 +42,6 @@ O patch também é compatível (mas pode não resolver o problema) com as seguin
 
 ## Como aplicar o patch
 
-Consulte [Como aplicar um patch de compositor fornecido pelo Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) na nossa base de conhecimento de suporte para obter instruções.
+Consulte [Como aplicar um patch de compositor fornecido pelo Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de dados de conhecimento de suporte para obter instruções.
 
 ## Arquivos Anexados

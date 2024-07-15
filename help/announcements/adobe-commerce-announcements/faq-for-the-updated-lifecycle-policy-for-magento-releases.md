@@ -17,8 +17,8 @@ ht-degree: 0%
 
 A Adobe Commerce fornece correções de qualidade para uma versão secundária por um mínimo de 12 meses a partir da data de disponibilidade geral da próxima versão secundária de software. A maneira como fornecemos correções de qualidade durante esse período está mudando:
 
-* **Política anterior:** Atualmente, as correções de qualidade da linha anterior que está na janela EOS de 12 meses são entregues por meio da versão de patch trimestral, tornando os patches trimestrais uma combinação de segurança + qualidade.
-* **Nova política:** A partir da versão 2.4 como a linha de versão secundária mais atual, os patches de versão da linha anterior com suporte (2.3) serão movidos para somente segurança. Ainda forneceremos correções de qualidade para a linha compatível anterior durante a janela de 12 meses após o lançamento de uma versão secundária (como 2.4) e novas linhas de versão secundárias subsequentes; mas elas serão disponibilizadas por meio de [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) e concentrar-se apenas em questões críticas.
+* **Política anterior:** Atualmente, as correções de qualidade para a linha anterior que está na janela de EOS de 12 meses são entregues por meio da versão de patch trimestral, tornando os patches trimestrais uma combinação de segurança + qualidade.
+* **Nova política:** a partir da versão 2.4 como a linha de versão secundária mais atual, os patches de versão da linha com suporte anterior (2.3) serão movidos para somente segurança. Ainda forneceremos correções de qualidade para a linha compatível anterior durante a janela de 12 meses após o lançamento de uma versão secundária (como 2.4) e novas linhas de versão secundárias subsequentes; mas elas serão disponibilizadas por meio da [Ferramenta de Patches de Qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) e estarão focalizadas apenas em problemas críticos.
 
 ## Quando esta política entra em vigor?
 
@@ -26,7 +26,7 @@ O Adobe Commerce 2.3.6 está programado para ser lançado em 15 de outubro de 20
 
 >[!NOTE]
 >
->A única vez que lançaremos uma versão completa da 2.3 é se precisarmos manter a conformidade com nossa pilha de tecnologia, como para PHP ou Elasticsearch. Isto está acontecendo no segundo trimestre de 2021 com uma atualização obrigatória do PHP 7.4, nós iremos incrementar a linha para 2.3.7. Para obter detalhes, consulte [Suporte do PHP 7.4 para a linha de versão Adobe Commerce 2.3.x](https://community.magento.com/t5/Magento-DevBlog/PHP-7-4-support-for-Magento-2-3-x-release-line/ba-p/458946) Publicação do DevBlog.
+>A única vez que lançaremos uma versão completa da 2.3 é se precisarmos manter a conformidade com nossa pilha de tecnologia, como para PHP ou Elasticsearch. Isto está acontecendo no segundo trimestre de 2021 com uma atualização obrigatória do PHP 7.4, nós iremos incrementar a linha para 2.3.7. Para obter detalhes, consulte a publicação [Suporte ao PHP 7.4 para Adobe Commerce versão 2.3.x](https://community.magento.com/t5/Magento-DevBlog/PHP-7-4-support-for-Magento-2-3-x-release-line/ba-p/458946) DevBlog.
 
 ## O que é uma versão somente de segurança?
 
@@ -34,11 +34,11 @@ As versões somente de segurança contêm apenas correções de segurança e nen
 
 ## Ainda haverá uma versão somente de segurança para a linha mais recente (a partir da publicação, 2.4)?
 
-O Adobe continuará a ter versões somente de segurança para a linha de versão mais recente também. O processo para isso está descrito em [Introduzindo a Nova Versão de Patch Somente de Segurança](https://community.magento.com/t5/Magento-DevBlog/Introducing-the-New-Security-only-Patch-Release/ba-p/141287) Publicação do DevBlog.
+O Adobe continuará a ter versões somente de segurança para a linha de versão mais recente também. O processo para isso está descrito em [Introdução à Nova Versão de Patch Somente de Segurança](https://community.magento.com/t5/Magento-DevBlog/Introducing-the-New-Security-only-Patch-Release/ba-p/141287) na publicação do DevBlog.
 
 ## O que é a Ferramenta de correção de qualidade?
 
-Consulte a [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatendimento de correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) artigo em nossa base de conhecimento de suporte.
+Consulte o artigo [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatendimento de correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de dados de conhecimento de suporte.
 
 ## Quem deve considerar o uso dessa nova política?
 
@@ -50,7 +50,7 @@ Em última análise, todos os comerciantes ainda devem priorizar o planejamento 
 
 ## Como receberei correções de qualidade em versões secundárias compatíveis que não sejam a linha mais recente?
 
-As correções serão disponibilizadas por meio da [Ferramenta Correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md).
+As correções serão disponibilizadas por meio da [Ferramenta de correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md).
 
 ## Como obterei correções de qualidade na linha mais recente?
 
@@ -86,4 +86,4 @@ Ao aplicar muitas correções de qualidade individuais, você torna seu código 
 
 Durante o tempo de vida de uma linha de lançamento, haverá atualizações para várias pilhas de tecnologia como PHP ou Elasticsearch que precisarão ser atualizadas para se manterem compatíveis. Daremos o máximo de aviso possível aos nossos comerciantes que eles estão chegando.
 
-Observação: no segundo trimestre de 2021, precisaremos atualizar o PHP e o Redis na linha 2.3.x para permanecermos compatíveis. Isso fará com que a linha incremente para 2.3.7. Para obter detalhes, consulte [Suporte do PHP 7.4 para a linha de versão Adobe Commerce 2.3.x](https://community.magento.com/t5/Magento-DevBlog/PHP-7-4-support-for-Magento-2-3-x-release-line/ba-p/458946) Publicação do DevBlog.
+Observação: no segundo trimestre de 2021, precisaremos atualizar o PHP e o Redis na linha 2.3.x para permanecermos compatíveis. Isso fará com que a linha incremente para 2.3.7. Para obter detalhes, consulte a publicação [Suporte ao PHP 7.4 para Adobe Commerce versão 2.3.x](https://community.magento.com/t5/Magento-DevBlog/PHP-7-4-support-for-Magento-2-3-x-release-line/ba-p/458946) DevBlog.

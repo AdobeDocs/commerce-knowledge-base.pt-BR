@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Este artigo discute como resolver o erro de implantação com falha do Adobe Commerce na infraestrutura em nuvem, semelhante ao seguinte:
 
-&quot;*O URL &#39;https://repo.magento.com/archives/magento/magento-cloud-configuration/magento-magento-cloud-configuration-x.x.x.x.zip&#39; não pôde ser acessado: HTTP/1.1 403 Proibido* &quot;. Ou o &quot;*O arquivo &quot;https://repo.magento.com/archives/magento/module-customer-segment/magento-module-customer-segment-102.0.5.0-patch2.zip&quot; não pôde ser baixado (HTTP/1.1 404 Não encontrado)*&quot;.
+&quot;*A URL &#39;https://repo.magento.com/archives/magento/magento-cloud-configuration/magento-magento-cloud-configuration-x.x.x.x.zip&#39; não pôde ser acessada: HTTP/1.1 403 Proibido* &quot;. Ou o arquivo &quot;*https://repo.magento.com/archives/magento/module-customer-segment/magento-module-customer-segment-102.0.5.0-patch2.zip&quot; não pôde ser baixado (HTTP/1.1 404 Não encontrado)*&quot;.
 
 ## Produtos e versões afetados
 
@@ -33,7 +33,7 @@ Acione a implantação manualmente ou executando uma mesclagem, push ou sincroni
 
 A implantação pára. No log de erros de implantação na interface do Project, uma mensagem de erro semelhante à seguinte é exibida:
 
-*&quot;O URL &#39;https://repo.magento.com/archives/magento/magento-cloud-configuration/magento-magento-cloud-configuration-x.x.x.x.zip&#39; não pôde ser acessado: HTTP/1.1 \[403 Proibido ou 404 Não Encontrado\]&quot;*.
+*&quot;A URL &#39;https://repo.magento.com/archives/magento/magento-cloud-configuration/magento-magento-cloud-configuration-x.x.x.x.zip&#39; não pôde ser acessada: HTTP/1.1 \[403 Proibido ou 404 Não Encontrado\]&quot;*.
 
 (Clique no ícone &quot;Falha&quot; na interface do usuário do projeto para ver o log.)
 
@@ -59,8 +59,8 @@ Alguns motivos para chaves não serem válidas são:
 Siga as etapas a seguir para resolver o problema com as chaves de autorização (consulte as seções abaixo para obter mais detalhes sobre cada etapa):
 
 1. Obter as chaves de autorização válidas (ignore se tiver certeza de que a chave é válida).
-1. Adicione o valor keys no `env:COMPOSER_AUTH` (ou verifique se o valor correto está lá) e verifique se as chaves são especificadas de forma consistente na variável no nível do projeto e no nível do ambiente, bem como no `auth.json` arquivo (se existir) na raiz do projeto.
-1. Atualizar ou excluir `auth.json`, para ter um único local onde a chave é configurada, se os valores das chaves de autorização não forem especificados ou tiverem outro valor.
+1. Adicione o valor keys na variável `env:COMPOSER_AUTH` (ou verifique se o valor correto está lá) e verifique se as chaves são especificadas consistentemente na variável no nível do projeto e no nível do ambiente, bem como no arquivo `auth.json` (se existir) na raiz do projeto.
+1. Atualize ou exclua `auth.json` para ter um único local onde a chave esteja configurada, se os valores das chaves de autorização não forem especificados ou tiverem outro valor.
 
 ### 1. Obter chaves de autorização válidas
 
@@ -77,11 +77,11 @@ Consulte as instruções e informações relacionadas em [Preparar o sistema exi
 Veja a seguir uma descrição passo a passo de como atualizar suas chaves de autorização:
 
 1. Faça logon no computador que tem suas chaves SSH do Adobe Commerce na infraestrutura em nuvem.
-1. Faça logon no projeto: `magento-cloud login`
-1. Crie uma ramificação para atualizar o código (no exemplo a seguir, o nome da ramificação é `auth` é criado a partir da ramificação principal):     `magento-cloud environment:branch auth master`
+1. Faça logon no seu projeto: `magento-cloud login`
+1. Crie uma ramificação para atualizar o código (no exemplo a seguir, o nome da ramificação é `auth` é criado a partir da ramificação primária):     `magento-cloud environment:branch auth master`
 1. Mude para o diretório raiz do projeto.
-1. Opcional: exclua o `auth.json` se preferir e continuar a [etapa 9](#step9).
-1. Abertura `auth.json` em um editor de texto.
+1. Opcional: exclua o `auth.json` se preferir e continue para a [etapa 9](#step9).
+1. Abra `auth.json` em um editor de texto.
 
    ```json
               {

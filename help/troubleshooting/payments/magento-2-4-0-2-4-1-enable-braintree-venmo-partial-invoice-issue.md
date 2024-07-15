@@ -24,7 +24,7 @@ Este artigo descreve um problema conhecido do Adobe Commerce 2.4.0 e 2.4.1, em q
 
 <u>Pré-requisitos:</u>
 
-Na configuração do método de pagamento Braintree, defina **Ativar Venmo por meio do Braintree** = *Sim* com **Ação de pagamento** = *Autorização*; **Ativar Cofre para Pagamentos com Cartão** = *Não*.
+Na configuração do método de pagamento Braintree, defina **Habilitar Venmo por meio de Braintree** = *Sim* com **Ação de Pagamento** = *Autorização*; **Habilitar Cofre para Pagamentos com Cartão** = *Não*.
 
 <u>Etapas a serem reproduzidas:</u>
 

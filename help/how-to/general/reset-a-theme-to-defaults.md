@@ -41,4 +41,4 @@ Dessa forma, não haverá um tema definido no nível de exibição da loja e, qu
 
 ## Informações adicionais
 
-* [Limpar diretórios durante o desenvolvimento](https://devdocs.magento.com/guides/v2.2/howdoi/php/php_clear-dirs.html) na documentação do desenvolvedor
+* [Limpar diretórios durante o desenvolvimento](https://devdocs.magento.com/guides/v2.2/howdoi/php/php_clear-dirs.html) em nossa documentação do desenvolvedor

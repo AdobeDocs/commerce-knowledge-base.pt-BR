@@ -24,14 +24,14 @@ Este artigo fornece uma solução para o problema que ocorre quando todas as men
 
 <u>Etapas a serem reproduzidas:</u>
 
-1. Ir para **Criar nova conta** página na loja.
+1. Vá para a página **Criar nova conta** na vitrine.
 1. Crie uma nova conta usando um email registrado. A seguinte mensagem é exibida:
 
 `There+is+already+an+account+with+this+email+address.+If+you+are+sure+that+it+is+your+email+address,+click+here+to+get+your+password+and+access+your+account.`
 
 ## Causa
 
-O problema é causado por um problema do PHP 7.4.2 relacionado a set\\read cookies. Consulte [PHP BUG \#79174 setcookie() codifica o espaço como \`+\`, mas $\_COOKIE não os decodifica mais](https://bugs.php.net/bug.php?id=79174).
+O problema é causado por um problema do PHP 7.4.2 relacionado a set\\read cookies. Consulte [PHP BUG \#79174 setcookie() codifica o espaço como \`+\`, mas $\_COOKIE não os decodifica](https://bugs.php.net/bug.php?id=79174).
 
 ## Solução
 

@@ -28,13 +28,13 @@ Este artigo fornece recursos para solução de problemas do New Relic no Adobe C
 <tr>
 <td>
 <p><u>Não é possível visualizar projetos no New Relic.</u></p>
-<p>Você faz logon no <em>New Relic</em> mas não pode ver projetos que você deveria ter direito a visualizar/acessar.</p>
+<p>Você faz logon no <em>New Relic</em>, mas não pode ver os projetos que você deveria ter direito a visualizar/acessar.</p>
 </td>
 <td>
 <p>Nesses casos, um usuário administrador precisa adicioná-lo ao projeto.</p>
 </td>
 <td>
-<p><a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/access-new-relic-services.html">Acesso aos serviços da New Relic</a> em nossa base de conhecimento de suporte.</p>
+<p><a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/access-new-relic-services.html">Acessando os serviços da New Relic</a> em nossa base de dados de conhecimento de suporte.</p>
 </td>
 </tr>
 <tr>
@@ -66,7 +66,7 @@ Este artigo fornece recursos para solução de problemas do New Relic no Adobe C
 </tr>
 <tr>
 <td>
-<p><u>Discrepância do carimbo de data e hora das transações.</u> Você pode se esforçar para encontrar transações longas (mais de 5 minutos) usando a interface do usuário do New Relic. Você também pode encontrar transações exibidas fora do intervalo de tempo esperado.</p>
+<p><u>Discrepância do carimbo de data/hora das transações.</u> Talvez você tenha dificuldades para encontrar transações longas (mais de 5 minutos) usando a interface do usuário do New Relic. Você também pode encontrar transações exibidas fora do intervalo de tempo esperado.</p>
 </td>
 <td>
 <p>A interface do usuário do New Relic exibe a hora do fim da transação, não a hora em que a transação começou.</p>
@@ -77,13 +77,13 @@ Este artigo fornece recursos para solução de problemas do New Relic no Adobe C
 </tr>
 <tr>
 <td>
-<p><u>NerdGraph GraphQL <code>curl</code> consultas usando caracteres especiais, como <code>|</code> e <code>%</code> não funcionam</u>.</p>
+<p>As consultas <u>NerdGraph GraphQL <code>curl</code> usando caracteres especiais como <code>|</code> e <code>%</code> não funcionam</u>.</p>
 </td>
 <td>
-<p>Atualmente, o recurso "copiar para curl" do New Relic no NerdGraph não fornece uma maneira de lidar com caracteres especiais, como <code>|</code> e <code>%</code>.</p>
+<p>Atualmente, o recurso "copiar para curl" do New Relic no NerdGraph não fornece uma maneira de lidar com caracteres especiais como <code>|</code> e <code>%</code>.</p>
 </td>
 <td>
-<p>Use uma biblioteca de API diferente para resolver o problema com caracteres especiais. Por exemplo, Biblioteca GraphQLClient para API Graphql no Python ou Apache.commons por chamadas de linguagem Java. Revisar bibliotecas de clientes em <a href="https://graphql.org/code/">GraphQL</a>.</p>
+<p>Use uma biblioteca de API diferente para resolver o problema com caracteres especiais. Por exemplo, Biblioteca GraphQLClient para API Graphql no Python ou Apache.commons por chamadas de linguagem Java. Revise as bibliotecas de clientes no <a href="https://graphql.org/code/">GraphQL</a>.</p>
 </td>
 </tr>
 <tr>
@@ -108,7 +108,7 @@ Este artigo fornece recursos para solução de problemas do New Relic no Adobe C
 <p>O número de instâncias pode aumentar dependendo dos processos de back-end e da taxa de transferência. As diferenças entre valores de servidor podem ocorrer devido a processos executados em um servidor, mas não no outro.</p>
 </td>
 <td>
-<p><a href="https://docs.newrelic.com/docs/agents/php-agent/troubleshooting/troubleshoot-php-agent-instance-count">Documentação do New Relic &gt; Solução de problemas da contagem de instâncias do agente PHP</a> </p>
+<p><a href="https://docs.newrelic.com/docs/agents/php-agent/troubleshooting/troubleshoot-php-agent-instance-count">Documentação do New Relic &gt; Solucionar problemas da contagem de instâncias do agente PHP</a> </p>
 </td>
 </tr>
 </tbody>

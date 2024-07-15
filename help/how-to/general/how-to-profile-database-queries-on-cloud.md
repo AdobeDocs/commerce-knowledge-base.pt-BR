@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # Como criar o perfil de consultas do banco de dados no Adobe Commerce na infraestrutura em nuvem
 
-Consulte a [Consultas ao banco de dados de perfil](https://devdocs.magento.com/guides/v2.3/cloud/project/profile-database-queries.html) na documentação do desenvolvedor.
+Consulte as [Consultas ao banco de dados de perfis](https://devdocs.magento.com/guides/v2.3/cloud/project/profile-database-queries.html) na documentação do desenvolvedor.

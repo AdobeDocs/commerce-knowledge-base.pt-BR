@@ -15,12 +15,12 @@ Este artigo fornece uma solução para o problema que ocorria ao atualizar sua i
 
 ## Produtos e versões afetados
 
-* Adobe Commerce na infraestrutura em nuvem, [todas as versões compatíveis](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
+* Adobe Commerce na infraestrutura em nuvem, [todas as versões com suporte](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
 
 
 ## Problema
 
-Ocorreu um erro ao atualizar o Adobe Commerce: *Os próximos patches não foram encontrados*.
+Você está tendo um erro ao atualizar o Adobe Commerce: *Os próximos patches não foram encontrados*.
 
 ## Causa
 
@@ -28,7 +28,7 @@ Os patches aplicados anteriormente para suas versões mais antigas não se aplic
 
 ## Solução
 
-1. Verifique o seu `.magento.env.yaml` arquivo na seção QUALITY_PATCH, por exemplo,
+1. Verifique o arquivo `.magento.env.yaml` na seção QUALITY_PATCH, por exemplo,
 
    ```yaml
    QUALITY_PATCHES:
@@ -36,10 +36,10 @@ Os patches aplicados anteriormente para suas versões mais antigas não se aplic
     - ACSD-XXXXX
    ```
 
-1. Procure as IDs de patch no [Notas de versão de correções de qualidade](/docs/commerce-operations/tools/quality-patches-tool/release-notes.html) para verificar se cada um pode ser aplicado à nova versão do Adobe Commerce para a qual você está atualizando.
-1. Se o patch não se aplicar à nova versão do Adobe Commerce para a qual você deseja atualizar, remova a ID do patch do `.magento.env.yaml` arquivo.
+1. Pesquise as IDs de patch nas [Notas de versão de Patches de qualidade](/docs/commerce-operations/tools/quality-patches-tool/release-notes.html) para verificar se cada uma pode ser aplicada à nova versão do Adobe Commerce para a qual você está atualizando.
+1. Se o patch não se aplicar à nova versão do Adobe Commerce que você deseja atualizar, remova a ID do patch do arquivo `.magento.env.yaml`.
 1. Depois de ter revisado todas as IDs de patch indicadas pelo erro, envie as alterações para push e reimplante.
 
 ## Leitura relacionada
 
-* [Aplicar patches](/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html?lang=en#apply-a-patch-in-a-local-environment) no Guia de infraestrutura do Commerce na nuvem.
+* [Aplique patches](/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html?lang=en#apply-a-patch-in-a-local-environment) no Guia de Infraestrutura do Commerce na Nuvem.

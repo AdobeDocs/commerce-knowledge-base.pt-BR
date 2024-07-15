@@ -1,5 +1,5 @@
 ---
-title: As vulnerabilidades encontradas por verificações de segurança de terceiros devem ir para [!DNL HackerOne]
+title: As vulnerabilidades encontradas por verificações de segurança de terceiros devem ir para  [!DNL HackerOne]
 description: Este artigo fornece uma solução para lidar com as vulnerabilidades encontradas por verificações de segurança de terceiros.
 feature: Security
 role: Developer, Admin
@@ -25,4 +25,4 @@ O comerciante realizou um teste PEN por meio de uma agência de segurança indep
 
 ## Soluções
 
-As vulnerabilidades encontradas por verificações de segurança de terceiros devem ser enviadas ao [!DNL HackerOne] site. A Adobe Commerce não tem um ponto de contato direto em [!DNL HackerOne], portanto, entre em contato diretamente com [!DNL HackerOne]. O Adobe só lida com o relatório MST (Magento Security Scan Tool).
+As vulnerabilidades encontradas por verificações de segurança de terceiros devem ser enviadas para o site [!DNL HackerOne]. A Adobe Commerce não tem um ponto de contato direto em [!DNL HackerOne], portanto, você deve entrar em contato diretamente com [!DNL HackerOne]. O Adobe só lida com o relatório MST (Magento Security Scan Tool).

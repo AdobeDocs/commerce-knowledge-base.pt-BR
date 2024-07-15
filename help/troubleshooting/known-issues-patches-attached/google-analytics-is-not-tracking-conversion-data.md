@@ -25,10 +25,10 @@ Os dados de conversão não foram rastreados pelo Google Analytics devido a um e
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. Ative e configure a funcionalidade Google Analytics no Administrador do Commerce, em **Lojas** > **Configurações** > **Configuração** > **Vendas** > **API do Google** > **Google Analytics**.
+1. Habilite e configure a funcionalidade de Google Analytics no Administrador do Commerce em **Lojas** > **Configurações** > **Configuração** > **Vendas** > **API do Google** > **Google Analytics**.
 1. Clique em **Salvar configuração**.
 1. Faça um pedido na vitrine.
-1. Ir para **Painel de Google Analytics** > **Conversões** > **Visão geral**.
+1. Vá para **Painel de Google Analytics** > **Conversões** > **Visão geral**.
 1. Defina o intervalo de datas para a data atual.
 
 <u>Resultado esperado</u>:

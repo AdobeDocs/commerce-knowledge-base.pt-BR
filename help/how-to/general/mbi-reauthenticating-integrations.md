@@ -16,7 +16,7 @@ Este artigo fornece soluções para reautorizar uma integração a fim de conced
 
 ## Integrações de banco de dados e SaaS
 
-Para obter listas de integrações de banco de dados e SaaS, consulte [Conectar dados externos usando uma integração](https://docs.magento.com/mbi/data-analyst/importing-data/integrations/integrations.html) na documentação do desenvolvedor. (Ao abrir a página, use o índice à esquerda para navegação).
+Para obter listas de integrações de banco de dados e SaaS, consulte [Conectando dados externos usando uma integração](https://docs.magento.com/mbi/data-analyst/importing-data/integrations/integrations.html) na documentação do desenvolvedor. (Ao abrir a página, use o índice à esquerda para navegação).
 
 ## Problemas de conexão?
 
@@ -31,8 +31,8 @@ Isso pode ocorrer devido a várias razões:
 
 O status de todas as integrações está na página Integrações ( **Gerenciar dados > Integrações** ):
 
-![Integrações_page.png](assets/Integrations_page.png)
+![Página_de_integrações.png](assets/Integrations_page.png)
 
 Para autenticar novamente, talvez seja necessário inserir novamente as credenciais da conta. Em alguns casos, pode ser necessário gerar novas chaves de API para a integração do problema. Clique no nome da integração do problema para iniciar o processo de reautorização.
 
-Se o problema persistir, [enviar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+Se o problema persistir, [envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).

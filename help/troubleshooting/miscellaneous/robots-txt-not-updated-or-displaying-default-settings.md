@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # robots.txt não atualizado ou exibindo configurações padrão
 
-O artigo fornece uma solução para quando você configurar `robots.txt` corretamente, por exemplo, por [Práticas recomendadas para o Adobe Commerce robots.txt](https://support.magento.com/hc/en-us/articles/360048754931) mas o `robots.txt` O não está sendo atualizado ou está exibindo as configurações padrão.
+O artigo fornece uma solução para quando você configura o `robots.txt` corretamente, por exemplo, de acordo com as [Práticas recomendadas para o Adobe Commerce robots.txt](https://support.magento.com/hc/en-us/articles/360048754931), mas o `robots.txt` não está sendo atualizado ou está exibindo as configurações padrão.
 
 ## Produtos e versões afetados
 
@@ -21,20 +21,20 @@ O artigo fornece uma solução para quando você configurar `robots.txt` correta
 
 ## Problema
 
-Não é possível alterar o padrão `robots.txt` configuração.
+Não é possível alterar a configuração padrão `robots.txt`.
 
 <u>Etapas a serem reproduzidas:</u>
 
 1. Acesse o painel Administração.
-1. Adicionar conteúdo a **Conteúdo** > Design > **Configuração** > **Editar instrução personalizada de`robots.txt`** como o texto &quot;olá&quot; e salve as alterações.
-1. Visite o `robots.txt` url.
+1. Adicione conteúdo a **Conteúdo** > Design > **Configuração** > **Editar instrução personalizada do arquivo`robots.txt`**, como o texto &quot;Olá&quot;, e salve as alterações.
+1. Visite a URL `robots.txt`.
 
 <u>Resultado esperado:</u>
 `robots.txt` tem o texto salvo.
 
 <u>Resultado real:</u>
 
-`robots.txt` arquivo não é alterado.
+O arquivo `robots.txt` não é alterado.
 
 ## Causa
 
@@ -46,4 +46,4 @@ Habilitar indexação por mecanismos de pesquisa. Consulte [Configurar indexaç�
 
 ## Leitura relacionada
 
-* [Adicionar mapa do site e robôs de mecanismo de pesquisa](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html) na documentação do desenvolvedor.
+* [Adicionar o mapa do site e os robôs do mecanismo de pesquisa](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html) à documentação do desenvolvedor.

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Alterar endereço de email da conta Adobe atual
 
-Este artigo explica como alterar o endereço de email atual registrado no [conta Adobe](https://account.adobe.com/) para um novo endereço atualmente não registrado na [conta Adobe](https://account.adobe.com/) ou o [conta Magento](https://account.magento.com/).
+Este artigo explica como alterar o endereço de email atual registrado na [conta Adobe](https://account.adobe.com/) para um novo endereço atualmente não registrado na [conta Adobe](https://account.adobe.com/) ou na [conta Magento](https://account.magento.com/).
 
 ## Produtos e versões afetados
 
@@ -30,4 +30,4 @@ Siga estas etapas para alterar o endereço de email:
 
 1. Redefina a senha usada com o endereço de email antigo. Siga as instruções fornecidas em [Redefinir senha esquecida](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) no Adobe helpx.
 1. O link de redefinição de senha é enviado para a caixa de correio do proprietário atual com instruções.
-1. Navegue até a [página da conta Adobe](https://account.adobe.com) para fazer logon com o novo email e configurar a senha.
+1. Navegue até a [página da conta de Adobe](https://account.adobe.com) para fazer logon com o novo email e configurar a senha.

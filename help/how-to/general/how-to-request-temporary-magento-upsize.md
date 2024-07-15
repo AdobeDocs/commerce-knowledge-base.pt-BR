@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Como solicitar o Adobe Commerce temporário no upsize da infraestrutura em nuvem
 
-Se sua organização estiver planejando um evento online em que você espera alto tráfego ou se você subitamente descobrir que seu site está passando por um evento de alto tráfego, poderá registrar um [Tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) para solicitar capacidade de nuvem adicional temporária para o Adobe Commerce no cloud infrastructure store.
+Se sua organização estiver planejando um evento online em que você espera alto tráfego ou se você subitamente descobrir que seu site está passando por um evento de alto tráfego, poderá registrar um [Tíquete de Suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) para solicitar capacidade de nuvem adicional temporária para o Adobe Commerce na loja de infraestrutura em nuvem.
 
 >[!NOTE]
 >
@@ -20,7 +20,7 @@ Se sua organização estiver planejando um evento online em que você espera alt
 
 ## Produtos e versões afetados
 
-* Adobe Commerce na infraestrutura em nuvem, tudo [versões compatíveis](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf).
+* Adobe Commerce na infraestrutura em nuvem, todas as [versões com suporte](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf).
 
 ## Como identificar eventos de alto tráfego
 
@@ -33,9 +33,9 @@ O alerta de linha de base é útil para criar condições de alerta que:
 
 Além disso, os alertas de linha de base funcionam bem com novos aplicativos quando você ainda não tem comportamentos conhecidos.
 
-Siga este link para saber mais sobre o New Relic [Detecção de anomalias com inteligência aplicada](https://docs.newrelic.com/docs/alerts-applied-intelligence/applied-intelligence/anomaly-detection/anomaly-detection-applied-intelligence/).
+New Relic Siga este link para saber mais sobre a [Detecção de anomalias com Inteligência aplicada](https://docs.newrelic.com/docs/alerts-applied-intelligence/applied-intelligence/anomaly-detection/anomaly-detection-applied-intelligence/).
 
-Se você receber uma notificação de alerta que sugira um evento de tráfego alto, talvez seja necessário considerar [envio de um tíquete de suporte](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) solicitando capacidade adicional. Siga as etapas abaixo.
+Se você receber uma notificação de alerta que sugira um evento de alto tráfego, talvez seja necessário considerar [enviar um Tíquete de Suporte](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) solicitando capacidade adicional. Siga as etapas abaixo.
 
 ## Como monitorar o desempenho do site
 
@@ -51,36 +51,36 @@ Siga este link para saber como [configurar alertas baseados em desempenho](/docs
 
 ## Etapas para solicitar o upsize temporário
 
-Siga as etapas abaixo para enviar um [Tíquete de suporte](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) para solicitar capacidade de nuvem adicional temporária:
+Siga as etapas abaixo para enviar um [Tíquete de Suporte](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) para solicitar capacidade de nuvem adicional temporária:
 
-Enviar um [Tíquete de suporte no Centro de suporte da Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket), após inserir as seguintes informações:
+Envie um [Tíquete de Suporte no Centro de Suporte da Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket), depois de inserir as seguintes informações:
 
 >[!NOTE]
 >
->A variável *Solicitação de aumento de feriado* a opção é apenas uma opção entre outubro e dezembro de meses.
+>A opção *Solicitação de sobretensão de feriado* é apenas uma opção entre os meses de outubro e dezembro.
 
 1. Selecione o produto da Adobe Commerce para o qual deseja obter suporte.
 1. Preencha os primeiros quatro campos (Produto, Organização, Tipo de implementação, Assunto).
-1. Selecionar *Infraestrutura em nuvem do Adobe Commerce* no **Motivo do contato** menu suspenso.
-1. Selecionar *Solicitação de capacidade de aumento de feriado* no **Motivo do contato do Adobe Commerce Infrastructure** opções suspensas. Clique em **OK** na mensagem pop-up que solicita um aviso de 48 horas úteis para solicitações temporárias adicionais de capacidade na nuvem.
-1. Selecionar datas para os campos obrigatórios **Redimensionar data de início** e **Redimensionar data final**. O preferido **Redimensionar hora de início** também é um campo obrigatório.
+1. Selecione a *Infraestrutura de nuvem do Adobe Commerce* na lista suspensa **Motivo do contato**.
+1. Selecione *Solicitação de Capacidade de Sobretensão de Feriado* nas opções suspensas **Motivo do Contato do Adobe Commerce Infrastructure**. Clique em **OK** na mensagem pop-up solicitando o aviso de 48 horas úteis para solicitações temporárias adicionais de capacidade de nuvem.
+1. Selecione datas para os campos obrigatórios **Redimensionar Data de Início** e **Redimensionar Data de Término**. A **Hora de Início do Redimensionamento** preferencial também é um campo obrigatório.
 1. Preencha os próximos quatro campos.
-1. No **Descrição** campo, se você tiver informações adicionais sobre o tamanho, insira-as aqui. Se nenhum tamanho maior específico for solicitado, faremos o upsizing até a próxima capacidade maior do tamanho do ambiente. As solicitações de sobretensão assumirão como padrão o próximo tamanho maior a partir do tamanho atual. Se você precisar de capacidade adicional, indique isso no campo **Descrição** campo. O aumento da capacidade será deduzido dos Dias de sobretensão contratados ou dos dias de vCPU. A janela típica de aumento de capacidade é de cinco dias, mas se você precisar de mais ou menos dias, indique isso em [Tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+1. No campo **Descrição**, se você tiver informações adicionais sobre o tamanho, forneça-as aqui. Se nenhum tamanho maior específico for solicitado, faremos o upsizing até a próxima capacidade maior do tamanho do ambiente. As solicitações de sobretensão assumirão como padrão o próximo tamanho maior a partir do tamanho atual. Se você precisar de capacidade adicional, indique-a no campo **Descrição**. O aumento da capacidade será deduzido dos Dias de sobretensão contratados ou dos dias de vCPU. A janela típica de aumento de capacidade é de cinco dias, mas se você precisar de mais ou menos dias, indique isso no [Tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 >[!NOTE]
 >
->Depois que o upsize for agendado, um sistema automatizado ajustará o tamanho da instância da nuvem. Você pode não receber nenhuma notificação de tíquete quando o procedimento estiver concluído. Você pode usar a ferramenta Observation for Adobe Commerce para exibir os tipos de instância do AWS ou do Azure para [verificar a alteração](/help/how-to/general/check-vcpu-using-observation-for-adobe-commerce.md).
+>Depois que o upsize for agendado, um sistema automatizado ajustará o tamanho da instância da nuvem. Você pode não receber nenhuma notificação de tíquete quando o procedimento estiver concluído. Você pode usar a ferramenta Observation for Adobe Commerce para exibir seus tipos de instância do AWS ou do Azure para [verificar a alteração](/help/how-to/general/check-vcpu-using-observation-for-adobe-commerce.md).
 
 ## Visualizar o histórico dos uploads
 
-Você pode visualizar o histórico dos redimensionamentos solicitados solicitando as informações de seu **CSM (Customer Success Manager, Gerente de sucesso do cliente)**.
+Você pode exibir o histórico de redimensionamentos solicitados solicitando as informações do seu **CSM (Customer Success Manager)**.
 As seguintes informações estão disponíveis para cada solicitação de redimensionamento:
 
-* **Data de início do tamanho**: data da solicitação de upsize.
-* **Data de término do tamanho**: data em que o cluster retornou ao tamanho anterior.
+* **Data de Início do Tamanho**: data da solicitação de upsize.
+* **Data de Término do Tamanho**: data em que o cluster retornou ao tamanho anterior.
 * **Tamanho do vCPU**: o tamanho do cluster após o upsize.
-* **Dias de uso**: por quantos dias o cluster permaneceu com upsizing.
-* **Período vCPU**: tamanho do vCPU alterado de acordo com o número de dias em que foi usado. (por exemplo, o tamanho do vCPU 192 por 25 dias é igual a 4.800).
+* **Dias de Uso**: por quantos dias o cluster ficou com upsizing.
+* **Period vCPU**: tamanho de vCPU alterado pelo número de dias em que foi usado. (por exemplo, o tamanho do vCPU 192 por 25 dias é igual a 4.800).
 
 
 ## Leitura relacionada
@@ -89,7 +89,7 @@ As seguintes informações estão disponíveis para cada solicitação de redime
    * [Cálculo de alocação de CPU para o Adobe Commerce na nuvem](/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-cpu-allocation-calculation.html)
    * [Verifique se o upsize das instâncias do host é necessário para o Adobe Commerce na nuvem](/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.html)
    * [Verifique a configuração da CPU do host para o Adobe Commerce na nuvem](/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-hosts-cpu-configuration.html)
-* Para obter informações sobre como identificar interrupções, consulte [Identificar e medir paralisações do Adobe Commerce na nuvem](/docs/commerce-knowledge-base/kb/how-to/how-to-identify-outages.html) em nossa base de conhecimento de suporte.
+* Para obter informações sobre como identificar interrupções, consulte [Identificar e medir interrupções para o Adobe Commerce na nuvem](/docs/commerce-knowledge-base/kb/how-to/how-to-identify-outages.html) em nossa base de dados de conhecimento de suporte.
 * Para obter informações sobre como melhorar o desempenho do site para evitar a necessidade de utilizar um aumento na capacidade, consulte estes artigos na documentação do desenvolvedor:
    * [Dimensionamento da imagem](/docs/commerce-admin/catalog/products/digital-assets/product-image-config.html#product-image-resizing)
    * [Armazenamento em cache de página inteira](/docs/commerce-admin/systems/tools/cache-management.html#full-page-caching)

@@ -37,10 +37,10 @@ Para verificar a configuração atual e a memória usada, execute o seguinte com
 redis-cli -p REDIS_PORT -h REDIS_HOST info | egrep --color "(role|used_memory_peak|maxmemory|evicted_keys|uptime_in_days)"
 ```
 
-A variável *REDIS\_PORT* e *REDIS\_HOST* as variáveis podem ser recuperadas de `app/etc/env.php`.
+As variáveis *REDIS\_PORT* e *REDIS\_HOST* podem ser recuperadas de `app/etc/env.php`.
 
-Se a saída da execução da consulta acima mostrar que a porcentagem de memória livre é inferior a 40%, [enviar um tíquete para o suporte da Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) solicitando um aumento do `maxmemory` no servidor Redis. Se o valor das chaves removidas não for &quot;0&quot; ou o tempo de atividade do Redis em dias for igual a 0 (indicando que o Redis falhou hoje), você também deverá [enviar um tíquete para o suporte da Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) solicitando uma investigação e uma correção para esse problema.
+Se a saída da execução da consulta acima mostrar que a porcentagem de memória livre é inferior a 40%, [envie um tíquete ao suporte da Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) solicitando um aumento da configuração `maxmemory` no Servidor Redis. Se o valor das chaves removidas não for &quot;0&quot; ou o tempo de atividade do Redis em dias for igual a 0 (indicando que o Redis falhou hoje), você também deve [enviar um tíquete ao suporte da Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) solicitando uma investigação e uma correção para esse problema.
 
 ## Leitura relacionada
 
-Para saber mais sobre a memória Redis, consulte [Otimização de memória Redis](https://redis.io/topics/memory-optimization).
+Para saber mais sobre a memória Redis, consulte [Otimização de Memória Redis](https://redis.io/topics/memory-optimization).

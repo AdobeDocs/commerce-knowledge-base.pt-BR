@@ -17,11 +17,11 @@ ht-degree: 0%
 >
 >Este artigo fornece uma correção como solução alternativa, mas o problema foi permanentemente corrigido no Adobe Commerce na infraestrutura em nuvem versão v2.3.3 e é recomendável atualizar para a v2.3.3. Siga as etapas em [Atualizar versão do Adobe Commerce](https://devdocs.magento.com/cloud/project/project-upgrade.html) na documentação do desenvolvedor.
 
-Este artigo fornece um patch para o problema conhecido do Adobe Commerce na infraestrutura em nuvem 2.2.0 relacionado às páginas do catálogo principal da loja que estão inacessíveis, com a mensagem de erro semelhante à seguinte no log: *Violação de restrição de integridade: 1062 Entrada duplicada &#39;%entry%&#39; para chave &#39;PRIMARY&#39;, a consulta era: INSERT INTO \`search\_tmp\_%number%*.
+Este artigo fornece um patch para o problema conhecido do Adobe Commerce na infraestrutura de nuvem 2.2.0 relacionado à inacessibilidade das páginas do catálogo principal da loja, com a mensagem de erro semelhante à seguinte no log: *Violação de restrição de integridade: 1062 Entrada duplicada &#39;%entry%&#39; para a chave &#39;PRIMARY&#39;, a consulta era: INSERT INTO \`search\_tmp\_%number%*.
 
 ## Problema
 
-As páginas do catálogo principal da loja ficam inacessíveis inesperadamente. O log de erros tem uma descrição de erro semelhante à seguinte: *Violação de restrição de integridade: 1062 Entrada duplicada &#39;%entry%&#39; para chave &#39;PRIMARY&#39;, a consulta era: INSERT INTO \`search\_tmp\_%number%*.
+As páginas do catálogo principal da loja ficam inacessíveis inesperadamente. O log de erros tem uma descrição de erro semelhante à seguinte: *Violação de restrição de integridade: 1062 Entrada duplicada &#39;%entry%&#39; para a chave &#39;PRIMARY&#39;, a consulta era: INSERT INTO \`search\_tmp\_%number%*.
 
 O problema está relacionado à pesquisa e é causado pela existência do índice desatualizado junto com o novo após o reindexação.
 
@@ -60,24 +60,24 @@ Os patches foram criados para as seguintes edições e versões:
 * Adobe Commerce na infraestrutura em nuvem 2.2.0 (`MDVA-9590_EE_2.2.0_COMPOSER_v2.patch`)
 * Adobe Commerce na infraestrutura em nuvem 2.2.4 (`MDVA-13203_EE_2.2.4_V1_COMPOSER.patch`)
 
-A variável `MDVA-9590_EE_2.2.0_COMPOSER_v2` O patch também é compatível (mas pode não resolver o problema) com as seguintes versões e edições do Adobe Commerce:
+O patch `MDVA-9590_EE_2.2.0_COMPOSER_v2` também é compatível (mas pode não resolver o problema) com as seguintes versões e edições do Adobe Commerce:
 
 * Adobe Commerce na infraestrutura em nuvem 2.0.X, 2.1.X, 2.2.X e 2.3.0 - 2.3.3
 * Adobe Commerce no local 2.0.X, 2.1.X, 2.2.X e 2.3.0 - 2.3.3
 
-A variável `MDVA-13203_EE_2.2.4_V1_COMPOSER` O patch também é compatível (mas pode não resolver o problema) com as seguintes versões e edições do Adobe Commerce:
+O patch `MDVA-13203_EE_2.2.4_V1_COMPOSER` também é compatível (mas pode não resolver o problema) com as seguintes versões e edições do Adobe Commerce:
 
 * Adobe Commerce na infraestrutura em nuvem 2.0.X, 2.1.X, 2.2.X e 2.3.0 - 2.3.3
 * Adobe Commerce no local 2.0.X, 2.1.X, 2.2.X e 2.3.0 - 2.3.3
 
 ## Como aplicar o patch
 
-Para obter instruções, consulte [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de conhecimento de suporte.
+Para obter instruções, consulte [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de dados de conhecimento de suporte.
 
 ## Links úteis
 
-* [Local dos arquivos de log para o Adobe Commerce na infraestrutura em nuvem Arquitetura do plano inicial](/help/how-to/general/log-locations-directories-for-starter-plan.md) em nossa base de conhecimento de suporte.
-* [Local dos arquivos de log para a arquitetura do plano Pro da infraestrutura em nuvem do Adobe Commerce](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md) em nossa base de conhecimento de suporte.
+* [Local dos arquivos de log para a arquitetura do plano inicial do Adobe Commerce na infraestrutura em nuvem](/help/how-to/general/log-locations-directories-for-starter-plan.md) em nossa base de dados de conhecimento de suporte.
+* [Local dos arquivos de log para a arquitetura do plano Pro da infraestrutura em nuvem do Adobe Commerce](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md) em nossa base de dados de conhecimento de suporte.
 * [Local dos arquivos de log do Adobe Commerce](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html) na documentação do desenvolvedor.
 
 ## Arquivos Anexados

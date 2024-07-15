@@ -26,15 +26,15 @@ Um erro inespecífico é exibido quando o check-out do convidado é desativado n
 
 <u>Pré-requisitos</u>:
 
-1. No Administrador do Commerce, em **Lojas** > **Configuração** > **Vendas** > **Check-out**, definir **Permitir check-out de convidado** = *Não*.
-1. Ative o PayPal por meio do Braintree, conforme descrito na [Braintree](https://docs.magento.com/user-guide/payment/braintree.html?) em nosso guia do usuário.
+1. No Administrador do Commerce, em **Lojas** > **Configuração** > **Vendas** > **Check-out**, defina **Permitir Check-out de Convidado** = *Não*.
+1. Ative o PayPal por meio do Braintree, conforme descrito no [Braintree](https://docs.magento.com/user-guide/payment/braintree.html?) em nosso guia do usuário.
 
 <u>Etapas a serem reproduzidas</u>:
 
 1. Adicione o produto ao carrinho como convidado.
-1. Selecionar **Minicarrinho** e clique em **Pagar com PayPal**.
+1. Selecione **Minicarrinho** e clique em **Pagar com PayPal**.
 1. Conclua o checkout do Paypal e você será direcionado para a página de Revisão do pedido.
-1. Selecionar **Método de envio**.
+1. Selecione **Método de envio**.
 1. Clique em **Fazer pedido**.
 
 <u>Resultados esperados</u>:
@@ -59,6 +59,6 @@ A solução alternativa para esse problema é que o cliente pode fazer logon em 
 
 ## Leitura relacionada
 
-* [Prática recomendada para o número de produtos no carrinho no Adobe Commerce](https://support.magento.com/hc/en-us/articles/360048550332) em nossa base de conhecimento de suporte.
-* [Tutorial de processamento de pedidos: Etapa 1. Adicionar itens ao carrinho](https://devdocs.magento.com/guides/v2.4/rest/tutorials/orders/order-add-items.html) na documentação do desenvolvedor
-* [Tutorial de check-out do GraphQL: Etapa 1. Adicionar produtos ao carrinho](https://devdocs.magento.com/guides/v2.4/graphql/tutorials/checkout/checkout-add-product-to-cart.html) na documentação do desenvolvedor
+* [Prática recomendada para o número de produtos no carrinho na Adobe Commerce](https://support.magento.com/hc/en-us/articles/360048550332) em nossa base de dados de conhecimento de suporte.
+* [Tutorial de processamento de pedido: Etapa 1. Adicionar itens ao carrinho](https://devdocs.magento.com/guides/v2.4/rest/tutorials/orders/order-add-items.html) em nossa documentação do desenvolvedor
+* [Tutorial de check-out do GraphQL: Etapa 1. Adicionar produtos ao carrinho](https://devdocs.magento.com/guides/v2.4/graphql/tutorials/checkout/checkout-add-product-to-cart.html) em nossa documentação do desenvolvedor

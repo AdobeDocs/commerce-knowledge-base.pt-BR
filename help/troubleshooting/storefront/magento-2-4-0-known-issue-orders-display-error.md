@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Problema conhecido do Adobe Commerce 2.4.0: erros de exibição de pedidos
 
-Este artigo fornece uma solução alternativa para um problema conhecido no Adobe Commerce para um erro de exibição de pedidos. Quando conectados, os clientes analisam seus pedidos na **Minha conta** menu (**Minha conta > Meus pedidos**), a grade pedidos não consegue alternar o número de pedidos por página para 20 a partir da página 2 quando há 11 pedidos. Além disso, se houver mais pedidos do que o configurado para serem mostrados por página, ao navegar até a última página com pedidos, alterar o número de pedidos mostrados por página gerará a mensagem de erro: *Você não fez nenhum pedido*. Este problema será resolvido no Adobe Commerce 2.4.1.
+Este artigo fornece uma solução alternativa para um problema conhecido no Adobe Commerce para um erro de exibição de pedidos. Quando clientes conectados verificam seus pedidos no menu **Minha conta** (**Minha conta > Meus pedidos**), a grade de pedidos não pode alterar o número de pedidos por página para 20 a partir da página 2 quando há 11 pedidos. Além disso, se houver mais pedidos do que o configurado para exibição por página, ao navegar até a última página com pedidos, alterar o número de pedidos exibidos por página gerará a mensagem de erro: *Você não fez pedidos*. Este problema será resolvido no Adobe Commerce 2.4.1.
 
 ## Produtos e versões afetados
 
@@ -30,10 +30,10 @@ Este artigo fornece uma solução alternativa para um problema conhecido no Adob
 <u>Etapas a serem reproduzidas</u>
 
 1. Criar 11 pedidos com produtos.
-1. Ir para **Minha conta**.
+1. Vá para **Minha conta**.
 1. Ir para **Meus Pedidos**.
 1. Clique na segunda página para exibir a 11ª ordem na grade de pedidos.
-1. Selecionar **Mostrar = 20 por página** no menu suspenso.
+1. Selecione **Mostrar = 20 por página** no menu suspenso.
 
 <u>Resultado esperado</u>
 
@@ -41,11 +41,11 @@ Todos os 11 pedidos são exibidos na primeira página, conforme esperado.
 
 <u>Resultado real</u>
 
-A variável *Você não fez nenhum pedido* é exibida.
+A mensagem de erro *Você não fez nenhum pedido* é exibida.
 
 ## Solução alternativa
 
-A solução alternativa é ter o comprador reaberto **Meus Pedidos** e, em seguida, a lista de pedidos será exibida corretamente. O problema será corrigido na próxima versão, a Adobe Commerce 2.4.1, com lançamento previsto para o quarto trimestre de 2020.
+A solução é fazer com que o comprador reabra a página **Meus Pedidos** e, em seguida, a lista de pedidos será exibida corretamente. O problema será corrigido na próxima versão, a Adobe Commerce 2.4.1, com lançamento previsto para o quarto trimestre de 2020.
 
 ## Leituras relacionadas em nossa base de conhecimento de suporte
 

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Adobe Commerce 2.4.0: exceção durante a instalação do B2B 1.2.0
 
-Este artigo fornece uma correção para um problema conhecido do Adobe Commerce relacionado a uma exceção gerada durante `setup:upgrade` ao instalar o B2B 1.2.0.
+Este artigo fornece uma correção para um problema conhecido do Adobe Commerce para uma exceção lançada durante `setup:upgrade` ao instalar o B2B 1.2.0.
 
 ## Produtos e versões afetados
 
@@ -39,7 +39,7 @@ Instalações do B2B 1.2.0.
 
 <u>Resultado real</u>
 
-Quando `setup:upgrade` for executado para instalar o B2B 1.2.0, esse erro aparecerá no `PurchaseOrder` módulo:
+Quando o `setup:upgrade` é executado para instalar o B2B 1.2.0, este erro aparece no módulo `PurchaseOrder`:
 
 ```php
 Module 'Magento_PurchaseOrder':
@@ -54,7 +54,7 @@ Aplique o patch fornecido neste artigo.
 
 ## Correção
 
-O patch está anexado a este artigo e está disponível para download em `.composer` e `.git` formatos (após descompactar os arquivos).
+O patch está anexado a este artigo, disponível para download nos formatos `.composer` e `.git` (após descompactar os arquivos).
 
 Para baixá-lo, role para baixo até o final do artigo e clique no nome do arquivo ou clique em um dos links a seguir:
 
@@ -63,14 +63,14 @@ Para baixá-lo, role para baixo até o final do artigo e clique no nome do arqui
 
 ## Como aplicar um patch
 
-<u>Composer patch </u>
+<u>Correção do compositor </u>
 
-Consulte [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) para obter instruções de correção do compositor.
+Consulte [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) para obter instruções de patch de compositor.
 
-<u>Correção do Git </u>
+<u>Patch do Git </u>
 
-* Consulte [Aplicar patches](https://devdocs.magento.com/cloud/project/project-patch.html) na documentação do desenvolvedor para obter instruções de patch do git para o Adobe Commerce na infraestrutura em nuvem.
-* Consulte [Aplicação de patches: patches personalizados](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#custom-patches) na documentação do desenvolvedor para obter instruções de patch do git para o Adobe Commerce.
+* Consulte [Aplicar patches](https://devdocs.magento.com/cloud/project/project-patch.html) na documentação do desenvolvedor para obter instruções de patch do Git para o Adobe Commerce na infraestrutura em nuvem.
+* Consulte [Aplicação de patches: patches personalizados](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#custom-patches) na documentação do desenvolvedor para obter instruções sobre patch do Git para o Adobe Commerce.
 
 ## Leitura relacionada
 

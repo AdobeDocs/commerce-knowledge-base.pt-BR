@@ -17,7 +17,7 @@ Este artigo explica os erros que você pode enfrentar ao usar a Ferramenta de co
 
 ## Produtos e versões afetados
 
-* [Ferramenta de compatibilidade de atualização](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html) O é compatível com as versões do Adobe Commerce a partir da versão 2.3.0.
+* A [Ferramenta de Compatibilidade de Atualização](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html) é compatível com as versões do Adobe Commerce a partir da versão 2.3.0.
 
 ## Erro de falha de segmentação
 
@@ -62,7 +62,7 @@ Existem duas soluções possíveis para evitar esta limitação de memória PHP.
 
 <u>Solução 1</u>:
 
-Substitua a limitação de memória definindo `memory_limit` para `-1`:
+Substitua a limitação de memória definindo `memory_limit` como `-1`:
 
 ```bash
 php -d memory_limit=-1 /bin/uct upgrade:check INSTALLATION_DIR -c M2_VERSION
@@ -70,11 +70,11 @@ php -d memory_limit=-1 /bin/uct upgrade:check INSTALLATION_DIR -c M2_VERSION
 
 >[!NOTE]
 >
-> A variável `M2_VERSION` é a versão de destino do Adobe Commerce que você deseja comparar à sua instância do Adobe Commerce.
+> O `M2_VERSION` é a versão de destino do Adobe Commerce que você deseja comparar à sua instância do Adobe Commerce.
 
 <u>Solução 2</u>:
 
-Adicionar o `-m` permite que a Ferramenta de compatibilidade de atualização analise cada módulo específico de forma independente para evitar encontrar dois módulos com o mesmo nome na instância do Adobe Commerce.
+Adicionar a opção `-m` permite que a Ferramenta de Compatibilidade de Atualização analise cada módulo específico de maneira independente para evitar encontrar dois módulos com o mesmo nome na instância do Adobe Commerce.
 
 Essa opção de comando também permite que a Ferramenta de compatibilidade de atualização analise uma pasta que contém vários módulos:
 
@@ -82,4 +82,4 @@ Essa opção de comando também permite que a Ferramenta de compatibilidade de a
 bin/uct upgrade:check /<dir>/<instance-name> -m /vendor/<vendor-name>/
 ```
 
-Consulte a [Executar a ferramenta em uma interface de linha de comando](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/use-upgrade-compatibility-tool/run.html) para obter mais informações sobre as opções da interface de linha de comando.
+Consulte a página [Executar a ferramenta em uma interface de linha de comando](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/use-upgrade-compatibility-tool/run.html) para obter mais informações sobre opções de interface de linha de comando.

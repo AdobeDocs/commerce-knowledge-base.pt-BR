@@ -17,7 +17,7 @@ Este artigo fornece uma explicação de como incluir um membro da equipe para re
 
 ## Produtos e versões afetados
 
-* Adobe Commerce na infraestrutura em nuvem, tudo [versões compatíveis](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf).
+* Adobe Commerce na infraestrutura em nuvem, todas as [versões com suporte](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf).
 
 ## Causa
 
@@ -26,19 +26,19 @@ Este artigo fornece uma explicação de como incluir um membro da equipe para re
 
 ## Solução
 
-1. Vá para a **[!DNL Cloud Project URL]** (Exemplo: `https://us-3.magento.cloud/projects/xxxxxx/edit`).
-1. Verificar se o membro da equipe foi adicionado ao projeto e se é um [!DNL Super User].
+1. Vá para **[!DNL Cloud Project URL]** (Exemplo: `https://us-3.magento.cloud/projects/xxxxxx/edit`).
+1. Verifique se o membro da equipe foi adicionado ao projeto e se é um [!DNL Super User].
 
-Se não exigirem [!DNL cloud project] acesso, enviar um [Solicitação de suporte no Adobe Commerce Support Center](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) para CC automaticamente: em todos os tickets, e também forneça seus **[!DNL MAGE ID]** (se disponível).
+Se eles não precisarem de acesso de [!DNL cloud project], envie uma [Solicitação de Suporte no Centro de Suporte da Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) para CC automaticamente: eles em todos os tíquetes e também forneça seus **[!DNL MAGE ID]** (se disponíveis).
 
-Se não tiverem sido adicionados ao projeto, será necessário adicioná-los como [!DNL Super User] e conceder [!DNL Shared Access]:
+Se não tiverem sido adicionados ao projeto, será necessário adicioná-los como um [!DNL Super User] e conceder [!DNL Shared Access]:
 
 * [Gerenciar acesso do usuário](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) em nosso guia do usuário.
-* [Não foi possível adicionar o usuário ao projeto na nuvem do Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/unable-add-user-adobe-commerce-cloud-project.html) em nossa Base de conhecimento Commerce.
-* [Guia do usuário da Central de ajuda do Adobe Commerce: Acesso compartilhado](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#shared-access) em nossa Base de conhecimento Commerce.
+* [Não é possível adicionar usuário ao projeto de nuvem do Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/unable-add-user-adobe-commerce-cloud-project.html) na Base de Dados de Conhecimento Commerce.
+* [Guia do Usuário da Central de Ajuda do Adobe Commerce: Acesso Compartilhado](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#shared-access) na Base de Dados de Conhecimento Commerce.
 
-Se tiverem sido adicionados ao [!DNL cloud project], mas não têm o [!DNL Super User role], atualizam os seus [!DNL role] em conformidade com [Gerenciar acesso do usuário](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html).
+Se eles foram adicionados ao [!DNL cloud project], mas não têm o [!DNL Super User role], atualize seus [!DNL role] apropriadamente em [Gerenciar acesso de usuário](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html).
 
 ## Leitura relacionada
 
-[Ex-membros da equipe recebem emails de notificação na nuvem do Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html)
+[Ex-membros da equipe recebem emails de notificação do Adobe Commerce na nuvem](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html)

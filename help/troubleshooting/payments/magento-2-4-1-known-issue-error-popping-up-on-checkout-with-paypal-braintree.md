@@ -30,10 +30,10 @@ Uma mensagem de erro aparece e desaparece na etapa de Faturamento do Check-out s
 1. Adicione um produto ao carrinho.
 1. Clique em para abrir a pré-visualização do carrinho.
 1. Clique em **Exibir e editar carrinho**.
-1. Na página Carrinho, clique em **Fazer Check-out com Vários Endereços**.
-1. Clique em **Ir para Informações de Remessa** e especifique os endereços.
-1. Clique em **Continuar para Informações de Cobrança**.
-1. Selecionar **Braintree do PayPal** e clique no link **PayPal** botão.
+1. Na página do carrinho, clique em **Fazer Check-out com Vários Endereços**.
+1. Clique em **Ir para Informações de Envio** e especifique os endereços.
+1. Clique em **Continuar para as Informações de Cobrança**.
+1. Selecione **Braintree do PayPal** e clique no botão **PayPal**.
 1. Na janela pop-up, clique em **Concordar e pagar**.
 
 <u>Resultado esperado:</u>
@@ -42,7 +42,7 @@ O pedido é feito sem nenhum erro.
 
 <u>Resultado real:</u>
 
-O pedido é feito, mas com um erro. A variável *Não foi possível inicializar o Check-out do PayPal. Entre em contato com o proprietário da loja*.  é exibido por um segundo e desaparece.
+O pedido é feito, mas com um erro. Não foi possível inicializar o Check-out do *PayPal. Contate o proprietário da loja*.  é exibido por um segundo e desaparece.
 
 ## Correção
 

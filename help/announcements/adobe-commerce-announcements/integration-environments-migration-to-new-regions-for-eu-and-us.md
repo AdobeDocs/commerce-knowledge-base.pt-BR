@@ -1,6 +1,6 @@
 ---
 title: Migração de ambientes de integração para a antiga região da UE
-description: '"A fim de fornecer a base de infraestrutura mais atualizada, estamos migrando os ambientes de integração de todos os clientes pertencentes à região "EU" herdada para uma nova região da UE. O resto das regiões &ndash; UE-3, UE-5, UE-6 &ndash; permanecerão as mesmas.  '''
+description: '"A fim de fornecer a base de infraestrutura mais atualizada, estamos migrando os ambientes de integração de todos os clientes pertencentes à região "EU" herdada para uma nova região da UE. O restante das regiões &ndash; EU-3, EU-5, EU-6 &ndash; permanecerão as mesmas.  '''
 exl-id: 71c0d241-7ba8-48c3-acf1-2b28be5c80e7
 feature: Integration
 role: Admin

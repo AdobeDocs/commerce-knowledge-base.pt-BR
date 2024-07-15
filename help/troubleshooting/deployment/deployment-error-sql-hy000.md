@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Erro de implantação: SQLSTATE[HY000]
 
-Este artigo fornece uma solução para o problema em que a implantação falha devido ao SQLSTATE[HY000] erro.
+Este artigo fornece uma solução para o problema em que a implantação falha devido ao erro SQLSTATE[HY000].
 
 ## Produtos e versões afetados
 

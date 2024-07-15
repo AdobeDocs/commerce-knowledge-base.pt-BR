@@ -21,7 +21,7 @@ Os emails de confirmação de pedido são enviados pelo endereço de email do se
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. Fazer um pedido com a **Enviar confirmação do pedido** caixa marcada.
+1. Coloque um pedido com a caixa **Enviar confirmação de pedido** marcada.
 1. Verifique o email.
 
 <u>Resultado esperado</u>:
@@ -59,6 +59,6 @@ O patch também é compatível (mas pode não resolver o problema) com as seguin
 
 ## Como aplicar o patch
 
-Para obter instruções, consulte [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de conhecimento de suporte.
+Para obter instruções, consulte [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de dados de conhecimento de suporte.
 
 ## Arquivos Anexados

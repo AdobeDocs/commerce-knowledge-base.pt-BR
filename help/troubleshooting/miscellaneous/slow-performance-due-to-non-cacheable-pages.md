@@ -22,7 +22,7 @@ Este artigo fornece soluções para aumentar os tempos de carregamento do site o
 
 ### Problema
 
-O site apresenta desempenho lento porque há blocos de cache em páginas que precisam ser armazenáveis em cache, mas foram definidas como `cacheable="false"` .
+O site apresenta desempenho lento porque há blocos de cache em páginas que precisam ser armazenáveis em cache, mas foram definidas como `cacheable="false"`.
 
 ### Causa
 
@@ -36,7 +36,7 @@ Essas páginas são:
 
 Armazenável em cache e não armazenável em cache são termos usados para indicar se uma página deve ou não ser armazenada em cache. Por padrão, todas as páginas podem ser armazenadas em cache. No entanto, se qualquer bloco em um layout for designado como não armazenável em cache, a página inteira será armazenável em cache.
 
-A captura de tela abaixo mostra um bloco com uma configuração `cacheable="false”`  ** ** que cria uma página não armazenável em cache.
+A captura de tela abaixo mostra um bloco com uma configuração `cacheable="false”` ** ** que cria uma página não armazenável em cache.
 
 ![non_cacheable_kb.png](assets/non_cacheable_kb.png)
 
@@ -46,15 +46,15 @@ A seguinte lista de páginas não é armazenada em cache (os caches Fastly, Bloc
 
 ### Solução
 
-Verifique se os arquivos especificados acima têm a configuração `cacheable="false”` . Se eles tiverem ativado, verifique se essa configuração é necessária ou obrigatória.
+Verifique se os arquivos especificados acima têm a configuração `cacheable="false”`. Se eles tiverem ativado, verifique se essa configuração é necessária ou obrigatória.
 
-* Se necessário, considere mover blocos não armazenáveis em cache para [mecanismo de conteúdo privado](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/cache/page-caching/private-content.html?itm_source=devdocs&amp;itm_medium=quick_search&amp;itm_campaign=federated_search&amp;itm_term=private%20co) em vez disso.
+* Se necessário, considere mover blocos não armazenáveis em cache para [mecanismo de conteúdo privado](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/cache/page-caching/private-content.html?itm_source=devdocs&amp;itm_medium=quick_search&amp;itm_campaign=federated_search&amp;itm_term=private%20co).
 * Se não for necessário, remova o atributo `cacheable="false”` e limpe o cache de layout.
 
 >[!NOTE]
 >
->Para o Adobe Commerce na infraestrutura em nuvem 2.4.1 e posterior, é possível usar o [Ferramenta de análise do site](https://docs.magento.com/user-guide/reports/site-wide-analysis-tool.html) para verificar automaticamente se o Cache de página cheia não está configurado corretamente.
+>Para o Adobe Commerce na infraestrutura em nuvem 2.4.1 e posterior, você pode usar a [Ferramenta de Análise do Site](https://docs.magento.com/user-guide/reports/site-wide-analysis-tool.html) para verificar automaticamente se o Cache de Página Inteira não está configurado corretamente.
 
 ### Leitura relacionada
 
-[Visão geral do cache do Adobe Commerce](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/cache_for_frontdevs.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=cacheable%2) na documentação do desenvolvedor.
+[visão geral do cache do Adobe Commerce](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/cache_for_frontdevs.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=cacheable%2) na documentação do desenvolvedor.

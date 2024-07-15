@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Senhas de administrador salvas como texto sem formatação no log de ações
 
-Este artigo fornece uma correção para quando um Administrador do Commerce cria um novo usuário com privilégios de Administrador e a senha é salva como texto sem formatação na `magento_logging_event_changes` tabela de banco de dados.
+Este artigo fornece uma correção para quando um Administrador do Commerce cria um novo usuário com privilégios de Administrador e a senha é salva como texto simples na tabela de banco de dados `magento_logging_event_changes`.
 
 Para corrigir esse problema de segurança, instale a Atualização de segurança do Adobe Commerce 2.0.16 e 2.1.9. Após aplicar a Atualização de segurança, as senhas são criptografadas e não aparecem como texto simples.
 
@@ -24,7 +24,7 @@ Para corrigir esse problema de segurança, instale a Atualização de segurança
 
 ## Problema {#Adminpasswordsaresavedasplaintexttoactionslog('magento_logging_event_changes'table)-Issue}
 
-Quando um Administrador existente do Commerce cria um novo usuário com privilégios de Administrador via **Sistema** > **Permissões** > **Todos os usuários** > **Adicionar novo usuário**, a senha (inserida como confirmação) será salva como texto sem formatação na `magento_logging_event_changes` tabela de banco de dados.
+Quando um Administrador do Commerce existente cria um novo usuário com privilégios de Administrador via **Sistema** > **Permissões** > **Todos os usuários** > **Adicionar novo usuário**, a senha (inserida como confirmação) é salva como texto sem formatação na tabela de banco de dados `magento_logging_event_changes`.
 
 ### Etapas a serem reproduzidas: {#Adminpasswordsaresavedasplaintexttoactionslog('magento_logging_event_changes'table)-Stepstoreproduce}
 
@@ -32,18 +32,18 @@ Quando um Administrador existente do Commerce cria um novo usuário com privilé
 
    ![add_user_magento_2.4.1.png](assets/add_user_magento_2.4.1.png)
 
-1. Em seguida, clique no link **Adicionar novo usuário** página. Quando solicitado, forneça sua senha de administrador atual.
-1. Vá para a **Sistema** > **Log de ação** > **Relatório** e localize a última entrada de log.
+1. Depois clique na página **Adicionar novo usuário**. Quando solicitado, forneça sua senha de administrador atual.
+1. Vá para a página **Sistema** > **Log de Ações** > **Relatório** e localize a última entrada do log.
 1. Você pode ver a senha atual, não criptografada nem com hash.
 
 ## Solução {#Adminpasswordsaresavedasplaintexttoactionslog('magento_logging_event_changes'table)-Solution}
 
-Instalação do [Atualização de segurança do Adobe Commerce 2.0.16 e 2.1.9](https://magento.com/security/patches/magento-2016-and-219-security-update) corrige esse problema.
+A instalação da [Atualização de Segurança do Adobe Commerce 2.0.16 e 2.1.9](https://magento.com/security/patches/magento-2016-and-219-security-update) corrige esse problema.
 
-Após instalar a Atualização de segurança, a senha é criptografada e não é exibida em texto sem formatação na `magento_logging_event_changes` tabela.
+Depois de instalar a Atualização de Segurança, a senha é criptografada e não é exibida em texto sem formatação na tabela `magento_logging_event_changes`.
 
 ## Mais informações {#Adminpasswordsaresavedasplaintexttoactionslog('magento_logging_event_changes'table)-Moreinformation}
 
-[Página Atualização de segurança do Adobe Commerce 2.0.16 e 2.1.9](https://magento.com/security/patches/magento-2016-and-219-security-update) em nosso centro de segurança.
+[Página de Atualização de Segurança do Adobe Commerce 2.0.16 e 2.1.9](https://magento.com/security/patches/magento-2016-and-219-security-update) em nossa central de segurança.
 
-[Atualizar o aplicativo e os componentes do Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html) na documentação do desenvolvedor.
+[Atualize o aplicativo e os componentes do Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html) em nossa documentação do desenvolvedor.

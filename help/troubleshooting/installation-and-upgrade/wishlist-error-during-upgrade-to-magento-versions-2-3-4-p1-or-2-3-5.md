@@ -28,7 +28,7 @@ Ao atualizar sua Adobe Commerce (todos os métodos de implantação) e o Magento
 Magento_Wishlist
 ```
 
-Atualização do Adobe Commerce (todos os métodos de implantação)/Magneto Open Source versão 2.3.4-p1 **para a versão 2.3.4-p2** ou do Adobe Commerce (todos os métodos de implantação)/Magneto Open Source versão 2.3.5 **para a versão 2.3.5-p1** O corrigirá o erro.
+A atualização do Adobe Commerce (todos os métodos de implantação)/Magneto Open Source versão 2.3.4-p1 **para a versão 2.3.4-p2** ou do Adobe Commerce (todos os métodos de implantação)/Magneto Open Source versão 2.3.5 **para a versão 2.3.5-p1** corrigirá o erro.
 
 <u>Etapas a serem reproduzidas</u>:
 
@@ -50,15 +50,15 @@ Unable to apply data patch Magento\Wishlist\Setup\Patch\Data\CleanUpData for mod
 
 ## Soluções
 
-* Se você estava atualizando para o Adobe Commerce (todos os métodos de implantação)/Magneto Open Source versão 2.3.5, **atualização para a versão 2.3.5-p1**. Adobe Commerce (todos os métodos de implantação)/Magento Open Source versão 2.3.5-p1 substitui 2.3.5.
-* Se você estava atualizando para Adobe Commerce (todos os métodos de implantação)/Magento Open Source versão 2.3.4-p1, **atualização para a versão 2.3.4-p2**. Adobe Commerce (todos os métodos de implantação)/Magneto Open Source versão 2.3.4-p2 substitui a versão 2.3.4-p1.
+* Se você estava atualizando para Adobe Commerce (todos os métodos de implantação)/Magneto Open Source versão 2.3.5, **atualize para a versão 2.3.5-p1**. Adobe Commerce (todos os métodos de implantação)/Magento Open Source versão 2.3.5-p1 substitui 2.3.5.
+* Se você estava atualizando para Adobe Commerce (todos os métodos de implantação)/Magento Open Source versão 2.3.4-p1, **atualize para a versão 2.3.4-p2**. Adobe Commerce (todos os métodos de implantação)/Magneto Open Source versão 2.3.4-p2 substitui a versão 2.3.4-p1.
 
 ## Leitura relacionada
 
 Em nossa documentação do desenvolvedor:
 
 * [guia da infraestrutura do Adobe Commerce na nuvem](https://devdocs.magento.com/cloud/bk-cloud.html)
-* [Adobe Commerce na infraestrutura em nuvem — atualização da versão do Adobe Commerce](https://devdocs.magento.com/cloud/project/project-upgrade.html)
-* [Adobe Commerce no local e Magento Open Source - atualize o aplicativo e os módulos do Adobe Commerce](https://devdocs.magento.com/guides/v2.3/comp-mgr/bk-compman-upgrade-guide.html)
+* [Adobe Commerce na infraestrutura em nuvem - Atualizar Adobe Commerce versão](https://devdocs.magento.com/cloud/project/project-upgrade.html)
+* [Adobe Commerce local e Magento Open Source - Atualize o aplicativo e os módulos do Adobe Commerce](https://devdocs.magento.com/guides/v2.3/comp-mgr/bk-compman-upgrade-guide.html)
 * [Página de configuração do item da lista de desejos](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/layouts/product-layouts.html#wishlist-item-configure-page)
-* [Módulos que fornecem relatórios avançados](https://devdocs.magento.com/guides/v2.3/advanced-reporting/modules.html)
+* [Módulos fornecendo relatórios avançados](https://devdocs.magento.com/guides/v2.3/advanced-reporting/modules.html)

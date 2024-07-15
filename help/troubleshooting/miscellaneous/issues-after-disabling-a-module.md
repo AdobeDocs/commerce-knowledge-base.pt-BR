@@ -22,14 +22,14 @@ Este artigo fornece uma solução para problemas de funcionalidade do módulo ap
 
 ## Problema
 
-Tendo desativado a saída do módulo no Administrador do Commerce, em **Lojas** > **Configurações** > **Configuração** > AVANÇADO > **Avançado**, você pode começar a ver problemas relacionados à funcionalidade do módulo.
+Tendo desabilitado a saída do módulo no Administrador do Commerce, em **Lojas** > **Configurações** > **Configuração** > AVANÇADO > **Avançado**, você poderá começar a ver problemas relacionados à funcionalidade do módulo.
 
 ## Causa
 
-Desativar uma saída de módulo em **Lojas** > **Configurações** > **Configuração** > AVANÇADO > **Avançado** desativa somente a saída (HTML, JS), mas não desativa a funcionalidade desse módulo.
+Desabilitar uma saída de módulo em **Lojas** > **Configurações** > **Configuração** > AVANÇADO > **Avançado** desabilita somente a saída (HTML, JS), mas não desabilita a funcionalidade deste módulo.
 
 ## Solução
 
-Se você precisar desativar a funcionalidade do módulo, desative o módulo conforme descrito em [Ativar ou desativar módulos](https://devdocs.magento.com/guides/v2.1/install-gde/install/cli/install-cli-subcommands-enable.html) na documentação do desenvolvedor.
+Se você precisar desabilitar a funcionalidade do módulo, desabilite o módulo conforme descrito em [Habilitar ou desabilitar módulos](https://devdocs.magento.com/guides/v2.1/install-gde/install/cli/install-cli-subcommands-enable.html) na documentação do desenvolvedor.
 
 A funcionalidade de desabilitação de saída do módulo foi removida a partir da versão 2.2.0.

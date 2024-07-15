@@ -21,7 +21,7 @@ Este tópico discute uma solução para quando ocorrem erros de validação ao e
 
 ## Problema
 
-<u>Etapa para reproduzir</u>:
+<u>Etapa de reprodução</u>:
 
 * Execute o modo de desenvolvedor no PWA Studio para Adobe Commerce.
 

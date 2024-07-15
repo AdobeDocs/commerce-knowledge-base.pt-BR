@@ -21,12 +21,12 @@ O suporte técnico da Adobe pode exigir acesso aos dados relacionados à Adobe C
 
 Para autorizar o acesso:
 
-1. [Fazer logon](https://account.magento.com/customer/account/login) como um suporte intitulado usuário principal.
-1. No **[!UICONTROL My Account]** página > **[!UICONTROL Account Settings]**, verifique se você concluiu o [perfil da conta](https://account.magento.com/customer/account/edit) e clique em **[!UICONTROL Save]**.
-1. No **[!UICONTROL My Account]** página > **[!UICONTROL Account Settings]** > **[!UICONTROL Privacy Settings]**. Você verá um formulário de consentimento para conceder à equipe de suporte técnico do Adobe acesso aos seus dados.
-1. Depois de consultar as informações sobre as configurações de privacidade, marque a caixa de seleção ao lado de **Autorizo o acesso aos meus dados pela seguinte duração:**.
+1. [Faça logon](https://account.magento.com/customer/account/login) como um usuário primário com direito a suporte.
+1. Na página **[!UICONTROL My Account]** > **[!UICONTROL Account Settings]**, verifique se você concluiu seu [perfil de conta](https://account.magento.com/customer/account/edit) e clique em **[!UICONTROL Save]**.
+1. Na página **[!UICONTROL My Account]** > **[!UICONTROL Account Settings]** > **[!UICONTROL Privacy Settings]**. Você verá um formulário de consentimento para conceder à equipe de suporte técnico do Adobe acesso aos seus dados.
+1. Depois de consultar as informações sobre as configurações de privacidade, marque a caixa de seleção ao lado de **Autorizo o acesso dos meus dados pela seguinte duração:**.
 1. Na lista suspensa de duração, selecione o período durante o qual você deseja que a equipe de suporte técnico do Adobe tenha acesso aos dados do cliente. Você pode selecionar 7 dias, 30 dias, um ano ou indefinidamente.
 1. Clique em **[!UICONTROL Save]**. Isso atualizará as datas de início e término na parte inferior da página em **Você consentiu com a seguinte duração** (captura de tela). Após a concessão do consentimento, o usuário principal autorizado verá a opção de retirar o consentimento na parte inferior da tela.
    ![magento-account-privacy-settings.png](assets/magento-account-privacy-settings.png)
 
-Você pode clicar em **Retirar consentimento** a qualquer momento para retirar o seu consentimento para que a equipe de suporte do Adobe tenha acesso aos seus dados.
+Você pode clicar em **Retirar consentimento** a qualquer momento para retirar seu consentimento para que a equipe de suporte do Adobe tenha acesso aos seus dados.

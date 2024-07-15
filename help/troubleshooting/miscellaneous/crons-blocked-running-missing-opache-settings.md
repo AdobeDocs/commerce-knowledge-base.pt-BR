@@ -1,6 +1,6 @@
 ---
-title: O Cron para devido a uma configuração incorreta ou ausente [!DNL OpCache] configurações
-description: Este artigo fornece uma solução para quando os crons param de funcionar devido a uma configuração incorreta ou ausente [!DNL OpCache] configurações.
+title: O Cron para devido a configurações [!DNL OpCache]  desdefinidas ou ausentes
+description: Este artigo fornece uma solução para quando os crons param de funcionar devido a configurações  [!DNL OpCache]  incorretas ou ausentes.
 exl-id: 30643ea9-969f-41c8-8e62-b24e56d690cf
 feature: Cache
 role: Developer
@@ -11,13 +11,13 @@ ht-degree: 0%
 
 ---
 
-# Cron interrompido devido a uma configuração incorreta ou ausente [!DNL OpCache] configurações
+# Cron interrompido devido a configurações de [!DNL OpCache] incorretas ou ausentes
 
-Este artigo fornece uma solução para quando o cron para de funcionar devido a uma configuração incorreta ou ausente [!DNL OpCache] configurações.
+Este artigo fornece uma solução para quando o cron para de funcionar devido a configurações [!DNL OpCache] ausentes ou mal definidas.
 
 ## Produtos e versões afetados
 
-Adobe Commerce na infraestrutura em nuvem, [todas as versões compatíveis](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
+Adobe Commerce na infraestrutura em nuvem, [todas as versões com suporte](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
 
 ## Problema
 
@@ -25,7 +25,7 @@ O cron parou de funcionar.
 
 ## Causa
 
-A variável [!DNL OpCache] O módulo foi atualizado para uma versão mais recente que introduziu um [!DNL GraphQL] plug-in que reescreve a `env.php` em tempo de execução e pode substituir a configuração cron, o que pode ter causado o problema. A variável [!DNL OpCache] configuração precisa ser atualizada para evitar problemas com o `env.php file`, e isso foi resolvido em [versão 2002.1.13](/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package.html?lang=en#v2002.1.13) do [!DNL ECE Tools] pacote.
+O módulo [!DNL OpCache] foi atualizado para uma versão mais recente que introduziu um plug-in [!DNL GraphQL] que reescreve o `env.php` em tempo de execução e pode substituir a configuração cron, o que pode ter causado o problema. A configuração [!DNL OpCache] precisa ser atualizada para evitar problemas com o `env.php file`, e isso foi resolvido na [versão 2002.1.13](/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package.html?lang=en#v2002.1.13) do pacote [!DNL ECE Tools].
 
 ## Solução
 
@@ -37,7 +37,7 @@ bin/magento cron:run
 
 Talvez seja exibida uma mensagem informando que o cron está desativado.
 
-Opção 2: abrir o `app/etc/env.php` arquivo - se você vir a seguir, o cron foi desabilitado manualmente, não foi reabilitado devido a uma falha na implantação ou o problema estava relacionado ao [!DNL OpCache] configurações.
+Opção 2: Abrir o arquivo `app/etc/env.php` - se você vir o arquivo abaixo, o cron foi desabilitado manualmente, não foi habilitado novamente devido a uma falha na implantação ou o problema estava relacionado às configurações de [!DNL OpCache].
 
 ```php
   'cron' =>
@@ -46,13 +46,13 @@ Opção 2: abrir o `app/etc/env.php` arquivo - se você vir a seguir, o cron foi
   ),
 ```
 
-1. Se o cron estiver desativado, execute este comando para reativar o cron: `vendor/bin/ece-tools cron:enable`
+1. Se o cron estiver desabilitado, execute este comando para habilitar novamente o cron: `vendor/bin/ece-tools cron:enable`
 1. Verifique se você está na versão mais recente do [!DNL ECE Tools]. Caso contrário, atualize (ou pule para o item 3). Para verificar sua versão existente, execute este comando:
    `composer show magento/ece-tools`
-1. Se você já estiver usando a versão mais recente do [!DNL ECE Tools], verifique a presença da `op-exclude.txt` arquivo. Para fazer isso, execute este comando:
+1. Se você já estiver na versão mais recente do [!DNL ECE Tools], verifique a presença do arquivo `op-exclude.txt`. Para fazer isso, execute este comando:
    `ls op-exclude.txt`.
 Se esse arquivo não estiver presente, adicione https://github.com/magento/magento-cloud/blob/master/op-exclude.txt ao repositório, confirme a alteração e implante novamente.
-1. Sem precisar atualizar [!DNL ECE Tools], você também pode apenas adicionar/modificar https://github.com/magento/magento-cloud/blob/master/op-exclude.txt no repositório, confirmar a alteração e reimplantar.
+1. Sem precisar atualizar o [!DNL ECE Tools], você também pode apenas adicionar/modificar o https://github.com/magento/magento-cloud/blob/master/op-exclude.txt no repositório, confirmar a alteração e reimplantar.
 
 ## Leitura relacionada
 

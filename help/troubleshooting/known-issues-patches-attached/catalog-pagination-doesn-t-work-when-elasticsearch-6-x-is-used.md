@@ -34,7 +34,7 @@ Foi descoberto um problema no Magento Open Source, no Adobe Commerce local e na 
 
 1. Instale o Adobe Commerce.
 1. Ative o Elasticsearch 6 como um mecanismo de pesquisa de catálogo.
-1. Adicione um número de produtos à Categoria que exceda o limite de uma página definido no Administrador. **Nota**: 12 é o número padrão de produtos exibidos por página no Adobe Commerce 2.3.3.
+1. Adicione um número de produtos à Categoria que exceda o limite de uma página definido no Administrador. **Observação**: 12 é o número padrão de produtos exibidos por página no Adobe Commerce 2.3.3.
 1. Abra Categoria na loja (resultados da pesquisa ou página de categoria) e vá para a página 2.
 
 <u>Resultado esperado</u>:
@@ -43,13 +43,13 @@ Os produtos devem ser exibidos na segunda página.
 
 <u>Resultado real</u>:
 
-**&quot;***Não é possível encontrar produtos que correspondam à seleção***&quot;** é exibida na segunda página.
+**&quot;***Não é possível encontrar produtos que correspondam à mensagem de seleção***&quot;** mostrada na segunda página.
 
 ## Solução
 
 Para corrigir o problema, aplique a correção anexada a este artigo. Para baixá-lo, role para baixo até o final do artigo e clique no nome do arquivo ou clique no link a seguir:
 
-[Problema de paginação de catálogo no patch do Elasticsearch 6.x](assets/Catalog_pagination_issue_on_Elasticsearch_6_composer-2019-10-11-08-07-41.patch.zip) - O patch é compatível com todas as versões e edições afetadas.
+[Problema de paginação do Catálogo de Downloads no patch do Elasticsearch 6.x](assets/Catalog_pagination_issue_on_Elasticsearch_6_composer-2019-10-11-08-07-41.patch.zip) - O patch é compatível com todas as versões e edições afetadas.
 
 >[!WARNING]
 >

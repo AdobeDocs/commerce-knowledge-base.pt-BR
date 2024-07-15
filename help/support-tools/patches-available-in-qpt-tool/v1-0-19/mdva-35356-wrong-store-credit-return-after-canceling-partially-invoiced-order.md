@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # MDVA-35356: retorno de crédito de armazenamento incorreto após cancelar pedido parcialmente faturado
 
-O patch MDVA-35356 corrige o problema de retorno de crédito da loja incorreto após o cancelamento do pedido parcialmente faturado. Este patch está disponível quando a variável [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) O 1.0.19 está instalado. A ID do patch é MDVA-35356. Observe que o problema foi corrigido no Adobe Commerce versão 2.4.3.
+O patch MDVA-35356 corrige o problema de retorno de crédito da loja incorreto após o cancelamento do pedido parcialmente faturado. Este patch está disponível quando a [Ferramenta de Patches de Qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.19 está instalada. A ID do patch é MDVA-35356. Observe que o problema foi corrigido no Adobe Commerce versão 2.4.3.
 
 ## Produtos e versões afetados
 
-**O patch é criado para a versão do Adobe Commerce:**
+**O patch foi criado para a versão do Adobe Commerce:**
 
 Adobe Commerce na infraestrutura em nuvem 2.4.1
 
@@ -27,16 +27,16 @@ Adobe Commerce (todos os métodos de implantação) 2.3.0 - 2.4.2
 
 >[!NOTE]
 >
->O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com sua versão do Adobe Commerce, atualize o `magento/quality-patches` pacote para a versão mais recente e verifique a compatibilidade no [[!DNL Quality Patches Tool]: Página Procurar patches](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+>O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com a sua versão do Adobe Commerce, atualize o pacote `magento/quality-patches` para a versão mais recente e verifique a compatibilidade na [[!DNL Quality Patches Tool]: página Procurar patches](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
 
 ## Problema
 
 <u>Etapas a serem reproduzidas</u>:
 
 1. Crie três produtos simples.
-1. Crie um novo usuário e atribua o crédito da loja (Exemplo: crédito da loja = *$10,* preços simples do produto = *$ 100*, *$ 200*, e *$ 300*).
+1. Crie um novo usuário e atribua crédito da loja (Exemplo: crédito da loja = *$10,* preços de produtos simples = *$100*, *$200* e *$300*).
 1. Faça logon com o usuário acima e adicione os três produtos ao carrinho.
-1. Confira os três produtos no carrinho e utilize o crédito da loja para uma parte do pedido (Exemplo: pago com **Cheque/Ordem de pagamento**).
+1. Confira os três produtos no carrinho e utilize o crédito da loja para uma parte do pedido (Exemplo: pago com **Pedido de cheque/dinheiro**).
 1. Execute duas faturas no pedido por meio da API, uma para o Produto 1 e outra para o Produto 2:
 
    ```php
@@ -60,14 +60,14 @@ O crédito total da loja é retornado: o saldo é de US$ 10.
 
 Para aplicar patches individuais, use os links a seguir, dependendo do método de implantação:
 
-* Adobe Commerce ou Magento Open Source no local: [Guia de atualização de software > Aplicar patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) na documentação do desenvolvedor.
-* Adobe Commerce na infraestrutura em nuvem: [Upgrades e Patches > Aplicar Patches](https://devdocs.magento.com/cloud/project/project-patch.html) na documentação do desenvolvedor.
+* Adobe Commerce ou Magento Open Source no local: [Guia de Atualização de Software > Aplicar Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) na documentação do desenvolvedor.
+* Adobe Commerce na infraestrutura em nuvem: [Atualizações e patches > Aplicar patches](https://devdocs.magento.com/cloud/project/project-patch.html) na documentação do desenvolvedor.
 
 ## Leitura relacionada
 
 Para saber mais sobre a Ferramenta de correção de qualidade, consulte:
 
-* [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatendimento de correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de conhecimento de suporte.
-* [Verifique se o patch está disponível para o problema do Adobe Commerce usando a Ferramenta de patches de qualidade](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de conhecimento de suporte.
+* [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatender correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de dados de conhecimento de suporte.
+* [Verifique se o patch está disponível para o problema do Adobe Commerce usando a Ferramenta de Patches de Qualidade](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de dados de conhecimento de suporte.
 
 Para obter informações sobre outros patches disponíveis no QPT, consulte [Patches disponíveis no QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) na documentação do desenvolvedor.

@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# Redução expirada `oauth_tokens` antes da atualização do 2.4.6
+# Reduza o(s) `oauth_tokens` expirado(s) antes da atualização para 2.4.6
 
-Este artigo fornece uma solução para o problema em que você vê um grande número de `oauth_tokens` no seu `oauth_token` tabela, que pode causar um grande atraso na atualização para a versão 2.4.6. É recomendável reduzir o `oauth_token` tabela usando o [`CleanExpiredTokens.php`](https://github.com/magento/magento2/blob/2.4.5-p2/app/code/Magento/Integration/Cron/CleanExpiredTokens.php) [!DNL cron] tarefa para excluir os tokens expirados.
+Este artigo fornece uma solução para o problema em que você vê um grande número de `oauth_tokens` na tabela `oauth_token`, o que pode causar um grande atraso na atualização para a versão 2.4.6. É recomendável reduzir a tabela `oauth_token` usando o trabalho [`CleanExpiredTokens.php`](https://github.com/magento/magento2/blob/2.4.5-p2/app/code/Magento/Integration/Cron/CleanExpiredTokens.php) [!DNL cron] para excluir os tokens expirados.
 
 ## Produtos e versões afetados
 
@@ -21,20 +21,20 @@ Este artigo fornece uma solução para o problema em que você vê um grande nú
 
 ## Problema
 
-Se houver um grande número de `oauth_tokens` no seu `oauth_token` tabela, que pode causar um grande atraso na atualização para a versão 2.4.6.
+Se houver um grande número de `oauth_tokens` na tabela `oauth_token`, isso poderá causar um grande atraso na atualização para a versão 2.4.6.
 
 O processo de atualização inclui a criptografia desses tokens para uma camada extra de segurança, e só é feito 100 registros de cada vez. Isso pode levar várias horas se houver um grande número de tokens.
 
-A redução de um grande número de `oauth_tokens` no seu `oauth_token` A tabela pode evitar um grande atraso na atualização para a versão 2.4.6.
+Reduzir um grande número de `oauth_tokens` na tabela `oauth_token` pode evitar um grande atraso na atualização para a versão 2.4.6.
 
 ## Solução
 
-Antes de iniciar uma atualização, primeiro verifique se [`CleanExpiredTokens.php`](https://github.com/magento/magento2/blob/2.4.5-p2/app/code/Magento/Integration/Cron/CleanExpiredTokens.php) [!DNL cron] tarefa em execução. Reduz o tamanho do `oauth_token` ao excluir a tabela `oauth_tokens` tokens, e já devem estar ativados por padrão.
+Antes de iniciar uma atualização, verifique se o trabalho [`CleanExpiredTokens.php`](https://github.com/magento/magento2/blob/2.4.5-p2/app/code/Magento/Integration/Cron/CleanExpiredTokens.php) [!DNL cron] está em execução. Ele reduz o tamanho da tabela `oauth_token` ao excluir os `oauth_tokens` tokens expirados, e já deve estar habilitado por padrão.
 
-Para acionar manualmente o [`CleanExpiredTokens.php`](https://github.com/magento/magento2/blob/2.4.5-p2/app/code/Magento/Integration/Cron/CleanExpiredTokens.php) [!DNL cron] tarefa, executar:
+Para acionar manualmente o trabalho [`CleanExpiredTokens.php`](https://github.com/magento/magento2/blob/2.4.5-p2/app/code/Magento/Integration/Cron/CleanExpiredTokens.php) [!DNL cron], execute:
 ```bin/magento cron:run --group=default```
 
 ## Leitura relacionada
 
-* [Serviços > [!DNL OAuth]](https://experienceleague.adobe.com/docs/commerce-admin/config/services/oauth.html) no guia Commerce Configuration Reference.
-* [Guia de autenticação](https://developer.adobe.com/developer-console/docs/guides/authentication/) no guia do Adobe Developer.
+* [Serviços > [!DNL OAuth]](https://experienceleague.adobe.com/docs/commerce-admin/config/services/oauth.html) no guia de Referência de Configuração do Commerce.
+* [Guia de Autenticação](https://developer.adobe.com/developer-console/docs/guides/authentication/) no guia do Adobe Developer.

@@ -27,14 +27,14 @@ Os clientes entram nas contas da Amazon usadas anteriormente, em vez de serem su
 <u>Etapas a serem reproduzidas:</u>
 
 1. Na loja, adicione qualquer item ao carrinho de compras e prossiga para o check-out do convidado.
-1. Clique em **Amazon Pay** botão. Amazon.com sign in pop-up (pop-up de logon do) é exibido.
+1. Clique no botão **Pagamento do Amazon**. Amazon.com sign in pop-up (pop-up de logon do) é exibido.
 1. Faça logon na conta do Amazon.
-1. Selecione um endereço e clique em **Próxima**.
+1. Selecione um endereço e clique em **Avançar**.
 1. Selecione o método de pagamento.
 1. Clique em **Fazer pedido**.
 1. Volte para a home page e faça logon na conta da loja.
 1. Adicione qualquer item ao carrinho novamente e prossiga para o check-out.
-1. Clique em **Amazon Pay** botão.
+1. Clique no botão **Pagamento do Amazon**.
 
 <u>Resultado real:</u>
 
@@ -48,7 +48,7 @@ Amazon.com sign in pop-up é exibido e você pode fazer login ou criar uma nova 
 
 O problema pode ocorrer em uma das seguintes situações:
 
-* Quando a variável `SameSite` o valor do cookie é `LAX`, o cookie não será enviado como parte de nenhuma chamada de terceiros.
+* Quando o valor do cookie `SameSite` é `LAX`, o cookie não será enviado como parte de nenhuma chamada de terceiros.
 * O recurso de bloqueio de conteúdo do Mozilla Firefox impede que terceiros rastreiem as atividades dos usuários do navegador, bloqueando o uso de scripts e mecanismos de armazenamento do lado do cliente. O Firefox usa um fornecedor externo, o Disconnect.me, para fornecer uma lista de sites de rastreamento a serem bloqueados. O Amazon Pay usa um iframe em um site de terceiros para retornar um token de acesso após o logon e renderizar o Endereço e o widget de carteira. Com o recurso de bloqueio de conteúdo, as solicitações de carregamento de iframe do Amazon Pay são consideradas solicitações de rastreamento de terceiros e são bloqueadas, resultando na impossibilidade de o comprador prosseguir com a finalização da compra.
 * Qualquer situação em que cookies de terceiros ou JS estejam sendo explicitamente bloqueados pelo navegador.
 

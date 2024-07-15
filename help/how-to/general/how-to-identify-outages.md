@@ -18,4 +18,4 @@ Há várias maneiras de um comerciante (ou qualquer pessoa interessada na integr
 * as etapas gerais para identificar um problema que pode ser uma interrupção
 * como identificar se o problema é realmente uma interrupção, uma interrupção em pequena escala ou um impedimento temporário
 
-Para baixar o artigo, clique em [Interrupções_how_to_identify_and_measure_effect_Adobe_Commerce.pdf](assets/Outages_how_to_identify_and_measure_effect_Adobe_Commerce.pdf)
+Para baixar o artigo, clique em [Interrupções_como_identificar_e_medida_efeito_Adobe_Commerce.pdf](assets/Outages_how_to_identify_and_measure_effect_Adobe_Commerce.pdf)

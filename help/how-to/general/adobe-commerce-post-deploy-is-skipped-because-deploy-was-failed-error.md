@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerce *a pós-implantação é ignorada porque a implantação falhou* erro
-description: "Este artigo explica como investigar um erro de implantação: *A pós-implantação é ignorada porque a implantação falhou*"
+description: "Este artigo explica como investigar um erro de implantação: *A implantação do Post é ignorada porque a implantação falhou*"
 exl-id: cd0a3015-b7b9-442e-8ac1-89447ef12cd7
 feature: Deploy
 source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
@@ -10,13 +10,13 @@ ht-degree: 0%
 
 ---
 
-# Adobe Commerce *a pós-implantação foi ignorada porque houve falha na implantação* erro
+# A pós-implantação do Adobe Commerce *foi ignorada porque a implantação falhou* erro
 
-Este artigo explica como investigar um erro de implantação: *A pós-implantação foi ignorada porque houve falha na implantação* que ocorre durante a implantação em diferentes ambientes, por exemplo, atualização.
+Este artigo explica como investigar um erro de implantação: *A implantação do Post foi ignorada porque houve falha na implantação*, o que ocorre durante a implantação em diferentes ambientes, por exemplo, atualização.
 
 ## Produtos e versões afetados
 
-Adobe Commerce na infraestrutura em nuvem [todas as versões compatíveis](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
+Adobe Commerce na infraestrutura em nuvem [todas as versões com suporte](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 ## Problema
 
@@ -46,4 +46,4 @@ Indeterminado - a causa dessa mensagem de erro depende do código e do banco de 
     W:
 ```
 
-Para obter o rastreamento de erros para determinar a causa real, conecte o SSH ao servidor e verifique o arquivo de log `var/log/install_upgrade.log`.
+Para obter o rastreamento de erros para determinar a causa real, SSH conecte o servidor e verifique o arquivo de log `var/log/install_upgrade.log`.

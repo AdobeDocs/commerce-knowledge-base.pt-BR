@@ -31,5 +31,5 @@ O problema foi corrigido no Adobe Commerce 2.3.1.
 
 ## Leitura relacionada
 
-* [Endereços diferentes não permitidos ao desmarcar &#39;Meu endereço de faturamento e de entrega são iguais&#39; usando VertexAddress Cleansing](/help/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.md) em nossa base de conhecimento de suporte.
-* [Atualização de postagem de endereço da mensagem de validação do Endereço Vertex do Adobe Commerce 2.4.1](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md) em nossa base de conhecimento de suporte.
+* [Endereços diferentes não permitidos ao desmarcar &#39;Meus endereços de cobrança e de remessa são iguais&#39; usando a Limpeza VertexAddress](/help/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.md) em nossa base de dados de conhecimento de suporte.
+* [Atualização de postagem de endereço da mensagem de validação do Endereço Vertex do Adobe Commerce 2.4.1](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md) em nossa base de dados de conhecimento de suporte.

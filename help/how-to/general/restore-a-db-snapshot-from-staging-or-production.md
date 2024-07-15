@@ -9,26 +9,26 @@ ht-degree: 0%
 
 ---
 
-# Restaurar um instantâneo do BD a partir de [!DNL Staging] ou [!DNL Production]
+# Restaurar um instantâneo de BD de [!DNL Staging] ou [!DNL Production]
 
-Este artigo mostra como restaurar um BD [!DNL snapshot] de [!DNL Staging] ou [!DNL Production] na infraestrutura do Adobe Commerce na Cloud Pro.
+Este artigo mostra como restaurar um banco de dados [!DNL snapshot] de [!DNL Staging] ou [!DNL Production] no Adobe Commerce na infraestrutura do Cloud Pro.
 
 ## Produtos e versões afetados
 
-* Adobe Commerce na infraestrutura em nuvem, [todas as versões compatíveis](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce na infraestrutura em nuvem, [todas as versões com suporte](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 Escolha o mais apropriado para seu caso:
 
-* [Método 1: transferir o banco de dados [!DNL dump] para o computador local e importe-o](#meth2).
+* [Método 1: Transfira o banco de dados [!DNL dump] para o computador local e importe-o](#meth2).
 * [Método 2: importar o banco de dados [!DNL dump] diretamente do servidor](#meth3).
 
-## Método 1: transferir o banco de dados [!DNL dump] para o computador local e importe-o {#meth2}
+## Método 1: Transfira o banco de dados [!DNL dump] para o computador local e importe-o {#meth2}
 
 As etapas são:
 
-1. Usar [!DNL SFTP], navegue até o local onde o banco de dados [!DNL snapshot] foi colocado, geralmente no primeiro servidor/nó de sua [!DNL cluster] (Por exemplo: `/mnt/recovery-<recovery_id>`). OBSERVAÇÃO: se seu projeto for baseado no Azure, ou seja, o URL do projeto será semelhante ao https://us-a1.magento.cloud/projects/&lt;cluster_id>, o instantâneo será colocado em `/mnt/shared/<cluster ID>/all-databases.sql.gz` ou `/mnt/shared/<cluster ID_stg>/all-databases.sql.gz` em vez disso.
+1. Usando o [!DNL SFTP], navegue até o local onde o banco de dados [!DNL snapshot] foi colocado, normalmente no primeiro servidor/nó do [!DNL cluster] (Por exemplo: `/mnt/recovery-<recovery_id>`). OBSERVAÇÃO: se seu projeto for baseado no Azure, ou seja, sua URL de projeto se parece com https://us-a1.magento.cloud/projects/&lt;cluster_id>, então o instantâneo será colocado em `/mnt/shared/<cluster ID>/all-databases.sql.gz` ou `/mnt/shared/<cluster ID_stg>/all-databases.sql.gz`.
 
-   OBSERVAÇÃO: o formato do instantâneo nos projetos do Azure será diferente e conterá outros bancos de dados que não podem ser importados. Antes de importar o snapshot, você terá que executar etapas adicionais para extrair o banco de dados apropriado antes de importar o dump.
+   OBSERVAÇÃO: o formato do instantâneo nos projetos do Azure será diferente e conterá outros bancos de dados que não podem ser importados. Antes de importar o snapshot, você     é necessário executar etapas adicionais para extrair o banco de dados apropriado antes de importar o dump.
 
    Para produção:
 
@@ -61,15 +61,15 @@ As etapas são:
    --init-command="SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT ;SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS ;SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION ;SET NAMES utf8 ;SET @OLD_TIME_ZONE=@@TIME_ZONE ;SET TIME_ZONE='+00:00' ;SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 ;SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 ;SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' ;SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0;"
    ```
 
-1. Copiar o banco de dados [!DNL dump file] (Por exemplo: `<cluster ID>.sql.gz` para [!DNL Production] ou `<cluster ID_stg>.sql.gz` para [!DNL Staging]) ao computador local.
-1. Verifique se você configurou o [!DNL SSH tunnel] para conectar-se ao banco de dados remotamente: [[!DNL SSH] e [!DNL sFTP]: [!DNL SSH tunneling]](https://devdocs.magento.com/cloud/env/environments-ssh.html#env-start-tunn) na documentação do desenvolvedor.
+1. Copie o banco de dados [!DNL dump file] (Por exemplo: `<cluster ID>.sql.gz` para [!DNL Production] ou `<cluster ID_stg>.sql.gz` para [!DNL Staging]) no computador local.
+1. Verifique se você configurou o [!DNL SSH tunnel] para se conectar ao banco de dados remotamente: [[!DNL SSH] e [!DNL sFTP]: [!DNL SSH tunneling]](https://devdocs.magento.com/cloud/env/environments-ssh.html#env-start-tunn) em nossa documentação para desenvolvedores.
 1. Conectar ao banco de dados.
 
    ```sql
    mysql -h <db-host> -P <db-port> -p -u <db-user> <db-name>
    ```
 
-1. [!DNL Drop] o banco de dados; no [!DNL MariaDB] digite:
+1. [!DNL Drop] o banco de dados; no prompt [!DNL MariaDB], digite:
 
    (Para [!DNL Production])
 
@@ -101,14 +101,14 @@ As etapas são:
 
 As etapas são:
 
-1. Navegue até o local onde o banco de dados [!DNL snapshot] foi colocado, geralmente no primeiro servidor/nó de sua [!DNL cluster] (Por exemplo: `/mnt/recovery-<recovery_id>`).
-1. Para [!DNL drop] e recriar o banco de dados em nuvem, primeiro conecte-se ao banco de dados:
+1. Navegue até o local onde o banco de dados [!DNL snapshot] foi colocado, geralmente no primeiro servidor/nó de [!DNL cluster] (Por exemplo: `/mnt/recovery-<recovery_id>`).
+1. Para [!DNL drop] e recriar o banco de dados de nuvem, primeiro conecte-se ao banco de dados:
 
    ```sql
    mysql -h 127.0.0.1 -P <db-port> -p -u <db-user> <db-name>
    ```
 
-1. [!DNL Drop] o banco de dados; no [!DNL MariaDB] digite:
+1. [!DNL Drop] o banco de dados; no prompt [!DNL MariaDB], digite:
 
    (Para [!DNL Production])
 

@@ -17,8 +17,8 @@ Este artigo fornece uma solução para o problema, em que os clientes são desco
 
 ## Produtos e versões afetados
 
-* Adobe Commerce no local, [todas as versões compatíveis](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
-* Adobe Commerce na infraestrutura em nuvem, [todas as versões compatíveis](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce local, [todas as versões com suporte](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce na infraestrutura em nuvem, [todas as versões com suporte](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Problema
 
@@ -38,7 +38,7 @@ O cliente redirecionou para uma página de pagamento bem-sucedido (ou outra pág
 
 ## Causa
 
-O atributo de cookie SameSite está definido como *Lax* ou não especificado (que é tratado como definido como *Lax* ). Tendo `SameSite` = *Lax* desativa a transferência de um cookie para URLs externos via `POST` solicitações.
+O atributo de cookie SameSite está definido como *Lax* ou não foi especificado (que é tratado como definido como *Lax* ). Ter `SameSite` = *Lax* desabilita a transferência de um cookie para URLs externas por meio de solicitações `POST`.
 
 ## Solução
 

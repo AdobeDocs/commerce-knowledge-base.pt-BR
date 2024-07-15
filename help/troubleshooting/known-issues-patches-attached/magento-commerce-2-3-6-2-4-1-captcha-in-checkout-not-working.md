@@ -17,12 +17,12 @@ Este artigo fornece uma correção para o problema em que o recurso CAPTCHA para
 
 Este problema conhecido é mencionado em nossa documentação do desenvolvedor:
 
-<u>Para o Adobe Commerce 2.3.6</u>:
+<u>Para Adobe Commerce 2.3.6</u>:
 
 * [Notas de versão do Adobe Commerce 2.3.6: Problemas conhecidos](https://devdocs.magento.com/guides/v2.3/release-notes/commerce-2-3-6.html#known-issues)
 * [Notas de versão do Magento Open Source 2.3.6: Problemas conhecidos](https://devdocs.magento.com/guides/v2.3/release-notes/open-source-2-3-6.html#known-issues)
 
-<u>Para o Adobe Commerce 2.4.1</u>:
+<u>Para Adobe Commerce 2.4.1</u>:
 
 * [Notas de versão do Adobe Commerce 2.4.1: Problemas conhecidos](https://devdocs.magento.com/guides/v2.4/release-notes/commerce-2-4-1.html#known-issues)
 * [Notas de versão do Magento Open Source 2.4.1: Problemas conhecidos](https://devdocs.magento.com/guides/v2.4/release-notes/open-source-2-4-1.html#known-issues)
@@ -37,11 +37,11 @@ Este problema conhecido é mencionado em nossa documentação do desenvolvedor:
 <u>Etapas a serem reproduzidas</u>
 
 1. Configure pelo menos um desses métodos de pagamento no Commerce: Paypal Express, Payflow Pro ou CyberSource.
-1. Ir para **Admin > Lojas > Configuração > Clientes > Configuração do cliente > CAPTCHA** .
-   * Definir **Habilitar CAPTCHA na loja** = *Sim* .
-   * Selecionar em **Forms** : *Pedido de check-out/posicionamento* , *Logon* , e *Esqueceu a senha* .
-   * Definir **Modo de exibição** = *Após o número de tentativas de logon* (para tornar **Número de tentativas de logon malsucedidas** for exibida).
-   * Definir **Número de tentativas de logon malsucedidas** = *0* (para fazer o captcha funcionar o tempo todo).
+1. Vá para **Admin > Lojas > Configuração > Clientes > Configuração do cliente > CAPTCHA** .
+   * Defina **Habilitar CAPTCHA na Loja** = *Sim*.
+   * Selecione no **Forms**: *Pedido de Check-out/Colocação*, *Logon* e *Esqueceu a senha*.
+   * Definir **Modo de Exibição** = *Após o número de tentativas de logon* (para exibir a configuração **Número de Tentativas Sem Êxito de Logon**).
+   * Defina **Number of Unsuccessful Attempts to Login** = *0* (para fazer o captcha funcionar o tempo todo).
 1. No front-end, adicione um produto ao carrinho e tente fazer check-out.
 1. Na página de informações de pagamento, insira captcha e tente finalizar a compra com Paypal Express, Payflow Pro ou CyberSource.
 
@@ -59,16 +59,16 @@ Aplique um dos patches abaixo, dependendo se você está no Adobe Commerce no lo
 
 ## Correções
 
-Os patches estão anexados a este artigo e estão disponíveis para download em `.composer` e `.git` formatos.
+Os patches estão anexados a este artigo, disponíveis para download nos formatos `.composer` e `.git`.
 
 Para baixar um patch, role até o final do artigo e clique no nome do arquivo ou clique em um dos links a seguir:
 
-<u>Para Adobe Commerce no local/Adobe Commerce na infraestrutura em nuvem/Magento Open Source 2.3.6</u> :
+<u>Para Adobe Commerce no local/Adobe Commerce na infraestrutura de nuvem/Magento Open Source 2.3.6</u> :
 
 * [Patch do compositor MDVA-33093\_\_\_\_2\_3\_x-p1\_\_CAPTCHA\_COMPOSER.patch](assets/MDVA-33093____2_3_x-p1__CAPTCHA_COMPOSER.patch.zip)
 * [Patch do Git MDVA-33093\_\_\_\_2\_3\_x-p1\_\_CAPTCHA\_GIT.patch](assets/MDVA-33093____2_3_x-p1__CAPTCHA_GIT.patch.zip)
 
-<u>Para Adobe Commerce no local/Adobe Commerce na infraestrutura em nuvem/Magento Open Source 2.4.1</u> :
+<u>Para Adobe Commerce no local/Adobe Commerce na infraestrutura de nuvem/Magento Open Source 2.4.1</u> :
 
 * [Patch do compositor MDVA-33093\_\_\_\_2\_4\_x-p1\_\_CAPTCHA\_COMPOSER.patch](assets/MDVA-33093____2_4_x-p1__CAPTCHA_COMPOSER.patch.zip)
 * [Patch do Git MDVA-33093\_\_\_\_2\_4\_x-p1\_\_CAPTCHA\_GIT.patch](assets/MDVA-33093____2_4_x-p1__CAPTCHA_GIT.patch.zip)
@@ -77,10 +77,10 @@ Esses patches não são compatíveis com nenhuma outra versão ou edição do Ad
 
 ## Como aplicar o patch
 
-<u>Composer patch</u>
+<u>Correção do compositor</u>
 
-Consulte [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de conhecimento de suporte para instruções de correção do composer.
+Consulte [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de dados de suporte para obter instruções de patch de compositor.
 
-<u>Correção do Git</u>
+<u>Patch do Git</u>
 
 Consulte a documentação do desenvolvedor [Aplicação de patches: patches personalizados](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#custom-patches) para obter instruções de patch do Git para Adobe Commerce/Magento Open Source.

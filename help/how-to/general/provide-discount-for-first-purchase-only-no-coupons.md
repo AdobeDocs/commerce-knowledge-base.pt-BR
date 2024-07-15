@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # Fornecer desconto apenas para a primeira compra (sem cupons)
 
-Consulte a [Desconto com a Primeira Compra](https://docs.magento.com/m2/ee/user_guide/marketing/price-rule-discount-first-purchase.html) em nosso guia do usuário.
+Consulte o artigo [Desconto com a primeira compra](https://docs.magento.com/m2/ee/user_guide/marketing/price-rule-discount-first-purchase.html) no guia do usuário.

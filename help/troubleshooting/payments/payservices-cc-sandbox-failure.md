@@ -18,11 +18,11 @@ Este artigo explica por que um cartão de crédito de teste falha em um ambiente
 ## Produtos e versões afetados
 
 
-* Adobe Commerce 2.4.0 - 2.4.4 , todas as opções de implantação, com [Payment Services](https://marketplace.magento.com/magento-payment-services.html)
+* Adobe Commerce 2.4.0 - 2.4.4, todas as opções de implantação, com [Serviços de pagamento](https://marketplace.magento.com/magento-payment-services.html)
 
 ## Problema
 
-Ao usar um cartão de crédito Visa de teste `4111 1111 1111 1111` do PayPal, às vezes falha devido a políticas de fraude do PayPal com o seguinte erro:
+Ao usar um cartão de crédito Visa de teste `4111 1111 1111 1111` do PayPal, às vezes ele falha devido a políticas de fraude do PayPal com o seguinte erro:
 
 ```terminal
 Error happened when processing the request. Please try again later.
@@ -36,6 +36,6 @@ Esse erro é exibido quando o PayPal sinaliza um número de cartão de crédito 
 
 Use outro cartão de crédito de teste. Para gerar cartões de crédito fictícios, você pode usar para testes:
 
-1. Acesse o Portal do desenvolvedor do PayPal [Gerador de cartão de crédito](https://developer.paypal.com/developer/creditCardGenerator/) página.
+1. Vá para a página do Portal do Desenvolvedor do PayPal [Gerador de Cartão de Crédito](https://developer.paypal.com/developer/creditCardGenerator/).
 1. Faça logon no Painel do Portal do Desenvolvedor do PayPal.
 1. Gerar um cartão de crédito de teste.

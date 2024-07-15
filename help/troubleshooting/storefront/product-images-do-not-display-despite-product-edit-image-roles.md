@@ -15,9 +15,9 @@ ht-degree: 0%
 
 Este artigo fornece uma correção para quando as imagens do produto não são exibidas em sua loja, apesar das funções de imagem definidas na página Edição do produto.
 
-**Causa:** em instâncias do Adobe Commerce com mais de uma loja, algumas imagens de produtos podem ter o `no_selection` valores para atributos de função de imagem `image`, `small_image`, `thumbnail`, `swatch`. Tais `no_selection` Os valores de surgem quando a função de imagem do produto é definida no escopo global de todas as lojas em vez do escopo de uma loja específica (em outras palavras, no **Todas as exibições da loja** em vez de um determinado **Exibição da loja**). Para entender se esse é o seu caso, execute o script SQL a partir do **Causa** abaixo.
+**Causa:** em instâncias do Adobe Commerce com mais de um armazenamento, algumas imagens de produtos podem ter os valores `no_selection` para os atributos de função de imagem `image`, `small_image`, `thumbnail`, `swatch`. Esses `no_selection` valores surgem quando a função da imagem do produto é definida no escopo global de todas as lojas em vez do escopo de uma determinada loja (em outras palavras, em **Todas as Exibições de Loja** em vez de uma **Exibição de Loja** específica). Para entender se esse é o seu caso, execute o script SQL da seção **Causa** abaixo.
 
-**Solução:** excluir linhas com o `no_selection` para essas imagens usando o script SQL da seção Solução abaixo.
+**Solução:** exclua linhas com os valores `no_selection` dessas imagens usando o script SQL da seção Solução abaixo.
 
 ## Versões afetadas
 
@@ -28,21 +28,21 @@ Este artigo fornece uma correção para quando as imagens do produto não são e
 
 As imagens do produto podem não ser exibidas na loja, embora as funções de imagem (Base, Pequeno, Miniatura, Amostra) tenham sido definidas corretamente na página Produto do painel do Administrador.
 
-Ao verificar a página do produto com **Exibição da loja** definir como **Todas as exibições de loja**, a imagem tem as funções definidas no **Detalhes da imagem** tela.
+Ao verificar a página Produto com a **Exibição da Imagem** definida como **Todas as exibições da loja**, a imagem terá as funções definidas na tela **Detalhes da Imagem**.
 
-![all_store_views.png](assets/all_store_views.png)
+![todos_os_modos_de_exibição.png](assets/all_store_views.png)
 
-![image_roles.png](assets/image_roles.png)
+![funções_de_imagem.png](assets/image_roles.png)
 
-No entanto, na loja, a imagem não é exibida; ao verificar a página Produto no nível da loja específico (alternando a tag **Exibição da loja**), a imagem está lá, mas as funções não estão definidas.
+No entanto, na loja, a imagem não é exibida; ao verificar a página Produto no nível de loja específico (alternando a **Exibição da Loja**), a imagem está lá, mas as funções não estão definidas.
 
 ![image_roles_not_set.png](assets/image_roles_not_set.png)
 
 ## Causa
 
-Nas instâncias do Adobe Commerce com várias lojas (com mais de uma loja), algumas imagens de produtos podem ter o `no_selection` valores para atributos `image`, `small_image`, `thumbnail`, `swatch` (esses atributos correspondem às funções de imagem). Tais `no_selection` Os valores de surgem quando a função de imagem do produto é definida no escopo global de todas as lojas em vez do escopo de uma loja específica (em outras palavras, no **Todas as exibições da loja** em vez de um determinado **Exibição da loja**).
+Nas instâncias do Adobe Commerce de várias lojas (com mais de uma loja), algumas imagens de produtos podem ter os valores `no_selection` para os atributos `image`, `small_image`, `thumbnail`, `swatch` (esses atributos correspondem às funções de imagem). Esses `no_selection` valores surgem quando a função da imagem do produto é definida no escopo global de todas as lojas em vez do escopo de uma determinada loja (em outras palavras, em **Todas as Exibições de Loja** em vez de uma **Exibição de Loja** específica).
 
-Tecnicamente falando: em `store_id=0` (que armazena as configurações globais para todas as lojas na instância do Adobe Commerce), as funções de imagem do produto podem ser definidas: isso significa que os atributos `image`, `small_image`, `thumbnail`, `swatch` têm valores válidos (caminho para imagens). Ao mesmo tempo, no `store_id=1` (que é uma representação de loja específica), os valores desses atributos são `no_selection`.
+Tecnicamente falando: em `store_id=0` (que contém as configurações globais para todas as lojas na sua instância do Adobe Commerce), as funções de imagem do produto podem ser definidas: isso significa que os atributos `image`, `small_image`, `thumbnail`, `swatch` têm valores válidos (caminho para imagens). Ao mesmo tempo, em `store_id=1` (que é uma representação de armazenamento específica), os valores desses atributos são `no_selection`.
 
 ### Como verificar se esse é o seu problema
 
@@ -75,11 +75,11 @@ Se a consulta retornar um resultado como abaixo, você está lidando com o probl
 
 Se o aplicativo Adobe Commerce tiver mais de um armazenamento, talvez ele não sincronize os dados entre um determinado armazenamento e as configurações de armazenamento Global.
 
-Valores em `store_id=1` têm mais prioridade do que o armazenamento padrão (global) (`store_id=0`). Assim, o aplicativo pode ignorar as configurações globais de imagem e usar a configuração de escopo de armazenamento (`no_selection` para atributos de função de imagem) ao exibir uma imagem.
+Os valores em `store_id=1` têm mais prioridade que o armazenamento padrão (global) (`store_id=0`). Assim, o aplicativo pode ignorar as configurações globais de imagem e usar a configuração de escopo de armazenamento (`no_selection` para atributos de função de imagem) ao exibir uma imagem.
 
 ## Solução {#solution}
 
-Excluir atributos com o `no_selection` usando este script SQL:
+Excluir atributos com os valores `no_selection` usando este script SQL:
 
 ```
 DELETE `cpev_s`.* FROM `catalog_product_entity_varchar` `cpev_s` JOIN `eav_attribute` `ea` ON `cpev_s`.`attribute_id` = `ea`.`attribute_id` LEFT JOIN `catalog_product_entity_varchar` `cpev_0` ON `cpev_0`.`row_id` = `cpev_s`.`row_id` AND `cpev_0`.`attribute_id` = `cpev_s`.`attribute_id` AND `cpev_0`.`store_id` = 0 WHERE `cpev_s`.`value` = 'no_selection' AND `ea`.`attribute_code` IN ('image', 'small_image', 'thumbnail') AND `cpev_s`.`store_id` > 0 AND `cpev_s`.`value` != `cpev_0`.`value` AND `cpev_s`.`value` = 'no_selection';
@@ -91,19 +91,19 @@ Após a remoção desses atributos, as funções para armazenamentos específico
 
 Você não poderá ver os resultados da correção imediatamente se o Cache de página cheia estiver ativado na instância do Adobe Commerce.
 
-Para que as alterações sejam exibidas, atualize o cache da página usando o **Gerenciamento de cache** do painel Administrador.
+Para que as alterações sejam exibidas, atualize o cache de páginas usando o menu **Gerenciamento de cache** do seu painel de Administração.
 
 ## Mais informações
 
 ### Armazenamentos e escopos
 
-[Armazenamentos e escopos de armazenamento](/docs/commerce-admin/stores-sales/site-store/stores.html) em nosso guia do usuário
+[Lojas e escopos de armazenamento](/docs/commerce-admin/stores-sales/site-store/stores.html) em nosso guia do usuário
 
 ### Imagens
 
-[Upload de imagens do produto](/docs/commerce-admin/catalog/products/digital-assets/product-image.html#upload-an-image) em nosso guia do usuário
+[Carregando imagens do produto](/docs/commerce-admin/catalog/products/digital-assets/product-image.html#upload-an-image) no guia do usuário
 
 ### Cache
 
-* [Gerenciamento de cache](/docs/commerce-admin/systems/tools/cache-management.html) em nosso Guia do sistema de administração de usuários.
+* [Gerenciamento de cache](/docs/commerce-admin/systems/tools/cache-management.html) em nosso Guia do Sistema do Administrador do usuário.
 * [Gerenciar o cache](/docs/commerce-operations/configuration-guide/cli/manage-cache.html) na documentação do desenvolvedor

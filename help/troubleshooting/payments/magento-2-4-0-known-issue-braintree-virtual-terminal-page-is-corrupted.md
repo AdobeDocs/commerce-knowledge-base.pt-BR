@@ -26,29 +26,29 @@ Este artigo fornece um patch para o problema conhecido do Adobe Commerce 2.4.0, 
 
 <u>Etapas a serem reproduzidas:</u>
 
-No Commerce Admin, acesse **Vendas** > **Terminal virtual Braintree** . ** **
+No Commerce Admin, vá para **Vendas** > **Terminal Virtual Braintree** . ** **
 
 <u>Resultado esperado:</u>
 
-A variável **Terminal virtual Braintree** A página é carregada com a interface adequada.
+A página **Terminal Virtual do Braintree** é carregada com a interface do usuário adequada.
 
 <u>Resultado real:</u>
 
-A interface do usuário do **Terminal virtual Braintree** A página está quebrada.
+A interface do usuário da página **Terminal Virtual Braintree** está corrompida.
 
 ### Cenário 2: o método de pagamento Braintree está configurado
 
 <u>Etapas a serem reproduzidas:</u>
 
-No Commerce Admin, acesse **Vendas** > **Terminal virtual Braintree** . ** **
+No Commerce Admin, vá para **Vendas** > **Terminal Virtual Braintree** . ** **
 
 <u>Resultado esperado:</u>
 
-A variável **Terminal virtual Braintree** A página é carregada com a interface adequada e um aviso é exibido informando que o Braintree ainda não está configurado.
+A página **Terminal Virtual de Braintree** é carregada com a interface adequada e um aviso é exibido informando que o Braintree ainda não está configurado.
 
 <u>Resultado real:</u>
 
-A interface do usuário do **Terminal virtual Braintree** A página está quebrada e nenhum aviso é exibido.
+A interface do usuário da página **Terminal Virtual Braintree** está corrompida e nenhum aviso é exibido.
 
 ## Solução
 

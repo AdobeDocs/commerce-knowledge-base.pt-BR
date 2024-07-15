@@ -21,7 +21,7 @@ Este artigo fala sobre um problema comum de indexação no Adobe Commerce, em qu
 
 ## Problema
 
-Durante uma reindexação completa na CLI, o Adobe Commerce exibe a mensagem de erro: *&#39;Índice bloqueado por outro processo de reindexação. Pulando.&#39;* Em outras palavras, quando o processo ou o tipo de índice estiver bloqueado, não será possível reindexar esse tipo de índice bloqueado específico. O reindexação sempre ignorará esse tipo de índice.
+Durante uma reindexação completa na CLI, o Adobe Commerce fornece a mensagem de erro: o índice *está bloqueado por outro processo de reindexação. Pulando.&#39;* Em outras palavras, quando o processo ou o tipo de índice estiver bloqueado, você não poderá reindexar esse tipo de índice bloqueado específico. O reindexação sempre ignorará esse tipo de índice.
 
 ## Causa
 
@@ -35,7 +35,7 @@ Esse erro poderá ocorrer se o índice anterior não for concluído com êxito. 
 ## Etapas a serem reproduzidas
 
 1. Por exemplo, digamos que a variável    ```bash    cataloginventory_stock ```    o tipo de índice está bloqueado.
-1. Quando você tenta reindexar todos os dados executando o comando da CLI    ```bash    php bin/magento indexer:reindex    ```, você obterá o seguinte resultado de output:    ```bash    customer_grid index has been rebuilt successfully in 00:00:09    catalog_category_product index has been rebuilt successfully in 00:00:07    catalog_product_category index has been rebuilt successfully in 00:00:00    catalogrule_rule index has been rebuilt successfully in 00:00:05    catalog_product_attribute index has been rebuilt successfully in 00:00:04    cataloginventory_stock index is locked by another reindex process. Skipping.    catalog_product_price index has been rebuilt successfully in 00:00:01    catalogrule_product has been rebuilt successfully in 00:00:00    catalogsearch_fulltext index has been rebuilt successfully in 00:00:01    ```
+1. Quando você tenta reindexar todos os dados executando o comando da CLI    ```bash    php bin/magento indexer:reindex    ```, você obterá o seguinte resultado de saída:    ```bash    customer_grid index has been rebuilt successfully in 00:00:09    catalog_category_product index has been rebuilt successfully in 00:00:07    catalog_product_category index has been rebuilt successfully in 00:00:00    catalogrule_rule index has been rebuilt successfully in 00:00:05    catalog_product_attribute index has been rebuilt successfully in 00:00:04    cataloginventory_stock index is locked by another reindex process. Skipping.    catalog_product_price index has been rebuilt successfully in 00:00:01    catalogrule_product has been rebuilt successfully in 00:00:00    catalogsearch_fulltext index has been rebuilt successfully in 00:00:01    ```
 1. Como você pode ver acima, a variável    ```bash    cataloginventory_stock```    o processo de indexação foi ignorado.
 
 
@@ -77,7 +77,7 @@ Em nossa base de conhecimento de suporte:
 
 Em nosso guia do usuário:
 
-* [Gerenciamento de índice](https://docs.magento.com/user-guide/system/index-management.html?itm_source=merchdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=reindexing)
+* [Gerenciamento de Índice](https://docs.magento.com/user-guide/system/index-management.html?itm_source=merchdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=reindexing)
 
 Em nossa documentação do desenvolvedor:
 

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Este artigo fornece soluções para erros que podem ocorrer ao executar a Ferramenta de migração de dados.
 
-## Documentos/campos de origem não mapeados {#source-documents-fields-not-mapped}
+## Documentos/campos do Source não mapeados {#source-documents-fields-not-mapped}
 
 ### Mensagens de erro
 
@@ -40,15 +40,15 @@ em vez dos de origem.
 
 Algumas entidades do Adobe Commerce versão 1 (na maioria dos casos, provenientes de extensões) não existem no banco de dados do Adobe Commerce versão 2.
 
-Esta mensagem é exibida porque a Ferramenta de migração de dados executa testes internos para verificar se as tabelas e os campos são consistentes entre *origem* (Adobe Commerce 1) e *destino* (Adobe Commerce 2).
+Esta mensagem é exibida porque a Ferramenta de Migração de Dados executa testes internos para verificar se as tabelas e os campos estão consistentes entre os bancos de dados de *origem* (Adobe Commerce 1) e *destino* (Adobe Commerce 2).
 
 ### Possíveis soluções
 
 * Instale as extensões correspondentes do Adobe Commerce 2 de [Commerce Marketplace](https://marketplace.magento.com/).     Se os dados conflitantes forem originários de uma extensão que adiciona elementos de estrutura de banco de dados próprios, a versão Adobe Commerce 2 da mesma extensão poderá adicionar esses elementos ao banco de dados de destino (Adobe Commerce 2), corrigindo o problema.
-* Use o `-a` argumento ao executar a ferramenta para resolver erros automaticamente e impedir que a migração pare.
+* Use o argumento `-a` ao executar a ferramenta para resolver erros automaticamente e impedir que a migração seja interrompida.
 * Configure a Ferramenta para ignorar os dados problemáticos.
 
-Para ignorar entidades de banco de dados, adicione o `<ignore>` para uma entidade na `map.xml` arquivo, desta forma:
+Para ignorar entidades de banco de dados, adicione a marca `<ignore>` a uma entidade no arquivo `map.xml`, desta forma:
 
 ```xml
 ...
@@ -71,7 +71,7 @@ Para ignorar entidades de banco de dados, adicione o `<ignore>` para uma entidad
 
 >[!WARNING]
 >
->Antes de ignorar entidades pelo arquivo de mapa ou usando o `-a` , certifique-se de que não precisa dos dados afetados no armazenamento do Adobe Commerce 2.
+>Antes de ignorar entidades pelo arquivo de mapa ou usar a opção `-a`, verifique se você não precisa dos dados afetados no armazenamento do Adobe Commerce 2.
 
 ## A classe não está mapeada no registro {#class-does-not-exist-but-mentioned}
 
@@ -83,13 +83,13 @@ Class <extension/class_name> is not mapped in record <attribute_id=196>
 
 ### Causa
 
-Não foi possível encontrar uma classe da base de código do Adobe Commerce 1 na base de código do Adobe Commerce 2 durante a [Etapa de migração do EAV](https://devdocs.magento.com/guides/v2.3/migration/migration-tool-internal-spec.html#eav) na documentação do desenvolvedor. Na maioria dos casos, a classe ausente pertence a um [extensão](https://glossary.magento.com/extension).
+Não foi possível encontrar uma classe da base de código do Adobe Commerce 1 na base de código do Adobe Commerce 2 durante a [etapa de migração do EAV](https://devdocs.magento.com/guides/v2.3/migration/migration-tool-internal-spec.html#eav) da documentação do desenvolvedor. Na maioria dos casos, a classe ausente pertence a uma [extensão](https://glossary.magento.com/extension).
 
 ### Possíveis soluções
 
 * Instale a extensão correspondente do Adobe Commerce 2.
-* Ignore o atributo que causa o problema.    Para isso, adicione o atributo à variável `ignore` grupo no `eav-attribute-groups.xml.dist` arquivo.
-* Adicionar mapeamento de classe usando o `class-map.xml.dist` arquivo.
+* Ignore o atributo que causa o problema.    Para isso, adicione o atributo ao grupo `ignore` no arquivo `eav-attribute-groups.xml.dist`.
+* Adicionar mapeamento de classe usando o arquivo `class-map.xml.dist`.
 
 ## Falha na restrição de chave estrangeira
 
@@ -101,13 +101,13 @@ Foreign key <KEY_NAME> constraint fails on source database. Orphan records id: <
 
 ### Causa
 
-Há registros de banco de dados ausentes no `parent_table` para o qual o `field_id` do `child_table` aponta para.
+Faltam registros de banco de dados no `parent_table` para o qual `field_id` de `child_table` está apontando.
 
 ### Possível solução
 
-Excluir os registros de `child_table` , se você não precisar deles.
+Exclua os registros de `child_table` , se não precisar deles.
 
-Para manter os registros, desative a variável `Data Integrity Step` modificando as ferramentas de migração de dados `config.xml` .
+Para manter os registros, desabilite o `Data Integrity Step` modificando o `config.xml` da Ferramenta de Migração de Dados.
 
 ## Duplicatas em regravações de URL
 
@@ -119,13 +119,13 @@ Request path: towel.html Store ID: 2 Target path: catalog/product/view/id/12
 
 ### Causa
 
-A variável `Target path` em uma reescrita de URL deve ser especificado por um par exclusivo de `Request path` + `Store ID` . Este erro relata duas entradas que usam a mesma `Request path` + `Store ID` emparelhar com dois `Target path` valores.
+O `Target path` em uma regravação de URL deve ser especificado por um par exclusivo de `Request path` + `Store ID`. Este erro relata duas entradas que usam o mesmo par `Request path` + `Store ID` com dois valores `Target path` diferentes.
 
 ### Possível solução
 
-Ativar o `auto_resolve_urlrewrite_duplicates` opção no seu `config.xml` arquivo.
+Habilite a opção `auto_resolve_urlrewrite_duplicates` no arquivo `config.xml`.
 
-Essa configuração adiciona uma sequência de hash aos registros conflitantes de [URL](https://glossary.magento.com/url) substitui e mostra o resultado da resolução na interface da linha de comando.
+Esta configuração adiciona uma cadeia de caracteres de hash aos registros conflitantes de [URL](https://glossary.magento.com/url) regravações e mostra o resultado da resolução na interface de linha de comando.
 
 ## Incompatibilidade de entidades {#mismatch-of-entities}
 
@@ -143,7 +143,7 @@ Os registros ausentes ocorrem quando um cliente faz um pedido durante a migraç�
 
 ### Possível solução
 
-Execute a Ferramenta de migração de dados no `Delta` para transferir alterações incrementais.
+Execute a Ferramenta de Migração de Dados no modo `Delta` para transferir alterações incrementais.
 
 ## O Deltalog não está instalado {#deltalog-is-not-installed}
 
@@ -155,9 +155,9 @@ Deltalog for <TABLE_NAME> is not installed
 
 ### Causa
 
-Esse erro ocorre durante [migração incremental](https://devdocs.magento.com/guides/v2.3/migration/migration-migrate-delta.html) (em nossa documentação do desenvolvedor) de alterações nos dados. Significa tabelas de exclusão (com prefixo `m2_cl_*`) não foram encontrados no banco de dados do Adobe Commerce 1. A ferramenta instala essas tabelas durante [migração de dados](https://devdocs.magento.com/guides/v2.3/migration/migration-migrate-data.html) (na documentação do desenvolvedor) e acionadores de banco de dados que rastreiam alterações e preenchem tabelas de exclusão.
+Este erro ocorre durante a [migração incremental](https://devdocs.magento.com/guides/v2.3/migration/migration-migrate-delta.html) (na documentação do desenvolvedor) de alterações nos dados. Isso significa que as tabelas de exclusão (com o prefixo `m2_cl_*`) não foram encontradas no banco de dados do Adobe Commerce 1. A ferramenta instala essas tabelas durante a [migração de dados](https://devdocs.magento.com/guides/v2.3/migration/migration-migrate-data.html) (na documentação do desenvolvedor), bem como os disparadores de banco de dados que controlam alterações e preenchem tabelas de exclusão.
 
-Um motivo para o erro pode ser que você esteja tentando migrar de um *copiar* da sua loja Adobe Commerce 1 ao vivo, não da própria loja. Quando você faz uma cópia de um armazenamento Adobe Commerce 1 em tempo real que nunca foi migrado, a cópia não contém os acionadores e as tabelas deltalog adicionais necessárias para concluir uma migração delta. Portanto, a migração falha. A Ferramenta de migração de dados NÃO faz comparações entre o BD de AC1 e AC2 para migrar as diferenças. Em vez disso, a ferramenta usa os acionadores e as tabelas de exclusão instaladas durante a primeira migração para executar as migrações delta subsequentes. Nesse caso, sua cópia do banco de dados Adobe Commerce 1 ativo não conterá os acionadores e as tabelas de exclusão que a Ferramenta de migração de dados usa para executar uma migração.
+Um motivo para o erro pode ser que você esteja tentando migrar de uma *cópia* do seu armazenamento do Live Adobe Commerce 1, não do próprio armazenamento do Live. Quando você faz uma cópia de um armazenamento Adobe Commerce 1 em tempo real que nunca foi migrado, a cópia não contém os acionadores e as tabelas deltalog adicionais necessárias para concluir uma migração delta. Portanto, a migração falha. A Ferramenta de migração de dados NÃO faz comparações entre o BD de AC1 e AC2 para migrar as diferenças. Em vez disso, a ferramenta usa os acionadores e as tabelas de exclusão instaladas durante a primeira migração para executar as migrações delta subsequentes. Nesse caso, sua cópia do banco de dados Adobe Commerce 1 ativo não conterá os acionadores e as tabelas de exclusão que a Ferramenta de migração de dados usa para executar uma migração.
 
 ### Possível solução
 

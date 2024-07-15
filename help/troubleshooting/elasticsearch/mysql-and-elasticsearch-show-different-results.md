@@ -21,18 +21,20 @@ Este artigo fornece um patch para o problema conhecido do Adobe Commerce na infr
 
 Os resultados da pesquisa de catálogo com o mesmo conjunto de filtros diferem dependendo do mecanismo de pesquisa que está sendo usado, MySQL ou Elasticsearch.
 
-<u>Etapas a serem reproduzidas</u> :
+<u>Etapas a serem reproduzidas</u>:
 
 1. Instale e configure o Elasticsearch.
 1. Na vitrine, selecione um dos filtros.
 1. Anote o número de produtos correspondentes.
-1. Configurar o padrão [Pesquisa MySQL](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md).
+1. Configure a [Pesquisa do MySQL](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md) padrão.
 1. Na vitrine, selecione um dos filtros.
 1. Anote o número de produtos correspondentes.
 
-<u>Resultado esperado</u>: o número de produtos correspondentes é o mesmo.
+<u>Resultado esperado</u>:
+O número de produtos correspondentes é o mesmo.
 
-<u>Resultado real</u>: o número de produtos correspondentes é diferente.
+<u>Resultado real</u>:
+O número de produtos correspondentes é diferente.
 
 ## Correção
 
@@ -46,10 +48,10 @@ Os patches estão anexados a este artigo. Para baixar um patch, role até o fina
 
 Os patches foram criados para:
 
-* Adobe Commerce na infraestrutura em nuvem 2.2.3 (o `MDVA-12312_EE_2.2.3_COMPOSER_v1.patch` file)
-* Adobe Commerce na infraestrutura em nuvem 2.2.6 (o `MDVA-14172_EE_2.2.6_COMPOSER_v1.patch` file)
+* Adobe Commerce na infraestrutura em nuvem 2.2.3 (o arquivo `MDVA-12312_EE_2.2.3_COMPOSER_v1.patch`)
+* Adobe Commerce na infraestrutura em nuvem 2.2.6 (o arquivo `MDVA-14172_EE_2.2.6_COMPOSER_v1.patch`)
 
-A variável `MDVA-12312_EE_2.2.3_COMPOSER_v1.patch` O patch também é compatível (mas pode não resolver o problema) com as seguintes versões e edições do Adobe Commerce:
+O patch `MDVA-12312_EE_2.2.3_COMPOSER_v1.patch` também é compatível (mas pode não resolver o problema) com as seguintes versões e edições do Adobe Commerce:
 
 * Adobe Commerce na infraestrutura em nuvem 2.2.4
 * Adobe Commerce na infraestrutura em nuvem 2.2.5
@@ -57,12 +59,12 @@ A variável `MDVA-12312_EE_2.2.3_COMPOSER_v1.patch` O patch também é compatív
 * Adobe Commerce no local 2.2.4
 * Adobe Commerce no local 2.2.5
 
-A variável `MDVA-14172_EE_2.2.6_COMPOSER_v1.patch` O patch também é compatível (mas pode não resolver o problema) com as seguintes versões e edições do Adobe Commerce:
+O patch `MDVA-14172_EE_2.2.6_COMPOSER_v1.patch` também é compatível (mas pode não resolver o problema) com as seguintes versões e edições do Adobe Commerce:
 
 * Adobe Commerce no local 2.2.6
 
 ## Como aplicar o patch
 
-Consulte [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) na nossa base de conhecimento de suporte para obter instruções.
+Consulte [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de dados de conhecimento de suporte para obter instruções.
 
 ## Arquivos Anexados

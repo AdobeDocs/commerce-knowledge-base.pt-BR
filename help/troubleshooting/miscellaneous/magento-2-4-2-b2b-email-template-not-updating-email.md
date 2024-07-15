@@ -26,8 +26,8 @@ Este artigo descreve um problema B2B conhecido do Adobe Commerce 2.4.2 em que a 
 <u>Etapas a serem reproduzidas</u>:
 
 1. O Administrador da empresa cria uma OC (Ordem de compra) no front-end.
-1. Verifique o email Aprovado automaticamente. A variável **nome do cliente** / **taxa de câmbio** devem ser valores esperados.
-1. Alterar símbolo da moeda (**Lojas > Configuração > Configuração de Moeda > Opções de Moeda**) em Admin e nome do administrador da empresa na página Conta do cliente.
+1. Verifique o email Aprovado automaticamente. O **nome do cliente** / a **taxa de câmbio** devem ser valores esperados.
+1. Altere o símbolo da moeda (**Lojas > Configuração > Configuração de Moeda > Opções de Moeda**) no Admin e no nome do administrador da empresa na página Conta do Cliente.
 1. O Administrador do cliente cria outra OC no Administrador.
 1. Verifique o email Aprovado automaticamente.
 

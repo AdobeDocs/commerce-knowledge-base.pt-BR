@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Erro &quot;A classe não pode ser salva no diretório de código&quot;
 
-Este artigo descreve como corrigir o problema em que a maneira como você especificou dependências impede que as classes sejam geradas automaticamente em tempo real, e você obtém a *&quot;A classe não pode ser salva no diretório gerado/código&quot;* mensagem de erro.
+Este artigo descreve como corrigir o problema em que a maneira como você especificou dependências impede que as classes sejam geradas automaticamente em tempo real, e você recebe a mensagem de erro *&quot;A classe não pode ser salva no diretório gerada/código&quot;*.
 
 ## Produtos e versões afetados
 
@@ -34,11 +34,11 @@ Tudo funciona corretamente, da mesma forma que no seu ambiente local.
 
 <u>Resultado real</u>
 
-Falha com a mensagem de erro informando que sua classe não pode ser salva na variável `generated/code` diretório.
+Falha com a mensagem de erro informando que a classe não pode ser salva no diretório `generated/code`.
 
 ## Causa
 
-A causa do problema é que a classe na qual você tem dependência, não é gerada durante a implantação e não pode ser gerada posteriormente quando a classe é acionada, porque a classe `generated/code` o diretório não está disponível para gravação após a conclusão da implantação.
+A causa do problema é que a classe na qual você tem dependência, não é gerada durante a implantação e não pode ser gerada posteriormente quando a classe é acionada, pois o diretório `generated/code` não está disponível para gravação após a implantação ser concluída.
 
 Há duas razões principais pelas quais isso pode acontecer:
 
@@ -57,7 +57,7 @@ Mova seu código de classe do ponto de entrada para um módulo separado e use-o 
 
 <u>Exemplo</u>
 
-O código original no, por exemplo, `index2.php` :
+Código original em, por exemplo, `index2.php`:
 
 ```php
 <?php
@@ -85,7 +85,7 @@ $someObject = $bootstrap->getObjectManager()->create(SomeClass::class);
 
 Você precisa executar as seguintes etapas:
 
-1. Mover a definição da classe para `app/code/YourVendor/YourModule`:
+1. Mover a definição de classe para `app/code/YourVendor/YourModule`:
 
    ```php
       <?php
@@ -103,7 +103,7 @@ Você precisa executar as seguintes etapas:
        }
    ```
 
-1. Editar ponto de entrada `my_api/index.php` para que tenha a seguinte aparência:
+1. Edite o ponto de entrada `my_api/index.php` de forma que ele tenha a seguinte aparência:
 
    ```php
      <?php
@@ -170,4 +170,4 @@ class YourClass
 
 ## Leitura relacionada
 
-* [Geração de código](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/code-generation.html) na documentação do desenvolvedor.
+* [Geração de código](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/code-generation.html) em nossa documentação para desenvolvedores.

@@ -14,7 +14,7 @@ ht-degree: 0%
 O título deve descrever resumidamente o problema. É preferível ter no máximo 70 caracteres.<br/>
 (Exemplo: &quot;Erro de falta de memória durante a instalação ou atualização&quot;.)
 
-Consulte [Contribuição > Metadados](../../CONTRIBUTING.md#metadata) para obter informações adicionais sobre metadados.
+Consulte [Contribuição > Metadados](../../CONTRIBUTING.md#metadata) para obter mais informações sobre metadados.
 
 Parágrafo de introdução ou dois parágrafos: uma breve visão geral do problema. Os primeiros 140 caracteres são importantes para fins de SEO.
 
@@ -23,7 +23,7 @@ Parágrafo de introdução ou dois parágrafos: uma breve visão geral do proble
 * Adobe Commerce no local x.x.x
 * Adobe Commerce na infraestrutura em nuvem x.x.x
 
-(*Como alternativa, se as mesmas versões na nuvem ou no local forem afetadas, você pode dizer:*)
+(*Como alternativa, se as mesmas versões na nuvem ou no local forem afetadas, você poderá dizer:*)
 
 Adobe Commerce (todos os métodos de implantação) x.x.x
 
@@ -68,6 +68,6 @@ Se houver uma solução temporária, especifique-a como uma seção separada aba
 ## Leitura relacionada
 
 * [Tópico do artigo](https://docs.magento.com/user-guide/) em nosso guia do usuário.
-* [Tópico do artigo](https://devdocs.magento.com) na documentação do desenvolvedor. Você também pode dizer para diferenciar entre instruções em devdocs para usuários na nuvem e locais: &quot;[Tópico do artigo](https://devdocs.magento.com) na documentação do desenvolvedor para Adobe Commerce na infraestrutura em nuvem.&quot; vs &quot;[Tópico do artigo](https://devdocs.magento.com) em nossa documentação de desenvolvedor para Adobe Commerce no local.&quot;
-* [Tópico do artigo](https://support.magento.com/hc/en-us) em nossa base de conhecimento de suporte.
+* [Tópico do artigo](https://devdocs.magento.com) em nossa documentação para desenvolvedores. Você também pode dizer para diferenciar entre instruções em devdocs para usuários na nuvem e usuários locais: &quot;[Tópico do artigo](https://devdocs.magento.com) em nossa documentação do desenvolvedor para Adobe Commerce na infraestrutura em nuvem.&quot; vs &quot;[Tópico do artigo](https://devdocs.magento.com) em nossa documentação do desenvolvedor para Adobe Commerce local.&quot;
+* [Tópico do artigo](https://support.magento.com/hc/en-us) em nossa knowledge base de suporte.
 * Quaisquer recursos relacionados (blogs, fóruns, StackOverflow, etc.)

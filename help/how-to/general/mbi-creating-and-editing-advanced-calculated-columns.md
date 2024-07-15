@@ -16,14 +16,14 @@ ht-degree: 0%
 
 Para obter a lista de colunas calculadas que podem ser criadas no Gerenciador de Datas Warehouse, bem como orientação para garantir que elas estejam configuradas corretamente, consulte os seguintes artigos no guia do usuário:
 
-* [Criação de colunas calculadas](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/creating-calculated-columns.html)
+* [Criando colunas calculadas](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/creating-calculated-columns.html)
 * [Tipos de coluna calculados](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/calc-column-types.html)
-* [Entendendo e avaliando relações de tabelas](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/table-relationships.html)
-* [Criação de caminhos para colunas calculadas](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/create-paths-calc-columns.html)
+* [Compreendendo e avaliando relações de tabela](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/table-relationships.html)
+* [Criando caminhos para colunas calculadas](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/create-paths-calc-columns.html)
 
 ## Eu ainda preciso de ajuda!
 
-Se precisar de ajuda para criar uma coluna calculada normal ou quiser criar ou editar uma Coluna calculada avançada, [entre em contato com nossa equipe](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) e incluir o seguinte:
+Se precisar de ajuda para criar uma coluna calculada normal ou quiser criar ou editar uma Coluna Calculada Avançada, [entre em contato com nossa equipe](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) e inclua o seguinte:
 
 * O que você está tentando fazer?
 * Em qual tabela você precisa que a(s) nova(s) coluna(s) sejam criadas?
@@ -35,7 +35,7 @@ Se você não tiver certeza de como responder a qualquer uma dessas perguntas, n
 
 ## Leitura relacionada
 
-* [Guia do usuário do MBI](https://docs.magento.com/mbi)
+* [Guia do Usuário do MBI](https://docs.magento.com/mbi)
 * [MBI: discrepâncias de dados](/help/troubleshooting/miscellaneous/mbi-data-discrepancies.md)
-* [MBI: analista de dados](https://docs.magento.com/mbi/data-analyst.html)
-* [MBI: Obtendo ajuda com o Magento BI](https://docs.magento.com/mbi/getting-started/support.html)
+* [MBI: Analista de Dados](https://docs.magento.com/mbi/data-analyst.html)
+* [MBI: Obtendo Ajuda com o Magento BI](https://docs.magento.com/mbi/getting-started/support.html)

@@ -24,7 +24,7 @@ Este artigo fala sobre bloqueios no MySQL para ajudar a identificá-los e resolv
 
 Os bloqueios no MySQL ocorrem quando duas ou mais transações são mutuamente mantidas e solicitam bloqueios. Os bloqueios que estão presentes nem sempre indicam um problema, mas geralmente são um sintoma de algum outro problema do MySQL ou do Adobe Commerce que ocorreu.
 
-Frequentemente, o aplicativo, a implantação ou os logs do MySQL mencionarão um *&quot;deadlock&quot;* ou o erro *&quot;Deadlock encontrado ao tentar obter bloqueio; tente reiniciar a transação.&quot;*
+Frequentemente, o aplicativo, a implantação ou os logs do MySQL mencionarão um erro *&quot;deadlock&quot;* ou o erro *&quot;Deadlock encontrado ao tentar obter bloqueio; tente reiniciar a transação.&quot;*
 
 ## Causa
 
@@ -35,17 +35,17 @@ Como exemplo, é uma prática recomendada evitar uma importação de banco de da
 ## Solução
 
 1. Verifique se há erros de deadlock no aplicativo, na implantação ou nos logs MySQL:
-   * [Locais de registro do Adobe Commerce e do Magento Open Source](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/enable-logging.html)
-   * [Locais dos logs de infraestrutura em nuvem do Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)
-1. Verifique sua lista de processos MySQL para executar processos com o comando `mysql -e 'show full processlist';`
+   * [Locais de log do Adobe Commerce e do Magento Open Source](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/enable-logging.html)
+   * [Adobe Commerce em locais de logs de infraestrutura em nuvem](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)
+1. Verifique sua lista de processos do MySQL para executar processos com o comando `mysql -e 'show full processlist';`
 1. Se estiver no Adobe Commerce na infraestrutura em nuvem, verifique se o MySQL slave está ativado. Consulte este artigo: [Implantar variáveis (MYSQL\_USE\_SLAVE\_CONNECTION)](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#mysql_use_slave_connection).
-1. Dependendo dos erros envolvidos, a solução pode se apresentar ou você pode precisar incluir suas informações de log úteis se precisar abrir uma [Tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+1. Dependendo dos erros envolvidos, a solução pode se apresentar ou talvez você precise incluir suas informações de log úteis se precisar abrir um [Tíquete de Suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ## Leitura relacionada
 
-* [Como minimizar e lidar com bloqueios](https://dev.mysql.com/doc/refman/5.7/en/innodb-deadlocks-handling.html)
-* [Otimização do indexador - Alternância de tabela do indexador](https://developer.adobe.com/commerce/php/development/components/indexing/optimization/)
-* [Operações em massa - Consumir mensagens](https://developer.adobe.com/commerce/php/development/components/message-queues/bulk-operations/)
+* [Como Minimizar e Lidar com Deadlocks](https://dev.mysql.com/doc/refman/5.7/en/innodb-deadlocks-handling.html)
+* [Otimização do Indexador - Alternância de Tabela do Indexador](https://developer.adobe.com/commerce/php/development/components/indexing/optimization/)
+* [Operações em Massa - Consumir Mensagens](https://developer.adobe.com/commerce/php/development/components/message-queues/bulk-operations/)
 
 >[!NOTE]
 >

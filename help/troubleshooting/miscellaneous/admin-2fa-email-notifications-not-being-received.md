@@ -40,7 +40,7 @@ Se você não tiver configurado o e-mail do remetente corretamente ou se o domí
    * Se retornar um resultado, prossiga para **Etapa 2**.
 
 1. Se o e-mail apareceu na pasta Spam, clique no link do e-mail. Se o link já tiver expirado, tente fazer logon novamente para repetir o processo.
-1. Depois de obter acesso, acesse **Lojas** > **Configuração** > **Geral** > **Armazenar endereços de email** e configure os endereços de email.
+1. Depois de obter acesso, vá para **Lojas** > **Configuração** > **Geral** > **Armazenar Endereços de Email** e configure os endereços de email.
 
 ### Etapa 2: se/uma vez que os endereços de email tenham sido configurados corretamente, SSH no ambiente e execute este comando:
 
@@ -48,8 +48,8 @@ Se você não tiver configurado o e-mail do remetente corretamente ou se o domí
 php -r "mail(<your email address>,<subject>,<content>,'To: <sender email>');"
 ```
 
-Verifique se há emails na pasta Spam. Se o email apareceu lá, [enviar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#login) para solicitar que o domínio seja rotulado com o rótulo branco no SendGrid.
+Verifique se há emails na pasta Spam. Se o email apareceu lá, [envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#login) para solicitar que o domínio seja rotulado como branco no SendGrid.
 
 ## Leitura relacionada
 
-* [SendGrid](https://devdocs.magento.com/cloud/project/sendgrid.html) na documentação do desenvolvedor.
+* [SendGrid](https://devdocs.magento.com/cloud/project/sendgrid.html) em nossa documentação do desenvolvedor.

@@ -1,6 +1,6 @@
 ---
-title: '"Visão geral: [!DNL Quality Patches Tool] (QPT) v1.1.14'''
-description: Esta subseção fornece uma descrição detalhada dos problemas corrigidos pelos patches disponíveis em [!DNL Quality Patches Tool] (QPT) v1.1.14.
+title: 'Visão geral: [!DNL Quality Patches Tool] (QPT) v1.1.14'
+description: Esta subseção fornece uma descrição detalhada dos problemas corrigidos pelos patches disponíveis no [!DNL Quality Patches Tool] (QPT) v1.1.14.
 exl-id: 007c9d11-1a7b-4653-a03e-e52318730893
 feature: Tools and External Services
 role: Admin
@@ -11,19 +11,19 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Quality Patches Tool] (QPT) v1.1.14 visão geral
+# Visão geral da v1.1.14 do [!DNL Quality Patches Tool] (QPT)
 
-Esta subseção fornece uma descrição detalhada dos problemas corrigidos pelos patches disponíveis em [!DNL Quality Patches Tool] (QPT) v1.1.14.
+Esta subseção fornece uma descrição detalhada dos problemas corrigidos pelos patches disponíveis no [!DNL Quality Patches Tool] (QPT) v1.1.14.
 
 O QPT v1.1.14 inclui os seguintes patches:
 
-1. **MDVA-43102**: corrige o problema em que a quantidade vendável não é atualizada corretamente quando um reembolso é feito por meio da API REST.
-1. **MDVA-43178**: corrige o problema em que um token do cliente para um armazenamento personalizado não pode ser recuperado no GraphQL.
+1. **MDVA-43102**: corrige o problema em que a quantidade comercializável não é atualizada corretamente quando um reembolso é feito via API REST.
+1. **MDVA-43178**: corrige o problema em que um token de cliente para um armazenamento personalizado não pode ser recuperado no GraphQL.
 1. **MDVA-43605**: corrige o problema em que os dados de pedido retornam valores negativos para totais de linha ao usar a API Rest.
-1. **MDVA-43859**: corrige o problema em que o erro *Nenhuma entidade com customerId =* é registrado quando um cliente excluído tenta fazer logon.
-1. **MDVA-43983**: corrige o problema em que os produtos *Não visível individualmente* ainda aparecerão em Resultados da pesquisa avançada do catálogo.
+1. **MDVA-43859**: corrige o problema em que o erro *Nenhuma entidade com customerId =* é registrada quando um cliente excluído tenta fazer logon.
+1. **MDVA-43983**: corrige o problema em que os produtos *Não Visível Individualmente* ainda aparecem nos Resultados da Pesquisa Avançada do Catálogo.
 1. **MDVA-44100**: corrige o problema em que todos os FPTs são atribuídos ao último produto no carrinho de compras e redefinidos para outros produtos.
-1. **MDVA-44147**: corrige o problema em que uma solicitação do GraphQL não retorna Listas de requisições.
-1. **MDVA-44505**: corrige os problemas em que a Aplicação de pontos de recompensa da GraphQL não atualiza o Total geral e em que o crédito da loja é aplicado várias vezes durante a realização do pedido.
+1. **MDVA-44147**: corrige o problema em que uma solicitação do GraphQL não retorna Listas de Requisições.
+1. **MDVA-44505**: corrige os problemas em que a Aplicação de Pontos de Recompensa pela GraphQL não atualiza o Total Geral e em que o crédito da loja é aplicado várias vezes durante a inserção do pedido.
 
 Use o menu à esquerda para navegar até uma página de patch específica.

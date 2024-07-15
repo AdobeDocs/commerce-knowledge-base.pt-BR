@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # ACSD-45241: quantidade de estoque do produto virtual calculada incorretamente
 
-O patch ACSD-45241 corrige o problema em que a quantidade em estoque do produto virtual é calculada incorretamente após a criação de um memorando de crédito. Este patch está disponível quando a variável [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) O 1.1.17 está instalado. A ID do patch é ACSD-45241. Observe que o problema foi corrigido no Adobe Commerce 2.4.4.
+O patch ACSD-45241 corrige o problema em que a quantidade em estoque do produto virtual é calculada incorretamente após a criação de um memorando de crédito. Este patch está disponível quando a [Ferramenta de Patches de Qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.17 está instalada. A ID do patch é ACSD-45241. Observe que o problema foi corrigido no Adobe Commerce 2.4.4.
 
 ## Produtos e versões afetados
 
-**O patch é criado para a versão do Adobe Commerce:**
+**O patch foi criado para a versão do Adobe Commerce:**
 
 * Adobe Commerce (todos os métodos de implantação) 2.4.2
 
@@ -27,7 +27,7 @@ O patch ACSD-45241 corrige o problema em que a quantidade em estoque do produto 
 
 >[!NOTE]
 >
->O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com sua versão do Adobe Commerce, atualize o `magento/quality-patches` pacote para a versão mais recente e verifique a compatibilidade no [[!DNL Quality Patches Tool]: Página Procurar patches](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+>O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com a sua versão do Adobe Commerce, atualize o pacote `magento/quality-patches` para a versão mais recente e verifique a compatibilidade na [[!DNL Quality Patches Tool]: página Procurar patches](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
 
 ## Problema
 
@@ -41,31 +41,31 @@ A quantidade de estoque de um produto virtual é calculada incorretamente após 
 1. Adicione o produto ao carrinho de compras.
 1. Faça um pedido com o produto virtual criado na primeira etapa.
 1. Mantenha o status do pedido como &quot;Pendente&quot;. Não é necessário processar o pagamento.
-1. `order_created` registro criado em `inventory_reservation`. A quantidade do produto virtual mostra 100 com a quantidade vendável como 99.
-1. Abra o pedido e vá para **Fatura** > **Enviar fatura**.
-1. `invoice_created` registro criado em `inventory_reservation`. A quantidade virtual do produto agora é de 99, e a quantidade comercializável também é de 99.
-1. Criar um memorando de crédito sem selecionar **Retornar ao Stock**.
+1. Registro `order_created` criado em `inventory_reservation`. A quantidade do produto virtual mostra 100 com a quantidade vendável como 99.
+1. Abra o pedido e vá para **Fatura** > **Enviar Fatura**.
+1. Registro `invoice_created` criado em `inventory_reservation`. A quantidade virtual do produto agora é de 99, e a quantidade comercializável também é de 99.
+1. Crie um memorando de crédito sem selecionar **Retornar ao Estoque**.
 
 <u>Resultados esperados</u>:
 
-Nenhum registro novo é criado no `inventory_reservation`e a quantidade em estoque do produto virtual não será alterada.
+Nenhum novo registro é criado em `inventory_reservation`, e a quantidade em estoque do produto virtual permanece inalterada.
 
 <u>Resultados reais</u>:
 
-A `creditmemo_created` o registro é criado em `inventory_reservation`e a quantidade do estoque do produto virtual é ajustada para 98 com a quantidade vendável como 99.
+Um registro `creditmemo_created` é criado em `inventory_reservation`, e a quantidade do estoque de produtos virtuais é ajustada para 98 com a quantidade vendável como 99.
 
 ## Aplicar o patch
 
 Para aplicar patches individuais, use os links a seguir, dependendo do método de implantação:
 
-* Adobe Commerce ou Magento Open Source no local: [Guia de atualização de software > Aplicar patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) na documentação do desenvolvedor.
-* Adobe Commerce na infraestrutura em nuvem: [Upgrades e Patches > Aplicar Patches](https://devdocs.magento.com/cloud/project/project-patch.html) na documentação do desenvolvedor.
+* Adobe Commerce ou Magento Open Source no local: [Guia de Atualização de Software > Aplicar Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) na documentação do desenvolvedor.
+* Adobe Commerce na infraestrutura em nuvem: [Atualizações e patches > Aplicar patches](https://devdocs.magento.com/cloud/project/project-patch.html) na documentação do desenvolvedor.
 
 ## Leitura relacionada
 
 Para saber mais sobre a Ferramenta de correção de qualidade, consulte:
 
-* [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatendimento de correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de conhecimento de suporte.
-* [Verifique se o patch está disponível para o problema do Adobe Commerce usando a Ferramenta de patches de qualidade](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de conhecimento de suporte.
+* [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatender correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de dados de conhecimento de suporte.
+* [Verifique se o patch está disponível para o problema do Adobe Commerce usando a Ferramenta de Patches de Qualidade](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de dados de conhecimento de suporte.
 
 Para obter informações sobre outros patches disponíveis no QPT, consulte [Patches disponíveis no QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) na documentação do desenvolvedor.

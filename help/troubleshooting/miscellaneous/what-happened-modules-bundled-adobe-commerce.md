@@ -17,7 +17,7 @@ Este artigo fornece uma solução para quando os módulos incluídos nas versõe
 
 ## Produtos e versões afetados
 
-* Adobe Commerce (todos os métodos de implantação) all  [versões compatíveis](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
+* Adobe Commerce (todos os métodos de implantação) todas as [versões com suporte](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 ## Problema
 
@@ -35,4 +35,4 @@ Instale/compre as extensões oficiais separadamente. Eles estão disponíveis no
 
 ## Leitura relacionada
 
-[Extensões agrupadas pelo fornecedor](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-4.html?#vendor-bundled-extensions) em Adobe Commerce Documentation > Release Information > Adobe Commerce 2.4.4 release notes.
+[Vendor-Bundled Extensions](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-4.html?#vendor-bundled-extensions) em Adobe Commerce Documentation > Informações da versão > Notas de versão do Adobe Commerce 2.4.4.

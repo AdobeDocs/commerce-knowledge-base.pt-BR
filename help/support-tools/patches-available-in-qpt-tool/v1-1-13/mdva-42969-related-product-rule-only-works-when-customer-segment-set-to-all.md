@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # MDVA-42969: A regra de produto relacionada só funciona quando o segmento do cliente é definido como all
 
-O patch MDVA-42969 corrige o problema em que a regra de produto relacionada só funciona quando o segmento do cliente é definido como todos. Este patch está disponível quando a variável [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) O 1.1.13 está instalado. A ID do patch é MDVA-42969. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.5.
+O patch MDVA-42969 corrige o problema em que a regra de produto relacionada só funciona quando o segmento do cliente é definido como todos. Este patch está disponível quando a [Ferramenta de Patches de Qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.13 está instalada. A ID do patch é MDVA-42969. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.5.
 
 ## Produtos e versões afetados
 
-**O patch é criado para a versão do Adobe Commerce:**
+**O patch foi criado para a versão do Adobe Commerce:**
 
 * Adobe Commerce (todos os métodos de implantação) 2.4.2-p1
 
@@ -27,7 +27,7 @@ O patch MDVA-42969 corrige o problema em que a regra de produto relacionada só 
 
 >[!NOTE]
 >
->O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com sua versão do Adobe Commerce, atualize o `magento/quality-patches` pacote para a versão mais recente e verifique a compatibilidade no [[!DNL Quality Patches Tool]: Página Procurar patches](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+>O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com a sua versão do Adobe Commerce, atualize o pacote `magento/quality-patches` para a versão mais recente e verifique a compatibilidade na [[!DNL Quality Patches Tool]: página Procurar patches](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
 
 ## Problema
 
@@ -35,9 +35,9 @@ A regra de produto relacionada só funciona quando o segmento do cliente é defi
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. Ir para **Lojas** > **Configuração** > **Catálogo** > **Relações de produto com base em regras** e defina **Mostrar produtos relacionados** = **Somente com base em regras**.
-1. Ir para **Clientes** > **Segmentos** e criar um novo segmento: **Aplicar a** = **Visitantes e clientes registrados**.
-1. Ir para **Marketing** > **Regras de produto relacionadas** e criar uma nova regra.
+1. Acesse **Lojas** > **Configuração** > **Catálogo** > **Relações de Produtos Baseadas em Regras** e defina **Mostrar Produtos Relacionados** = **Somente Baseados em Regras**.
+1. Vá para **Clientes** > **Segmentos** e crie um novo segmento: **Aplicar a** = **Visitantes e Clientes Registrados**.
+1. Vá para **Marketing** > **Regras de Produto Relacionadas** e crie uma nova regra.
 
    ```code block
    Apply To = Related Products
@@ -54,7 +54,7 @@ A regra de produto relacionada só funciona quando o segmento do cliente é defi
 
 Os produtos relacionados com base em regras são exibidos na loja para visitantes no produto porque o segmento do cliente é criado com a seguinte configuração:
 
-**Aplicar a** = **Visitantes e clientes registrados**
+**Aplicar a** = **Visitantes e Clientes Registrados**
 
 <u>Resultados reais</u>:
 
@@ -64,14 +64,14 @@ Nenhum produto relacionado é exibido.
 
 Para aplicar patches individuais, use os links a seguir, dependendo do método de implantação:
 
-* Adobe Commerce ou Magento Open Source no local: [Guia de atualização de software > Aplicar patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) na documentação do desenvolvedor.
-* Adobe Commerce na infraestrutura em nuvem: [Upgrades e Patches > Aplicar Patches](https://devdocs.magento.com/cloud/project/project-patch.html) na documentação do desenvolvedor.
+* Adobe Commerce ou Magento Open Source no local: [Guia de Atualização de Software > Aplicar Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) na documentação do desenvolvedor.
+* Adobe Commerce na infraestrutura em nuvem: [Atualizações e patches > Aplicar patches](https://devdocs.magento.com/cloud/project/project-patch.html) na documentação do desenvolvedor.
 
 ## Leitura relacionada
 
 Para saber mais sobre a Ferramenta de correção de qualidade, consulte:
 
-* [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatendimento de correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de conhecimento de suporte.
-* [Verifique se o patch está disponível para o problema do Adobe Commerce usando a Ferramenta de patches de qualidade](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de conhecimento de suporte.
+* [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatender correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de dados de conhecimento de suporte.
+* [Verifique se o patch está disponível para o problema do Adobe Commerce usando a Ferramenta de Patches de Qualidade](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de dados de conhecimento de suporte.
 
 Para obter informações sobre outros patches disponíveis no QPT, consulte [Patches disponíveis no QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) na documentação do desenvolvedor.

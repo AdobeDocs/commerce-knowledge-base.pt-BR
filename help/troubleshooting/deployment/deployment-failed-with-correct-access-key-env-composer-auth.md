@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Falha na implantação com as chaves de acesso corretas em env:COMPOSER_AUTH ou auth.json
 
-Este artigo fornece uma solução para o problema que ocorre quando a implantação falha com um erro como o mostrado abaixo, na [log de implantação](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log):
+Este artigo fornece uma solução para o problema que ocorre quando a implantação falha com um erro como o mostrado abaixo, no [log de implantação](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log):
 
 ```
 W:   [Composer\Downloader\TransportException]
@@ -40,20 +40,20 @@ Implantação bem-sucedida.
 >
 >Este é um exemplo de erro. Você pode receber um erro indicando um arquivo diferente (dependendo da versão do Adobe Commerce implantada).
 
-Você não implantou o com sucesso. Você vê um erro como *O arquivo &quot;https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip&quot; não pôde ser baixado (HTTP/1.1 404 Não encontrado)* no [log de implantação](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
+Você não implantou o com sucesso. Você vê um erro como *Não foi possível baixar o arquivo &quot;https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip&quot; (HTTP/1.1 404 Não encontrado)* no [log de implantação](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
 
 ### Causa
 
 As chaves de acesso do compositor especificadas encontradas em um desses locais podem não ter acesso ao código:
 
-* no `env:COMPOSER_AUTH` no nível do projeto
-* no `auth.json file`, que tem precedência sobre o `env:COMPOSER_AUTH` variável.
+* na variável `env:COMPOSER_AUTH` no nível do projeto
+* no `auth.json file`, que tem precedência sobre a variável `env:COMPOSER_AUTH`.
 
 ### Solução
 
-Atualize o `env:COMPOSER_AUTH` no nível do projeto e verifique se ela está configurada com chaves que têm acesso ao código.
+Atualize a variável `env:COMPOSER_AUTH` no nível do projeto e verifique se ela está configurada com chaves que têm acesso ao código.
 
-Para obter etapas, consulte [Níveis variáveis](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/variable-levels) no Guia de infraestrutura do Commerce na nuvem.
+Para ver as etapas, consulte [Níveis de variáveis](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/variable-levels) no Guia de Infraestrutura do Commerce na Nuvem.
 
 ## Leitura relacionada
 

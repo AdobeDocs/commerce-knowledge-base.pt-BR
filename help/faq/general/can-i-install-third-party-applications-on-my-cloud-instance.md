@@ -18,7 +18,7 @@ Não. Não é permitido instalar aplicativos de terceiros (como WordPress ou Dru
 
 ### Termos do contrato de serviço
 
-Edição sobre a infraestrutura do Adobe Commerce na nuvem [Contrato de Termos de Serviço](https://magento.com/legal/terms/cloud-terms) dispõe o seguinte no seu artigo 18. °:
+O Adobe Commerce na edição [Contrato de Termos de Serviço](https://magento.com/legal/terms/cloud-terms) da infraestrutura em nuvem estabelece o seguinte em seu artigo 18:
 
 > O Cliente concorda que a Adobe Commerce e o Serviço não serão usados para hospedar outros aplicativos de software de terceiros que não sejam diretamente dependentes do Software.
 
@@ -29,10 +29,10 @@ Por ser uma solução em nuvem, o Adobe assume total responsabilidade pela segur
 Como um Provedor de soluções de nível 1 com certificação PCI, a Adobe Commerce na infraestrutura em nuvem deve seguir o Padrão de Segurança de Dados PCI e certificar-se de:
 
 >.. Desenvolver e manter sistemas e aplicativos seguros
-> ([Abordagem Adobe para conformidade com PCI](https://magento.com/pci-compliance) Requisito 6, Manter um programa de gerenciamento de vulnerabilidades)
+> ([Abordagem de Adobe para conformidade com o PCI](https://magento.com/pci-compliance), Requisito 6, Manter um programa de gerenciamento de vulnerabilidades)
 
 Como o Adobe não pode garantir a conformidade com o PCI de aplicativos de terceiros, a instalação desses aplicativos em servidores na nuvem não é permitida.
 
 ## Dica: use as extensões do Commerce Marketplace para obter melhores integrações
 
-Para melhorar a integração do seu aplicativo Adobe Commerce na infraestrutura em nuvem com as soluções de terceiros hospedadas em servidores externos, incentivamos você a usar o [Commerce Marketplace](https://marketplace.magento.com) extensões que podem se adequar à sua finalidade.
+Para melhorar a integração do seu aplicativo Adobe Commerce na infraestrutura em nuvem com as soluções de terceiros hospedadas em servidores externos, recomendamos que você use as extensões [Commerce Marketplace](https://marketplace.magento.com) que podem ser adequadas à sua finalidade.

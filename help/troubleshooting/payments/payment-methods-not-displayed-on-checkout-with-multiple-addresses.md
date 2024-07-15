@@ -22,11 +22,11 @@ Este artigo explica que a maioria dos métodos de pagamento não é exibida no c
 
 >[!NOTE]
 >
->A integração de pagamento principal do Adobe Commerce Cybersource está obsoleta desde a versão 2.3.3 e será completamente removida na versão 2.4.0. Use o [extensão oficial](https://marketplace.magento.com/cybersource-global-payment-management.html) do marketplace em vez disso.
+>A integração de pagamento principal do Adobe Commerce Cybersource está obsoleta desde a versão 2.3.3 e será completamente removida na versão 2.4.0. Em vez disso, use a [extensão oficial](https://marketplace.magento.com/cybersource-global-payment-management.html) do marketplace.
 
 ## Problema
 
-<u>Pré-requisitos</u>: no Commerce Admin, ative e configure os métodos de pagamento do PayPal e do Cybersource e ative o Multidelivery para sua loja.
+<u>Pré-requisitos</u>: no Commerce Admin, habilite e configure os métodos de pagamento do PayPal e do Cybersource e habilite o Multisdelivery para sua loja.
 
 <u>Etapas a serem reproduzidas</u>:
 
@@ -35,13 +35,13 @@ Este artigo explica que a maioria dos métodos de pagamento não é exibida no c
 1. Clique em **Fazer Check-out com Vários Endereços**.
 1. Faça logon ou crie uma conta.
 1. Divida os produtos entre os endereços na página Enviar para Vários Endereços.
-1. Clique em **Ir para Informações de Remessa**.
+1. Clique em **Ir para Informações de Envio**.
 1. Selecione métodos de entrega para cada entrega.
-1. Clique em **Continuar para Informações de Cobrança**.
+1. Clique em **Continuar para as Informações de Cobrança**.
 
 <u>Resultado esperado</u>: PayPal e Cybersource estão disponíveis como opções de pagamento.
 
-<u>Resultado real</u>: Somente o Cybersource aparece como a opção de pagamento disponível.
+<u>Resultado real</u>: somente Cybersource aparece como opção de pagamento disponível.
 
 ## Causa
 

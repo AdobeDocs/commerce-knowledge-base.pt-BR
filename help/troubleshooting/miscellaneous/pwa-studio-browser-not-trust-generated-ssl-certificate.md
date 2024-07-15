@@ -41,18 +41,18 @@ A geração de certificados é realizada por [devcert](https://github.com/davewa
 
 A versão deve ser a 1.0 ou superior (ou LibreSSL 2, no caso do OSX High Sierra).
 
-Você pode instalar versões superiores do OpenSSL com [Homebrew](https://brew.sh/) no OSX, [Chocolatey](https://chocolatey.org/) no Windows ou no gerenciador de pacotes da sua distribuição Linux.
+Você pode instalar versões superiores do OpenSSL com o [Homebrew](https://brew.sh/) no OSX, o [Chocolatey](https://chocolatey.org/) no Windows ou o gerenciador de pacotes da sua distribuição Linux.
 
-Se você estiver executando o Linux, verifique se `libnss3-tools` (ou equivalente) estiver instalado no sistema. São fornecidas mais informações nesta seção do [devcert](https://github.com/davewasmer/devcert#skipcertutil) readme.
+Se você estiver executando o Linux, verifique se o `libnss3-tools` (ou o equivalente) está instalado em seu sistema. Mais informações fornecidas nesta seção do arquivo readme [devcert](https://github.com/davewasmer/devcert#skipcertutil).
 
 Alguns usuários sugeriram excluir a pasta devcert para acionar a regeneração do certificado.
 
-* Para usuários do MacOS, essa pasta geralmente é encontrada em: `{{~/Library/Application Support/devcert }}`
-* Para usuários do Windows, essa pasta geralmente é encontrada em: `${User}\AppData\Local\devcert`
+* Para usuários do MacOS, esta pasta geralmente é encontrada em: `{{~/Library/Application Support/devcert }}`
+* Para usuários do Windows, esta pasta geralmente é encontrada em: `${User}\AppData\Local\devcert`
 
 ## Leitura relacionada em nossa base de conhecimento de suporte
 
-* [PWA Studio: erro de confiança de certificado autoassinado](https://support.magento.com/hc/en-us/articles/360038973172)
+* [PWA Studio: Erro de confiança de certificado autoassinado](https://support.magento.com/hc/en-us/articles/360038973172)
 * [PWA Studio: o Webpack trava antes de iniciar a compilação](/help/troubleshooting/miscellaneous/pwa-studio-webpack-hangs-before-beginning-compilation.md)
 * [PWA Studio: O navegador exibe o erro &quot;Não é possível usar proxy para&quot;](/help/troubleshooting/miscellaneous/pwa-studio-browser-displays-cannot-proxy-to-error.md)
 * [PWA Studio: Erros de validação ao executar o modo de desenvolvedor](/help/troubleshooting/miscellaneous/pwa-studio-validation-errors-when-running-developer-mode.md)

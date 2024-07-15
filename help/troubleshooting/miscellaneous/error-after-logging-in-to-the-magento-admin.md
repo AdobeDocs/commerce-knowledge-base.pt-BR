@@ -19,7 +19,7 @@ Este artigo fornece uma solução para o problema em que você recebe uma mensag
 
 O URL solicitado /magento2index.php/admin/admin/dashboard/index/key/0c81957145a968b697c32a846598dc2e/ não foi encontrado neste servidor.
 
-Observe a falta de um caractere de barra entre `magento2` e `index.php` no URL.
+Observe a falta de um caractere de barra entre `magento2` e `index.php` na URL.
 
 ## Solução
 
@@ -27,6 +27,6 @@ O URL de base não está correto. O URL de base deve:
 
 * Iniciar com `http://` ou `https://`
 * Termina com uma barra ( `/` )
-* Diferenciar maiúsculas de minúsculas de `web/unsecure/base_url` registro na `core_config_data` tabela de banco de dados
+* Corresponder letras maiúsculas e minúsculas do registro `web/unsecure/base_url` na tabela de banco de dados `core_config_data`
 
 Execute a instalação novamente usando um valor válido.

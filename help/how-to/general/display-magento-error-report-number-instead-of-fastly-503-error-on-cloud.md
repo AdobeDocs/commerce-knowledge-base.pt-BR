@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Exibir número do relatório de erros do Adobe Commerce em vez do erro Fastly 503
 
-Por padrão, o Fastly oculta todos os erros do Adobe Commerce atrás do **Serviço 503 Indisponível** erro. Para exibir o número do relatório de log de erros do Adobe Commerce (para encontrá-lo nos logs e ver os detalhes do erro), abra o site omitindo o Fastly usando estas etapas:
+Por padrão, o Fastly oculta todos os erros do Adobe Commerce atrás do erro **503 Serviço Indisponível**. Para exibir o número do relatório de log de erros do Adobe Commerce (para encontrá-lo nos logs e ver os detalhes do erro), abra o site omitindo o Fastly usando estas etapas:
 
 1. Adicione o domínio e o endereço IP do aplicativo ao arquivo de hosts no computador local.
 1. Limpe o cache do navegador e os cookies (ou alterne para o modo incógnito).
@@ -21,11 +21,11 @@ Por padrão, o Fastly oculta todos os erros do Adobe Commerce atrás do **Servi�
 Depois de ver o erro autêntico do Adobe Commerce e o número do relatório de erros, você pode obter detalhes no arquivo do relatório de erros seguindo estas etapas:
 
 1. SSH para o ambiente afetado. Consulte [SSH para um ambiente](https://devdocs.magento.com/guides/v2.3/cloud/env/environments-ssh.html#ssh) na documentação do desenvolvedor.
-1. Localize o `./var/report/{error_number}` arquivo.
+1. Localize o arquivo `./var/report/{error_number}`.
 
 ## Adicionar o domínio do aplicativo e o endereço IP ao arquivo de hosts: etapas detalhadas
 
-1. Verifique o IP do servidor do armazenamento executando o `nslookup` comando na linha de comando do computador local:
+1. Verifique o IP do servidor do armazenamento executando o comando `nslookup` na linha de comando no computador local:
    * Usuários da arquitetura Pro (ambientes de preparo e produção):
 
    ```

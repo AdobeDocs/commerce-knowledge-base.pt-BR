@@ -9,7 +9,7 @@ ht-degree: 0%
 
 ## Autor no Markdown
 
-Geralmente, usamos [Guia de estilo da sintaxe do Adobe Experience League Markdown](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/markdown/syntax-style-guide.html?lang=en), mas há algumas diferenças e exceções. Além disso, certas tags HTML são necessárias em determinados casos.
+Geralmente, usamos o [Guia de estilo da sintaxe do Adobe Experience League Markdown](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/markdown/syntax-style-guide.html?lang=en), mas há algumas diferenças e exceções. Além disso, certas tags HTML são necessárias em determinados casos.
 
 A seguir estão exemplos da formatação do Markdown usada com mais frequência em nosso repositório.
 
@@ -23,11 +23,11 @@ Para formatar o texto como itálico, use um único asterisco:
 
 `This text will be *italics*`
 
-Para formatar o texto como sublinhado, use o `<ins>` tag:
+Para formatar o texto como sublinhado, use a marca `<ins>`:
 
 `<ins>This text will be underlined</ins>`
 
-Para adicionar uma quebra de linha, use o `<br>` tag HTML.
+Para adicionar uma quebra de linha, use a tag HTML `<br>`.
 
 
 ## Cabeçalhos
@@ -54,8 +54,11 @@ Para inserir um bloco de código, coloque o bloco de código entre três acentos
 
 \`\`\` sql
 
-SELECIONAR TABLE_NAME COMO `Table`, ROUND((DATA_LENGTH + INDEX_LENGTH) / 1024 / 1024) AS `Size (MB)`
-FROM information_schema.TABLES WHERE TABLE_SCHEMA = &quot;%project_id%&quot; ORDER BY (DATA_LENGTH + INDEX_LENGTH) DESC;
+SELECIONAR TABLE_NAME COMO `Table`,
+ROUND((DATA_LENGTH + INDEX_LENGTH) / 1024 / 1024) COMO `Size (MB)`
+DE information_schema.TABLES
+ONDE TABLE_SCHEMA = &quot;%project_id%&quot;
+ORDENAR POR (DATA_LENGTH + INDEX_LENGTH) DESC;
 
 \`\`\`
 
@@ -81,7 +84,7 @@ your code here
 </pre></code>
 ```
 
-Onde ``%language-code%`` são os códigos definidos por [Idiomas com suporte para o Prisma.js](https://prismjs.com/#supported-languages).
+Onde ``%language-code%`` são os códigos definidos por [Linguagens com suporte para Prism.js](https://prismjs.com/#supported-languages).
 
 ## Listas
 
@@ -130,7 +133,7 @@ Os links externos são diretos:
 
 Qualquer tipo de anexo deve estar nos formatos .png, .jpg e .jpeg. Para fins de segurança, só aceitamos anexos que estejam em um dos três formatos.
 
-Para inserir uma imagem, posicione a imagem em *ativos* subpasta na mesma pasta de seção do artigo e use a seguinte sintaxe para inserir a imagem no seu artigo:
+Para inserir uma imagem, coloque a imagem na subpasta *assets* na mesma pasta de seção do artigo e use a seguinte sintaxe para inserir a imagem no seu artigo:
 
 ```markdown
 ![alt text](assets/image.png)
@@ -166,13 +169,13 @@ Se você precisar referenciar um elemento diferente do cabeçalho, use HTML para
 
 ### Links e links relativos a outros artigos
 
-Não use links relativos para fazer referência a nossos artigos da knowledge base de suporte. Esses links não funcionarão quando o artigo for publicado na [Centro de ajuda do Adobe Commerce](https://support.magento.com/hc/en-us).
-Use hiperlinks completos da [Centro de ajuda do Adobe Commerce](https://support.magento.com/hc/en-us).
+Não use links relativos para fazer referência a nossos artigos da knowledge base de suporte. Esses links não funcionarão quando o seu artigo for publicado na [Central de Ajuda da Adobe Commerce](https://support.magento.com/hc/en-us).
+Use os hiperlinks completos da [Central de Ajuda da Adobe Commerce](https://support.magento.com/hc/en-us).
 
 
 ## Tabelas
 
-Uso [formatação HTML para tabelas](https://www.w3schools.com/html/html_tables.asp).
+Use a formatação [HTML para tabelas](https://www.w3schools.com/html/html_tables.asp).
 
 
 ## Avisos e blocos de informações

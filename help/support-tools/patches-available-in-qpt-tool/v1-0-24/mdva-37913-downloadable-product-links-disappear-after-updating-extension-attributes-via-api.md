@@ -13,26 +13,27 @@ ht-degree: 0%
 
 # MDVA-37913: os links de download do produto desaparecem após a atualização dos atributos de extensão por meio da API
 
-O patch de MDVA-37913 para o resolve o problema em que os links de produtos baixáveis desaparecem após a atualização dos atributos de extensão por meio da API. Este patch está disponível quando a variável [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) O 1.0.24 está instalado. A ID do patch é MDVA-37913. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.3.
+O patch de MDVA-37913 para o resolve o problema em que os links de produtos baixáveis desaparecem após a atualização dos atributos de extensão por meio da API. Este patch está disponível quando a [Ferramenta de Patches de Qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.24 está instalada. A ID do patch é MDVA-37913. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.3.
 
 
 ## Produtos e versões afetados
 
-**O patch é criado para a versão do Adobe Commerce:**
+**O patch foi criado para a versão do Adobe Commerce:**
 Adobe Commerce na infraestrutura em nuvem 2.3.6
 
 **Compatível com as versões do Adobe Commerce:**
 Adobe Commerce no local e Adobe Commerce na infraestrutura em nuvem 2.3.0 - 2.4.0-p1
 >[!NOTE]
 >
->O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com sua versão do Adobe Commerce, atualize o `magento/quality-patches` pacote para a versão mais recente e verifique a compatibilidade no [[!DNL Quality Patches Tool]: Página Procurar patches](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+>O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com a sua versão do Adobe Commerce, atualize o pacote `magento/quality-patches` para a versão mais recente e verifique a compatibilidade na [[!DNL Quality Patches Tool]: página Procurar patches](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
 
 
 ## Problema
 
 Os links de produto baixáveis desaparecem após atualizar atributos de extensão por meio da API.
 
-<u>Pré-requisitos</u>: produto baixável com links de download.
+<u>Pré-requisitos</u>:
+Produto para download com links de download.
 
 <u>Etapas a serem reproduzidas</u>:
 
@@ -62,8 +63,8 @@ Produto atualizado, mas todos os links de download foram removidos.
 
 Para aplicar patches individuais, use os links a seguir, dependendo do método de implantação:
 
-* Adobe Commerce no local: [Guia de atualização de software > Aplicar patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html)
-* Adobe Commerce na infraestrutura em nuvem: [Upgrades e Patches > Aplicar Patches](https://devdocs.magento.com/cloud/project/project-patch.html)
+* Adobe Commerce local: [Guia de Atualização de Software > Aplicar Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html)
+* Adobe Commerce na infraestrutura em nuvem: [Atualizações e patches > Aplicar patches](https://devdocs.magento.com/cloud/project/project-patch.html)
 
 ## Leitura relacionada
 
@@ -72,4 +73,4 @@ Para saber mais sobre a Ferramenta de correções de qualidade em nossa base de 
 * [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatendimento de correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)
 * [Verifique se o patch está disponível para o problema do Adobe Commerce usando a Ferramenta de patches de qualidade](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 
-Para obter informações sobre outros patches disponíveis na ferramenta QPT, consulte o [Correções disponíveis na ferramenta QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) seção em nossa base de conhecimento de suporte.
+Para obter informações sobre outros patches disponíveis na ferramenta QPT, consulte a seção [Patches disponíveis na ferramenta QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) em nossa base de dados de conhecimento de suporte.

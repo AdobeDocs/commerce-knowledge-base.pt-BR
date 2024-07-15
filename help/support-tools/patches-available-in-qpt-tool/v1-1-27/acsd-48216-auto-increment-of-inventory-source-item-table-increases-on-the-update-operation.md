@@ -11,13 +11,13 @@ ht-degree: 0%
 
 ---
 
-# ACSD-48216: *AUTO_INCREMENTO* de *inventory_source_item* tabela aumenta em *ATUALIZAR* operação
+# ACSD-48216: *AUTO_INCREMENT* da tabela *inventory_source_item* aumenta na operação *UPDATE*
 
-O patch ACSD-48216 corrige o problema em que *AUTO_INCREMENTO* do *inventory_source_item* a tabela aumenta no *ATUALIZAR* operação. Este patch está disponível quando a variável [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) O 1.1.27 está instalado. A ID do patch é ACSD-48216. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.7.
+O patch ACSD-48216 corrige o problema em que *AUTO_INCREMENT* da tabela *inventory_source_item* aumenta na operação *UPDATE*. Este patch está disponível quando o [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.27 está instalado. A ID do patch é ACSD-48216. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.7.
 
 ## Produtos e versões afetados
 
-**O patch é criado para a versão do Adobe Commerce:**
+**O patch foi criado para a versão do Adobe Commerce:**
 
 * Adobe Commerce (todos os métodos de implantação) 2.4.4
 
@@ -27,15 +27,15 @@ O patch ACSD-48216 corrige o problema em que *AUTO_INCREMENTO* do *inventory_sou
 
 >[!NOTE]
 >
->O patch pode se tornar aplicável a outras versões com novos [!DNL Quality Patches Tool] versões. Para verificar se o patch é compatível com sua versão do Adobe Commerce, atualize o `magento/quality-patches` pacote para a versão mais recente e verifique a compatibilidade no [[!DNL Quality Patches Tool]: Página Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+>O patch pode se tornar aplicável a outras versões com as novas versões do [!DNL Quality Patches Tool]. Para verificar se o patch é compatível com a sua versão do Adobe Commerce, atualize o pacote `magento/quality-patches` para a versão mais recente e verifique a compatibilidade na [[!DNL Quality Patches Tool]: página Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
 
 ## Problema
 
-*AUTO_INCREMENTO* do *inventory_source_item* a tabela aumenta no *ATUALIZAR* operação.
+*AUTO_INCREMENT* da tabela *inventory_source_item* aumenta na operação *UPDATE*.
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. Verifique o valor atual de *AUTO_INCREMENTO* do *inventory_source_item* tabela:
+1. Verifique o valor atual de *AUTO_INCREMENT* da tabela *inventory_source_item*:
 
 ```bash
 MySQL > show create table inventory_source_item;
@@ -76,28 +76,28 @@ Carga:
 }
 ```
 
-1. Verifique a *AUTO_INCREMENTO* valor de *inventory_source_item* tabela novamente.
+1. Verifique novamente o valor *AUTO_INCREMENT* da tabela *inventory_source_item*.
 
 <u>Resultados esperados</u>:
 
-A variável *AUTO_INCREMENTO* valor de *inventory_source_item* A tabela não aumenta após cada operação de atualização.
+O valor *AUTO_INCREMENT* da tabela *inventory_source_item* não aumenta após cada operação de atualização.
 
 <u>Resultados reais</u>:
 
-A variável *AUTO_INCREMENTO* valor de *inventory_source_item* A tabela aumenta após cada operação de atualização.
+O valor *AUTO_INCREMENT* da tabela *inventory_source_item* aumenta após cada operação de atualização.
 
 ## Aplicar o patch
 
 Para aplicar patches individuais, use os links a seguir, dependendo do método de implantação:
 
-* Adobe Commerce ou Magento Open Source no local: [[!DNL Quality Patches Tool] > Uso](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) no [!DNL Quality Patches Tool] guia.
-* Adobe Commerce na infraestrutura em nuvem: [Upgrades e Patches > Aplicar Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) no guia do Commerce na infraestrutura em nuvem.
+* Adobe Commerce ou Magento Open Source no local: [[!DNL Quality Patches Tool] > Uso](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) no guia [!DNL Quality Patches Tool].
+* Adobe Commerce na infraestrutura em nuvem: [Atualizações e patches > Aplicar patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) no guia do Commerce na infraestrutura em nuvem.
 
 ## Leitura relacionada
 
 Para saber mais sobre [!DNL Quality Patches Tool], consulte:
 
-* [[!DNL Quality Patches Tool] lançado: uma nova ferramenta para autoatender correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de conhecimento de suporte.
-* [Verifique se o patch está disponível para o problema do Adobe Commerce usando [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de conhecimento de suporte.
+* [[!DNL Quality Patches Tool] versão: uma nova ferramenta para autoatender patches de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de dados de conhecimento de suporte.
+* [Verifique se há um patch disponível para o problema do Adobe Commerce usando o [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de dados de conhecimento de suporte.
 
-Para obter informações sobre outros patches disponíveis no QPT, consulte [[!DNL Quality Patches Tool]: Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) no [!DNL Quality Patches Tool] guia.
+Para obter informações sobre outros patches disponíveis no QPT, consulte [[!DNL Quality Patches Tool]: Pesquisar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) no guia [!DNL Quality Patches Tool].

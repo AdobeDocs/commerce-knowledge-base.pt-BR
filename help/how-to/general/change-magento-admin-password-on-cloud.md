@@ -16,21 +16,21 @@ ht-degree: 0%
 
 ![login_panel_s.png](assets/login_panel_s.png)
 
-Leia as etapas no [Redefina sua seção de senha do Logon do administrador](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html#admin-sign-in) em nosso guia do usuário.
+Leia as etapas na seção [Redefinir sua senha de Entrada de Administrador](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html#admin-sign-in) em nosso guia do usuário.
 
 Abaixo estão as notas de uso críticas.
 
 ### Ativar emails de saída
 
-Antes de usar o **Esqueceu sua senha** formulário, [ativar emails de saída](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/outgoing-emails.html) usando o [Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html).
+Antes de usar o formulário **Esqueceu sua senha**, [habilite os emails de saída](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/outgoing-emails.html) usando o [Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html).
 
 ### Verificar a pasta Lixo Eletrônico
 
-Se não conseguir encontrar a mensagem com um link Redefinir senha, verifique *Lixo Eletrônico* pasta. O nome do email é *Confirmação de redefinição de senha para o nome de usuário administrador*.
+Se não conseguir localizar a mensagem com um link Redefinir Senha, verifique a pasta *Lixo Eletrônico*. O nome do email é *Confirmação de Redefinição de Senha para o Nome de Usuário Administrador*.
 
 ## Método 2: adicionar um novo usuário administrador
 
 Se não conseguir restaurar ou redefinir a senha do usuário existente, você poderá criar um novo usuário administrador e definir uma senha para esse usuário. Para fazer isso, siga estas etapas:
 
-1. Uso [SSH para fazer logon no ambiente remoto](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
+1. Use o [SSH para fazer logon no ambiente remoto](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
 1. Execute o seguinte comando: `bin/magento admin:user:create   --admin-user=%user_name% --admin-password=%your_password% --admin-email=%your_email% --admin-firstname=%admin_user_first_name% --admin-lastname=%admin_user_last_name%`

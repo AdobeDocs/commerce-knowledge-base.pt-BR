@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # MDVA-39181: Regras de produtos relacionados mostram produtos da categoria indefinida na regra
 
-O patch MDVA-39181 resolve o problema em que as regras de produto relacionadas mostram produtos de uma categoria não definida na regra. Este patch está disponível quando a variável [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) O 1.1.10 está instalado. A ID do patch é MDVA-39181. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.5.
+O patch MDVA-39181 resolve o problema em que as regras de produto relacionadas mostram produtos de uma categoria não definida na regra. Este patch está disponível quando a [Ferramenta de Patches de Qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.10 está instalada. A ID do patch é MDVA-39181. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.5.
 
 ## Produtos e versões afetados
 
-**O patch é criado para a versão do Adobe Commerce:**
+**O patch foi criado para a versão do Adobe Commerce:**
 
 * Adobe Commerce (todos os métodos de implantação) 2.4.2
 
@@ -27,7 +27,7 @@ O patch MDVA-39181 resolve o problema em que as regras de produto relacionadas m
 
 >[!NOTE]
 >
->O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com sua versão do Adobe Commerce, atualize o `magento/quality-patches` pacote para a versão mais recente e verifique a compatibilidade no [[!DNL Quality Patches Tool]: Página Procurar patches](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+>O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com a sua versão do Adobe Commerce, atualize o pacote `magento/quality-patches` para a versão mais recente e verifique a compatibilidade na [[!DNL Quality Patches Tool]: página Procurar patches](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
 
 ## Problema
 
@@ -39,9 +39,9 @@ Instalar dados de amostra.
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. Crie uma marca de atributo e adicione-a à **Conjunto de Atributos Superior**.
-1. Escolher **Josie**, **Augusta**, e **Ingrid** jaquetas para adicionar ao Brand Kitty de **Mulheres** > **Topos** > **Categoria Casacos**.
-1. Escolher **Beaumont**, **Hyperion**, e **Kenobi** jaquetas para adicionar ao Brand Kitty de **Homens** > **Topos** > **Categoria de jaqueta**.
+1. Crie uma marca de atributo e adicione-a ao **Conjunto de atributos principais**.
+1. Escolha **Josie**, **Augusta** e **Ingrid** jaquetas para adicionar ao Brand Kitty de **Women** > **Tops** > **Jackets category**.
+1. Escolha as **jaquetas Beaumont**, **Hyperion** e **Kenobi** para adicionar ao Brand Kitty em **Men** > **Tops** > **Categoria Jacket**.
 1. Criar um produto relacionado com:
 
    ```markdown
@@ -66,7 +66,7 @@ Instalar dados de amostra.
    ```
 
 1. Abra o SKU WJ04 no front-end e verifique os produtos relacionados.
-1. Atualizar a ID da categoria de **Mulheres** > **Topos** > **Jaquetas** caso seja diferente disso.
+1. Atualize a ID de categoria de **Mulheres** > **Tops** > **Jaquetas** caso seja diferente disso.
 
 <u>Resultados esperados</u>:
 
@@ -80,14 +80,14 @@ Os produtos relacionados são mostrados da mesma marca, mas a partir de uma cate
 
 Para aplicar patches individuais, use os links a seguir, dependendo do método de implantação:
 
-* Adobe Commerce ou Magento Open Source no local: [Guia de atualização de software > Aplicar patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) na documentação do desenvolvedor.
-* Adobe Commerce na infraestrutura em nuvem: [Upgrades e Patches > Aplicar Patches](https://devdocs.magento.com/cloud/project/project-patch.html) na documentação do desenvolvedor.
+* Adobe Commerce ou Magento Open Source no local: [Guia de Atualização de Software > Aplicar Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) na documentação do desenvolvedor.
+* Adobe Commerce na infraestrutura em nuvem: [Atualizações e patches > Aplicar patches](https://devdocs.magento.com/cloud/project/project-patch.html) na documentação do desenvolvedor.
 
 ## Leitura relacionada
 
 Para saber mais sobre a Ferramenta de correção de qualidade, consulte:
 
-* [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatendimento de correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de conhecimento de suporte.
-* [Verifique se o patch está disponível para o problema do Adobe Commerce usando a Ferramenta de patches de qualidade](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de conhecimento de suporte.
+* [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatender correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de dados de conhecimento de suporte.
+* [Verifique se o patch está disponível para o problema do Adobe Commerce usando a Ferramenta de Patches de Qualidade](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de dados de conhecimento de suporte.
 
 Para obter informações sobre outros patches disponíveis no QPT, consulte [Patches disponíveis no QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) na documentação do desenvolvedor.

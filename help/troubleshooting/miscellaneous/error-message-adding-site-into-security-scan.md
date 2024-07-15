@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Mensagem de erro ao adicionar sites à Verificação de segurança
 
-Este artigo fornece soluções possíveis para o problema de quando um usuário não consegue adicionar sites à [Verificação de segurança do Commerce](https://account.magento.com/scanner/dashboard/).
+Este artigo fornece soluções possíveis para o problema quando um usuário não consegue adicionar sites à [Verificação de Segurança do Commerce](https://account.magento.com/scanner/dashboard/).
 
 ## Produtos e versões afetados
 
@@ -22,7 +22,7 @@ Este artigo fornece soluções possíveis para o problema de quando um usuário 
 
 ## Problema
 
-O usuário não pode adicionar sites à [Verificação de segurança do Commerce](https://account.magento.com/scanner/dashboard/). A seguinte mensagem de erro é exibida ao tentar adicionar um site: *Não é possível enviar o site para varredura.*
+O usuário não pode adicionar sites à [Verificação de Segurança do Commerce](https://account.magento.com/scanner/dashboard/). A seguinte mensagem de erro é exibida ao tentar adicionar um site: *Não é possível enviar o site para verificação.*
 
 ## Solução
 
@@ -31,10 +31,10 @@ O usuário não pode adicionar sites à [Verificação de segurança do Commerce
    * 34 196 167 176
    * 3.218.25.102
 
-1. O código de confirmação diferencia tempo. Se tiverem decorrido mais de 30 minutos após a notificação **Adicionar site** foi clicado, o código provavelmente expirou.
+1. O código de confirmação diferencia tempo. Se mais de 30 minutos tiverem se passado depois que o link **Adicionar site** tiver sido clicado, o código provavelmente terá expirado.
 1. Não se esqueça de limpar o cache e garantir que o código de validação apareça no corpo de origem da página inicial. O código de confirmação deve ser inserido de acordo com as especificações de marcação HTML: o comentário HTML pode ser inserido no corpo da página (sugerimos colocá-lo na seção de rodapé); a tag META deve estar somente na seção de cabeçalho.
-1. Antes de clicar em **Verificar código de confirmação**, abra o console de desenvolvedor do navegador, clique no link **Rede** e verifique a resposta de magento.com. Ele deve ser HTTP 200 (OK) e o corpo da resposta deve conter um objeto JSON.
-1. Se o código de resposta for HTTP 200 e o corpo de resposta for um objeto JSON e a variável `verified` o valor da propriedade é `false`, significa que o código não foi encontrado na página. A variável `details` o valor da propriedade deve conter a explicação. Por exemplo, se o armazenamento usar um certificado SSL autoassinado, provavelmente haverá um erro de conexão.
+1. Antes de clicar em **Verificar código de confirmação**, abra o console de desenvolvedor do navegador, clique na guia **Rede** e verifique a resposta de magento.com. Ele deve ser HTTP 200 (OK) e o corpo da resposta deve conter um objeto JSON.
+1. Se o código de resposta for HTTP 200, o corpo da resposta for um objeto JSON e o valor da propriedade `verified` for `false`, significa que o código não foi encontrado na página. O valor da propriedade `details` deve conter a explicação. Por exemplo, se o armazenamento usar um certificado SSL autoassinado, provavelmente haverá um erro de conexão.
 
 Se ainda não conseguir adicionar sites, conclua as seguintes etapas:
 

@@ -57,10 +57,10 @@ Todos os comerciantes locais do Adobe Commerce 2.3.5+ devem executar o seguinte 
 
 **Como corrigir no Adobe Commerce na infraestrutura em nuvem:**
 
-Execute os comandos acima ou atualize para a versão mais recente das ferramentas ECE (ece-tools: 2002.1.7), que estará disponível na quinta-feira, 29 de julho. Para obter etapas, consulte [Nuvem para Adobe Commerce > Atualizar versão das ferramentas ece](https://devdocs.magento.com/cloud/project/ece-tools-update.html) na documentação do desenvolvedor.
+Execute os comandos acima ou atualize para a versão mais recente das ferramentas ECE (ece-tools: 2002.1.7), que estará disponível na quinta-feira, 29 de julho. Para ver as etapas, consulte [Cloud para Adobe Commerce > Atualizar versão de ferramentas ece](https://devdocs.magento.com/cloud/project/ece-tools-update.html) na documentação do desenvolvedor.
 
 A correção completa será lançada no Adobe Commerce (todos os métodos de implantação) 2.4.4.
 
 ## Leitura relacionada
 
-* Github: [27 de julho de 2021 Atualização do compositor Tipo de argumento incompatível: Tipo obrigatório: int. Tipo real: cadeia de caracteres](https://github.com/magento/magento2/issues/33595)
+* Github: [2021-07-27 Atualização do compositor Tipo de argumento incompatível: Tipo obrigatório: int. Tipo real: cadeia de caracteres](https://github.com/magento/magento2/issues/33595)

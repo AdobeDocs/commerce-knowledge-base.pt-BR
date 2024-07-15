@@ -51,13 +51,13 @@ Os patches não são compatíveis com outras versões do Adobe Commerce.
 
 ### Como aplicar o patch
 
-Descompacte o baixado `.zip` e aplique o patch conforme descrito em [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
+Descompacte o arquivo `.zip` baixado e aplique o patch conforme descrito em [Como aplicar um patch compositor fornecido pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
 
 >[!WARNING]
 >
->Se você suspeitar que seu armazenamento está enfrentando um ataque de DoS, a Adobe recomenda reduzir os limites de entrada padrão para um valor menor para impor restrições ao número de recursos que podem ser solicitados.  É possível personalizar os limites padrão de forma programática usando o [argumentos do construtor de classe](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/di-xml-file.html)
->conforme descrito em nossa documentação do desenvolvedor: [Segurança da API > Limitação de taxa > Máximo de entradas de parâmetro](https://devdocs.magento.com/guides/v2.4/get-started/api-security.html#rate-limiting).
+>Se você suspeitar que seu armazenamento está enfrentando um ataque de DoS, a Adobe recomenda reduzir os limites de entrada padrão para um valor menor para impor restrições ao número de recursos que podem ser solicitados.  Você pode personalizar os limites padrão programaticamente usando [argumentos de construtor de classe](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/di-xml-file.html)
+>conforme descrito em nossa documentação para desenvolvedores: [Segurança de API > Limitação de taxa > Máximo de entradas de parâmetro](https://devdocs.magento.com/guides/v2.4/get-started/api-security.html#rate-limiting).
 
 ## Leitura relacionada
 
-[Segurança da API > Limitação de taxa](https://devdocs.magento.com/guides/v2.4/get-started/api-security.html#rate-limiting) na documentação do desenvolvedor.
+[Segurança de API > Limitação de taxa](https://devdocs.magento.com/guides/v2.4/get-started/api-security.html#rate-limiting) na documentação do desenvolvedor.

@@ -43,8 +43,8 @@ O Assistente de Configuração da Web foi desabilitado para todas as instâncias
 
 Esse recurso está desabilitado no Adobe Commerce na infraestrutura em nuvem.
 
-Consulte [Instalar, gerenciar e atualizar extensões](https://devdocs.magento.com/cloud/howtos/install-components.html) na documentação do desenvolvedor, para obter informações sobre como executar atualizações ou instalar módulos externos para o Adobe Commerce em nossa infraestrutura em nuvem.
-Consulte [Instalação de início rápido](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html) na documentação do desenvolvedor, para obter informações sobre como executar atualizações ou instalar módulos externos para o Adobe Commerce no local.
+Consulte [Instalar, gerenciar e atualizar extensões](https://devdocs.magento.com/cloud/howtos/install-components.html) em nossa documentação do desenvolvedor para obter informações sobre como executar atualizações ou instalar módulos externos para o Adobe Commerce em nossa infraestrutura em nuvem.
+Consulte [Instalação de início rápido](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html) em nossa documentação do desenvolvedor para obter informações sobre como executar atualizações ou instalar módulos externos para o Adobe Commerce no local.
 
 ## Leitura relacionada
 

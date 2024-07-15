@@ -17,18 +17,18 @@ Este artigo fornece um patch para o problema conhecido do Adobe Commerce na infr
 
 ## Problema
 
-Se o Google Analytics estiver ativado para a loja, quando um cliente com uBlock instalado ou outro bloqueador de anúncios prosseguir para a finalização, a variável `trackingCode.js` O arquivo está bloqueado para carregamento e RequireJS interrompe o fluxo de execução JS. Isso causa problemas com o carregamento da página de check-out.
+Se o Google Analytics estiver habilitado para a loja, quando um cliente com uBlock instalado ou outro bloqueador de anúncios continuar o check-out, o arquivo `trackingCode.js` será bloqueado de carregar e RequireJS interromperá o fluxo de execução JS. Isso causa problemas com o carregamento da página de check-out.
 
-<u>Etapas a serem reproduzidas</u> :
+<u>Etapas a serem reproduzidas</u>:
 
 Pré-requisitos: um bloqueador de anúncios deve estar instalado e ativo no navegador.
 
 1. No Administrador do Commerce, ative e configure a funcionalidade Google Analytics.
 1. Abra uma página de produto na loja.
 1. Adicione produtos ao carrinho.
-1. Clique em **Ir para Check-out** link.
+1. Clique no link **Ir para Check-out**.
 
-<u>Resultado esperado</u>: a página de Check-out é carregada e o cliente pode concluir o check-out.
+<u>Resultado esperado</u>: a página de check-out é carregada e o cliente pode concluir o check-out.
 
 <u>Resultado real</u>: a página de check-out não carrega; o ponteiro de carregamento nunca desaparece.
 
@@ -53,7 +53,7 @@ O patch também é compatível (mas pode não resolver o problema) com as seguin
 
 ## Como aplicar o patch
 
-Para obter instruções, consulte [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de conhecimento de suporte.
+Para obter instruções, consulte [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de dados de conhecimento de suporte.
 
 ## Links úteis
 

@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Alterar ID de incremento de uma entidade do BD (pedido, fatura, aviso de crédito etc.) em uma loja específica
 
-Este artigo discute como alterar a ID de incremento de uma entidade de banco de dados (BD) do Adobe Commerce (pedido, fatura, aviso de crédito etc.) em uma loja específica do Adobe Commerce usando o `ALTER TABLE` Instrução SQL.
+Este artigo discute como alterar a ID de incremento de uma entidade de banco de dados (BD) do Adobe Commerce (pedido, fatura, aviso de crédito etc.) em um repositório Adobe Commerce específico usando a instrução SQL `ALTER TABLE`.
 
 ## Versões afetadas
 
 * Adobe Commerce no local: 2.x.x
 * Infraestrutura do Adobe Commerce na nuvem: 2.x.x
-* MySQL: any [versão compatível](https://devdocs.magento.com/guides/v2.2/install-gde/system-requirements-tech.html#database)
+* MySQL: qualquer [versão com suporte](https://devdocs.magento.com/guides/v2.2/install-gde/system-requirements-tech.html#database)
 
 ## Quando você precisaria alterar a ID de incremento (ocorrências)
 
@@ -29,12 +29,12 @@ Talvez seja necessário alterar a ID de incremento para novas entidades de BD ne
 
 >[!NOTE]
 >
->Você também pode corrigir o problema do gateway de pagamento para PayPal, permitindo vários pagamentos por ID de fatura nas Preferências de Recebimento de Pagamento do PayPal. Consulte [Solicitação rejeitada do gateway do PayPal - problema de fatura duplicado](/help/troubleshooting/payments/paypal-gateway-rejected-request-duplicate-invoice-issue.md) em nossa base de conhecimento de suporte.
+>Você também pode corrigir o problema do gateway de pagamento para PayPal, permitindo vários pagamentos por ID de fatura nas Preferências de Recebimento de Pagamento do PayPal. Consulte [Solicitação rejeitada do gateway do PayPal - problema de fatura duplicado](/help/troubleshooting/payments/paypal-gateway-rejected-request-duplicate-invoice-issue.md) em nossa base de dados de conhecimento de suporte.
 
 ## Etapas de pré-requisito
 
 1. Localize lojas e entidades para as quais a nova ID de incremento deve ser alterada.
-1. [Conectar](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/mysql_remote.html) para seu banco de dados MySQL. Para o Adobe Commerce na infraestrutura em nuvem, no início, é necessário [SSH para o seu ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
+1. [Conecte](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/mysql_remote.html) ao seu BD MySQL. Para o Adobe Commerce na infraestrutura em nuvem, no início, é necessário [SSH para o seu ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
 1. Verifique o valor de auto\_increment atual para a tabela de sequência de entidade usando a seguinte query:
 
 ```sql
@@ -43,17 +43,17 @@ SHOW TABLE STATUS FROM `{database_name}` WHERE `name` LIKE 'sequence_{entity_typ
 
 ### Exemplo
 
-Se estiver verificando um incremento automático para um pedido na loja com *ID=1*, o nome da tabela seria:
+Se você estiver verificando um incremento automático para um pedido no armazenamento com *ID=1*, o nome da tabela será:
 
 ```sql
 'sequence_order_1'
 ```
 
-Se o valor de `auto_increment` a coluna é *1234*, o próximo pedido feito na loja com *ID=1* terá o *ID \#100001234*.
+Se o valor da coluna `auto_increment` for *1234*, a próxima ordem colocada no armazenamento com *ID=1* terá a *ID \#100001234*.
 
 ### Documentação relacionada
 
-* [Configurar uma conexão remota com o banco de dados MySQL](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/mysql_remote.html) na documentação do desenvolvedor.
+* [Configure uma conexão remota com o banco de dados MySQL](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/mysql_remote.html) na documentação do desenvolvedor.
 
 ## Atualizar entidade para alterar ID de incremento
 
@@ -75,16 +75,16 @@ Após executar a seguinte query:
 ALTER TABLE sequence_order_1 AUTO_INCREMENT = 2000;
 ```
 
-o próximo pedido feito na loja com *ID=1* terá o *ID \#100002000*.
+o próximo pedido feito na loja com *ID=1* terá a *ID \#100002000*.
 
 ## Etapas adicionais recomendadas para o ambiente de produção (Nuvem)
 
-Antes de executar o `ALTER TABLE` no ambiente de produção do Adobe Commerce na infraestrutura em nuvem, recomendamos executar estas etapas:
+Antes de executar a consulta `ALTER TABLE` no ambiente de Produção do Adobe Commerce na infraestrutura em nuvem, é altamente recomendável executar estas etapas:
 
 * Teste todo o procedimento de alteração da ID de incremento no ambiente de preparo
-* [Criar](/help/how-to/general/create-database-dump-on-cloud.md) um backup de BD para restaurar seu BD de produção em caso de falha
+* [Crie](/help/how-to/general/create-database-dump-on-cloud.md) um backup de BD para restaurar seu BD de Produção em caso de falha
 
 ## Documentação relacionada
 
-* [Criar despejo de banco de dados na nuvem](/help/how-to/general/create-database-dump-on-cloud.md) em nossa base de conhecimento de suporte.
+* [Criar despejo de banco de dados na Nuvem](/help/how-to/general/create-database-dump-on-cloud.md) em nossa base de dados de conhecimento de suporte.
 * [SSH para o seu ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html) na documentação do desenvolvedor.

@@ -49,16 +49,16 @@ Na dúvida, não use letras maiúsculas. Em cabeçalhos, use as letras maiúscul
 
 ## Elementos da interface
 
-* Colocar tudo o que o usuário clicar em **negrito**. Por exemplo, &quot;Clique **Continuar**.&quot; Valores de opção e mensagens de erro são formatados com _itálico_.
-* Sempre que possível, evite mencionar o tipo de elemento da interface do usuário nas instruções. (Clique em **Próxima**. vs Clique em **Próxima** botão.)
-* Use &quot;Choose&quot; e &quot;>&quot; em sequências de comando. (Escolher **Editar** > **Preferências**. vs Clique em Editar | Preferências.)
+* Tudo o que o usuário clicar será colocado em **negrito**. Por exemplo, &quot;Clique em **Continuar**.&quot; Valores de opção e mensagens de erro são formatados com _itálico_.
+* Sempre que possível, evite mencionar o tipo de elemento da interface do usuário nas instruções. (Clique em **Avançar**. vs Clique no botão **Avançar**.)
+* Use &quot;Choose&quot; e &quot;>&quot; em sequências de comando. (Escolha **Editar** > **Preferências**. vs Clique em Editar | Preferências.)
 * Preposição: &quot;in&quot; para caixa de diálogo, janela, são um, painel, visualização, assistente, lista, pasta, nó.
 * Preposição: &quot;ativada&quot; para tela, página, barra de ferramentas, barra de menu, guia, painel, faixa de opções.
-* Preposição: Clique (Clique **Próxima** vs Clique em **Próxima**).
+* Preposição: Clique (Clique em **Próximo** vs. Clique em **Próximo**).
 
 ## Nomes de arquivos
 
-Nomes de arquivos e pastas são formatados como código. Exemplo: a variável `/var/log` o diretório do sistema contém logs para todos os ambientes.
+Nomes de arquivos e pastas são formatados como código. Exemplo: o diretório de sistema `/var/log` contém logs para todos os ambientes.
 
 
 ## Números
@@ -206,7 +206,7 @@ Mensagem de erro: __Algo deu errado.__
 
 </td>
 
-<td colspan="1"> Mensagem de erro:  <i>Algo deu errado.</i> </td>
+<td colspan="1"> Mensagem de erro: <i>Algo deu errado.</i> </td>
 
 <td colspan="1">
 </td>
@@ -219,7 +219,7 @@ Mensagem de erro: __Algo deu errado.__
 
 ## Acessibilidade
 
-* Todos os elementos gráficos ou não textuais têm equivalentes textuais ou Texto Alt. Exemplo: ![example_image](/url "alt_text_for_this_image").
+* Todos os elementos gráficos ou não textuais têm equivalentes textuais ou Texto Alt. Exemplo: ![exemplo_imagem](/url "alt_texto_para_esta_imagem").
 
 * Todos os links descrevem seu destino. Exemplo [link](/uri "target_of_the_link").
 
@@ -253,14 +253,14 @@ Uma lista de links especializada, chamada de lista &quot;consulte também&quot;,
 
 ### Links para sites externos
 
-Use URLs comuns em vez de goURLs para vincular a páginas fora do  [Adobe.com](http://Adobe.com).
+Use URLs comuns em vez de goURLs para vincular a páginas fora do [Adobe.com](http://Adobe.com).
 
 
 ## Vírgulas
 
 Em geral, siga as recomendações do Manual de estilo de Chicago para pontuação de estilo aberto, pontuando somente quando necessário para evitar leituras incorretas. Por exemplo, você pode omitir a vírgula antes de uma conjunção em uma sentença composta se houver pouco ou nenhum risco de erro de leitura. Use a vírgula quando necessário para obter esclarecimentos.
 
-* Sempre use a vírgula serial (uma vírgula precedente _e_ ou _ou_ em uma lista de três ou mais itens): x, y e z
+* Sempre use a vírgula serial (uma vírgula precedente a _and_ ou _or_ em uma lista de três ou mais itens): x, y e z
 
 * Coloque uma vírgula antes de uma conjunção introduzindo uma cláusula independente: &quot;Especifique um local e digite um nome para a lista de arquivos.&quot;
 
@@ -276,4 +276,4 @@ Em geral, siga as recomendações do Manual de estilo de Chicago para pontuaçã
 
 ## Marcas
 
-* O Magento Commerce agora é Adobe Commerce. Consulte a [Termos de remarca](https://github.com/magento/knowledge-base/wiki) wiki para obter mais informações sobre como usar um idioma atualizado de marca.
+* O Magento Commerce agora é Adobe Commerce. Consulte o wiki [Termos de remarca](https://github.com/magento/knowledge-base/wiki) para obter mais informações sobre como usar um idioma de marca atualizado.

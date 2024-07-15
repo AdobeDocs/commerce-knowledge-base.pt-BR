@@ -28,10 +28,10 @@ O tamanho das tabelas do MySQL não afeta diretamente o desempenho do site. No e
 
 Considere as seguintes opções para evitar uma redução no desempenho:
 
-* Crie um trabalho CRON, que limpará tabelas grandes. Consulte [Localizar tabelas MySQL grandes](/help/how-to/general/find-large-mysql-tables.md) na nossa base de conhecimento de suporte para obter recomendações sobre como identificar tabelas grandes.
+* Crie um trabalho CRON, que limpará tabelas grandes. Consulte [Encontrar tabelas MySQL grandes](/help/how-to/general/find-large-mysql-tables.md) em nossa base de dados de suporte para obter recomendações sobre como identificar tabelas grandes.
 * Para tabelas maiores que 1 GB, use um mecanismo MySQL otimizado para gravação de logs. Por exemplo, o mecanismo Arquivo.
 * Atualize a funcionalidade para evitar o armazenamento de logs no DB.
 
 ## Leitura relacionada
 
-[Tabelas de log de alterações superdimensionadas que causam atrasos nas atualizações de entidades](/help/troubleshooting/database/changes-in-the-database-are-not-reflected-on-the-storefront.md) em nossa base de conhecimento de suporte.
+[Tabelas de log de alterações muito grandes que causam atrasos nas atualizações de entidades](/help/troubleshooting/database/changes-in-the-database-are-not-reflected-on-the-storefront.md) em nossa base de dados de conhecimento de suporte.

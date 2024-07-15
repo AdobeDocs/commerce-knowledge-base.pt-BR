@@ -13,23 +13,23 @@ ht-degree: 0%
 
 # Erro &quot;Área já definida&quot; ao salvar a configuração do tema no Administrador
 
-Este artigo fornece um patch para o problema conhecido do Adobe Commerce na infraestrutura em nuvem 2.2.4 relacionado à obtenção do *&quot;A área já está definida&quot;* mensagem de erro ao tentar definir um tema para a Exibição de loja padrão no Administrador do Commerce.
+Este artigo fornece um patch para o problema conhecido do Adobe Commerce na infraestrutura de nuvem 2.2.4 relacionado à obtenção da mensagem de erro *&quot;A área já está definida&quot;* ao tentar definir um tema para a Exibição de loja padrão no Administrador do Commerce.
 
 ## Problema
 
-Você obtém o &quot; *Ocorreu um problema ao salvar esta configuração: a área já está definida* &quot;mensagem de erro ao tentar definir um tema para a Exibição de loja padrão.
+Você recebe a mensagem de erro &quot; *Algo deu errado ao salvar esta configuração: A área já está definida*&quot; ao tentar definir um tema para o Modo de Exibição de Loja Padrão.
 
 <u>Etapas a serem reproduzidas</u>:
 
 1. Faça logon no Administrador do Commerce.
 1. Navegue até **Conteúdo** > **Design** > **Configuração**.
-1. Defina o escopo de configuração como *Visualização da loja padrão*.
-1. Alterar o tema no **Tema aplicado** menu suspenso. Por exemplo, de *Luma* para *Em branco.*
+1. Defina o escopo de configuração como *Exibição de Repositório Padrão*.
+1. Altere o tema no menu suspenso **Tema Aplicado**. Por exemplo, de *Luma* para *Em branco.*
 1. Clique em **Salvar configuração**.
 
-<u>Resultado esperado</u>: o tema selecionado é aplicado à exibição de loja padrão.
+<u>Resultado esperado</u>: o tema selecionado é aplicado ao modo de exibição de repositório padrão.
 
-<u>Resultado real</u> : o tema não é aplicado, o parâmetro *&quot;Algo deu errado ao salvar esta configuração: a área já está definida&quot;* é exibida.
+<u>Resultado real</u>: o tema não foi aplicado, a mensagem de erro *&quot;Algo deu errado ao salvar esta configuração: A área já está definida&quot;* é exibida.
 
 ## Correção
 
@@ -54,6 +54,6 @@ O patch também é compatível (mas pode não resolver o problema) com as seguin
 
 ## Como aplicar o patch
 
-Para obter instruções, consulte [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de conhecimento de suporte.
+Para obter instruções, consulte [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de dados de conhecimento de suporte.
 
 ## Arquivos Anexados

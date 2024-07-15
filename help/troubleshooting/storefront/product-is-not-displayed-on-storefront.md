@@ -47,15 +47,15 @@ Isso pode ser causado por vários motivos. Siga as etapas abaixo para verificar 
 
 Cada um dos pontos a seguir pode resolver o problema.
 
-* Verifique as configurações do produto no Admin. Ir para **Catálogo** > **Produtos**, abra a página do produto e verifique se os seguintes campos estão configurados corretamente:
-   * **Ativar produto** = *Sim.*
-   * **Status do estoque**: *Em estoque*. Ou se *Sem estoque* é o valor correto, verifique se **Exibir Produtos sem Estoque** (**LOJAS** > **Configurações** > **Configuração** > **CATÁLOGO** > **Inventário** > **Opções de estoque** > **Exibir Produtos Sem Estoque**) está definida como *Sim* (configurado em nível global).
+* Verifique as configurações do produto no Admin. Vá para **Catálogo** > **Produtos**, abra a página do produto e verifique se os seguintes campos estão configurados corretamente:
+   * **Habilitar Produto** = *Sim.*
+   * **Status do Estoque**: *No Estoque*. Ou se *Produto esgotado* for o valor correto, verifique se **Exibir Produtos esgotados** (**LOJAS** > **Configurações** > **Configuração** > **CATÁLOGO** > **Inventário** > **Opções de Estoque** > **Exibir Produtos Não Estocados**) está definido como *Sim* (configurado em nível global).
    * **Categorias**: se você tentar encontrar o produto em uma página de categoria, verifique se o produto está atribuído à categoria. Para simplificar a solução de problemas, crie uma nova categoria da página atual e atribua um produto a ela.
    * **Visibilidade** = *Catálogo, Pesquisa.*
-   * No **Produto em sites** verifique se o produto está atribuído ao site correto.
+   * Na seção **Produto nos Sites**, verifique se o produto foi atribuído ao site correto.
    * Alterne o seletor de escopo para a visualização da loja onde você tenta encontrar o produto na loja e verifique as mesmas configurações.
-* Executar o reindexação completo executando `bin/magento indexer:reindex` do console e liberar todo o cache no Administrador, em **Sistema** > **Ferramentas** > **Gerenciamento de cache**, ou no console, executando `bin/magento cache:clean`.
-* Se isso não ajudar, inicie uma investigação mais detalhada verificando os logs no `var/log` diretório.
+* Execute a reindexação completa executando o `bin/magento indexer:reindex` no console e limpe todo o cache no Administrador em **Sistema** > **Ferramentas** > **Gerenciamento de Cache**, ou no console executando o `bin/magento cache:clean`.
+* Se isso não ajudar, inicie uma investigação mais detalhada verificando os logs no diretório `var/log`.
 
 ## Leitura relacionada em nossa base de conhecimento de suporte
 

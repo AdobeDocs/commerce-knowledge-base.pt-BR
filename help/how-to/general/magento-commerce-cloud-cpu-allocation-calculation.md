@@ -21,4 +21,4 @@ Adobe Commerce na infraestrutura em nuvem 2.3.x, 2.4.x.
 
 ## Arquivos anexados
 
-Clique no link [anexado .pdf](assets/CPU_Allocation.pdf) arquivo para baixar o artigo.
+Clique no [arquivo .pdf](assets/CPU_Allocation.pdf) anexado para baixar o artigo.

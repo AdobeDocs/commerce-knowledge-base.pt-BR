@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# Verificando o log de implantação se a interface da nuvem *log recortado* erro
+# Verificando o log de implantação se a interface da nuvem tem o erro *log recortado*
 
-Este artigo fornece uma solução para o problema em que a interface do usuário do Adobe Commerce na infraestrutura em nuvem mostra o *log recortado porque era muito longo* mensagem de erro ao tentar exibir o log de implantação na interface do usuário do projeto de nuvem. (Não se aplica ao [Console do Adobe Commerce Cloud](https://console.adobecommerce.com/).)
+Este artigo fornece uma solução para o problema em que o Adobe Commerce na interface do usuário da infraestrutura em nuvem mostra a mensagem de erro *log recortado porque era muito longo* ao tentar exibir o log de implantação na interface do usuário do projeto em nuvem. (Não se aplica ao [Adobe Commerce Cloud Console](https://console.adobecommerce.com/).)
 
 ## Produtos afetados
 
@@ -21,12 +21,12 @@ Adobe Commerce na infraestrutura em nuvem (todas as versões compatíveis)
 
 ## Problema
 
-Ao tentar exibir o log de implantação na interface do usuário do projeto de nuvem, a interface do usuário do Adobe Commerce na infraestrutura em nuvem mostra a seguinte mensagem de erro: *log recortado porque era muito longo*.
+Ao tentar exibir o log de implantação na interface do projeto de nuvem, o Adobe Commerce na interface da infraestrutura de nuvem mostra a seguinte mensagem de erro: *log interrompido porque era muito longo*.
 
 ## Etapas a serem reproduzidas
 
-1. Vá para o URL do projeto e clique no link **Status** da implantação em questão.
-1. Se o log for muito longo para ser exibido na interface do usuário, ele mostrará a mensagem de erro: *log recortado porque era muito longo*.
+1. Vá para a URL do Projeto e clique no **Status** da implantação em questão.
+1. Se o log for muito longo para ser exibido na interface, ele mostrará a mensagem de erro: *log cortado porque era muito longo*.
 
 ## Causa
 
@@ -34,7 +34,7 @@ Observe que o log mostrado na interface do usuário não deve ser tratado como a
 
 ## Solução
 
-1. Verifique se você tem [CLI da Magento Cloud](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html) instalado em seu ambiente local.
+1. Verifique se você tem a [CLI do Magento Cloud](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html) instalada em seu ambiente local.
 1. Execute o seguinte comando:
 
    ```bash

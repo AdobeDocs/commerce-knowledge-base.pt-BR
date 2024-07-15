@@ -36,18 +36,18 @@ Um motivo para a degradação de desempenho pode ser a desativação de determin
    php bin/magento cache:status
    ```
 
-   Isso exibiria o status de cada tipo de cache (&quot;0&quot; para desativado, &quot;1&quot; para ativado). Ou você pode obter essas informações no `app/etc/env.php` arquivo.
+   Isso exibiria o status de cada tipo de cache (&quot;0&quot; para desativado, &quot;1&quot; para ativado). Ou você pode obter essas informações no arquivo `app/etc/env.php`.
 
 1. Investigue os tipos de cache desabilitados. Todos os tipos de cache do Adobe Commerce devem ser ativados, a menos que você tenha recebido orientações alternativas do Adobe. As extensões de terceiros não devem exigir a desativação do cache do Adobe Commerce.
-1. Se a investigação confirmar que alguns tipos de cache estão desativados por engano, ative-os executando o seguinte comando para cada tipo de cache: `php bin/magento cache:enable <your_disabled_cache_type>`
+1. Se a investigação confirmar que alguns tipos de cache estão desabilitados por engano, habilite-os executando o seguinte comando para cada tipo de cache: `php bin/magento cache:enable <your_disabled_cache_type>`
 
-Se houver dúvidas e/ou dúvidas se um determinado tipo de cache do Adobe Commerce pode ou deve ser desativado, [entre em contato com o suporte da Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) solicitando recomendações.
+Se houver dúvidas e/ou se um determinado tipo de cache do Adobe Commerce pode ou deve ser desabilitado, [contate o suporte da Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) solicitando recomendações.
 
 ## Leitura relacionada
 
 Documentação do cache do Adobe Commerce na documentação do desenvolvedor:
 
-* [Visão geral do cache do Adobe Commerce](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/cache_for_frontdevs.html)
+* [visão geral do cache do Adobe Commerce](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/cache_for_frontdevs.html)
 * [Gerenciar o cache](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-cache.html)
 
 Outros motivos possíveis para problemas de desempenho e as soluções para eles:

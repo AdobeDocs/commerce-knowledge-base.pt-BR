@@ -17,11 +17,11 @@ Este artigo fornece uma solução para quando você luta para fazer logon no sup
 
 ## Produtos e versões afetados
 
-Adobe Commerce (todos os métodos de implantação) all [versões compatíveis](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
+Adobe Commerce (todos os métodos de implantação) todas as [versões com suporte](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 ## Problema
 
-Quando você vai para o [https://account.magento.com/customer/account/login/](https://account.magento.com/customer/account/login/) ou [https://accounts.magento.cloud/user](https://accounts.magento.cloud/user) você pode notar que agora há um formulário de logon unificado e que não é mais possível inserir suas credenciais como anteriormente.
+Ao acessar [https://account.magento.com/customer/account/login/](https://account.magento.com/customer/account/login/) ou [https://accounts.magento.cloud/user](https://accounts.magento.cloud/user), você poderá notar que agora há um formulário de logon unificado e que não é mais possível inserir suas credenciais como anteriormente.
 
 <u>Etapas a serem reproduzidas</u>:
 
@@ -51,7 +51,7 @@ Você pode fazer logon na conta com:
 - Uma conta Adobe existente corporativa/pessoal.
 - Se você não tiver uma conta Adobe, crie uma com o mesmo endereço de email.
 
-Para etapas, consulte [Commerce Identity Manager](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-identity-manager.html) no Adobe Experience League.
+Para ver as etapas, consulte o [Commerce Identity Manager](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-identity-manager.html) no Adobe Experience League.
 
 ## Leitura relacionada
 

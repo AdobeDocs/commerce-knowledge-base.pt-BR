@@ -17,21 +17,21 @@ Este artigo fornece uma correção para um problema conhecido do Adobe Commerce 
 
 ## Problema
 
-Quando o cron está configurado para ser executado a cada minuto, se você editar variáveis de tempo para três tarefas agendadas no Admin, a variável `cron_schedule` a tabela de banco de dados mostra grupos de várias tarefas agendadas para execução ao mesmo tempo.
+Quando o cron está configurado para execução a cada minuto, se você editar variáveis de tempo para três tarefas agendadas no Admin, a tabela de banco de dados `cron_schedule` mostrará grupos de várias tarefas agendadas para execução ao mesmo tempo.
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. No Commerce Admin, navegue até **Lojas** > Configurações > **Configuração** > **AVANÇADO** > **Sistema** > **Cron (Tarefas Agendadas)** > **Opções de configuração do Cron para o grupo: padrão.**
+1. Na Administração do Commerce, navegue até **Lojas** > Configurações > **Configuração** > **AVANÇADO** > **Sistema** > **Cron (Tarefas Agendadas)** > **Opções de configuração do Cron para o grupo: padrão.**
 1. Configure as seguintes opções:
-   * **Limpeza do Histórico a Cada**: limpe o **Usar sistema** e defina como *1440*.
-   * **Vida útil do histórico de sucesso**: limpe o **Usar sistema** e defina como *1440*.
-   * **Duração do Histórico de Falhas**: limpe o **Usar sistema** e defina como *1440*.
+   * **Limpeza de Histórico a Cada**: desmarque a caixa de seleção **Usar sistema** e defina como *1440*.
+   * **Vida Útil do Histórico de Êxito**: desmarque a caixa de seleção **Usar sistema** e defina como *1440*.
+   * **Duração do Histórico de Falhas**: desmarque a caixa de seleção **Usar sistema** e defina como *1440*.
 
 1. Clique em **Salvar configuração**.
-1. No SSH, execute o `crontab -e` comando.
+1. No SSH, execute o comando `crontab -e`.
 1. Defina cron para ser executado a cada minuto.
 1. Abra três guias/janelas do terminal.
-1. Ir para a Adobe Commerce `root/base/project` em cada janela de terminal.
+1. Vá para o diretório `root/base/project` do Adobe Commerce em cada janela do terminal.
 1. Execute o seguinte comando em cada guia/janela:
 
    ```bash
@@ -46,13 +46,13 @@ Quando o cron está configurado para ser executado a cada minuto, se você edita
 
 1. Consulte grupos de tarefas agendadas para execução simultânea.
 
-<u>Resultado esperado</u>: Um cron `job_code` deve ser agendada para o período de tempo determinado.
+<u>Resultado esperado</u>: um cron `job_code` deve ser agendado para o período de tempo determinado.
 
-<u>Resultado real</u>: há vários trabalhos cron agendados para o mesmo período de tempo.
+<u>Resultado real</u>: há vários trabalhos cron agendados para o mesmo período.
 
 ## Solução
 
-Para comerciantes de infraestrutura em nuvem do Adobe Commerce, [atualização das ferramentas ECE](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html) O resolverá o problema.
+Para o Adobe Commerce nos estabelecimentos comerciais de infraestrutura em nuvem, [atualizar as ferramentas ECE](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html) resolverá o problema.
 
 Os comerciantes locais do Adobe Commerce devem aplicar um dos patches anexados para resolver o problema.
 
@@ -78,7 +78,7 @@ Os patches também são compatíveis com as seguintes versões:
    * Adobe Commerce na infraestrutura em nuvem 2.1.0 - 2.1.4
 * Para o Adobe Commerce no local 2.1.5-2.1.12: [Baixar MDVA-11304\_EE\_2.1.5\_COMPOSER\_v1.patch](assets/MDVA-11304_EE_2.1.5_COMPOSER_v1.patch.zip) O patch também é compatível (mas pode não resolver o problema) com as seguintes versões e edições do Adobe Commerce:
    * Adobe Commerce na infraestrutura em nuvem 2.1.5 - 2.1.12
-* Para o Adobe Commerce na infraestrutura em nuvem 2.1.13: [Baixar MDVA-11304\_EE\_2.1.13\_COMPOSER\_v1.patch](assets/MDVA-11304_EE_2.1.13_COMPOSER_v1.patch.zip)
+* Para o Adobe Commerce na infraestrutura de nuvem 2.1.13: [Baixar MDVA-11304\_EE\_2.1.13\_COMPOSER\_v1.patch](assets/MDVA-11304_EE_2.1.13_COMPOSER_v1.patch.zip)
 * Para o Adobe Commerce no local 2.1.14-2.1.17: [Baixar MDVA-11304\_EE\_2.1.14\_COMPOSER\_v1.patch](assets/MDVA-11304_EE_2.1.14_COMPOSER_v1.patch.zip) O patch também é compatível (mas pode não resolver o problema) com as seguintes versões e edições do Adobe Commerce:
    * Adobe Commerce no local 2.1.18
    * Adobe Commerce na infraestrutura em nuvem 2.1.14-2.1.18
@@ -91,6 +91,6 @@ Os patches também são compatíveis com as seguintes versões:
 
 ## Como aplicar o patch
 
-Consulte [Como aplicar um patch de compositor fornecido pelo Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) na nossa base de conhecimento de suporte, para obter instruções.
+Consulte [Como aplicar um patch de compositor fornecido pelo Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de dados de suporte, para obter instruções.
 
 ## Arquivos Anexados

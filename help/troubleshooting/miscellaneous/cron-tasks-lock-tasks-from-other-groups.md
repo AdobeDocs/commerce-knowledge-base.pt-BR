@@ -28,16 +28,16 @@ No Adobe Commerce para nuvem, quando você tem tarefas cron complexas (tarefas d
 
 Os processos executados pelos trabalhos cron não são executados. Por exemplo, as atualizações de produtos não são aplicadas por horas ou os clientes relatam não receber emails.
 
-Ao abrir a variável `cron_schedule` tabela de banco de dados, você verá os jobs com `missed` status.
+Ao abrir a tabela de banco de dados `cron_schedule`, você verá os trabalhos com o status `missed`.
 
 ## Causa
 
-Anteriormente, em nosso ambiente de nuvem, o servidor Jenkins era usado para executar trabalhos cron. O Jenkins executará apenas uma instância de um trabalho por vez; consequentemente, haverá apenas uma `bin/magento cron:run` processo em execução de cada vez.
+Anteriormente, em nosso ambiente de nuvem, o servidor Jenkins era usado para executar trabalhos cron. O Jenkins executará somente uma instância de um trabalho por vez; consequentemente, haverá somente um processo `bin/magento cron:run` em execução por vez.
 
 ## Solução
 
-1. Contato [Suporte ao Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) para ter os crons autogerenciados habilitados.
-1. Edite o `.magento.app.yaml` no diretório raiz do código do Adobe Commerce na ramificação Git. Adicione o seguinte:
+1. Contate o [suporte da Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) para habilitar os crons autogerenciados.
+1. Edite o arquivo `.magento.app.yaml` no diretório raiz do código do Adobe Commerce na ramificação Git. Adicione o seguinte:
 
    ```yaml
      crons:
@@ -50,11 +50,11 @@ Anteriormente, em nosso ambiente de nuvem, o servidor Jenkins era usado para exe
 
 >[!NOTE]
 >
->Não há necessidade de transferir configurações cron antigas onde vários `cron:run` estão presentes no novo cronograma cron; o cronograma regular `cron:run` tarefa, adicionada conforme descrito acima, é suficiente. No entanto, é necessário transferir seus trabalhos personalizados, se você tiver algum.
+>Não há necessidade de transferir configurações cron antigas em que vários `cron:run` estão presentes para o novo cronograma cron. A tarefa `cron:run` normal, adicionada conforme descrito acima, é suficiente. No entanto, é necessário transferir seus trabalhos personalizados, se você tiver algum.
 
 ### Verifique se você tem o cron gerenciado automaticamente habilitado (somente para Preparo e Produção do Cloud Pro)
 
-Para verificar se o cron autogerenciado está ativado, execute o `crontab -l` e observe o resultado:
+Para verificar se o cron autogerenciado está habilitado, execute o comando `crontab -l` e observe o resultado:
 
 * O cron autogerenciado será ativado se você conseguir ver as tarefas, como as seguintes:
 
@@ -63,7 +63,7 @@ Para verificar se o cron autogerenciado está ativado, execute o `crontab -l` e 
   SHELL=/etc/platform/username/cron-run    MAILTO=""    # m h dom mon dow job_name    * * * * * cronrun
   ```
 
-* O cron autogerenciado não é ativado se você não puder ver as tarefas e obter o *&quot;você não tem permissão para usar este programa&quot;* mensagem de erro.
+* O cron autogerenciado não é habilitado se você não puder ver as tarefas e obter a mensagem de erro *&quot;você não tem permissão para usar este programa&quot;*.
 
 >[!NOTE]
 >
@@ -71,4 +71,4 @@ Para verificar se o cron autogerenciado está ativado, execute o `crontab -l` e 
 
 ## Leitura relacionada
 
-* [Configurar trabalhos cron](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) na documentação do desenvolvedor.
+* [Configure os trabalhos cron](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) em nossa documentação do desenvolvedor.

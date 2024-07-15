@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # ACSD-55610: a ordem parcialmente cancelada tem quantia de desconto incorreta
 
-O patch ACSD-55610 corrige o problema em que um pedido parcialmente cancelado tem um valor de desconto incorreto. Este patch está disponível quando a variável [!DNL Quality Patches Tool (QPT)] O 1.1.43 está instalado. A ID do patch é ACSD-55610. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.7.
+O patch ACSD-55610 corrige o problema em que um pedido parcialmente cancelado tem um valor de desconto incorreto. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.43 está instalado. A ID do patch é ACSD-55610. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.7.
 
 ## Produtos e versões afetados
 
-**O patch é criado para a versão do Adobe Commerce:**
+**O patch foi criado para a versão do Adobe Commerce:**
 
 * Adobe Commerce (todos os métodos de implantação) 2.4.6
 
@@ -27,7 +27,7 @@ O patch ACSD-55610 corrige o problema em que um pedido parcialmente cancelado te
 
 >[!NOTE]
 >
->O patch pode se tornar aplicável a outras versões com novos [!DNL Quality Patches Tool] versões. Para verificar se o patch é compatível com sua versão do Adobe Commerce, atualize o `magento/quality-patches` pacote para a versão mais recente e verifique a compatibilidade no [[!DNL Quality Patches Tool]: Página Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+>O patch pode se tornar aplicável a outras versões com as novas versões do [!DNL Quality Patches Tool]. Para verificar se o patch é compatível com a sua versão do Adobe Commerce, atualize o pacote `magento/quality-patches` para a versão mais recente e verifique a compatibilidade na [[!DNL Quality Patches Tool]: página Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
 
 ## Problema
 
@@ -37,9 +37,9 @@ Um pedido parcialmente cancelado tem um valor de desconto incorreto.
 
 1. Criar uma regra de preço de carrinho de compras.
 
-   * *[!UICONTROL Rule Name]*: *Venda de inverno*
+   * *[!UICONTROL Rule Name]*: *Vendas de inverno*
    * *[!UICONTROL Active]* = *Sim*
-   * *[!UICONTROL Websites]* = *Site principal*
+   * *[!UICONTROL Websites]* = *Site Principal*
    * Escolha todos os grupos de clientes.
    * Selecione um cupom específico.
    * *[!UICONTROL Coupon Code]*: *INVERNO10*
@@ -54,28 +54,28 @@ Um pedido parcialmente cancelado tem um valor de desconto incorreto.
 1. Coloque o pedido.
 1. Faturar um item da ordem e entregá-lo.
 1. Cancele os outros dois itens.
-1. Verifique a `base_discount_canceled` coluna.
+1. Verifique a coluna `base_discount_canceled`.
 
 <u>Resultados esperados</u>:
 
-O valor do desconto em `base_discount_cancelled` O reflete corretamente.
+O valor do desconto em `base_discount_cancelled` reflete corretamente.
 
 <u>Resultados reais</u>:
 
-A variável `base_discount_cancelled` não está correto.
+O `base_discount_cancelled` não está correto.
 
 ## Aplicar o patch
 
 Para aplicar patches individuais, use os links a seguir, dependendo do método de implantação:
 
-* Adobe Commerce ou Magento Open Source no local: [[!DNL Quality Patches Tool] > Uso](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) no [!DNL Quality Patches Tool] guia.
-* Adobe Commerce na infraestrutura em nuvem: [Upgrades e Patches > Aplicar Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) no guia do Commerce na infraestrutura em nuvem.
+* Adobe Commerce ou Magento Open Source no local: [[!DNL Quality Patches Tool] > Uso](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) no guia [!DNL Quality Patches Tool].
+* Adobe Commerce na infraestrutura em nuvem: [Atualizações e patches > Aplicar patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) no guia do Commerce na infraestrutura em nuvem.
 
 ## Leitura relacionada
 
 Para saber mais sobre [!DNL Quality Patches Tool], consulte:
 
-* [[!DNL Quality Patches Tool] lançado: uma nova ferramenta para autoatender correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de conhecimento de suporte.
-* [Verifique se o patch está disponível para o problema do Adobe Commerce usando [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de conhecimento de suporte.
+* [[!DNL Quality Patches Tool] versão: uma nova ferramenta para autoatender patches de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de dados de conhecimento de suporte.
+* [Verifique se há um patch disponível para o problema do Adobe Commerce usando o [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de dados de conhecimento de suporte.
 
-Para obter informações sobre outros patches disponíveis no QPT, consulte [[!DNL Quality Patches Tool]: Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) no [!DNL Quality Patches Tool] guia.
+Para obter informações sobre outros patches disponíveis no QPT, consulte [[!DNL Quality Patches Tool]: Pesquisar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) no guia [!DNL Quality Patches Tool].

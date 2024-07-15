@@ -28,19 +28,19 @@ Sabemos que às vezes surgem problemas de cobrança e, quando surgem, o Adobe es
 
 Esse método de pagamento é para comerciantes com licenças no local e/ou faturamento trimestral, faturamento semestral e faturamento anual. Se você se enquadrar em uma dessas categorias, siga as instruções abaixo:
 
-1. Clique em [aqui](https://account.magento.com/customer/account/login) para fazer logon.
+1. Clique [aqui](https://account.magento.com/customer/account/login) para fazer login.
 
-1. Use suas credenciais para acessar sua conta. **Somente o titular da conta principal pode acessar a seção de pagamento da sua conta.**
+1. Use suas credenciais para acessar sua conta. **Somente o titular primário da conta pode acessar a seção de pagamento da sua conta.**
 
-1. Ir para **Minha conta** > **Meus produtos e serviços** > Selecionar *Seu produto específico adquirido* > **Gerenciar** (localizado à direita do Produto) > **Exibir detalhes** (localizado à direita da Assinatura).
+1. Acesse **Minha Conta** > **Meus Produtos e Serviços** > Selecione *Seu Produto Específico Comprado* > **Gerenciar** (à direita do Produto) > **Mostrar Detalhes** (à direita da Assinatura).
 
-1. Clique em **Pagar agora** botão para inserir seu cartão de crédito / PayPal detalhes e completar seu pagamento.
+1. Clique no botão **Pagar Agora** para inserir seus detalhes de cartão de crédito/PayPal e concluir seu pagamento.
 
    >[!NOTE]
    >
-   >Não aceitamos pagamentos parciais com cartão de crédito ou PayPal utilizando o **Pagar agora** você concorda em ser cobrado pelo valor total da fatura.
+   >Não aceitamos pagamentos parciais com cartão de crédito ou PayPal. Ao utilizar o recurso **Pagar Agora**, você concorda em ser cobrado pelo valor total da fatura.
 
-1. Se você encontrar um erro ou tiver dúvidas sobre o **Pagar agora** recurso, contate [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com) para obter mais assistência.
+1. Se você encontrar um erro ou tiver dúvidas sobre o recurso **Pagar Agora**, contate [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com) para obter mais assistência.
 
 ### Configuração de pagamento automático {#cc-autopay}
 
@@ -48,45 +48,45 @@ Esse método de pagamento é para comerciantes com faturamento mensal (exceto pa
 
 >[!NOTE]
 >
->Se você estiver utilizando atualmente o **Pagar agora** e gostaria de configurar um pagamento recorrente via pagamento automático. Entre em contato com a equipe de conta do Adobe para obter assistência adicional.
+>Se você estiver utilizando o recurso **Pagar agora** e quiser configurar um pagamento recorrente via pagamento automático, entre em contato com a equipe de conta da Adobe para obter mais assistência.
 
-1. Clique em [aqui](https://account.magento.com/customer/account/login) para fazer logon.
+1. Clique [aqui](https://account.magento.com/customer/account/login) para fazer login.
 
 1. Use suas credenciais para acessar sua conta. Somente o titular da conta principal pode acessar a seção de pagamento da sua conta.
 
-1. Ir para **Minha conta** > **Meus produtos e serviços** > Selecionar *Seu produto específico adquirido* > **Gerenciar** (localizado à direita do Produto) > **Exibir detalhes** (localizado à direita da Assinatura).
+1. Acesse **Minha Conta** > **Meus Produtos e Serviços** > Selecione *Seu Produto Específico Comprado* > **Gerenciar** (à direita do Produto) > **Mostrar Detalhes** (à direita da Assinatura).
 
-1. Clique em **Alterar método de pagamento** botão para adicionar um novo cartão de crédito/conta do PayPal ou para selecionar entre cartões/contas existentes no arquivo.
+1. Clique no botão **Alterar método de pagamento** para adicionar um novo cartão de crédito/conta do PayPal ou selecionar entre cartões/contas existentes no arquivo.
 
 1. Clique em **Salvar**.
 
    >[!NOTE]
    >
-   >Depois de clicar em **Salvar** todas as faturas abertas/não pagas serão cobradas na íntegra.
+   >Depois de clicar em **Salvar**, todas as faturas abertas/não pagas serão cobradas integralmente.
 
-1. Se você encontrar um erro ou tiver dúvidas sobre o **Pagamento automático** recurso, contate [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com) para obter mais assistência.
+1. Se você encontrar um erro ou tiver dúvidas sobre o recurso **Pagamento automático**, contate [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com) para obter ajuda.
 
 ### Perguntas frequentes
 
-**P:** Quanto posso cobrar no meu cartão de crédito ou através do PayPal?<br>
-**R:** Atualmente, aceitamos cartão de crédito e/ou pagamento PayPal de até US$ 75.000,00. Pagamentos superiores a US$ 75.000,00 devem ser feitos via ACH, transferência eletrônica ou cheque.
+**P:** Quanto posso cobrar no meu Cartão de Crédito ou pelo PayPal?<br>
+**A:** Atualmente, aceitamos cartão de crédito e/ou pagamento PayPal de até US$ 75.000,00. Pagamentos superiores a US$ 75.000,00 devem ser feitos via ACH, transferência eletrônica ou cheque.
 
-**P:** Como posso adicionar um novo cartão ou conta PayPal em arquivo?<br>
-**R:** Como titular de conta principal, você pode adicionar um novo cartão/conta fazendo o seguinte:
+**P:** Como posso adicionar um novo cartão ou conta do PayPal em arquivo?<br>
+**A:** Como titular primário da conta, você pode adicionar um novo cartão/conta fazendo o seguinte:
 
-1. Ir para **Minha conta** > **Configurações da conta** > **Faturamento e Pagamentos**.
-1. Selecione PayPal ou Cartão de crédito e clique em **Adicionar um novo cartão** e insira os detalhes.
+1. Vá para **Minha Conta** > **Configurações da Conta** > **Faturamentos e Pagamentos**.
+1. Selecione PayPal ou Cartão de Crédito, em seguida, clique em **Adicionar um novo cartão** e insira os detalhes.
 1. Depois de adicionado com êxito, clique em **Definir como padrão** ao lado do novo cartão. Você deverá inserir o CVV.
-1. Exclua o cartão/conta antigo clicando em **Excluir cartão** à direita do cartão. Somente os métodos de pagamento não definidos como padrão podem ser excluídos.
+1. Exclua o cartão/a conta antiga clicando em **Excluir Cartão** à direita do cartão. Somente os métodos de pagamento não definidos como padrão podem ser excluídos.
 
 >[!NOTE]
 >
 >Se você for um comerciante de pagamento automático, siga as instruções de configuração de pagamento automático listadas acima para conectar seu novo cartão à assinatura apropriada.
 
-**P:** Tenho um cartão configurado para pagamento automático, mas ele expirou. Como posso adicionar um novo cartão de crédito de pagamento automático?<br>
-**R:** Para adicionar um novo cartão, passe pelas etapas de configuração de pagamento automático listadas acima. Essas etapas para trabalhar na primeira configuração e para adicionar novos cartões.
+**P:** tenho um cartão configurado para pagamento automático, mas ele expirou. Como posso adicionar um novo cartão de crédito de pagamento automático?<br>
+**A:** Para adicionar um novo cartão, passe pelas etapas de configuração de pagamento automático listadas acima. Essas etapas para trabalhar na primeira configuração e para adicionar novos cartões.
 
-Se você passou por essas instruções, mas não viu uma cobrança em seu cartão/conta em 30 minutos, entre em contato com: [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com).
+Se você passou por essas instruções, mas não viu nenhuma cobrança em seu cartão/conta em 30 minutos, contate: [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com).
 
 
 ## Direitos
@@ -95,26 +95,26 @@ Os direitos são o que permitem enviar tíquetes, baixar módulos e acessar noss
 
 Estas são as etapas para verificar se seus pagamentos estão atualizados:
 
-1. Faça com que o proprietário da conta principal faça logon na conta [https://account.magento.com](https://account.magento.com) e navegue até a seção faturas.
+1. Faça com que o Proprietário da Conta Principal faça logon na conta [https://account.magento.com](https://account.magento.com) e navegue até a seção de faturas.
 1. Verifique para garantir que não haja faturas pendentes. Quando uma fatura está vencida em um dia, os direitos são temporariamente desativados até que todas as faturas tenham sido pagas.
 1. Se você tiver uma fatura não paga, pague o mais rápido possível. Isso é feito rapidamente por meio de um CC, e garante que um CC esteja configurado no arquivo. Assim que o Adobe receber o pagamento, seus direitos retornarão no mesmo dia em que o pagamento for recebido.
-1. Se você não tiver certeza se suas faturas foram pagas ou se você enviou o pagamento e não tiver certeza se ele foi recebido, envie um email para Cobranças de Crédito Magento [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com).
+1. Se você não tiver certeza se suas faturas foram pagas ou se você enviou o pagamento e não tiver certeza se ele foi recebido, envie um email para Coleções de Crédito de Magento [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com).
 
-**Se você não tiver faturas não pagas, crie um tíquete de suporte enviando um email [helpcenterloginissues@magento.com](mailto:helpcenterloginissues@magento.com) e certifique-se também de colocar [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com) na linha CC:.**
+**Se você não tiver faturas não pagas, crie um tíquete de suporte enviando um email para [helpcenterloginissues@magento.com](mailto:helpcenterloginissues@magento.com) e certifique-se de também colocar [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com) na linha CC:.**
 
 ## Acesso / Pagamento de faturas
 
 Somente o titular da conta principal pode acessar a seção de pagamento/fatura de sua conta.
-Efetue logon no [https://account.magento.com](https://account.magento.com), em seguida, escolha o **Produtos e serviços** > Selecionar *Seu produto específico adquirido* > Escolher **Pagar agora** ao lado da fatura apropriada ou escolha a fatura.
+Faça logon em [https://account.magento.com](https://account.magento.com) e escolha **Produtos e Serviços** > Selecione *Seu Produto Específico Adquirido* > Escolha **Pagar Agora** ao lado da fatura apropriada ou escolha a fatura.
 
-O primeiro passo é revisar seu contrato. A maioria desses detalhes está incluída em seu contrato. Se você tiver dúvidas que não estejam em seu contrato, verifique os pagamentos/faturas com nossas equipes de cobrança.  Email: [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com)e eles ficarão felizes em esclarecer e ajudar.
+O primeiro passo é revisar seu contrato. A maioria desses detalhes está incluída em seu contrato. Se você tiver dúvidas que não estejam em seu contrato, verifique os pagamentos/faturas com nossas equipes de cobrança.  Email: [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com), e eles terão prazer em esclarecer e ajudar.
 
-**Remessa de pagamento**, está sempre na parte inferior da fatura.
+**Remessa de Pagamento**, está sempre na parte inferior da sua fatura.
 
 * Só podemos aceitar pagamentos de cartão de crédito abaixo de US$ 75 mil.
-* **Comerciantes com faturamento mensal devem pagar com cartão de crédito no pagamento automático.** [Consulte a seção pagamento automático de CC](#cc-autopay).
+* **Comerciantes com faturamento mensal devem pagar com cartão de crédito no pagamento automático.** [Consulte a seção de pagamento automático de CC](#cc-autopay).
 * Os comerciantes trimestrais, semestrais e anuais podem pagar por cartão de crédito, mas isso deve ser feito manualmente pelo comerciante.
 
 ## Contatos Adicionais para Cobrança
 
-Se você precisar de outra configuração de contato de faturamento, entre em contato com o Magento Credit Collections [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com)e informe o nome e o email dos contatos que precisam ser adicionados.
+Se você precisar de outra configuração de contato de cobrança, entre em contato com as Coleções de Crédito de Magento [magentocreditcollections@adobe.com](mailto:magentocreditcollections@adobe.com) e informe o nome e o email dos contatos que precisam ser adicionados.

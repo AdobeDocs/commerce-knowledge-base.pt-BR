@@ -13,13 +13,13 @@ ht-degree: 0%
 
 # &quot;Erro 500&quot; depois de clicar duas vezes em Remover link no carrinho de compras
 
-Este artigo fornece um patch para o problema conhecido do Adobe Commerce na infraestrutura em nuvem 2.2.0 relacionado ao erro dos clientes ao tentar remover duas vezes um item do carrinho de compras (clicando duas vezes no link *Remover* ou clicando nele em guias diferentes).
+Este artigo fornece um patch para o problema conhecido do Adobe Commerce na infraestrutura na nuvem 2.2.0 relacionado ao erro dos clientes ao tentar remover duas vezes um item do carrinho de compras (clicando duas vezes no link *Remover* ou clicando nele em guias diferentes).
 
 ## Problema
 
-Quando os clientes clicarem duas vezes no link *Remover* no carrinho de compras, tentando remover um produto do carrinho, eles recebem uma página em branco com a seguinte mensagem de erro: *&quot;Esta página não está funcionando. ERRO HTTP 500&quot;.* O mesmo problema acontece se um cliente abrir duas guias do navegador com a página do carrinho de compras e remover o produto primeiro em uma guia e, em seguida, na segunda.
+Quando os clientes clicam duas vezes no link *Remover* no carrinho de compras, tentando remover um produto do carrinho, eles recebem uma página em branco com a seguinte mensagem de erro: *&quot;Esta página não está funcionando. ERRO HTTP 500&quot;.* O mesmo problema acontece se um cliente abrir duas guias do navegador com a página do carrinho de compras e remover o produto primeiro em uma guia e depois na segunda.
 
-<u>Etapas a serem reproduzidas</u> :
+<u>Etapas a serem reproduzidas</u>:
 
 1. Adicione um produto ao carrinho de compras na loja.
 1. Navegue até a página do carrinho de compras.
@@ -33,9 +33,9 @@ OU
 1. Remova o produto do carrinho.
 1. Abra a segunda guia e remova o produto novamente.
 
-<u>Resultado esperado</u> : o produto é removido do carrinho sem erros.
+<u>Resultado esperado</u>: o produto foi removido do carrinho sem erros.
 
-<u>Resultado real</u> : O produto é removido com o erro: *&quot;Esta página não está funcionando. ERRO HTTP 500&quot;* mensagem de erro.
+<u>Resultado real</u>: o produto foi removido com o erro: *&quot;Esta página não está funcionando. HTTP ERROR 500&quot;* mensagem de erro.
 
 ## Correção
 
@@ -56,6 +56,6 @@ O patch também é compatível (mas pode não resolver o problema) com as seguin
 
 ## Como aplicar o patch
 
-Para obter instruções, consulte [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de conhecimento de suporte.
+Para obter instruções, consulte [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de dados de conhecimento de suporte.
 
 ## Arquivos Anexados

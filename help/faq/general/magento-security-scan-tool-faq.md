@@ -40,11 +40,11 @@ A Ferramenta de Verificação de Segurança está livre. Os comerciantes devem a
 
 ## Como funciona a ferramenta Security Scan (Verificação de segurança)? {#how-does-the-magento-security-scan-tool-work}
 
-A ferramenta Security Scan (Verificação de segurança) é baseada na Web e acessada a partir da conta do Adobe Commerce on-line do comerciante ([account.magento.com](https://account.magento.com/)). A verificação de segurança opera por HTTP e HTTPS. Ele verifica problemas de segurança conhecidos e identifica patches e atualizações ausentes do Adobe Commerce.
+A Ferramenta de Verificação de Segurança é baseada na Web e acessada da conta da Adobe Commerce online do comerciante ([account.magento.com](https://account.magento.com/)). A verificação de segurança opera por HTTP e HTTPS. Ele verifica problemas de segurança conhecidos e identifica patches e atualizações ausentes do Adobe Commerce.
 
 ## Como me inscrevo para usar a Ferramenta de Verificação de Segurança? {#how-do-i-sign-up-to-use-the-magento-security-scan-tool}
 
-Os comerciantes podem se registrar para usar a Ferramenta de verificação de segurança para verificar suas lojas na Web a partir de sua conta da Adobe Commerce ([account.magento.com](https://account.magento.com)). Siga o link para se inscrever na Ferramenta de verificação de segurança [aqui](https://account.magento.com/scanner/dashboard/?_ga=2.83981338.267715797.1615821601-2099431409.1611073686).
+Os comerciantes podem se registrar para usar a Ferramenta de Verificação de Segurança para verificar suas lojas na Web a partir de sua conta da Adobe Commerce ([account.magento.com](https://account.magento.com)). Siga o link para se inscrever na Ferramenta de Verificação de Segurança [aqui](https://account.magento.com/scanner/dashboard/?_ga=2.83981338.267715797.1615821601-2099431409.1611073686).
 
 ## O que devo fazer se encontrar um falso positivo no relatório de verificação? {#what-do-i-do-if-i-come-across-a-false-positive-in-the-scan-report}
 

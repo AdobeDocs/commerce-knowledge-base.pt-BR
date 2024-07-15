@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Alterar o URL do administrador no Adobe Commerce na infraestrutura em nuvem
 
-Por padrão, a variável [Administrador do Commerce](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin.html) O URL está definido como *&lt;domain _name=&quot;&quot;>/admin*. Este artigo mostra como alterar o URL.
+Por padrão, a URL do [Commerce Admin](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin.html) está definida como *&lt;domain\_name>/admin*. Este artigo mostra como alterar o URL.
 
 ## Método 1: alterar usando o Administrador
 
-Leia as etapas: [Usar um URL de administração personalizado > Alterar do administrador](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/store-urls.html#use-a-custom-admin-url) em nosso guia do usuário.
+Leia as etapas: [Usando um URL de Administração Personalizado > Alterar do Administrador](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/store-urls.html#use-a-custom-admin-url) em nosso guia do usuário.
 
 ## Método 2: adicionar variável de ambiente ADMIN\_URL
 
@@ -24,16 +24,16 @@ Leia as etapas: [Usar um URL de administração personalizado > Alterar do admin
 
 No [Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html), adicione uma nova variável com:
 
-**Nome:** ADMIN\_URL **Valor:** novo URL de administração
+**Nome:** ADMIN\_URL **Valor:** URL do novo Administrador
 
 * Para obter etapas detalhadas, consulte [adicionar variáveis de ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html#configure-environment) na documentação do desenvolvedor.
-* Consulte também [variáveis de ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html) na documentação do desenvolvedor.
+* Consulte também [variáveis de ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html) em nossa documentação para desenvolvedores.
 
 ### Quando o Preparo e a Produção não estão disponíveis no Cloud Console
 
-[Enviar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) solicitando a adição da variável ADMIN\_URL para o ambiente de preparo ou produção.
+[Envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) solicitando a adição da variável ADMIN\_URL para o ambiente de preparo ou produção.
 
-Se o Preparo e a Produção puderem ser acessados no Cloud Console, adicione a Variável de ambiente conforme descrito na seção *Ambiente de integração* acima.
+Se o Preparo e a Produção puderem ser acessados pelo Console da Nuvem, adicione a Variável de Ambiente conforme descrito na seção *Ambiente de integração* acima.
 
 ### Adicionar variáveis usando a CLI da nuvem
 
@@ -41,6 +41,6 @@ Você pode adicionar a variável ADMIN\_URL usando o seguinte comando da CLI da 
 
 `magento-cloud variable:update ADMIN_URL --value newAdmin_A8v10 -e master --inheritable false`
 
-Para obter instruções mais detalhadas, consulte [Alterar o URL do administrador](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=en#change-the-admin-url) no tópico Variáveis de administração no Guia de infraestrutura do Commerce na nuvem.
+Para obter instruções mais detalhadas, consulte [Alterar o URL do Administrador](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-admin.html?lang=en#change-the-admin-url) no tópico Variáveis de administração no Guia de Infraestrutura do Commerce na Nuvem.
 
-Observe que o uso da CLI da nuvem para alterar a variável ADMIN\_URL aciona uma reimplantação do ambiente. As variáveis são herdáveis por padrão; para impedir a herança, use as opções de comando da CLI da nuvem para indicar que você não deseja que o valor da variável seja herdado por ambientes secundários. Consulte a [Visibilidade](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/variable-levels.html#visibility) tópico em Níveis variáveis no Guia de infraestrutura do Commerce na nuvem.
+Observe que o uso da CLI da nuvem para alterar a variável ADMIN\_URL aciona uma reimplantação do ambiente. As variáveis são herdáveis por padrão; para impedir a herança, use as opções de comando da CLI da nuvem para indicar que você não deseja que o valor da variável seja herdado por ambientes secundários. Consulte o tópico [Visibilidade](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/variable-levels.html#visibility) em Níveis de variáveis no Guia de Infraestrutura do Commerce na Nuvem.

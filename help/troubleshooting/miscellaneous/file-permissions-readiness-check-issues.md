@@ -19,12 +19,12 @@ Este artigo fornece uma correção para problemas de verificação de preparaç�
 
 A maneira de resolver o problema depende da configuração de um ou dois usuários:
 
-* *Um usuário* significa que você fez logon no servidor do Adobe Commerce como o mesmo usuário que também executa o servidor da web. Esse tipo de configuração é comum em ambientes de hospedagem compartilhados.
-* *Dois usuários* significa que você normalmente *não é possível* efetue login como, ou alterne para, o usuário do servidor Web. Normalmente, você faz logon como um usuário e executa o servidor Web como um usuário diferente. Isso é típico em hospedagem privada ou se você tem seu próprio servidor.
+* *Um usuário* significa que você fez logon no servidor Adobe Commerce como o mesmo usuário que também executa o servidor Web. Esse tipo de configuração é comum em ambientes de hospedagem compartilhados.
+* *Dois usuários* significa que normalmente *não pode* fazer logon como, ou mudar para, o usuário do servidor Web. Normalmente, você faz logon como um usuário e executa o servidor Web como um usuário diferente. Isso é típico em hospedagem privada ou se você tem seu próprio servidor.
 
 ## Resolução para um usuário
 
-Se você tiver acesso à linha de comando, digite o seguinte comando, supondo que o Adobe Commerce esteja instalado em `/var/www/html/magento2`:
+Se você tiver acesso à linha de comando, digite o seguinte comando, considerando que o Adobe Commerce esteja instalado em `/var/www/html/magento2`:
 
 ```bash
 $ cd /var/www/html/magento2 && find var vendor pub/static pub/media app/etc -type f -exec chmod g+w {} + && find var vendor pub/static pub/media app/etc -type d -exec chmod g+w {} + && chmod u+x bin/magento
@@ -34,13 +34,13 @@ Se você não tiver acesso de linha de comando, use um cliente FTP ou um aplicat
 
 ## Resolução para dois usuários
 
-Para informar opcionalmente todos os comandos em uma linha, informe o seguinte, considerando que o Adobe Commerce esteja instalado em `/var/www/html/magento2` e o nome do grupo do servidor web é `apache`:
+Para inserir opcionalmente todos os comandos em uma linha, insira o seguinte supondo que o Adobe Commerce esteja instalado em `/var/www/html/magento2` e o nome do grupo do servidor Web seja `apache`:
 
 ```bash
 $ cd /var/www/html/magento2 && find var vendor pub/static pub/media app/etc -type f -exec chmod g+w {} + && find var vendor pub/static pub/media app/etc -type d -exec chmod g+ws {} + && chown -R :apache . && chmod u+x bin/magento
 ```
 
-Se as permissões do sistema de arquivos do evento forem definidas incorretamente e não puderem ser alteradas pelo proprietário do sistema de arquivos do Adobe Commerce, você poderá inserir o comando como um usuário com `root` privilégios:
+Se as permissões do sistema de arquivos do evento forem definidas incorretamente e não puderem ser alteradas pelo proprietário do sistema de arquivos Adobe Commerce, você poderá inserir o comando como um usuário com privilégios `root`:
 
 ```bash
 $ cd /var/www/html/magento2 && sudo find var vendor

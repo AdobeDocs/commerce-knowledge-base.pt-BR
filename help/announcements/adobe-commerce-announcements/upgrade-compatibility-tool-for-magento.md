@@ -19,12 +19,12 @@ A Ferramenta de compatibilidade de atualização 1.1.0 é uma ferramenta de linh
 
 A Ferramenta de compatibilidade de atualização 1.1.0 apresenta melhorias significativas, incluindo:
 
-* **Validar as modificações principais do arquivo**: a Adobe recomenda não personalizar o código dos produtos principais. Com esta versão, adicionamos um ponto de verificação para clientes e parceiros identificarem quaisquer modificações no código principal para entender o impacto das modificações antecipadamente e rapidamente. A inclusão dessa ferramenta no processo de desenvolvimento ajudará parceiros e comerciantes a identificar problemas de forma proativa, evitando problemas durante atualizações futuras e reduzindo o Custo Total de Propriedade (TCO).
+* **Validar modificações do arquivo principal**: o Adobe recomenda não personalizar o código do produto principal. Com esta versão, adicionamos um ponto de verificação para clientes e parceiros identificarem quaisquer modificações no código principal para entender o impacto das modificações antecipadamente e rapidamente. A inclusão dessa ferramenta no processo de desenvolvimento ajudará parceiros e comerciantes a identificar problemas de forma proativa, evitando problemas durante atualizações futuras e reduzindo o Custo Total de Propriedade (TCO).
 * **Exportar o relatório para um arquivo JSON**: essa melhoria foi implementada após o feedback da comunidade. Agora, ao executar a ferramenta, os detalhes de todos os problemas identificados são exportados para um arquivo JSON para que os usuários possam ler, compartilhar e gerenciar os resultados sem precisar executar a ferramenta novamente.
-* **Validações de VBE aprimoradas**: as VBEs (Vendor Bundled Extensions) não fazem parte do código principal do Adobe Commerce, mas são testadas e compatíveis com o Adobe. Com essa atualização, agora validamos VBEs usando a mesma abordagem que usamos para o código principal. Essa melhoria ajudará os usuários a entender claramente os problemas relacionados às personalizações e ao código principal/VBEs.
+* **Validações de VBE aprimoradas**: VBEs (Vendor Bundled Extensions) não fazem parte do código principal do Adobe Commerce, mas são testadas e suportadas pelo Adobe. Com essa atualização, agora validamos VBEs usando a mesma abordagem que usamos para o código principal. Essa melhoria ajudará os usuários a entender claramente os problemas relacionados às personalizações e ao código principal/VBEs.
 * **Fornecer códigos de erro**: introduzimos códigos de erro para ajudar os usuários a identificar, entender e resolver problemas durante uma atualização. As mensagens de erro e de aviso fornecem uma descrição clara e a solução sugerida.
-* **Possibilidade de listar apenas problemas críticos**: com isso, os usuários poderão se concentrar apenas nos problemas críticos e que gerarão problemas durante a atualização.
-* **Problemas de Delta entre duas versões**: com essa melhoria proposta pelos membros da comunidade, os usuários da UCT poderão obter uma discriminação dos problemas entre duas versões, o que permitirá que eles se concentrem apenas nos novos problemas introduzidos para a versão de destino que atualizarão.
+* **Possibilidade de listar apenas problemas críticos**: com isso, os usuários poderão se concentrar apenas nos problemas críticos e gerarão problemas durante a atualização.
+* **Problemas de Delta entre duas versões**: com essa melhoria proposta pelos membros da comunidade, os usuários do UCT poderão obter um delta dos problemas entre duas versões, o que permitirá que eles se concentrem apenas nos novos problemas introduzidos para a versão de destino que serão atualizados.
 
 ## Quais versões a ferramenta pode comparar?
 
@@ -36,7 +36,7 @@ Clientes do Adobe Commerce.
 
 ## Instale a Ferramenta de Compatibilidade de Atualização 1.1.0
 
-Para obter as etapas de instalação, consulte Adobe Commerce: [Ferramenta de compatibilidade de atualização > Instalar](https://devdocs.magento.com/upgrade-compatibility-tool/install.html) na documentação do desenvolvedor. Para obter os pré-requisitos de uso da ferramenta, consulte Adobe Commerce: [Ferramenta de compatibilidade de atualização](https://devdocs.magento.com/upgrade-compatibility-tool/prerequisites.html) na documentação do desenvolvedor.
+Para obter etapas de instalação, consulte Adobe Commerce: [Ferramenta de Compatibilidade de Atualização > Instalar](https://devdocs.magento.com/upgrade-compatibility-tool/install.html) em nossa documentação para desenvolvedores. Para obter os pré-requisitos para usar a ferramenta, consulte Adobe Commerce: [Ferramenta de Compatibilidade de Atualização](https://devdocs.magento.com/upgrade-compatibility-tool/prerequisites.html) em nossa documentação para desenvolvedores.
 
 ## Qual é o número ao lado de cada problema?
 
@@ -47,13 +47,13 @@ As mensagens de erro da Ferramenta de compatibilidade de atualização são cate
 * Código de erro: o identificador atribuído pelo Adobe Commerce para a mensagem de erro.
 * Descrição do erro: uma descrição que resume a causa do erro.
 * Ação sugerida pelo erro: se aplicável, fornece orientação para solucionar e resolver o erro.
-* Os códigos estão listados e descritos no [Página de referência da mensagem de erro](https://devdocs.magento.com/upgrade-compatibility-tool/errors.html).
+* Os códigos estão listados e descritos na [página de referência da mensagem de erro](https://devdocs.magento.com/upgrade-compatibility-tool/errors.html).
 
 ## Onde posso compartilhar feedback sobre a ferramenta?
 
-Você pode entrar em contato com a equipe da UCT em nosso [#upgrade-compatibility-tool](https://magentocommeng.slack.com/archives/C019Y143U9F) canal do slack. Estamos ansiosos para receber seus comentários e sugestões para melhorar a ferramenta.
+Você pode entrar em contato com a equipe da UCT em nosso canal do Slack [#upgrade-compatibility-tool](https://magentocommeng.slack.com/archives/C019Y143U9F). Estamos ansiosos para receber seus comentários e sugestões para melhorar a ferramenta.
 
 ## Leitura relacionada
 
-* Blog da Adobe Commerce: [Introdução à Ferramenta de compatibilidade de atualização (Alpha)](https://magento.com/blog/magento-news/introducing-upgrade-compatibility-tool)
-* Adobe Commerce: [Ferramenta de compatibilidade de atualização](https://devdocs.magento.com/upgrade-compatibility-tool/introduction.html) na documentação do desenvolvedor.
+* Blog da Adobe Commerce: [Introdução à Ferramenta de Compatibilidade de Atualização (Alpha)](https://magento.com/blog/magento-news/introducing-upgrade-compatibility-tool)
+* Adobe Commerce: [Ferramenta de Compatibilidade de Atualização](https://devdocs.magento.com/upgrade-compatibility-tool/introduction.html) em nossa documentação para desenvolvedores.

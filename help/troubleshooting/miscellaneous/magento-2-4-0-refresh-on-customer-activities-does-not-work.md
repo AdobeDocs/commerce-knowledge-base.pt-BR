@@ -24,33 +24,33 @@ Este artigo fornece uma solução para o problema conhecido do Adobe Commerce 2.
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. Vá para a **Painel de administração** > **Vendas** > **Pedidos**.
-1. Clique em **Criar novo pedido** botão.
+1. Vá para o **Painel de administração** > **Vendas** > **Pedidos**.
+1. Clique no botão **Criar novo pedido**.
 1. Selecione o cliente criado.
 1. Acesse a loja como o cliente criado.
-1. Vá para a **Produto** página. Clique em **Atualizar** botão no **Produtos visualizados recentemente** seção de **Atividades do cliente**.
+1. Vá para a página **Produto**. Clique no botão **Atualizar** na seção **Produtos visualizados recentemente** das **Atividades do cliente**.
 1. Volte para a loja.
 1. Fazer um pedido usando os produtos criados.
-1. Volte para o **Painel de administração** e clique no link **Atualizar** botão do **Últimos itens solicitados** seção de **Atividades do cliente**.
-1. Volte para a loja. Adicione o produto criado à **Lista de comparação**.
-1. Volte para o **Painel de administração**. Clique em **Atualizar** botão do **Produtos na lista de comparação** seção de **Atividades do cliente**.
+1. Volte para o **Painel de administração** e clique no botão **Atualizar** da seção **Últimos itens solicitados** das **Atividades do cliente**.
+1. Volte para a loja. Adicione o produto criado à **Lista de Comparação**.
+1. Volte para o **Painel de administração**. Clique no botão **Atualizar** da seção **Produtos na Lista de Comparação** das **Atividades do Cliente**.
 1. Volte para a loja.
-1. Remova o produto criado da **Lista de comparação**.
+1. Remova o produto criado da **Lista de Comparação**.
 1. Volte para o **Painel de administração**.
-1. Clique em **Atualizar** botão do **Produtos comparados recentemente** seção de **Atividades do cliente**.
+1. Clique no botão **Atualizar** da seção **Produtos comparados recentemente** das **Atividades do cliente**.
 1. Volte para a loja.
 
 <u>Resultados esperados</u>:
 
-O nome do produto deve constar no campo **Produtos visualizados recentemente**, **Últimos itens solicitados**, **Produtos na lista de comparação**, e **Produtos comparados recentemente** seção.
+O nome do produto deve aparecer na seção **Produtos visualizados recentemente**, **Últimos itens solicitados**, **Produtos na Lista de Comparação** e **Produtos comparados recentemente**.
 
 <u>Resultados reais</u>:
 
-A página é rolada para cima sempre que um **Atualizar** é clicado. O nome do produto não aparece na seção adequada.
+A página é rolada para cima sempre que um botão **Atualizar** é clicado. O nome do produto não aparece na seção adequada.
 
 ## Solução
 
-Uma solução alternativa é que o usuário administrador pode atualizar **Atividades do cliente** clicando no link **Atualizar alterações** na parte inferior da barra lateral. O problema está planejado para ser resolvido no patch do Adobe Commerce 2.4.1.
+Uma solução alternativa é que o usuário administrador pode atualizar as **Atividades do cliente** clicando no botão **Atualizar alterações** na parte inferior da barra lateral. O problema está planejado para ser resolvido no patch do Adobe Commerce 2.4.1.
 
 ![mceclip0.png](assets/mceclip0.png)
 

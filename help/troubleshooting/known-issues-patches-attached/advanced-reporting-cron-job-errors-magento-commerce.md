@@ -21,7 +21,7 @@ Adobe Commerce (todas as opções de implantação) 2.3.x
 
 ## Problema
 
-Um cliente recebe um erro 404 ao tentar acessar os Relatórios avançados e há erros nos logs associados ao `analytics_collect_data job` .
+Um cliente recebe um erro 404 ao tentar acessar os Relatórios Avançados e há erros nos logs associados a `analytics_collect_data job`.
 
 ## Versões compatíveis do Magento:
 
@@ -41,7 +41,7 @@ Para corrigir o problema, aplique a correção relevante anexada a este artigo. 
 
 Para verificar qual patch usar:
 
-<ol><li>Revise os logs usando o seguinte comando:<code>grep analytics_collect_data var/log/support_report.log var/log/support_report.log.1.gz</code>
+<ol><li>Examine os logs usando o seguinte comando:<code>grep analytics_collect_data var/log/support_report.log var/log/support_report.log.1.gz</code>
 </li><li>Dependendo do erro exibido, selecione um patch usando as informações da tabela a seguir.<table style="width: 826px;">
 <tbody>
 <tr>
@@ -52,21 +52,26 @@ Para verificar qual patch usar:
 </tr>
 <tr>
 <td>
-<pre>report.CRITICAL: erro ao executar um trabalho cron {"exception":"[object] (RuntimeException(code: 0): erro ao executar um trabalho cron em /srv/public_html/vendor/magento/module-cron/Observer/ProcessCronQueueObserver.php:327, TypeError(code: 0): substr_count() espera que o parâmetro 1 seja uma cadeia de caracteres, nulo fornecido em /srv/public_html/vendor/magento/module-page-builder-analytics/Model/ContentTypeUsageReportProvider.php:106)"} []</pre>OU<pre>report.ERROR: Cron Job analytics_collect_data tem um erro: substr_count() espera que o parâmetro 1 seja uma cadeia de caracteres, nulo fornecido. Estatísticas: {"sum":0,"count":1,"realmem":0,"emalloc":0,"realmem_start":224919552,"emalloc_start":216398384}
+<pre>report.CRITICAL: erro ao executar um trabalho cron {"exception":"[object] (RuntimeException(code:
+  0): erro ao executar um trabalho cron em /srv/public_html/vendor/magento/module-cron/Observer/ProcessCronQueueObserver.php:327,
+  TypeError(code: 0): substr_count() espera que o parâmetro 1 seja uma string, nulo fornecido
+  em /srv/public_html/vendor/magento/module-page-builder-analytics/Model/ContentTypeUsageReportProvider.php:106)"}
+  []</pre>OU<pre>report.ERROR: Cron Job analytics_collect_data tem um erro: substr_count() espera
+  o parâmetro 1 será string, nulo fornecido. Estatísticas: {"sum":0,"count":1,"realmem":0,"emalloc":0,"realmem_start":224919552,"emalloc_start":216398384}
   [] []</pre>
 <p> </p>
 </td>
-<td>Aplicar<a href="assets/MDVA-19391_EE_2.3.1_COMPOSER_v1.patch">MDVA-19391_EE_2.3.1_COMPOSER_v1.patch.zip</a>, limpe o cache e aguarde 24 horas para que o trabalho seja executado novamente e tente novamente.</td>
+<td>Aplique<a href="assets/MDVA-19391_EE_2.3.1_COMPOSER_v1.patch">MDVA-19391_EE_2.3.1_COMPOSER_v1.patch.zip</a>, limpe o cache e aguarde 24 horas para que o trabalho seja executado novamente e tente novamente.</td>
 </tr>
 <tr>
 <td>
 <p><em>Falha ao abrir o arquivo /tmp/analytics/tmp/../tmp/../tmp/../tmp/../tmp/../tmp/../tmp/../tmp/../tmp/../tmp/../tmp/../tmp/../tmp/../tmp/../tmp/../tmp/../tmp/../tmp/.../</em></p>
 </td>
-<td>Aplicar<a href="assets/MDVA-15136_EE_2.2.6_COMPOSER_v1.patch">MDVA-15136_EE_2.2.6_COMPOSER_v1.patch.zip</a>, limpe o cache e aguarde 24 horas para que o trabalho seja executado novamente e tente novamente.</td>
+<td>Aplique<a href="assets/MDVA-15136_EE_2.2.6_COMPOSER_v1.patch">MDVA-15136_EE_2.2.6_COMPOSER_v1.patch.zip</a>, limpe o cache e aguarde 24 horas para que o trabalho seja executado novamente e tente novamente.</td>
 </tr>
 <tr>
 <td><em>Criptografia inválida</em></td>
-<td>Aplicar<a href="assets/MDVA-18980_EE_2.2.6_COMPOSER_v1.patch">MDVA-18980_EE_2.2.6_COMPOSER_v1.patch.zip</a>, limpe o cache e aguarde 24 horas para que o trabalho seja executado novamente e tente novamente.</td>
+<td>Aplique<a href="assets/MDVA-18980_EE_2.2.6_COMPOSER_v1.patch">MDVA-18980_EE_2.2.6_COMPOSER_v1.patch.zip</a>, limpe o cache e aguarde 24 horas para que o trabalho seja executado novamente e tente novamente.</td>
 </tr>
 </tbody>
 </table>
@@ -74,7 +79,7 @@ Para verificar qual patch usar:
 
 ## Como aplicar o patch
 
-Descompacte o arquivo e siga as instruções em [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
+Descompacte o arquivo e siga as instruções em [Como aplicar um patch de compositor fornecido por Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
 
 ## Leitura relacionada
 

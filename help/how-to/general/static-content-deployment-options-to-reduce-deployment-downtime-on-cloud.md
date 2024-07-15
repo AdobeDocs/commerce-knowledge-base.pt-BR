@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # Opções de implantação de conteúdo estático para reduzir o tempo de inatividade da implantação na nuvem
 
-Consulte a [Estratégias de implantação de conteúdo estático](https://devdocs.magento.com/guides/v2.3/cloud/deploy/static-content-deployment.html) na documentação do desenvolvedor, para obter detalhes sobre as opções de Implantação de conteúdo estático (SCD) que ajudam a acelerar o processo de implantação e diminuir o tempo de inatividade de manutenção no Adobe Commerce na infraestrutura em nuvem.
+Consulte as [Estratégias de implantação de conteúdo estático](https://devdocs.magento.com/guides/v2.3/cloud/deploy/static-content-deployment.html) em nossa documentação para desenvolvedores para obter detalhes sobre as opções de Implantação de conteúdo estático (SCD) que ajudam a acelerar o processo de implantação e diminuir o tempo de inatividade de manutenção no Adobe Commerce na infraestrutura de nuvem.

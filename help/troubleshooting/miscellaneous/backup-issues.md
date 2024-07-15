@@ -41,20 +41,20 @@ Para obter informações adicionais sobre backups, consulte [Fazer backup e reve
 
 Se o backup falhar devido a espaço em disco insuficiente, você deverá liberar espaço em disco movendo alguns arquivos para outro dispositivo de armazenamento ou unidade. No entanto, pode haver outras maneiras de resolver o problema. Consulte um dos seguintes recursos para obter dicas:
 
-* [8 dicas para solucionar problemas de disco rígido nos sistemas Linux e Unix, como disco cheio ou não pode gravar no disco](https://www.cyberciti.biz/datacenter/linux-unix-bsd-osx-cannot-write-to-hard-disk)
+* [8 Dicas para Resolver Problemas de Disco Rígido dos Sistemas Linux e Unix, como Disco Cheio ou Não Pode Gravar no Disco](https://www.cyberciti.biz/datacenter/linux-unix-bsd-osx-cannot-write-to-hard-disk)
 * [serverfault: df diz que o disco está cheio, mas não está](https://serverfault.com/questions/315181/df-says-disk-is-full-but-it-is-not)
-* [unix.stackexchange.com: rastreando para onde o espaço em disco foi no Linux?](https://unix.stackexchange.com/questions/125429/tracking-down-where-disk-space-has-gone-on-linux)
+* [unix.stackexchange.com: controlando para onde o espaço em disco foi no Linux?](https://unix.stackexchange.com/questions/125429/tracking-down-where-disk-space-has-gone-on-linux)
 
 ## Erro do sistema operacional {#operating-system-error-trouble-backup-os-}
 
 Infelizmente, não podemos recomendar nada específico devido à variedade de erros que você pode encontrar. Entretanto, podemos sugerir que você:
 
 * Entre em contato com o administrador do sistema.
-* Pesquisar fóruns públicos como [Stack Exchange](https://unix.stackexchange.com) ou [Estouro de Pilha](https://stackoverflow.com)
-* Abra um [Problema do GitHub](https://github.com/magento/magento2/issues) e tentaremos ajudar.
+* Pesquisar fóruns públicos como [Stack Exchange](https://unix.stackexchange.com) ou [Stack Overflow](https://stackoverflow.com)
+* Abra um [problema do GitHub](https://github.com/magento/magento2/issues) e tentaremos ajudar.
 
 ## Falha no backup {#backup-fails-trouble-backup-all-}
 
-Se o backup falhar ou se todos os testes de backup falharem, é possível que o [Proprietário do sistema de arquivos Adobe Commerce](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/file-sys-perms-over.html) O não tem privilégios suficientes e propriedade do sistema de arquivos do Adobe Commerce. Por exemplo, outro usuário pode ser o proprietário dos arquivos ou os arquivos podem ser somente leitura.
+Se o backup falhar ou se todos os testes de backup falharem, é possível que o [proprietário do sistema de arquivos do Adobe Commerce](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/file-sys-perms-over.html) não tenha privilégios suficientes e propriedade do sistema de arquivos do Adobe Commerce. Por exemplo, outro usuário pode ser o proprietário dos arquivos ou os arquivos podem ser somente leitura.
 
-Preste atenção especial às permissões do sistema de arquivos e à propriedade do `<magento_root>/var` diretório e subdiretórios. Para obter mais informações, consulte [Definir permissões e propriedade do sistema de arquivos](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-system-perms.html).
+Preste atenção especial às permissões do sistema de arquivos e à propriedade do diretório e dos subdiretórios `<magento_root>/var`. Para obter mais informações, consulte [Definir permissões e propriedade do sistema de arquivos](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-system-perms.html).

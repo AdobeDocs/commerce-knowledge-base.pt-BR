@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Problema conhecido do Adobe Commerce 2.4.0: pagamento do Amazon, sem métodos de pagamento
 
-Este artigo fornece uma solução para um problema conhecido do Adobe Commerce 2.4.0 em que os métodos de pagamento estão ausentes quando os clientes usam **Retornar ao check-out padrão**, depois de ativarem o pagamento do Amazon.
+Este artigo fornece uma solução para um problema conhecido do Adobe Commerce 2.4.0 em que os métodos de pagamento estão ausentes quando os clientes usam o **Retornar ao check-out padrão**, depois de habilitarem o pagamento do Amazon.
 
 ## Produtos e versões afetados
 

@@ -26,12 +26,12 @@ Quando uma loja tem o Amazon Pay e outro pagamento atribuído a diferentes país
 
 Uma atualização da página da Web é uma solução alternativa para o problema.
 
-Para resolver esse problema e remover o erro, criamos uma [correção](assets/BUNDLE-2546_EE_2.3.5-p1.composer.patch.zip).
+Para resolver esse problema e remover o erro, criamos um [patch](assets/BUNDLE-2546_EE_2.3.5-p1.composer.patch.zip).
 
 <u>Pré-requisitos</u>:
 
 * Um produto simples é criado.
-* **Cheque/Ordem de pagamento** é permitido somente para países específicos (em **Loja** > **Configuração** > **Vendas** > **Métodos de pagamento**).
+* **Cheque/Ordem de pagamento** está habilitado somente para países específicos (em **Loja** > **Configuração** > **Vendas** > **Métodos de Pagamento**).
 
 * Exemplo: Pagamento dos Países Aplicáveis = Países Específicos
 * Exemplo: pagamento de países específicos = Reino Unido
@@ -45,26 +45,26 @@ Para resolver esse problema e remover o erro, criamos uma [correção](assets/BU
 
    * País = *Estados Unidos*
 
-1. Selecione a taxa de envio e clique em **Próxima**.
+1. Selecione a taxa de envio e clique em **Avançar**.
 
    * A etapa de pagamento está aberta.
    * Não há pagamentos disponíveis.
    * Mensagem: **Nenhum método de pagamento disponível.**
-   * Não há **Fazer pedido** botão.
+   * Não há nenhum botão **Fazer Pedido**.
 
-1. Volte para o **Etapa de envio** e altere o valor para:
+1. Volte para a **Etapa de remessa** e altere o valor para:
 
    * País = *Reino Unido*
 
-1. Selecione a taxa de envio e clique em **Próxima**.
+1. Selecione a taxa de envio e clique em **Avançar**.
 
 <u>Resultado esperado</u>:
 
 A etapa de Pagamento é aberta.
 
-* **Dinheiro Na Entrega** é exibida.
-* **Cheque/Ordem de pagamento** é exibida.
-* A variável **Fazer pedido** é exibido.
+* **Pagamento na Entrega** é exibido.
+* **Cheque/Ordem de pagamento** é exibido.
+* O botão **Fazer pedido** é exibido.
 
 <u>Resultado real</u>:
 
@@ -72,11 +72,11 @@ A etapa de Pagamento é aberta.
 
 * Não há pagamentos disponíveis.
 * Mensagem: *Nenhum método de pagamento disponível.*
-* Não há **Fazer pedido** botão.
+* Não há nenhum botão **Fazer Pedido**.
 
 ## Solução
 
-[Aplicar o patch](assets/BUNDLE-2546_EE_2.3.5-p1.composer.patch.zip) abaixo.
+[Aplique o patch](assets/BUNDLE-2546_EE_2.3.5-p1.composer.patch.zip) abaixo.
 
 ## Correção
 
@@ -97,6 +97,6 @@ O patch também é compatível (mas pode não resolver o problema) com as seguin
 
 ## Como aplicar o patch
 
-Consulte [Como aplicar um patch de compositor fornecido pelo Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) na nossa base de conhecimento de suporte para obter instruções.
+Consulte [Como aplicar um patch de compositor fornecido pelo Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de dados de conhecimento de suporte para obter instruções.
 
 ## Arquivos Anexados

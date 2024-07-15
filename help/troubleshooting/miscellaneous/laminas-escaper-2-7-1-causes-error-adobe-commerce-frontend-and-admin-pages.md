@@ -33,7 +33,7 @@ Nenhum erro.
 
 <u>Resultado real</u>:
 
-Após a atualização para laminas/laminas-escaper:2.7.1, uma mensagem de erro é exibida em uma página de edição de produto (ou gerenciamento de produto): *TypeError: rawurlencode() espera que o parâmetro 1 seja uma sequência de caracteres, int fornecido em /var/www/magento/vendor/laminas/laminas-escaper/src/Escaper.php:246*
+Após a atualização para laminas/laminas-escaper:2.7.1, uma mensagem de erro é exibida em uma página de edição do produto (ou de gerenciamento do produto): *TypeError: rawurlencode() espera que o parâmetro 1 seja uma cadeia de caracteres, int fornecido em /var/www/magento/vendor/laminas/laminas-escaper/src/Escaper.php:246*
 Esse erro ocorre nas páginas de front-end e de Administração, causando distorção no conteúdo da página.
 
 ## Causa
@@ -42,8 +42,8 @@ o laminas/laminas-escaper 2.7.1 começou a usar validação de tipo estrita para
 
 ## Solução
 
-Executar `composer require laminas/laminas-escaper:2.7.0` no diretório raiz de cada projeto.
+Execute `composer require laminas/laminas-escaper:2.7.0` no diretório raiz de cada projeto.
 
 ## Leitura relacionada
 
-laminas Documentação: [Lâminas de escape](https://docs.laminas.dev/laminas-escaper/)
+Documentação do laminas: [laminas-escaper](https://docs.laminas.dev/laminas-escaper/)

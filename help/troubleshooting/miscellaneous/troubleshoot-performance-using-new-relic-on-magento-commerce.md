@@ -30,14 +30,14 @@ Este artigo fornece etapas de solução de problemas para resolver problemas de 
 <tr>
 <td>
 <p>Baixa pontuação Apdex:</p>
-<p>Seu New Relic <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measuring-user-satisfaction">Pontuação do Apdex</a> mede a satisfação dos usuários com o tempo de resposta de seus aplicativos e serviços da web.</p>
+<p>Sua <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measuring-user-satisfaction">Pontuação do Apdex</a> do New Relic mede a satisfação dos usuários com o tempo de resposta dos seus aplicativos e serviços Web.</p>
 </td>
 <td>
 <p>Você faz logon no <a href="https://login.newrelic.com/login">New Relic</a> &gt; APM &gt; Visão geral. No lado direito da página Visão geral, você verá o gráfico de pontuação do Apdex. Uma pontuação Apdex de 0,5 ou menos é um ponto de preocupação e garante investigação: tempos de transação da Web (solicitações do servidor):</p>
 <ol>
 <ol>
-<li>Efetue logon no <a href="https://login.newrelic.com/login">New Relic</a> &gt; APM &gt; (Selecione um aplicativo) &gt; Visão geral. Verifique se o filtro está definido como Tempo de transações da Web no filtro suspenso do gráfico principal. Abaixo na tabela Transactions, procure por App server time. Verifique se você tem transações suspeitas ou de longa duração.</li>
-<li>Investigue-os individualmente em Monitoring &gt; Transactions e certifique-se de definir os filtros para Web e Mais demorado<em>.</em>
+<li>Faça logon no <a href="https://login.newrelic.com/login">New Relic</a> &gt; APM &gt; (Selecione um aplicativo) &gt; Visão geral. Verifique se o filtro está definido como Tempo de transações da Web no filtro suspenso do gráfico principal. Abaixo na tabela Transactions, procure por App server time. Verifique se você tem transações suspeitas ou de longa duração.</li>
+<li>Investigue-as individualmente em Monitoramento &gt; Transações e certifique-se de definir os filtros para Web e Mais demorado<em>.</em>
 </li>
 <li>Em seguida, pesquise por módulos de terceiros que consomem recursos: provedores de pagamento, ERP etc.</li>
 <li>Na seção Monitoramento de APM:<ol>
@@ -55,12 +55,12 @@ Este artigo fornece etapas de solução de problemas para resolver problemas de 
 <p>Horário de transação não-Web (operações e tarefas em segundo plano):</p>
 <ol>
 <ol>
-<li>Efetue logon no <a href="https://login.newrelic.com/login">New Relic</a> &gt; APM &gt; (Selecione um aplicativo) &gt; Visão geral. Selecione o tempo das transações que não são da Web no filtro suspenso do gráfico principal. Clique em transações individuais na tabela Transações. Procure transações suspeitas ou de longa duração. Isso inclui trabalhos de back-end, trabalhos cron ou trabalhos de importação/exportação, incluindo trabalhos de terceiros.</li>
+<li>Faça logon no <a href="https://login.newrelic.com/login">New Relic</a> &gt; APM &gt; (Selecione um aplicativo) &gt; Visão geral. Selecione o tempo das transações que não são da Web no filtro suspenso do gráfico principal. Clique em transações individuais na tabela Transações. Procure transações suspeitas ou de longa duração. Isso inclui trabalhos de back-end, trabalhos cron ou trabalhos de importação/exportação, incluindo trabalhos de terceiros.</li>
 </ol>
 </ol>
 </td>
 <td>
-<p>Para saber mais sobre a pontuação do Apdex do New Relic, consulte <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction">Documentação do New Relic &gt; Apdex de APM &gt; Medir a satisfação do usuário</a>. Você também pode consultar <a href="/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-warning-alert.md">Alertas gerenciados para Adobe Commerce: alerta de aviso Apdex</a> em nossa base de conhecimento de suporte.</p>
+<p>Para saber mais sobre a pontuação do Apdex do New Relic, consulte <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction">Documentação do New Relic &gt; Apdex APM &gt; Medir a satisfação do usuário</a>. Você também pode consultar <a href="/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-warning-alert.md">Alertas gerenciados para Adobe Commerce: alerta de aviso Apdex</a> em nossa base de dados de conhecimento de suporte.</p>
 </td>
 </tr>
 <tr>
@@ -70,12 +70,12 @@ Este artigo fornece etapas de solução de problemas para resolver problemas de 
 </td>
 <td>
 <ol>
-<li>Efetue logon no <a href="https://login.newrelic.com/login">New Relic</a> &gt; Infraestrutura &gt; Processos.</li>
+<li>Faça logon no <a href="https://login.newrelic.com/login">New Relic</a> &gt; Infraestrutura &gt; Processos.</li>
 <li>Revise os gráficos da CPU para ver se há algum processo paralisado ou de alto consumo que esteja usando mais de 100% do tempo da CPU e compare com a contagem do processador na instância. Preste atenção aos picos na utilização de recursos. Não é recomendável matar um processo, a menos que seja um cron travado.</li>
 </ol>
 </td>
 <td>
-<p>Para saber mais sobre métricas de desempenho, especialmente percentual de CPU, bytes de E/S e uso de memória para processos individuais ou grupos de processos, consulte <a href="https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infra-hosts-ui-page/#processes">Documentação do New Relic &gt; página Interface do Usuário de Infraestrutura &gt; página Host de Infraestrutura &gt; guia Processos</a>.</p>
+<p>Para saber mais sobre métricas de desempenho, especialmente porcentagem de CPU, bytes de E/S e uso de memória para processos individuais ou grupos de processos, consulte a <a href="https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infra-hosts-ui-page/#processes">página Documentação do New Relic &gt; Interface de Infraestrutura &gt; página Host de Infraestrutura &gt; guia Processos</a>.</p>
 </td>
 </tr>
 <tr>
@@ -85,7 +85,7 @@ Este artigo fornece etapas de solução de problemas para resolver problemas de 
 <td>
 <p>Procure um pico incomum em comparação com operações de E/S médias anteriores:</p>
 <ol>
-<li>Efetue logon no <a href="https://login.newrelic.com/login">New Relic</a> &gt; Infraestrutura &gt; Processos.</li>
+<li>Faça logon no <a href="https://login.newrelic.com/login">New Relic</a> &gt; Infraestrutura &gt; Processos.</li>
 <li>Revise o gráfico de Bytes de Leitura de E/S por Segundo.</li>
 <li>Registre a hora do pico.</li>
 <li>Clique em APM.</li>
@@ -103,7 +103,7 @@ Este artigo fornece etapas de solução de problemas para resolver problemas de 
 <td>
 <p>A investigação de uma interrupção pode tomar várias etapas, examinando transações da Web e não-Web, bancos de dados e transações de terceiros. Transações da Web:</p>
 <ol>
-<li>Efetue logon no <a href="https://login.newrelic.com/login">New Relic</a> &gt; APM &gt; Visão geral. Verifique se o filtro está definido como Tempo de transações da Web no filtro de gráfico suspenso.</li>
+<li>Faça logon no <a href="https://login.newrelic.com/login">New Relic</a> &gt; APM &gt; Visão geral. Verifique se o filtro está definido como Tempo de transações da Web no filtro de gráfico suspenso.</li>
 <li>Restrinja manualmente a janela de tempo.</li>
 <li>Clique em Transações. Verifique se os filtros estão definidos como Web e Mais demorado. Investigue a transação de execução mais longa.</li>
 <li>Se precisar investigar mais, considere verificar transações que não sejam da Web.</li>
@@ -121,7 +121,7 @@ Este artigo fornece etapas de solução de problemas para resolver problemas de 
 <li>Classifique por Mais demorado.</li>
 <li>Revise as principais consultas.
 
-Nota: <code>ATUALIZAR</code> ou <code>INSERIR</code>as consultas são as consultas que mais consomem CPU.</li>
+Observação: <code>ATUALIZAR</code> ou <code>INSERT</code>as consultas são as consultas que mais consomem CPU.</li>
 <li>Alterne para Throughput do seletor Classificar por e procure os processos que causaram a queda do throughput do banco de dados.</li>
 <li>Se precisar investigar mais, considere examinar serviços de terceiros.</li>
 </ol>
@@ -133,7 +133,7 @@ Nota: <code>ATUALIZAR</code> ou <code>INSERIR</code>as consultas são as consult
 </ol>
 </td>
 <td>
-<p>Para saber mais sobre a investigação de problemas de desempenho específicos, consulte <a href="https://docs.newrelic.com/docs/apm/applications-menu/monitoring/transactions-page-find-specific-performance-problems#tx_functions">Documentação do New Relic &gt; páginas da interface do usuário do APM &gt; página Transações &gt; Usar funções de drill-down</a>.</p>
+<p>Para saber mais sobre como investigar problemas de desempenho específicos, consulte <a href="https://docs.newrelic.com/docs/apm/applications-menu/monitoring/transactions-page-find-specific-performance-problems#tx_functions">Documentação do New Relic &gt; páginas da interface do usuário do APM &gt; página Transações &gt; Usar funções de detalhamento</a>.</p>
 </td>
 </tr>
 </tbody>

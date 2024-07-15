@@ -22,16 +22,16 @@ As verificações de prontidão garantem que você tenha pelo menos 1GB de memó
 Para aumentar o limite de memória do PHP:
 
 1. Faça logon no servidor do Adobe Commerce.
-1. Localize seu `php.ini` usando o seguinte comando:
+1. Localize o arquivo `php.ini` usando este comando:
 
    ```
    bash    $ php --ini
    ```
 
-1. Como usuário com `root` privilégios, use um editor de texto para abrir a variável `php.ini` especificado por `Loaded Configuration File`.
+1. Como um usuário com privilégios `root`, use um editor de texto para abrir o `php.ini` especificado por `Loaded Configuration File`.
 1. Localizar `memory_limit`.
 1. Altere para um valor de `2GB` para uso e depuração normais.
-1. Salvar as alterações em `php.ini` e saia do editor de texto.
+1. Salve as alterações em `php.ini` e saia do editor de texto.
 1. Reinicie o servidor Web. Exemplos a seguir:
 
    * CentOS: `service httpd restart`
@@ -42,17 +42,17 @@ Para aumentar o limite de memória do PHP:
 
 ## erro max-input-vars devido a formulários grandes
 
-Configurações com um alto número de lojas, produtos, atributos ou opções podem gerar formulários que excedem o limite predefinido do PHP. Se o número de valores enviados ultrapassar o `max-input-vars` limite definido em `php.ini` (o padrão é 1000), os dados restantes não são transferidos e esses valores do banco de dados não são atualizados. Quando isso ocorre, um aviso é exibido no log do PHP:
+Configurações com um alto número de lojas, produtos, atributos ou opções podem gerar formulários que excedem o limite predefinido do PHP. Se o número de valores enviados ultrapassar o limite `max-input-vars` definido em `php.ini` (o padrão é 1000), os dados restantes não serão transferidos e esses valores do banco de dados não serão atualizados. Quando isso ocorre, um aviso é exibido no log do PHP:
 
 ```terminal
 PHP message: PHP Warning: Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini.
 ```
 
-Não há valor &#39;apropriado&#39; para `max-input-vars`; isso depende do tamanho e da complexidade da sua configuração. Modifique o valor no `php.ini` conforme necessário. Consulte [Configurações necessárias do PHP](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html).
+Não há valor &#39;apropriado&#39; para `max-input-vars`; isso depende do tamanho e da complexidade da sua configuração. Modifique o valor no arquivo `php.ini` conforme necessário. Consulte [Configurações PHP necessárias](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html).
 
 ## erro de nível de aninhamento de função máxima xdebug
 
-Consulte [Durante a instalação, erro de nível de aninhamento de função máxima xdebug](/help/troubleshooting/miscellaneous/installation-xdebug-maximum-function-nesting-level-error.md).
+Consulte [Durante a instalação, erro de nível máximo de aninhamento de função xdebug](/help/troubleshooting/miscellaneous/installation-xdebug-maximum-function-nesting-level-error.md).
 
 ## Os erros são exibidos ao acessar um modelo PHTML
 
@@ -62,9 +62,9 @@ Normalmente, o texto de erro é:
 Parse error: syntax error, unexpected 'data' (T_STRING)
 ```
 
-### Solução: Defina `asp_tags = off` no php.ini
+### Solução: Defina `asp_tags = off` em php.ini
 
-Vários modelos têm sintaxe para suporte de nível abstrato em modelos (use diferentes mecanismos de modelos como Twig) envolvidos em `<% %>` tags, como esta [modelo](https://github.com/magento/magento2/blob/2.0/app/code/Magento/Catalog/view/adminhtml/templates/product/edit/base_image.phtml) para exibir uma imagem do produto:
+Vários modelos têm sintaxe para suporte de nível abstrato em modelos (use diferentes mecanismos de modelos, como o Twig) envolvidos em `<% %>` tags, como este [modelo](https://github.com/magento/magento2/blob/2.0/app/code/Magento/Catalog/view/adminhtml/templates/product/edit/base_image.phtml) para exibir uma imagem de produto:
 
 ```php
 <img
@@ -76,4 +76,4 @@ Vários modelos têm sintaxe para suporte de nível abstrato em modelos (use dif
 
 Mais informações sobre [asp\_tags](http://php.net/manual/en/ini.core.php#ini.asp-tags).
 
-Editar `php.ini` e defina `asp_tags = off`. Para obter mais informações, consulte [Configurações necessárias do PHP](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html).
+Editar `php.ini` e definir `asp_tags = off`. Para obter mais informações, consulte [Configurações PHP necessárias](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html).

@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # ACSD-52929: solicitação redundante para reindexar itens de origem padrão
 
-O patch ACSD-52929 corrige o problema de redundância de solicitações para reindexar itens de origem padrão quando o indexador de inventário é configurado no modo assíncrono. Este patch está disponível quando a variável [!DNL Quality Patches Tool (QPT)] O 1.1.38 está instalado. A ID do patch é ACSD-52929. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.7.
+O patch ACSD-52929 corrige o problema de redundância de solicitações para reindexar itens de origem padrão quando o indexador de inventário é configurado no modo assíncrono. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.38 está instalado. A ID do patch é ACSD-52929. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.7.
 
 ## Produtos e versões afetados
 
-**O patch é criado para a versão do Adobe Commerce:**
+**O patch foi criado para a versão do Adobe Commerce:**
 
 * Adobe Commerce (todos os métodos de implantação) 2.4.5-p2
 
@@ -27,7 +27,7 @@ O patch ACSD-52929 corrige o problema de redundância de solicitações para rei
 
 >[!NOTE]
 >
->O patch pode se tornar aplicável a outras versões com novos [!DNL Quality Patches Tool] versões. Para verificar se o patch é compatível com sua versão do Adobe Commerce, atualize o `magento/quality-patches` pacote para a versão mais recente e verifique a compatibilidade no [[!DNL Quality Patches Tool]: Página Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+>O patch pode se tornar aplicável a outras versões com as novas versões do [!DNL Quality Patches Tool]. Para verificar se o patch é compatível com a sua versão do Adobe Commerce, atualize o pacote `magento/quality-patches` para a versão mais recente e verifique a compatibilidade na [[!DNL Quality Patches Tool]: página Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
 
 ## Problema
 
@@ -36,12 +36,12 @@ Há uma redundância de solicitações para reindexar itens de origem padrão qu
 <u>Etapas a serem reproduzidas</u>:
 
 1. Configurar [!DNL RabbitMQ].
-1. Habilitar estratégia de reindexação assíncrona acessando **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Inventory]** > **[!UICONTROL Inventory Indexer Setting]** e defina **[!UICONTROL Stock/Source reindex strategy]=[!UICONTROL Asynchronous]**.
+1. Habilite a estratégia de reindexação assíncrona indo até **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Inventory]** > **[!UICONTROL Inventory Indexer Setting]** e defina **[!UICONTROL Stock/Source reindex strategy]=[!UICONTROL Asynchronous]**.
 1. Crie uma origem de inventário personalizada.
-1. Faça logon na [!DNL RabbitMQ] e vá para a guia filas.
-1. Marcar `inventory.indexer.sourceItem` e certifique-se de que não tenha mensagens.
-1. Abra um produto simples no back-end e adicione *[!UICONTROL stock only]* à fonte personalizada e salve o produto.
-1. Carregue o `inventory.indexer.sourceItem` na fila [!DNL RabbitMQ] e verifique as mensagens.
+1. Faça logon no painel [!DNL RabbitMQ] e vá para a guia filas.
+1. Verifique a fila `inventory.indexer.sourceItem` e certifique-se de que ela tenha zero mensagens.
+1. Abra um produto simples no back-end, adicione *[!UICONTROL stock only]* à fonte personalizada e salve o produto.
+1. Carregue a fila `inventory.indexer.sourceItem` no painel [!DNL RabbitMQ] e verifique as mensagens.
 
 <u>Resultados esperados</u>:
 
@@ -55,14 +55,14 @@ Duas mensagens são mostradas na fila: uma para a origem padrão e outra para a 
 
 Para aplicar patches individuais, use os links a seguir, dependendo do método de implantação:
 
-* Adobe Commerce ou Magento Open Source no local: [[!DNL Quality Patches Tool] > Uso](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) no [!DNL Quality Patches Tool] guia.
-* Adobe Commerce na infraestrutura em nuvem: [Upgrades e Patches > Aplicar Patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) no guia do Commerce na infraestrutura em nuvem.
+* Adobe Commerce ou Magento Open Source no local: [[!DNL Quality Patches Tool] > Uso](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) no guia [!DNL Quality Patches Tool].
+* Adobe Commerce na infraestrutura em nuvem: [Atualizações e patches > Aplicar patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) no guia do Commerce na infraestrutura em nuvem.
 
 ## Leitura relacionada
 
 Para saber mais sobre [!DNL Quality Patches Tool], consulte:
 
-* [[!DNL Quality Patches Tool] lançado: uma nova ferramenta para autoatender correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de conhecimento de suporte.
-* [Verifique se o patch está disponível para o problema do Adobe Commerce usando [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de conhecimento de suporte.
+* [[!DNL Quality Patches Tool] versão: uma nova ferramenta para autoatender patches de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de dados de conhecimento de suporte.
+* [Verifique se há um patch disponível para o problema do Adobe Commerce usando o [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de dados de conhecimento de suporte.
 
-Para obter informações sobre outros patches disponíveis no QPT, consulte [[!DNL Quality Patches Tool]: Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) no [!DNL Quality Patches Tool] guia.
+Para obter informações sobre outros patches disponíveis no QPT, consulte [[!DNL Quality Patches Tool]: Pesquisar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) no guia [!DNL Quality Patches Tool].

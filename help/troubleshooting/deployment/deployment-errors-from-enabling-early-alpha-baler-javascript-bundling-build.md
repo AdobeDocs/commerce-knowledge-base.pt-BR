@@ -30,8 +30,8 @@ Não recomendamos que os comerciantes usem o módulo Baler em um ambiente de pro
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. O comerciante tenta inserir a variável **SCD\_USE\_BALER** no estágio de criação da variável `.magento.env.yaml` que ativa o pacote de empacotamento Baler Javascript.
-1. O comerciante também acrescenta a dependência do compositor Baler: `"magento/module-baler": "1.0.0-alpha"` para `require` seção de `composer.json`.
+1. O comerciante tenta inserir a variável **SCD\_USE\_BALER** no estágio de compilação do arquivo `.magento.env.yaml`, o que habilita o pacote agrupado do Baler Javascript.
+1. O comerciante também adiciona a dependência do compositor Baler: `"magento/module-baler": "1.0.0-alpha"` à seção `require` de `composer.json`.
 
 <u>Resultado esperado</u>:
 
@@ -52,9 +52,9 @@ O módulo Baler está atualmente no estágio inicial de desenvolvimento alfa e o
 
 ## Solução
 
-Você pode revisar a documentação existente do Alpha Baler em [Github/Magento/Baler/Introdução ao alpha](https://github.com/magento/baler/blob/master/docs/ALPHA.md). No entanto, ele não está pronto para uso de produção e é usado por sua conta e risco. Em vez disso, é recomendável mesclar ou agrupar arquivos Javascript (JS) usando o agrupamento incorporado do Adobe Commerce (agrupamento básico) para otimização de arquivos.
+Você pode revisar a documentação existente do Alpha Baler em [Github/Magento/Baler/Getting started with the alpha](https://github.com/magento/baler/blob/master/docs/ALPHA.md). No entanto, ele não está pronto para uso de produção e é usado por sua conta e risco. Em vez disso, é recomendável mesclar ou agrupar arquivos Javascript (JS) usando o agrupamento incorporado do Adobe Commerce (agrupamento básico) para otimização de arquivos.
 
-* Você pode ativar a mesclagem ou o agrupamento no Administrador (a mesclagem e o agrupamento não podem ser ativados ao mesmo tempo): **Lojas** > **Configurações** > **Configuração** > **Avançado** > **Desenvolvedor** > **Configurações do JavaScript**.
-* Você também pode ativar o agrupamento incorporado do Adobe Commerce (agrupamento básico) na linha de comando: `php -f bin/magento config:set dev/js/enable_js_bundling 1`
+* Você pode ativar a mesclagem ou o agrupamento no Administrador (a mesclagem e o agrupamento não podem ser habilitados ao mesmo tempo): **Lojas** > **Configurações** > **Configuração** > **Avançadas** > **Desenvolvedor** > **Configurações do JavaScript**.
+* Você também pode habilitar o agrupamento interno do Adobe Commerce (agrupamento básico) na linha de comando: `php -f bin/magento config:set dev/js/enable_js_bundling 1`
 
-Para saber mais, consulte [Otimização de arquivos CSS e Javascript no Adobe Commerce na infraestrutura em nuvem e no Adobe Commerce no local](https://support.magento.com/hc/en-us/articles/360044482152).
+Para saber mais, consulte [Otimização de arquivos CSS e Javascript no Adobe Commerce na infraestrutura de nuvem e no Adobe Commerce no local](https://support.magento.com/hc/en-us/articles/360044482152).

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Este artigo fornece instruções de solução de problemas do Adobe Commerce sobre infraestrutura em nuvem, em que tentar acessar o ambiente de integração recém-criado leva você ao ambiente principal.
 
-Para corrigir isso, você precisa corrigir o valor base\_url no banco de dados e verificar se `UPDATE_URLS` o valor da variável está definido como `true`. Encontre mais detalhes nas seções abaixo.
+Para corrigir isso, você precisa corrigir o valor base\_url no banco de dados e verificar se o valor da variável `UPDATE_URLS` está definido como `true`. Encontre mais detalhes nas seções abaixo.
 
 Versões e edições afetadas:
 
@@ -38,7 +38,7 @@ Você é redirecionado para o ambiente na ramificação principal.
 
 ## Solução
 
-Para corrigir o problema, você precisa corrigir o `base_url` valores (seguros e não seguros) no banco de dados de ambiente personalizado e defina as `UPDATE_URL` na variável `.magento.env.yaml` arquivo.
+Para corrigir o problema, você precisa corrigir os valores `base_url` (seguros e não seguros) no banco de dados de ambiente personalizado e definir a variável `UPDATE_URL` no arquivo `.magento.env.yaml`.
 
 ### Corrigir valores base\_url no banco de dados
 
@@ -59,7 +59,7 @@ update core_config_data set value = %your_new_environment_secure_url% where path
 
 #### Corrigir o banco de dados usando a CLI do Adobe Commerce (disponível para as versões 2.2.X)
 
-1. Efetue login como, ou alterne para, o [Proprietário do sistema de arquivos Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html).
+1. Faça logon como ou alterne para o [proprietário do sistema de arquivos da Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html).
 1. Execute os seguintes comandos:
 
 ```bash
@@ -67,9 +67,9 @@ php <your_magento_install_dir>/bin/magento config:set web/unsecure/base_url http
 php <your_magento_install_dir>/bin/magento config:set web/secure/base_url https://example.com
 ```
 
-### Defina o `UPDATE_URLS` variável
+### Definir a variável `UPDATE_URLS`
 
-Na sua base de código local, no `.magento.env.yaml` conjunto de arquivos:
+Em sua base de código local, no conjunto de arquivos `.magento.env.yaml`:
 
 ```
  stage:
