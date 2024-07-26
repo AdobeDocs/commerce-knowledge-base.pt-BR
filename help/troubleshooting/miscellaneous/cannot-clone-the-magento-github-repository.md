@@ -4,7 +4,7 @@ description: Este artigo fornece uma correção para quando não é possível cl
 exl-id: 65de77b5-496d-42a3-ab2e-1fff9df97160
 feature: Data Import/Export
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 35d4f2130d0ec71f71f5f20aa8a7c76207e7a35a
 workflow-type: tm+mt
 source-wordcount: '62'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Este artigo fornece uma correção para quando não é possível clonar o reposi
 
 O erro é semelhante ao seguinte:
 
-```terminal
+```bash
 Cloning into 'magento2'...
 Permission denied (publickey).
 fatal: The remote end hung up unexpectedly
