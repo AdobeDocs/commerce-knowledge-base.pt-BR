@@ -1,28 +1,28 @@
 ---
-title: Guia do usuário da Central de ajuda do Adobe Commerce
-description: Saiba como enviar um tíquete de suporte para o Centro de ajuda da Adobe Commerce, fornecer acesso compartilhado às contas e navegar pela Base de conhecimento da Adobe Commerce.
+title: Guia do usuário de suporte Experience League para Adobe Commerce
+description: Saiba como enviar um tíquete de suporte para o Suporte Experience League, fornecer acesso compartilhado a contas e navegar na Base de conhecimento Adobe Commerce.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 3e773131f6f44436fc533f74474efbe8597abb5f
+source-git-commit: 23f19c3b8fff3b31bb42625d210c5330292b79b3
 workflow-type: tm+mt
-source-wordcount: '4988'
+source-wordcount: '2088'
 ht-degree: 0%
 
 ---
 
-# Guia do usuário da Central de ajuda do Adobe Commerce
+# Guia do usuário de suporte Experience League para Adobe Commerce
 
-Neste guia, saiba como enviar um tíquete de suporte à [Central de Ajuda da Adobe Commerce](https://support.magento.com/hc/en-us) e fornecer acesso compartilhado às contas do Adobe Commerce.
+Neste guia, saiba como enviar um tíquete de suporte para o [Suporte para Experience League](https://experienceleague.adobe.com/home#support) e fornecer acesso compartilhado às contas do Adobe Commerce.
 
 >[!NOTE]
 >
->O suporte da Adobe Commerce está migrando do Adobe Commerce Help Center para o Experience League. Se você foi notificado de que tem acesso, use o fluxo de formulário do caso Experience League descrito [aqui](#what-is-experience-support). Se ainda não tiver sido notificado, continue usando o [fluxo de casos da Central de Ajuda da Adobe Commerce](#what-is-adobe-commerce-help-center).
+>O suporte da Adobe Commerce migrou do Centro de ajuda da Adobe Commerce para o Experience League. Use o fluxo de formulário do caso Experience League descrito [aqui](#what-is-experience-support) para enviar casos de suporte.
 
 >[!NOTE]
 >
 >A parte da Base de conhecimento do Adobe Commerce Help Center migrou para o portal da Adobe Experience League. Ao criar um tíquete de suporte, serão sugeridos artigos relacionados da Knowledge base, juntamente com outra documentação relevante do Adobe Commerce no Adobe Experience League.
 
-**Atualização principal:** 8 de julho de 2024
+**Atualização principal:** 29 de julho de 2024
 
 **[O QUE É SUPORTE PARA EXPERIENCE LEAGUE?](#what-is-experience-support)**
 
@@ -38,30 +38,10 @@ Neste guia, saiba como enviar um tíquete de suporte à [Central de Ajuda da Ado
 * [Acompanhe seus casos de suporte](#track-support-cases)
 * [Comentários no seu caso](#comments-in-your-case)
 * [Feche seu caso](#close-case)
-
-**[O QUE É O CENTRO DE AJUDA DA ADOBE COMMERCE?](#what-is-adobe-commerce-help-center)**
-
-**[TÍQUETES DE SUPORTE](#support-tickets)**
-
-* [Fazer Logon Na Central De Ajuda](#login)
-* [Enviar um tíquete de suporte](#submit-ticket)
-
-   * [Página inicial da Central de ajuda](#submit-ticket-help-center-start-page)
-   * [Página da conta do Magento](#submit-ticket-magento-account-page)
-   * [Cloud Console](#submit-ticket-magento-cloud-account-page)
-   * [Informações no tíquete de suporte](#info-in-support-ticket)
-   * [O link &quot;Enviar um tíquete&quot; não é exibido na página inicial da Central de ajuda da Adobe Commerce](#no-submit-link)
-   * [*&quot;Verifique seu endereço de email&quot;*](#verify-email-address)
-   * [Formulário de envio de tíquete: o comerciante não é exibido no menu suspenso Organização](#merchant-not-displayed)
-
-* [Acompanhe seus ingressos](#track-tickets)
-* [Linha direta Adobe Commerce P1 (logon necessário)](#P1-hotline)
-* [Modelo operacional de responsabilidade compartilhada da Adobe Commerce (logon necessário)](#shared-responsibility-operational-model)
-* [Explicação dos campos de tíquete de suporte](#ticket-fields-explained)
-* [Status do tíquete: como suas solicitações são processadas](#ticket-status)
-* [Conversa no seu tíquete](#conversation-in-ticket)
-* [Resolver seu tíquete](#resolve-ticket)
-* [Abrir um tíquete de acompanhamento](#follow-up)
+* [Reabra seu caso](#reopen-case)
+* [Enviar tíquete usando o Cloud Console](#cloud-console)
+* [Linha direta Adobe Commerce P1](#P1-hotline)
+* [Modelo operacional de responsabilidade compartilhada da Adobe Commerce](#shared-responsibility-operational-model)
 
 **[ACESSO COMPARTILHADO: CONCEDER PRIVILÉGIOS PARA QUE OUTROS USUÁRIOS ACESSEM SUA CONTA](#shared-access)**
 
@@ -76,11 +56,6 @@ Neste guia, saiba como enviar um tíquete de suporte à [Central de Ajuda da Ado
 
 **[PERGUNTAS FREQUENTES SOBRE COBRANÇA DO ADOBE COMMERCE](#billing-faq)**
 
-**[MAGENTO U AGORA FAZ PARTE DO ADOBE DIGITAL LEARNING SERVICES](#magento-u)**
-
->[!NOTE]
->
->A menos que tenha sido notificado, continue usando o [fluxo de casos da Central de Ajuda da Adobe Commerce](#what-is-adobe-commerce-help-center). Se você foi notificado de que está no coorte com acesso, siga o fluxo de formulário do caso Experience League descrito [abaixo](#what-is-experience-league-support).
 
 ## O QUE É SUPORTE PARA EXPERIENCE LEAGUE? {#what-is-experience-support}
 
@@ -112,7 +87,7 @@ Depois de fazer logon, você pode enviar um caso de suporte usando a página ini
 
 Para enviar um novo caso de suporte usando a página inicial do Adobe Experience League, siga estas etapas:
 
->[!NOTE]
+>[!INFO]
 >
 >1. Se você pertencer a várias organizações, precisará selecionar a organização apropriada na lista suspensa.
 >1. Para enviar um caso, você deve ter direito a suporte. Caso não esteja, uma barra será exibida na parte superior da página informando que você não é um usuário com direito a suporte na organização.
@@ -134,6 +109,16 @@ Para enviar um novo caso de suporte usando a página inicial do Adobe Experience
    ![direct_support_required](assets/direct_support.png)
 
 1. Depois de preencher todas as informações necessárias, clique em **[!UICONTROL Submit case]**.
+
+>[!IMPORTANT]
+>
+>Se você não conseguir ver sua organização no menu suspenso de organização ao fazer logon em experienceleague.adobe.com, talvez seja necessário sincronizar o perfil com accounts.magento.com antes de solicitar suporte ou gerenciar um caso de suporte existente.   
+>
+>1. Navegue até accounts.magento.com e faça logon com o mesmo perfil (corporativo, escolar ou pessoal) que você usará para gerenciar casos de suporte no Adobe Experience League. 
+>1. Depois de fazer logon no perfil accounts.magento.com, navegue de volta para experienceleague.adobe.com e faça logon. 
+>1. Selecione sua organização no menu suspenso de organização. 
+>1. Se sua organização ainda não aparecer, entre em contato com o administrador do Commerce para obter os direitos de representante de suporte. Para obter informações adicionais, consulte o artigo de ajuda [Compartilhamento de conta da Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share). 
+
 
 Você deve ter uma conta em https://account.adobe.com e https://account.magento.com para fazer logon no Experience League para enviar um caso de suporte. Você não poderá enviar um caso de suporte até entrar.
 
@@ -227,75 +212,11 @@ Para fechar o caso, clique em **[!UICONTROL Close case]** na parte inferior dire
 
 ![caso de fechamento](assets/close_case.png)
 
->[!NOTE]
->
->Continue usando o fluxo de formulário da Central de ajuda da Adobe Commerce [abaixo](#what-is-adobe-commerce-help-center) para envio e gerenciamento de tíquete, a menos que você tenha sido notificado de que está no coorte com acesso ao fluxo de formulário de caso de Experience League descrito [aqui](#what-is-experience-league-support).
+### Reabra seu caso {#reopen-case}
 
-## O QUE É O CENTRO DE AJUDA DA ADOBE COMMERCE? {#what-is-adobe-commerce-help-center}
+Para reabrir seu caso, responda ao e-mail do nosso Sistema de Suporte relacionado a esse caso e solicite ao agente que o reabra. Se você fizer isso dentro de 14 dias do fechamento do caso, o agente poderá reabrir o caso para você. No entanto, se for após 14 dias, o agente terá que criar um novo caso.
 
-A [Central de Ajuda da Adobe Commerce](https://support.magento.com/hc/en-us) é um portal de suporte da Adobe Commerce, no qual os clientes qualificados podem enviar e gerenciar tíquetes de suporte. Também é onde você pode consultar os artigos de solução de problemas.
-
-## TÍQUETES DE SUPORTE {#support-tickets}
-
-O Adobe Commerce Ticketing System permite trabalhar com tíquetes de suporte para solucionar problemas específicos que você está enfrentando ao trabalhar com o Adobe Commerce - para todos os produtos da Adobe Commerce.
-
-## FAÇA LOGON NA CENTRAL DE AJUDA {#login}
-
-Fazer logon permite enviar, atualizar e responder às perguntas dos agentes sobre tíquetes de suporte.
-
-Para fazer logon na Central de ajuda do Adobe Commerce, siga estas etapas:
-
-1. Acessar a Central de Ajuda em <https://support.magento.com>.
-1. Clique em **Fazer logon** no canto superior direito.
-
-Use as credenciais da sua conta Magento para fazer logon. Para obter mais informações, consulte [Sua conta Magento](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-create.html) no nosso guia do usuário.
-
-### <strong>Enviar um tíquete de suporte</strong> {#submit-ticket}
-
-Depois de fazer logon, você pode enviar um tíquete de suporte usando a página inicial da Central de ajuda, a página Conta de Magento e a página Conta da nuvem de Magento.
-
-* Se você for o **Proprietário da conta**, siga as etapas abaixo.
-* Se você for um usuário de **Acesso Compartilhado, deverá alternar contas primeiro** [Acessar conta compartilhada (alternar contas)](#switch-accounts) e, em seguida, prosseguir para as etapas abaixo.
-
-#### Página inicial da Central de ajuda {#submit-ticket-help-center-start-page}
-
-Para enviar um novo tíquete de suporte usando a página inicial da Central de ajuda do Adobe Commerce, siga estas etapas:
-
-1. Vá para a [Central de Ajuda do Adobe Commerce](https://support.magento.com/hc/en-us).
-1. Clique em **Enviar um tíquete** no canto superior direito.
-
-   ![enviar-um-tíquete](assets/submit-a-ticket-4.png){width="800"}
-
-1. Preencha os campos.
-1. Clique em **Enviar**.
-
-Você *deve ter* uma conta em https://account.adobe.com e https://account.magento.com e fazer logon na Central de Ajuda usando sua conta da Adobe Commerce para enviar um tíquete de suporte. Até você estar conectado, [o botão **Enviar um tíquete** não será exibido](#no-submit-link).
-
->[!NOTE]
->
->Se você já tiver uma conta em https://account.magento.com, mas não conseguir fazer logon, talvez não tenha se registrado para uma conta em https://account.adobe.com, que é obrigatório a partir de agosto de 2022.
->
->Para resolver isso:
->
->1. Crie uma conta em https://account.adobe.com usando o mesmo endereço de email em sua ID MAG.
->1. Acesse https://account.magento.com para vincular seu Adobe ID com a ID MAG.
-
-
-#### Página da conta do Magento {#submit-ticket-magento-account-page}
-
-Para enviar um novo tíquete de suporte usando a página Conta do Magento, siga estas etapas:
-
-1. Faça logon em sua conta Magento. Consulte [instruções detalhadas](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-create.html?lang=en#create-a-commerce-account) em nosso guia do usuário.
-1. Clique na guia **Suporte**.
-
-   ![magento_account_support_tab](assets/magento_account_support_tab.png){width="800"}
-
-1. A página inicial da Central de ajuda é carregada para você.
-1. Clique em **Enviar um tíquete** no canto superior direito.
-1. Preencha os campos.
-1. Clique em **Enviar**.
-
-#### Cloud Console {#submit-ticket-magento-cloud-account-page}
+### Enviar tíquete usando o Cloud Console {#cloud-console}
 
 Para enviar um novo tíquete de suporte usando o Cloud Console, siga estas etapas:
 
@@ -307,383 +228,14 @@ Para enviar um novo tíquete de suporte usando o Cloud Console, siga estas etapa
 1. Clique em **Enviar**.
 1. Clique em **[!UICONTROL Submit]**.
 
-#### Informações no tíquete de suporte {#info-in-support-ticket}
-
-Os campos, marcados com um asterisco vermelho ( **\*** ), são obrigatórios e devem ser preenchidos. Se você deixar qualquer um desses campos vazios, não poderá enviar o tíquete.
-
-Consulte [Campos de tíquete explicados](#ticket-fields-explained) abaixo para obter informações mais detalhadas.
-
-### O link &quot;Enviar um tíquete&quot; não é exibido na página inicial da Central de ajuda da Adobe Commerce {#no-submit-link}
-
-#### Problema
-
-Você acessa a Central de ajuda da Adobe Commerce e deseja enviar uma solicitação de suporte, mas o link **Enviar um tíquete** não é exibido na página inicial da Central de ajuda.
-
-#### Causa
-
-Um dos seguintes pode ser a causa:
-
-* Você não fez logon na Central de ajuda.
-* Se estiver usando o acesso compartilhado pela primeira vez, você não executou as etapas necessárias para garantir que a Central de ajuda do Adobe Commerce esteja configurada corretamente por meio da chamada SSO de Magento.com.
-* Sua conta não tem direito ao suporte da Adobe Commerce (por exemplo, você não é um cliente do Commerce pagante ou é um cliente do Open Source).
-
-#### Solução
-
-[Faça logon na Central de Ajuda](/help/help-center-guide/help-center/magento-help-center-user-guide.md#provide-shared-access).
-
-O link **Enviar um tíquete** será exibido apenas para clientes com um email vinculado a um contrato de suporte válido.
-
-#### Uso da conta de acesso compartilhado
-
-Para poder usar a conta de acesso compartilhado para enviar tíquetes de suporte, é necessário executar o seguinte (isso precisa ser feito apenas uma vez):
-
-1. Depois de receber o [acesso compartilhado](https://support.magento.com/hc/en-us/articles/360052444712#who-can-provide-shared-access), faça logon em sua [Conta Magento no site magento.com](https://account.magento.com/).
-1. No campo suspenso **Trocar Contas**, no canto superior direito, selecione a conta de acesso compartilhado.
-1. Clique na guia **Suporte** no painel esquerdo. Isso garantirá que a Central de ajuda do Adobe Commerce seja configurada corretamente por meio da chamada SSO de Magento.com para a Central de ajuda do Adobe Commerce.
-
-#### Ainda não vê o link **Enviar um tíquete**
-
-Se você não tiver **Contas compartilhadas** na lista suspensa **Trocar contas**, mas estiver trabalhando para um cliente que tenha uma licença do Adobe Commerce, peça a ele que conceda a você Acesso compartilhado. Para obter mais detalhes, consulte [Fornecer acesso compartilhado à Conta do Magento](/help/help-center-guide/help-center/magento-help-center-user-guide.md#provide-shared-access).
-
-Se você for um proprietário de licença da Adobe Commerce, verifique se não tem uma fatura com o status **Pagamento pendente**. Os direitos de suporte são automaticamente concedidos ou revogados de acordo com o status de pagamento da fatura.
-
-<span class="wysiwyg-underline">Como Verificar Seu Status De Pagamento</span>:
-
-1. Faça logon em [magento.com](https://support.magento.com/).
-1. Clique em **Histórico de Cobrança** à esquerda.
-1. Se você **tiver** uma fatura com o status **Pagamento Pendente**, **contate a Equipe de Conta do Adobe** para resolver o problema de pagamento.
-
-Fornecemos suporte somente aos proprietários de licença da Adobe Commerce e contas que têm Acesso compartilhado a uma conta com uma licença da Adobe Commerce. Se precisar de suporte para a edição Magento Open Source, utilize estes recursos técnicos de autoajuda:
-
-* [Central de ajuda da Adobe Commerce](https://support.magento.com/)
-* [Documentação do desenvolvedor do Adobe Commerce](https://developer.adobe.com/commerce/docs/)
-* [recursos de documentação do Adobe Commerce](https://experienceleague.adobe.com/docs/commerce.html)
-* [Fóruns do Magento](https://community.magento.com/?_ga=2.99592990.1084044056.1559046120-720752292.1551793747)
-
-Se você tiver problemas ao fazer logon em sua conta ou acreditar que o Acesso Compartilhado foi configurado corretamente, mas ainda não conseguir ver o botão **Enviar um tíquete**, envie um email para [problemas de logon na Central de Ajuda](mailto:grp-magento-helpcenterloginissues@adobe.com) e analisaremos com prazer suas configurações de conta e direitos de suporte.
-
->[!NOTE]
->
->Se você tiver um problema com o acesso ao seu projeto na nuvem, envie o tíquete para esse problema por meio dos canais regulares. Não envie um email se você puder enviar um tíquete.
-
-### Erro &quot;Verifique seu endereço de email&quot; na página da conta do Magento {#verify-email-address}
-
-Você não poderá enviar um tíquete de suporte se receber o erro *Verifique seu endereço de email* semelhante ao abaixo na [página Conta do Magento](https://account.magento.com/).
-
-![Verificar_Endereço_De_Email_Erro](assets/Verify_Email_Address_Error.png){width="800"}
-
-A solução é validar seu endereço de email:
-
-1. Faça logon em https://account.adobe.com e solicite uma senha, se necessário.
-1. Verifique sua conta Adobe.
-
->[!NOTE]
->
->Isso se aplica somente ao link de validação de email de https://account.magento.com (página Conta do Magento).
-
-### Formulário de envio de tíquete: o comerciante não é exibido no menu suspenso Organização {#merchant-not-displayed}
-
-#### Problema
-
-<span class="wysiwyg-underline">Pré-requisitos</span>: você tem uma conta de acesso compartilhado concedida por um comerciante.
-
-<span class="wysiwyg-underline">Etapas a serem reproduzidas</span>:
-
-1. Faça logon na Central de ajuda usando sua conta compartilhada.
-1. Clique no link **Enviar um tíquete**. O formulário de envio de tíquete é aberto.
-1. Expanda o campo suspenso **Organização** para selecionar o comerciante.
-
-<span class="wysiwyg-underline">Resultado esperado</span>:
-
-O comerciante correspondente à conta compartilhada está listado nas opções de **Organização**.
-
-<span class="wysiwyg-underline">Resultado real</span>:
-
-O comerciante correspondente à conta compartilhada usada não está disponível nas opções de **Organização**.
-
-#### Solução
-
-Depois de receber acesso compartilhado do comerciante, é necessário executar as seguintes etapas (apenas uma vez):
-
-1. Faça logon em sua [Conta do Magento no site magento.com](https://account.magento.com/).
-1. No campo suspenso **Trocar Contas**, no canto superior direito, selecione a conta de acesso compartilhado.
-1. Clique na guia **Suporte** no painel esquerdo. Isso garantirá que a Central de ajuda do Adobe Commerce seja configurada corretamente por meio da chamada SSO de Magento.com para a Central de ajuda do Adobe Commerce.
-
-Se você já tiver feito isso, verifique se recebeu *acesso compartilhado de mais de um comerciante* clicando na guia [[!UICONTROL Shared with me] na sua conta](https://account.magento.com/grantor/manage/shared/):
-* Se somente um [!UICONTROL Share Name] estiver listado, isto é, você só foi concedido por um comerciante, *você não verá uma lista suspensa de [!UICONTROL Organization]*.
-* Se houver vários [!UICONTROL Share Names], os direitos de suporte do comerciante podem ter expirado porque sua licença foi revogada anteriormente devido a problemas de pagamento.
-
-### Acompanhe seus ingressos {#track-tickets}
-
-Seus ingressos são aqueles que você:
-
-* submeteu pessoalmente
-* foram adicionados ao como observador por meio de uma CC (cópia carbono)
-
-#### Exibir seus tíquetes
-
-Para listar todos os seus tíquetes, clique no menu de perfil (canto superior direito) na página inicial da Central de ajuda e selecione **Meus tíquetes**.
-
-![alerta crítico de disco](assets/my-tickets-8.png){width-&quot;800&quot;}
-
-Para alternar entre seus tíquetes e os tíquetes ativados por CC, clique na guia correspondente:
-
-* **Meus tíquetes**
-* **Tíquetes com CC**
-* **Tíquetes da organização** (disponíveis se sua conta estiver associada a várias organizações)
-
-![hc_my-tickets_tabs.png](assets/hc_my-tickets_tabs.png)
-
-Para classificar tíquetes, clique nos cabeçalhos de coluna **Criado** ou **Última atividade**.
-
-#### Pesquisar tíquetes
-
-Para localizar tíquetes, digite sua consulta de pesquisa no campo **Tíquetes de pesquisa** e pressione *Enter* no teclado. Selecione [um status](#ticket-status) para filtragem adicional.
-
-![hc_search-tickets.png](assets/hc_search-tickets.png)
-
-#### Seguir tíquetes da organização
-
-Você pode seguir os tíquetes de suporte enviados pelos membros de sua organização.
-
-Ao seguir os tíquetes da organização, você:
-
-* pode exibir tíquetes na guia **Tíquetes da organização**
-* receber notificações por email quando os novos tíquetes forem enviados ou quando os tíquetes existentes forem alterados
-
-Para seguir/deixar de seguir tickets de uma organização:
-
-1. Vá para a guia **Meus tíquetes** > **Tíquetes da organização**.
-1. Selecione uma organização no menu e clique em **Seguir/Deixar de seguir**.
-
-![hc_follow-org-tickets.png](assets/hc_follow-org-tickets.png)
-
 ### Linha direta Adobe Commerce P1 {#P1-hotline}
 
-**O logon é necessário** para acessar o artigo [linha direta P1 da Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-p1-notification-hotline.html), que fornece os números de linha direta P1 para a Adobe Commerce quando busca ajuda durante um incidente P1 e explica quais informações fornecer.
+O artigo [Linha direta P1 da Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-p1-notification-hotline.html) fornece os números de linha direta P1 para a Adobe Commerce quando buscar ajuda durante um incidente P1 e explica quais informações fornecer.
 
 ### Modelo operacional de responsabilidade compartilhada da Adobe Commerce {#shared-responsibility-operational-model}
 
 Consulte o artigo sobre [Modelo operacional de responsabilidade compartilhada da Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-operations/security-and-compliance/shared-responsibility#operational-responsibilities-summary),
 que visa esclarecer as responsabilidades operacionais somente para nossa oferta de infraestrutura Pro.
-
-### Explicação dos campos de tíquete de suporte {#ticket-fields-explained}
-
-#### URL afetado
-
-Link para o ambiente em que a equipe de suporte da Adobe Commerce poderá ver o problema. Inicie o URL com &quot;http://&quot; ou &quot;https://&quot;.
-
-#### Anexos
-
-Anexe logs, capturas de tela, gravações de vídeo ou qualquer outra mídia que possa ilustrar melhor seu problema.
-
-#### URL do Backoffice (somente MOM)
-
-O URL deve começar com &quot;https://&quot;. Normalmente, ela estará no formato: nome do comerciante +&quot;.mcom.magento.com/admin/login&quot;, por exemplo, &quot;https://luma.mcom.magento.com/admin/login&quot;.
-
-Você também pode colocar o link direto relacionado ao seu problema.
-
-#### CC
-
-Emails das pessoas que você deseja seguir seu tíquete (por exemplo, *first@e.mail*).
-
-Você pode adicionar emails das pessoas que não têm uma conta Magento ou uma conta Zendesk; essas pessoas ainda são capazes de contribuir para a conversa em seu ticket.
-
-Para adicionar vários emails ao CC:
-
->[!NOTE]
->
->O usuário em CC: deve ter uma conta existente em https://account.magento.com. Caso contrário, eles devem primeiro criar um em https://account.adobe.com e fazer logon em https://account.magento.com com essa conta.
-
-1. Insira o email.
-1. Pressione *Espaço* no teclado para salvar o email inserido. O email aparece em um quadro cinza.\
-   ![hc_cc_emails.png](assets/hc_cc_emails.png)
-1. Comece a digitar o próximo email.
-1. Salve todos os outros emails pressionando *Espaço*.
-
-Para excluir emails do CC: clique em **x** em um email enquadrado.
-
-![hc_cc_emails_remove.png](assets/hc_cc_emails_remove.png)
-
-#### Produto
-
-Selecione o tipo de produto Adobe Commerce com o qual você está trabalhando:
-
-* Adobe Commerce: o campo **[!UICONTROL Implementation Type]** aparecerá depois que você selecionar essa opção (veja os detalhes abaixo)
-* Magento Order Management
-* Relatórios do Adobe Commerce: sem incluir [Relatórios Avançados](https://experienceleague.adobe.com/docs/commerce-admin/config/general/advanced-reporting.html)
-* Adobe Commerce [Serviços de pagamento](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/overview.html)
-* Serviços Adobe Commerce: somente [Gerenciador de Canais](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/guide-overview.html)
-
-#### Tipo de implementação
-
-Este campo só aparecerá depois que você selecionar **[!UICONTROL Product]** = *Adobe Commerce*
-
-Especifique seu método de implantação:
-
-* Nuvem: escolha essa opção somente se você estiver no Adobe Commerce na infraestrutura em nuvem
-* No local: *Todas as instâncias auto-hospedadas, bem como a [hospedagem na nuvem do AWS]* (exclui o Adobe Commerce na Nuvem)
-
-#### URL do projeto na nuvem
-
-Forneça a URL para o projeto do Cloud Console, por exemplo, `https://console.adobecommerce.com/<owner-user-name>/<project-ID>`.
-
-Outro método para obter o URL do projeto é o seguinte:
-
-1. Faça logon no [Cloud Console](https://console.adobecommerce.com).
-1. Clique no projeto apropriado.
-1. Copie o URL.
-
-#### Motivo do contato
-
-Os motivos de contato variam por produto. Escolha qual razão de contato se adapta melhor aos sintomas que você está enfrentando. Consulte o artigo [Descrições do motivo do contato do tíquete de suporte](/help/faq/general/support-ticket-contact-reason-descriptions.md) para saber mais sobre o motivo do contato que você deve escolher.
-
-#### ID de ambiente do Adobe Commerce
-
-Este campo só aparecerá depois que você selecionar **[!UICONTROL Contact Reason]** = *Aplicativo Adobe Commerce Cloud*, seguido de **Motivo do Contato de Aplicativos Adobe Commerce** = *[!DNL Live Search]*.
-Vá para **[!UICONTROL System]** > **[!UICONTROL Services]** > **[!UICONTROL Commerce Services Connector]** > **[!UICONTROL SaaS Identifier]** e forneça o *[!UICONTROL Data Space ID]*.
-
-#### (Dados) Tipo de integração (somente Relatórios do Adobe Commerce)
-
-Selecione o tipo de integração que você tem nos Relatórios do Adobe Commerce. Isso ajudará nossos engenheiros a resolver seu problema com mais eficiência.
-
-#### Descrição
-
-Inclua uma visão geral do seu problema com quantos detalhes você achar razoavelmente possíveis.
-
-Forneça detalhes precisos, etapas de reprodução (exceto para Adobe Commerce local e infraestrutura em nuvem, onde há um campo [Etapas de reprodução](#steps) separado) e sintomas de seu problema ou solicitação. Certifique-se de incluir SKUs afetadas, pontos de dados relevantes e quaisquer outros links relevantes.
-
-#### Ambiente (Adobe Commerce na infraestrutura em nuvem, Adobe Commerce no local, somente Relatórios e Envio do Adobe Commerce)
-
-Selecione o **tipo de ambiente** no qual você enfrenta o problema:
-
-* Desenvolvimento (**Ramificações de integração**)
-* Estágios
-* Produção
-
-Leia mais sobre a Adobe Commerce em ambientes de infraestrutura em nuvem no artigo [Arquitetura Pro](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-architecture.html) em nosso guia do usuário.
-
-#### Número de pedidos afetados (somente MOM)
-
-Selecione o intervalo de ordens afetadas.
-
-Essa é uma lista suspensa e aplicável somente ao produto Order Management.
-
-#### Organização
-
-Indique a organização à qual você deseja que seu ticket seja associado, caso trabalhe com várias organizações.
-
-Esse campo aparece quando sua conta está associada a mais de uma organização.
-
->[!WARNING]
->
->Você deve garantir que selecionou a organização correta. Um terceiro que não esteja relacionado à organização poderá exibir informações potencialmente confidenciais e proprietárias, se você selecionar a organização errada.
-
->[!NOTE]
->
->A organização pode ser alterada após o envio do tíquete. Siga estas etapas para alterar a organização.
->
->1. Vá para a coluna direita do ticket.
->1. Localize a lista suspensa de organizações disponíveis.
->1. Selecione a organização apropriada.
->
->![Lista suspensa de organizações](/help/help-center-guide/help-center/assets/change_org.png)
-
-Além disso, isso permitiria cruzar rapidamente a referência de tickets semelhantes/duplicados/relacionados enviados para essa organização no passado e identificar pistas que poderiam ajudar na investigação e resolução do ticket atual.
-
-Se você tiver Acesso compartilhado a várias organizações, mas esse campo não estiver disponível, consulte [Formulário de envio de tíquete: o comerciante não é exibido no menu suspenso Organização](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#merchant-not-displayed)
-
-#### Nome do parceiro (nome do comerciante)
-
-Para Comerciantes: **Nome do Parceiro** é o nome da Organização de Desenvolvimento (Adobe Commerce [Parceiro de Tecnologia](https://partners.magento.com/portal/directory/?&amp;partner_type=6) ou [Parceiro de Soluções](https://partners.magento.com/portal/directory/?&amp;partner_type=1)) que participa do desenvolvimento da sua loja da Adobe Commerce.
-
-Para parceiros: **Nome do comerciante** é o nome do seu cliente.
-
-#### URL do projeto (somente Commerce Cloud)
-
-Link para o [Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html).
-
-#### Etapas para reproduzir (Adobe Commerce no local e Adobe Commerce somente na infraestrutura em nuvem)
-
-Forneça instruções passo a passo exatas para reproduzir o problema, incluindo:
-
-* Etapas para replicar
-* Resultado esperado
-* Resultado real
-
-*Recomendação:* suponha que você esteja gravando estas etapas para alguém que sabe **nada** sobre o Adobe Commerce:
-
-* Mencione cada etapa, mesmo que pareça simples e óbvia
-* Não confie na suposição de que seu leitor sabe o que significa
-
-Escreva em linguagem simples, com frases curtas.
-
-#### Assunto
-
-Inclua uma breve visão geral do seu problema (por exemplo, *Erro 404 em todas as páginas*).
-
-**Artigos sugeridos:** quando você insere o termo de pesquisa, é exibida uma lista de artigos de documentação do Adobe Commerce que podem estar relacionados ao seu problema. Clique em um artigo na lista para abri-lo.
-
-![hc_subject-suggested-articles.png](assets/hc_subject-suggested-articles.png)
-
-*Recomendação:* Considere cuidadosamente os artigos propostos, que podem conter a solução que você espera receber da equipe de suporte da Adobe Commerce.
-
-#### Versão (Adobe Commerce no local, Adobe Commerce na infraestrutura em nuvem e envio somente)
-
-Selecione a versão do Adobe Commerce para a qual você está solicitando ajuda. Todas as versões compatíveis do Adobe Commerce estão listadas na parte superior. As versões não compatíveis estão listadas na parte inferior com parênteses. Se você estiver em processo de migração, selecione a versão mais recente para garantir o suporte.
-
-Para encontrar a versão da sua Adobe Commerce (infraestrutura em nuvem), role para baixo na página [Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html) e verifique no meio inferior da janela.
-
-![Motivo do contato definido como Aplicativo Adobe Commerce Cloud e Motivo do contato do Aplicativo Adobe Commerce definido como Live Search](assets/magento-env-id.png)
-
-Se você estiver usando [Elasticsearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/overview.html) ou [OpenSearch](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/search-engine/aws-opensearch.html), não selecione essa opção.
-
-Para obter essas informações, no Administrador do Adobe Commerce, vá para **Marketing** > **Live Search** > **GraphQL Playground**, role para baixo até o final da página e clique em **HTTP HEADERS**.
-
-### Status do ticket: como seus tickets são processados {#ticket-status}
-
-Seu ticket pode ter qualquer um desses três status.
-
-#### **1. Abrir**
-
-Seu tíquete não foi resolvido e está sendo processado pela equipe de suporte da Adobe Commerce. Quando você tiver fornecido todas as informações esperadas de você em uma etapa específica da conversa e a próxima etapa precisar ser realizada pelo suporte da Adobe Commerce, seu tíquete terá o status **Aberto**.
-
-#### **2. Aguardando sua resposta**
-
-O suporte da Adobe Commerce está esperando informações suas.
-
-Na sua resposta, você pode especificar detalhes técnicos adicionais do problema, fornecer detalhes de escalonamento ou indicar se a solução oferecida pelo suporte da Adobe Commerce se provou útil para o problema. Forneça suas respostas assim que possível, pois o suporte da Adobe Commerce não pode continuar com o processamento do tíquete enquanto ele estiver no status **Aguardando sua resposta**.
-
-Consulte o artigo [Atualização da política de ciclo de vida do tíquete de suporte do Adobe Commerce](/help/help-center-guide/help-center/magento-support-ticket-lifecycle-policy-update.md) para obter detalhes sobre tempo e política de notificação.
-
-#### **3. Resolvido**
-
-O suporte da Adobe Commerce forneceu uma solução para o problema, e você concordou que foi útil. Você é que marca o tíquete como **Resolvido**. Se o problema for corrigido novamente, você poderá reabrir o tíquete, definindo seu status para **Abrir**.
-
-### Conversa no seu tíquete {#conversation-in-ticket}
-
-A conversa no tíquete une todos os comentários escritos por você ou pela equipe de suporte da Adobe Commerce. Os comentários são exibidos da mais recente (na parte superior) para a mais recente (na parte inferior).
-
-Para adicionar um comentário à conversa, siga estas etapas:
-
-1. Role até a parte inferior do seu tíquete.
-1. Clique no campo **Adicionar à conversa** para começar a gravar.
-
-   ![hc_add-to-conversation.png](assets/hc_add-to-conversation.png)
-
-1. Para adicionar uma pessoa ao seu comentário, especifique o email no campo **CC** do campo de comentário.
-
-   >[!NOTE]
-   >
-   >O usuário em CC: deve ter uma conta existente em https://account.magento.com. Caso contrário, eles devem primeiro criar um em https://account.adobe.com e fazer logon em https://account.magento.com com essa conta.
-
-   ![hc_conversation-write.png](assets/hc_conversation-write.png)
-
-1. Quando terminar com seu comentário, clique em **Enviar**.
-
-### Resolver seu tíquete {#resolve-ticket}
-
-Para resolver o tíquete, clique em **Marcar como resolvido** na parte inferior do tíquete.
 
 ### Abrir um tíquete de acompanhamento {#follow-up}
 
@@ -776,7 +328,4 @@ Consulte o [Artigo sobre solução de problemas de acesso compartilhado](/help/t
 
 Normalmente, os comerciantes pagam pelos nossos serviços por meio de uma transação com cartão de crédito (CC). Estas [Perguntas frequentes sobre cobrança do Adobe Commerce](/help/faq/general/billing-faq-for-adobe-commerce.md) são um recurso que ajuda você a pagar sua conta.
 
-## A MAGENTO U AGORA FAZ PARTE DO ADOBE DIGITAL LEARNING SERVICES {#magento-u}
-
-O Magento U foi mesclado com o [ADLS (Serviços de Aprendizado Digital) do Adobe](https://learning.adobe.com/).
 
