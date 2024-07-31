@@ -4,7 +4,7 @@ description: O patch MDVA-41229 resolve o problema em que as imagens disponívei
 exl-id: 69d7374f-9f8b-4ec4-8a7f-135ee06135a3
 feature: Data Import/Export, Configuration, Products
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 143a694fd573aeb2a52f47d194359e98f74f8033
 workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 2%
@@ -37,12 +37,15 @@ As imagens disponíveis no back-end não são exibidas no front-end após a impo
 
 1. Instale um Adobe Commerce limpo.
 1. Adicione um atributo personalizado indo para **Lojas** > **Atributos** > **Produto** > **Adicionar Novo Atributo** com as configurações abaixo:
+
    * Propriedades:
       * Propriedades do atributo:
+
          * Rótulo padrão: definir tamanho
          * Tipo de Entrada de Catálogo para Proprietário da Loja: Amostra de Texto
          * Valores Obrigatórios: Não
          * Atualizar imagem de visualização do produto: Sim
+
       * Gerenciar amostra (valores do seu atributo):
 
         | É padrão | Amostra do administrador | Descrição do administrador | Amostra de exibição de loja padrão | Descrição da exibição da loja padrão |
@@ -52,17 +55,24 @@ As imagens disponíveis no back-end não são exibidas no front-end após a impo
         | não | 30 | 30 | 30 | 30 |
         | não | 60 | 60 | 60 | 60 |
         | não | 68 | 68 | 68 | 68 |
+
       * Propriedades avançadas de atributo:
+
          * Código do atributo: set_size
          * Escopo: Global
          * Valor Único: Não
          * Validação de Entrada para Proprietário da Loja: Nenhuma
          * Adicionar às Opções de Coluna: Não
          * Usar nas Opções de Filtro: Não
+
    * Gerenciar rótulos:
+
       * Gerenciar títulos (tamanho, cor etc.)
+
          * Visualização de armazenamento padrão: definir tamanho
+
    * Propriedades da vitrine:
+
       * Usar na pesquisa: Sim
       * Peso da pesquisa: 1
       * Visível na Pesquisa Avançada: Não
@@ -73,12 +83,17 @@ As imagens disponíveis no back-end não são exibidas no front-end após a impo
       * Visível nas Páginas do Catálogo na Loja: Sim
       * Usado na Lista de Produtos: Sim
       * Usado para Classificação na Lista de Produtos: Não
+
 1. Adicione este atributo ao Conjunto de Atributos Padrão dentro do Grupo de Detalhes do Produto (**Lojas** > **Atributos** > **Conjunto de Atributos**).
 1. Baixe imagens definidas na pasta var dentro do diretório raiz do Adobe Commerce.
 1. Vá para **Sistema** > **Transferência de Dados** > e importe o arquivo usando as opções abaixo:
+
    * Importar configurações:
+
       * Tipo de entidade: produtos
+
    * Comportamento de Importação:
+
       * Comportamento de Importação: Adicionar/Atualizar
       * Estratégia de validação: Parar se houver Erro
       * Contagem de Erros Permitidos: 1
@@ -86,9 +101,12 @@ As imagens disponíveis no back-end não são exibidas no front-end após a impo
       * Separador de valores múltiplos: `,`
       * Constante de valor do atributo: EMPTYVALUE
       * Compartimento de campos: desmarcado
+
    * Arquivo a importar:
+
       * Selecione o arquivo para importar
       * Diretório do arquivo de imagens: deixe em branco
+
 1. Vá para a loja na página `/product-set.html` e alterne entre diferentes Tamanhos de Conjunto. Para o Tamanho definido 24, não haverá galeria.
 
 <u>Resultados esperados</u>:
