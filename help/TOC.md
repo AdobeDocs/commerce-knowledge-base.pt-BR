@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 4c1199c31f83d7c2aaf28e259d63473779bf2efe
+source-git-commit: 29564ab62b8d82384092a1db6ac170666ec4acde
 workflow-type: tm+mt
-source-wordcount: '11080'
+source-wordcount: '11084'
 ht-degree: 0%
 
 ---
@@ -1116,6 +1116,7 @@ ht-degree: 0%
       * [Falha na implantação: não há comandos definidos no erro de namespace do &#39;cache&#39;](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
       * [Falha na implantação com as chaves de acesso corretas em env:COMPOSER_AUTH ou auth.json](/help/troubleshooting/deployment/deployment-failed-with-correct-access-key-env-composer-auth.md)
    * Problemas conhecidos {#known-issues-patches-attached}
+      * [Solucionando Problemas de Rotação de Chaves de Criptografia: [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102.md)
       * [Atualização de segurança disponível para Adobe Commerce - [!DNL APSB24-40] Revisado para incluir patch isolado para  [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-40-revised-to-include-isolated-patch-for-cve-2024-34102.md)
       * [Migração da integração do método de envio [!DNL UPS] de [!DNL SOAP] para [!DNL RESTful API]](/help/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.md)
       * [[!DNL USPS] Hotfix de suporte do método de envio Ground Advantage para AC-9182](/help/troubleshooting/known-issues-patches-attached/usps-ground-advantage-shipping-method-support-hotfix-for-ac-9182.md)
