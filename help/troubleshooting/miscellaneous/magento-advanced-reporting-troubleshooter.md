@@ -4,9 +4,9 @@ description: Problemas avançados de relatórios no Adobe Commerce podem ser res
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: 84b4ca4c4144381f0b404d2eae6684e7b21755df
+source-git-commit: b3bfc41a67eb9ef0bbb52d1c1c3940b1aa49cf44
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ b. NÃO - Continue na [Etapa 4](#step-4).
 
 +++**Os Relatórios Avançados estão habilitados?**
 
-Verificar **Administrador** > **Lojas** > **Configurações** > **Configuração** > **Geral** > **Avançado**. Para obter etapas detalhadas, consulte [Relatórios avançados: Habilitar relatórios avançados](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting).
+Verificar **Administrador** > **Lojas** > **Configurações** > **Configuração** > **Geral** > **Relatórios Avançados**. Para obter etapas detalhadas, consulte [Relatórios avançados: Habilitar relatórios avançados](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting).
 
 a. SIM - Continue na [Etapa 5](#step-5).\
 b. NÃO - [Habilite os Relatórios Avançados](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting), salve e aguarde 24 horas para que o Adobe Commerce e os Relatórios Avançados sincronizem. Verifique se os dados agora são carregados. Se isso acontecer, você resolveu o problema. Se não prosseguir para [Etapa 5](#step-5).
