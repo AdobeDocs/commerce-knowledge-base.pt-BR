@@ -4,9 +4,9 @@ description: Este artigo fornece uma explicação de como incluir um membro da e
 feature: Cloud, Support, Admin Workspace
 role: Admin, Developer
 exl-id: 63ea3f60-a509-447c-ac3d-bb2133141c80
-source-git-commit: 1c568d75534bbfe322d9f980b40c5dd64fc5b7a2
+source-git-commit: 771793d45000e65c1bf41137cd984d2977b0a9ff
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,6 @@ Este artigo fornece uma explicação de como incluir um membro da equipe para re
 
 1. Vá para **[!DNL Cloud Project URL]** (Exemplo: `https://us-3.magento.cloud/projects/xxxxxx/edit`).
 1. Verifique se o membro da equipe foi adicionado ao projeto e se é um [!DNL Super User].
-
-Se eles não precisarem de acesso de [!DNL cloud project], envie uma [Solicitação de Suporte no Centro de Suporte da Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) para CC automaticamente: eles em todos os tíquetes e também forneça seus **[!DNL MAGE ID]** (se disponíveis).
 
 Se não tiverem sido adicionados ao projeto, será necessário adicioná-los como um [!DNL Super User] e conceder [!DNL Shared Access]:
 
