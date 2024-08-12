@@ -3,9 +3,9 @@ title: Posso programar atualizações de Armazenamento temporário de conteúdo 
 description: A Adobe Commerce não oferece a funcionalidade de agendar uma atualização de preço ([Preparo de conteúdo](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html)) para um ou mais produtos em um catálogo compartilhado.
 exl-id: 5482326f-54c2-4efc-8e5e-6d075ee5be55
 feature: Catalog Management, Customer Service
-source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0
+source-git-commit: c3120f7df24e105b082df6544ab82241d6b6851f
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 A Adobe Commerce não oferece a funcionalidade de agendar uma atualização de preço ([Preparo de Conteúdo](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html)) para um ou mais produtos em um catálogo compartilhado.
 
-Isso significa que não é possível agendar essa atualização de preço diretamente no menu **Definir Preço e Estrutura** do painel do Administrador do Commerce (não há nenhum botão **Agendar nova atualização** nesse menu).
+Isso significa que você não pode agendar essa atualização de preço diretamente no menu **Definir Preço e Estrutura** do painel de administração do Commerce (não há nenhum botão **Agendar nova atualização** nesse menu).
 
 Ainda assim, você pode usar métodos alternativos e programar uma atualização de preço para:
 
