@@ -4,9 +4,9 @@ description: Problemas avançados de relatórios no Adobe Commerce podem ser res
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: b3bfc41a67eb9ef0bbb52d1c1c3940b1aa49cf44
+source-git-commit: dfe9b9cf4751e28bd151fce36df168e48fb914ed
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '995'
 ht-degree: 0%
 
 ---
@@ -117,13 +117,13 @@ c. SIM - Se houver registros, mas houver um erro, prossiga para a [Etapa 10](#st
 
 +++**O arquivo `data.tgz` existe no sistema e há registros nos logs de acesso?**
 
-Para verificar se o arquivo `data.tgz` existe, execute o comando:
+Para verificar se o arquivo `data.tgz` existe, execute este comando; ele deve retornar diretório(s) com nome(s) de hash:
 
 ```
-ls -ltr pub/media/analytics/<there should be a directory with hash name>/
+ls -ltr pub/media/analytics/
 ```
 
-Para verificar se há registros em access.logs, execute o comando:
+Para verificar se há registros em access.logs, execute este comando:
 
 ```
 zgrep -i analytics /var/log/platform/[cluster_id|cluster_id_stg]/access.log* | grep MagentoBI
