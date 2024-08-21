@@ -3,9 +3,9 @@ title: Guia do usuário de suporte Experience League para Adobe Commerce
 description: Saiba como enviar um tíquete de suporte para o Suporte Experience League, fornecer acesso compartilhado a contas e navegar na Base de conhecimento Adobe Commerce.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 38e67144f337c8359a5602e49d8a0ee91cd20b53
+source-git-commit: b7b272c2e1cb677829afa64e2c77c0faa207313d
 workflow-type: tm+mt
-source-wordcount: '2117'
+source-wordcount: '2116'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Para enviar um novo caso de suporte usando a página inicial do Adobe Experience
 
 1. Para iniciar o processo de entrada de suporte, verifique se você selecionou a organização apropriada na lista suspensa (se disponível), pois pode haver várias organizações com nomes semelhantes, cada uma com seus próprios direitos.
 
-   ![imagem](https://git.corp.adobe.com/storage/user/38345/files/230d6ecd-bce2-4170-b377-3989fa8be615)
+   ![selecionar_organização_apropriada](assets/select_appropriate_org.png)
 
 1. Clique em **[!UICONTROL Open Ticket]** no menu à esquerda ou clique em **[!UICONTROL Get Started]** no cartão *[!UICONTROL Open a support ticket]*.
 
