@@ -3,16 +3,20 @@ title: Como alterar o endereço de email na conta magento.com quando o campo est
 description: Este artigo explica como alterar o endereço de email na sua conta [Magento.com](https://account.magento.com) quando o campo estiver esmaecido.
 exl-id: cd527203-345c-4318-8ca8-0063109b5f79
 feature: Communications
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: 123027ee291b44ad4b234e561b9c3f4156af7c90
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
 
 # Como alterar o endereço de email na conta magento.com quando o campo está esmaecido?
 
-Este artigo explica como alterar o endereço de email na sua conta do [Magento.com](https://account.magento.com) quando o campo estiver esmaecido.
+Este artigo explica como alterar o endereço de email na sua conta do [Magento.com](https://account.magento.com) quando o campo estiver esmaecido em circunstâncias como:
+
+* Você ou o usuário original deixou a empresa.
+* Sua empresa migrou para um novo domínio de email.
+* Você está alternando para uma Lista de distribuição ou um endereço de email abrangente.
 
 ## Produtos e versões afetados
 
@@ -30,7 +34,7 @@ Alterando o endereço de email de um usuário que tem sua própria conta em <htt
 
 <u>Solução</u>
 
-1. Envie um email para Grp-magento-HelpCenterLoginIssues@adobe.com informando o seguinte:
+1. [Envie uma solicitação de suporte](https://experienceleague.adobe.com/home#support) em https://experienceleague.adobe.com/home#support informando o seguinte:
 
    * Endereço de email existente a ser atualizado
    * Novo endereço de email
@@ -59,3 +63,4 @@ No entanto, se você não tiver acesso a emails enviados ao [email do proprietá
 ## Leitura relacionada
 
 [Redefinir senha esquecida](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) no Guia do Usuário do Creative Cloud.
+[Atualize seu perfil de conta](https://helpx.adobe.com/manage-account/using/edit-adobe-account-personal-profile.html) no Guia do Usuário do Creative Cloud.
