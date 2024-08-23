@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: f4fb30dcef6cc05ce027df4dc793cf99d37f2a1f
+source-git-commit: 0f5e70462f439c6ed5b63567a21f039529262805
 workflow-type: tm+mt
-source-wordcount: '11118'
+source-wordcount: '11132'
 ht-degree: 0%
 
 ---
@@ -918,6 +918,7 @@ ht-degree: 0%
       * [Erro 404 em todas as páginas devido ao problema de preparo de conteúdo](/help/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.md)
       * [Patches revisados para perda de acesso ao Google Maps em todas as versões do Adobe Commerce](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * Diversos {#miscellaneous}
+      * [Correção de dados não atualizados nos  [!DNL Commerce Data Exporter] feeds e [!DNL cron] logs de erro com a tabela changelog não existem](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
       * [Como verificar por que  [!DNL cron]  foi desabilitado](/help/troubleshooting/miscellaneous/how-to-check-why-cron-was-disabled.md)
       * [Erro  [!DNL opensearch] o mecanismo de pesquisa não existe. Retornando para  [!DNL livesearch].](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
       * [Email informando que o armazenamento de exportação está quase cheio](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
