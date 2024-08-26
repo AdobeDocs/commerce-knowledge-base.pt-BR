@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 683473a9a6b7ccc87c190d1cdc83453aa0734961
+source-git-commit: 7cda7f53226b878e8900b79443c4be28ff056862
 workflow-type: tm+mt
-source-wordcount: '11136'
+source-wordcount: '11141'
 ht-degree: 0%
 
 ---
@@ -1062,6 +1062,7 @@ ht-degree: 0%
       * [Não é possível clonar o repositório GitHub do Magento](/help/troubleshooting/miscellaneous/cannot-clone-the-magento-github-repository.md)
       * [Catálogo do Live Search não sincronizado](/help/troubleshooting/miscellaneous/live-search-catalog-data-sync.md)
       * [A classificação do painel e do resultado da pesquisa [!DNL Live Search] está incorreta](/help/troubleshooting/miscellaneous/live-search-dashboard-ranking-incorrect.md)
+      * [[!DNL Live Search] facetas não estão classificadas alfabeticamente](/help/troubleshooting/miscellaneous/live-search-facets-not-sorted.md)
       * [Os perfis do cliente não aparecem no Experience Platform](/help/troubleshooting/miscellaneous/data-connection-customer-profiles-not-exported.md)
       * [PWA Studio: o navegador não pode resolver o site .local.pwadev](/help/troubleshooting/miscellaneous/pwa-studio-browser-cannot-resolve-local-pwadev-site.md)
       * [O Recommendations do produto não é exibido no Page Builder](/help/troubleshooting/miscellaneous/product-recommendations-do-not-show-in-page-builder.md)
