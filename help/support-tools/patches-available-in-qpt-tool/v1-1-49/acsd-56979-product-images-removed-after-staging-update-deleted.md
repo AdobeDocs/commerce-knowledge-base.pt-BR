@@ -3,9 +3,9 @@ title: "ACSD-56979: imagens do produto removidas após a exclusão da atualizaç
 description: Aplique o patch ACSD-56979 para corrigir o problema do Adobe Commerce em que as imagens do produto são removidas após excluir uma atualização de preparo
 feature: Products
 role: Admin, Developer
-source-git-commit: e97850bcaa98b1ccc1522fb6ee0046cd38bf1c93
+source-git-commit: 8e916feab8be9d92d047fae8861a479070d448e8
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ O patch ACSD-56979 corrige o problema em que as imagens do produto são removida
 
 **Compatível com as versões do Adobe Commerce e do Magento Open Source:**
 
-* Adobe Commerce (todos os métodos de implantação) >=2.4.3 &lt;2.4.7
+* Adobe Commerce (todos os métodos de implantação) 2.4.3 - 2.4.6-p7
 
 >[!NOTE]
 >
