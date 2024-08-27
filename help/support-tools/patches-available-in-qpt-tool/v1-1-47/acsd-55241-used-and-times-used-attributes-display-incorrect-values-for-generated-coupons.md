@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-55241 para corrigir o problema do Adobe Commer
 feature: Price Rules
 role: Admin, Developer
 exl-id: cfe0f8af-423a-4e12-a332-053392cbabed
-source-git-commit: 5d0b4743fe49d22c099102490f93dc4065ab4413
+source-git-commit: f830486ab3b00fca92dda897bbf0bfbae41543c1
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 0%
@@ -37,10 +37,10 @@ Os atributos **Used** e **Times Used** exibem valores incorretos para cupons ger
 
 1. Crie **[!UICONTROL Cart Price Rules]** de **[!UICONTROL Admin]** > **[!UICONTROL Marketing]** > **[!UICONTROL Promotion]** e adicione qualquer condição que corresponda ao fazer um pedido (Exemplo: subtotal maior que *5$*)
 
-* Aplicar qualquer desconto.
-* Selecione **[!UICONTROL Auto Coupon]**.
-* Ele gerará alguns Códigos de Cupom de **Gerenciar Códigos de Cupom**.
-* Reindexe e limpe o cache.
+   * Aplicar qualquer desconto.
+   * Selecione **[!UICONTROL Auto Coupon]**.
+   * Ele gerará alguns Códigos de Cupom de **Gerenciar Códigos de Cupom**.
+   * Reindexe e limpe o cache.
 
 1. Crie um **[!UICONTROL customer account]** e faça logon no front-end.
 1. Adicione um produto com mais de *2* quantidades no carrinho e aplique um cupom.
