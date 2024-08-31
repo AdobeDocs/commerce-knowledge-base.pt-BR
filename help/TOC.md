@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 159ec056ea1f57935d35ab07fc70f24e53901146
+source-git-commit: f8f09e3aeadb27724c431c275ce13d8f8699dd20
 workflow-type: tm+mt
-source-wordcount: '11238'
+source-wordcount: '11246'
 ht-degree: 0%
 
 ---
@@ -810,6 +810,7 @@ ht-degree: 0%
          * [ACSD-58054: Geração de token de API para clientes inativos](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58054-generate-tokens-for-inactive-customers-via-api.md)
       * v1.1.50 {#v1-1-50}
          * [Visão geral: [!DNL Quality Patches Tool] (QPT) v1.1.50](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/overview.md)
+         * [ACSD-59036: Ocorre uma exceção ao carregar os preços do produto](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59036-exception-occurs-when-loading-product-prices.md)
          * [ACSD-45049: A configuração de atributo do cliente [!UICONTROL Is required] não funciona de acordo com o escopo do site no Administrador](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-45049-customer-attribute-is-required-setting-doesnt-work.md)
          * [ACSD-59378: nível de repositório [!DNL URL] regravações atualizadas incorretamente durante a importação](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59378-store-level-url-rewrites-incorrectly-updated-during-import.md)
          * [ACSD-46938: problemas de desempenho com acionadores de BD durante a configuração: atualização](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-46938-fix-for-db-triggers-performance-issue-during-setup-upgrade.md)
