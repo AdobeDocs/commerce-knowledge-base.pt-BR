@@ -3,9 +3,9 @@ title: "ACSD-59036: uma exceção ocorre ao carregar preços de produtos com lim
 description: Aplique o patch ACSD-59036 para corrigir o problema do Adobe Commerce em que ocorre uma exceção ao carregar preços do produto com limites inferiores e superiores definidos como *$0*.
 feature: Categories, Products, Storefront, Search
 role: Admin, Developer
-source-git-commit: 01abf64953207939bc0c79978e67612da3a940eb
+source-git-commit: d711fb8ff8876a4a514daade6d7df4d7cf7e3593
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -55,9 +55,9 @@ A página *[!UICONTROL Category]* exibe todos os produtos.
 
 Ocorre um erro:
 
-    &quot;JSON
-    report.CRITICAL: OpenSearch\Common\Exceptions\BadRequest400Exception: {&quot;error&quot;:{&quot;root_cause&quot;:[{&quot;type&quot;:&quot;x_content_parse_exception&quot;,&quot;reason&quot;:&quot;[1:193] [bool] falhou ao analisar o campo [must]&quot;}],&quot;type&quot;:&quot;x_content_parse_exception&quot;,&quot;reason&quot;:&quot;[1:193] [bool] falhou ao analisar o campo [filter]&quot;,&quot;causes_by&quot;:{&quot;type&quot;:&quot;x_content_parse exceção&quot;,&quot;motivo&quot;:&quot;[1:193] [bool] falhou ao analisar o campo [must]&quot;,&quot;causes_by&quot;:{&quot;type&quot;:&quot;invalid_argument_exception&quot;,&quot;motivo&quot;:&quot;nome do campo é nulo ou vazio&quot;}}},&quot;status&quot;:400} em /vendor/opensearch-project/opensearch-php/src/OpenSearch/Connections/Connection.php:664
-    &quot;
+```JSON
+report.CRITICAL: OpenSearch\Common\Exceptions\BadRequest400Exception: {"error":{"root_cause":[{"type":"x_content_parse_exception","reason":"[1:193] [bool] failed to parse field [must]"}],"type":"x_content_parse_exception","reason":"[1:193] [bool] failed to parse field [filter]","caused_by":{"type":"x_content_parse_exception","reason":"[1:193] [bool] failed to parse field [must]","caused_by":{"type":"illegal_argument_exception","reason":"field name is null or empty"}}},"status":400} in /vendor/opensearch-project/opensearch-php/src/OpenSearch/Connections/Connection.php:664
+```
 
 ## Aplicar o patch
 
