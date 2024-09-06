@@ -4,9 +4,9 @@ description: Este artigo fornece soluções para o problema do Adobe Commerce em
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
 feature: Catalog Management, Search
 role: Developer
-source-git-commit: ab39a21ca325cdad30debf89a1cff660bf5925e5
+source-git-commit: fe276c444c235b096ea6d61b02d8362314b5c154
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ Este artigo fornece soluções para o problema do Adobe Commerce em que os dados
 ## Problema
 
 Os dados do catálogo não estão sincronizados corretamente ou um novo produto foi adicionado, mas não aparece nos resultados da pesquisa.
+
+>[!NOTE]
+>
+>Os nomes de tabela `catalog_data_exporter_products` e `catalog_data_exporter_product_attributes` agora são chamados `cde_products_feed` e `cde_product_attributes_feed` a partir de [!DNL Live Search] versão 4.2.1. Para comerciantes em versões anteriores à 4.2.1, procure os dados nos nomes de tabela antigos, `catalog_data_exporter_products` e `catalog_data_exporter_product_attributes`.
 
 <u>Etapas a serem reproduzidas</u>
 
@@ -59,20 +63,20 @@ Se os dados do seu produto não estiverem sincronizados corretamente para uma SK
 1. Use a consulta SQL a seguir e verifique se você tem os dados esperados na coluna `feed_data`. Além disso, anote o carimbo de data e hora `modified_at`.
 
    ```sql
-   select * from catalog_data_exporter_products where sku = '<your_sku>' and store_view_code = '<your_ store_view_code>';
+   select * from cde_products_feed where sku = '<your_sku>' and store_view_code = '<your_ store_view_code>';
    ```
 
 1. Se você não vir os dados corretos, tente reindexar usando o seguinte comando e execute novamente a consulta SQL na etapa 1 para verificar os dados:
 
    ```bash
-   bin/magento indexer:reindex catalog_data_exporter_products
+   bin/magento indexer:reindex cde_products_feed
    ```
 
 1. Se você ainda não vir os dados corretos, [crie um tíquete de Suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ### Verificar carimbo de data e hora da última exportação de produto
 
-1. Se você vir os dados corretos em `catalog_data_exporter_products`, use a seguinte consulta SQL para verificar o carimbo de data e hora da última exportação. Deve ser após o carimbo de data/hora `modified_at`:
+1. Se você vir os dados corretos em `cde_products_feed`, use a seguinte consulta SQL para verificar o carimbo de data e hora da última exportação. Deve ser após o carimbo de data/hora `modified_at`:
 
    ```sql
    select * from scopes_website_data_exporter;
@@ -93,20 +97,20 @@ Se os dados do atributo do produto não estiverem sincronizados corretamente par
 1. Use a consulta SQL a seguir e verifique se você tem os dados esperados na coluna `feed_data`. Além disso, anote o carimbo de data e hora `modified_at`.
 
    ```sql
-   select * from catalog_data_exporter_product_attributes where json_extract(feed_data, '$.attributeCode') = '<your_attribute_code>' and store_view_code = '<your_ store_view_code>';
+   select * from cde_product_attributes_feed where json_extract(feed_data, '$.attributeCode') = '<your_attribute_code>' and store_view_code = '<your_ store_view_code>';
    ```
 
 1. Se você não vir os dados corretos, use o seguinte comando para reindexar e, em seguida, execute novamente a consulta SQL na etapa 1 para verificar os dados.
 
    ```bash
-   bin/magento indexer:reindex catalog_data_exporter_product_attributes
+   bin/magento indexer:reindex cde_product_attributes_feed
    ```
 
 1. Se você ainda não vir os dados corretos, [crie um tíquete de Suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ### Verificar carimbo de data/hora da última exportação de atributo de produto
 
-Se você vir os dados corretos em `catalog_data_exporter_product_attributes`:
+Se você vir os dados corretos em `cde_product_attributes_feed`:
 
 1. Use a seguinte consulta SQL para verificar o carimbo de data e hora da última exportação. Deve estar após o carimbo de data/hora `modified_at`.
 
