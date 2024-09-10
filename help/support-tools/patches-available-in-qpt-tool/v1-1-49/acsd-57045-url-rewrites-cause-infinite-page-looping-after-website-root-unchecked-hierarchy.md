@@ -3,7 +3,7 @@ title: "ACSD-57045: substituições de URL causam looping de página infinito ap
 description: Aplique o patch ACSD-57045 para corrigir o problema do Adobe Commerce em que substituições de URL causam looping de página infinito depois que [!UICONTROL Website Root] é desmarcado de [!UICONTROL Hierarchy].
 feature: CMS
 role: Admin, Developer
-source-git-commit: df6cfc392f6afa4639a1ab9da52a85b8b15878d2
+source-git-commit: a39e5c857aae398a0b0ba44308ea417525a410d3
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 0%
