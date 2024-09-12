@@ -3,9 +3,9 @@ title: Redefinir o ambiente no Adobe Commerce na infraestrutura em nuvem
 description: Este artigo mostra diferentes cenários de reversão de um ambiente no Adobe Commerce na infraestrutura em nuvem.
 exl-id: e6b27838-ca1e-415f-a098-2aa2576e3f20
 feature: Best Practices, Build, Cloud, Console
-source-git-commit: 4439ee25e929a1bdb2216cc10fa0d4506c4f3aed
+source-git-commit: 598459365cad811966ed529356cb9ab876f49a38
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1093'
 ht-degree: 0%
 
 ---
@@ -36,8 +36,9 @@ Com uma implantação ou atualização planejada, o [!UICONTROL Rollback] mais f
 
 <u>No dia das alterações</u>:
 
-1. Colocar o site em [!UICONTROL Maintenance Mode].<br>
+1. Colocar o site em [!UICONTROL Maintenance Mode].
 Leia mais sobre [Habilitar ou desabilitar [!UICONTROL Maintenance Mode]](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html) em nosso guia do usuário e [[!UICONTROL Maintenance Mode] opções de atualização](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/troubleshooting/maintenance-mode-options.html) em nosso guia de atualização.
+1. Desabilitar trabalhos cron. Leia mais sobre como desabilitar trabalhos cron em nosso [guia de propriedades de cron](<https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property#disable-cron-jobs>).
 1. Pegue um [[!UICONTROL Database Dump]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud.html) local.
 
 <u>Se [!UICONTROL Rollback] for necessário</u>:
@@ -123,7 +124,7 @@ Com a redefinição [!DNL git], revertemos o código para o estado desejado no p
 1. Clonar o ambiente no ambiente de desenvolvimento local. Você pode copiar o comando no Cloud Console:    ![copy_git_clone.png](assets/copy_git_clone.png)
 1. Acesse o histórico de confirmações. Use `--reverse` para exibir o histórico na ordem inversa para maior conveniência: `git log --reverse`
 1. Selecione o hash de confirmação no qual você esteve em boas condições. Para redefinir o código para seu estado autêntico (Vanilla), localize a primeira confirmação que criou sua ramificação (ambiente).
-   ![Selecionando um hash de confirmação no console Git](assets/select_commit_hash.png)
+   ![alt texto](image.png)
 1. Aplicar restauração de [!DNL git] rígida: `git reset --h <commit_hash>`
 1. Enviar alterações para o servidor: `git push --force <origin> <branch>`
 
