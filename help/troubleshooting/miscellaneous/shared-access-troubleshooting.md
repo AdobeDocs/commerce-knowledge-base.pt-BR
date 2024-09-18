@@ -4,9 +4,9 @@ description: '**Problema:** Você deseja fornecer acesso compartilhado ao colega
 exl-id: 9e03c031-2359-42a6-9de4-943451a16456
 feature: Cache
 role: Developer
-source-git-commit: e77322c04c7245538c10dfb397094eee6cfe6be9
+source-git-commit: ff863a9c8ebf3759c7ecf0549f79cc3a5efe4b46
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 1. Clique na conta **[!UICONTROL Shared Access]** com a qual você está tendo problemas e examine a quais recursos você recebeu acesso.
 1. Se o recurso específico estiver ausente, entre em contato com o Proprietário da conta (Proprietário da conta principal).
 
-Se o problema persistir, entre em contato com a equipe de conta da Adobe ou envie um email para grp-Magento-HelpCenterLoginIssues@adobe.com. Especifique seu nome e o email associado à sua conta.
+Se o problema persistir, entre em contato com a equipe de conta da Adobe. Especifique seu nome e o email associado à sua conta.
 
 ## Usei o acesso compartilhado e cliquei em [!UICONTROL Support], mas quando abri um novo tíquete, a lista suspensa [!UICONTROL Organization] não é exibida
 
@@ -51,7 +51,7 @@ Se o problema persistir, entre em contato com a equipe de conta da Adobe ou envi
 1. Voltar para **[!UICONTROL My Account]**.
 1. Se listar apenas uma **[!UICONTROL Shared Name]**, essa será a *Organização padrão* em que seus tíquetes serão abertos.
 
-Se o problema persistir, entre em contato com a equipe de conta do Adobe ou envie um email para grp-Magento-HelpCenterLoginIssues@adobe.com. Especifique seu nome e o email associado à sua conta.
+Se o problema persistir, entre em contato com a equipe de conta da Adobe. Especifique seu nome e o email associado à sua conta.
 
 ## Usei o acesso compartilhado, mas ainda vejo meus tíquetes em vez dos compartilhados
 

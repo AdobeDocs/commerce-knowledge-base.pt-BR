@@ -3,9 +3,9 @@ title: Guia do usuário de suporte Experience League para Adobe Commerce
 description: Saiba como enviar um tíquete de suporte para o Suporte Experience League, fornecer acesso compartilhado a contas e navegar na Base de conhecimento Adobe Commerce.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 7c6cc2fc3cd76fc4c156d7cdb15bfbc3a24f39cb
+source-git-commit: ab51577ea212470e9fa5a93dce3748de9c5c00a6
 workflow-type: tm+mt
-source-wordcount: '2500'
+source-wordcount: '2560'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,10 @@ Neste guia, saiba como enviar um tíquete de suporte para o [Suporte para Experi
 >[!NOTE]
 >
 >O suporte da Adobe Commerce migrou do Centro de ajuda da Adobe Commerce para o Experience League. Use o fluxo de formulário do caso Experience League descrito [aqui](#what-is-experience-support) para enviar casos de suporte.
+
+>[!NOTE]
+>
+>Neste momento, para ver seus casos enviados anteriormente no Adobe Commerce Help Center, você terá que acessar https://support.magento.com/hc/en-us/requests, pois esses casos não foram migrados para o novo sistema de tíquetes de suporte. A Central de Ajuda agora é somente leitura; para continuar recebendo suporte para o problema original, você terá que enviar um tíquete de acompanhamento para o [Suporte de Experience League](https://experienceleague.adobe.com/home#support).
 
 >[!NOTE]
 >
