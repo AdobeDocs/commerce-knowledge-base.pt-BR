@@ -4,9 +4,9 @@ description: Este artigo fornece solução de problemas quando você não está 
 exl-id: 7ab6b2b4-6aca-4323-a45b-2b4e52955160
 feature: Admin Workspace, Communications
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 435a545adcf2a1d6b023abaec55c4b73e942ee1a
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,12 @@ Se você não tiver configurado o e-mail do remetente corretamente ou se o domí
    ```
 
    * Se não retornar nenhum resultado, significa que o endereço do Remetente não foi configurado.
+Como você não tem acesso ao administrador, será necessário inserir a configuração no banco de dados. Conecte o endereço de email apropriado e execute a instrução MySQL:
+
+   ```
+   insert into core_config_data (scope,scope_id,path,value) values ('default',0,'trans_email/ident_general/email', your-email@here.com)
+   ```
+
    * Se retornar um resultado, prossiga para **Etapa 2**.
 
 1. Se o e-mail apareceu na pasta Spam, clique no link do e-mail. Se o link já tiver expirado, tente fazer logon novamente para repetir o processo.
