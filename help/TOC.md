@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 97e61803978e9e18e9784020d53eb4b448cab830
+source-git-commit: 7ece2f2dd578fc455bc2d584ffa401f25f561630
 workflow-type: tm+mt
-source-wordcount: '11432'
+source-wordcount: '11443'
 ht-degree: 0%
 
 ---
@@ -825,6 +825,7 @@ ht-degree: 0%
          * [ACSD-58141: PHPSESSID é gerado novamente nas solicitações do POST para clientes conectados se o cache L2 Redis estiver ativado](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-58141-phpsessid-regenerates-on-post-requests-for-logged-in-customers-with-l2-redis-cache-enabled.md)
          * [ACSD-59229: erro de alocação de dados do grupo do cliente devido a um valor X-Magento-Vary desatualizado](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59229-customer-group-segmentation-fix.md)
          * [ACSD-60441: A atualização de clientes por meio do ponto de extremidade V1/customers [!DNL REST] API gera um erro](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-60441-updating-customers-via-v1-customers-rest-api.md)
+         * [ACSD-59514: Forms no Admin com  [!DNL Page Builder] lançamento de erro no console do navegador](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59514-forms-in-admin-with-page-builder-throw-error-in-browser-console.md)
          * [ACSD-58790: Correções da funcionalidade de pinçar para zoom nas imagens da página de detalhes do produto na exibição móvel no [!DNL Chrome]](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-58790-fixes-pinch-to-zoom-functionality-on-the-product-detail-page-images-in-mobile-view-on-chrome.md)
          * [ACSD-58442: corrige o problema em que dispositivos com largura de 768px são tratados como móveis, fazendo com que o menu e o cabeçalho sejam carregados na exibição móvel, não no desktop](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-58442-fixes-issue-devices-768px-mobile-view-instead-desktop.md)
          * [ACSD-48210: o atributo de escopo específico da exibição de armazenamento substitui os valores globais](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-48210-store-view-specific-scope-attribute-overrides-global-values.md)
