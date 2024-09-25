@@ -4,9 +4,9 @@ description: Saiba como solucionar vários problemas com a ferramenta Security S
 exl-id: 35e18a11-bda9-47eb-924a-1095f4f01017
 feature: Compliance, Security
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 525352027bfa4a8728bdbbfe61af3dca5dbb18f9
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Você obtém relatórios de verificação vazios da ferramenta Verificação de 
 
 1. Verifique se os IPs 52.87.98.44, 34.196.167.176 e 3.218.25.102 não estão bloqueados nas portas 80 e 443.
 1. Verifique se há redirecionamentos na URL enviada (por exemplo, `https://mystore.com` redireciona para `https://www.mystore.com` ou vice-versa ou redireciona para outros nomes de domínio).
-1. Investigue os logs de acesso do servidor Web/WAF para solicitações rejeitadas/não atendidas. HTTP 403 `Forbidden` e HTTP 500 `Internal server error` são as respostas comuns do servidor que causam geração de relatórios vazios. Este é um exemplo do código de confirmação que bloqueia solicitações por agentes do usuário:
+1. Investigue os logs de acesso do servidor da WAF/Web para solicitações rejeitadas/não atendidas. HTTP 403 `Forbidden` e HTTP 500 `Internal server error` são as respostas comuns do servidor que causam geração de relatórios vazios. Este é um exemplo do código de confirmação que bloqueia solicitações por agentes do usuário:
 
 ```code block
 if(req.http.user-agent ~ "(Chrome|Firefox)/[1-7][0-9]" && client.ip !~ useragent_allowlist)
@@ -76,7 +76,7 @@ Você recebe uma notificação sobre a falha &quot;BotNet Suspect&quot;.
 
 1. Verifique as contas SSH recém-criadas, as alterações no sistema de arquivos etc.
 1. Execute uma revisão de segurança.
-1. Verifique a versão e a atualização do Adobe Commerce, especialmente se ainda estiver executando o Magento 1, que não é mais compatível.
+1. Verifique a versão e a atualização do Adobe Commerce, especialmente se ele ainda estiver executando o Magento 1, que não é mais suportado.
 1. Se o problema persistir, [envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) e forneça a URL de armazenamento.
 
 ## Problema: Falha na injeção de comprometimento
@@ -100,8 +100,12 @@ Não. A Verificação de segurança faz todas as solicitações uma por uma como
 
 ### Por quanto tempo o Adobe Commerce mantém relatórios do Security Scan?
 
-Você pode gerar os 10 relatórios anteriores no seu lado. Se forem necessários relatórios mais antigos, entre em contato com o suporte da Adobe Commerce. É possível obter até um ano de relatórios de verificações de segurança anteriores.
+Você pode gerar os 10 relatórios anteriores no seu lado. Se forem necessários relatórios mais antigos, entre em contato com o suporte da Adobe Commerce.
 
 ### Quais informações são necessárias ao enviar um tíquete de suporte?
 
 Forneça o nome de domínio.
+
+### O que acontece se eu remover minha loja da verificação da ferramenta de verificação?
+
+Se você excluir o envio do armazenamento - todos os dados relacionados, incluindo relatórios de verificação, serão excluídos. Esta operação é irreversível. O envio do domínio de armazenamento após sua exclusão cria um NOVO envio.
