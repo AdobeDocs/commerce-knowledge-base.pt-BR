@@ -3,9 +3,9 @@ title: Guia do usuário de suporte Experience League para Adobe Commerce
 description: Saiba como enviar um tíquete de suporte para o Suporte Experience League, fornecer acesso compartilhado a contas e navegar na Base de conhecimento Adobe Commerce.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: ab51577ea212470e9fa5a93dce3748de9c5c00a6
+source-git-commit: 3cddfcb136147a5c0602a62585438313b3162900
 workflow-type: tm+mt
-source-wordcount: '2560'
+source-wordcount: '2586'
 ht-degree: 0%
 
 ---
@@ -82,10 +82,10 @@ Para fazer logon no Suporte da Adobe Experience League, siga estas etapas:
 
 ### Enviar um caso de suporte {#support-case}
 
-Depois de fazer logon, você pode enviar um caso de suporte usando a página inicial do Adobe Experience League, a página da conta do Adobe Commerce e a página da conta do Adobe Commerce Cloud.
+Depois de fazer logon como proprietário da conta ou usuário de Acesso compartilhado, você pode enviar um caso de suporte usando a página inicial do Adobe Experience League, a página da conta do Adobe Commerce e a página da conta do Adobe Commerce Cloud.
 
-* Se você for o proprietário da conta, siga as etapas abaixo.
-* Se você for um usuário de Acesso Compartilhado, deverá primeiro trocar de conta. Consulte [Acessar conta compartilhada (alternar contas)](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#switch-accounts) e você poderá prosseguir para as etapas abaixo.
+* Se você for o proprietário da conta ou um usuário de Acesso Compartilhado recorrente, siga as etapas abaixo.
+* Se você for um usuário de Acesso Compartilhado e o proprietário da conta tiver acabado de [fornecer acesso compartilhado](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#provide-shared-access), primeiro troque as contas antes de prosseguir para as etapas abaixo. Consulte [Acessar conta compartilhada (alternar contas)](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#switch-accounts) para obter mais detalhes.
 
 #### Página inicial do Adobe Experience League {#experience-league-start-page}
 
