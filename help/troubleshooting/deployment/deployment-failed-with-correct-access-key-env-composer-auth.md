@@ -4,16 +4,16 @@ description: 'Este artigo fornece uma solução para o problema em que a implant
 feature: Deploy
 role: Admin
 exl-id: a18f4213-7381-4001-a5a0-3f8db4525469
-source-git-commit: 9f9dc8374bb681398ed1c295ac15679553cfc74e
+source-git-commit: 2a1c97c65282d03010bffabbcd2d1be7fb9ff9a6
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
 
 # Falha na implantação com as chaves de acesso corretas em env:COMPOSER_AUTH ou auth.json
 
-Este artigo fornece uma solução para o problema que ocorre quando a implantação falha com um erro como o mostrado abaixo, no [log de implantação](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log):
+Este artigo fornece uma solução para o problema que ocorre quando a implantação falha com um erro como o mostrado abaixo, no [log de implantação](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log):
 
 ```
 W:   [Composer\Downloader\TransportException]
@@ -40,7 +40,7 @@ Implantação bem-sucedida.
 >
 >Este é um exemplo de erro. Você pode receber um erro indicando um arquivo diferente (dependendo da versão do Adobe Commerce implantada).
 
-Você não implantou o com sucesso. Você vê um erro como *Não foi possível baixar o arquivo &quot;https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip&quot; (HTTP/1.1 404 Não encontrado)* no [log de implantação](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
+Você não implantou o com sucesso. Você vê um erro como *Não foi possível baixar o arquivo &quot;https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip&quot; (HTTP/1.1 404 Não encontrado)* no [log de implantação](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
 
 ### Causa
 
