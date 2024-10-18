@@ -2,76 +2,52 @@
 title: Atualização da política de ciclo de vida do tíquete de suporte da Adobe Commerce
 description: Este artigo fornece informações sobre a atualização da política de ciclo de vida do tíquete de suporte da Adobe Commerce.
 exl-id: c3fbcb4a-107f-48b3-afed-b9a0c5d0425c
-source-git-commit: c1c2bd29e14f4cbfffb235801e95ec7cbb7c7a55
+source-git-commit: 5d291a221509c35c8bc34fd0957534c24342c59c
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 1%
+source-wordcount: '449'
+ht-degree: 0%
 
 ---
 
 # Atualização da política de ciclo de vida do tíquete de suporte da Adobe Commerce
 
-Este artigo fornece informações sobre a atualização da política de ciclo de vida do tíquete de suporte da Adobe Commerce.
+Esta documentação descreve as melhorias no ciclo de vida do caso de suporte Adobe DX com a intenção de aumentar a comunicação e fornecer resoluções para os clientes o mais rápido possível para ajudar a garantir o sucesso do cliente. Isso também pode ser encontrado em [Visão geral dos planos de sucesso do Adobe: ciclo de vida do caso de suporte](https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/overview#support-case-lifecycle---coming-soon).
+Abaixo estão as linhas do tempo e notificações para vários cenários encontrados durante o processo de suporte:
 
-A tabela a seguir ilustra os cenários atualizados. Você pode encontrar detalhes para cada cenário na seção abaixo.
+## Lembretes de acompanhamento de caso
 
-<table>
- <tbody>
- <tr>
- <td class="wysiwyg-text-align-center"> </td>
- <td class="wysiwyg-text-align-center"><strong>Status do tíquete</strong></td>
- <td class="wysiwyg-text-align-center"><strong>Dias a serem resolvidos</strong></td>
- <td class="wysiwyg-text-align-center"><strong>Dias para "Fechado"</strong></td>
- <td class="wysiwyg-text-align-center"><strong>Tempo de notificação</strong></td>
- </tr>
- <tr>
- <td class="wysiwyg-text-align-left"><strong>Engenheiro fornece solução</strong></td>
- <td class="wysiwyg-text-align-center">"Aguardando sua resposta"</td>
- <td class="wysiwyg-text-align-center">3</td>
- <td class="wysiwyg-text-align-center">6</td>
- <td class="wysiwyg-text-align-center">Dias 3 e 6</td>
- </tr>
- <tr>
- <td class="wysiwyg-text-align-left"><strong>Aguardando informações do cliente</strong></td>
- <td class="wysiwyg-text-align-center">"Aguardando sua resposta"</td>
- <td class="wysiwyg-text-align-center">N/D</td>
- <td class="wysiwyg-text-align-center">6</td>
- <td class="wysiwyg-text-align-center">Dias 1, 3 e 6</td>
- </tr>
- <tr>
- <td class="wysiwyg-text-align-left"><strong>O cliente define como "Resolvido" ou solicita que o engenheiro defina como "Resolvido"</strong></td>
- <td class="wysiwyg-text-align-center">"Resolvido"</td>
- <td class="wysiwyg-text-align-center">Imediato</td>
- <td class="wysiwyg-text-align-center">1</td>
- <td class="wysiwyg-text-align-center">Dia 1</td>
- </tr>
- </tbody>
- </table>
+| Notificação | Status da Ocorrência | Tempo de Notificação | Dias para Status de Fechamento do Caso |
+|--- |--- |--- |--- |
+| **1st** | Resposta Ou Resolução Pendente Fornecida | 24 horas / 1 dia | 5 dias |
+| **2nd** | Resposta Ou Resolução Pendente Fornecida | 72 horas/3 dias | 3 dias |
+| **3rd** | Resposta Ou Resolução Pendente Fornecida | 120 horas/5 dias | 1 dia |
+| **4th** | Resposta ou Resolução Pendente Fornecida alterada para &quot;Fechada Automaticamente&quot; | 144 horas/6 dias | fechado |
 
 ## Cenários detalhados
 
-### Quando um engenheiro fornece uma solução
-
-1. Depois que uma solução é fornecida a um cliente, o engenheiro define o status do ticket como &quot;Aguardando sua resposta&quot;.
-1. Se não houver resposta do cliente por três dias após o status ser alterado para &quot;Aguardando resposta&quot;, o ticket será movido para &quot;Resolvido&quot; e o cliente será notificado.
-1. Se não houver resposta do cliente por 6 dias após o status ser alterado para &quot;Aguardando resposta&quot;, o ticket será fechado e o cliente será notificado.
-
 ### Quando informações adicionais são solicitadas de um cliente
 
-1. Se uma atualização do cliente for necessária, o engenheiro definirá o ticket como &quot;Aguardando sua resposta&quot;.
-1. As notificações são enviadas ao cliente no dia 1 e 3, solicitando acompanhamento do cliente.
-1. Se não houver resposta do cliente por 6 dias após o status ser alterado para &quot;Aguardando resposta&quot;, o ticket será fechado e o cliente será notificado.
+Nesse cenário, quando são necessárias informações adicionais de um cliente, as seguintes etapas são executadas:
 
-### Ticket definido como &quot;Resolvido&quot; por um cliente
+* O engenheiro envia uma atualização solicitando informações e o status do caso é definido como &quot;Resposta pendente&quot;.
+* No primeiro, terceiro e quinto dia seguintes ao status estar definido como &quot;Resposta pendente&quot;, as notificações de acompanhamento são enviadas ao cliente solicitando as informações adicionais.
+* Se não houver resposta do cliente por seis dias depois do status ter sido definido como &quot;Resposta pendente&quot;, a ocorrência será definida como fechada e uma notificação de fechamento será enviada.
 
-Quando um tíquete é definido como &quot;Resolvido&quot; por um cliente, ele é fechado em um dia e o cliente é notificado.
+Os clientes podem reabrir um caso fechado em 14 dias para continuar a comunicação. Além de 14 dias, um novo caso de suporte pode ser aberto para continuar a comunicação relacionada a um caso fechado anteriormente.
 
-### O cliente direciona o suporte para fechar o tíquete
+### Quando um engenheiro fornece uma solução
 
-Quando um cliente direciona o Suporte da Adobe Commerce para fechar o tíquete, ele é fechado em um dia e o cliente é notificado.
+Nesse cenário, quando um engenheiro oferece uma solução, as seguintes etapas são executadas:
+
+* O engenheiro envia uma atualização com uma solução proposta e o status do caso é definido como &quot;Solução fornecida&quot;.
+* No primeiro, terceiro e quinto dia após o status ser definido como &quot;Resolução fornecida&quot;, as notificações de acompanhamento serão enviadas ao cliente, solicitando a confirmação da solução fornecida.
+* Se não houver resposta do cliente por 6 dias após o status ter sido definido como &quot;Resolução fornecida&quot;, a ocorrência será definida como fechada e uma notificação de fechamento será enviada.
+
+Os clientes podem reabrir um caso fechado em 14 dias para continuar a comunicação. Além de 14 dias, um novo caso de suporte pode ser aberto para continuar a comunicação relacionada a um caso fechado anteriormente.
 
 ## Leitura relacionada
 
-* [Enviar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)
-* [O link &quot;Enviar um tíquete&quot; não é exibido na página inicial da Central de ajuda da Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#no-submit-link)
-* [Formulário de envio de tíquete: o comerciante não é exibido no menu suspenso Organização](/help/help-center-guide/help-center/magento-help-center-user-guide.md#merchant-not-displayed)
+* [Enviar um tíquete de suporte](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)
+* [ O link &quot;Enviar um tíquete&quot; não é exibido na página inicial da Central de Ajuda da Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#no-submit-link)
+* [Formulário de envio de tíquete: o comerciante não é exibido no menu suspenso Organização](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#merchant-not-displayed)
+* [Visão Geral Dos Planos De Sucesso Do Adobe: Ciclo De Vida Do Caso De Suporte](https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/overview#support-case-lifecycle---coming-soon)
