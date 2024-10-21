@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 41100a7a059abf86524d2c6f66a4d81ddf1eb41f
+source-git-commit: 41e8cd47b62f68975ed61b5260934ecf2cadec0f
 workflow-type: tm+mt
-source-wordcount: '9814'
+source-wordcount: '9806'
 ht-degree: 0%
 
 ---
@@ -647,7 +647,6 @@ ht-degree: 0%
       * [Migração do processo de entrada de suporte Adobe Commerce para Experience League](/help/announcements/adobe-commerce-announcements/adobe-commerce-support-intake-process-migration.md)
    * Notícias da Central de Ajuda {#news}
       * [Descontinuação do Centro de ajuda da Adobe Commerce](/help/announcements/help-center-news/decommissioning-of-adobe-commerce-help-center.md)
-      * [A Base de conhecimento de suporte da Adobe Commerce começa a aceitar contribuições](/help/announcements/help-center-news/github-repo-for-external-contributions.md)
 * Solução de problemas {#troubleshooting}
    * [Visão geral da solução de problemas](/help/troubleshooting/overview.md)
    * Banco de dados {#database}
