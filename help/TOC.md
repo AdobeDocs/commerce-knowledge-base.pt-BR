@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 41e8cd47b62f68975ed61b5260934ecf2cadec0f
+source-git-commit: d7940db29941e39ee6a664115095c7512a7f8d54
 workflow-type: tm+mt
-source-wordcount: '9806'
+source-wordcount: '9794'
 ht-degree: 0%
 
 ---
@@ -949,7 +949,6 @@ ht-degree: 0%
       * [Migração da integração do método de envio [!DNL UPS] de [!DNL SOAP] para [!DNL RESTful API]](/help/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.md)
       * [[!DNL USPS] Hotfix de suporte do método de envio Ground Advantage para AC-9182](/help/troubleshooting/known-issues-patches-attached/usps-ground-advantage-shipping-method-support-hotfix-for-ac-9182.md)
       * [Adobe Commerce 2.4.3-p2 - Hotfix de segurança 2.4.5 para CVE-2022-35698](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-3-p2-2-4-5-security-hotfix-for-cve-2022-35698.md)
-      * [Problema de carrinho de compras vazio ao clicar várias vezes no check-out do minicarrinho](/help/troubleshooting/known-issues-patches-attached/empty-shopping-cart-issue-when-multiple-click-on-checkout-from-mini-cart.md)
       * [Adobe Commerce 2.4.4: Não é possível criar faturas parciais](/help/troubleshooting/known-issues-patches-attached/braintree-partial-invoice-error-apple-pay-google-pay.md)
       * [Novos pedidos são enviados para arquivamento](/help/troubleshooting/known-issues-patches-attached/new-orders-are-sent-to-archive.md)
       * [Adobe Commerce de erros de trabalho do CRON do relatório avançado](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-cron-job-errors-magento-commerce.md)
