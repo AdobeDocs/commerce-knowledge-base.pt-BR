@@ -4,9 +4,9 @@ description: Este artigo fornece uma solução para o problema que ocorre quando
 exl-id: f44fe434-a320-4e7e-a876-9575921749f3
 feature: Storefront
 role: Admin
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: a1046621259ea49eab74cd6ba3bba550e0c70283
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,6 @@ Para resolver este problema use outra versão do PHP 7.4.x. O PHP 7.4.2 não é 
 ## Leituras relacionadas em nossa base de conhecimento de suporte:
 
 * [Problema conhecido do Commerce 2.4.0: os métodos de pagamento de Braintree não são exibidos na finalização de vários endereços](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)
-* [Problema conhecido na criação de etiquetas de remessa no Adobe Commerce 2.4.0](/help/troubleshooting/known-issues-patches-attached/shipping-labels-creation-known-issue-in-magento-2-4-0.md)
 * [Problema conhecido do Adobe Commerce 2.4.0: a atualização das atividades do cliente não funciona](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md)
 * [Problema conhecido do Adobe Commerce 2.4.0: as Taxas de imposto de exportação não funcionam](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
 * [Problema conhecido do Adobe Commerce 2.4.0: o botão &quot;Adicionar seleções ao carrinho&quot; não funciona](/help/troubleshooting/miscellaneous/magento-2-4-0-add-selections-to-my-cart-does-not-work.md)

@@ -4,9 +4,9 @@ description: Este artigo fala sobre a solução do problema em que, quando um us
 exl-id: a481b044-3b74-4792-abc6-249a182c49e1
 feature: B2B, Orders, Shipping/Delivery, Checkout
 role: Developer
-source-git-commit: 2bba3af8919e1db8482764b8d688f95e606c2683
+source-git-commit: a1046621259ea49eab74cd6ba3bba550e0c70283
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,6 @@ Desative a verificação de endereço Vertex ou atualize para 2.4.0.
 * [Problema conhecido do Adobe Commerce 2.4.0: erros de exibição de pedidos](/help/troubleshooting/storefront/magento-2-4-0-known-issue-orders-display-error.md)
 * [O administrador B2B do Adobe Commerce 2.4.0 não pode adicionar o produto configurável à cotação](/help/troubleshooting/miscellaneous/magento-2-4-0-b2b-admin-can-t-add-configurable-product-to-quote.md)
 * [Problema conhecido do Adobe Commerce 2.4.0: os métodos de pagamento de Braintree não são exibidos na finalização de vários endereços](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)
-* [Problema conhecido na criação de etiquetas de remessa no Adobe Commerce 2.4.0](/help/troubleshooting/known-issues-patches-attached/shipping-labels-creation-known-issue-in-magento-2-4-0.md)
 * [Problema conhecido do Adobe Commerce 2.4.0: a atualização das Atividades do cliente não funciona](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md)
 * [Problema conhecido do Adobe Commerce 2.4.0 - as Taxas de imposto de exportação não funcionam](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
 * [Problema conhecido do Adobe Commerce 2.4.0: o botão &quot;Adicionar seleções ao carrinho&quot; não funciona](/help/troubleshooting/miscellaneous/magento-2-4-0-add-selections-to-my-cart-does-not-work.md)

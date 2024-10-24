@@ -4,9 +4,9 @@ description: Este artigo fornece um patch para o problema conhecido do Adobe Com
 exl-id: f78f8d7e-29e9-4d6c-83f6-cd5afa1d7d9c
 feature: B2B, Orders, Returns, Communications, Shipping/Delivery
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: a1046621259ea49eab74cd6ba3bba550e0c70283
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -61,4 +61,3 @@ Para obter instruções, consulte [Como aplicar um patch de compositor fornecido
 * [Problema conhecido do Adobe Commerce 2.4.0: os métodos de pagamento de Braintree não são exibidos na finalização de vários endereços](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)
 * [O administrador B2B do Adobe Commerce 2.4.0 não pode adicionar o produto configurável à cotação](/help/troubleshooting/miscellaneous/magento-2-4-0-b2b-admin-can-t-add-configurable-product-to-quote.md)
 * [Problema conhecido do Adobe Commerce 2.4.0: erros de exibição de pedidos](/help/troubleshooting/storefront/magento-2-4-0-known-issue-orders-display-error.md)
-* [Problema conhecido na criação de etiquetas de remessa no Adobe Commerce 2.4.0](/help/troubleshooting/known-issues-patches-attached/shipping-labels-creation-known-issue-in-magento-2-4-0.md)

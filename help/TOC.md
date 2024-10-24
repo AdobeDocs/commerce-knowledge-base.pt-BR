@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: d7940db29941e39ee6a664115095c7512a7f8d54
+source-git-commit: 9a93f596b5196a9da61e9698a7e6456c650c2b42
 workflow-type: tm+mt
-source-wordcount: '9794'
+source-wordcount: '9723'
 ht-degree: 0%
 
 ---
@@ -975,25 +975,18 @@ ht-degree: 0%
       * [Correção 2.3.5, 2.3.5-p1 do Adobe Commerce: problema de pagamento do país](/help/troubleshooting/known-issues-patches-attached/magento-2-3-5-2-3-5-p1-patch-country-payment-issue.md)
       * [Correção do Adobe Commerce 2.4.0: retorna o problema de criação de etiqueta de envio](/help/troubleshooting/known-issues-patches-attached/magento-2-4-0-patch-returns-shipping-label-creation-issue.md)
       * [&quot;Erro 500&quot; depois de clicar duas vezes em Remover link no carrinho de compras](/help/troubleshooting/known-issues-patches-attached/500-error-after-double-clicking-remove-link-in-shopping-cart.md)
-      * [A API da Web não pode processar solicitações com mais de 20 itens na matriz](/help/troubleshooting/known-issues-patches-attached/web-api-resources-limit.md)
       * [Pacotes rebaixados após a atualização de 2.4.4 para 2.4.4-p1](/help/troubleshooting/known-issues-patches-attached/packages-downgraded-after-upgrading-from-2-4-4-to-2-4-4-p1.md)
       * [A paginação de catálogo não funciona com o Elasticsearch 6.x](/help/troubleshooting/known-issues-patches-attached/catalog-pagination-doesn-t-work-when-elasticsearch-6-x-is-used.md)
-      * [Atualizações de segurança disponíveis para o Adobe Commerce APSB22-12](/help/troubleshooting/known-issues-patches-attached/0-day-vulnerability-patch.md)
-      * [404 Erro na loja assim que a atualização das programações de regra de preço de catálogo é executada](/help/troubleshooting/known-issues-patches-attached/404-error-on-store-front-once-catalog-price-rule-schedules-update-is-performed.md)
       * [O Adobe Commerce 2.3.6, 2.4.1 CAPTCHA no check-out não está funcionando](/help/troubleshooting/known-issues-patches-attached/magento-commerce-2-3-6-2-4-1-captcha-in-checkout-not-working.md)
-      * [Endereço de entrega não salvo pós-atualização da página no check-out](/help/troubleshooting/known-issues-patches-attached/shipping-address-not-saved-post-page-refresh-on-checkout.md)
-      * [Falha ao importar informações de produto CSV para produto com o mesmo nome](/help/troubleshooting/known-issues-patches-attached/import-csv-product-information-for-same-name-product-fails.md)
       * [Email do pedido enviado do endereço de email do servidor](/help/troubleshooting/known-issues-patches-attached/order-email-sent-from-the-server-email-address.md)
       * [Erro 404 do Advanced Reporting na solução de banco de dados dividido](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-404-error-on-split-database-solution.md)
       * [Problemas de desempenho causados por solicitações excessivas do Ajax](/help/troubleshooting/known-issues-patches-attached/performance-issues-caused-by-excessive-ajax-requests.md)
       * [A remoção da atualização de preparo exclui a entidade relacionada](/help/troubleshooting/known-issues-patches-attached/removing-staging-update-deletes-related-entity.md)
       * [O Google Analytics não está rastreando dados de conversão](/help/troubleshooting/known-issues-patches-attached/google-analytics-is-not-tracking-conversion-data.md)
-      * [Problema conhecido do Adobe Commerce 2.4.0: falha nos testes de integração](/help/troubleshooting/known-issues-patches-attached/magento-2-4-0-known-issue-integration-tests-fail.md)
       * [Data errada para preço especial](/help/troubleshooting/known-issues-patches-attached/wrong-date-for-special-price.md)
       * [Adobe Commerce 2.4.1 e 2.3.6 criam um hotfix de botão de conta desativado](/help/troubleshooting/known-issues-patches-attached/2-4-1-and-2-3-6-create-an-account-button-disabled-hotfix.md)
       * [Erro &quot;Área já definida&quot; ao salvar a configuração do tema no Administrador](/help/troubleshooting/known-issues-patches-attached/area-already-set-error-when-saving-theme-configuration-in-admin.md)
       * [O Adobe Commerce solicita que os clientes façam logon em um link inválido](/help/troubleshooting/known-issues-patches-attached/magento-prompts-customers-log-in-invalid-link.md)
-      * [Problema conhecido na criação de etiquetas de remessa no Adobe Commerce 2.4.0](/help/troubleshooting/known-issues-patches-attached/shipping-labels-creation-known-issue-in-magento-2-4-0.md)
       * [B2B: As empresas não podem acessar páginas de perfil na loja](/help/troubleshooting/known-issues-patches-attached/b2b-companies-cannot-access-profile-pages-on-store-front.md)
       * [Ordem de inserção de erros do Adobe Commerce 2.4.6 no painel Admin](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-6-error-placing-order-from-admin-panel.md)
       * [[!UICONTROL salesRule] problemas de rótulo ao atualizar de versões &lt; 2.4.5](/help/troubleshooting/known-issues-patches-attached/salesrule-label-issues-when-upgrade-from-versions-under-2-4-5.md)

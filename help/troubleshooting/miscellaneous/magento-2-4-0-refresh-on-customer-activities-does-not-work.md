@@ -4,9 +4,9 @@ description: Este artigo fornece uma solução para o problema conhecido do Adob
 exl-id: 50048e9f-6009-4db5-ae4a-c35a84cec265
 feature: Configuration
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: a1046621259ea49eab74cd6ba3bba550e0c70283
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,6 @@ Uma solução alternativa é que o usuário administrador pode atualizar as **At
 ## Leitura relacionada
 
 * [Problema conhecido do Adobe Commerce 2.4.0: os métodos de pagamento de Braintree não são exibidos na finalização de vários endereços](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)
-* [Problema conhecido na criação de etiquetas de remessa no Adobe Commerce 2.4.0](/help/troubleshooting/known-issues-patches-attached/shipping-labels-creation-known-issue-in-magento-2-4-0.md)
 * [Problema conhecido do Adobe Commerce 2.4.0: exibição de dados de mensagens brutas na loja](/help/troubleshooting/storefront/magento-2-4-0-issue-storefront-raw-message-data-display.md)
 * [Problema conhecido do Adobe Commerce 2.4.0: as Taxas de imposto de exportação não funcionam](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
 * [Problema conhecido do Adobe Commerce 2.4.0: o botão &quot;Adicionar seleções ao carrinho&quot; não funciona](/help/troubleshooting/miscellaneous/magento-2-4-0-add-selections-to-my-cart-does-not-work.md)

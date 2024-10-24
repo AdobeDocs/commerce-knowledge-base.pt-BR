@@ -4,9 +4,9 @@ description: Este artigo fornece uma correção para um problema conhecido do Ad
 exl-id: 2c1dadd9-7754-4b4c-8d37-b75c13beae5c
 feature: B2B, Install, Upgrade
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: a1046621259ea49eab74cd6ba3bba550e0c70283
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,5 @@ Consulte [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to
 * [Problema conhecido do Adobe Commerce 2.4.0: erro 404 ao remover pontos de recompensa na finalização de remessa múltipla](/help/troubleshooting/storefront/magento-2-4-0-404-error-removing-rewards-points-on-multi-shipping-checkout.md)
 * [Problema conhecido do Adobe Commerce 2.4.0: erros de exibição de pedidos](/help/troubleshooting/storefront/magento-2-4-0-known-issue-orders-display-error.md)
 * [O administrador B2B do Adobe Commerce 2.4.0 não pode adicionar o produto configurável à cotação](/help/troubleshooting/miscellaneous/magento-2-4-0-b2b-admin-can-t-add-configurable-product-to-quote.md)
-* [Problema conhecido na criação de etiquetas de remessa no Adobe Commerce 2.4.0](/help/troubleshooting/known-issues-patches-attached/shipping-labels-creation-known-issue-in-magento-2-4-0.md)
 * [Problema conhecido do Adobe Commerce 2.4.0: a atualização das Atividades do cliente não funciona](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md)
 * [Problema conhecido do Adobe Commerce 2.4.0: o botão &quot;Adicionar seleções ao carrinho&quot; não funciona](/help/troubleshooting/miscellaneous/magento-2-4-0-add-selections-to-my-cart-does-not-work.md)
