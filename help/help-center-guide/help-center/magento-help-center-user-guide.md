@@ -3,9 +3,9 @@ title: Guia do usuário de suporte Experience League para Adobe Commerce
 description: Saiba como enviar um tíquete de suporte para o Suporte Experience League, fornecer acesso compartilhado a contas e navegar na Base de conhecimento Adobe Commerce.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 8ee52f47d9e230ecd633ead3429d864f9df7c33e
+source-git-commit: 529bfc97ab05b839fca6d76f2d2f2f3dc040c9b9
 workflow-type: tm+mt
-source-wordcount: '2583'
+source-wordcount: '2649'
 ht-degree: 0%
 
 ---
@@ -90,8 +90,9 @@ Para enviar um novo caso de suporte usando a página inicial do Adobe Experience
 
 >[!INFO]
 >
->1. Para enviar um caso, você deve ter direito ao suporte para o produto apropriado (por exemplo, Adobe Commerce, Adobe Commerce Intelligence, Experience Platform, etc.). Se você não tiver direito ao suporte, uma barra será exibida na parte superior da página informando que você não é um usuário com direito ao suporte na organização.
+>1. Para enviar um caso, você deve ter direito ao suporte para o produto apropriado (por exemplo, Adobe Commerce, Adobe Commerce Reporting, Adobe Commerce Payment Services, Experience Platform, etc.). Se você não tiver direito ao suporte, uma barra será exibida na parte superior da página informando que você não é um usuário com direito ao suporte na organização. Para enviar um caso de problemas relacionados ao Commerce, primeiro selecione o nome da organização apropriada que termina em *[!DNL Commerce]*.
 >1. Se você pertencer a várias organizações ou se houver várias organizações com nomes de aparência semelhante (cada uma representará qualquer um dos outros produtos de Adobe para os quais a organização tem assinaturas), será necessário selecionar primeiro a organização apropriada na lista suspensa.
+>1. Se você não vir o Adobe Commerce na lista suspensa [!UICONTROL Select a product], obtenha primeiro o [Acesso Compartilhado](#shared-access) do Proprietário da Conta do Commerce. Depois de receber o Acesso Compartilhado, você terá que [sincronizar sua conta](#switch-accounts) para finalizar o processo antes de enviar um caso.
 
 >[!NOTE]
 >
