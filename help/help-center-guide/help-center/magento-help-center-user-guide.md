@@ -3,9 +3,9 @@ title: Guia do usuário de suporte Experience League para Adobe Commerce
 description: Saiba como enviar um tíquete de suporte para o Suporte Experience League, fornecer acesso compartilhado a contas e navegar na Base de conhecimento Adobe Commerce.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: d8f832869916c04cacc0cefeeb9b45bd3c1f3b80
+source-git-commit: 8ee52f47d9e230ecd633ead3429d864f9df7c33e
 workflow-type: tm+mt
-source-wordcount: '2625'
+source-wordcount: '2583'
 ht-degree: 0%
 
 ---
@@ -84,9 +84,6 @@ Para fazer logon no Suporte da Adobe Experience League, siga estas etapas:
 
 Depois de fazer logon como proprietário da conta ou usuário de Acesso compartilhado, você pode enviar um caso de suporte usando a página inicial do Adobe Experience League, a página da conta do Adobe Commerce e a página da conta do Adobe Commerce Cloud.
 
-* Se você for o proprietário da conta ou um usuário de Acesso Compartilhado recorrente, siga as etapas abaixo.
-* Se você for um usuário de Acesso Compartilhado e o proprietário da conta tiver acabado de [fornecer acesso compartilhado](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#provide-shared-access), primeiro troque as contas antes de prosseguir para as etapas abaixo. Consulte [Acessar conta compartilhada (alternar contas)](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#switch-accounts) para obter mais detalhes.
-
 #### Página inicial do Adobe Experience League {#experience-league-start-page}
 
 Para enviar um novo caso de suporte usando a página inicial do Adobe Experience League, siga estas etapas:
@@ -106,7 +103,7 @@ Para enviar um novo caso de suporte usando a página inicial do Adobe Experience
 
    ![abrir-página-suporte](assets/click_support.png)
 
-1. Para iniciar o processo de entrada de suporte, verifique se você selecionou a organização apropriada na lista suspensa Organização (se visível).
+1. Para iniciar o processo de entrada de suporte, verifique se você selecionou a organização apropriada na lista suspensa Organização (se visível). Para enviar um caso para o Adobe Commerce, selecione o nome da organização que termina em *[!DNL Commerce]*.
 
    ![selecionar_organização_apropriada](assets/select_appropriate_org.png)
 
