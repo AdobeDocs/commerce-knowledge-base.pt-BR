@@ -4,9 +4,9 @@ description: Este artigo fornece recomendações sobre como evitar um problema c
 exl-id: 1488e2db-4a5d-4963-b48e-b84f760582d1
 feature: Products, Storefront
 role: Admin
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: d51fd4d7b064b8eea6cd3771af279b74a8bdec48
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -45,9 +45,6 @@ Você pode visualizar a correção no GitHub (considere que a correção não pa
 <li><a href="/help/troubleshooting/miscellaneous/bulk-action-product-count-known-issue-in-magento-2-3-5.md">Problema conhecido na contagem de produtos da ação em massa no Adobe Commerce 2.3.5</a></li>
 <li>
 <p title="Problema do método de pagamento do país no Adobe Commerce na infraestrutura em nuvem e no Adobe Commerce no local 2.3.5 e 2.3.5-p1"><a href="/help/troubleshooting/known-issues-patches-attached/magento-2-3-5-2-3-5-p1-patch-country-payment-issue.md">Problema do método de pagamento do país no Adobe Commerce na infraestrutura em nuvem e no Adobe Commerce no local 2.3.5 e 2.3.5-p1</a></p>
-</li>
-<li>
-<p title="O Adobe Commerce solicita que os clientes façam logon, mas fornece link inválido"><a href="/help/troubleshooting/known-issues-patches-attached/magento-prompts-customers-log-in-invalid-link.md">O Adobe Commerce solicita que os clientes façam logon, mas fornece link inválido</a></p>
 </li>
 <li>
 <p title="Correção para o problema de checkout de pagamento do Amazon no Adobe Commerce 2.3.5-p1"><a href="/help/troubleshooting/payments/patch-for-amazon-pay-checkout-issue-in-magento-2-3-5-p1.md">Correção para o problema de checkout de pagamento do Amazon no Adobe Commerce 2.3.5-p1</a></p>
