@@ -4,7 +4,7 @@ promoted: true
 description: Aplique um patch Isolado para corrigir [!DNL critical, important, and moderate vulnerabilities] instâncias do Adobe Commerce 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 e versões anteriores que estejam executando apenas o módulo  [!DNL B2B] .
 feature: Compliance, Security
 role: Developer
-source-git-commit: 694cb7519733e950b55006866e585097bc2429f4
+source-git-commit: 483589be81e55f818f5cf93cccff2ffcbb5763cf
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Atualização de segurança disponível para o Adobe Commerce - [!DNL APSB24-73]
 
-Em 8 de outubro de 2024, o Adobe lançou uma atualização de segurança agendada regularmente para o Adobe Commerce e [!DNL Adobe Commerce Webhooks Plugin].
+Em 08 de outubro de 2024, o Adobe lançou uma atualização de segurança agendada regularmente para o Adobe Commerce e [!DNL Adobe Commerce Webhooks Plugin].
 Esta atualização resolve [[!DNL critical, important] e  [!DNL moderate]](https://helpx.adobe.com/security/severity-ratings.html) vulnerabilidades. A exploração bem-sucedida pode levar à execução arbitrária de código, à leitura arbitrária do sistema de arquivos, ao desvio de recursos de segurança e ao escalonamento de privilégios. O informativo é [Boletim de Segurança de Adobe ([!DNL APSB24-73])](https://helpx.adobe.com/security/products/magento/apsb24-73.html).
 
 >[!NOTE]
