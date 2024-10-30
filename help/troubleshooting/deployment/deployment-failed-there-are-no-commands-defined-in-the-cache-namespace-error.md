@@ -1,17 +1,18 @@
 ---
-title: "Falha na implantação na liberação de cache: não há comandos definidos no erro de namespace 'cache'"
+title: '"Falha na implantação na liberação do cache: ''Não há comandos definidos no erro ''cache'' namespace'''
 description: Este artigo fornece uma solução para o problema de falha na implantação com o seguinte erro **Não há comandos definidos no namespace do cache**.
 feature: Deploy
 role: Developer
 exl-id: ee2bddba-36f7-4aae-87a1-5dbeb80e654e
-source-git-commit: e13be3ef9daa17b9463c8251933f68f6a35fedd2
+source-git-commit: 7efa7b5363c7f77d76c02051c7e0e6a0f38ca87d
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
-# Falha na implantação na liberação de cache: &quot;Não há comandos definidos no erro de namespace &#39;cache&#39;&quot;
+
+# Falha na implantação na liberação de cache: erro &quot;Não há comandos definidos no namespace &#39;cache&#39;&quot;
 
 >[!WARNING]
 >
@@ -30,11 +31,11 @@ Este artigo fornece uma solução para o problema que ocorre quando a implantaç
 
 Adobe Commerce na infraestrutura em nuvem 2.4.x
 
-## Problema  
+## Problema
 
 <u>Etapas a serem reproduzidas</u>:
 
-Tentativa de implantação. 
+Tentativa de implantação.
 
 <u>Resultados esperados</u>:
 
@@ -66,16 +67,16 @@ Para resolver esse problema, identifique as linhas inválidas restantes dessas c
    The store that was requested wasn't found. Verify the store and try again.
    ```
 
-1. Execute esta consulta MySql para verificar se o armazenamento não pode ser encontrado, o que é indicado pela mensagem de erro na etapa 2. 
+1. Execute esta consulta MySql para verificar se o armazenamento não pode ser encontrado, o que é indicado pela mensagem de erro na etapa 2.
 
    ```sql
    select distinct scope_id from core_config_data where scope='stores' and scope_id not in (select store_id from store);
    ```
 
-1. Execute a seguinte instrução MySql para excluir as linhas inválidas: 
+1. Execute a seguinte instrução MySql para excluir as linhas inválidas:
 
    ```sql
-   delete from core_config_data where scope='stores' and scope_id not in (select store_id from store); 
+   delete from core_config_data where scope='stores' and scope_id not in (select store_id from store);
    ```
 
 1. Execute este comando novamente:
