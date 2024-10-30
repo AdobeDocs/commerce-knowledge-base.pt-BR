@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 61b3cc2fc40b320c3c657a7dd0c6ea2b9db71c75
+source-git-commit: a0b8fdf0e04cad2260a04af7c1049c6831d2921b
 workflow-type: tm+mt
-source-wordcount: '9626'
+source-wordcount: '9617'
 ht-degree: 0%
 
 ---
@@ -639,7 +639,6 @@ ht-degree: 0%
       * [Vulnerabilidade do Apache log4j2 no Adobe Commerce](/help/announcements/adobe-commerce-announcements/apache-log4j2-adobe-commerce.md)
       * [Remoção do acesso ao Blackfire para Adobe Commerce na infraestrutura em nuvem](/help/announcements/adobe-commerce-announcements/blackfire-access-removal-for-magento-commerce-cloud.md)
       * [Ferramenta de correções de qualidade lançada: nova ferramenta para autoatendimento de correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)
-      * [2.4 Workshop de atualização do Adobe Commerce em 26 de janeiro de 2022](/help/announcements/adobe-commerce-announcements/2-4-upgrade-webinar.md)
       * [O mecanismo de pesquisa do catálogo MySQL será removido no Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)
       * [Suporte Adobe para acesso e privacidade de dados do cliente](/help/announcements/adobe-commerce-announcements/adobe-support-customer-data-access-and-privacy.md)
       * [APIs UPS obsoletas](/help/announcements/adobe-commerce-announcements/ups-apis-deprecated.md)
@@ -938,7 +937,7 @@ ht-degree: 0%
       * [Erro de implantação: &quot;erro 7 ao baixar ... porta 443: conexão recusada&quot;](/help/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce.md)
       * [Erros de implantação ao confirmar arquivos incorretos](/help/troubleshooting/deployment/deployment-error-when-committing-incorrect-files.md)
       * [Erros de implantação em que patches não foram encontrados](/help/troubleshooting/deployment/deployment-errors-where-patches-not-found.md)
-      * [Falha na implantação na liberação de cache: não há comandos definidos no erro de namespace &quot;cache&quot;](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
+      * [Falha na implantação na liberação de cache: erro &quot;Não há comandos definidos no namespace &#39;cache&#39;&quot;](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
       * [Falha na implantação com as chaves de acesso corretas em env:COMPOSER_AUTH ou auth.json](/help/troubleshooting/deployment/deployment-failed-with-correct-access-key-env-composer-auth.md)
    * Problemas conhecidos {#known-issues-patches-attached}
       * [Atualização de segurança disponível para o Adobe Commerce - [!DNL APSB24-73]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-73.md)
