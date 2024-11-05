@@ -4,9 +4,9 @@ description: Problemas avançados de relatórios no Adobe Commerce podem ser res
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: ae6dde9ecc01a0e1c561d1e91dbd2f7bc3504fe0
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1007'
 ht-degree: 0%
 
 ---
@@ -30,10 +30,10 @@ b. NÃO - Complete os requisitos avançados de relatórios para o site seguindo 
 
 +++**Várias moedas base estão sendo usadas?**
 
-Várias moedas base são usadas (em pedidos e configuração)? Execute este comando SQL para obter a configuração atual: `SELECT value FROM core_config_data WHERE path = 'currency/options/base';` .
+Várias moedas base são usadas (em pedidos e configuração)? Execute este comando [!DNL SQL] para obter a configuração atual: `SELECT value FROM core_config_data WHERE path = 'currency/options/base';` .
 
 a. SIM - Se houver várias linhas retornadas pela consulta, você não poderá usar a Geração de Relatórios Avançados, pois oferecemos suporte a apenas uma moeda.\
-b. NÃO - A saída mostra apenas uma moeda. Exemplo: `USD`. Já foram usadas várias moedas base (em pedidos)? Execute este comando SQL para obter dados históricos de pedidos:\
+b. NÃO - A saída mostra apenas uma moeda. Exemplo: `USD`. Já foram usadas várias moedas base (em pedidos)? Execute este comando [!DNL SQL] para obter dados históricos de pedidos:\
 `SELECT DISTINCT base_currency_code FROM sales_order;`.
 **OBSERVAÇÃO: este comando requer uma verificação completa da tabela; portanto, para tabelas com altos números de registros, isso pode ter um impacto no desempenho enquanto a consulta está sendo executada** para obter dados históricos de pedidos.
 Se várias moedas base tiverem sido usadas, você não poderá usar a Geração de relatórios avançada, pois oferecemos suporte a apenas uma moeda. Se a saída mostrar apenas uma moeda, prossiga para [Etapa 3](#step-3).
@@ -157,3 +157,7 @@ b. NÃO - [enviar um tíquete de suporte](/help/help-center-guide/help-center/ma
 +++
 
 [Voltar à Etapa 1](#step-1)
+
+## Leitura relacionada
+
+[Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce

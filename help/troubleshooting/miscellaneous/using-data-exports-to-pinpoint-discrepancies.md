@@ -1,19 +1,19 @@
 ---
 title: Uso de Exportações de Dados para apontar discrepâncias
-description: Este artigo fornece soluções para discrepâncias de solução de problemas nos dados de Magento BI. As Exportações de dados são uma ferramenta útil para comparar seus dados do Magento BI com os dados de origem para apontar discrepâncias de dados em seus relatórios, especialmente se a [lista de verificação de diagnóstico de discrepância de dados](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md) não ajudou a identificar o problema. Este artigo o guiará por um exemplo real de como as discrepâncias de dados podem ser identificadas usando as Exportações de dados.
+description: Este artigo fornece soluções para discrepâncias de solução de problemas nos dados de Magento BI. As Exportações de dados são uma ferramenta útil para comparar seus dados do Magento BI com os dados de origem para apontar discrepâncias de dados em seus relatórios, especialmente se a [lista de verificação de diagnóstico de discrepância de dados](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy) não ajudou a identificar o problema. Este artigo o guiará por um exemplo real de como as discrepâncias de dados podem ser identificadas usando as Exportações de dados.
 exl-id: b42d585c-ad8c-4685-9ad4-a13686566f18
 feature: Commerce Intelligence, Data Import/Export
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1300'
 ht-degree: 0%
 
 ---
 
 # Uso de Exportações de Dados para apontar discrepâncias
 
-Este artigo fornece soluções para discrepâncias de solução de problemas nos dados de Magento BI. As Exportações de Dados são uma ferramenta útil para comparar seus dados do Magento BI com seus dados de origem para apontar discrepâncias de dados em seus relatórios, especialmente se a [lista de verificação de diagnóstico de discrepância de dados](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md) não ajudou a identificar o problema. Este artigo o guiará por um exemplo real de como as discrepâncias de dados podem ser identificadas usando as Exportações de dados.
+Este artigo fornece soluções para discrepâncias de solução de problemas nos dados de Magento BI. As Exportações de Dados são uma ferramenta útil para comparar seus dados do Magento BI com seus dados de origem para apontar discrepâncias de dados em seus relatórios, especialmente se a [lista de verificação de diagnóstico de discrepância de dados](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy) não ajudou a identificar o problema. Este artigo o guiará por um exemplo real de como as discrepâncias de dados podem ser identificadas usando as Exportações de dados.
 
 Faça esta análise, por exemplo:
 
@@ -27,9 +27,9 @@ Para começar, clique na engrenagem no canto superior direito do gráfico e, em 
 
 ![](assets/Export_Discrepancies_5.gif)
 
-No menu Exportação de dados brutos, você pode selecionar a tabela da qual exportar, juntamente com as colunas a serem incluídas na exportação. Os filtros também podem ser aplicados ao conjunto de resultados.
+No menu **Exportação de Dados Brutos**, você pode selecionar a tabela da qual exportar, juntamente com as colunas a serem incluídas na exportação. Os filtros também podem ser aplicados ao conjunto de resultados.
 
-Em nosso exemplo, a métrica **Receita** usada neste relatório usa o campo **ordem\_total** definido na tabela **ordens**, usando a **data** como carimbo de data/hora. Em nossa exportação, queremos incluir todos os valores **order\_id** de novembro de 2014 e seus **order\_total** . A métrica **Receita** não usa nenhum filtro, mas adicionaremos um filtro à exportação para limitar o conjunto de resultados a novembro de 2014.
+Em nosso exemplo, a métrica **Receita** usada neste relatório usa o campo **ordem\_total** definido na tabela **`orders`**, usando a **data** como carimbo de data/hora. Em nossa exportação, queremos incluir todos os valores **order\_id** de novembro de 2014 e seus **order\_total** . A métrica **Receita** não usa nenhum filtro, mas adicionaremos um filtro à exportação para limitar o conjunto de resultados a novembro de 2014.
 
 Aqui está a aparência do menu Exportação de Dados Brutos para este exemplo:
 
@@ -51,7 +51,7 @@ Agora que todos os dados estão em um só lugar, podemos procurar a fonte da dis
 
 Se ambos os sistemas tiverem a mesma contagem de linhas e a métrica **Receita** não corresponder aos dados de origem, a **ordem\_total** deverá estar desativada em algum lugar. É possível que o campo **ordem\_total** tenha sido atualizado no banco de dados de origem e o Magento BI não esteja coletando essas alterações.
 
-Para confirmar isso, verifique se a coluna **order\_total** está ou não sendo verificada novamente. Vá até o Gerente de Data Warehouse e clique na tabela pedidos. Você verá a [frequência de reverificação](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks.html) listada em &#39;Alterações?&#39; coluna. O campo **order\_total** deve ser definido para verificar novamente com a frequência esperada; caso contrário, vá em frente e defina-o com a frequência de verificação desejada.
+Para confirmar isso, verifique se a coluna **order\_total** está ou não sendo verificada novamente. Vá para o Gerenciador de Datas Warehouse e clique na tabela **`orders`**. Você verá a [frequência de reverificação](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks.html) listada em &#39;Alterações?&#39; coluna. O campo **order\_total** deve ser definido para verificar novamente com a frequência esperada; caso contrário, vá em frente e defina-o com a frequência de verificação desejada.
 
 ### ![](assets/Export_Discrepancies_4.gif)
 
@@ -61,7 +61,7 @@ Se a frequência de reverificação já estiver definida corretamente, algo mais
 
 Se o banco de dados de origem tiver mais linhas do que Magento BI e a lacuna for maior do que o número de pedidos que você pode esperar durante a duração de um ciclo de atualização, pode haver um problema de conexão. Isso significa que o Magento BI não pode extrair novos dados do banco de dados de origem, o que pode ocorrer por vários motivos.
 
-Navegue até a página Conexões e verifique o status da fonte de dados que contém a tabela de pedidos:
+Navegue até a página Conexões e verifique o status da fonte de dados que contém a tabela `order`:
 
 1. **Se o status for Reautenticar**, a conexão não está usando as credenciais corretas. Clique na conexão, digite as credenciais corretas e tente novamente.
 1. **Se o status for Falha** , a conexão pode não ser configurada corretamente no lado do servidor. Conexões com falha geralmente surgem de um nome de host incorreto ou o servidor de destino não aceita conexões na porta especificada. Clique na conexão e verifique novamente a ortografia do nome do host e se a porta correta foi inserida. No lado do servidor, verifique se a porta pode aceitar conexões e se seu firewall tem o endereço IP de Magento BI (54.88.76.97/32) conforme permitido. **Se a conexão continuar a falhar** , consulte a [seção de Contato com o Suporte](#support) no final deste artigo para obter as próximas etapas.
@@ -87,7 +87,9 @@ Se você não puder identificar a origem do problema, precisará executar um loo
 * **Se o banco de dados de origem tiver MAIS linhas do que o Magento BI** e a conexão for exibida como Bem-sucedida ou continuar a falhar, precisaremos saber o nome da conexão e a mensagem de erro que você está vendo, se houver.
 * **Se o banco de dados de origem tiver MENOS linhas do que o Magento BI,** as linhas não serão excluídas da tabela e as frequências de reverificação estiverem definidas corretamente, execute um VLOOKUP na planilha **para descobrir quais valores de order\_id estão no Magento BI**, mas não no banco de dados de origem. Inclua esses valores ao enviar o tíquete.
 
-## Relacionados
+## Leitura relacionada
 
-* [Lista de verificação de diagnóstico de discrepância de dados](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
-* [Enviando um tíquete de discrepância de dados](https://support.magento.com/hc/en-us/articles/360016506472-Submitting-a-data-discrepancy-ticket)
+* [Lista de verificação de diagnóstico de discrepância de dados](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)
+* [Políticas de Serviço do Adobe Commerce Intelligence](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies)
+* [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce
+

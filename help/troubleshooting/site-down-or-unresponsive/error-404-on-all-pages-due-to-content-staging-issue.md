@@ -1,19 +1,19 @@
 ---
 title: Erro 404 em todas as páginas devido ao problema de preparo de conteúdo
-description: Este artigo fornece uma correção para o problema do Adobe Commerce no local e do Adobe Commerce na infraestrutura em nuvem, em que você recebe um erro 404 ao acessar qualquer página da loja ou o administrador do Commerce.
+description: Este artigo fornece uma correção para o problema do Adobe Commerce no local e do Adobe Commerce na infraestrutura de nuvem, em que você recebe um erro 404 ao acessar qualquer página da loja ou o [!UICONTROL Commerce Admin].
 exl-id: 62d8ba6e-8550-4e1e-8e8d-8f319c92778a
 feature: CMS, Catalog Management, Categories, Page Content, Staging
 role: Developer
-source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
 
 # Erro 404 em todas as páginas devido ao problema de preparo de conteúdo
 
-Este artigo fornece uma correção para o problema do Adobe Commerce no local e do Adobe Commerce na infraestrutura em nuvem, em que você recebe um erro 404 ao acessar qualquer página da loja ou o administrador do Commerce.
+Este artigo fornece uma correção para o problema do Adobe Commerce no local e do Adobe Commerce na infraestrutura de nuvem, em que você recebe um erro 404 ao acessar qualquer página da loja ou o [!UICONTROL Commerce Admin].
 
 ## Produtos e versões afetados
 
@@ -24,7 +24,7 @@ Este artigo fornece uma correção para o problema do Adobe Commerce no local e 
 
 >[!NOTE]
 >
->Este artigo não se aplica à situação em que você recebe um erro 404 ao tentar [visualizar a atualização de preparo](https://docs.magento.com/user-guide/cms/content-staging-scheduled-update.html#preview-the-scheduled-change). Se você tiver esse problema, abra um [tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+>Este artigo não se aplica à situação em que você recebe um erro 404 ao tentar [visualizar a atualização de preparo](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/guide-overview#preview-the-scheduled-change). Se você tiver esse problema, abra um [tíquete de suporte](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case).
 
 O acesso a qualquer página da loja ou ao Administrador resulta no erro 404 (a página &quot;Ops, nossas más...&quot;) após executar operações com atualizações agendadas para ativos de conteúdo de loja usando [Armazenamento temporário](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html) (atualizações para ativos de conteúdo de loja agendadas usando o [módulo Magento\_Armazenamento temporário](https://developer.adobe.com/commerce/php/module-reference/)). Por exemplo, você pode ter excluído um Produto com uma atualização programada ou removido a data final da atualização programada.
 
@@ -34,8 +34,8 @@ Um ativo de conteúdo de armazenamento inclui:
 * Categoria
 * Regra de preço de catálogo
 * Regra de preço do carrinho
-* Página CMS
-* Bloco CMS
+* Página do CMS
+* Bloco do CMS
 * Widget
 
 Alguns cenários são discutidos na seção Causa abaixo.
@@ -76,7 +76,7 @@ Se a consulta retornar uma tabela em que o valor `update_exists` é &quot;1&quot
 
 ![updates_exist_1.png](assets/updates_exist_1.png)
 
-Nesse caso, você pode consultar o [Solucionador de Problemas de Site Inativo](/help/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter.md) para obter ideias de solução de problemas.
+Nesse caso, você pode consultar o [Solucionador de Problemas de Site Inativo](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter) para obter ideias de solução de problemas.
 
 ## Solução
 
@@ -86,6 +86,10 @@ Nesse caso, você pode consultar o [Solucionador de Problemas de Site Inativo](/
    DELETE FROM flag WHERE flag_code = 'staging';
    ```
 
-1. Aguarde a execução do trabalho cron (é executado em até cinco minutos, se configurado corretamente) ou execute-o manualmente, se você não tiver o cron configurado.
+1. Aguarde até que o trabalho [!DNL cron] seja executado (executado em até cinco minutos se configurado corretamente) ou execute-o manualmente se você não tiver o [!DNL cron] configurado.
 
-O problema deve ser resolvido logo após a correção do link inválido. Se o problema persistir, [envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+O problema deve ser resolvido logo após a correção do link inválido. Se o problema persistir, [envie um tíquete de suporte](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case).
+
+## Leitura relacionada
+
+[Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce

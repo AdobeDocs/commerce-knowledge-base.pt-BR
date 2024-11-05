@@ -4,9 +4,9 @@ description: Este artigo fornece uma solução para o problema de falha na impla
 feature: Deploy
 role: Developer
 exl-id: ee2bddba-36f7-4aae-87a1-5dbeb80e654e
-source-git-commit: 7efa7b5363c7f77d76c02051c7e0e6a0f38ca87d
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Você não implantou o com sucesso. Nos logs, você vê um erro de implantação
 
 ### Causa
 
-A tabela **core_config_data** contém configurações para uma ID de armazenamento ou ID de site que não existe mais no banco de dados. Isso ocorre quando você importa um backup de banco de dados de outra instância/ambiente e as configurações desses escopos permanecem no banco de dados por meio do(s) armazenamento(s)/site(s) associado(s) que foi(ram) excluído(s).
+A tabela **`core_config_data`** contém configurações para uma ID de loja ou ID de site que não existe mais no banco de dados. Isso ocorre quando você importa um backup de banco de dados de outra instância/ambiente e as configurações desses escopos permanecem no banco de dados por meio do(s) armazenamento(s)/site(s) associado(s) que foi(ram) excluído(s).
 
 ### Solução
 
@@ -67,13 +67,13 @@ Para resolver esse problema, identifique as linhas inválidas restantes dessas c
    The store that was requested wasn't found. Verify the store and try again.
    ```
 
-1. Execute esta consulta MySql para verificar se o armazenamento não pode ser encontrado, o que é indicado pela mensagem de erro na etapa 2.
+1. Execute esta consulta [!DNL MySQL] para verificar se o armazenamento não foi encontrado, o que é indicado pela mensagem de erro na etapa 2.
 
    ```sql
    select distinct scope_id from core_config_data where scope='stores' and scope_id not in (select store_id from store);
    ```
 
-1. Execute a seguinte instrução MySql para excluir as linhas inválidas:
+1. Execute a seguinte instrução [!DNL MySQL] para excluir as linhas inválidas:
 
    ```sql
    delete from core_config_data where scope='stores' and scope_id not in (select store_id from store);
@@ -91,13 +91,13 @@ Para resolver esse problema, identifique as linhas inválidas restantes dessas c
    The website with id X that was requested wasn't found. Verify the website and try again.
    ```
 
-   Execute esta consulta MySql e verifique se o site não pode ser encontrado:
+   Execute esta consulta [!DNL MySQL] e verifique se o site não pode ser encontrado:
 
    ```sql
    select distinct scope_id from core_config_data where scope='stores' and scope_id not in (select store_id from store);
    ```
 
-1. Execute esta instrução MySql para excluir as linhas inválidas da configuração do site:
+1. Execute esta instrução [!DNL MySQL] para excluir as linhas inválidas da configuração do site:
 
    ```sql
    delete from core_config_data where scope='websites' and scope_id not in (select website_id from store_website);
@@ -107,5 +107,6 @@ Para confirmar se a solução funcionou, execute o comando `bin/magento` novamen
 
 ## Leitura relacionada
 
-* [Solução de problemas de implantação do Adobe Commerce](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-deployment-troubleshooter.html)
-* [Verificação do log de implantação se a interface do usuário da nuvem tiver um erro de &quot;log recortado&quot;](/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error.html)
+* [Solução de problemas de implantação do Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-deployment-troubleshooter)
+* [Verificando o log de implantação se a Interface de Usuário da Nuvem tem o erro &quot;log cortado&quot;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error)
+* [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce

@@ -1,18 +1,18 @@
 ---
-title: Alterar ID de incremento de uma entidade do BD (pedido, fatura, aviso de crédito etc.) em uma loja específica
-description: Este artigo discute como alterar a ID de incremento de uma entidade de banco de dados (BD) do Adobe Commerce (pedido, fatura, aviso de crédito etc.) em um armazenamento Adobe Commerce específico usando a instrução SQL "ALTER TABLE".
+title: Alterar ID de incremento de uma entidade do banco de dados (pedido, fatura, aviso de crédito etc.) em uma loja específica
+description: Este artigo discute como alterar a ID de incremento de uma entidade de banco de dados (DB) do Adobe Commerce (pedido, fatura, memorando de crédito etc.) em uma loja Adobe Commerce específica usando a instrução SQL "ALTER TABLE".
 exl-id: 3704dd97-3639-44dc-9b8b-cf09f0c04e6c
 feature: Invoices
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
 
-# Alterar ID de incremento de uma entidade do BD (pedido, fatura, aviso de crédito etc.) em uma loja específica
+# Alterar ID de incremento de uma entidade do banco de dados (pedido, fatura, aviso de crédito etc.) em uma loja específica
 
-Este artigo discute como alterar a ID de incremento de uma entidade de banco de dados (BD) do Adobe Commerce (pedido, fatura, aviso de crédito etc.) em um repositório Adobe Commerce específico usando a instrução SQL `ALTER TABLE`.
+Este artigo discute como alterar a ID de incremento de uma entidade de banco de dados (BD) do Adobe Commerce (pedido, fatura, memorando de crédito etc.) em um Adobe Commerce Store específico usando a instrução SQL `ALTER TABLE`.
 
 ## Versões afetadas
 
@@ -86,5 +86,6 @@ Antes de executar a consulta `ALTER TABLE` no ambiente de Produção do Adobe Co
 
 ## Documentação relacionada
 
-* [Criar despejo de banco de dados na Nuvem](/help/how-to/general/create-database-dump-on-cloud.md) em nossa base de dados de conhecimento de suporte.
-* [SSH para o seu ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html) na documentação do desenvolvedor.
+* [Criar despejo de banco de dados na Nuvem](/help/how-to/general/create-database-dump-on-cloud.md) em nossa base de dados de conhecimento de suporte
+* [SSH para o seu ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html) na documentação do desenvolvedor
+* [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce

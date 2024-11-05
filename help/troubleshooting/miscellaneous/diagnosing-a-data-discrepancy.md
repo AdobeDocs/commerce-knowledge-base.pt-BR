@@ -4,9 +4,9 @@ description: Este artigo fornece soluções para solucionar discrepâncias entre
 exl-id: 7d1156cb-9e9b-4426-a0ca-8890b815c245
 feature: Commerce Intelligence
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -38,3 +38,7 @@ Dependendo da complexidade da análise, gerar o relatório de MBI correspondente
 1. Da mesma forma, se as colunas usadas na análise puderem ser modificadas depois que uma linha for adicionada, confirme com o suporte que essas colunas estão sendo [verificadas em busca de modificações](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks.html), bem como a frequência da nova verificação.
 
 **Ainda está com problemas?** Não se preocupe, estamos aqui para ajudar. Enviar uma solicitação usando [estas instruções](/help/troubleshooting/miscellaneous/mbi-data-discrepancies.md).
+
+## Leitura relacionada
+
+[Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce

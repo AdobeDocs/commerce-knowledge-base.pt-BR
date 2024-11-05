@@ -4,9 +4,9 @@ description: Este artigo fornece uma solução para o problema em que você rece
 exl-id: f52b383b-87f2-4216-9bf4-e765db31ca6b
 feature: Admin Workspace
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -30,3 +30,7 @@ O URL de base não está correto. O URL de base deve:
 * Corresponder letras maiúsculas e minúsculas do registro `web/unsecure/base_url` na tabela de banco de dados `core_config_data`
 
 Execute a instalação novamente usando um valor válido.
+
+## Leitura relacionada
+
+[Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce

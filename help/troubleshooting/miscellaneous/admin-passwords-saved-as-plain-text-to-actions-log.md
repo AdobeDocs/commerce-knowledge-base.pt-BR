@@ -4,9 +4,9 @@ description: Este artigo fornece uma correção para quando um Administrador do 
 exl-id: 0e91198e-66b9-456a-9b75-5986369ed8e6
 feature: Admin Workspace, Logs
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,6 @@ Depois de instalar a Atualização de Segurança, a senha é criptografada e nã
 
 ## Mais informações {#Adminpasswordsaresavedasplaintexttoactionslog('magento_logging_event_changes'table)-Moreinformation}
 
-[Página de Atualização de Segurança do Adobe Commerce 2.0.16 e 2.1.9](https://magento.com/security/patches/magento-2016-and-219-security-update) em nossa central de segurança.
-
-[Atualize o aplicativo e os componentes do Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html) em nossa documentação do desenvolvedor.
+* [Página de Atualização de Segurança do Adobe Commerce 2.0.16 e 2.1.9](https://magento.com/security/patches/magento-2016-and-219-security-update) na nossa central de segurança
+* [Atualize o aplicativo e os componentes do Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html) em nossa documentação do desenvolvedor
+* [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce

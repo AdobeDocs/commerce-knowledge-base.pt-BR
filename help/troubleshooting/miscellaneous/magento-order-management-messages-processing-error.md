@@ -4,9 +4,9 @@ description: Este artigo fornece uma solução para o problema quando você rece
 exl-id: 83089465-f810-4a3b-bdb6-4720b44f0b49
 feature: System
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '217'
 ht-degree: 0%
 
 ---
@@ -61,10 +61,11 @@ Isso ocorre quando o Conector tenta processar `magento.inventory.source_manageme
 
 ## Solução
 
-Para resolver o problema, execute a seguinte instrução SQL na CLI, que exclui todos os registros na tabela `mcom_api_messages`:
+Para resolver o problema, execute a seguinte instrução [!DNL SQL] na CLI, que exclui todos os registros da tabela `mcom_api_messages`:
 
 `delete from mcom_api_messages;`
 
 ## Leitura relacionada
 
-Consulte o [Tutorial de Instalação do Conector OMS](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/) dos documentos do OMS.
+* Documentação do OMS [Tutorial de Instalação do Conector OMS](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/)
+* [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce

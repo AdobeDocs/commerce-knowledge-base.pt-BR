@@ -4,9 +4,9 @@ description: Este artigo fornece uma solução para o problema em que você vê 
 feature: Variables, Upgrade
 role: Developer
 exl-id: 92d1d15a-04da-4ba4-b6b8-5c491af9c4c1
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -36,5 +36,6 @@ Para acionar manualmente o trabalho [`CleanExpiredTokens.php`](https://github.co
 
 ## Leitura relacionada
 
-* [Serviços > [!DNL OAuth]](https://experienceleague.adobe.com/docs/commerce-admin/config/services/oauth.html) no guia de Referência de Configuração do Commerce.
-* [Guia de Autenticação](https://developer.adobe.com/developer-console/docs/guides/authentication/) no guia do Adobe Developer.
+* [Serviços > [!DNL OAuth]](https://experienceleague.adobe.com/docs/commerce-admin/config/services/oauth.html) no guia de Referência de Configuração do Commerce
+* [Guia de Autenticação](https://developer.adobe.com/developer-console/docs/guides/authentication/) no guia do Adobe Developer
+* [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce

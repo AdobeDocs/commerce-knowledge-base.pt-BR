@@ -4,9 +4,9 @@ description: Este artigo fornece soluções para o problema do Adobe Commerce em
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
 feature: Catalog Management, Search
 role: Developer
-source-git-commit: fe276c444c235b096ea6d61b02d8362314b5c154
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
@@ -60,13 +60,13 @@ Após configurar e conectar, pode levar mais de 30 minutos para que o índice em
 
 Se os dados do seu produto não estiverem sincronizados corretamente para uma SKU específica, faça o seguinte:
 
-1. Use a consulta SQL a seguir e verifique se você tem os dados esperados na coluna `feed_data`. Além disso, anote o carimbo de data e hora `modified_at`.
+1. Use a consulta [!DNL SQL] a seguir e verifique se você tem os dados esperados na coluna `feed_data`. Além disso, anote o carimbo de data e hora `modified_at`.
 
    ```sql
    select * from cde_products_feed where sku = '<your_sku>' and store_view_code = '<your_ store_view_code>';
    ```
 
-1. Se você não vir os dados corretos, tente reindexar usando o seguinte comando e execute novamente a consulta SQL na etapa 1 para verificar os dados:
+1. Se você não vir os dados corretos, tente reindexar usando o seguinte comando e execute novamente a consulta [!DNL SQL] na etapa 1 para verificar os dados:
 
    ```bash
    bin/magento indexer:reindex cde_products_feed
@@ -76,7 +76,7 @@ Se os dados do seu produto não estiverem sincronizados corretamente para uma SK
 
 ### Verificar carimbo de data e hora da última exportação de produto
 
-1. Se você vir os dados corretos em `cde_products_feed`, use a seguinte consulta SQL para verificar o carimbo de data e hora da última exportação. Deve ser após o carimbo de data/hora `modified_at`:
+1. Se você vir os dados corretos em `cde_products_feed`, use a seguinte consulta [!DNL SQL] para verificar o carimbo de data e hora da última exportação. Deve ser após o carimbo de data/hora `modified_at`:
 
    ```sql
    select * from scopes_website_data_exporter;
@@ -94,13 +94,13 @@ Se os dados do seu produto não estiverem sincronizados corretamente para uma SK
 
 Se os dados do atributo do produto não estiverem sincronizados corretamente para um código de atributo específico, faça o seguinte:
 
-1. Use a consulta SQL a seguir e verifique se você tem os dados esperados na coluna `feed_data`. Além disso, anote o carimbo de data e hora `modified_at`.
+1. Use a consulta [!DNL SQL] a seguir e verifique se você tem os dados esperados na coluna `feed_data`. Além disso, anote o carimbo de data e hora `modified_at`.
 
    ```sql
    select * from cde_product_attributes_feed where json_extract(feed_data, '$.attributeCode') = '<your_attribute_code>' and store_view_code = '<your_ store_view_code>';
    ```
 
-1. Se você não vir os dados corretos, use o seguinte comando para reindexar e, em seguida, execute novamente a consulta SQL na etapa 1 para verificar os dados.
+1. Se você não vir os dados corretos, use o seguinte comando para reindexar e, em seguida, execute novamente a consulta [!DNL SQL] na etapa 1 para verificar os dados.
 
    ```bash
    bin/magento indexer:reindex cde_product_attributes_feed
@@ -112,7 +112,7 @@ Se os dados do atributo do produto não estiverem sincronizados corretamente par
 
 Se você vir os dados corretos em `cde_product_attributes_feed`:
 
-1. Use a seguinte consulta SQL para verificar o carimbo de data e hora da última exportação. Deve estar após o carimbo de data/hora `modified_at`.
+1. Use a consulta [!DNL SQL] a seguir para verificar o carimbo de data/hora da última exportação. Deve estar após o carimbo de data/hora `modified_at`.
 
    ```sql
    select * from scopes_website_data_exporter;
@@ -137,5 +137,6 @@ bin/magento saas:resync --feed productattributes
 
 ## Leitura relacionada
 
-* Consulte [Live Search integrado](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html) em nossa documentação do usuário.
-* Consulte [Revisar logs e solucionar problemas de exportação e sincronização de dados SaaS do Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging) no Guia de exportação de dados SaaS do Adobe Commerce.
+* [Integrar o Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html) na documentação do usuário
+* [Revise logs e solucione problemas na exportação e sincronização de dados SaaS do Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging) no Guia de exportação de dados SaaS do Adobe Commerce
+* [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce

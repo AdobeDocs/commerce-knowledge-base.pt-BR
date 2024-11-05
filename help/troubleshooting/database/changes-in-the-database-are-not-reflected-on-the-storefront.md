@@ -1,19 +1,19 @@
 ---
 title: As alterações no banco de dados não são refletidas na loja
-description: Este artigo fornece soluções para evitar atrasos ou interrupções nas atualizações de entidade que estão sendo aplicadas. Isso inclui como evitar que tabelas de log de alterações fiquem superdimensionadas e como configurar acionadores da tabela MySQL.
+description: Este artigo fornece soluções para evitar atrasos ou interrupções nas atualizações de entidade que estão sendo aplicadas. Isso inclui como evitar que as tabelas de log de alterações fiquem superdimensionadas e como configurar  [!DNL MySQL] acionadores de tabela.
 exl-id: ac52c808-299f-4d08-902f-f87db1fa7ca6
 feature: Catalog Management, Categories, Services, Storefront
 role: Developer
-source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
 
 # As alterações no banco de dados não são refletidas na loja
 
-Este artigo fornece soluções para evitar atrasos ou interrupções nas atualizações de entidade que estão sendo aplicadas. Isso inclui como evitar que tabelas de log de alterações fiquem superdimensionadas e como configurar acionadores da tabela MySQL.
+Este artigo fornece soluções para evitar atrasos ou interrupções nas atualizações de entidade que estão sendo aplicadas. Isso inclui como evitar que tabelas de log de alterações fiquem superdimensionadas e como configurar gatilhos de tabela [!DNL MySQL].
 
 Produtos e versões afetados:
 
@@ -32,9 +32,9 @@ Se seus indexadores estiverem [configurados para atualizar de acordo com a agend
 
 As tabelas de log de alterações aumentam tanto se o trabalho `indexer_update_all_views` não for concluído com êxito várias vezes.
 
-As tabelas de log de alterações são as tabelas de banco de dados nas quais as alterações nas entidades são rastreadas. Um registro é armazenado em uma tabela de log de alterações desde que a alteração não seja aplicada, o que é executado pelo trabalho cron `indexer_update_all_views`. Há várias tabelas de log de alterações em um banco de dados Adobe Commerce, elas são nomeadas de acordo com o seguinte padrão: INDEXER\_TABLE\_NAME + ‘\_cl’, por exemplo `catalog_category_product_cl`, `catalog_product_category_cl`. Você pode encontrar mais detalhes sobre como as alterações são rastreadas no banco de dados no artigo [Visão geral da indexação > Mview](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview) na documentação do desenvolvedor.
+As tabelas de log de alterações são as tabelas de banco de dados nas quais as alterações nas entidades são rastreadas. Um registro é armazenado em uma tabela de log de alterações desde que a alteração não seja aplicada, o que é executado pelo trabalho cron `indexer_update_all_views`. Há várias tabelas de log de alterações em um banco de dados Adobe Commerce, elas são nomeadas de acordo com o seguinte padrão: INDEXER\_TABLE\_NAME + &#39;\_cl&#39;, por exemplo `catalog_category_product_cl`, `catalog_product_category_cl`. Você pode encontrar mais detalhes sobre como as alterações são rastreadas no banco de dados no artigo [Visão geral da indexação > Mview](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview) na documentação do desenvolvedor.
 
-### Acionadores do banco de dados MySQL não configurados
+### [!DNL MySQL] gatilhos de banco de dados não configurados
 
 Você suspeitaria que os acionadores do banco de dados não estivessem sendo configurados se, após adicionar ou alterar uma entidade (produto, categoria, regra de destino e assim por diante), nenhum registro fosse adicionado à tabela de log de alteração correspondente.
 
@@ -60,9 +60,9 @@ Ou você pode verificar seu status nos logs procurando pelas entradas `indexer_u
 * `<install_directory>/var/log/cron.log` - para as versões 2.3.1+ e 2.2.8+
 * `<install_directory>/var/log/system.log` - para versões anteriores
 
-### Redefinir acionadores da tabela MySQL
+### Redefinir [!DNL MySQL] acionadores de tabela
 
-Para configurar os acionadores ausentes da tabela do MySQL, é necessário redefinir o modo indexador:
+Para configurar os gatilhos de tabela [!DNL MySQL] ausentes, é necessário redefinir o modo do indexador:
 
 1. Alterne para &#39;Ao salvar&#39;.
 1. Volte para &#39;Em programação&#39;.
@@ -83,5 +83,6 @@ php bin/magento indexer:set-mode {realtime|schedule} [indexerName]
 
 ## Leitura relacionada
 
-<ul><li title="As tabelas MySQL são muito grandes"><a href="/help/troubleshooting/database/mysql-tables-are-too-large.md">As tabelas do MySQL são muito grandes</a> em nossa base de dados de conhecimento de suporte.</li>
-<li title="As tabelas MySQL são muito grandes"><a href="https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview">Visão geral do Indexador &gt; Mview</a> na documentação do desenvolvedor.</li></ul>
+* [[!DNL MySQL] as tabelas são muito grandes](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/database/mysql-tables-are-too-large) em nossa base de dados de conhecimento de suporte
+* [Indexando: [!DNL Mview]](https://developer.adobe.com/commerce/php/development/components/indexing/#mview) em nossa documentação do desenvolvedor
+* [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce

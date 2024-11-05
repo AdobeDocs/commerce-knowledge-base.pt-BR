@@ -4,9 +4,9 @@ description: Este artigo fornece uma correção para, ao atualizar categorias de
 exl-id: d951205c-add9-478c-9c7d-2ba975d53b14
 feature: Categories
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -88,4 +88,8 @@ Siga estas etapas:
 1. Localize os registros de categoria com o mesmo `entity_id` e o mesmo valor `created_in`.
 1. Selecione o registro em que `row_id` = `entity_id` e copie o valor `updated_in`.
 1. Selecione o registro em que `row_id` não é igual a `entity_id` e cole o valor `updated_in` copiado como o valor `created_in`. Consulte a captura de tela abaixo como uma ilustração.    ![Copiando created_in value.png](assets/copy_created-in_value.png)
-1. Verifique se o registro de atualização de categoria, cujo valor `created_in` você atualizou (na etapa 3), existe na tabela `staging_update`. *Por exemplo:* SE o valor `created_in` copiado for 1509281953, a entidade com `row_id` = 1509281953 deverá existir na tabela `staging_update`
+1. Verifique se o registro de atualização de categoria, cujo valor `created_in` você atualizou (na etapa 3), existe na tabela `staging_update`. *Por exemplo:* SE o valor `created_in` copiado for 1509281953, a entidade com `row_id` = 1509281953 deverá existir na tabela `staging_update`.
+
+## Leitura relacionada
+
+[Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce

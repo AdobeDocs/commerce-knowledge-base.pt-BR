@@ -4,9 +4,9 @@ description: Este artigo fornece uma solução para erros de conexão de banco d
 exl-id: e8932b72-91a3-43ea-800e-a6c7a5a17656
 feature: Best Practices, Observability, Services
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Este artigo fornece uma solução para erros de conexão de banco de dados no `v
 
 ## Problema
 
-Quando um cliente MySQL ou o servidor [mysqld](https://dev.mysql.com/doc/refman/8.0/en/mysqld.html) recebe um pacote maior que [max\_allowed\_packet](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_max_allowed_packet) bytes, ele emite um erro [ER\_NET\_PACKET\_TOO\_LARGE](https://dev.mysql.com/doc/mysql-errors/8.0/en/server-error-reference.html#error_er_net_packet_too_large) (que pode ser visto no `exception.log`) e fecha a conexão. Com alguns clientes, você também pode obter uma conexão *Perdida com o MySQL server durante o erro query* se o pacote de comunicação for muito grande.
+Quando um cliente [!DNL MySQL] ou o servidor [mysqld](https://dev.mysql.com/doc/refman/8.0/en/mysqld.html) recebe um pacote com mais de [max\_allowed\_packet](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_max_allowed_packet) bytes, ele emite um erro [ER\_NET\_PACKET\_TOO\_LARGE](https://dev.mysql.com/doc/mysql-errors/8.0/en/server-error-reference.html#error_er_net_packet_too_large) (que pode ser visto no `exception.log`) e fecha a conexão. Com alguns clientes, você também pode obter uma conexão *Perdida com o servidor [!DNL MySQL] durante o erro de consulta* se o pacote de comunicação for muito grande.
 
 <u>Etapas a serem reproduzidas</u>
 
@@ -29,7 +29,7 @@ Várias tarefas podem produzir esse problema. Isso pode incluir tentar importar 
 
 ## Causa
 
-O valor padrão de 16MB para a configuração `max_allowed_packets` do MySQL não é grande o suficiente para suas necessidades.
+O valor padrão de 16 MB para a configuração [!DNL MySQL] `max_allowed_packets` não é grande o suficiente para suas necessidades.
 
 ## Solução
 
@@ -45,7 +45,8 @@ O valor padrão de 16MB para a configuração `max_allowed_packets` do MySQL nã
 
 ## Leitura relacionada
 
-* [Guia de Instalação > MySQL](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/mysql.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=max%20allowed%2016%20MB) em nossa documentação de desenvolvedor.
-* [O carregamento do banco de dados perde a conexão com o MySQL](/help/troubleshooting/database/database-upload-loses-connection-to-mysql.md) em nossa knowledge base de suporte.
+* [Visão geral da instalação local](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/overview) em nossa documentação do desenvolvedor.
+* O carregamento do banco de dados [perde a conexão com [!DNL MySQL]](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/database/database-upload-loses-connection-to-mysql) em nossa knowledge base de suporte.
 * [Práticas recomendadas do banco de dados para Adobe Commerce na infraestrutura em nuvem](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html) em nossa base de dados de conhecimento de suporte.
 * [Práticas recomendadas para resolver problemas de desempenho do banco de dados](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html) em nossa base de dados de conhecimento de suporte.
+* [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce
