@@ -1,19 +1,19 @@
 ---
-title: Campos bloqueados no administrador do Commerce
+title: Campos bloqueados (esmaecidos) no Commerce Admin
 description: Este artigo fornece uma solução para quando não é possível modificar campos no Administrador do Commerce.
 exl-id: 5fe0967a-4241-440b-bb0d-429fa5644bbc
 feature: Admin Workspace
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: bc800397a3c0c3a86eb717db60e445e13b299688
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
 
-# Campos bloqueados no administrador do Commerce
+# Campos bloqueados (esmaecidos) no Commerce Admin
 
-Este artigo fornece uma solução para quando não é possível modificar campos no Administrador do Commerce.
+Este artigo fornece uma solução para quando não for possível modificar campos bloqueados (esmaecidos) no Administrador do Commerce.
 
 ## Produtos e versões afetados
 

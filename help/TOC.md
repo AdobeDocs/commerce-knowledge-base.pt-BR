@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 2212ec66c04445db791c5bd852d7498161de410d
+source-git-commit: 5110233220a6db734be2802b792869759f46b8c0
 workflow-type: tm+mt
-source-wordcount: '9625'
+source-wordcount: '9627'
 ht-degree: 0%
 
 ---
@@ -841,7 +841,7 @@ ht-degree: 0%
       * [o robots.txt fornece o erro 404 Adobe Commerce na infraestrutura em nuvem 2.3.x](/help/troubleshooting/miscellaneous/robots-txt-gives-404-error-magento-commerce-cloud-2-3-x.md)
       * [Acesso de administrador restrito que causa problemas de desempenho](/help/troubleshooting/miscellaneous/restricted-admin-access-causing-performance-issues.md)
       * [Cron tarefas bloqueiam tarefas de outros grupos](/help/troubleshooting/miscellaneous/cron-tasks-lock-tasks-from-other-groups.md)
-      * [Campos bloqueados no administrador do Commerce](/help/troubleshooting/miscellaneous/locked-fields-in-magento-admin.md)
+      * [Campos bloqueados (esmaecidos) no Commerce Admin](/help/troubleshooting/miscellaneous/locked-fields-in-magento-admin.md)
       * [Não é possível alterar o Mecanismo de pesquisa usando o Administrador do Commerce (o menu Mecanismo de pesquisa está inacessível)](/help/troubleshooting/miscellaneous/cannot-change-search-engine-using-magento-admin-search-engine-menu-is-inaccessible.md)
       * [Erro de nível máximo de aninhamento de função xdebug de instalação](/help/troubleshooting/miscellaneous/installation-xdebug-maximum-function-nesting-level-error.md)
       * [Não é possível salvar o back-end do Adobe Commerce da entidade](/help/troubleshooting/miscellaneous/unable-to-save-entity-backend.md)

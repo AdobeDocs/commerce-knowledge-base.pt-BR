@@ -2,9 +2,9 @@
 title: Não é possível alterar o mecanismo de pesquisa em "app/etc/env.php"
 description: Este artigo fornece uma solução para o problema em que você tenta alterar o mecanismo de pesquisa no Administrador do Commerce, mas os campos estão bloqueados.
 exl-id: 61006ce7-34f9-4e4d-a197-f3d627dd277f
-source-git-commit: c903360ffb22f9cd4648f6fdb4a812cb61cd90c5
+source-git-commit: bc800397a3c0c3a86eb717db60e445e13b299688
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,4 @@ A configuração do mecanismo de pesquisa está bloqueada no arquivo `app/etc/en
 
 ## Leitura relacionada
 
-* [Campos bloqueados no Commerce Admin](/help/troubleshooting/miscellaneous/locked-fields-in-magento-admin.md) no Guia de Infraestrutura do Commerce na Nuvem.
+* [Campos bloqueados (esmaecidos) no Commerce Admin](/help/troubleshooting/miscellaneous/locked-fields-in-magento-admin.md) no Guia de Infraestrutura do Commerce na Nuvem.
