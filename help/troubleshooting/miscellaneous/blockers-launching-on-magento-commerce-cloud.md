@@ -4,9 +4,9 @@ description: Este artigo fornece uma correção para bloqueadores a serem inicia
 exl-id: 3b2c331f-5d90-4051-ada1-4934538fce79
 feature: Cache, Cloud, Marketing Tools, Observability, Paas
 role: Developer
-source-git-commit: 3dd44b72bc9f02fe808b70355c4331fc28aa3606
+source-git-commit: d728d44c4e1be3172ebf595122f3cc215207ac17
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,6 @@ Problema: Sem um certificado SSL válido e em funcionamento, não é possível t
 
 Recomendação **:** Solicite seu certificado SSL compartilhado para nomes de domínio de preparo ou ativos.
 
-Leia sobre os certificados SSL neste artigo de [Perguntas frequentes rápidas](/help/announcements/adobe-commerce-announcements/magento-ssl-tls-certificate-requirements-and-clean-up.md) em nossa base de dados de conhecimento de suporte.
 
 ## 3. Configurar e testar redirecionamentos 301
 
