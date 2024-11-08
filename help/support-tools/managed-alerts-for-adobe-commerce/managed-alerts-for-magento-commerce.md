@@ -4,7 +4,7 @@ description: Se você for cliente da arquitetura de plano Pro da infraestrutura 
 exl-id: 4d08eaad-a3ce-4f6c-9c32-58e44e1d6534
 feature: Observability, Support, Tools and External Services
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 0%
@@ -14,24 +14,24 @@ ht-degree: 0%
 # Alertas gerenciados para o Adobe Commerce
 
 
-Configuramos os principais painéis e alertas para ajudá-lo a entender quando seu site está atingindo níveis críticos de armazenamento e Apdex (satisfação dos usuários com o tempo de resposta dos aplicativos e serviços). Isso pode ajudá-lo a tomar medidas antes que você perceba tempos de resposta lentos ou uma interrupção. Você poderá solucionar problemas de alertas com os artigos listados abaixo. Antes de usar os alertas, primeiro configure os canais de notificação. Consulte [Configurar canais de notificação do New Relic](https://devdocs.magento.com/cloud/project/new-relic.html#configure-notification-channels) na documentação do desenvolvedor.
+Configuramos os principais painéis e alertas para ajudá-lo a entender quando seu site está atingindo níveis críticos de armazenamento e Apdex (satisfação dos usuários com o tempo de resposta dos aplicativos e serviços). Isso pode ajudá-lo a tomar medidas antes que você perceba tempos de resposta lentos ou uma interrupção. Você poderá solucionar problemas de alertas com os artigos listados abaixo. Antes de usar os alertas, primeiro configure os canais de notificação. Consulte [Configurar canais de notificação do New Relic](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) na documentação do desenvolvedor.
 
 >[!NOTE]
 >
 >Se os alertas gerenciados para a política de alertas da Adobe Commerce não estiverem disponíveis, talvez essa conta tenha sido recém-criada ou o New Relic tenha sido configurado recentemente. Um processo é executado todas as terças-feiras para adicionar a política de alerta a essas contas. A política de alerta deve estar disponível para você no dia seguinte à execução do próximo processo. Se a política ainda estiver ausente, [envie uma solicitação de suporte do Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket-Submit-a-support-ticket) e inclua a ID do projeto.
 
-Veja abaixo os links para os artigos da KB que fornecem etapas de solução de problemas para estes alertas:
+Consulte a tabela abaixo para obter os links para os artigos da Base de Dados de Conhecimento que fornecem as etapas de solução de problemas para esses alertas:
 
 * Alertas gerenciados para Adobe Systems Comércio: aviso da CPU alerta
-* Alertas gerenciados para Adobe Systems Comércio: crítico alerta da CPU
-* Alertas gerenciados para Adobe Systems Comércio: aviso de memória alerta
-* Alertas gerenciados para Adobe Systems Comércio: memória crítico alerta
-* Alertas gerenciados para Adobe Systems Comércio: alertas de apdex alerta
-* Alertas gerenciados para Adobe Commerce: alerta crítico Apdex
+* Alertas gerenciados para Comércio de Adobe Systems: crítico da CPU alerta
+* Alertas gerenciados para Comércio de Adobe Systems: aviso de memória alerta
+* Alertas gerenciados para Comércio de Adobe Systems: memória crítico alerta
+* Alertas gerenciados para Comércio de Adobe Systems: alerta apdex alerta
+* Alertas gerenciados para Comércio de Adobe Systems: crítico do Apdex alerta
 * Alertas gerenciados para Adobe Commerce: alerta de aviso de disco
 * Alertas gerenciados para Adobe Commerce: alerta crítico de disco
-* Alertas gerenciados em Adobe Systems Comércio: alertas MariaDB
-* Alertas gerenciados em Adobe Systems Comércio: aviso de memória Redis alerta
+* Alertas gerenciados no Adobe Commerce: alertas do MariaDB
+* Alertas gerenciados no Adobe Commerce: alerta de aviso de memória Redis
 * Alertas gerenciados no Adobe Commerce: alerta crítico de memória Redis
 
 >[!NOTE]
@@ -63,7 +63,7 @@ Veja abaixo os links para os artigos da KB que fornecem etapas de solução de p
 <p><strong>Memória Redis</strong></p>
 </td>
 <td class="wysiwyg-text-align-center large-col" style="width: 24.5638%; height: 44px;">
-<p><strong>Solução de problemas do artigo</strong></p>
+<p><strong>Solução de problemas do AEM</strong></p>
 </td>
 </tr>
 <tr style="height: 66px;">
@@ -91,7 +91,7 @@ Veja abaixo os links para os artigos da KB que fornecem etapas de solução de p
 <p> </p>
 </td>
 <td style="width: 24.5638%; height: 66px;">
-<p><a href="/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-cpu-critical-alert.md">Alertas gerenciados para Adobe Commerce: alerta crítico de CPU</a></p>
+<p><a href="/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-cpu-critical-alert.md">Alertas gerenciados para Comércio de Adobe Systems: crítico da CPU alerta</a></p>
 </td>
 </tr>
 <tr style="height: 66px;">
@@ -105,7 +105,7 @@ Veja abaixo os links para os artigos da KB que fornecem etapas de solução de p
 <p> </p>
 </td>
 <td style="width: 24.5638%; height: 66px;">
-<p><a href="/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-memory-warning-alert.md">Alertas gerenciados para Adobe Systems Comércio: aviso de memória alerta</a></p>
+<p><a href="/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-memory-warning-alert.md">Alertas gerenciados para Comércio de Adobe Systems: aviso de memória alerta</a></p>
 </td>
 </tr>
 <tr style="height: 66px;">
@@ -122,7 +122,7 @@ Veja abaixo os links para os artigos da KB que fornecem etapas de solução de p
 <p> </p>
 </td>
 <td style="width: 24.5638%; height: 66px;">
-<p><a href="/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-memory-critical-alert.md#_critical_memory">Alertas gerenciados para Adobe Commerce: alerta crítico de memória</a></p>
+<p><a href="/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-memory-critical-alert.md#_critical_memory">Alertas gerenciados para Comércio de Adobe Systems: memória crítico alerta</a></p>
 </td>
 </tr>
 <tr style="height: 66px;">
@@ -136,7 +136,7 @@ Veja abaixo os links para os artigos da KB que fornecem etapas de solução de p
 <p> </p>
 </td>
 <td style="width: 24.5638%; height: 66px;">
-<p><a href="/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-warning-alert.md">Alertas gerenciados para Adobe Commerce: alerta de aviso Apdex</a></p>
+<p><a href="/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-warning-alert.md">Alertas gerenciados para Comércio de Adobe Systems: alerta apdex alerta</a></p>
 </td>
 </tr>
 <tr style="height: 66px;">
@@ -150,7 +150,7 @@ Veja abaixo os links para os artigos da KB que fornecem etapas de solução de p
 <p> </p>
 </td>
 <td style="width: 24.5638%; height: 66px;">
-<p><a href="/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-critical-alert.md">Alertas gerenciados para Adobe Systems Comércio: crítico alerta do Apdex</a></p>
+<p><a href="/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-critical-alert.md">Alertas gerenciados para Comércio de Adobe Systems: crítico do Apdex alerta</a></p>
 </td>
 </tr>
 <tr style="height: 66px;">
@@ -178,11 +178,11 @@ Veja abaixo os links para os artigos da KB que fornecem etapas de solução de p
 <p> </p>
 </td>
 <td style="width: 24.5638%; height: 66px;">
-<p><a href="/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-critical-alert.md" title="/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-crítico-alerta.md">Alertas gerenciados para Adobe Commerce: alerta crítico de disco</a></p>
+<p><a href="/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-critical-alert.md" title="/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-critical-alert.md">Alertas gerenciados para Adobe Commerce: alerta crítico de disco</a></p>
 </td>
 </tr>
 <tr style="height: 44px;">
-<td style="width: 17.8571%; height: 44px;">Aviso &gt; Crítico</td>
+<td style="width: 17.8571%; height: 44px;">Aviso e Crítico</td>
 <td style="width: 6.14286%; height: 44px;"> </td>
 <td style="width: 10.5714%; height: 44px;"> </td>
 <td style="width: 7.14286%; height: 44px;"> </td>
