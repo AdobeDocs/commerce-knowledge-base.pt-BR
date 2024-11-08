@@ -3,7 +3,7 @@ title: Redefinir o ambiente no Adobe Commerce na infraestrutura em nuvem
 description: Este artigo mostra diferentes cenários de reversão de um ambiente no Adobe Commerce na infraestrutura em nuvem.
 exl-id: e6b27838-ca1e-415f-a098-2aa2576e3f20
 feature: Best Practices, Build, Cloud, Console
-source-git-commit: 598459365cad811966ed529356cb9ab876f49a38
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '1093'
 ht-degree: 0%
@@ -55,13 +55,13 @@ Quando você compara isso com a importação de um [!UICONTROL Database Dump] lo
 
 ## Cenário 2: restaurar um instantâneo
 
-Leia: [Restaurar um instantâneo do Adobe Commerce na infraestrutura de nuvem](https://devdocs.magento.com/cloud/project/project-webint-snap.html#restore-snapshot) na documentação do desenvolvedor.
+Leia: [Restaurar um instantâneo do Adobe Commerce na infraestrutura de nuvem](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-snapshot) na documentação do desenvolvedor.
 
 >[!NOTE]
 >
 >Criar um instantâneo deve ser o primeiro passo após acessar a conta do Adobe Commerce na infraestrutura em nuvem e antes de aplicar grandes alterações. É uma prática recomendada e altamente recomendada.
 
-Leia: [Crie um instantâneo](https://devdocs.magento.com/cloud/project/project-webint-snap.html#create-snapshot) em nossa documentação de desenvolvedor.
+Leia: [Crie um instantâneo](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#create-snapshot) em nossa documentação de desenvolvedor.
 
 ## Cenário 3: nenhum instantâneo, build estável (conexão SSH disponível)
 

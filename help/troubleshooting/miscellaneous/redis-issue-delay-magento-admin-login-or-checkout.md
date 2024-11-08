@@ -4,7 +4,7 @@ description: Este artigo fornece uma correção para o problema que ocorria ao f
 exl-id: a91a7a51-7cc4-4910-a9de-3a212788663f
 feature: Admin Workspace, Checkout, Orders, Services
 role: Developer
-source-git-commit: aa8c32e3524d669daea7bcf8bc63ed9f8ed16ffa
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
@@ -80,6 +80,6 @@ Depois de aplicar o patch com a correção, a solução alternativa não é mais
 
 ## Adobe Commerce na infraestrutura em nuvem 2.2.0: usar ECE-Tools v2002.0.8 ou posterior {#h_64593789291526919876198}
 
-O pacote de script de implantação [ECE-Tools](https://devdocs.magento.com/cloud/project/ece-tools-update.html) com versões 2002.0.3 - 2002.0.7 [aplica](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html) a solução alternativa automaticamente, definindo `disable_locking` como `1`. Isso desativa o mecanismo de bloqueio de sessão do Adobe Commerce 2.2.0, no qual o problema original não ocorre.
+O pacote de script de implantação [ECE-Tools](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package) com versões 2002.0.3 - 2002.0.7 [aplica](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html) a solução alternativa automaticamente, definindo `disable_locking` como `1`. Isso desativa o mecanismo de bloqueio de sessão do Adobe Commerce 2.2.0, no qual o problema original não ocorre.
 
 Se estiver executando o Adobe Commerce na infraestrutura em nuvem 2.2.0, atualize o ECE-Tools para v2002.0.8 ou posterior. Você também pode considerar atualizar sua Adobe Commerce na infraestrutura em nuvem para a versão 2.2.2 ou posterior.

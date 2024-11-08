@@ -4,7 +4,7 @@ description: Este artigo fornece uma solução para o problema em que a opção 
 exl-id: e96a446b-2e64-47a6-ac1b-e73183da9fb8
 feature: Page Builder, Configuration, Personalization, Products, Recommendations
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%
@@ -37,5 +37,5 @@ Ao habilitar o Recommendations do produto no Page Builder, você poderá [adicio
 ## Leitura relacionada
 
 * [Adicionar conteúdo - Recommendations do produto](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html) em nosso guia do usuário.
-* [Instale e configure o Recommendations do produto](https://devdocs.magento.com/recommendations/install-configure.html) na documentação do desenvolvedor.
-* [Guia do Usuário do Adobe Commerce](https://docs.magento.com/user-guide/)
+* [Instale e configure o Recommendations do produto](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure) na documentação do desenvolvedor.
+* [Guia do Usuário do Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)

@@ -4,7 +4,7 @@ description: Este artigo fornece uma solução para quando ocorrer um erro 404 n
 exl-id: 1b89da58-c872-481b-b2a0-aa48db8223db
 feature: Admin Workspace, Cloud, Paas
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
@@ -43,9 +43,9 @@ O Assistente de Configuração da Web foi desabilitado para todas as instâncias
 
 Esse recurso está desabilitado no Adobe Commerce na infraestrutura em nuvem.
 
-Consulte [Instalar, gerenciar e atualizar extensões](https://devdocs.magento.com/cloud/howtos/install-components.html) em nossa documentação do desenvolvedor para obter informações sobre como executar atualizações ou instalar módulos externos para o Adobe Commerce em nossa infraestrutura em nuvem.
-Consulte [Instalação de início rápido](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html) em nossa documentação do desenvolvedor para obter informações sobre como executar atualizações ou instalar módulos externos para o Adobe Commerce no local.
+Consulte [Instalar, gerenciar e atualizar extensões](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions) em nossa documentação do desenvolvedor para obter informações sobre como executar atualizações ou instalar módulos externos para o Adobe Commerce em nossa infraestrutura em nuvem.
+Consulte [Instalação de início rápido](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer) em nossa documentação do desenvolvedor para obter informações sobre como executar atualizações ou instalar módulos externos para o Adobe Commerce no local.
 
 ## Leitura relacionada
 
-* Consulte [Instalar uma extensão](https://devdocs.magento.com/cloud/howtos/install-components.html#install-an-extension) na documentação do desenvolvedor.
+* Consulte [Instalar uma extensão](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions#install-an-extension) na documentação do desenvolvedor.

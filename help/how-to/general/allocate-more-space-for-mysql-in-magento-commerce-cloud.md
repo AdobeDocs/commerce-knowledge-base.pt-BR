@@ -3,7 +3,7 @@ title: Alocar mais espaço para o MySQL no Adobe Commerce na nuvem
 description: Este artigo fornece instruções sobre como alocar mais espaço para o MySQL no Adobe Commerce na infraestrutura em nuvem.
 exl-id: 98501aa0-5ec7-4ea1-8856-13d171ad0be9
 feature: Cloud
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 0%
@@ -23,7 +23,7 @@ mysql:
     disk: 2048
 ```
 
-Consulte o artigo [Configurar serviço MySQL](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_services-mysql.html) para referência.
+Consulte o artigo [Configurar serviço MySQL](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/mysql) para referência.
 
 Depois de alterar o arquivo `.magento/services.yaml`, você precisa confirmar e enviar suas alterações para que elas sejam aplicadas. O push acionará o processo de implantação.
 

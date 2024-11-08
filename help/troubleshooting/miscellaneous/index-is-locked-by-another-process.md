@@ -4,7 +4,7 @@ description: Este artigo fala sobre um problema comum de indexação no Adobe Co
 exl-id: 542c714c-fad5-4f0e-9757-d90044c36bfc
 feature: Catalog Management, Categories
 role: Developer
-source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
@@ -77,12 +77,12 @@ Em nossa base de conhecimento de suporte:
 
 Em nosso guia do usuário:
 
-* [Gerenciamento de Índice](https://docs.magento.com/user-guide/system/index-management.html?itm_source=merchdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=reindexing)
+* [Gerenciamento de Índice](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management?itm_source=merchdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=reindexing)
 
 Em nossa documentação do desenvolvedor:
 
-* [Visão geral da indexação](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html)
-* [Práticas recomendadas para indexadores](https://devdocs.magento.com/guides/v2.3/performance-best-practices/configuration.html#indexers)
-* [Configurar E Executar O Cron](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-cron.html)
-* [Gerenciar Os Indexadores](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html)
-* [Otimização do Indexador](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexer-batch.html)
+* [Visão geral da indexação](https://developer.adobe.com/commerce/php/development/components/indexing/)
+* [Práticas recomendadas para indexadores](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/configuration)
+* [Configurar E Executar O Cron](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)
+* [Gerenciar Os Indexadores](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers)
+* [Otimização do Indexador](https://developer.adobe.com/commerce/php/development/components/indexing/optimization/)

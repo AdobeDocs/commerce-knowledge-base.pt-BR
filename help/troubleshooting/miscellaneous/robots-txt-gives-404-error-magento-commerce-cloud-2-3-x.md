@@ -4,7 +4,7 @@ description: Este artigo fornece uma correção para quando o arquivo "robots.tx
 exl-id: 6f0b9f47-1901-4c43-88d8-fd992015d70f
 feature: Cloud, Marketing Tools, Paas
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -38,5 +38,5 @@ Se o autoatendimento estiver habilitado, atualize as ECE-Tools para pelo menos 2
 ## Leitura relacionada
 
 * [Como bloquear tráfego mal-intencionado para Magento Commerce Cloud no nível Fastly](/help/how-to/general/block-malicious-traffic-for-magento-commerce-on-fastly-level.md) em nossa base de dados de suporte.
-* [Adicionar o mapa do site e os robôs do mecanismo de pesquisa](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html) à documentação do desenvolvedor.
+* [Adicionar o mapa do site e os robôs do mecanismo de pesquisa](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap) à documentação do desenvolvedor.
 * [Robôs do Mecanismo de Pesquisa](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/seo-overview.html#search-engine-robots) em nosso guia do usuário.

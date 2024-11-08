@@ -2,7 +2,7 @@
 title: O serviço Elasticsearch não está em execução
 description: Este artigo fornece soluções para erros que podem ocorrer quando o serviço Elasticsearch (ES) não está em execução (geralmente devido a uma falha). Os sintomas podem incluir erros ao executar verificações de integridade usando curl, reindexação usando a linha de comando, erros de Exceção e PHP e erros nas páginas do produto. A tabela lista erros e links para recursos para tentar resolvê-los. Um sintoma pode ter várias causas diferentes.
 exl-id: 2c2230de-cb30-4a03-8c3e-d9f44783dbae
-source-git-commit: 3ff881f1c799201ed25ba9737864b1226d283c22
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Este artigo fornece soluções para erros que podem ocorrer quando o serviço El
 
    * A v2.2.3+ é compatível com ES 5.x
    * As versões 2.2.8+ e v2.3.1+ são compatíveis com ES 6.x
-   * As versões 2.x e 5.x do ES não são recomendadas devido ao [Fim da vida útil](https://www.elastic.co/support/eol). No entanto, se você tiver o Adobe Commerce v2.3.1 e quiser usar o ES 2.x ou o ES 5.x, você deve [Alterar o Elasticsearch php Client](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-downgrade.html).
+   * As versões 2.x e 5.x do ES não são recomendadas devido ao [Fim da vida útil](https://www.elastic.co/support/eol). No entanto, se você tiver o Adobe Commerce v2.3.1 e quiser usar o ES 2.x ou o ES 5.x, você deve [Alterar o Elasticsearch php Client](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search).
 
 * O Magento Open Source v2.3.0+ é compatível com ES 5.x e 6.x (mas recomenda-se o 6.x).
 
@@ -59,8 +59,8 @@ O <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/tr
 <li><a href="https://www.cyberciti.biz/datacenter/linux-unix-bsd-osx-cannot-write-to-hard-disk/">8 dicas para solucionar problemas de disco rígido nos sistemas Linux e Unix, como disco cheio ou não pode gravar no disco</a></li>
 <li><a href="https://serverfault.com/questions/315181/df-says-disk-is-full-but-it-is-not">serverfault: df diz que o disco está cheio, mas não está</a></li>
 <li><a href="https://unix.stackexchange.com/questions/125429/tracking-down-where-disk-space-has-gone-on-linux">unix.stackexchange.com: rastreando para onde o espaço em disco foi no Linux?</a></li>
-<li>Os arquivos de log não são arquivados regularmente. Consulte <a href="https://docs.magento.com/m2/ee/user_guide/system/action-log-archive.html#configure-the-log-archive">Configurar o Arquivo de Log</a> na documentação do desenvolvedor.</li>
-<li>Os diretórios do sistema de arquivos não estão otimizados. Consulte <a href="https://docs.magento.com/m2/ee/user_guide/system/file-optimization.html">Otimização de arquivos</a> na documentação do desenvolvedor.</li>
+<li>Os arquivos de log não são arquivados regularmente. Consulte <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/action-logs/action-log-archive">Configurar o Arquivo de Log</a> na documentação do desenvolvedor.</li>
+<li>Os diretórios do sistema de arquivos não estão otimizados. Consulte <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/developer-tools#resource-file-optimization">Otimização de arquivos</a> na documentação do desenvolvedor.</li>
 <li>Se as soluções na documentação acima não resolverem o problema, entre em contato com a equipe de conta da Adobe para solicitar armazenamento adicional.</li>
 </ul>
 </li>

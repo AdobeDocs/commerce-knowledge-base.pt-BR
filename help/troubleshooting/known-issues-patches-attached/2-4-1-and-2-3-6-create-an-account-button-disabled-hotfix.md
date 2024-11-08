@@ -4,7 +4,7 @@ description: Este artigo fornece uma correção para o problema quando você lut
 exl-id: e6e65ede-8156-4e2b-b369-b18395bb3dbf
 feature: Customer Service
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 0%
@@ -57,4 +57,4 @@ Consulte [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to
 ## Leitura relacionada
 
 * [GitHub Adobe Commerce > O envio de um formulário de criação de conta inválido deixa o botão de envio desativado](https://github.com/magento/magento2/issues/30513)
-* [Guia do Usuário do Adobe Commerce > Introdução > Criando uma Conta](https://docs.magento.com/user-guide/magento/magento-account-create.html)
+* [Guia do Usuário do Adobe Commerce > Introdução > Criando uma Conta](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create)

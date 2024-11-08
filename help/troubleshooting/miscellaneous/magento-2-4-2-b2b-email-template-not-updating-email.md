@@ -4,7 +4,7 @@ description: Este artigo descreve um problema B2B conhecido do Adobe Commerce 2.
 exl-id: 31b7086f-a941-4682-aa07-301ac31d543b
 feature: B2B, Communications
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -45,4 +45,4 @@ Execute manualmente o job cron ou o consumidor para propagar as novas informaç�
 
 ## Leitura relacionada
 
-* [Gerenciar filas de mensagens](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html) na documentação do desenvolvedor.
+* [Gerenciar filas de mensagens](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues) na documentação do desenvolvedor.

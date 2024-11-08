@@ -4,7 +4,7 @@ description: Este artigo fornece a solução para o problema de imagens em cache
 exl-id: 3e6bd5aa-bd5d-4880-8b78-64f280647abe
 feature: Cache, Upgrade
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
@@ -45,6 +45,6 @@ O problema é causado pelo conjunto incorreto de configuração Nginx em `.magen
    * Integração: corrija o arquivo por conta própria e envie as alterações.
    * Preparo e produção: corrija o arquivo você mesmo, envie as alterações por push e crie um [tíquete de suporte do Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) para aplicá-lo.
 
-1. Habilite a otimização de imagem do Fastly no Administrador do Commerce (O Fastly deve ser configurado previamente), conforme descrito em <https://devdocs.magento.com/guides/v2.3/cloud/cdn/fastly-image-optimization.html>.
+1. Habilite a otimização de imagem do Fastly no Administrador do Commerce (O Fastly deve ser configurado previamente), conforme descrito em <https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization>.
 
 Se a configuração estiver correta, mas o problema persistir, continue a investigação ou contate o [Suporte da Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).

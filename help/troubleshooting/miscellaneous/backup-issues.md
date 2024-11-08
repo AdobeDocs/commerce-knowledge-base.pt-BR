@@ -4,7 +4,7 @@ description: Este artigo lista as possíveis soluções para os problemas de cri
 exl-id: 1a6204ad-bd5a-46dc-8a8e-39655a174e09
 feature: Storage, Data Import/Export
 role: Developer
-source-git-commit: 35d4f2130d0ec71f71f5f20aa8a7c76207e7a35a
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Digite o seguinte comando da CLI:
 bin/magento config:set system/backup/functionality_enabled 1
 ```
 
-Para obter informações adicionais sobre backups, consulte [Fazer backup e reverter o sistema de arquivos, a mídia e o banco de dados.](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-backup.html)
+Para obter informações adicionais sobre backups, consulte [Fazer backup e reverter o sistema de arquivos, a mídia e o banco de dados.](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/backup)
 
 ## Espaço em disco insuficiente {#insufficient-disk-space-trouble-backup-space-}
 
@@ -55,6 +55,6 @@ Infelizmente, não podemos recomendar nada específico devido à variedade de er
 
 ## Falha no backup {#backup-fails-trouble-backup-all-}
 
-Se o backup falhar ou se todos os testes de backup falharem, é possível que o [proprietário do sistema de arquivos do Adobe Commerce](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/file-sys-perms-over.html) não tenha privilégios suficientes e propriedade do sistema de arquivos do Adobe Commerce. Por exemplo, outro usuário pode ser o proprietário dos arquivos ou os arquivos podem ser somente leitura.
+Se o backup falhar ou se todos os testes de backup falharem, é possível que o [proprietário do sistema de arquivos do Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/overview) não tenha privilégios suficientes e propriedade do sistema de arquivos do Adobe Commerce. Por exemplo, outro usuário pode ser o proprietário dos arquivos ou os arquivos podem ser somente leitura.
 
-Preste atenção especial às permissões do sistema de arquivos e à propriedade do diretório e dos subdiretórios `<magento_root>/var`. Para obter mais informações, consulte [Definir permissões e propriedade do sistema de arquivos](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-system-perms.html).
+Preste atenção especial às permissões do sistema de arquivos e à propriedade do diretório e dos subdiretórios `<magento_root>/var`. Para obter mais informações, consulte [Definir permissões e propriedade do sistema de arquivos](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/configure-permissions).

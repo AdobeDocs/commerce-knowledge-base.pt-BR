@@ -4,7 +4,7 @@ description: Este artigo fornece uma solução para quando o cache da página es
 exl-id: c91d5c1f-95e6-4240-be98-2acea49ae728
 feature: Cache, Variables
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 0%
@@ -37,8 +37,8 @@ O site não está disponível ou o tempo de resposta é muito alto.
 
 ## Solução
 
-Limitar o número de conexões simultâneas durante o aquecimento do cache. Isso requer a adição da variável de pós-implantação `WARM_UP_CONCURRENCY` para especificar o número de solicitações de aquecimento que o script de aquecimento de cache pode enviar simultaneamente. Definir essa opção pode ajudar a gerenciar a carga na infraestrutura em nuvem da Adobe Commerce. Para ver as etapas, consulte [Post-deploy variables > WARM\_UP\_CONCURRENCY](https://devdocs.magento.com/cloud/env/variables-post-deploy.html#warm_up_concurrency) na documentação do desenvolvedor.
+Limitar o número de conexões simultâneas durante o aquecimento do cache. Isso requer a adição da variável de pós-implantação `WARM_UP_CONCURRENCY` para especificar o número de solicitações de aquecimento que o script de aquecimento de cache pode enviar simultaneamente. Definir essa opção pode ajudar a gerenciar a carga na infraestrutura em nuvem da Adobe Commerce. Para ver as etapas, consulte [Variáveis pós-implantação > WARM\_UP\_CONCURRENCY](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-post-deploy#warm_up_concurrency) na documentação do desenvolvedor.
 
 ## Leitura relacionada
 
-[Cache de Página Inteira](https://docs.magento.com/user-guide/system/cache-full-page.html) em nosso guia do usuário
+[Cache de Página Inteira](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management#full-page-caching) em nosso guia do usuário

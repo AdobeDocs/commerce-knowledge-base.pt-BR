@@ -4,7 +4,7 @@ description: Este artigo descreve os possíveis motivos e soluções para o prob
 exl-id: f33cee89-b416-4d63-8cc5-9cc57618ce92
 feature: Install, Storefront
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%
@@ -47,8 +47,8 @@ Os ativos estáticos estão localizados em `<magento_root>/pub/static/` , nos di
 
 As soluções possíveis a seguir dependem do software usado e da causa do problema:
 
-* Se você estiver usando o servidor Web Apache, verifique sua configuração [regravações do servidor](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/apache.html#apache-help-rewrite) e a URL base do servidor Adobe Commerce/Magento Open Source e tente novamente. Se você configurar a diretiva `AllowOverride` do Apache incorretamente, os arquivos estáticos não serão enviados do local correto.
-* Se você estiver usando o servidor Web nginx, certifique-se de [configurar um arquivo de host virtual](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/nginx.html#configure-nginx-ubuntu). O arquivo de host virtual nginx deve atender aos seguintes critérios:
+* Se você estiver usando o servidor Web Apache, verifique sua configuração [regravações do servidor](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/web-server/apache#apache-rewrites-and-htaccess) e a URL base do servidor Adobe Commerce/Magento Open Source e tente novamente. Se você configurar a diretiva `AllowOverride` do Apache incorretamente, os arquivos estáticos não serão enviados do local correto.
+* Se você estiver usando o servidor Web nginx, certifique-se de [configurar um arquivo de host virtual](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/web-server/nginx). O arquivo de host virtual nginx deve atender aos seguintes critérios:
    * A diretiva `include` deve apontar para a amostra do arquivo de configuração nginx no diretório de instalação do Adobe Commerce/Magento Open Source. Por exemplo:    `include /var/www/html/magento2/nginx.conf.sample;`
    * A diretiva `server_name` deve corresponder à URL de base especificada ao instalar o Adobe Commerce/Magento Open Source. Por exemplo: `server_name 192.186.33.10;`
-* Se o aplicativo estiver no [modo de produção](https://devdocs.magento.com/guides/v2.3/config-guide/bootstrap/magento-modes.html#production-mode), tente implantar arquivos de exibição estáticos usando o comando `magento setup:static-content:deploy`. Para obter detalhes sobre a implantação de arquivos estáticos, consulte [Implantar arquivos de exibição estáticos](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-maint.html) na documentação do desenvolvedor.
+* Se o aplicativo estiver no [modo de produção](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/setup/application-modes#production-mode), tente implantar arquivos de exibição estáticos usando o comando `magento setup:static-content:deploy`. Para obter detalhes sobre a implantação de arquivos estáticos, consulte [Implantar arquivos de exibição estáticos](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) na documentação do desenvolvedor.

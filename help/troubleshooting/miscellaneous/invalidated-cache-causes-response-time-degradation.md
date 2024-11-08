@@ -4,7 +4,7 @@ description: Este artigo fornece uma solução sobre como evitar a invalidação
 exl-id: 7cb6a39f-923b-4acc-965d-23cf7b52c25a
 feature: Cache, Catalog Management, Categories
 role: Developer
-source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -67,4 +67,4 @@ Normalmente, o cache é invalidado devido ao seguinte:
 ## Recomendação
 
 1. Evite liberar o cache da CLI do Commerce.
-1. Configure indexadores para **Atualizar por agendamento** em vez de **Atualizar no modo de salvamento**, pois o último aciona a reindexação completa. Para referência, consulte [Gerenciar os indexadores > Configurar indexadores](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#configure-indexers) na documentação do desenvolvedor.
+1. Configure indexadores para **Atualizar por agendamento** em vez de **Atualizar no modo de salvamento**, pois o último aciona a reindexação completa. Para referência, consulte [Gerenciar os indexadores > Configurar indexadores](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers) na documentação do desenvolvedor.

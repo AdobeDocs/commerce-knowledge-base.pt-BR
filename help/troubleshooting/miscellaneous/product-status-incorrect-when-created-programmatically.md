@@ -4,7 +4,7 @@ description: Este artigo fornece uma correção para quando o status do produto 
 exl-id: ac02f961-f9e2-4620-839f-b8dbd0befb15
 feature: Products
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 0%
@@ -30,7 +30,7 @@ O problema pode aparecer devido a restrições de ACL definidas para as funçõe
 
 ## Solução para status de produto incorreto
 
-Defina uma preferência de ID dinâmica para o `Magento\Framework\Authorization\PolicyInterface`, conforme descrito no tópico [ObjectManager>Atualizações programáticas do produto](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/object-manager.html#programmatic-product-updates) da documentação do desenvolvedor.
+Defina uma preferência de ID dinâmica para o `Magento\Framework\Authorization\PolicyInterface`, conforme descrito no tópico [ObjectManager>Atualizações programáticas do produto](https://developer.adobe.com/commerce/php/development/components/object-manager/) da documentação do desenvolvedor.
 
 ## Leitura relacionada
 

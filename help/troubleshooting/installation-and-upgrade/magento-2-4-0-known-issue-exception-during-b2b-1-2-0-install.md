@@ -4,7 +4,7 @@ description: Este artigo fornece uma correção para um problema conhecido do Ad
 exl-id: 2c1dadd9-7754-4b4c-8d37-b75c13beae5c
 feature: B2B, Install, Upgrade
 role: Developer
-source-git-commit: a1046621259ea49eab74cd6ba3bba550e0c70283
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -69,8 +69,8 @@ Consulte [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to
 
 <u>Patch do Git </u>
 
-* Consulte [Aplicar patches](https://devdocs.magento.com/cloud/project/project-patch.html) na documentação do desenvolvedor para obter instruções de patch do Git para o Adobe Commerce na infraestrutura em nuvem.
-* Consulte [Aplicação de patches: patches personalizados](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#custom-patches) na documentação do desenvolvedor para obter instruções sobre patch do Git para o Adobe Commerce.
+* Consulte [Aplicar patches](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) na documentação do desenvolvedor para obter instruções de patch do Git para o Adobe Commerce na infraestrutura em nuvem.
+* Consulte [Aplicação de patches: patches personalizados](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview#custom-patches) na documentação do desenvolvedor para obter instruções sobre patch do Git para o Adobe Commerce.
 
 ## Leitura relacionada
 

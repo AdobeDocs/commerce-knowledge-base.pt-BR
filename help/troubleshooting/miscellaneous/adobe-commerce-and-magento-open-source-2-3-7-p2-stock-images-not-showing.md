@@ -4,7 +4,7 @@ description: Este artigo fornece uma solução para o problema em que as imagens
 exl-id: 84488d87-095f-4739-858f-19a52d6e5822
 feature: Categories, Orders
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -50,4 +50,4 @@ Exclua as imagens Adobe Stock carregadas das pastas `pub/media` e `pub/media/cat
 
 ## Leitura relacionada
 
-* [Armazenamento de mídia](https://docs.magento.com/user-guide/v2.3/cms/media-storage.html) em nosso guia do usuário.
+* [Armazenamento de mídia](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/storage/media-storage) em nosso guia do usuário.

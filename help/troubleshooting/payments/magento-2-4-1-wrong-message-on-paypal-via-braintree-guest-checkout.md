@@ -4,7 +4,7 @@ description: Este artigo descreve um problema conhecido do Adobe Commerce 2.4.1 
 exl-id: 758f5c57-997e-4aca-b299-9934c94fa121
 feature: Checkout, Orders, Payments
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Um erro inespecífico é exibido quando o check-out do convidado é desativado n
 <u>Pré-requisitos</u>:
 
 1. No Administrador do Commerce, em **Lojas** > **Configuração** > **Vendas** > **Check-out**, defina **Permitir Check-out de Convidado** = *Não*.
-1. Ative o PayPal por meio do Braintree, conforme descrito no [Braintree](https://docs.magento.com/user-guide/payment/braintree.html?) em nosso guia do usuário.
+1. Ative o PayPal por meio do Braintree, conforme descrito no [Braintree](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/braintree?) em nosso guia do usuário.
 
 <u>Etapas a serem reproduzidas</u>:
 
@@ -55,10 +55,10 @@ O cliente é redirecionado para a página Carrinho de compras e a seguinte mensa
 
 ## Solução alternativa
 
-A solução alternativa para esse problema é que o cliente pode fazer logon em uma loja (os usuários conectados não usam o check-out de convidado). onde o check-out do convidado está desativado. Este problema foi corrigido no Adobe Commerce versão 2.4.2.
+A solução alternativa para esse problema é que o cliente pode fazer logon em uma loja (usuários conectados não usam o check-out de convidado) onde o check-out de convidado está desativado. Este problema foi corrigido no Adobe Commerce versão 2.4.2.
 
 ## Leitura relacionada
 
 * [Prática recomendada para o número de produtos no carrinho na Adobe Commerce](https://support.magento.com/hc/en-us/articles/360048550332) em nossa base de dados de conhecimento de suporte.
-* [Tutorial de processamento de pedido: Etapa 1. Adicionar itens ao carrinho](https://devdocs.magento.com/guides/v2.4/rest/tutorials/orders/order-add-items.html) em nossa documentação do desenvolvedor
-* [Tutorial de check-out do GraphQL: Etapa 1. Adicionar produtos ao carrinho](https://devdocs.magento.com/guides/v2.4/graphql/tutorials/checkout/checkout-add-product-to-cart.html) em nossa documentação do desenvolvedor
+* [Tutorial de processamento de pedido: Etapa 1. Adicionar itens ao carrinho](https://developer.adobe.com/commerce/webapi/rest/tutorials/orders/order-add-items/) em nossa documentação do desenvolvedor
+* [Tutorial de check-out do GraphQL: Etapa 1. Adicionar produtos ao carrinho](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/checkout-add-product-to-cart.html) em nossa documentação do desenvolvedor

@@ -2,7 +2,7 @@
 title: Os índices de rastreamento do ElasticSuite causam problemas com o Elasticsearch
 description: Este artigo fala sobre a questão de problemas de memória de Elasticsearch causados por índices de rastreamento produzidos pelo plug-in ElasticSuite.
 exl-id: 67bfd06a-c801-4306-8510-a84a6fe5351a
-source-git-commit: c1c2bd29e14f4cbfffb235801e95ec7cbb7c7a55
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 0%
@@ -68,5 +68,5 @@ Crie um trabalho cron para excluir os índices de rastreamento. Esse comando exc
 
 Se você deseja excluir índices em uma frequência de tempo definida, crie um trabalho cron referenciando os seguintes artigos em nossa documentação do desenvolvedor:
 
-* [Configurar um trabalho cron personalizado e um grupo cron (tutorial)](https://devdocs.magento.com/guides/v2.3/config-guide/cron/custom-cron-tut.html)
-* [Configurar trabalhos cron](https://devdocs.magento.com/guides/v2.3/cloud/configure/setup-cron-jobs.html)
+* [Configurar um trabalho cron personalizado e um grupo cron (tutorial)](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/crons/custom-cron-tutorial)
+* [Configurar trabalhos cron](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property)

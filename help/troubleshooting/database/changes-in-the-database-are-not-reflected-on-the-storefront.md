@@ -4,7 +4,7 @@ description: Este artigo fornece soluções para evitar atrasos ou interrupçõe
 exl-id: ac52c808-299f-4d08-902f-f87db1fa7ca6
 feature: Catalog Management, Categories, Services, Storefront
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 0%
@@ -26,13 +26,13 @@ As alterações feitas no banco de dados não são refletidas na loja ou há um 
 
 ## Causa
 
-Se seus indexadores estiverem [configurados para atualizar de acordo com a agenda](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#configure-indexers), o problema poderá ser causado por uma ou mais tabelas com logs de alteração muito grandes ou disparadores MySQL não configurados.
+Se seus indexadores estiverem [configurados para atualizar de acordo com a agenda](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers), o problema poderá ser causado por uma ou mais tabelas com logs de alteração muito grandes ou disparadores MySQL não configurados.
 
 ### Tabelas de log de alterações superdimensionadas
 
 As tabelas de log de alterações aumentam tanto se o trabalho `indexer_update_all_views` não for concluído com êxito várias vezes.
 
-As tabelas de log de alterações são as tabelas de banco de dados nas quais as alterações nas entidades são rastreadas. Um registro é armazenado em uma tabela de log de alterações desde que a alteração não seja aplicada, o que é executado pelo trabalho cron `indexer_update_all_views`. Há várias tabelas de log de alterações em um banco de dados Adobe Commerce, elas são nomeadas de acordo com o seguinte padrão: INDEXER\_TABLE\_NAME + &#39;\_cl&#39;, por exemplo `catalog_category_product_cl`, `catalog_product_category_cl`. Você pode encontrar mais detalhes sobre como as alterações são rastreadas no banco de dados no artigo [Visão geral da indexação > Mview](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview) na documentação do desenvolvedor.
+As tabelas de log de alterações são as tabelas de banco de dados nas quais as alterações nas entidades são rastreadas. Um registro é armazenado em uma tabela de log de alterações desde que a alteração não seja aplicada, o que é executado pelo trabalho cron `indexer_update_all_views`. Há várias tabelas de log de alterações em um banco de dados Adobe Commerce, elas são nomeadas de acordo com o seguinte padrão: INDEXER\_TABLE\_NAME + &#39;\_cl&#39;, por exemplo `catalog_category_product_cl`, `catalog_product_category_cl`. Você pode encontrar mais detalhes sobre como as alterações são rastreadas no banco de dados no artigo [Visão geral da indexação > Mview](https://developer.adobe.com/commerce/php/development/components/indexing/#mview) na documentação do desenvolvedor.
 
 ### [!DNL MySQL] gatilhos de banco de dados não configurados
 

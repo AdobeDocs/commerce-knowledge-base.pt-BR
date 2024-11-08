@@ -3,7 +3,7 @@ title: Alterar ID de incremento de uma entidade do banco de dados (pedido, fatur
 description: Este artigo discute como alterar a ID de incremento de uma entidade de banco de dados (DB) do Adobe Commerce (pedido, fatura, memorando de crédito etc.) em uma loja Adobe Commerce específica usando a instrução SQL "ALTER TABLE".
 exl-id: 3704dd97-3639-44dc-9b8b-cf09f0c04e6c
 feature: Invoices
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Este artigo discute como alterar a ID de incremento de uma entidade de banco de 
 
 * Adobe Commerce no local: 2.x.x
 * Infraestrutura do Adobe Commerce na nuvem: 2.x.x
-* MySQL: qualquer [versão com suporte](https://devdocs.magento.com/guides/v2.2/install-gde/system-requirements-tech.html#database)
+* MySQL: qualquer [versão com suporte](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements)
 
 ## Quando você precisaria alterar a ID de incremento (ocorrências)
 
@@ -34,7 +34,7 @@ Talvez seja necessário alterar a ID de incremento para novas entidades de BD ne
 ## Etapas de pré-requisito
 
 1. Localize lojas e entidades para as quais a nova ID de incremento deve ser alterada.
-1. [Conecte](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/mysql_remote.html) ao seu BD MySQL. Para o Adobe Commerce na infraestrutura em nuvem, no início, é necessário [SSH para o seu ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
+1. [Conecte](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql-remote) ao seu BD MySQL. Para o Adobe Commerce na infraestrutura em nuvem, no início, é necessário [SSH para o seu ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
 1. Verifique o valor de auto\_increment atual para a tabela de sequência de entidade usando a seguinte query:
 
 ```sql
@@ -53,7 +53,7 @@ Se o valor da coluna `auto_increment` for *1234*, a próxima ordem colocada no a
 
 ### Documentação relacionada
 
-* [Configure uma conexão remota com o banco de dados MySQL](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/mysql_remote.html) na documentação do desenvolvedor.
+* [Configure uma conexão remota com o banco de dados MySQL](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql-remote) na documentação do desenvolvedor.
 
 ## Atualizar entidade para alterar ID de incremento
 

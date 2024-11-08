@@ -4,7 +4,7 @@ description: O Adobe lançou a Ferramenta de patches de qualidade para disponibi
 exl-id: e6a79d16-84be-4a71-a41d-ef2b43ec98d9
 feature: Tools and External Services
 role: Admin
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 0%
@@ -29,5 +29,5 @@ Após instalar a ferramenta, você pode verificar os patches disponíveis, aplic
 
 Consulte nossa documentação do desenvolvedor para obter detalhes:
 
-* [Patches disponíveis na Ferramenta de Patches de Qualidade](https://devdocs.magento.com/quality-patches/tool.html#patch-grid)
-* [Notas de versão da Ferramenta de correções de qualidade](https://devdocs.magento.com/quality-patches/release-notes.html)
+* [Patches disponíveis na Ferramenta de Patches de Qualidade](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)
+* [Notas de versão da Ferramenta de correções de qualidade](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/release-notes)

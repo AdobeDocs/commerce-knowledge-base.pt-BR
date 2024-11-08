@@ -4,7 +4,7 @@ description: Este artigo explica como resolver um problema de site lento causado
 exl-id: e4e5a753-efa3-4552-aaf6-28e44efcfa5b
 feature: Cache, Observability
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Um motivo para a degradação de desempenho pode ser a desativação de determin
 
 ## Solução
 
-1. Primeiro, verifique o status do cache do Adobe Commerce para ver se esse é o problema. Para isso, [SSH para o seu ambiente](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh) e execute o seguinte comando:
+1. Primeiro, verifique o status do cache do Adobe Commerce para ver se esse é o problema. Para isso, [SSH para o seu ambiente](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh) e execute o seguinte comando:
 
    ```bash
    php bin/magento cache:status
@@ -47,8 +47,8 @@ Se houver dúvidas e/ou se um determinado tipo de cache do Adobe Commerce pode o
 
 Documentação do cache do Adobe Commerce na documentação do desenvolvedor:
 
-* [visão geral do cache do Adobe Commerce](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/cache_for_frontdevs.html)
-* [Gerenciar o cache](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-cache.html)
+* [visão geral do cache do Adobe Commerce](https://developer.adobe.com/commerce/frontend-core/guide/caching/)
+* [Gerenciar o cache](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache)
 
 Outros motivos possíveis para problemas de desempenho e as soluções para eles:
 

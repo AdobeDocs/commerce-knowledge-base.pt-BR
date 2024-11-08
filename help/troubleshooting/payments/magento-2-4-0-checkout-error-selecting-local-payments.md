@@ -4,7 +4,7 @@ description: "Este artigo fala sobre uma solução para um problema conhecido no
 exl-id: de2eafb0-d03c-4ff8-9615-0f2676d95848
 feature: B2B, Categories, Checkout, Orders, Payments
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -28,7 +28,7 @@ A mensagem de erro, &quot;*Não há métodos de pagamento disponíveis no moment
 
 * O Adobe Commerce 2.4.0 está instalado.
 * Crie um produto e uma categoria.
-* Configurar [Método De Pagamento Braintree](https://devdocs.magento.com/guides/v2.4/graphql/payment-methods/braintree.html).
+* Configurar [Método De Pagamento Braintree](https://developer.adobe.com/commerce/webapi/graphql/payment-methods/braintree.html).
 
 <u>Etapas a serem reproduzidas</u>:
 

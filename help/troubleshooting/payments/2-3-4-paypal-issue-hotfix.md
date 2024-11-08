@@ -4,7 +4,7 @@ description: Este artigo fornece uma correção para erros recebidos durante o p
 exl-id: 9f5ec100-49b0-4ac5-8951-32b5c4fe6bed
 feature: Orders, Payments
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Error 500: NOTICE: PHP message: PHP Fatal error: Uncaught Error: Call to a membe
 
 Para comerciantes locais do Adobe Commerce: aplique o [hotfix](https://magento.com/tech-resources/download#download2353), que está disponível na seção Downloads do portal [magento.com](https://magento.com) em Minha conta.
 
-Para o Adobe Commerce em comerciantes de infraestrutura em nuvem: o Adobe incluiu a correção nos Patches da nuvem para o Commerce v1.0.2. Consulte [Patches da nuvem para as notas de versão do Commerce](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html?itm_source=devdocs&amp;itm_medium=quick_search&amp;itm_campaign=federated_search&amp;itm_term=cloud%20patche) em nossa documentação do desenvolvedor para encontrar instruções sobre como aplicar o pacote mais recente.
+Para o Adobe Commerce em comerciantes de infraestrutura em nuvem: o Adobe incluiu a correção nos Patches da nuvem para o Commerce v1.0.2. Consulte [Patches da nuvem para as notas de versão do Commerce](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches?itm_source=devdocs&amp;itm_medium=quick_search&amp;itm_campaign=federated_search&amp;itm_term=cloud%20patche) em nossa documentação do desenvolvedor para encontrar instruções sobre como aplicar o pacote mais recente.
 
 ## Como aplicar o patch
 
@@ -57,4 +57,4 @@ Para obter instruções, consulte [Como aplicar um patch de compositor fornecido
 
 ## Leitura relacionada
 
-* [Informações de versão > Notas de versão do Adobe Commerce 2.3.4 > Aplicar o problema do Check-out expresso do PayPal com patch de região para Adobe Commerce 2.3.4 para resolver um problema crítico do Check-out expresso do PayPal](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-commerce.html#apply-the-paypal-express-checkout-issue-with-region-patch-for-magento-234-to-address-a-critical-paypal-express-checkout-issue) em nossa documentação do desenvolvedor.
+* [Informações de versão > Notas de versão do Adobe Commerce 2.3.4 > Aplicar o problema do Check-out expresso do PayPal com patch de região para Adobe Commerce 2.3.4 para resolver um problema crítico do Check-out expresso do PayPal](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/release-notes-2-3-4-commerce.html#apply-the-paypal-express-checkout-issue-with-region-patch-for-magento-234-to-address-a-critical-paypal-express-checkout-issue) em nossa documentação do desenvolvedor.

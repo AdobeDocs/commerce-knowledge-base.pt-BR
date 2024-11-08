@@ -1,10 +1,10 @@
 ---
 title: Exclua arquivos com segurança quando o disco ficar sem espaço no Adobe Commerce na infraestrutura de nuvem
-description: Este artigo fornece uma solução para quando você ficar sem espaço em disco e precisar remover arquivos com segurança. Antes de considerar essa ação, revise [Gerenciar espaço em disco](https://devdocs.magento.com/cloud/project/manage-disk-space.html#no-space-left) em nossa documentação do desenvolvedor. Se as etapas nesse artigo não forem apropriadas para você ou não resolverem o problema, analise as etapas neste artigo.
+description: Este artigo fornece uma solução para quando você ficar sem espaço em disco e precisar remover arquivos com segurança. Antes de considerar essa ação, revise [Gerenciar espaço em disco](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#no-space-left) em nossa documentação do desenvolvedor. Se as etapas nesse artigo não forem apropriadas para você ou não resolverem o problema, analise as etapas neste artigo.
 exl-id: 6b0a5c1a-8db4-49d7-a785-b4e0bbaea0df
 feature: Cloud, Paas
 role: Developer
-source-git-commit: 86515936f72bbd0a5778cb81f665993ed91e4707
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 0%
@@ -59,4 +59,4 @@ Em nossa base de conhecimento de suporte:
 
 Em nossa documentação do desenvolvedor:
 
-* [Gerenciar espaço em disco](https://devdocs.magento.com/cloud/project/manage-disk-space.html)
+* [Gerenciar espaço em disco](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space)

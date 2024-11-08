@@ -3,7 +3,7 @@ title: Bloquear tráfego mal-intencionado para o Adobe Commerce no nível Fastly
 description: Este artigo fornece as etapas que você pode seguir para bloquear tráfego mal-intencionado quando suspeitar que o Adobe Commerce na loja de infraestrutura na nuvem está enfrentando um ataque de DDoS.
 exl-id: 1a834a0a-753b-432e-9c3b-ef8dd034d294
 feature: Cache, Marketing Tools
-source-git-commit: f11c8944b83e294b61d9547aefc9203af344041d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Neste artigo, pressupomos que você já tenha os IPs mal-intencionados e/ou seu 
 
 Se o seu site for sobrecarregado pelo DDoS, talvez você não consiga fazer logon no Commerce Admin (e executar todas as etapas descritas mais adiante neste artigo).
 
-Para obter acesso ao Administrador, coloque o site no modo de manutenção, conforme descrito em [Habilitar ou desabilitar o modo de manutenção](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html#instgde-cli-maint) e inclua o endereço IP na lista de permissões. Desative o modo de manutenção depois que isso for concluído.
+Para obter acesso ao Administrador, coloque o site no modo de manutenção, conforme descrito em [Habilitar ou desabilitar o modo de manutenção](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) e inclua o endereço IP na lista de permissões. Desative o modo de manutenção depois que isso for concluído.
 
 ## Bloquear tráfego por IP
 
@@ -74,7 +74,7 @@ Há duas considerações importantes ao usar o `robots.txt`:
 * Robôs podem ignorar seu `robots.txt`. Especialmente os robôs malware, que verificam a Web em busca de vulnerabilidades de segurança, e os coletores de endereços de email usados por remetentes de spam não prestam atenção.
 * O arquivo `robots.txt` é um arquivo disponível publicamente. Qualquer pessoa pode ver quais seções do servidor você não deseja que os robôs usem.
 
-As informações básicas e a configuração padrão do Adobe Commerce `robots.txt` podem ser encontradas no artigo [Robôs do Mecanismo de Pesquisa](https://docs.magento.com/m2/ee/user_guide/marketing/search-engine-robots.html) da documentação do desenvolvedor.
+As informações básicas e a configuração padrão do Adobe Commerce `robots.txt` podem ser encontradas no artigo [Robôs do Mecanismo de Pesquisa](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview#search-engine-robots) da documentação do desenvolvedor.
 
 Para obter informações gerais e recomendações sobre `robots.txt`, consulte:
 

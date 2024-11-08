@@ -4,7 +4,7 @@ description: Este artigo explica por que os dados de relatório nos Serviços de
 exl-id: 2f3249d1-be12-45bc-aa73-bef9766509ae
 feature: Orders, Payments
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Depois de faturar (capturar) um pedido ou emitir um aviso de crédito para um pe
 
 Pré-requisitos: um pedido é feito usando a funcionalidade Serviços de pagamento.
 
-1. Um pedido é [faturado](https://docs.magento.com/user-guide/sales/invoice-create.html) (ou [cancelado](https://docs.magento.com/user-guide/sales/order-update.html#cancel-a-pending-order) ou [reembolsado via memorando de crédito](https://docs.magento.com/user-guide/sales/credit-memos.html)) no [Administrador](https://docs.magento.com/user-guide/stores/admin.html).
+1. Um pedido é [faturado](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice) (ou [cancelado](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order) ou [reembolsado via memorando de crédito](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos)) no [Administrador](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/admin).
 1. Navegue até o relatório de status de pagamento da Ordem para ver informações sobre essa ordem.
 1. O status é mostrado como `AUTHORIZED`, que é o status do pedido anterior ao faturamento ou outra ação do pedido.
 
@@ -37,7 +37,7 @@ Pré-requisitos: um pedido é feito usando a funcionalidade Serviços de pagamen
 
 >[!NOTE]
 >
->Este é apenas um caso de uso comum. Pode haver outros casos de uso quando uma [ação de pedido](https://docs.magento.com/user-guide/sales/order-actions.html) ocorrer e os dados não estiverem imediatamente disponíveis no relatório aplicável.
+>Este é apenas um caso de uso comum. Pode haver outros casos de uso quando uma [ação de pedido](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/orders#actions) ocorrer e os dados não estiverem imediatamente disponíveis no relatório aplicável.
 
 <u>Resultado esperado</u>:
 Os dados do relatório são preenchidos imediatamente após uma ação em um pedido.

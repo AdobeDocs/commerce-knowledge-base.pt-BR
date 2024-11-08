@@ -4,7 +4,7 @@ description: Este artigo fornece soluções para problemas que ocorrem ao tentar
 exl-id: cbf54a15-b307-4bfc-90b7-cff98aeb4fce
 feature: Roles/Permissions
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Estas são as causas mais comuns de problemas:
 
 Durante o pré-lançamento, os pacotes de versão estão disponíveis em dois locais:
 
-1. Através do Composer em [magento.com](https://repo.magento.com/) usando o MageID principal da conta. Para obter mais detalhes sobre como usar o Composer, consulte [Instalar o Adobe Commerce usando o Composer](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html) na documentação do desenvolvedor.
+1. Através do Composer em [magento.com](https://repo.magento.com/) usando o MageID principal da conta. Para obter mais detalhes sobre como usar o Composer, consulte [Instalar o Adobe Commerce usando o Composer](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer) na documentação do desenvolvedor.
 1. **Minha Conta** > **Downloads** em [account.magento.com](https://account.magento.com/customer/account/login).
 
 >[!NOTE]

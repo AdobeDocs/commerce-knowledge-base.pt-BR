@@ -4,7 +4,7 @@ description: O patch do Adobe Commerce MDVA-37592 resolve o problema em que a cl
 exl-id: 30ac1e87-c32d-4e79-9ed9-d1861061d760
 feature: B2B, Catalog Management, Categories, Orders, Products
 role: Admin
-source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 0%
@@ -27,7 +27,7 @@ O patch do Adobe Commerce MDVA-37592 resolve o problema em que a classificação
 
 >[!NOTE]
 >
->O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com a sua versão do Adobe Commerce, atualize o pacote `magento/quality-patches` para a versão mais recente e verifique a compatibilidade na [[!DNL Quality Patches Tool]: página Procurar patches](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+>O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com a sua versão do Adobe Commerce, atualize o pacote `magento/quality-patches` para a versão mais recente e verifique a compatibilidade na [[!DNL Quality Patches Tool]: página Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
 
 ## Problema
 
@@ -59,8 +59,8 @@ O produto com preço zero NÃO está classificado corretamente. Em vez disso, é
 
 Para aplicar patches individuais, use os links a seguir, dependendo do tipo de implantação:
 
-* Adobe Commerce no local: [Guia de Atualização de Software > Aplicar Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) em nossa documentação para desenvolvedores.
-* Adobe Commerce em nossa arquitetura de nuvem: [Atualizações e patches > Aplicar patches](https://devdocs.magento.com/cloud/project/project-patch.html) em nossa documentação de desenvolvedor.
+* Adobe Commerce no local: [Guia de Atualização de Software > Aplicar Patches](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage) em nossa documentação para desenvolvedores.
+* Adobe Commerce em nossa arquitetura de nuvem: [Atualizações e patches > Aplicar patches](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) em nossa documentação de desenvolvedor.
 
 ## Leitura relacionada
 

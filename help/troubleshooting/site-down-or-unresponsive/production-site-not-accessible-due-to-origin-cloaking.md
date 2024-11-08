@@ -4,7 +4,7 @@ description: Este artigo fornece uma solução para quando a loja e/ou o adminis
 exl-id: 4412d744-3066-4f78-bc45-8149614ce455
 feature: Products
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
@@ -47,7 +47,7 @@ O cloaking de origem é um recurso de segurança que permite que o Adobe Commerc
 ## Solução
 
 * Se o site na nuvem estiver ativo, alterne para https://mydomain.com/.
-* Se você tiver um site ativo (não nuvem), usando o domínio https://mydomain.com/, configure um subdomínio `mcprod.mydomain.com` e atualize sua **URL Base** para *https://mcprod.mydomain.com* e depois [aponte o DNS para Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#update-dns-configuration-with-development-settings).
+* Se você tiver um site ativo (não nuvem), usando o domínio https://mydomain.com/, configure um subdomínio `mcprod.mydomain.com` e atualize sua **URL Base** para *https://mcprod.mydomain.com* e depois [aponte o DNS para Fastly](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#update-dns-configuration-with-development-settings).
 
 ## Leitura relacionada
 

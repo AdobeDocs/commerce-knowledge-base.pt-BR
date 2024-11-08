@@ -4,7 +4,7 @@ description: Este artigo fala sobre alguns problemas comuns do MySQL (consultas 
 exl-id: cae02e4f-d8cb-4074-abac-24ead22bdc07
 feature: Services
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%
@@ -80,5 +80,5 @@ Isso ajudará a identificar se o servidor MySQL está ativo e se não há consul
 
 * [Sintaxe MySQL Show Processlist](https://dev.mysql.com/doc/refman/8.0/en/show-processlist.html) em dev.mysql.com.
 * [Sintaxe de eliminação do MySQL](https://dev.mysql.com/doc/refman/8.0/en/kill.html) em dev.mysql.com.
-* [Segurança, desempenho e manuseio de dados](https://devdocs.magento.com/guides/v2.3/ext-best-practices/extension-coding/security-performance-data-bp.html) na documentação do desenvolvedor.
-* [Ajuda do MySQL](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/mysql.html) em nossa documentação para desenvolvedores.
+* [Segurança, desempenho e manuseio de dados](https://developer.adobe.com/commerce/php/best-practices/extensions/security/) na documentação do desenvolvedor.
+* [Ajuda do MySQL](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql) em nossa documentação para desenvolvedores.

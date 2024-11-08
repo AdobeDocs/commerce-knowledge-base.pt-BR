@@ -4,7 +4,7 @@ description: Resolva o problema com o arquivo de configuração ausente ou alter
 exl-id: d80bf981-8ba6-4357-a841-57bf5d3f2a3f
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Os arquivos BAK são um produto do processo de implantação. Se você alterar m
 
 Para restaurar os arquivos de configuração:
 
-1. Faça logon no repositório remoto usando o [SSH](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh).
+1. Faça logon no repositório remoto usando o [SSH](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh).
 1. Listar os arquivos de backup disponíveis.
 
    ```

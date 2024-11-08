@@ -4,7 +4,7 @@ description: Este artigo fornece uma correção para o status do estoque que est
 exl-id: ae32fbe3-deab-4f31-b427-95f8b54a476f
 feature: Install, Inventory, Orders
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
@@ -33,4 +33,4 @@ Quando você instala/atualiza pela primeira vez, todos os seus produtos são atr
 
 Se você tiver mais de um site, precisará adicioná-los como Sales Channel no Estoque padrão ou em outros estoques personalizados.
 
-Consulte a seção [Stock do wiki/guia do usuário](https://docs.magento.com/m2/ce/user_guide/catalog/inventory-stock.html) em nosso guia do usuário para obter detalhes sobre como fazer isso.
+Consulte a seção [Stock do wiki/guia do usuário](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/stocks/stocks-manage) em nosso guia do usuário para obter detalhes sobre como fazer isso.

@@ -4,7 +4,7 @@ description: Este artigo fornece uma solução para o problema em que o Sistema 
 exl-id: 19149d8c-ea24-46fb-8815-9f637afe46ca
 feature: System
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Este artigo fornece uma solução para o problema em que o Sistema de Magento Or
 
 1. Instale o Adobe Commerce em seu ambiente local.
 1. Configure o ngrok para criar um túnel para expor seu servidor local.
-1. Tente [conectar-se ao OMS](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/).
+1. Tente [conectar-se ao OMS](https://commerce-docs.github.io/oms-documentation-archive/integration/connector/setup-tutorial/).
 
 <u>Resultado esperado</u>
 

@@ -4,7 +4,7 @@ description: Este artigo fala sobre soluções para o erro de falta de memória 
 exl-id: c0ed8228-9357-4a3b-a102-1119386ea52a
 feature: Install, Upgrade
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -40,7 +40,7 @@ O também pode ser exibido na linha de comando.
 
 ## Solução {#solution}
 
-Recomendamos que você [aloque 2GB de memória para o PHP](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html) em nossa documentação do desenvolvedor para ter certeza de que sua instalação ou atualização terá êxito.
+Recomendamos que você [aloque 2GB de memória para o PHP](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings) em nossa documentação do desenvolvedor para ter certeza de que sua instalação ou atualização terá êxito.
 
 Se você já tiver feito isso, crie um arquivo de troca em sua máquina. Um computador Linux usa *espaço de troca* se precisar de mais recursos de memória e a RAM estiver cheia. O espaço de permuta é usado para páginas inativas na memória.
 

@@ -4,7 +4,7 @@ description: "Este artigo discute como resolver o erro de implantação com falh
 exl-id: 2f72d80a-05b2-4908-8fa8-61d06885ed07
 feature: Cloud, Deploy, Paas, Variables
 role: Developer
-source-git-commit: 9ca95444aa785191e4c8bf1603773f3430414797
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Se sua licença tiver sido revogada anteriormente devido a problemas de pagament
 
 ### 2. Adicione o valor keys na variável env:COMPOSER\_AUTH e verifique se as mesmas chaves são especificadas em auth.json
 
-Consulte as instruções e informações relacionadas em [Preparar o sistema existente](https://devdocs.magento.com/cloud/setup/first-time-setup-import-prepare.html#auth-json) e [Adicionar chaves de autenticação](https://devdocs.magento.com/cloud/setup/first-time-setup-import-prepare.html#add-authentication-keys) na documentação do desenvolvedor.
+Consulte as instruções e informações relacionadas em [Preparar o sistema existente](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/overview) e [Adicionar chaves de autenticação](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/overview) na documentação do desenvolvedor.
 
 ### 3. Atualizar ou excluir auth.json
 

@@ -4,7 +4,7 @@ description: Este artigo descreve um problema conhecido do Adobe Commerce no loc
 exl-id: c4d9240e-5df5-4eab-bb4e-1f06f9bd3a1e
 feature: Iaas, Products, Storefront
 role: Admin
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Adobe Commerce instalado com Nginx.
 <u>Etapas a serem reproduzidas</u>:
 
 1. Configure o Adobe Commerce para usar o AWS `s3` como armazenamento de mídia.
-1. Configure o Nginx usando o arquivo de configuração `nginx.conf.sample` fornecido no diretório de instalação do Adobe Commerce e um host virtual Nginx. Consulte [Configurar Nginx](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/nginx.html#configure-nginx-ubuntu) na documentação do desenvolvedor.
+1. Configure o Nginx usando o arquivo de configuração `nginx.conf.sample` fornecido no diretório de instalação do Adobe Commerce e um host virtual Nginx. Consulte [Configurar Nginx](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/web-server/nginx) na documentação do desenvolvedor.
 1. Crie um produto simples com uma imagem de produto.
 1. O Nginx tem uma configuração não comentada para redimensionamento de imagem em `nginx.conf.sample` semelhante a esta:
 

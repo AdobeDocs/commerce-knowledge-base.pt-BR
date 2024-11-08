@@ -4,7 +4,7 @@ description: Este artigo fornece uma solução para o erro de Exceção de refle
 exl-id: aed5f297-1339-4171-9392-04b3f93277ee
 feature: Install, Upgrade
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Durante a instalação, uma mensagem semelhante à seguinte é exibida:
 
 Limpe todos os diretórios e arquivos no subdiretório `var` da Adobe Commerce e instale o software da Adobe Commerce novamente.
 
-Como o [proprietário do sistema de arquivos do Adobe Commerce](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html) ou como um usuário com privilégios `root`, insira os seguintes comandos:
+Como o [proprietário do sistema de arquivos do Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/overview) ou como um usuário com privilégios `root`, insira os seguintes comandos:
 
 ```bash
 $ cd <your Magento install directory>/var

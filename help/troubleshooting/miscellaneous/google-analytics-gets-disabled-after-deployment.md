@@ -4,7 +4,7 @@ description: Este tópico discute uma solução para um problema típico que voc
 exl-id: ecf6a277-2dfa-45cf-b86f-9a27f39017f4
 feature: Build, Deploy, Variables
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Esse é um recurso destinado a garantir que os dados e as interações do desenv
 
 ## Solução
 
-Se quiser que o Google Analytics sempre esteja habilitado, defina a variável de implantação `ENABLE_GOOGLE_ANALYTICS = true`, conforme descrito em [Implantar variáveis](https://devdocs.magento.com/guides/v2.3/cloud/env/variables-deploy.html#enable_google_analytics) na documentação do desenvolvedor.
+Se quiser que o Google Analytics sempre esteja habilitado, defina a variável de implantação `ENABLE_GOOGLE_ANALYTICS = true`, conforme descrito em [Implantar variáveis](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy#enable_google_analytics) na documentação do desenvolvedor.
 
 >[!NOTE]
 >

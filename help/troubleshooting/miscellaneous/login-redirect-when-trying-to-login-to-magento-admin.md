@@ -4,7 +4,7 @@ description: Este artigo fornece as soluções possíveis para o problema de log
 exl-id: ff3114fd-8690-4983-8221-cf807f083b15
 feature: Admin Workspace, Cache
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Tente usar um navegador diferente e aumente o tempo de vida da sessão do admini
 Para aumentar o tempo de vida da sessão de administrador, siga estas etapas:
 
 1. Criar um backup de banco de dados.
-1. Use uma ferramenta de banco de dados como [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin) ou acesse o BD manualmente a partir da linha de comando para executar a seguinte consulta SQL:
+1. Use uma ferramenta de banco de dados como [phpMyAdmin](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin) ou acesse o BD manualmente a partir da linha de comando para executar a seguinte consulta SQL:
 
    ```sql
    UPDATE core_config_data SET value = 7200 WHERE path = 'admin/security/session_lifetime';
@@ -69,7 +69,7 @@ Para aumentar o tempo de vida da sessão de administrador, siga estas etapas:
 Para verificar os valores das configurações de cookies e limpá-los, siga estas etapas:
 
 1. Criar um backup de banco de dados.
-1. Use uma ferramenta de banco de dados como [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin) ou acesse o BD manualmente a partir da linha de comando para executar a seguinte consulta SQL:
+1. Use uma ferramenta de banco de dados como [phpMyAdmin](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin) ou acesse o BD manualmente a partir da linha de comando para executar a seguinte consulta SQL:
 
    ```sql
    SELECT * FROM core_config_data WHERE (path = "web/cookie/cookie_domain" OR path = "web/cookie/cookie_path");

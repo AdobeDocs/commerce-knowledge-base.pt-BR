@@ -3,7 +3,7 @@ title: Verifique se o Elasticsearch está instalado corretamente
 description: Este artigo fala sobre soluções para problemas causados por instalação e configuração incorreta de Elasticsearch (ES).
 exl-id: d2c5971c-4db4-4857-ae79-970313bce981
 feature: Install
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Este artigo fala sobre soluções para problemas causados por instalação e con
 * Adobe Commerce no local e Adobe Commerce na infraestrutura em nuvem:
    * A v2.2.3+ é compatível com ES 5.x
    * As versões 2.2.8+ e v2.3.1+ são compatíveis com ES 6.x
-   * As versões 2.x e 5.x do ES não são recomendadas devido ao [Fim da vida útil](https://www.elastic.co/support/eol). No entanto, se você tiver o Adobe Commerce v2.3.1 e quiser usar o ES 2.x ou o ES 5.x, você deve [Alterar o Elasticsearch php Client](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-downgrade.html).
+   * As versões 2.x e 5.x do ES não são recomendadas devido ao [Fim da vida útil](https://www.elastic.co/support/eol). No entanto, se você tiver o Adobe Commerce v2.3.1 e quiser usar o ES 2.x ou o ES 5.x, você deve [Alterar o Elasticsearch php Client](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search).
 * O Magento Open Source v2.3.0+ é compatível com ES 5.x e 6.x (mas recomenda-se o 6.x).
 
 ## Problema
@@ -56,8 +56,8 @@ O Elasticsearch não está instalado corretamente. Isso pode ocorrer devido a:
 
 Para configurar corretamente o Elasticsearch:
 
-* Os comerciantes do Adobe Commerce na infraestrutura em nuvem podem seguir as etapas da documentação do desenvolvedor: [Configurar o serviço Elasticsearch](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_services-elastic.html).
-* Os comerciantes no Adobe Commerce no local e no Magento Open Source podem seguir as etapas da documentação do desenvolvedor: [Instalar e configurar o Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html).
+* Os comerciantes do Adobe Commerce na infraestrutura em nuvem podem seguir as etapas da documentação do desenvolvedor: [Configurar o serviço Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch).
+* Os comerciantes no Adobe Commerce no local e no Magento Open Source podem seguir as etapas da documentação do desenvolvedor: [Instalar e configurar o Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search).
 
 Após configurar o Elasticsearch, verifique se ele está configurado corretamente:
 

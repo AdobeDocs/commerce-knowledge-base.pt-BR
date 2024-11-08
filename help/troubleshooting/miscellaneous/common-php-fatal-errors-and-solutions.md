@@ -4,7 +4,7 @@ description: Este artigo lista alguns exemplos rápidos comuns de erros fatais d
 exl-id: 3e42d38f-97bc-4d38-8e36-23b1453f81d9
 feature: Support
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Por exemplo:
 
 `max_execution_time = 120`
 
-Consulte o artigo [Personalizar configurações do php.ini](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html).
+Consulte o artigo [Personalizar configurações do php.ini](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/php-settings).
 
 ## Exemplo
 
@@ -35,7 +35,7 @@ Erro fatal do PHP *: tamanho de memória permitido de 792723456 bytes esgotado&#
 
 ## Solução
 
-Personalize suas configurações do `php.ini`. Consulte este artigo [Personalizar configurações do php.ini](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html).
+Personalize suas configurações do `php.ini`. Consulte este artigo [Personalizar configurações do php.ini](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/php-settings).
 
 ## Exemplo
 
@@ -65,9 +65,9 @@ Verifique o diretório `<root>/tmp` porque ele provavelmente está cheio. Se est
 
 Em nossa documentação do desenvolvedor:
 
-* [erros de configurações do PHP](https://devdocs.magento.com/guides/v2.3/install-gde/trouble/php/tshoot_php-set.html)
-* [Configurações de PHP necessárias](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html)
-* [Verificação Redis](https://devdocs.magento.com/guides/v2.3/config-guide/redis/redis-session.html#redis-verify)
-* [Configurar Redis](https://devdocs.magento.com/guides/v2.3/config-guide/redis/config-redis.html)
-* [Erro de limite de memória do PHP](https://devdocs.magento.com/guides/v2.3/install-gde/trouble/php/tshoot_php-set.html#trouble-php-memory)
-* [Soluções para problemas comuns - Limite de memória](https://devdocs.magento.com/guides/v2.3/test/unit/unit_test_execution_cli.html#solutions-to-common-problems)
+* [erros de configurações do PHP](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/overview)
+* [Configurações de PHP necessárias](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings)
+* [Verificação Redis](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/redis-session#verify-redis-connection)
+* [Configurar Redis](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/config-redis)
+* [Erro de limite de memória do PHP](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/overview)
+* [Soluções para problemas comuns - Limite de memória](https://developer.adobe.com/commerce/testing/guide/unit/command-line/#solutions-to-common-problems)

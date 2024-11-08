@@ -4,7 +4,7 @@ description: Este artigo fornece uma solução possível para o problema em que 
 exl-id: 4232aa21-40c2-41b0-9fb0-fc8cd4db8e39
 feature: Storefront
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Adobe Commerce 2.3.x
 
 <u>Etapas a serem reproduzidas</u>
 
-(Pré-requisitos: verifique se o repositório não está no [modo de manutenção](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-mode.html#config-mode-show)).
+(Pré-requisitos: verifique se o repositório não está no [modo de manutenção](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode#config-mode-show)).
 
 Navegue até o administrador do Commerce ou a loja em um navegador da Web.
 

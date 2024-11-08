@@ -4,7 +4,7 @@ description: O artigo fornece uma solução para quando você configurar "robots
 exl-id: 629b1247-9282-49f9-ada3-a804ddbaa0f5
 feature: Configuration
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -42,8 +42,8 @@ A indexação por mecanismos de pesquisa está desativada.
 
 ## Solução
 
-Habilitar indexação por mecanismos de pesquisa. Consulte [Configurar indexação por mecanismo de pesquisa](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html#configure-indexing-by-search-engine) na documentação do desenvolvedor.
+Habilitar indexação por mecanismos de pesquisa. Consulte [Configurar indexação por mecanismo de pesquisa](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap#configure-indexing-by-search-engine) na documentação do desenvolvedor.
 
 ## Leitura relacionada
 
-* [Adicionar o mapa do site e os robôs do mecanismo de pesquisa](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html) à documentação do desenvolvedor.
+* [Adicionar o mapa do site e os robôs do mecanismo de pesquisa](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap) à documentação do desenvolvedor.

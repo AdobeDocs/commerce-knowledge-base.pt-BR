@@ -4,7 +4,7 @@ description: Este artigo fornece uma correção para quando o modo de manutenç�
 exl-id: 61b81fbd-a382-44b5-94e9-5b6d72f11349
 feature: Cache
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 0%
@@ -45,4 +45,4 @@ As páginas ainda são armazenadas em cache, portanto, a página de manutenção
 
 ## Leitura relacionada
 
-[Habilite ou desabilite o modo de manutenção](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-maint.html) na documentação do desenvolvedor.
+[Habilite ou desabilite o modo de manutenção](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) na documentação do desenvolvedor.

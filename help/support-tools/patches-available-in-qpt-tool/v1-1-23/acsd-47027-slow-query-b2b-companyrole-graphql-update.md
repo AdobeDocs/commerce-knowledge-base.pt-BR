@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-47027 para corrigir o problema do Adobe Commer
 exl-id: 478ae16b-7722-4469-8f8a-a38820e61ae4
 feature: B2B, Companies, GraphQL, Roles/Permissions
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%
@@ -99,7 +99,7 @@ O Adobe Commerce executa uma consulta sem nenhum filtro. Quando há um grande n�
 Para aplicar patches individuais, use os links a seguir, dependendo do método de implantação:
 
 * Adobe Commerce ou Magento Open Source no local: [[!DNL Quality Patches Tool] > Uso](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) no guia [!DNL Quality Patches Tool].
-* Adobe Commerce na infraestrutura em nuvem: [Atualizações e patches > Aplicar patches](https://devdocs.magento.com/cloud/project/project-patch.html) na documentação do desenvolvedor. 
+* Adobe Commerce na infraestrutura em nuvem: [Atualizações e patches > Aplicar patches](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) na documentação do desenvolvedor. 
 
 ## Leitura relacionada
 

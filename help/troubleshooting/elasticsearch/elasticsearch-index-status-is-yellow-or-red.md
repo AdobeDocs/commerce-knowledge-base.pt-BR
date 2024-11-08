@@ -2,7 +2,7 @@
 title: O status do índice de Elasticsearch é 'amarelo' ou 'vermelho'
 description: O artigo fornece uma correção para quando o Status do índice de Elasticsearch não é '*verde*'. '*amarelo*' indica normal e '*vermelho*' indica ruim. O status "amarelo" ou "vermelho" pode ocorrer em conjunto com produtos ausentes ou com a exibição de informações antigas do produto.
 exl-id: 27689511-6a41-41a9-8dda-a627d2f65263
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
-> [O mecanismo de pesquisa do catálogo MySQL será removido no Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md). Você deve ter o Elasticsearch host configurado antes de instalar a versão 2.4.0. Consulte [Instalar e configurar o Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html).
+> [O mecanismo de pesquisa do catálogo MySQL será removido no Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md). Você deve ter o Elasticsearch host configurado antes de instalar a versão 2.4.0. Consulte [Instalar e configurar o Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search).
 
 O artigo fornece uma correção para quando o Status do Índice Elasticsearch não é &#39;*green*&#39;. &#39;*amarelo*&#39; indica normal, e &#39;*vermelho*&#39; indica ruim. O status &quot;amarelo&quot; ou &quot;vermelho&quot; pode ocorrer em conjunto com produtos ausentes ou com a exibição de informações antigas do produto.
 

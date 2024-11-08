@@ -1,10 +1,10 @@
 ---
 title: Não é possível salvar *contact* como chave de URL
-description: Este artigo fornece uma solução alternativa para o problema quando você não consegue salvar *contato* como uma chave de URL (por exemplo, "/contact") para produtos ou páginas de CMS. Ao tentar salvar a chave do URL, você recebe um erro que indica que a chave do URL é um URL duplicado.
+description: Este artigo fornece uma solução alternativa para o problema quando você não consegue salvar *contato* como uma chave de URL (por exemplo, "/contact") para produtos ou páginas do CMS. Ao tentar salvar a chave do URL, você recebe um erro que indica que a chave do URL é um URL duplicado.
 exl-id: eb340813-aba5-43a4-af5d-8fb64c93e021
 feature: CMS, Marketing Tools, Storefront
 role: Admin
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Não é possível salvar *contato* como a chave da URL
 
-Este artigo fornece uma solução alternativa para o problema quando você não pode salvar *contato* como uma chave de URL (por exemplo, &quot;/contato&quot;) para produtos ou páginas de CMS.
+Este artigo fornece uma solução alternativa para o problema quando você não pode salvar *contato* como uma chave de URL (por exemplo, &quot;/contact&quot;) para produtos ou páginas do CMS.
 
 ## Produtos e versões afetados
 
@@ -21,11 +21,11 @@ Adobe Commerce (todos os métodos de implantação) 2.4.x
 
 ## Problema
 
-Não é possível salvar um produto ou uma página do CMS usando o termo *contato* como a chave da URL. Ao tentar salvar a chave do URL, você recebe um erro que indica que a chave do URL é um URL duplicado.
+Não é possível salvar um produto ou uma página do CMS usando o termo *contato* como chave de URL. Ao tentar salvar a chave do URL, você recebe um erro que indica que a chave do URL é um URL duplicado.
 
 <u>Etapas a serem reproduzidas</u>:
 
-Crie uma página CMS com *contato* como a chave da URL.
+Crie uma página do CMS com *contato* como a chave da URL.
 
 <u>Resultado esperado</u>:
 
@@ -63,5 +63,5 @@ Execute as seguintes etapas:
 
 ## Leitura relacionada
 
-* [Substituições de URL](https://docs.magento.com/user-guide/marketing/url-rewrite.html) em nosso guia do usuário.
-* [Práticas recomendadas da SEO](https://docs.magento.com/user-guide/marketing/seo-best-practices.html) em nosso guia do usuário.
+* [Substituições de URL](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) em nosso guia do usuário.
+* [Práticas recomendadas da SEO](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview) em nosso guia do usuário.

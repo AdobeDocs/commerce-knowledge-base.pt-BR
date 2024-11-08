@@ -4,7 +4,7 @@ description: O patch MDVA-39163 resolve o problema em que os métodos de envio n
 exl-id: f8661a4e-5832-41bb-be3d-4ea6c863fdb9
 feature: CMS, Marketing Tools, Orders, Products, Shipping/Delivery
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
@@ -27,7 +27,7 @@ O patch MDVA-39163 resolve o problema em que os métodos de envio não estão di
 
 >[!NOTE]
 >
->O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com a sua versão do Adobe Commerce, atualize o pacote `magento/quality-patches` para a versão mais recente e verifique a compatibilidade na [[!DNL Quality Patches Tool]: página Procurar patches](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+>O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com a sua versão do Adobe Commerce, atualize o pacote `magento/quality-patches` para a versão mais recente e verifique a compatibilidade na [[!DNL Quality Patches Tool]: página Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
 
 ## Problema
 
@@ -38,7 +38,7 @@ Os métodos de envio não estão disponíveis quando o novo usuário é registra
 1. Vá para **Admin** > **Lojas** > **Configuração** > **Vendas** > **Métodos de Entrega**. Habilite somente o método de envio **Taxa Uniforme** e desabilite todo o resto.
 1. No método de envio **Taxa Uniforme**, selecione a opção de país **Específico** disponível na configuração **Remeter para Países Aplicáveis** e selecione um país da lista (por exemplo, Estados Unidos).
 1. Acesse **Administrador** > **Lojas** > **Configuração** > **Cliente** > **Configuração do Cliente** e defina **Exigir Confirmação de Email** para _Sim_.
-1. Crie um novo Modelo de email em **Admin** > **Marketing** > **Modelos de email** e carregue o modelo `Footer (magento/luma)` e substitua o conteúdo do modelo por um bloco CMS.
+1. Crie um novo Modelo de email em **Admin** > **Marketing** > **Modelos de email** e carregue o modelo `Footer (magento/luma)` e substitua o conteúdo do modelo por um bloco do CMS.
 
    ```CMS
    {{block class="Magento\Cms\Block\Block" block_id="footer_links_block"}}
@@ -62,8 +62,8 @@ Método de envio não disponível.
 
 Para aplicar patches individuais, use os links a seguir, dependendo do método de implantação:
 
-* Adobe Commerce ou Magento Open Source no local: [Guia de Atualização de Software > Aplicar Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) na documentação do desenvolvedor.
-* Adobe Commerce na infraestrutura em nuvem: [Atualizações e patches > Aplicar patches](https://devdocs.magento.com/cloud/project/project-patch.html) na documentação do desenvolvedor.
+* Adobe Commerce ou Magento Open Source no local: [Guia de Atualização de Software > Aplicar Patches](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage) na documentação do desenvolvedor.
+* Adobe Commerce na infraestrutura em nuvem: [Atualizações e patches > Aplicar patches](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) na documentação do desenvolvedor.
 
 ## Leitura relacionada
 
@@ -72,4 +72,4 @@ Para saber mais sobre a Ferramenta de correção de qualidade, consulte:
 * [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatender correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de dados de conhecimento de suporte.
 * [Verifique se o patch está disponível para o problema do Adobe Commerce usando a Ferramenta de Patches de Qualidade](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) em nossa base de dados de conhecimento de suporte.
 
-Para obter informações sobre outros patches disponíveis no QPT, consulte [Patches disponíveis no QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) na documentação do desenvolvedor.
+Para obter informações sobre outros patches disponíveis no QPT, consulte [Patches disponíveis no QPT](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) na documentação do desenvolvedor.

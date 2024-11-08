@@ -1,10 +1,10 @@
 ---
 title: "MDVA-40101: os itens permanecem minicarrinho após o posicionamento do pedido Check-out do PayPal Express"
-description: O patch MDVA-40101 corrige o problema em que os itens não são removidos do minicarrinho após um pedido bem-sucedido feito usando a Finalização de compra do PayPal Express. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.4 está instalada. A ID do patch é MDVA-40101. Observe que o problema foi corrigido no Adobe Commerce 2.4.0.
+description: O patch MDVA-40101 corrige o problema em que os itens não são removidos do minicarrinho após um pedido bem-sucedido feito usando a Finalização de compra do PayPal Express. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.4 está instalada. A ID do patch é MDVA-40101. Observe que o problema foi corrigido no Adobe Commerce 2.4.0.
 exl-id: d640dfcd-6fb6-4cc6-8817-3ae19aa59bed
 feature: Checkout, Orders, Payments, Shopping Cart
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # MDVA-40101: os itens permanecem minicarrinho após o posicionamento do pedido Check-out do PayPal Express
 
-O patch MDVA-40101 corrige o problema em que os itens não são removidos do minicarrinho após um pedido bem-sucedido feito usando a Finalização de compra do PayPal Express. Este patch está disponível quando a [Ferramenta de Patches de Qualidade (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.4 está instalada. A ID do patch é MDVA-40101. Observe que o problema foi corrigido no Adobe Commerce 2.4.0.
+O patch MDVA-40101 corrige o problema em que os itens não são removidos do minicarrinho após um pedido bem-sucedido feito usando a Finalização de compra do PayPal Express. Este patch está disponível quando a [Ferramenta de Patches de Qualidade (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.4 está instalada. A ID do patch é MDVA-40101. Observe que o problema foi corrigido no Adobe Commerce 2.4.0.
 
 ## Produtos e versões afetados
 
@@ -27,7 +27,7 @@ Adobe Commerce (todos os métodos de implantação) 2.3.2 - 2.3.7-p2
 
 >[!NOTE]
 >
->O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com a sua versão do Adobe Commerce, atualize o pacote `magento/quality-patches` para a versão mais recente e verifique a compatibilidade na [[!DNL Quality Patches Tool]: página Procurar patches](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+>O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com a sua versão do Adobe Commerce, atualize o pacote `magento/quality-patches` para a versão mais recente e verifique a compatibilidade na [[!DNL Quality Patches Tool]: página Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
 
 ## Problema
 
@@ -51,8 +51,8 @@ O minicarrinho deve estar vazio após a conclusão bem-sucedida do pedido.
 
 Para aplicar patches individuais, use os links a seguir, dependendo do método de implantação:
 
-* Adobe Commerce ou Magento Open Source no local: [Guia de Atualização de Software > Aplicar Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) na documentação do desenvolvedor.
-* Adobe Commerce na infraestrutura em nuvem: [Atualizações e patches > Aplicar patches](https://devdocs.magento.com/cloud/project/project-patch.html) na documentação do desenvolvedor.
+* Adobe Commerce ou Magento Open Source no local: [Guia de Atualização de Software > Aplicar Patches](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage) na documentação do desenvolvedor.
+* Adobe Commerce na infraestrutura em nuvem: [Atualizações e patches > Aplicar patches](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) na documentação do desenvolvedor.
 
 ## Leitura relacionada
 

@@ -1,8 +1,8 @@
 ---
 title: Definição das configurações de DNS do Fastly nos ambientes de Preparo e Produção
-description: Consulte o artigo [Setup Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html) em nossa documentação do desenvolvedor para obter as informações mais recentes.
+description: Consulte o artigo [Setup Fastly](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration) em nossa documentação do desenvolvedor para obter as informações mais recentes.
 exl-id: 7fa71223-f940-4449-acba-4e42648099fe
-source-git-commit: c1c2bd29e14f4cbfffb235801e95ec7cbb7c7a55
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 0%
@@ -11,4 +11,4 @@ ht-degree: 0%
 
 # Definição das configurações de DNS do Fastly nos ambientes de Preparo e Produção
 
-Consulte o artigo [Setup Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html) em nossa documentação do desenvolvedor para obter as informações mais recentes.
+Consulte o artigo [Setup Fastly](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration) em nossa documentação do desenvolvedor para obter as informações mais recentes.

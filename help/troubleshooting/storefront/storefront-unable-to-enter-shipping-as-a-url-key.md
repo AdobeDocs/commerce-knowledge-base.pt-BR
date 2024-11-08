@@ -1,10 +1,10 @@
 ---
 title: Não é possível salvar o envio como uma chave de URL
-description: Este artigo fornece uma solução alternativa para o problema quando você não consegue salvar o envio como uma chave de URL (_e.g., /shipping_) para produtos ou páginas CMS. Ao tentar salvar a chave do URL, você recebe um erro que indica que a chave do URL é um URL duplicado.
+description: Este artigo fornece uma solução alternativa para o problema quando você não consegue salvar o envio como uma chave de URL (_e.g., /shipping_) para produtos ou páginas do CMS. Ao tentar salvar a chave do URL, você recebe um erro que indica que a chave do URL é um URL duplicado.
 exl-id: df19b597-f615-4b19-82c1-59cc179fa720
 feature: Marketing Tools, Shipping/Delivery, Storefront
 role: Admin
-source-git-commit: 1ce963142a261a17e2b42f79dd567c8484ec5b3e
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Não é possível salvar _envio_ como uma chave de URL
 
-Este artigo fornece uma solução alternativa para o problema quando não é possível salvar o envio como uma chave de URL (_por exemplo, /delivery_) para produtos ou páginas CMS. Ao tentar salvar a chave do URL, você recebe um erro que indica que a chave do URL é um URL duplicado.
+Este artigo fornece uma solução alternativa para o problema quando não é possível salvar o envio como uma chave de URL (_por exemplo, /delivery_) para produtos ou páginas do CMS. Ao tentar salvar a chave do URL, você recebe um erro que indica que a chave do URL é um URL duplicado.
 
 ## Produtos e versões afetados
 
@@ -21,7 +21,7 @@ Adobe Commerce (todos os métodos de implantação) 2.4.x
 
 ## Problema
 
-Não é possível salvar uma página CMS com o termo _envio_ na chave da URL.
+Não é possível salvar uma página do CMS com o termo _envio_ na chave da URL.
 
 <u>Etapas a serem reproduzidas</u>:
 
@@ -122,5 +122,5 @@ Além disso, evite usar essas palavras-chave rotuladas como *reservadas* que faz
 
 ## Leitura relacionada
 
-* [Substituições de URL](https://docs.magento.com/user-guide/marketing/url-rewrite.html) em nosso Guia do Usuário de Merchandising e Promoções.
-* [Práticas recomendadas da SEO](https://docs.magento.com/user-guide/marketing/seo-best-practices.html) em nosso Guia do usuário de merchandising e promoções.
+* [Substituições de URL](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) em nosso Guia do Usuário de Merchandising e Promoções.
+* [Práticas recomendadas da SEO](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview) em nosso Guia do usuário de merchandising e promoções.

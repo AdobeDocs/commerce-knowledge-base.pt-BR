@@ -4,7 +4,7 @@ description: '"Este artigo fornece uma solução para o problema de infraestrutu
 exl-id: 7f58591a-5581-46cd-984d-09ac2c0f3903
 feature: Deploy, Routes, Staging
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -80,7 +80,7 @@ Para resolver a implantação bloqueada, atualize o arquivo `routes.yaml` para c
 
 1. СConfirme e envie suas alterações para reimplantar seu projeto.
 
-Para obter instruções detalhadas sobre como atualizar a configuração de rota, consulte [Cloud para Adobe Commerce > Configurar rotas](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_routes.html) na documentação do desenvolvedor.
+Para obter instruções detalhadas sobre como atualizar a configuração de rota, consulte [Cloud para Adobe Commerce > Configurar rotas](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml) na documentação do desenvolvedor.
 
 >[!NOTE]
 >

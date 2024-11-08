@@ -2,7 +2,7 @@
 title: Como criar um despejo "limpo" quando solicitado pelo agente de suporte
 description: Este artigo fornece informações sobre como criar um despejo "depurado" (backup) do banco de dados e do código pelo administrador do Adobe Commerce quando solicitado a fornecer um por um agente de suporte da Adobe Commerce. Esse despejo exclui os arquivos de mídia para acelerar o processo e resultar em um arquivo muito menor. Todos os dados confidenciais recebem hash ao fazer o backup do banco de dados.
 exl-id: ad088bd2-3f92-416e-89f0-d037d53cd6a9
-source-git-commit: e07ade849a4105b5e499b5282d75cb1b5321b6ea
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Crie um despejo &quot;depurado&quot; na página Admin:
 
 Em seguida, você pode fornecer ao Suporte o link de download direto para os arquivos de despejo (o endereço da loja e o nome do arquivo conforme exibido).
 
-Se você tiver problemas ao criar despejos do Administrador, considere usar comandos da CLI conforme descrito em [Executar os utilitários de suporte](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-spt-util.html) em nossa documentação de desenvolvedor.
+Se você tiver problemas ao criar despejos do Administrador, considere usar comandos da CLI conforme descrito em [Executar os utilitários de suporte](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/run-support-utilities) em nossa documentação de desenvolvedor.
 
 ## Leitura relacionada
 

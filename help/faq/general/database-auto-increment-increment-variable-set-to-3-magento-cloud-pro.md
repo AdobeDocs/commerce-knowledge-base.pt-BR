@@ -3,7 +3,7 @@ title: Variável de incremento de auto_incremento do banco de dados definida com
 description: Esse é o comportamento esperado para as soluções de arquitetura de plano Pro da infraestrutura em nuvem do Adobe Commerce devido à arquitetura de 3 nós e não pode ser modificado.
 exl-id: ea478cbc-2dc2-41c9-8ea7-7e2f308e5948
 feature: Cloud
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%
@@ -31,5 +31,5 @@ Por exemplo, se o principal selecionado for o nó 1, em que `auto_increment_offs
 
 Consulte na documentação do desenvolvedor:
 
-* [Nuvem para Adobe Commerce > Arquitetura Pro > Backup e recuperação de desastres](https://devdocs.magento.com/cloud/architecture/pro-architecture.html#backup-and-disaster-recovery)
-* [Nuvem para Adobe Commerce > Instalar pré-requisitos: banco de dados](https://devdocs.magento.com/cloud/before/before-workspace-magento-prereqs.html#database)
+* [Nuvem para Adobe Commerce > Arquitetura Pro > Backup e recuperação de desastres](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#backup-and-disaster-recovery)
+* [Nuvem para Adobe Commerce > Instalar pré-requisitos: banco de dados](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/overview)

@@ -3,7 +3,7 @@ title: Reorganizar ramificações de nuvem no Adobe Commerce
 description: Este artigo fornece as etapas que você pode seguir para reorganizar ramificações de nuvem no Adobe Commerce, se elas não estiverem organizadas de acordo com a hierarquia correta. Se você não tiver as ramificações organizadas na hierarquia correta, não será possível mesclar à ramificação pai correta - ela irá para a ramificação pai existente.
 exl-id: 4fc0de96-da66-4634-a38a-6a1536855f8f
 feature: Cloud
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Para reorganizar ramificações de nuvem:
 1. Execute o seguinte comando para as ramificações que precisam ser movidas:
    `magento-cloud environment:info -e <branch to move> parent <target parent>`
 
-Nota: Você pode especificar a ramificação pai ao criar uma nova ramificação. Para ver as etapas, consulte [Introdução à criação de ramificações](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted) em nossa documentação para desenvolvedores.
+Nota: Você pode especificar a ramificação pai ao criar uma nova ramificação. Para ver as etapas, consulte [Introdução à criação de ramificações](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches) em nossa documentação para desenvolvedores.
 
 Você pode criar uma nova ramificação de ambiente usando o comando de ambiente magento-cloud `branch <environment-name> <parent-environment-ID>`.
 
@@ -42,4 +42,4 @@ Pode levar algum tempo adicional para criar e ativar uma nova ramificação de a
 
 ## Leitura relacionada
 
-[Gerencie ramificações com o [!DNL CLI]](https://devdocs.magento.com/cloud/env/environments-start.html) em nossa documentação do desenvolvedor.
+[Gerencie ramificações com o [!DNL CLI]](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches) em nossa documentação do desenvolvedor.

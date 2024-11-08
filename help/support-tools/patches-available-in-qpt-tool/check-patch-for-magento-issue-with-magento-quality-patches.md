@@ -4,7 +4,7 @@ description: Este artigo fornece uma visão geral da Ferramenta de correções d
 exl-id: 43393708-3939-449f-a764-b2ac6326165f
 feature: Tools and External Services
 role: Admin
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 0%
@@ -42,7 +42,7 @@ A ferramenta tem como objetivo permitir que você faça o autoatendimento com pa
 
 ## Patches disponíveis na Ferramenta de patches de qualidade
 
-Consulte a [Ferramenta de Patches de Qualidade](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) em nossa documentação do desenvolvedor para obter a lista de patches disponíveis.
+Consulte a [Ferramenta de Patches de Qualidade](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) em nossa documentação do desenvolvedor para obter a lista de patches disponíveis.
 
 ## Como instalar e usar a Ferramenta de correções de qualidade
 
@@ -50,13 +50,13 @@ Os comandos de instalação e uso são diferentes para o Adobe Commerce no local
 
 ### Como instalar e usar o QPT para Adobe Commerce no local
 
-Consulte o [Guia de Atualização de Software > Patches](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) em nossa documentação do desenvolvedor para obter detalhes sobre como instalar e usar o QPT para aplicar e reverter patches.
+Consulte o [Guia de Atualização de Software > Patches](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage) em nossa documentação do desenvolvedor para obter detalhes sobre como instalar e usar o QPT para aplicar e reverter patches.
 
 ### Como instalar e usar o QPT para Adobe Commerce na infraestrutura em nuvem
 
-Consulte [Nuvem para Adobe Commerce > Aplicar patches](https://devdocs.magento.com/cloud/project/project-patch.html) em nossa documentação do desenvolvedor para obter detalhes sobre como instalar e usar o QPT para aplicar e reverter patches no Adobe Commerce na infraestrutura em nuvem.
+Consulte [Nuvem para Adobe Commerce > Aplicar patches](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) em nossa documentação do desenvolvedor para obter detalhes sobre como instalar e usar o QPT para aplicar e reverter patches no Adobe Commerce na infraestrutura em nuvem.
 
 ## Leitura relacionada
 
-* [Notas de versão da Ferramenta de correções de qualidade](https://devdocs.magento.com/quality-patches/release-notes.html) em nossa documentação do desenvolvedor.
+* [Notas de versão da Ferramenta de correções de qualidade](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/release-notes) em nossa documentação do desenvolvedor.
 * [Como aplicar os patches do compositor fornecidos pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de dados de conhecimento de suporte.

@@ -4,7 +4,7 @@ description: Este artigo fornece uma solução para o problema que ocorre quando
 exl-id: 7f7bf782-4b35-4067-aa94-417097079f1f
 feature: Data Import/Export
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Você tem um arquivo .csv válido contendo produtos agrupados.
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. Importe o arquivo usando a [funcionalidade de importação](https://docs.magento.com/m2/ee/user_guide/system/data-import.html).
+1. Importe o arquivo usando a [funcionalidade de importação](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/import/data-import).
 1. Abra a página do produto do pacote.
 
 <u>Resultados esperados</u>:
@@ -46,7 +46,7 @@ A posição das opções não foi declarada explicitamente.
 
 ## Solução
 
-1. Declare uma posição explicitamente para cada opção no parâmetro `position` da coluna `bundle_values` no arquivo .csv. Para obter instruções detalhadas, consulte [Editar os dados do produto](https://docs.magento.com/m2/ee/user_guide/system/data-transfer-bundle-products.html#method-2-edit-the-product-data) no guia do usuário.
+1. Declare uma posição explicitamente para cada opção no parâmetro `position` da coluna `bundle_values` no arquivo .csv. Para obter instruções detalhadas, consulte [Editar os dados do produto](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/examples/data-transfer-bundle-products#method-2-edit-the-product-data) no guia do usuário.
 1. Repita a operação de importação.
 
-Para obter informações gerais sobre Importação, consulte o [Produto do Pacote de Importação](https://docs.magento.com/m2/ee/user_guide/system/data-transfer-bundle-products.html) no nosso guia do usuário.
+Para obter informações gerais sobre Importação, consulte o [Produto do Pacote de Importação](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/examples/data-transfer-bundle-products) no nosso guia do usuário.

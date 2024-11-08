@@ -4,7 +4,7 @@ description: Este artigo fornece uma solução para o problema que ocorre quando
 exl-id: 9c81de40-65a3-422d-9053-3c894b863a0a
 feature: Orders
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%
@@ -62,8 +62,8 @@ Adicionar o consumidor `sales.rule.update.coupon.usage` ao arquivo `app/etc/env.
 ...
 ```
 
-Para obter etapas detalhadas, consulte [Gerenciar filas de mensagens > Configuração](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html#configuration) na documentação do desenvolvedor.
+Para obter etapas detalhadas, consulte [Gerenciar filas de mensagens > Configuração](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues#configuration) na documentação do desenvolvedor.
 
 ## Leitura relacionada
 
-[Visão geral das filas de mensagens](https://devdocs.magento.com/guides/v2.4/config-guide/mq/rabbitmq-overview.html) na documentação do desenvolvedor.
+[Visão geral das filas de mensagens](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/message-queue-framework) na documentação do desenvolvedor.

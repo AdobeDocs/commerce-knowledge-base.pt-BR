@@ -3,7 +3,7 @@ title: Redirecionar HTTP para HTTPS para todas as páginas no Adobe Commerce na 
 description: Ative a funcionalidade **Forçar TLS** do Fastly no Administrador do Commerce para habilitar o redirecionamento global HTTP para HTTPS para todas as páginas do Adobe Commerce na loja de infraestrutura da nuvem.
 exl-id: 71667f52-a99a-47a6-99d8-10532364870f
 feature: Cache, Cloud
-source-git-commit: f11c8944b83e294b61d9547aefc9203af344041d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Nesta etapa, definimos os URLs seguros do armazenamento. Se isso já tiver sido 
 1. Defina as configurações **Usar URLs Seguras na Loja** e **Usar URLs Seguras na Administração** para **Sim**.    ![magento-admin_base-urls-secure-settings.png](assets/magento-admin_base-urls-secure-settings.png)
 1. Clique em **Salvar configuração** no canto superior direito para aplicar as alterações.
 
-**Documentação relacionada em nosso guia do usuário:**   [Armazenar URLs](https://docs.magento.com/m2/ee/user_guide/stores/store-urls.html).
+**Documentação relacionada em nosso guia do usuário:**   [Armazenar URLs](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls).
 
 ### Etapa 2: Ativar Forçar TLS {#step-2-enable-force-tls}
 

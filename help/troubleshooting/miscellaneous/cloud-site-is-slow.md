@@ -4,7 +4,7 @@ description: Este artigo fornece recomendações sobre como melhorar o desempenh
 exl-id: 144df36b-6305-4e57-b813-46bbb0ddedda
 feature: Cache, Categories, Cloud, Paas
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 0%
@@ -65,7 +65,7 @@ Se a página de índice tiver uma taxa de ocorrência baixa, você poderá corri
 
 Para verificar a taxa geral de acertos do cache:
 
-1. [Obtenha credenciais do Fastly](http://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html#cloud-fastly-creds) para seu Adobe Commerce no ambiente de infraestrutura na nuvem.
+1. [Obtenha credenciais do Fastly](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration) para seu Adobe Commerce no ambiente de infraestrutura na nuvem.
 1. Execute o seguinte comando cURL do Linux/macOS para verificar a taxa de ocorrência do site nos últimos 30 minutos, substituindo e pelos valores das credenciais do Fastly:
 
    `curl -H "Fastly-Key: " https://api.fastly.com/stats/service//field/hit_ratio?by=minute | json_pp`
@@ -82,8 +82,8 @@ Uma taxa de ocorrência abaixo de 0,85 ou 85% pode indicar um problema de config
 
 1. Usando as estatísticas de taxa de ocorrência por hora e por dia, identifique quando a taxa de ocorrência começou a diminuir. Se a taxa de ocorrência cair repentinamente ao mesmo tempo em que você implantou uma alteração no site, considere reverter a alteração até que o carregamento do site diminua.
 1. Verifique a configuração no Administrador do Commerce, em **Lojas** > **Configuração** > Avançado > **Sistema** > **Cache de Página Inteira**. Verifique se o valor de **TTL para conteúdo público** não está definido como muito baixo.
-1. Verifique se você [carregou os trechos de VCL](https://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html#upload-vcl-snippets).
-1. Se você usar trechos de VCL personalizados, depure-os para o uso correto das ações &quot;passar&quot; ou &quot;pipe&quot;: eles devem ser usados com cuidado e, no mínimo, usados com algum tipo de condição. Para obter mais dicas, consulte [Custom Fastly VCL snippets](https://devdocs.magento.com/guides/v2.3/cloud/cdn/cloud-vcl-custom-snippets.html) na documentação do desenvolvedor.
+1. Verifique se você [carregou os trechos de VCL](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#upload-vcl-snippets).
+1. Se você usar trechos de VCL personalizados, depure-os para o uso correto das ações &quot;passar&quot; ou &quot;pipe&quot;: eles devem ser usados com cuidado e, no mínimo, usados com algum tipo de condição. Para obter mais dicas, consulte [Custom Fastly VCL snippets](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets) na documentação do desenvolvedor.
 
 ### Etapa 3: identificar os sites que causam a alta carga do servidor
 

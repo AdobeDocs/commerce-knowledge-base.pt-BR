@@ -4,7 +4,7 @@ description: "Este artigo fornece uma solução para quando o cache da página e
 exl-id: 20a88030-b1c9-4fdc-83c1-f344d44cd2e1
 feature: Cache, Cloud, Paas
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 0%
@@ -47,5 +47,5 @@ Verifique se o controle de acesso está habilitado: vá para a ramificação/amb
 
 ## Leitura relacionada
 
-* [Guia do Usuário do Adobe Commerce > Cache de Página Inteira](https://docs.magento.com/user-guide/system/cache-full-page.html) em nosso guia do usuário.
+* [Guia do Usuário do Adobe Commerce > Cache de Página Inteira](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management#full-page-caching) em nosso guia do usuário.
 * [Aquecimento de cache e site não disponível no Adobe Commerce](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md) em nossa base de dados de conhecimento de suporte.

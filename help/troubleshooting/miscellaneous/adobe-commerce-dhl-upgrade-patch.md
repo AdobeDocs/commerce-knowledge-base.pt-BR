@@ -4,7 +4,7 @@ description: Este artigo fornece uma correção, permitindo que os comerciantes 
 exl-id: 4350e83a-495b-41b4-a526-dae5923e9d41
 feature: Orders, Shipping/Delivery, Upgrade
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 0%
@@ -29,7 +29,7 @@ O Adobe Commerce 2.4.5, com lançamento previsto para agosto de 2022, conterá a
 ## Correção
 
 A ID do patch é AC-3022 disponível na Ferramenta de patches de qualidade versão 1.1.16.
-Consulte o artigo [Ferramenta de correções de qualidade (QPT) > Uso](https://devdocs.magento.com/quality-patches/usage.html) na documentação do desenvolvedor para obter informações sobre como usar os patches de QPT e instalação.
+Consulte o artigo [Ferramenta de correções de qualidade (QPT) > Uso](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage) na documentação do desenvolvedor para obter informações sobre como usar os patches de QPT e instalação.
 
 O patch é aplicável às seguintes versões do Adobe Commerce:
 
@@ -38,5 +38,5 @@ O patch é aplicável às seguintes versões do Adobe Commerce:
 
 ## Leitura relacionada
 
-* [Transportadoras > DHL](https://docs.magento.com/user-guide/shipping/dhl.html) no guia do usuário
-* [Métodos de entrega](https://docs.magento.com/user-guide/configuration/sales/delivery-methods.html) em nosso guia do usuário
+* [Transportadoras > DHL](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl) no guia do usuário
+* [Métodos de entrega](https://experienceleague.adobe.com/en/docs/commerce-admin/config/sales/delivery-methods) em nosso guia do usuário

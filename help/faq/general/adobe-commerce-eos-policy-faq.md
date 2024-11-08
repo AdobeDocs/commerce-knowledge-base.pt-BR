@@ -3,7 +3,7 @@ title: Perguntas frequentes sobre o fim do suporte ao software Adobe Commerce
 description: As Perguntas frequentes a seguir têm como objetivo ajudar comerciantes, desenvolvedores e parceiros a entender as implicações da data de EOS (End of Support, fim de suporte) publicada pela Adobe Commerce para as versões afetadas do Adobe Commerce.
 exl-id: ec147307-46eb-4a3a-8572-a014b091c58a
 feature: Best Practices, Compliance, Console
-source-git-commit: f11c8944b83e294b61d9547aefc9203af344041d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '1733'
 ht-degree: 0%
@@ -18,7 +18,7 @@ As Perguntas frequentes a seguir têm como objetivo ajudar comerciantes, desenvo
 
 ### Onde posso encontrar as datas de suporte de software para todas as versões do Adobe Commerce?
 
-Você pode encontrar a política de ciclo de vida do software Adobe Commerce e as datas de suporte ao software na [Política de ciclo de vida do software Adobe Commerce](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf). Também publicamos datas de fim de suporte (EOS) em nossa [página de documentação do desenvolvedor](https://devdocs.magento.com/release/released-versions.html).
+Você pode encontrar a política de ciclo de vida do software Adobe Commerce e as datas de suporte ao software na [Política de ciclo de vida do software Adobe Commerce](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf). Também publicamos datas de fim de suporte (EOS) em nossa [página de documentação do desenvolvedor](https://experienceleague.adobe.com/en/docs/commerce-operations/release/versions).
 
 ### O que significa quando o Adobe encerra o suporte para uma versão do software Adobe Commerce?
 
@@ -70,7 +70,7 @@ Sua plataforma comercial é um sistema comercial importante para sua empresa e m
 
 A migração para a versão mais recente do software Adobe Commerce pode demorar tempo e recursos para ser bem executada. É prática recomendada planejar o máximo possível antes do fim do suporte, para ajudar a garantir que você tenha o tempo e os recursos apropriados para atingir suas metas estratégicas dentro do cronograma e do orçamento. Para ajudá-lo com a próxima atualização, o Adobe publicou o [Guia de Atualização do 2.4](https://experienceleague.adobe.com/docs/commerce-operations/assets/adobe-commerce-2-4-upgrade-guide.pdf), que inclui as práticas recomendadas e as etapas técnicas a serem seguidas, bem como as ferramentas e os recursos a serem usados ao executar a atualização.
 
-Outra consideração importante é reservar recursos de desenvolvedores e parceiros o mais rápido possível. O tempo e os recursos dos parceiros são reservados com frequência bem antes do fim do suporte, resultando em um número significativamente menor de recursos para ajudar nos projetos de migração. Recomenda-se que você tenha um plano rotativo de três anos, que deve ser discutido no mínimo anualmente e que garanta que o próximo ano seja planejado e orçado. Use o [calendário de lançamento do Adobe](https://devdocs.magento.com/release/) para acompanhar as datas de lançamento.
+Outra consideração importante é reservar recursos de desenvolvedores e parceiros o mais rápido possível. O tempo e os recursos dos parceiros são reservados com frequência bem antes do fim do suporte, resultando em um número significativamente menor de recursos para ajudar nos projetos de migração. Recomenda-se que você tenha um plano rotativo de três anos, que deve ser discutido no mínimo anualmente e que garanta que o próximo ano seja planejado e orçado. Use o [calendário de lançamento do Adobe](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/schedule) para acompanhar as datas de lançamento.
 
 ### Posso usar um provedor de serviços terceirizado para suporte de software quando o Suporte da Adobe Commerce for interrompido?
 

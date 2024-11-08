@@ -4,7 +4,7 @@ description: Este artigo fornece uma solução alternativa para o problema conhe
 exl-id: a0cca226-4d95-40b3-bd37-f13d28591366
 feature: Checkout, Orders, Storefront
 role: Admin
-source-git-commit: d51fd4d7b064b8eea6cd3771af279b74a8bdec48
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -58,4 +58,4 @@ Artigos sobre problemas conhecidos do Adobe Commerce 2.3.5 na base de conhecimen
 
 Em nossa documentação do desenvolvedor:
 
-* [Problemas conhecidos do Adobe Commerce 2.3.5](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#known-issues)
+* [Problemas conhecidos do Adobe Commerce 2.3.5](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#known-issues)

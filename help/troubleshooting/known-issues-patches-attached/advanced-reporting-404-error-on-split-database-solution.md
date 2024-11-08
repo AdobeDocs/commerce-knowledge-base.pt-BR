@@ -1,10 +1,10 @@
 ---
 title: Erro 404 do Advanced Reporting na solução de banco de dados dividido
-description: Este artigo fornece um patch para usuários do Adobe Commerce 2.3.x com a [solução de banco de dados dividido](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master.html) que enfrentam um erro 404 ao tentar usar o Relatórios avançados.
+description: Este artigo fornece um patch para usuários do Adobe Commerce 2.3.x com a [solução de banco de dados dividido](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/split-db/multi-master) que enfrentam um erro 404 ao tentar usar o Relatórios avançados.
 exl-id: b81d4ada-5f38-4882-bc5b-ab4ccd63fc5f
 feature: Commerce Intelligence
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Erro 404 do Advanced Reporting na solução de banco de dados dividido
 
-Este artigo fornece um patch para usuários do Adobe Commerce 2.3.x com a [solução de banco de dados dividido](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master.html) que experimentam um erro 404 ao tentar usar o Relatórios Avançados.
+Este artigo fornece um patch para usuários do Adobe Commerce 2.3.x com a [solução de banco de dados dividido](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/split-db/multi-master) que experimentam um erro 404 ao tentar usar o Relatórios Avançados.
 
 ## Produtos e versões afetados
 

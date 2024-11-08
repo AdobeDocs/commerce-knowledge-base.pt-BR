@@ -4,7 +4,7 @@ description: Este artigo fornece recomendações sobre como resolver o problema 
 exl-id: ba268945-2a10-4af5-8089-cde21f0687bd
 feature: GraphQL
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 0%
@@ -42,9 +42,9 @@ Isso mostrará um relatório de compatibilidade. Se você tiver incompatibilidad
 Consulte a documentação a seguir para obter instruções sobre como atualizar:
 
 * Para atualizações de PWA Studio, procure a seção &quot;Atualizando de uma versão anterior&quot; das [notas de versão de PWA](https://github.com/magento/pwa-studio/releases/) para a versão para a qual você precisa atualizar.
-* [Atualize o Adobe Commerce na versão de infraestrutura na nuvem](https://devdocs.magento.com/cloud/project/project-upgrade.html) em nossa documentação do desenvolvedor
-* [Atualize o Adobe Commerce local (instalado usando &quot;composer create-project&quot; ou arquivo)](https://devdocs.magento.com/guides/v2.3/comp-mgr/cli/cli-upgrade.html) em nossa documentação do desenvolvedor
-* [Atualize o Adobe Commerce local (instalado por meio da clonagem do Adobe Commerce repo)](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/dev_update-magento.html) em nossa documentação do desenvolvedor
+* [Atualize o Adobe Commerce na versão de infraestrutura na nuvem](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) em nossa documentação do desenvolvedor
+* [Atualize o Adobe Commerce local (instalado usando &quot;composer create-project&quot; ou arquivo)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade) em nossa documentação do desenvolvedor
+* [Atualize o Adobe Commerce local (instalado por meio da clonagem do Adobe Commerce repo)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/developer/git-installs) em nossa documentação do desenvolvedor
 
 ## Leitura relacionada
 

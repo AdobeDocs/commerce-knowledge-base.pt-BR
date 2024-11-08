@@ -4,7 +4,7 @@ description: Este artigo fornece uma correção para um desempenho insatisfatór
 exl-id: 4f20a862-cf54-4196-8a88-101f0c80f8f1
 feature: Best Practices
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 0%
@@ -53,9 +53,9 @@ As ações que podem produzir reindexação completa foram executadas pelo admin
 
 ### Solução
 
-Execute a reindexação somente quando necessário. Para ver as etapas, consulte [Configurar indexadores](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#configure-indexers) em nossa documentação para desenvolvedores. Uma recomendação geral e a prática recomendada é permitir que o mecanismo de reindexação parcial cuide da reindexação de dados sem a necessidade de ação manual de um comerciante. Toda reindexação deve ser feita usando a funcionalidade nativa do Adobe Commerce (Mview). O Mview executa a reindexação parcial, que é a maneira mais eficiente de reindexar dados. Para saber mais sobre o Mview, consulte [Visão geral de indexação: Mview](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview) em nossa documentação para desenvolvedores.
+Execute a reindexação somente quando necessário. Para ver as etapas, consulte [Configurar indexadores](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers) em nossa documentação para desenvolvedores. Uma recomendação geral e a prática recomendada é permitir que o mecanismo de reindexação parcial cuide da reindexação de dados sem a necessidade de ação manual de um comerciante. Toda reindexação deve ser feita usando a funcionalidade nativa do Adobe Commerce (Mview). O Mview executa a reindexação parcial, que é a maneira mais eficiente de reindexar dados. Para saber mais sobre o Mview, consulte [Visão geral de indexação: Mview](https://developer.adobe.com/commerce/php/development/components/indexing/#mview) em nossa documentação para desenvolvedores.
 
 ## Leitura relacionada
 
-* [Visão geral da indexação: como reindexar](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#how-to-reindex) em nossa documentação do desenvolvedor.
+* [Visão geral da indexação: como reindexar](https://developer.adobe.com/commerce/php/development/components/indexing/#how-to-reindex) em nossa documentação do desenvolvedor.
 * [O cache invalidado causa degradação do tempo de resposta](/help/troubleshooting/miscellaneous/invalidated-cache-causes-response-time-degradation.md) em nossa base de dados de conhecimento de suporte.

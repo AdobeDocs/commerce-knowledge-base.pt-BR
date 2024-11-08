@@ -4,7 +4,7 @@ description: Este artigo fornece uma solução para quando as imagens não estiv
 exl-id: 7e6bcebd-edff-437a-9103-2743443d2ed9
 feature: Cache, Categories, Deploy, Storefront
 role: Admin
-source-git-commit: c4d586ca3980acbe4f33c5f2616ef7f3051bc7d3
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Se isso acontecer, você poderá usar o comando Magento para gerar novamente o c
 
 Para fazer isso, você precisa das informações de SSH e da URL de armazenamento disponível por meio do [Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html).
 
-1. SSH para o seu projeto que era uma origem para o [despejo de banco de dados](/help/how-to/general/create-database-dump-on-cloud.md), conforme descrito em [SSH para o ambiente](https://devdocs.magento.com/guides/v2.3/cloud/env/environments-ssh.html#ssh) na documentação do desenvolvedor.
+1. SSH para o seu projeto que era uma origem para o [despejo de banco de dados](/help/how-to/general/create-database-dump-on-cloud.md), conforme descrito em [SSH para o ambiente](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) na documentação do desenvolvedor.
 1. Gere novamente o cache de imagens executando:
 
    ```bash

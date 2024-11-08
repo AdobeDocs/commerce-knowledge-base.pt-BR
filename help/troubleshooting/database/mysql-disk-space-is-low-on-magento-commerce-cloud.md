@@ -4,7 +4,7 @@ description: Este artigo fornece soluções para quando você está tendo muito 
 exl-id: 788c709e-59f5-4062-ab25-5ce6508f29f9
 feature: Catalog Management, Categories, Cloud, Paas, Services
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 0%
@@ -78,7 +78,7 @@ A montagem `/data/mysql` pode ficar cheia devido a vários problemas, como não 
 
 Você pode dar um passo imediato para colocar [!DNL MySQL] de volta no caminho certo (ou evitar que ele fique preso): libere espaço liberando mesas grandes.
 
-Mas uma solução de longo prazo seria alocar mais espaço e seguir as [práticas recomendadas do Banco de Dados](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html), incluindo a habilitação da funcionalidade [Arquivo de Pedidos/Faturas/Remessas](https://docs.magento.com/user-guide/sales/order-archive.html).
+Mas uma solução de longo prazo seria alocar mais espaço e seguir as [práticas recomendadas do Banco de Dados](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html), incluindo a habilitação da funcionalidade [Arquivo de Pedidos/Faturas/Remessas](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-archive).
 
 Veja a seguir detalhes sobre soluções rápidas e de longo prazo.
 
@@ -124,7 +124,7 @@ Verifique se há um arquivo grande `ibtmp1` em `/data/mysql` de cada nó: esse a
 
 >[!WARNING]
 >
->É altamente recomendável criar um backup de banco de dados antes de executar qualquer manipulação e evitá-la durante períodos de carregamento de site alto. Consulte [Despejar seu banco de dados](https://devdocs.magento.com/cloud/project/project-webint-snap.html#db-dump) na documentação do desenvolvedor.
+>É altamente recomendável criar um backup de banco de dados antes de executar qualquer manipulação e evitá-la durante períodos de carregamento de site alto. Consulte [Despejar seu banco de dados](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots) na documentação do desenvolvedor.
 
 Verifique se há tabelas grandes e considere se alguma delas pode ser liberada. Faça isso no nó principal (origem).
 
@@ -132,7 +132,7 @@ Por exemplo, as tabelas com relatórios geralmente podem ser liberadas. Para obt
 
 Se não houver tabelas de relatório enormes, considere liberar `_index` tabelas, apenas para retornar o aplicativo Adobe Commerce de volta ao controle. `index_price` tabelas seriam os melhores candidatos. Por exemplo, `catalog_category_product_index_storeX` tabelas, em que X pode ter valores de &quot;1&quot; até a contagem máxima de armazenamento. Lembre-se de que você precisaria reindexar para restaurar dados nessas tabelas e, no caso de catálogos grandes, esse reindexação pode levar muito tempo.
 
-Depois de liberá-los, aguarde a conclusão da sincronização wsrep. Agora você pode criar backups e executar etapas mais relevantes para adicionar mais espaço, como alocar/comprar mais espaço e habilitar a funcionalidade de [arquivamento de Pedidos/Faturas/Remessas](https://docs.magento.com/user-guide/sales/order-archive.html).
+Depois de liberá-los, aguarde a conclusão da sincronização wsrep. Agora você pode criar backups e executar etapas mais relevantes para adicionar mais espaço, como alocar/comprar mais espaço e habilitar a funcionalidade de [arquivamento de Pedidos/Faturas/Remessas](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-archive).
 
 ### Verificar configurações de log binário
 

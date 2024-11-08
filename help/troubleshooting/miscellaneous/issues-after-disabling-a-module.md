@@ -4,7 +4,7 @@ description: Este artigo fornece uma solução para problemas de funcionalidade 
 exl-id: 517f6993-f09e-4a94-8c57-175ecf9a98a8
 feature: Extensions
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%
@@ -30,6 +30,6 @@ Desabilitar uma saída de módulo em **Lojas** > **Configurações** > **Configu
 
 ## Solução
 
-Se você precisar desabilitar a funcionalidade do módulo, desabilite o módulo conforme descrito em [Habilitar ou desabilitar módulos](https://devdocs.magento.com/guides/v2.1/install-gde/install/cli/install-cli-subcommands-enable.html) na documentação do desenvolvedor.
+Se você precisar desabilitar a funcionalidade do módulo, desabilite o módulo conforme descrito em [Habilitar ou desabilitar módulos](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/manage-modules) na documentação do desenvolvedor.
 
 A funcionalidade de desabilitação de saída do módulo foi removida a partir da versão 2.2.0.
