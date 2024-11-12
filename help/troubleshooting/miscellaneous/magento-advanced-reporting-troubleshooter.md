@@ -4,7 +4,7 @@ description: Problemas avançados de relatórios no Adobe Commerce podem ser res
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 3b402728be7a80b62f21319d2cf91a92f1ad4a0c
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Se várias moedas base tiverem sido usadas, você não poderá usar a Geração 
 
 Você está usando a [solução de banco de dados dividido](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/split-db/multi-master)?
 
-a. SIM - Use o patch **MDVA-26831** no [Erro do Advanced Reporting 404 na solução de banco de dados dividido](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-404-error-on-split-database-solution.md) e limpar cache. Aguarde 24 horas para que o trabalho seja executado novamente e tente novamente.\
+a. SIM - Use o patch **MDVA-26831** no erro 404 do Advanced Reporting na solução de banco de dados dividido e limpar cache. Aguarde 24 horas para que o trabalho seja executado novamente e tente novamente.\
 b. NÃO - Continue na [Etapa 4](#step-4).
 
 +++
