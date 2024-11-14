@@ -4,9 +4,9 @@ description: Este artigo fornece uma solução para problemas de desempenho com 
 exl-id: 68dfca8a-826c-4476-acaf-a139052b5dcc
 feature: Cache
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 3bcdbd0536ec71cb80ffa3afbcd53c4ae385d2e3
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ As solicitações de AJAX de alta taxa de transferência incluem aquelas relacio
 
 Há três soluções:
 
-* [Atualize para a versão 2.3.4](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version). Se isso não for possível no momento, [instale o patch corrigindo o problema](/help/troubleshooting/known-issues-patches-attached/performance-issues-caused-by-excessive-ajax-requests.md).
+* [Atualize para a versão 2.3.4](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version).
 * Garanta solicitações mais leves (solicitações de cache ou migração para conteúdo privado dos clientes).
 * Reduza o número de solicitações.
 

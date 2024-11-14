@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 692e665558205301f3b7915ce7eb9f3cf0288aff
+source-git-commit: bfbac61b95e895bcea90b6aa2f1190a30de7ba15
 workflow-type: tm+mt
-source-wordcount: '9579'
+source-wordcount: '9559'
 ht-degree: 0%
 
 ---
@@ -965,9 +965,6 @@ ht-degree: 0%
       * [Pacotes rebaixados após a atualização de 2.4.4 para 2.4.4-p1](/help/troubleshooting/known-issues-patches-attached/packages-downgraded-after-upgrading-from-2-4-4-to-2-4-4-p1.md)
       * [O Adobe Commerce 2.3.6, 2.4.1 CAPTCHA no check-out não está funcionando](/help/troubleshooting/known-issues-patches-attached/magento-commerce-2-3-6-2-4-1-captcha-in-checkout-not-working.md)
       * [Email do pedido enviado do endereço de email do servidor](/help/troubleshooting/known-issues-patches-attached/order-email-sent-from-the-server-email-address.md)
-      * [Problemas de desempenho causados por solicitações excessivas do Ajax](/help/troubleshooting/known-issues-patches-attached/performance-issues-caused-by-excessive-ajax-requests.md)
-      * [A remoção da atualização de preparo exclui a entidade relacionada](/help/troubleshooting/known-issues-patches-attached/removing-staging-update-deletes-related-entity.md)
-      * [O Google Analytics não está rastreando dados de conversão](/help/troubleshooting/known-issues-patches-attached/google-analytics-is-not-tracking-conversion-data.md)
       * [Adobe Commerce 2.4.1 e 2.3.6 criam um hotfix de botão de conta desativado](/help/troubleshooting/known-issues-patches-attached/2-4-1-and-2-3-6-create-an-account-button-disabled-hotfix.md)
       * [Ordem de inserção de erros do Adobe Commerce 2.4.6 no painel Admin](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-6-error-placing-order-from-admin-panel.md)
       * [[!UICONTROL salesRule] problemas de rótulo ao atualizar de versões &lt; 2.4.5](/help/troubleshooting/known-issues-patches-attached/salesrule-label-issues-when-upgrade-from-versions-under-2-4-5.md)
