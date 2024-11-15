@@ -4,9 +4,9 @@ description: Este artigo fornece uma solução alternativa para o problema conhe
 exl-id: a0cca226-4d95-40b3-bd37-f13d28591366
 feature: Checkout, Orders, Storefront
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: b3d39e6b02728f05f046adf7be94ffacbca944d5
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -46,9 +46,6 @@ Os clientes podem atualizar a página Pedido e as informações no Resumo de Ped
 Artigos sobre problemas conhecidos do Adobe Commerce 2.3.5 na base de conhecimento de suporte:
 
 * [Pedidos de vários envios com um produto virtual não processado corretamente no Adobe Commerce 2.3.5](/help/troubleshooting/miscellaneous/magento-2-3-5-known-issue-virtual-product-multi-ship-orders.md)
-
-* [Problema do método de pagamento do país no Adobe Commerce na infraestrutura em nuvem e no Adobe Commerce no local 2.3.5 e 2.3.5-p1](/help/troubleshooting/known-issues-patches-attached/magento-2-3-5-2-3-5-p1-patch-country-payment-issue.md)
-
 
 * [Problema conhecido na contagem de produtos da ação em massa no Adobe Commerce 2.3.5](/help/troubleshooting/miscellaneous/bulk-action-product-count-known-issue-in-magento-2-3-5.md)
 
