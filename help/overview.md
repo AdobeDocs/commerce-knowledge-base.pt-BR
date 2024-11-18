@@ -4,9 +4,9 @@ description: Tudo o que você precisa saber para solucionar problemas e manter s
 exl-id: feacf38f-2803-4170-a64f-5d7c4567432d
 feature: Support
 role: Admin
-source-git-commit: 607b835da518536196654734f62d78d095099476
+source-git-commit: 52d07e5a5bb7be492f6799d0e5ad9fd49c3a61ae
 workflow-type: tm+mt
-source-wordcount: '1615'
+source-wordcount: '1074'
 ht-degree: 0%
 
 ---
@@ -43,209 +43,137 @@ As informações nesta Base de Dados de Conhecimento foram criadas como compleme
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25075">A Ferramenta de Verificação de Segurança retorna "Não é possível determinar se o servidor usa 2FA":</a> Para resolver o erro, verifique se o módulo <code>Magento_TwoFactorAuth</code> foi desabilitado. Para ser aprovado na verificação, em geral, ele deve estar ativado.
+    <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25234">Transferência de licença devido à reestruturação:</a> este artigo ajudará você a fazer a transição da propriedade de sua conta da Adobe Commerce com facilidade, incluindo todas as etapas essenciais necessárias para manter seus serviços em execução sem interrupções.
     </td>
     <td>Novo artigo </td>
-    <td>17 de outubro de 2024</td>
+    <td>14 de novembro de 2024</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-51/acsd-60632-address-saved-on-every-order-attempt">ACSD-60632: Endereço salvo com cada tentativa de pedido:</a> O patch ACSD-60632 corrige o problema em que um novo endereço é salvo com cada tentativa de posicionamento de pedido, independentemente do pedido ser criado com êxito ou não. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.51 está instalado.
+    <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25289">Atualizações de segurança disponíveis para o Adobe Commerce (APSB24-90):</a> Em 12 de novembro de 2024, o Adobe lançou uma atualização de segurança para os recursos Adobe Commerce (na nuvem e no local) e Magento Open Source alimentados pelos Serviços da Commerce e implantados como SaaS (Software as a Service). Esta atualização elimina uma vulnerabilidade <a href="https://helpx.adobe.com/security/severity-ratings.html">crítica</a>. 
     </td>
     <td>Novo artigo </td>
-    <td>17 de outubro de 2024</td>
+    <td>14 de novembro de 2024</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-51/acsd-60326-graphql-query-error-customer-return-status">ACSD-60326: a consulta do GraphQL sobre o status Retornos do cliente fornece um erro:</a> O patch ACSD-60326 corrige o problema em que ocorre um erro na consulta do GraphQL sobre o status Retornos do cliente. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.51 está instalado.
+    <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25231">O proprietário da conta MageID não pode fazer logon nem enviar um tíquete de suporte:</a> Este artigo aborda o problema do Adobe Commerce em que você não consegue fazer logon em sua conta (MageID) em account.magento.com para enviar um tíquete de suporte.
     </td>
     <td>Novo artigo </td>
-    <td>17 de outubro de 2024</td>
+    <td>14 de novembro de 2024</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-59925-sorting-items-in-media-gallery">ACSD-59925: Classificando itens na Galeria de Mídia por posição no GraphQL:</a> O patch ACSD-59925 corrige o problema em que os itens na Galeria de Mídia não são classificados por posição, levando a uma ordem de exibição incorreta. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.52 está instalado.
+    <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25135">A extensão OOTB do Braintree para Adobe Commerce não é compatível com os campos mais recentes do Visa 3DS:</a> Este artigo explica como cumprir as novas regulamentações do Visa, pois a extensão Braintree pronta para uso da Adobe Commerce não é compatível com os campos mais recentes do Visa 3DS.
     </td>
     <td>Novo artigo </td>
-    <td>17 de outubro de 2024</td>
+    <td>14 de novembro de 2024</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-61322-products-not-assigned-to-shared-catalogue">ACSD-61322: os produtos não atribuídos ao Catálogo Compartilhado estão incluídos no Mapa de Site XML:</a> O patch ACSD-61322 corrige o problema em que produtos/categorias não atribuídos ao Catálogo Compartilhado para o grupo Padrão (Geral) ainda estão incluídos no Mapa de Site XML. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.52 está instalado.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-53/acsd-61528-retrieving-roles-using-graphql-returns-no-results">ACSD-61528: recuperar funções usando o GraphQL não retorna resultados:</a> O patch ACSD-61528 corrige o problema em que a recuperação de funções do administrador da empresa usando o GraphQL sempre retorna um resultado nulo. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.53 está instalado.
     </td>
     <td>Novo artigo </td>
-    <td>17 de outubro de 2024</td>
+    <td>14 de novembro de 2024</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-60590-optimized-bestseller-report-generation">ACSD-60590: Melhorando o desempenho da geração de Relatórios diários agregados dos melhores vendedores:</a> O patch ACSD-60590 corrige o problema em que o Relatório diário agregado dos melhores vendedores leva um tempo significativo para ser gerado para um grande volume de pedidos feitos. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.52 está instalado.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-53/acsd-48318-environment-emulation-nesting-error-in-system-log">ACSD-48318: erro de aninhamento de emulação de ambiente em system.log:</a> O patch ACSD-48318 corrige o problema em que uma mensagem de erro <em>main.ERROR:Aninhamento de emulação de ambiente não é permitido</em> aparece em <code>system.log</code> toda vez que um email de fatura é enviado. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.53 está instalado.
     </td>
     <td>Novo artigo </td>
-    <td>17 de outubro de 2024</td>
+    <td>14 de novembro de 2024</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-59865-cart-price-rule-fix-for-insufficient-quantity-issue">ACSD-59865: a Regra de Preço do Carrinho não cancela as regras anteriores devido à quantidade insuficiente do produto:</a> O patch ACSD-59865 corrige o problema em que o <em>Valor da etapa de quantidade de desconto</em> em <em>Desconto de valor fixo</em>, <em>Percentual de desconto do preço do produto</em> e <em>Comprar X obter Y</em> As Regras de Preço do Carrinho não cancelam mais a ação das regras anteriores. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.52 está instalado.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-59366-delete-teams-with-deactivated-users-not-visible-in-the-team-list">ACSD-59366: excluir equipes com usuários desativados não visíveis na lista de equipes:</a> O patch ACSD-59366 corrige o problema em que ocorre um erro ao tentar excluir uma equipe que contém usuários desativados que não estão visíveis na lista de equipes. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.52 está instalado.
     </td>
     <td>Novo artigo </td>
-    <td>17 de outubro de 2024</td>
+    <td>14 de novembro de 2024</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/error-when-filtering-orders-in-admin">Erro ao filtrar pedidos no Administrador:</a> Este artigo fornece um patch para o problema do Adobe Commerce em que ocorre um erro ao tentar filtrar pedidos no Administrador por data, exibindo a mensagem: <em>Violação de restrição de integridade: 1052 Coluna 'created_at' onde a cláusula é ambígua</em>.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-51/acsd-60234-paypal-shows-an-incorrect-amount-when-discount-is-applied">ACSD-60234: o PayPal mostra um valor incorreto quando o desconto é aplicado:</a> O patch ACSD-60234 corrige o problema em que [!DNL PayPal] mostra um valor incorreto quando o desconto é aplicado por meio do método de pagamento. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.51 está instalado.
     </td>
     <td>Novo artigo </td>
-    <td>17 de outubro de 2024</td>
+    <td>14 de novembro de 2024</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25030">Adobe Commerce: Problemas do JavaScript em linha na página de check-out no modo restrito da Política de Segurança de Conteúdo (CSP):</a> Este artigo fornece explicações e soluções detalhadas para problemas encontrados com o JavaScript personalizado adicionado pelo Administrador da Adobe Commerce e pelo Gerenciador de Tags da Google no Adobe Commerce 2.4.7 durante o check-out quando o <strong>modo restrito da CSP</strong> está habilitado.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-60673-cart-price-rule-fix-for-multiple-payment-methods-at-checkout">ACSD-60673: problema de Regra de Preço do Carrinho corrigido para vários métodos de pagamento no check-out:</a> O patch ACSD-60673 corrige o problema em que os descontos de um [!UICONTROL Cart Price Rule] que usa uma condição de método de pagamento nem sempre são listados nos totais. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.52 está instalado.
     </td>
     <td>Novo artigo </td>
-    <td>17 de outubro de 2024</td>
+    <td>14 de novembro de 2024</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-51/acsd-61195-empty-cart-on-final-graphql-page">ACSD-61195: a solicitação do GraphQL do carrinho falha ao retornar itens na página final:</a> O patch ACSD-61195 corrige o problema em que nenhum item do carrinho é retornado na última página da solicitação do GraphQL do carrinho. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.51 está instalado.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-53/acsd-60584-access-token-created-for-one-website-is-allowed-to-access-information-on-other-websites">ACSD-60584: O token de acesso criado para um site tem permissão para acessar informações em outros sites:</a> O patch ACSD-60584 corrige o problema em que o token de acesso criado para o usuário em um site tem permissão para acessar ou alterar informações do cliente em outros sites. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.53 está instalado.
     </td>
     <td>Novo artigo </td>
-    <td>17 de outubro de 2024</td>
+    <td>14 de novembro de 2024</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-50/acsd-59514-forms-in-admin-with-page-builder-throw-error-in-browser-console">ACSD-59514: Forms no Admin com Page Builder gera um erro no console do navegador:</a> O patch ACSD-59514 corrige o problema em que os formulários no Admin com Page Builder geram o erro <em>O Page Builder foi renderizado por 5 segundos sem liberar bloqueios</em> no console do navegador após o envio do formulário, e as alterações não podem ser salvas. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.50 está instalado.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-60788-fixes-issue-where-custom-scripts-for-google-tag-manager-are-not-executed-due-to-content-security-policy-errors">ACSD-60788: scripts personalizados para o Gerenciador de Marcas do Google não são executados devido a erros de Política de Segurança de Conteúdo:</a> O patch ACSD-60788 corrige o problema em que scripts personalizados para [!DNL Google Tag Manager] não são executados devido a erros de Política de Segurança de Conteúdo. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.52 está instalado.
     </td>
     <td>Novo artigo </td>
-    <td>17 de outubro de 2024</td>
+    <td>14 de novembro de 2024</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-51/acsd-60538-if-product-is-disabled-attributes-dont-show">ACSD-60538: os atributos não aparecem corretamente se o produto estiver desabilitado em <em>Todas as Exibições da Loja</em>:</a> O patch ACSD-60538 corrige o problema em que, se um produto estiver desabilitado em <em>Todas as Exibições da Loja</em> e habilitado somente em escopos específicos de exibição da loja, os atributos do produto não aparecem corretamente na resposta do GraphQL, fazendo com que o produto não seja exibido corretamente. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.51 está instalado.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-61366-setup-command-fails-with-error">ACSD-61366: O comando <code>bin/magento setup:static-content:deploy --jobs 4</code> encontra várias falhas de trabalho com um erro:</a> O patch ACSD-61366 corrige o problema em que o comando <code>bin/magento setup:static-content:deploy --jobs 4</code> encontra várias falhas de trabalho com o erro <em>A porta deve ser configurada dentro do parâmetro de host</em>, apesar de especificar a porta para a conexão DB. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.52 está instalado.
     </td>
     <td>Novo artigo </td>
-    <td>17 de outubro de 2024</td>
+    <td>14 de novembro de 2024</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-50/acsd-58352-return-attribute-labels-for-the-default-store-are-returned-via-graphql-api">ACSD-58352: Os rótulos de atributo de retorno para o armazenamento padrão são retornados por meio da API do GraphQL:</a> O patch ACSD-58352 corrige o problema em que os rótulos de atributo de retorno para o armazenamento padrão são retornados por meio da API do GraphQL quando uma exibição de armazenamento não padrão é especificada no cabeçalho da solicitação. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.50 está instalado.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-51/acsd-60816-newrelic-browser-monitoring-scripts-injected-by-apm-agent-are-not-compliant-with-csp">ACSD-60816: os scripts de monitoramento de navegador New Relic inseridos pelo agente APM não são compatíveis com o CSP:</a> O patch ACSD-60816 corrige o problema em que os [!DNL New Relic] scripts de monitoramento de navegador inseridos pelo agente APM não são compatíveis com a Política de Segurança de Conteúdo (CSP). Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.51 está instalado.
     </td>
     <td>Novo artigo </td>
-    <td>17 de outubro de 2024</td>
+    <td>14 de novembro de 2024</td>
   </tr>
 
 <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-24983">A lista suspensa <em>Trocar Contas</em> está ausente em sua conta:</a> Este artigo fornece uma solução para o problema do Adobe Commerce em que a lista suspensa <em>Trocar Contas</em> está ausente em sua conta, e você perdeu o acesso para enviar tíquetes em nome do comerciante.
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-59952-error-on-deleting-shared-catalog-with-same-group-id-as-another-shared-catalog">ACSD-59952: Erro ao excluir catálogo compartilhado com a mesma ID de grupo de outro catálogo compartilhado:</a> O patch ACSD-59952 corrige o erro lançado ao excluir catálogos compartilhados com o mesmo <code>customer_group_id</code> como outro catálogo compartilhado. Isso impede ainda mais que os usuários criem esses catálogos compartilhados. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.52 está instalado.
     </td>
-    <td>Novo artigo</td>
-    <td>17 de outubro de 2024</td>
-  </tr>
-
-<tr>  
-    <td>
-    <a href = "https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-49/acsd-56979-product-images-removed-after-staging-update-deleted">ACSD-56979: imagens de produto removidas após atualização de preparo excluída:</a> O patch ACSD-56979 corrige o problema em que as imagens de produto são removidas após a exclusão de uma atualização de preparo. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.49 está instalado.  
-    </td>
-    <td>Novo artigo</td>
-    <td>17 de outubro de 2024</td>
+    <td>Novo artigo </td>
+    <td>14 de novembro de 2024</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-50/acsd-48210-store-view-specific-scope-attribute-overrides-global-values">ACSD-48210: os atributos de escopo específicos da exibição de armazenamento substituem os valores globais:</a> O patch ACSD-48210 corrige o problema em que, ao atualizar um atributo <em>Escopo de Site</em> em uma exibição de armazenamento específica, substitui os valores de atributo no escopo global. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.50 está instalado. 
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-51/acsd-59786-graphql-returns-an-error-when-fetching-a-quote-id-for-an-expired-quote">ACSD-59786: o GraphQL retorna um erro ao buscar um <code>quote_id</code> para uma cotação expirada:</a> O patch ACSD-59786 corrige o problema em que uma consulta do GraphQL retorna um erro ao buscar um <code>quote_id</code> para uma cotação expirada. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.51 está instalado.
     </td>
     <td>Novo artigo </td>
-    <td>17 de outubro de 2024</td>
+    <td>14 de novembro de 2024</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-50/acsd-59280-fix-for-reflection-union-type-error">ACSD-59280: erro RefletionUnionType::getName() em instalações 2.4.4-pX:</a> O patch ACSD-59280 corrige o problema em que o erro de chamada para o método indefinido <code>ReflectionUnionType::getName()</code> ocorre durante a instalação das versões 2.4.4-pX. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.50 está instalado. 
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-51/acsd-59967-javascript-error-prevents-google-maps-from-rendering-correctly">ACSD-59967: o erro do JavaScript impede que o Google Maps seja renderizado corretamente:</a> O patch ACSD-59967 corrige o problema em que o erro do JavaScript impede que o [!DNL Google Maps] seja renderizado corretamente. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.51 está instalado.
     </td>
     <td>Novo artigo </td>
-    <td>17 de outubro de 2024</td>
+    <td>14 de novembro de 2024</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-50/acsd-54887-customer-shopping-cart-gets-cleared-after-session-expiry">ACSD-54887: o carrinho de compras do cliente é limpo após a expiração da sessão do cliente:</a> O patch ACSD-54887 corrige o problema em que o carrinho de compras do cliente é limpo após a expiração da sessão do cliente com o <em>Carrinho de compras persistente</em> habilitado. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.50 está instalado. 
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-53/acsd-59930-improves-performance-of-company-flows">ACSD-59930: melhora o desempenho dos fluxos da empresa:</a> O patch ACSD-59930 corrige o problema em que um erro <em>Tempo limite</em> é exibido no painel de administração ao criar, salvar ou excluir uma empresa com um administrador que tenha mais de 1000 endereços no catálogo de endereços. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.53 está instalado.
     </td>
     <td>Novo artigo </td>
-    <td>17 de outubro de 2024</td>
-  </tr>
-
-<tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-50/acsd-60303-admin-order-placement-fix">ACSD-60303: problema de posicionamento de pedido de administrador resolvido com a minificação de HTML habilitada:</a> O patch ACSD-60303 corrige o problema em que um pedido do Administrador não pode ser feito se a minificação de HTML estiver habilitada. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.50 está instalado. 
-    </td>
-    <td>Novo artigo </td>
-    <td>17 de outubro de 2024</td>
-  </tr>
-
-<tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-49/acsd-57045-url-rewrites-cause-infinite-page-looping-after-website-root-unchecked-hierarchy">ACSD-57045: as regravações de URL causam looping de página infinito depois que a <em>Raiz do Site</em> é desmarcada da Hierarquia:</a> O patch ACSD-57045 corrige o problema em que as regravações de URL causam looping de página infinito depois que a <em>Raiz do Site</em> é desmarcada da Hierarquia. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.49 está instalado.
-    </td>
-    <td>Novo artigo </td>
-    <td>17 de outubro de 2024</td>
-  </tr>
-
-<tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-49/ascd-58446-deleting-a-team-with-child-users-or-teams-via-graphql-gives-an-uninformative-error-message">ACSD-58446: excluir uma equipe com usuários ou equipes filho por meio do GraphQL gera uma mensagem de erro não informativa:</a> O patch ACSD-58446 corrige o problema do Adobe Commerce em que a exclusão de uma equipe com usuários ou equipes filho por meio do GraphQL retorna uma mensagem de erro não informativa inconsistente com a interface. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.49 está instalado. 
-    </td>
-    <td>Novo artigo </td>
-    <td>17 de outubro de 2024</td>
-  </tr>
-
-<tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-49/acsd-58375-wrong-youtube-api-key-configuration-causes-an-error-when-adding-a-youtube-video-at-the-store-view-level">ACSD-58735: a chave de API do YouTube configurada incorretamente causa erro ao adicionar vídeo no nível de exibição da loja:</a> O patch ACSD-58735 corrige o problema em que a configuração incorreta da chave de API do YouTube causa um erro ao adicionar um vídeo do YouTube no nível de exibição da loja. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.49 está instalado. 
-    </td>
-    <td>Novo artigo </td>
-    <td>17 de outubro de 2024</td>
-  </tr>
-
-<tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-49/acsd-57086-orders-placed-from-non-default-websites-with-terms-conditions-processed-incorrectly">ACSD-57086: pedidos de sites não padrão com termos e condições habilitados são processados incorretamente:</a> O patch ACSD-57086 corrige o problema em que os pedidos feitos de sites não padrão com termos e condições habilitados não são processados corretamente. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.49 está instalado. 
-    </td>
-    <td>Novo artigo </td>
-    <td>17 de outubro de 2024</td>
-  </tr>
-
-<tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-50/acsd-58141-phpsessid-regenerates-on-post-requests-for-logged-in-customers-with-l2-redis-cache-enabled">ACSD-58141: PHPSESSID é gerado novamente nas solicitações do POST para clientes conectados se o cache L2 Redis estiver habilitado:</a> O patch ACSD-58141 corrige o problema em que o PHPSESSID é regenerado nas solicitações do POST para um cliente conectado se o cache L2 Redis estiver habilitado e o cliente for atualizado pelo administrador. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.50 está instalado. 
-    </td>
-    <td>Novo artigo </td>
-    <td>17 de outubro de 2024</td>
-  </tr>
-
-<tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-50/acsd-58790-fixes-pinch-to-zoom-functionality-on-the-product-detail-page-images-in-mobile-view-on-chrome">ACSD-58790: corrige a funcionalidade de pinçar para zoom nas imagens da página de detalhes do produto na exibição móvel no Chrome:</a> O patch ACSD-58790 corrige o problema do Adobe Commerce em que a imagem na exibição móvel no Chrome não dava zoom na imagem conforme esperado. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.50 está instalado. 
-    </td>
-    <td>Novo artigo </td>
-    <td>17 de outubro de 2024</td>
-  </tr>
-
-<tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-50/acsd-58442-fixes-issue-devices-768px-mobile-view-instead-desktop">ACSD-58442: corrige o problema em que dispositivos com largura de 768px são tratados como móveis, fazendo com que o menu e o cabeçalho sejam carregados no modo de exibição móvel e não na área de trabalho:</a> O patch ACSD-58442 corrige o problema do Adobe Commerce em que dispositivos com largura de 768px são tratados como móveis, fazendo com que o menu e o cabeçalho sejam carregados em um modo de exibição móvel em vez de em um desktop. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.50 está instalado.
-    </td>
-    <td>Novo artigo </td>
-    <td>17 de outubro de 2024</td>
+    <td>14 de novembro de 2024</td>
   </tr>
 </table>
