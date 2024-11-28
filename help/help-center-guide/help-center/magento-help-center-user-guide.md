@@ -3,9 +3,9 @@ title: Guia do usuário de suporte Experience League para Adobe Commerce
 description: Saiba como enviar um tíquete de suporte para o Suporte Experience League, fornecer acesso compartilhado a contas e navegar na Base de conhecimento Adobe Commerce.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 7a70f2c54396f82424e442aca7413c02ebecddb9
+source-git-commit: 7fbedaaf0d4edccc688be24951a7d30a9e774be8
 workflow-type: tm+mt
-source-wordcount: '2770'
+source-wordcount: '2782'
 ht-degree: 0%
 
 ---
@@ -186,7 +186,7 @@ Os casos de suporte são aqueles que você:
 
 #### Veja seus casos
 
-Você pode ver os casos que enviou pessoalmente clicando em **[!UICONTROL My Cases]** no menu à esquerda.
+Você pode ver os casos que enviou pessoalmente clicando em **[!UICONTROL My Cases]** no menu à esquerda. Verifique se você selecionou a Organização correta terminando em &quot;(Commerce)&quot;.
 
 ![casos-suporte-exibição](assets/view_support_cases.png)
 
