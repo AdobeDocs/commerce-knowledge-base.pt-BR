@@ -1,10 +1,10 @@
 ---
-title: "ACSD-50260: os resultados da pesquisa de produtos do GraphQL são limitados"
+title: 'ACSD-50260: os resultados da pesquisa de produtos do GraphQL são limitados'
 description: Aplique o patch ACSD-50260 para corrigir o problema do Adobe Commerce, em que os resultados da pesquisa de produto do GraphQL são limitados a apenas 10.000 resultados.
 exl-id: 89234a72-a633-4f57-923c-cb5bbcea0fd0
 feature: Admin Workspace, Categories, GraphQL, Products, Search
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 0%

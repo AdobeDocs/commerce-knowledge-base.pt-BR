@@ -1,5 +1,5 @@
 ---
-title: "ACSD-54966: correção para reutilizar códigos de cupom após pedidos com falha"
+title: 'ACSD-54966: correção para reutilizar códigos de cupom após pedidos com falha'
 description: Aplique o patch ACSD-54966 para corrigir o problema do Adobe Commerce, impedindo a reutilização de códigos de cupom limitados por promoções e carrinho de compras após um pedido que falhou anteriormente.
 feature: Promotions/Events, Shopping Cart, Orders
 role: Admin, Developer

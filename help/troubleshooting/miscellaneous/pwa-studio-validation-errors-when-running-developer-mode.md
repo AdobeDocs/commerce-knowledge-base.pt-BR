@@ -1,6 +1,6 @@
 ---
-title: "PWA Studio: Erros de validação ao executar o modo de desenvolvedor"
-description: Este tópico discute uma solução para quando ocorrem erros de validação ao executar o modo de desenvolvedor no Progressive Web App (PWA) Studio for Adobe Commerce como resultado de não ter criado anteriormente o conceito venia (Venia é uma loja de PWA). arquivo de ambiente. Esse arquivo manterá as variáveis para o ambiente de desenvolvimento local.
+title: 'PWA Studio: Erros de validação ao executar o modo de desenvolvedor'
+description: Este tópico discute uma solução para quando ocorrem erros de validação ao executar o modo de desenvolvedor no Estúdio de aplicativo web progressivo (PWA) para Adobe Commerce como resultado de não ter criado anteriormente o arquivo de ambiente venia-concept (Venia é uma loja de PWA). Esse arquivo manterá as variáveis para o ambiente de desenvolvimento local.
 exl-id: 97d042ef-88e6-4eda-a834-2cff4de276e2
 feature: Configuration
 role: Developer
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # PWA Studio: Erros de validação ao executar o modo de desenvolvedor
 
-Este tópico discute uma solução para quando ocorrem erros de validação ao executar o modo de desenvolvedor no Progressive Web App (PWA) Studio for Adobe Commerce como resultado de não ter criado anteriormente o conceito venia (Venia é uma loja de PWA). arquivo de ambiente. Esse arquivo manterá as variáveis para o ambiente de desenvolvimento local.
+Este tópico discute uma solução para quando ocorrem erros de validação ao executar o modo de desenvolvedor no Estúdio de aplicativo web progressivo (PWA) para Adobe Commerce como resultado de não ter criado anteriormente o arquivo de ambiente venia-concept (Venia é uma loja de PWA). Esse arquivo manterá as variáveis para o ambiente de desenvolvimento local.
 
 ## Produtos e versões afetados
 

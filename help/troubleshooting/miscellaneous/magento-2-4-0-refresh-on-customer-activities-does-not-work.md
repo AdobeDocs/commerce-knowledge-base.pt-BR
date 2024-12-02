@@ -1,5 +1,5 @@
 ---
-title: "Adobe Commerce 2.4.0: a atualização das Atividades do cliente não funciona"
+title: 'Adobe Commerce 2.4.0: a atualização das Atividades do cliente não funciona'
 description: Este artigo fornece uma solução para o problema conhecido do Adobe Commerce 2.4.0 quando um usuário administrador cria um pedido para um cliente e os botões de atualização no painel lateral Atividades do cliente não funcionam.
 exl-id: 50048e9f-6009-4db5-ae4a-c35a84cec265
 feature: Configuration

@@ -1,5 +1,5 @@
 ---
-title: "ACSD-46683: o preço de envio mostra *Ainda não calculado*"
+title: 'ACSD-46683: preço de envio mostra *Ainda não calculado*'
 description: Aplique o patch ACSD-46683 para corrigir o problema do Adobe Commerce em que o preço de envio mostra *Ainda não calculado*.
 exl-id: 77986612-87b7-4f50-afaf-1cfe9a4feb6f
 feature: Marketing Tools, Orders, Shipping/Delivery

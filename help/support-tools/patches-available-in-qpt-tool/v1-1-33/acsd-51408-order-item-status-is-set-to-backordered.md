@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51408: o status do item do pedido está definido incorretamente como [!UICONTROL backordered]"
+title: 'ACSD-51408: O status do item de pedido está definido incorretamente como [!UICONTROL backordered]'
 description: Aplique o patch ACSD-51408 para corrigir o problema do Adobe Commerce em que o status do item do pedido está incorretamente definido como [!UICONTROL backordered].
 feature: B2B, Orders
 role: Admin

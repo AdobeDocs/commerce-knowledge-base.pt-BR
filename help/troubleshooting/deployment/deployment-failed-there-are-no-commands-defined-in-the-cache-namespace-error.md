@@ -1,10 +1,10 @@
 ---
-title: '"Falha na implantação na liberação do cache: ''Não há comandos definidos no erro ''cache'' namespace'''
+title: 'Falha na implantação na liberação de cache: ''Não há comandos definidos no erro ''cache'' namespace'''
 description: Este artigo fornece uma solução para o problema de falha na implantação com o seguinte erro **Não há comandos definidos no namespace do cache**.
 feature: Deploy
 role: Developer
 exl-id: ee2bddba-36f7-4aae-87a1-5dbeb80e654e
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 0%

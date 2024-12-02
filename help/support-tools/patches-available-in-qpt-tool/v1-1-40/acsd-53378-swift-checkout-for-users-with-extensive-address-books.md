@@ -1,10 +1,10 @@
 ---
-title: "ACSD-53378: experiência de check-out aprimorada para clientes com catálogos de endereços extensos"
+title: 'ACSD-53378: experiência de check-out aprimorada para clientes com catálogos de endereços extensos'
 description: Aplique o patch ACSD-53378 para corrigir o problema do Adobe Commerce em que há problemas de desempenho causados por grandes volumes de endereços de clientes.
 feature: Customers, Checkout
 role: Admin
 exl-id: 561462fd-844b-40e0-9ccd-25f7aa9be161
-source-git-commit: 35cd21581ee34a6213be42a79e159439b8856fb6
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 0%

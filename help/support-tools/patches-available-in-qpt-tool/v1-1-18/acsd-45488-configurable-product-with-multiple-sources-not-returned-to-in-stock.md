@@ -1,10 +1,10 @@
 ---
-title: "ACSD-45488: produto configurável com várias fontes não devolvidas ao estoque automaticamente"
+title: 'ACSD-45488: produto configurável com várias fontes que não são retornadas ao estoque automaticamente'
 description: O patch ACSD-45488 resolve o problema em que um produto configurável com várias fontes não é devolvido ao estoque automaticamente. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.18 está instalada. A ID do patch é ACSD-45488. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.6.
 exl-id: 83332226-b14e-4d36-bf65-170f55fff270
 feature: Configuration, Orders, Products, Returns
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%

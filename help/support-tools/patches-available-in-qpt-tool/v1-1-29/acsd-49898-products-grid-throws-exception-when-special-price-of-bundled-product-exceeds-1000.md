@@ -1,5 +1,5 @@
 ---
-title: "ACSD-49898: a grade de produtos aciona uma exceção"
+title: 'ACSD-49898: a grade de produtos aciona uma exceção'
 description: Aplique o patch ACSD-49898 para corrigir o problema do Adobe Commerce em que a grade de produtos lança uma exceção quando um produto empacotado tem um preço especial que excede 1000.
 exl-id: 16a0ec90-7577-46ef-aeb3-a7e9658cf64b
 feature: Admin Workspace, Orders, Products

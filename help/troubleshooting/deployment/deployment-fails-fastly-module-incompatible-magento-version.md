@@ -1,6 +1,6 @@
 ---
 title: Falha na implantação do módulo Fastly na versão incompatível do Adobe Commerce
-description: "ATUALIZADO: 29 de fevereiro de 2019"
+description: 'ATUALIZADO: 29 de fevereiro de 2019'
 exl-id: aab77407-94e5-42de-92f4-2f0c19e24fa4
 feature: Deploy, Extensions
 role: Developer

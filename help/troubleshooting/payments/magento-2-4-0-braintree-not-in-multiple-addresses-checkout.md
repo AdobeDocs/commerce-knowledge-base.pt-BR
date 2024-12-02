@@ -1,5 +1,5 @@
 ---
-title: "Adobe Commerce 2.4.0: o Braintree não está na finalização de vários endereços"
+title: 'Adobe Commerce 2.4.0: o Braintree não está na finalização de vários endereços'
 description: Este artigo fornece uma solução alternativa para um problema conhecido do Adobe Commerce 2.4.0 em que os métodos de pagamento de Braintree não estão incluídos ao trabalhar com a finalização de vários endereços. Observe que o problema foi corrigido no Adobe Commerce 2.4.1.
 exl-id: efde0bba-fd4a-490b-becb-856cb9ea58a5
 feature: Checkout, Compliance, Orders, Payments, Shipping/Delivery

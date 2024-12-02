@@ -1,5 +1,5 @@
 ---
-title: "ACSD-56886: o produto configurável fica indisponível quando os produtos secundários são desativados"
+title: 'ACSD-56886: o produto configurável fica indisponível quando os produtos secundários são desativados'
 description: Aplique o patch ACSD-56886 para corrigir o problema do Adobe Commerce em que o produto configurável fica sem estoque quando os produtos são desativados.
 feature: Products
 role: Admin, Developer

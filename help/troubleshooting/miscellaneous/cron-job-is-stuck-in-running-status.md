@@ -1,5 +1,5 @@
 ---
-title: "O trabalho [!DNL Cron] está preso no status **em execução**"
+title: O trabalho [!DNL Cron] está preso no status **em execução**
 description: Este artigo fornece soluções para quando os trabalhos do Adobe Commerce [!DNL cron]  não terminarem de ser executados e persistirem em um status "em execução", o que impede a execução de outros trabalhos do  [!DNL cron] . Isso pode acontecer por vários motivos, como problemas de rede, falhas em aplicativos e problemas de reimplantação.
 exl-id: 11e01a2b-2fcf-48c2-871c-08f29cd76250
 feature: Configuration

@@ -22,7 +22,7 @@ O QPT v1.1.40 inclui os seguintes patches:
 1. **ACSD-54319**: corrige o problema em que o preço do produto mostra zero no relatório *[!UICONTROL Product in Cart]*.
 1. **ACSD-53378**: melhora o tempo de carregamento da página de check-out para clientes com catálogos de endereços grandes.
 1. **ACSD-52657**: corrige o problema em que o minicart não é atualizado na loja secundária, que usa um subdomínio.
-1. **ACSD-53414**: corrige o problema em que um usuário administrador restrito pode ver páginas CMS fora do escopo de suas permissões.
+1. **ACSD-53414**: corrige o problema em que um usuário administrador restrito pode ver páginas do CMS fora do escopo de suas permissões.
 1. **ACSD-54472**: corrige o problema em que os clientes de uma empresa rejeitada ainda podem se autenticar e os clientes de uma empresa bloqueada e rejeitada ainda podem fazer pedidos. O patch adiciona validação adicional para endpoints do GraphQL.
 1. **ACSD-52801**: adiciona a opção de fazer uma correspondência parcial ao pesquisar produtos no GraphQL.
 1. **ACSD-55004**: corrige o problema em que o validador falha ao carregar um arquivo de importação maior que o valor configurado em `php.ini`.

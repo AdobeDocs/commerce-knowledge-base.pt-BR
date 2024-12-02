@@ -1,10 +1,10 @@
 ---
-title: "ACSD-47704: o produto empacotado mostra o preço dos produtos em estoque somente"
+title: 'ACSD-47704: o produto empacotado mostra o preço dos produtos em estoque somente'
 description: Aplique o patch ACSD-47704 para corrigir o problema do Adobe Commerce em que um produto incluído mostra somente o preço dos produtos em estoque.
 exl-id: 91fbeaf7-4bc2-49b1-a561-c3e63f193eaa
 feature: Admin Workspace, Customer Service, Orders, Products
 role: Admin
-source-git-commit: 3eeb86c2644f8a04ddcf5e205bc400d2ca9969af
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 0%

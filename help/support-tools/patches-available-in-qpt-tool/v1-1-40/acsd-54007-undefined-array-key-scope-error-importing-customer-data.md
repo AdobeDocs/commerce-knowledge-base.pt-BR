@@ -1,5 +1,5 @@
 ---
-title: "ACSD-54007: erro de _escopo de chave de matriz indefinida ao importar dados do cliente"
+title: 'ACSD-54007: erro de _escopo da chave de matriz indefinida ao importar dados do cliente'
 description: Aplique o patch ACSD-54007 para corrigir o problema do Adobe Commerce em que um erro de _escopo de chave de matriz indefinida é exibido ao importar dados do cliente.
 feature: Data Import/Export
 role: Admin, Developer

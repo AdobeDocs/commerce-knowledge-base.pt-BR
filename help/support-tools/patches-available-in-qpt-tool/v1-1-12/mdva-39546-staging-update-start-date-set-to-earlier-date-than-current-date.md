@@ -1,5 +1,5 @@
 ---
-title: "MDVA-39546: A data de início da Atualização de Preparo pode ser definida como uma data anterior à data atual"
+title: 'MDVA-39546: A data de início da Atualização de Preparo pode ser definida como uma data anterior à data atual'
 description: O patch MDVA-39546 corrige o problema em que a data de início da Atualização de preparo pode ser definida como uma data anterior à data atual. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12 está instalada. A ID do patch é MDVA-39546. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.5.
 exl-id: a66b5d83-2eba-45a6-9eb9-4ba39ef20e16
 feature: Staging

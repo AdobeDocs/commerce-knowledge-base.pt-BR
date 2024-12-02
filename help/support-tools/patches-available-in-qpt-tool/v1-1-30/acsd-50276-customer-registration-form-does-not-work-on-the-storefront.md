@@ -1,5 +1,5 @@
 ---
-title: "ACSD-50276: o formulário de registro do cliente não funciona na loja se o atributo de cliente de seleção múltipla for criado"
+title: 'ACSD-50276: o formulário de registro do cliente não funciona na loja se o atributo de cliente de seleção múltipla for criado'
 description: Aplique o patch ACSD-50276 para corrigir o problema do Adobe Commerce em que o formulário de registro do cliente não funciona na loja se um atributo de cliente de seleção múltipla for criado.
 exl-id: 542eb93a-3719-4e2d-bb1b-87817f0812b4
 feature: Attributes, Storefront

@@ -1,10 +1,10 @@
 ---
 title: Diagnóstico de discrepâncias de receita de comércio eletrônico do Google
-description: '"Este artigo fornece soluções para discrepâncias entre o Google e o Magento Business Intelligence (MBI). O rastreamento de comércio eletrônico do Google ativa a conta do Google Analytics e os painéis do MBI, mas isso faz com que muitos clientes nos perguntem: Ambas as ferramentas devem relatar a mesma quantidade de **pedidos** e **receita**?'''
+description: 'Este artigo fornece soluções para discrepâncias entre o Google e o Magento Business Intelligence (MBI). O rastreamento de comércio eletrônico do Google ativa sua conta Google Analytics e seus painéis MBI, mas isso faz com que muitos clientes nos perguntem: As duas ferramentas devem relatar a mesma quantidade de **pedidos** e **receita**?'
 exl-id: b2e43e70-d234-4338-ae81-fa401416be5a
 feature: Commerce Intelligence
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 0%

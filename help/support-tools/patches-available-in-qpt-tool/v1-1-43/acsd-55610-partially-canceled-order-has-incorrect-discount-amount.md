@@ -1,5 +1,5 @@
 ---
-title: "ACSD-55610: a ordem parcialmente cancelada tem valor de desconto incorreto"
+title: 'ACSD-55610: a ordem parcialmente cancelada tem quantia de desconto incorreta'
 description: Aplique o patch ACSD-55610 para corrigir o problema do Adobe Commerce em que um pedido parcialmente cancelado tem uma quantia de desconto incorreta.
 feature: Invoices, Orders, Price Rules, Shopping Cart
 role: Admin, Developer

@@ -1,5 +1,5 @@
 ---
-title: "MDVA-40435: o desconto no produto do pacote não é aplicado corretamente por meio do GraphQL"
+title: 'MDVA-40435: Desconto no produto do pacote não é aplicado corretamente via GraphQL'
 description: O patch MDVA-40435 resolve o problema em que o desconto em um produto empacotado não é aplicado corretamente pelo GraphQL. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.4 está instalada. A ID do patch é MDVA-40435. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.4.
 exl-id: 939ba940-35b5-4ab0-81fe-38981246e389
 feature: GraphQL, Orders, Personalization, Products

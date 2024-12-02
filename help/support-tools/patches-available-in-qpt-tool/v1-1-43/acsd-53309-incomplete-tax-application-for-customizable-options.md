@@ -1,10 +1,10 @@
 ---
-title: "ACSD-53309: aplicativo de imposto incompleto para opções personalizáveis e rótulo [!UICONTROL Regular Price]"
+title: 'ACSD-53309: Aplicativo de imposto incompleto para opções personalizáveis e rótulo [!UICONTROL Regular Price]'
 description: Aplique o patch ACSD-53309 para corrigir o problema do Adobe Commerce em que o imposto não é totalmente aplicado no rótulo '[!UICONTROL Regular Price]' quando uma opção personalizável é selecionada.
 feature: Taxes, Shipping/Delivery
 role: Admin, Developer
 exl-id: de9b151e-6f92-4231-9e9f-4818c2961782
-source-git-commit: c903360ffb22f9cd4648f6fdb4a812cb61cd90c5
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 0%

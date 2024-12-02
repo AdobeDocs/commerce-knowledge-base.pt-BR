@@ -1,10 +1,10 @@
 ---
-title: "ACSD-45255: Exceção na página de relatório de Baixo Estoque para usuário administrador restrito"
+title: 'ACSD-45255: Exceção na página de relatório de Baixo Estoque para usuário administrador restrito'
 description: O patch ACSD-45255 resolve o problema em que uma exceção é lançada na página Relatório de baixo estoque para um usuário administrador restrito. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.18 está instalada. A ID do patch é ACSD-45255. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.6.
 exl-id: 4b08500a-384e-4d5b-9563-3f9d1b984349
 feature: Admin Workspace, Orders
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%

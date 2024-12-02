@@ -1,6 +1,6 @@
 ---
 title: Problemas de verificação de preparação do Cron
-description: '"Este artigo fornece soluções para problemas de preparação do cron. Os seguintes são sintomas de problemas cron:'''
+description: 'Este artigo fornece soluções para problemas de preparação do cron. A seguir estão os sintomas de problemas de cron:'
 exl-id: 1f2cee2c-98ad-4cf5-af16-d736fced2a15
 feature: Configuration
 role: Developer

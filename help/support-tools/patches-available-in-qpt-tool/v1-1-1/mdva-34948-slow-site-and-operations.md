@@ -4,7 +4,7 @@ description: O patch do Adobe Commerce MDVA-34948 corrige o problema de lentidã
 exl-id: ba5417b3-a71c-4f1b-877b-4e7206f86660
 feature: Observability, Configuration
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%

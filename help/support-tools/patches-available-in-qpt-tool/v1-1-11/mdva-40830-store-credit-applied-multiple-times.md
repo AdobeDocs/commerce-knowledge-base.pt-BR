@@ -1,5 +1,5 @@
 ---
-title: "MDVA-40830: crédito de armazenamento aplicado várias vezes durante o pedido"
+title: 'MDVA-40830: crédito de armazenamento aplicado várias vezes durante o pedido'
 description: O patch MDVA-40830 corrige o problema em que o crédito da loja é aplicado várias vezes durante a colocação do pedido. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.11 está instalada. A ID do patch é MDVA-40830. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.5.
 exl-id: 218a100a-4500-4ef5-bbdb-fbbd12f2fa26
 feature: Orders, Returns

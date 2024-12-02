@@ -1,5 +1,5 @@
 ---
-title: "MDVA-41139: O produto configurável fica indisponível após a importação do produto"
+title: 'MDVA-41139: O produto configurável fica indisponível após a importação do produto'
 description: O patch MDVA-41139 corrige o problema em que o produto configurável fica indisponível após a importação do produto quando a quantidade do produto simples = 0 para uma de suas origens. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.8 está instalada. A ID do patch é MDVA-41139. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.4.
 exl-id: e90ab578-50b9-4bc4-baf9-de4182e700ae
 feature: Data Import/Export, Configuration, Orders, Products

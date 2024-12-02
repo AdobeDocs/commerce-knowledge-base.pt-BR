@@ -1,5 +1,5 @@
 ---
-title: "MDVA-25631: Não é possível salvar e atualizar segmentos de clientes"
+title: 'MDVA-25631: Não é possível salvar e atualizar segmentos de clientes'
 description: O patch MDVA-25631 resolve o problema em que os usuários não podem salvar e atualizar segmentos de clientes que contêm um grande número de clientes. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.4 está instalada. A ID do patch é MDVA-25631. Observe que o problema foi corrigido no Adobe Commerce 2.4.2.
 exl-id: 4250824b-e347-4ca4-8eaf-4de4d091bfc4
 feature: Customer Service

@@ -1,10 +1,10 @@
 ---
-title: "ACSD-46767: os caches de página [!UICONTROL Category] são invalidados quando a quantidade em estoque é alterada"
+title: 'ACSD-46767: [!UICONTROL Category] os caches de página são invalidados quando a quantidade em estoque é alterada'
 description: Aplique o patch ACSD-46767 para corrigir o problema do Adobe Commerce em que os caches de página do [!UICONTROL Category] são invalidados quando a quantidade em estoque é alterada, mesmo que o produto ainda esteja em estoque.
 feature: Cache, Products, Inventory
 role: Admin, Developer
 exl-id: 39811c03-8518-4975-a128-31537b4706c0
-source-git-commit: b7e2ff7cd259963adb9a113eb8e94acdaa45ba1e
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%

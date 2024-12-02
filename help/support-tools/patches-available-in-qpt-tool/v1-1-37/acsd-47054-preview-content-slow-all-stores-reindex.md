@@ -1,10 +1,10 @@
 ---
-title: "ACSD-47054: a pré-visualização de conteúdo é lenta, pois todas as lojas reindexam"
+title: 'ACSD-47054: a visualização do conteúdo é lenta, pois todas as lojas reindexam'
 description: Aplique o patch ACSD-47054 para corrigir o problema do Adobe Commerce em que a página de visualização é lenta para carregar devido ao reindexação de todas as lojas.
 feature: Page Content
 role: Admin, Developer
 exl-id: 4dc61f78-7038-48ab-a2d3-9b05cf0c9b5c
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%

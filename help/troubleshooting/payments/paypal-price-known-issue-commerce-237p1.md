@@ -1,6 +1,6 @@
 ---
-title: "Adobe Commerce 2.3.7-p1 problema conhecido: total de pedido desatualizado para PayPal"
-description: "Este artigo fornece um patch para um problema conhecido no Adobe Commerce 2.3.7-p1: ao usar o Check-out do PayPal mais de uma vez, os clientes obtêm o produto solicitado anteriormente no carrinho, em vez do novo que estão tentando solicitar."
+title: 'Problema conhecido do Adobe Commerce 2.3.7-p1: total de pedidos desatualizado para PayPal'
+description: 'Este artigo fornece um patch para um problema conhecido no Adobe Commerce 2.3.7-p1: ao usar o Check-out do PayPal mais de uma vez, os clientes obtêm o produto solicitado anteriormente no carrinho, em vez do novo que estão tentando solicitar.'
 exl-id: ceb8f7ad-0cf7-4d42-aded-25d1dd947f5b
 feature: Orders, Payments
 role: Developer

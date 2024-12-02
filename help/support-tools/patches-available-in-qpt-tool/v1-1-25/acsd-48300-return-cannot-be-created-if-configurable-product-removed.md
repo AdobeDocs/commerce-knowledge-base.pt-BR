@@ -1,5 +1,5 @@
 ---
-title: "ACSD-48300: a devolução não pode ser criada se o produto configurável for removido"
+title: 'ACSD-48300: a devolução não pode ser criada se o produto configurável for removido'
 description: Aplique o patch ACSD-48300 para corrigir o problema do Adobe Commerce em que o retorno não pode ser criado se o produto configurável for removido.
 exl-id: 4abbc398-b341-4ff6-9483-9cf8f3dbbfbb
 feature: Admin Workspace, Configuration, Orders, Products, Returns

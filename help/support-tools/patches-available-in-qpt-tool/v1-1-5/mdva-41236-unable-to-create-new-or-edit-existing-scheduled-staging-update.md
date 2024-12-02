@@ -1,5 +1,5 @@
 ---
-title: "MDVA-41236: Não é possível criar atualizações novas ou editar atualizações agendadas existentes para o produto"
+title: 'MDVA-41236: Não é possível criar atualizações novas ou editar atualizações agendadas existentes para o produto'
 description: O patch MDVA-41236 corrige o problema em que os usuários não conseguem criar novas atualizações ou editar atualizações programadas existentes para o produto se a "Data final" tiver sido removida anteriormente. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.5 está instalada. A ID do patch é MDVA-41236. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.5.
 exl-id: 00d6c0af-f248-49f6-aaa2-3ae3c0294832
 feature: Products, Staging

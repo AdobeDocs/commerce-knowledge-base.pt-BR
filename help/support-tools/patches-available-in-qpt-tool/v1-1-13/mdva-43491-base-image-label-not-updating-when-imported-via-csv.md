@@ -1,10 +1,10 @@
 ---
-title: "MDVA-43491: rótulo de imagem base não atualizado quando importado via CSV"
+title: 'MDVA-43491: Rótulo de imagem base não atualizado quando importado via CSV'
 description: O patch MDVA-43491 corrige o problema em que o "base_image_label" não é atualizado quando importado por meio de um arquivo CSV para um site de várias lojas. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.13 está instalada. A ID do patch é MDVA-43491. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.5.
 exl-id: d744423a-f582-4410-8d66-861229cce1b5
 feature: Data Import/Export
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 0%

@@ -1,5 +1,5 @@
 ---
-title: "MDVA-44533: Desconto aplicado incorretamente ao produto filho agrupado"
+title: 'MDVA-44533: Desconto aplicado incorretamente ao produto filho agrupado'
 description: O patch MDVA-44533 corrige o problema em que um desconto é aplicado incorretamente a um produto filho agrupado. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.15 está instalada. A ID do patch é MDVA-44533. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.5.
 exl-id: 84302ed4-d850-45e4-8b5b-44495f9df820
 feature: Orders, Personalization, Products

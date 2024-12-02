@@ -1,10 +1,10 @@
 ---
-title: "ACSD-54111: a imagem em miniatura do produto não é exibida"
+title: 'ACSD-54111: a imagem em miniatura do produto não é exibida'
 description: Aplique o patch ACSD-54111 para corrigir o problema do Adobe Commerce em que todas as imagens são substituídas pela imagem de espaço reservado do produto padrão.
 feature: Products
 role: Admin, Developer
 exl-id: 087786e3-9d61-4fef-8884-8d22fa9170e3
-source-git-commit: a863015920917050106ed5d210d0511515807cc7
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%

@@ -1,5 +1,5 @@
 ---
-title: "ACSD-48448: emissão de condição de corrida durante cancelamentos de pedidos, causando entrada duplicada na tabela inventory_reservation"
+title: 'ACSD-48448: Problema de condição de corrida durante cancelamentos de pedidos, causando entrada duplicada na tabela inventory_reservation'
 description: Aplique o patch ACSD-48448 para corrigir o problema de desempenho do Adobe Commerce em que o problema de condição de corrida ocorre durante os cancelamentos de pedidos, o que causa entradas duplicadas na tabela inventory_reservation.
 feature: Orders, Checkout
 role: Admin

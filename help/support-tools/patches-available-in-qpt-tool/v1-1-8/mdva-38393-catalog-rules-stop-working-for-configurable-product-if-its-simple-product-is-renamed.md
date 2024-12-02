@@ -1,10 +1,10 @@
 ---
-title: "MDVA-38393: As regras do catálogo param de funcionar para o produto configurável se seu produto simples for renomeado"
+title: 'MDVA-38393: As regras do catálogo param de funcionar para o produto configurável se seu produto simples for renomeado'
 description: O patch MDVA-38393 corrige o problema em que as regras de catálogo param de funcionar para um produto configurável se seu produto simples for renomeado. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.8 está instalada. A ID do patch é MDVA-38393. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.4.
 exl-id: a20856c4-8aff-427b-a404-7afe706be06f
 feature: Catalog Management, Categories, Configuration, Products
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%

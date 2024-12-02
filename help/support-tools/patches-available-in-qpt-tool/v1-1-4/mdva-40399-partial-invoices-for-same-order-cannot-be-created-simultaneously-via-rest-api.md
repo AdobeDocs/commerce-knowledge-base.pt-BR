@@ -1,10 +1,10 @@
 ---
-title: "MDVA-40399: faturas parciais para o mesmo pedido não podem ser criadas simultaneamente via API"
+title: 'MDVA-40399: faturas parciais para o mesmo pedido não podem ser criadas simultaneamente via API'
 description: O patch MDVA-40399 corrige o problema em que faturas parciais para o mesmo pedido não podem ser criadas simultaneamente por meio da API Rest. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.4 está instalada. A ID do patch é MDVA-40399. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.4.
 exl-id: 2444ba57-b30b-4fdf-9e5d-988cf7fa8dd1
 feature: REST, Invoices, Orders
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 0%

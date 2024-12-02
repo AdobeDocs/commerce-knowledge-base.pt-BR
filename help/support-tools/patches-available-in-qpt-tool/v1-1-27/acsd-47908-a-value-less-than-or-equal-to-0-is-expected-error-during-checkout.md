@@ -1,5 +1,5 @@
 ---
-title: "ACSD-47908: *Um valor menor ou igual a 0 é esperado* erro durante a finalização"
+title: 'ACSD-47908: erro *Um valor menor ou igual a 0 é esperado* durante a finalização'
 description: Aplique o patch ACSD-47908 para corrigir o erro do Adobe Commerce *Um valor menor ou igual a 0 é esperado* ao selecionar a origem e a quantidade na etapa de envio durante a finalização da compra.
 exl-id: fec90e4b-9cb8-4cd9-9e85-ccada840c896
 feature: Admin Workspace, Checkout, Orders

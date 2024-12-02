@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51645: salvar uma nova regra de preço do carrinho se a extensão Magento_OfflineShipping estiver desativada"
+title: 'ACSD-51645: Salvando uma nova Regra de preço do carrinho se a extensão Magento_OfflineShipping estiver desativada'
 description: Aplique o patch ACSD-51645 para corrigir o problema do Adobe Commerce em que ocorre um erro ao salvar uma nova Regra de preço do carrinho se a extensão Magento_OfflineShipping estiver desativada.
 exl-id: 301086bb-7aab-4e74-93e6-9080eebcb026
 source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc

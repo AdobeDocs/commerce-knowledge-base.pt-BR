@@ -1,5 +1,5 @@
 ---
-title: "Locais de log (diretórios) para plano Pro: Integração, Preparo, Produção"
+title: 'Locais de registro (diretórios) para plano Pro: integração, preparo, produção'
 description: Consulte [Exibir e gerenciar logs](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html) no *Guia de infraestrutura do Commerce na nuvem* para saber onde encontrar os logs de build e implantação, aplicativo e serviço para o seu projeto.
 exl-id: daa79b73-68c2-4c89-bf5e-51c105762774
 feature: Integration, Logs

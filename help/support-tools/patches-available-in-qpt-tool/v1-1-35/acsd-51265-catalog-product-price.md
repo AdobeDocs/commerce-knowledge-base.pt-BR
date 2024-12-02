@@ -1,10 +1,10 @@
 ---
-title: "ACSD-51265: otimizar a reindexação para produtos empacotados"
+title: 'ACSD-51265: Otimizar a reindexação para produtos empacotados'
 description: Aplique o patch ACSD-51265 para corrigir o problema do Adobe Commerce em que o desempenho de reindexação "catalog_product_price" é baixo quando há muitos produtos empacotados no sistema.
 feature: Products, Price Indexer
 role: Admin
 exl-id: ddf23c19-b1ed-4064-adbc-58707eb63cc9
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 0%

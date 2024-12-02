@@ -1,5 +1,5 @@
 ---
-title: "ACSD-53824: a implantação está falhando na atualização da configuração"
+title: 'ACSD-53824: A implantação falha na atualização da configuração'
 description: Aplique o patch ACSD-53824 para corrigir o problema do Adobe Commerce em que a implantação falha na atualização da configuração
 feature: Attributes, Upgrade
 role: Admin, Developer

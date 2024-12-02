@@ -1,5 +1,5 @@
 ---
-title: "ACSD-57003: O status do pedido muda para *Concluído* em vez de mudar para *Processamento*"
+title: 'ACSD-57003: O status do pedido muda para *Concluído* em vez de mudar para *Processamento*'
 description: Aplique o patch ACSD-57003 para corrigir o problema do Adobe Commerce em que o status do pedido muda para *Concluído* em vez de mudar para *Processamento*.
 feature: Orders, Invoices, Shipping/Delivery
 role: Admin, Developer

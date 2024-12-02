@@ -1,5 +1,5 @@
 ---
-title: "ACSD-53098: os produtos no catálogo compartilhado não refletem no front-end"
+title: 'ACSD-53098: os produtos no catálogo compartilhado não refletem no front-end'
 description: Aplique o patch ACSD-53098 para corrigir o problema do Adobe Commerce em que os produtos atribuídos a um catálogo compartilhado não refletem no front-end ao executar um índice parcial.
 feature: B2B, Catalog Management, Categories, Products
 role: Admin, Developer

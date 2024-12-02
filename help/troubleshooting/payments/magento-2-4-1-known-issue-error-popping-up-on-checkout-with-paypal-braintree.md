@@ -1,5 +1,5 @@
 ---
-title: "Problema conhecido do Adobe Commerce 2.4.1: erro ao sair com o PayPal Braintree"
+title: 'Problema conhecido do Adobe Commerce 2.4.1: erro ao aparecer no Check-out com o Braintree do PayPal'
 description: Este artigo descreve um problema conhecido do Adobe Commerce 2.4.1, em que uma mensagem de erro aparece e desaparece na etapa de Faturamento do Check-out se o pagamento do Braintree do PayPal for usado e vários endereços forem selecionados.
 exl-id: db3830b2-4885-4d89-85cd-bdcbd4b396e6
 feature: Checkout, Orders, Payments

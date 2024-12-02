@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51204: o produto não retorna ao estoque após criar o memorando de crédito"
+title: 'ACSD-51204: o produto não retorna ao estoque após criar o memorando de crédito'
 description: Aplique o patch ACSD-51204 para corrigir o problema do Adobe Commerce em que o produto não retorna ao estoque após criar o memorando de crédito.
 feature: Orders, Products, Returns
 role: Admin

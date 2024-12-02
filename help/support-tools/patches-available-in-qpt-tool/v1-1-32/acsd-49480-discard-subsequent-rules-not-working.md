@@ -1,5 +1,5 @@
 ---
-title: "ACSD-49480: descartar regras subsequentes que não estejam funcionando"
+title: 'ACSD-49480: descartar regras subsequentes que não estejam funcionando'
 description: Aplique o patch ACSD-49480 para corrigir o problema do Adobe Commerce em que o [!UICONTROL Cart Price Rule - Discard Subsequent Rules] não está funcionando como esperado.
 exl-id: 8d306a9e-ed1a-4295-8130-81700cbf31a6
 feature: Price Rules

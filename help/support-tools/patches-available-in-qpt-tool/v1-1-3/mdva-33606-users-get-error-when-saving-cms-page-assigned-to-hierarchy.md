@@ -1,5 +1,5 @@
 ---
-title: "MDVA-33606: os usuários recebem um erro ao salvar a página do CMS atribuída à hierarquia"
+title: 'MDVA-33606: Os usuários recebem um erro ao salvar a página do CMS atribuída à hierarquia'
 description: O patch MDVA-33606 resolve o problema em que os usuários obtêm o erro *Violação de restrição exclusiva encontrada* ao salvar uma página do CMS atribuída à árvore de hierarquia. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.3 está instalada. A ID do patch é MDVA-33606. Observe que o problema foi corrigido no Adobe Commerce 2.4.3.
 exl-id: cdefece5-6d13-4003-87e9-810c665e940c
 feature: CMS

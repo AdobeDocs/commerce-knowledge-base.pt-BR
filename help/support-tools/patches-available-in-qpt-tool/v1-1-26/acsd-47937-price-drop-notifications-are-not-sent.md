@@ -1,10 +1,10 @@
 ---
-title: "ACSD-47937: notificações de queda de preço não enviadas devido ao cache no nível do aplicativo"
+title: 'ACSD-47937: notificações de queda de preço não enviadas devido ao armazenamento em cache no nível do aplicativo'
 description: Aplique o patch ACSD-47937 para corrigir o problema do Adobe Commerce em que as notificações de queda de preço nem sempre são enviadas devido ao armazenamento em cache no nível do aplicativo.
 exl-id: f39c9ef6-4689-427f-bd61-3a52dec88be2
 feature: Admin Workspace, Cache, Orders
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 0%

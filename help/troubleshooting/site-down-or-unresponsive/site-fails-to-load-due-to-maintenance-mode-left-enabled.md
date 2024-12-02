@@ -1,6 +1,6 @@
 ---
 title: Falha ao carregar o site devido ao modo de manutenção deixado habilitado
-description: "Este artigo fornece uma correção para quando o site não é carregado porque o modo de manutenção está ativado ou não foi desativado automaticamente. Você pode receber uma mensagem de erro: *Serviço temporariamente indisponível O servidor está temporariamente incapaz de atender à sua solicitação devido a tempo de inatividade de manutenção ou problemas de capacidade.*"
+description: 'Este artigo fornece uma correção para quando o site não é carregado porque o modo de manutenção está ativado ou não foi desativado automaticamente. Você pode receber uma mensagem de erro: *Serviço temporariamente indisponível O servidor está temporariamente incapaz de atender à sua solicitação devido a tempo de inatividade de manutenção ou problemas de capacidade.*'
 exl-id: 77e01588-e135-4d24-a0c4-1a6ee123f4a8
 feature: Support
 role: Developer

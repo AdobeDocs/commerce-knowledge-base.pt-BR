@@ -1,10 +1,10 @@
 ---
-title: "ACSD-45241: quantidade de estoque do produto virtual calculada incorretamente"
+title: 'ACSD-45241: quantidade de estoque do produto virtual calculada incorretamente'
 description: O patch ACSD-45241 corrige o problema em que a quantidade em estoque do produto virtual é calculada incorretamente após a criação de um memorando de crédito. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.17 está instalada. A ID do patch é ACSD-45241. Observe que o problema foi corrigido no Adobe Commerce 2.4.4.
 exl-id: 4be97da9-d399-419a-816e-cf65f15cc3be
 feature: Orders, Products
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%

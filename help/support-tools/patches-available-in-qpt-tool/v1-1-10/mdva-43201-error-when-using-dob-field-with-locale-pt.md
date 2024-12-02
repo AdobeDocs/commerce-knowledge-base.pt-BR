@@ -1,10 +1,10 @@
 ---
-title: "MDVA-43201: Erro ao usar o campo DOB com PT de localidade"
+title: 'MDVA-43201: erro ao usar o campo DOB com PT de localidade'
 description: O patch MDVA-43201 resolve o problema em que ocorre um erro ao usar o atributo do cliente DOB no formulário de registro do cliente para a localidade portuguesa. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.10 está instalada. A ID do patch é MDVA-43201. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.4.
 exl-id: 02979378-adc1-4a1a-93bf-a35ad50e6b80
 feature: B2B, Cache
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%

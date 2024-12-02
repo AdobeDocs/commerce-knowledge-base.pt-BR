@@ -1,10 +1,10 @@
 ---
-title: "MDVA-40401: valor de uso do cupom muda após falha no pedido"
+title: 'MDVA-40401: o valor de uso do cupom muda após uma ordem com falha'
 description: O patch MDVA-40401 corrige o problema em que o valor de uso do cupom muda mesmo após um pedido com falha. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.4 está instalada. A ID do patch é MDVA-40401. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.4.
 exl-id: c497ee84-9c20-4c75-ad3a-3b71f699acbf
 feature: Orders
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%

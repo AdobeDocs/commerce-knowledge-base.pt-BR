@@ -1,5 +1,5 @@
 ---
-title: "ACSD-47107: a regra de preço do catálogo é aplicada às opções personalizadas"
+title: 'ACSD-47107: a regra de preço do catálogo é aplicada às opções personalizadas'
 description: Aplique o patch ACSD-47107 para corrigir o problema do Adobe Commerce em que a regra de preço de catálogo é aplicada às opções personalizadas.
 exl-id: 5de2a87e-90c1-4a2a-a75c-7f9ca766868e
 feature: Catalog Management, Orders, Price Rules

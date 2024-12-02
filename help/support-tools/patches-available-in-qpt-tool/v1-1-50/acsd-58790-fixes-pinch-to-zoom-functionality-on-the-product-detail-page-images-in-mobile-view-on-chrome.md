@@ -1,15 +1,15 @@
 ---
-title: "ACSD-58790: corrige a funcionalidade de pinçar para zoom nas imagens da página de detalhes do produto na exibição móvel no [!DNL Chrome]"
+title: 'ACSD-58790: corrige a funcionalidade de pinçar para zoom nas imagens da página de detalhes do produto na exibição móvel no [!DNL Chrome]'
 description: ACSD-58790 corrige o problema do Adobe Commerce em que a imagem na exibição móvel em  [!DNL Chrome]  não dava zoom na imagem conforme esperado.
 feature: Storefront
 role: Admin, Developer
-source-git-commit: 51c740dc70937c7b80d8492d02ee4a758f103a35
+exl-id: 0985534c-49af-439a-8859-39222dedcf67
+source-git-commit: a84c3d296deb49d419be78f454696177a974d923
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
 
 ---
-
 
 # ACSD-58790: corrige a funcionalidade de pinçar para zoom nas imagens da página de detalhes do produto na exibição móvel no [!DNL Chrome]
 

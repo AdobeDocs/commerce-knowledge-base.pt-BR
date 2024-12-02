@@ -1,5 +1,5 @@
 ---
-title: "ACSD-49042: o produto com backorder infinito não pode ser encomendado na loja"
+title: 'ACSD-49042: O produto com backorder infinito não pode ser encomendado na loja'
 description: Aplique o patch ACSD-49042 para corrigir o problema do Adobe Commerce em que um produto com backorder infinito não pode ser solicitado na loja.
 exl-id: b9227296-f300-447c-a241-30ccc0691c9a
 feature: Admin Workspace, Orders, Products, Storefront

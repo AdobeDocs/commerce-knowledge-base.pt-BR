@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-52606: Mensagem de erro exibida quando o usuário clica em "Notificar pedido pronto para retirada"'
+title: 'ACSD-52606: Mensagem de erro exibida quando o usuário clica em "Notificar que a ordem está pronta para retirada"'
 description: Aplique o patch ACSD-52606 para corrigir o problema do Adobe Commerce em que uma mensagem de erro é exibida quando o usuário clica em **[!UICONTROL Notify Order is Ready for Pickup]**.
 feature: Orders, User Account
 role: Admin, Developer

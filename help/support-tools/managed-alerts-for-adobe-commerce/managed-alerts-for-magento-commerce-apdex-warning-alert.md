@@ -1,10 +1,10 @@
 ---
-title: "Alertas gerenciados para Adobe Commerce: alerta de aviso Apdex"
+title: 'Alertas gerenciados para Adobe Commerce: alerta de aviso Apdex'
 description: Este artigo fornece etapas de solução de problemas para quando você recebe um alerta de aviso do Apdex para o Adobe Commerce no New Relic. A pontuação do Apdex mede a satisfação dos usuários com o tempo de resposta dos aplicativos e serviços Web. É necessária uma ação imediata para corrigir o problema. O alerta será semelhante ao seguinte, dependendo do canal de notificação de alerta selecionado.
 exl-id: 6e3f28ae-734b-468f-b6a5-c4f2edb1cb4b
 feature: Cache, Marketing Tools, Observability, Support, Tools and External Services
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 0%

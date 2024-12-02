@@ -1,10 +1,10 @@
 ---
-title: "ACSD-51853: os estilos de texto copiados não são aplicados usando o construtor de páginas"
+title: 'ACSD-51853: Estilos de texto copiados não são aplicados usando o construtor de página'
 description: Aplique o patch ACSD-51853 para corrigir o problema do Adobe Commerce em que os estilos de texto copiados não são aplicados quando o Page Builder é usado.
 feature: Page Builder
 role: Admin
 exl-id: 1efd3147-1ae0-468b-af04-1632fbaaefda
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 0%

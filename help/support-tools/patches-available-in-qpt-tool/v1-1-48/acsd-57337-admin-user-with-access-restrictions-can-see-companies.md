@@ -1,5 +1,5 @@
 ---
-title: "ACSD-57337: o usuário administrador com restrições de acesso pode visualizar todas as empresas na grade *Empresas*"
+title: 'ACSD-57337: O usuário administrador com restrições de acesso pode visualizar todas as empresas na grade *Empresas*'
 description: Aplique o patch ACSD-57337 para corrigir o problema do Adobe Commerce em que um usuário administrador com restrições de acesso a sites específicos pode visualizar empresas de todos os sites na grade *Empresas*.
 feature: Companies, B2B, Configuration
 role: Admin, Developer

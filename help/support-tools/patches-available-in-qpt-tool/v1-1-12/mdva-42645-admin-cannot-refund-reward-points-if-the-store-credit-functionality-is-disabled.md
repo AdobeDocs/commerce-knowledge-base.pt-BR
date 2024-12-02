@@ -1,5 +1,5 @@
 ---
-title: "MDVA-42645: o administrador não pode reembolsar pontos de recompensa por crédito de loja desabilitada"
+title: 'MDVA-42645: O administrador não pode reembolsar pontos de recompensa por crédito de loja desabilitada'
 description: O patch MDVA-42645 resolve o problema em que o administrador não pode reembolsar pontos de premiação se a funcionalidade de crédito da loja estiver desativada. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12 está instalada. A ID do patch é MDVA-42645. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.5.
 exl-id: 8e8f8c07-c1a2-4031-a2fb-cb737165dc2c
 feature: Admin Workspace, Orders, Rewards, Returns

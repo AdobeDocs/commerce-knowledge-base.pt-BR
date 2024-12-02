@@ -1,10 +1,10 @@
 ---
-title: "ACSD-51230: a conta do cartão-presente é excluída"
+title: 'ACSD-51230: a conta do cartão-presente é excluída'
 description: Aplique o patch ACSD-51230 para corrigir o problema do Adobe Commerce em que a conta de cartão-presente é excluída quando o reembolso parcial de um produto simples é processado a partir de um pedido.
 exl-id: 4322a175-3641-468a-8a0f-fcbad90c758f
 feature: Customer Service, Gift, Marketing Tools
 role: Admin
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 0%

@@ -1,5 +1,5 @@
 ---
-title: "ACSD-49013: confirmação de email não traduzida para o local do site"
+title: 'ACSD-49013: confirmação de email não traduzida para o local do site'
 description: Aplique o patch ACSD-49013 para corrigir o problema do Adobe Commerce, em que a confirmação por email não é traduzida para o local do site ao criar clientes usando a API em massa.
 exl-id: 68203bd4-021a-4736-a793-4b6663a9c66b
 feature: Admin Workspace, Communications

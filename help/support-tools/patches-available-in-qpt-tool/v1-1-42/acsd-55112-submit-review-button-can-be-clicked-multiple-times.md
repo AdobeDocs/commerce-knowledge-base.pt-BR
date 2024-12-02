@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-55112 para corrigir o problema do Adobe Commer
 feature: Products
 role: Admin, Developer
 exl-id: db202472-1d96-4ac0-8ecd-eab84c9f4cbf
-source-git-commit: b5894687704594a4e751c230246bdf167b1b6402
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%

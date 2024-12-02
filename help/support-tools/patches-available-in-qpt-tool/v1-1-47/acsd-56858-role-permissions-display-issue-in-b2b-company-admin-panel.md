@@ -1,5 +1,5 @@
 ---
-title: "ACSD-56858: discrepância de permissões de função no administrador da empresa B2B"
+title: 'ACSD-56858: discrepância de permissões de função no administrador da empresa B2B'
 description: Aplique o patch ACSD-56858 para corrigir o problema do Adobe Commerce em que as permissões de função são exibidas incorretamente para um administrador de empresa restrita no ambiente B2B.
 feature: Companies, B2B, Roles/Permissions
 role: Admin, Developer

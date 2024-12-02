@@ -1,10 +1,10 @@
 ---
-title: '"Nuvem do Adobe Commerce: a reindexação é encerrada com a mensagem "Eliminado""'
+title: 'Nuvem do Adobe Commerce: a reindexação é finalizada com a mensagem "Killed"'
 description: '* Adobe Commerce na infraestrutura em nuvem (todas as versões)'
 exl-id: 36ed9c9f-8280-41db-9df3-fe842dade4b1
 feature: Cloud, Paas
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 0%

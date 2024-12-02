@@ -1,5 +1,5 @@
 ---
-title: "MDVA-44703: os totais de pedidos no relatório Pedidos são calculados incorretamente"
+title: 'MDVA-44703: os totais de pedidos no relatório Pedidos são calculados incorretamente'
 description: O patch MDVA-44703 corrige o problema em que os totais de pedidos no relatório Pedidos são calculados incorretamente para o usuário administrador restrito. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.16 está instalada. A ID do patch é MDVA-44703. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.6.
 exl-id: d8c31e47-ace6-4dba-a57c-941e722a6aad
 feature: Orders

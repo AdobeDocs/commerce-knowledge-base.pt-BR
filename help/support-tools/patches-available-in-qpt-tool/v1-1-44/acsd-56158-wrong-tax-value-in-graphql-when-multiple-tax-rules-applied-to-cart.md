@@ -1,5 +1,5 @@
 ---
-title: "ACSD-56158: valor de imposto incorreto na resposta do GraphQL quando várias regras de imposto são aplicadas ao carrinho"
+title: 'ACSD-56158: valor de imposto incorreto na resposta do GraphQL quando várias regras de imposto são aplicadas ao carrinho'
 description: Aplique o patch ACSD-56158 para corrigir o problema do Adobe Commerce em que a renderização do valor do imposto na resposta do GraphQL está incorreta quando várias regras de imposto são aplicadas ao carrinho.
 feature: GraphQL, Taxes
 role: Admin, Developer

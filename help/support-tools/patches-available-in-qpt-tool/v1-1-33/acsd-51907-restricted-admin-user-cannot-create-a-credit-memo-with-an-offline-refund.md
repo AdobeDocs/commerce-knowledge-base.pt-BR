@@ -1,8 +1,8 @@
 ---
-title: "ACSD-51907: O usuário administrador restrito não pode criar aviso de crédito para reembolso offline"
+title: 'ACSD-51907: O usuário administrador restrito não pode criar aviso de crédito para reembolso offline'
 description: Aplique o patch ACSD-51907 para corrigir o problema do Adobe Commerce em que o usuário administrador restrito não pode criar um aviso de crédito com um reembolso offline.
 exl-id: 564e8524-f2dc-453c-be78-a920fbd47d71
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 0%

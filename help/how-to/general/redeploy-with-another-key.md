@@ -1,5 +1,5 @@
 ---
-title: "Adobe Commerce na nuvem: altere as chaves de autenticação e reimplante"
+title: 'Adobe Commerce na nuvem: altere as chaves de autenticação e reimplante'
 description: Este artigo fornece instruções sobre como reimplantar o Adobe Commerce na infraestrutura em nuvem com chaves de autenticação diferentes. Por exemplo, você pode ter usado as chaves de outra conta ou pode ter usado chaves Magento Open Source em vez de chaves Adobe Commerce.
 exl-id: 47407c81-5c52-406f-812f-6c6b3ca5cafa
 feature: Cloud, Deploy

@@ -1,10 +1,10 @@
 ---
-title: "Problema conhecido do Adobe Commerce 2.4.0: os botões Criar nova ordem não aparecem"
+title: 'Problema conhecido do Adobe Commerce 2.4.0: os botões Criar novo pedido não aparecem'
 description: Este artigo fornece uma solução alternativa para um problema conhecido no Administrador do Commerce para dois botões ausentes na página de criação de pedidos. Ao criar um novo pedido para um cliente novo ou existente, não é possível adicionar produtos ao pedido do catálogo, pois os botões **Adicionar produtos por SKU** e **Adicionar produtos** estão ausentes. Isso é causado pelo empacotamento de JS que está ativado. Uma correção estará disponível no Adobe Commerce 2.4.1.
 exl-id: 24ae880e-6d74-4444-9165-2744b12af81a
 feature: B2B
 role: Developer
-source-git-commit: a1046621259ea49eab74cd6ba3bba550e0c70283
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%

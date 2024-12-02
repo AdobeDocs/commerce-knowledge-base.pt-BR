@@ -1,15 +1,15 @@
 ---
-title: "ACSD-57086: os pedidos de sites não padrão com termos e condições ativados são processados incorretamente"
+title: 'ACSD-57086: pedidos de sites não padrão com termos e condições ativados são processados incorretamente'
 description: Aplique o patch ACSD-57086 para corrigir o problema do Adobe Commerce em que os pedidos feitos de sites não padrão com termos e condições ativados não são processados corretamente.
 feature: Orders
 role: Admin, Developer
-source-git-commit: ab90568b0333415e73ca42b9c127a2a599f00aa7
+exl-id: 400e3673-9c61-4acd-8e37-e9a2e0bf9379
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 0%
 
 ---
-
 
 # ACSD-57086: pedidos de sites não padrão com termos e condições ativados são processados incorretamente
 

@@ -1,10 +1,10 @@
 ---
-title: "ACSD-48044: a aplicação de vários cartões-presente impede que os pedidos sejam feitos"
+title: 'ACSD-48044: a aplicação de vários cartões-presente impede que os pedidos sejam feitos'
 description: Aplique o patch ACSD-48044 para corrigir o problema do Adobe Commerce, onde a aplicação de vários cartões-presente a um único pedido com vários envios impede que os pedidos sejam feitos.
 exl-id: fe57063c-d69c-4b80-a59c-912c2603f6af
 feature: Admin Workspace, Gift, Orders
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%

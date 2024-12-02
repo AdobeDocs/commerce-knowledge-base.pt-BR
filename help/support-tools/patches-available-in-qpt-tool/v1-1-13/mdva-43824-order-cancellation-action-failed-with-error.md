@@ -4,7 +4,7 @@ description: 'O patch MDVA-43824 resolve o problema em que a ação de cancelame
 exl-id: e4d839d6-84ed-4157-80a1-fd482fef897c
 feature: Orders
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%

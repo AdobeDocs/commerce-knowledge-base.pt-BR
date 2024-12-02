@@ -27,6 +27,6 @@ O QPT v1.1.4 inclui os seguintes patches:
 1. **MDVA-40399**: corrige o problema em que faturas parciais para o mesmo pedido não podem ser criadas simultaneamente via API REST.
 1. **MDVA-40401**: corrige o problema em que o valor de uso do cupom é alterado mesmo se um pedido falhar.
 1. **MDVA-40435**: corrige o problema de um desconto incorreto em produtos de pacote com preços dinâmicos quando aplicados via GraphQL.
-1. **MDVA-40537**: corrige o problema em que os usuários recebem um erro ao criar uma exibição de repositório se existirem várias páginas CMS com a mesma chave de URL.
+1. **MDVA-40537**: corrige o problema em que os usuários recebem um erro ao criar uma exibição de repositório se existirem várias páginas do CMS com a mesma chave de URL.
 
 Use o menu à esquerda para navegar até uma página de patch específica.

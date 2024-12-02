@@ -1,5 +1,5 @@
 ---
-title: "ACSD-50794: não é possível remover invólucro do presente do pedido do cliente via GraphQL"
+title: 'ACSD-50794: não é possível remover invólucro do presente do pedido do cliente via GraphQL'
 description: Aplique o patch ACSD-50794 para corrigir o problema do Adobe Commerce em que os usuários não podem remover a embalagem do presente do pedido do cliente por meio do GraphQL.
 exl-id: 4983910c-9ea0-451e-a2b6-81485184bbce
 feature: Gift, GraphQL, Orders

@@ -1,5 +1,5 @@
 ---
-title: "MDVA-40175: botões de opção não exibidos ao reordenar"
+title: 'MDVA-40175: botões de opção não exibidos ao reordenar'
 description: O patch MDVA-40175 resolve o problema em que os botões de opção não são exibidos quando os usuários tentam fazer um novo pedido. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.10 está instalada. A ID do patch é MDVA-40175. Observe que o problema foi corrigido no Adobe Commerce 2.4.3.
 exl-id: 307c450d-9f53-40b7-b2f5-d867850c043a
 feature: Admin Workspace, Orders

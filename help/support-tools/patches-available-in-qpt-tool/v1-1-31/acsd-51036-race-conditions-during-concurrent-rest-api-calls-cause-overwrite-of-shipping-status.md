@@ -1,10 +1,10 @@
 ---
-title: "ACSD-51036: as condições de corrida durante chamadas de API REST simultâneas resultam em uma substituição do status do envio"
+title: 'ACSD-51036: As condições de corrida durante chamadas de API REST simultâneas resultam em uma substituição do status do envio'
 description: Aplique o patch ACSD-51036 para corrigir o problema do Adobe Commerce em que há condições de corrida durante chamadas de API REST simultâneas, resultando em uma substituição do status de envio na tabela itens solicitados.
 exl-id: 12d90de7-fe5c-4fcc-b84a-d420dcd871ca
 feature: REST, Orders, Shipping/Delivery
 role: Admin
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 0%

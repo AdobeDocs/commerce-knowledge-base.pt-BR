@@ -1,5 +1,5 @@
 ---
-title: "MDVA-39966: Não é possível implantar locais diferentes de en_US"
+title: 'MDVA-39966: Não é possível implantar locais diferentes de en_US'
 description: O patch MDVA-39966 resolve o problema em que o usuário não consegue implantar locais diferentes de en_US. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2 está instalada. A ID do patch é MDVA-39966. Observe que o problema foi corrigido no Adobe Commerce versão 2.4.1.
 exl-id: fc0f5ef4-f6be-4f0d-af8d-803b411510a9
 feature: Deploy

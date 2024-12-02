@@ -1,5 +1,5 @@
 ---
-title: "ACSD-56621: nomes atualizados não exibidos no cabeçalho de saudações para o usuário administrador da empresa"
+title: 'ACSD-56621: nomes atualizados não exibidos no cabeçalho de saudações para o usuário administrador da empresa'
 description: Aplique o patch ACSD-56621 para corrigir o problema do Adobe Commerce em que o nome e o sobrenome atualizados do usuário administrador de empresa não são refletidos na seção do cabeçalho de saudações.
 feature: Companies, B2B, User Account
 role: Admin, Developer

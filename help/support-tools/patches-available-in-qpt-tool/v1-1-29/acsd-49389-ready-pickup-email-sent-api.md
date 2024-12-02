@@ -1,5 +1,5 @@
 ---
-title: "ACSD-49389: pronto para recebimento de email enviado pela API quando não estiver pronto para recebimento"
+title: 'ACSD-49389: pronto para recebimento de email enviado pela API quando não estiver pronto para recebimento'
 description: Aplique o patch ACSD-49389 para corrigir o problema do Adobe Commerce em que um email pronto para recebimento é enviado pela API quando o pedido não está pronto para recebimento.
 exl-id: a1baae06-cf36-448b-bda4-aff1e5ca68db
 feature: REST, Communications
@@ -43,7 +43,7 @@ Um email pronto para coleta é enviado pela API quando o pedido não está pront
 1. Confira o produto criado na etapa 4 usando o método *[!UICONTROL In-Store Delivery]* na loja.
 1. Criar uma fatura para o pedido.
 1. Defina a quantidade do produto como *0* e tire-o do estoque.
-1. O Post faz a seguinte solicitação de API:
+1. Publique a seguinte solicitação de API:
 
 ```
 {

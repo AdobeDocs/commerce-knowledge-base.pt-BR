@@ -1,6 +1,6 @@
 ---
-title: "ACSD-48771: o editor WYSIWYG renderiza o conteúdo de forma diferente"
-description: Aplique o patch ACSD-48771 para corrigir o problema do Adobe Commerce em que o editor WYSIWYG renderiza o conteúdo de forma diferente.
+title: 'ACSD-48771: o editor do WYSIWYG renderiza o conteúdo de forma diferente'
+description: Aplique o patch ACSD-48771 para corrigir o problema do Adobe Commerce em que o editor do WYSIWYG renderiza o conteúdo de forma diferente.
 exl-id: 6a856fa3-6099-4237-8d1c-e3735b8ca012
 feature: Cache, Page Content
 role: Admin
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# ACSD-48771: o editor WYSIWYG renderiza o conteúdo de forma diferente
+# ACSD-48771: o editor do WYSIWYG renderiza o conteúdo de forma diferente
 
-O patch ACSD-48771 corrige o problema em que o editor WYSIWYG renderiza o conteúdo de forma diferente. Este patch está disponível quando o [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.29 está instalado. A ID do patch é ACSD-48771. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.7.
+O patch ACSD-48771 corrige o problema em que o editor do WYSIWYG renderiza o conteúdo de forma diferente. Este patch está disponível quando o [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.29 está instalado. A ID do patch é ACSD-48771. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.7.
 
 ## Produtos e versões afetados
 
@@ -31,7 +31,7 @@ O patch ACSD-48771 corrige o problema em que o editor WYSIWYG renderiza o conte�
 
 ## Problema
 
-O editor WYSIWYG renderiza o conteúdo de forma diferente.
+O editor do WYSIWYG renderiza o conteúdo de forma diferente.
 
 <u>Etapas a serem reproduzidas</u>:
 

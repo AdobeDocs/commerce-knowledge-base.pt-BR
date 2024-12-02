@@ -1,15 +1,15 @@
 ---
-title: "ACSD-59514: Forms no Admin com  [!DNL Page Builder] lançamento de erro no console do navegador"
+title: 'ACSD-59514: Forms no Admin com  [!DNL Page Builder] lançamento de erro no console do navegador'
 description: Aplique o patch ACSD-59514 para corrigir o problema do Adobe Commerce em que os formulários em Admin com  [!DNL Page Builder] lançam o erro "[!DNL Page Builder] foi renderizado por 5 segundos sem liberar bloqueios." no console do navegador após o envio do formulário, e as alterações não podem ser salvas.
 feature: Page Builder
 role: Admin, Developer
-source-git-commit: 19ecaa6b287d63bfae00c51911b53e1ed7ab5ed8
+exl-id: 4bb17d7b-9ea4-44c2-a42b-d0117e5f8f9a
+source-git-commit: a84c3d296deb49d419be78f454696177a974d923
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%
 
 ---
-
 
 # ACSD-59514: Forms no Admin com [!DNL Page Builder] gera erro no console do navegador
 

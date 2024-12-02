@@ -1,5 +1,5 @@
 ---
-title: "ACSD-55427: um administrador não pode cancelar a atribuição do produto a **[!UICONTROL Product in Shared Catalogs]** na página do produto"
+title: 'ACSD-55427: um administrador não pode cancelar a atribuição do produto a **[!UICONTROL Product in Shared Catalogs]** na página do produto'
 description: Aplique o patch ACSD-55427 para corrigir o problema do Adobe Commerce em que um produto não pode ser desatribuído de **[!UICONTROL Product in Shared Catalogs]**.
 feature: Products, B2B
 role: Admin, Developer

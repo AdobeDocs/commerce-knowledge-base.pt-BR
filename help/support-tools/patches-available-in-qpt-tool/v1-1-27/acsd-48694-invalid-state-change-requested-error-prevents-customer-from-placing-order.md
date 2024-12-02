@@ -1,10 +1,10 @@
 ---
-title: "ACSD-48694: erro solicitado de alteração de estado inválido impede que o cliente faça o pedido"
+title: 'ACSD-48694: erro solicitado de alteração de estado inválido impede que o cliente faça o pedido'
 description: Aplique o patch ACSD-48694 para corrigir o problema do Adobe Commerce em que o erro *Alteração de estado inválida solicitada* impede que um cliente faça um pedido.
 exl-id: edf79424-6c4f-4cfd-ab7e-19f95b9bc685
 feature: Admin Workspace, Orders
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 0%

@@ -1,5 +1,5 @@
 ---
-title: "ACSD-54418: valor de desconto fixo adicionado incorretamente ao produto filho de pacote com preço dinâmico"
+title: 'ACSD-54418: Valor de desconto fixo adicionado incorretamente ao produto filho do pacote com preço dinâmico'
 description: Aplique o patch ACSD-54418 para corrigir o problema do Adobe Commerce em que o valor fixo do desconto é aplicado incorretamente a cada produto filho do pacote com preço dinâmico.
 feature: Shopping Cart
 role: Admin, Developer

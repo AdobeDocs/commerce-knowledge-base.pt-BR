@@ -1,10 +1,10 @@
 ---
-title: "ACSD-53347: o desempenho da indexação de preço degrada gradualmente as horas extras"
+title: 'ACSD-53347: o desempenho da indexação de preço diminui gradualmente ao longo do tempo'
 description: Aplique o patch ACSD-53347 para corrigir o problema do Adobe Commerce em que o desempenho diminui gradualmente ao reindexar preços para um catálogo de produtos grande.
 feature: Price Indexer
 role: Admin
 exl-id: 28795673-54b0-4282-bd43-344401cbe140
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%

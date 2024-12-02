@@ -1,5 +1,5 @@
 ---
-title: "ACSD-45754: pontos de recompensa não adicionados após a aplicação de cupom ao carrinho"
+title: 'ACSD-45754: Pontos de premiação não adicionados após aplicar o cupom ao carrinho'
 description: O patch ACSD-45754 resolve o problema em que os pontos de recompensa não são adicionados após a aplicação de um cupom ao carrinho. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.18 está instalada. A ID do patch é ACSD-45754. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.6.
 exl-id: 957713c0-3e2e-4dc9-8924-2ae84c817e47
 feature: Orders, Rewards, Shopping Cart

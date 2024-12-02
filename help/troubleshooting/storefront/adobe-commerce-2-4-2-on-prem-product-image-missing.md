@@ -1,5 +1,5 @@
 ---
-title: "Adobe Commerce no local 2.4.2: imagem do produto ausente"
+title: 'Adobe Commerce no local 2.4.2: imagem do produto ausente'
 description: Este artigo descreve um problema conhecido do Adobe Commerce no local 2.4.2 em que a imagem do produto não é carregada na página do produto. Este problema está programado para ser resolvido em uma versão futura após a versão 2.4.3. Não há uma solução disponível no momento, mas, como solução alternativa, você pode desativar o Nginx para redimensionar imagens.
 exl-id: c4d9240e-5df5-4eab-bb4e-1f06f9bd3a1e
 feature: Iaas, Products, Storefront

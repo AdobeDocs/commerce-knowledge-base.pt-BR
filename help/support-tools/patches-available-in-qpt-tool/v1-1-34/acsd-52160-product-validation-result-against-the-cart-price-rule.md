@@ -1,5 +1,5 @@
 ---
-title: "ACSD-52160: resultado da validação do produto em relação à regra de preço do carrinho"
+title: 'ACSD-52160: Resultado da validação do produto em relação à regra de preço do carrinho'
 description: Aplique o patch ACSD-52160 para corrigir o problema do Adobe Commerce em que o resultado da validação do produto em relação à regra de preço do carrinho não é avaliado corretamente com base na condição da regra *[!UICONTROL If an item is FOUND/NOT FOUND in the cart with All/Any of these conditions true]*.
 exl-id: a371c539-4440-4c84-baa4-774c32f66e41
 source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc

@@ -1,5 +1,5 @@
 ---
-title: "ACSD-45071: origem padrão adicionada ao produto durante a importação"
+title: 'ACSD-45071: origem padrão adicionada ao produto durante a importação'
 description: O patch ACSD-45071 resolve o problema em que a origem padrão é adicionada ao produto durante a importação. Este patch está disponível quando o [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.21 é instalado. A ID do patch é ACSD-45071. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.6.
 exl-id: 8d8dbb06-6133-4d7a-939a-8bf18caec81c
 feature: Data Import/Export, Products

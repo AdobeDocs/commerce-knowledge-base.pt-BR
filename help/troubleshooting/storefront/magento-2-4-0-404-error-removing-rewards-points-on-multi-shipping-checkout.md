@@ -1,10 +1,10 @@
 ---
-title: "Adobe Commerce 2.4.0: erro 404 ao remover pontos de recompensa na finalização de remessa múltipla"
+title: 'Adobe Commerce 2.4.0: erro 404 ao remover pontos de recompensa na finalização de remessa múltipla'
 description: Este artigo fornece uma solução alternativa para um problema conhecido no Adobe Commerce 2.4.0 para um erro de página da Web "*404 Não encontrado*" ao remover pontos de recompensa em uma página de check-out de vários envios. Atualmente, na página de checkout de vários envios, ao tentar remover os pontos de premiação usados para pagar um pedido, a página "*404 Não encontrado*" é exibida em vez do cancelamento bem-sucedido dos pontos de premiação. Este problema será resolvido em com uma versão de patch do Adobe Commerce 2.4.1.
 exl-id: 59de4b3d-af28-4ae8-8f55-4ec958e6ee8b
 feature: B2B, Checkout, Orders, Rewards, Shipping/Delivery, Storefront
 role: Admin
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%

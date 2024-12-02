@@ -1,5 +1,5 @@
 ---
-title: "ACSD-47106: novo atributo personalizado na página de criação da empresa não salvo"
+title: 'ACSD-47106: novo atributo personalizado na página de criação da empresa não salvo'
 description: Aplique o patch ACSD-47106 para corrigir o problema do Adobe Commerce em que um valor não pode ser salvo em um novo atributo personalizado em uma página de criação de empresa.
 exl-id: 941d6d8f-36eb-4b50-980f-e4afe6bf33df
 feature: Attributes, B2B, Companies

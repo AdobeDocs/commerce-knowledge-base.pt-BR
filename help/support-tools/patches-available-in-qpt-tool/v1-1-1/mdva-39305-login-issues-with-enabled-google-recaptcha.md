@@ -1,10 +1,10 @@
 ---
-title: "MDVA-39305: problema de logon com o Google reCAPTCHA ativado"
+title: 'MDVA-39305: problema de logon com o Google reCAPTCHA ativado'
 description: O patch MDVA-39305 corrige o problema em que os clientes registrados não conseguem fazer logon com o Google reCAPTCHA ativado. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.1 está instalada. A ID do patch é MDVA-39305. Observe que o problema está programado para ser corrigido nas versões 2.4.4 e 2.4.7 do Adobe Commerce.
 exl-id: 1e8e7dc7-f8f1-4432-90f4-dc73d85f353a
 feature: Console
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 0%

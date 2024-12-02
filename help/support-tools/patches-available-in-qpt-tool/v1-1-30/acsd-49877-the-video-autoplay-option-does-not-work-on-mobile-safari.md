@@ -1,5 +1,5 @@
 ---
-title: "ACSD-49877: a reprodução automática de vídeo não funciona no celular [!DNL Safari]"
+title: 'ACSD-49877: a reprodução automática de vídeo não funciona no celular [!DNL Safari]'
 description: Aplique o patch ACSD-49877 para corrigir o problema do Adobe Commerce em que a opção de reprodução automática de vídeo não funciona em dispositivos móveis [!DNL Safari] quando o vídeo estiver vinculado diretamente a um arquivo de vídeo remoto.
 exl-id: 454f7cec-29b9-485b-93be-2a4f2eb77da7
 feature: CMS
@@ -38,7 +38,7 @@ A reprodução automática de vídeo não funciona no [!DNL Safari] móvel quand
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. Crie uma nova página CMS e edite o **[!UICONTROL Content Value]** com [!DNL Page Builder].
+1. Crie uma nova página do CMS e edite o **[!UICONTROL Content Value]** com [!DNL Page Builder].
 1. Adicione um elemento *Tab* ao conteúdo e adicione um *Elemento de Vídeo* dentro da *Tab*.
 1. Agora clique no botão de engrenagem para editar o *Elemento de vídeo*.
 1. Adicione um link para um arquivo de vídeo mp4 ao campo [!UICONTROL Video URL].

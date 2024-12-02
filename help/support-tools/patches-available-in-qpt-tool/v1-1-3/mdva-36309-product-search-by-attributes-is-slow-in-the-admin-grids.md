@@ -1,5 +1,5 @@
 ---
-title: "MDVA-36309: a pesquisa de produtos por atributos está lenta nas grades de administração"
+title: 'MDVA-36309: A pesquisa de produtos por atributos está lenta nas grades de administração'
 description: O patch MDVA-36309 resolve o problema em que a pesquisa de produtos por atributos é lenta nas grades de administração. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.3 está instalada. A ID do patch é MDVA-36309. Observe que o problema foi corrigido no Adobe Commerce 2.4.3.
 exl-id: 5e6b426b-201d-44a2-8c03-8ed5de8ed203
 feature: Admin Workspace, Attributes, Products, Search

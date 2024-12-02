@@ -1,10 +1,10 @@
 ---
-title: "ACSD-49628: [!DNL Page Builder] Erros CORS impedem o salvamento do produto"
+title: 'ACSD-49628: [!DNL Page Builder] Erros CORS impedem o salvamento do produto'
 description: Aplique o patch ACSD-49628 para corrigir o problema do Adobe Commerce em que os erros  [!DNL Page Builder] CORS impedem o salvamento do produto.
 exl-id: c6e2f0b3-aea0-4caf-8b69-9644b38c909c
 feature: Categories, Page Builder, Products
 role: Admin
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%

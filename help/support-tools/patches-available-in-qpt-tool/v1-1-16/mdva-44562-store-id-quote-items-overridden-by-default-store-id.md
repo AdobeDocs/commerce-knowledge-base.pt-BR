@@ -1,10 +1,10 @@
 ---
-title: "MDVA-44562: ID de armazenamento para itens de cotação substituídos pela ID de armazenamento padrão"
+title: 'MDVA-44562: ID de armazenamento para itens de cotação substituídos pela ID de armazenamento padrão'
 description: O patch MDVA-44562 corrige o problema em que a ID de armazenamento padrão substitui a ID de armazenamento por itens de cotação para solicitações de GraphQL. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.16 está instalada. A ID do patch é MDVA-44562. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.6.
 exl-id: 902bfc05-411d-4a6c-a6e8-cd7376629b0c
 feature: Quotes
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%

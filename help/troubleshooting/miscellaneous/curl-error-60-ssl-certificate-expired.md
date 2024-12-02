@@ -1,6 +1,6 @@
 ---
-title: "Erro de cURL 60: certificado SSL expirado"
-description: "Este artigo mostra como verificar quando a última vez que uma ramificação foi implantada depois de receber um erro de cURL 60: o certificado SSL expirou nas ramificações Principal ou de Integração no Adobe Commerce na infraestrutura em nuvem."
+title: 'Erro de cURL 60: certificado SSL expirado'
+description: 'Este artigo mostra como verificar quando a última vez que uma ramificação foi implantada depois de receber um erro de cURL 60: o certificado SSL expirou nas ramificações Principal ou de Integração no Adobe Commerce na infraestrutura em nuvem.'
 exl-id: 74f1db7e-ee2b-4e27-8fcc-fe462a9e72c3
 feature: Configuration
 role: Developer

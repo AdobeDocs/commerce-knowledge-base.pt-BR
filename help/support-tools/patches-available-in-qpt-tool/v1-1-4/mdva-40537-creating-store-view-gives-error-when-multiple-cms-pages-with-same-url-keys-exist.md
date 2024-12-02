@@ -1,5 +1,5 @@
 ---
-title: "MDVA-40537: a criação de uma exibição de loja gera um erro quando várias páginas do CMS têm a mesma Chave de URL."
+title: 'MDVA-40537: a criação de uma exibição de loja apresenta erro quando várias páginas do CMS têm a mesma Chave de URL.'
 description: O patch MDVA-40537 corrige o problema em que os usuários recebem um erro ao criar uma visualização de loja se várias páginas do CMS tiverem a mesma chave de URL. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.4 está instalada. A ID do patch é MDVA-40537. Observe que o problema foi corrigido no Adobe Commerce 2.4.1.
 exl-id: d92400c9-0c5a-4416-820d-99ab4ba34003
 feature: CMS

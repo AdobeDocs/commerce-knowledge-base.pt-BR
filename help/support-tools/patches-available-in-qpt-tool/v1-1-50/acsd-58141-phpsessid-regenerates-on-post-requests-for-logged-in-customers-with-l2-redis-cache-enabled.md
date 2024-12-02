@@ -1,15 +1,15 @@
 ---
-title: "ACSD-58141: PHPSESSID é regenerado nas solicitações do POST para clientes conectados com cache L2 Redis ativado"
+title: 'ACSD-58141: PHPSESSID é gerado novamente nas solicitações do POST para clientes conectados com cache L2 Redis ativado'
 description: Aplique o patch ACSD-58141 para corrigir o problema do Adobe Commerce em que "PHPSESSID" é regenerado em solicitações POST na área da Loja para um cliente conectado com cache L2 Redis ativado e o cliente é atualizado pelo administrador.
 feature: Customers, Cache
 role: Admin, Developer
-source-git-commit: 488699c5d880baee2f7191d963368415f90c3340
+exl-id: 72ae2ed4-bbac-472b-b257-3234f86000f4
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
 
 ---
-
 
 # ACSD-58141: PHPSESSID é gerado novamente em [!DNL POST] solicitações para clientes conectados se o cache L2 Redis estiver habilitado
 

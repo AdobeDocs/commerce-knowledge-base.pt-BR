@@ -1,9 +1,9 @@
 ---
 title: O Elasticsearch 5 está configurado, mas a página de pesquisa não carrega com o erro "Fielddata is disabled..."
-description: "Este tópico descreve como corrigir o problema com o Elasticsearch 5, em que a página de pesquisa não carrega, e a exceção semelhante à seguinte é lançada:"
+description: 'Este tópico descreve como corrigir o problema com o Elasticsearch 5, em que a página de pesquisa não carrega, e a exceção semelhante à seguinte é lançada:'
 exl-id: f5fa8144-4e7c-45ce-89d0-a8367e91d6db
 feature: Cache
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%

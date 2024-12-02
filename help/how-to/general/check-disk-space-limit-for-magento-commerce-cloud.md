@@ -1,6 +1,6 @@
 ---
 title: Verificar limite de espaço em disco para o Adobe Commerce na infraestrutura em nuvem
-description: "Para verificar quanto espaço você tem para cada Adobe Commerce no ambiente de infraestrutura em nuvem:"
+description: 'Para verificar a quantidade de espaço disponível para cada Adobe Commerce no ambiente de infraestrutura em nuvem:'
 exl-id: 0dd613e4-161f-403e-95a1-d228303693d3
 feature: Cloud
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733

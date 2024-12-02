@@ -1,10 +1,10 @@
 ---
-title: 'MDVA-42269: o usuário administrador não pode fazer logon no Admin devido ao erro "TypeError"'
+title: 'MDVA-42269: O usuário administrador não consegue fazer logon no Admin devido ao erro "TypeError"'
 description: O patch MDVA-42269 corrige o problema em que os usuários Administradores não conseguem fazer logon no Administrador devido a TypeError. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.11 está instalada.  A ID do patch é MDVA-42269.  A última atualização de patch está em QPT 1.1.15. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.5.
 exl-id: 66d744a2-054e-493c-a060-9ed78447e35b
 feature: Admin Workspace
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 0%

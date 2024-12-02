@@ -1,10 +1,10 @@
 ---
-title: "Problema do Adobe Commerce 2.4.1: não é possível alterar a conta do Amazon no Chrome"
+title: 'Problema do Adobe Commerce 2.4.1: não é possível alterar a conta do Amazon no Chrome'
 description: Este artigo descreve um problema conhecido do Adobe Commerce 2.4.1 em que os clientes entram nas contas do Amazon usadas anteriormente, em vez de serem sugeridos para fazer logon, ao usar o Amazon Pay durante a finalização da compra.
 exl-id: 8acffe99-b3ec-4b45-9434-61b66e963838
 feature: Customer Service
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%

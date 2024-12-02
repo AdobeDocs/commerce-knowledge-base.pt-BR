@@ -1,5 +1,5 @@
 ---
-title: "ACSD-46581: O total de impostos estimado não é atualizado após selecionar um país no carrinho de compras"
+title: 'ACSD-46581: O total de imposto estimado não é atualizado após selecionar um país no carrinho de compras'
 description: Aplique o patch ACSD-46581 para resolver o problema do Adobe Commerce, em que a alíquota do imposto não é atualizada após trocar o país no carrinho de compras.
 exl-id: 17334f7b-e5a2-4091-8196-eff80875c003
 feature: Orders, Shopping Cart

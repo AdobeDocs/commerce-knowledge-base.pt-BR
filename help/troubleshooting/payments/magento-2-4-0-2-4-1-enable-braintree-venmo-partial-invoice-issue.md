@@ -1,10 +1,10 @@
 ---
-title: "Adobe Commerce 2.4.0, 2.4.1: Ativar fatura parcial do Braintree Venmo"
+title: 'Adobe Commerce 2.4.0, 2.4.1: Ativar fatura parcial do Braintree Venmo'
 description: Este artigo descreve um problema conhecido do Adobe Commerce 2.4.0 e 2.4.1, em que a fatura parcial não está disponível para pedidos feitos usando o Braintree pelo Venmo.
 exl-id: ef6c8aa4-a2a7-4e07-a957-23173017baf2
 feature: Invoices, Orders, Payments
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%

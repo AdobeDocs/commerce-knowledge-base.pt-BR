@@ -1,10 +1,10 @@
 ---
-title: "MDVA-43232: a classificação de produtos em um merchandiser visual por Preço especial para cima (ou para baixo) causa um erro"
+title: 'MDVA-43232: Classificar produtos em um merchandiser visual por Preço especial para cima (ou para baixo) causa um erro'
 description: O patch MDVA-43232 corrige o problema em que a classificação de produtos no visual merchandiser por Preço especial para cima (ou para baixo) causa um erro ao salvar a categoria. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12 está instalada. A ID do patch é MDVA-43232. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.5.
 exl-id: e958a219-5e93-4ae4-94cb-f478f82ad060
 feature: Categories, Merchandising, Orders, Personalization, Products
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 0%

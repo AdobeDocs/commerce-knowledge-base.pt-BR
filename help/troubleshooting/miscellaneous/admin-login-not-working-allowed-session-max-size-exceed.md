@@ -1,5 +1,5 @@
 ---
-title: O logon '[!DNL Admin] não está funcionando - tamanho máximo de sessão permitido excedido'
+title: O login do [!DNL Admin] não está funcionando - tamanho máximo de sessão permitido excedido
 description: Resolva o problema ao tentar fazer logon no painel  [!DNL Admin] e o formulário for atualizado e você não conseguir fazer logon.
 exl-id: 12789df0-6130-4e60-a92a-68ed329bd7fd
 source-git-commit: 8718148f6d9a40c9a71484a7fbc818a626e825e1

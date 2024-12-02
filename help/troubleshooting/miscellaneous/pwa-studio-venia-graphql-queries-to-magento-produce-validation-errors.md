@@ -1,5 +1,5 @@
 ---
-title: "PWA Studio: as consultas do Venia GraphQL ao Adobe Commerce produzem erros de validação"
+title: 'PWA Studio: Consultas do Venia GraphQL ao Adobe Commerce geram erros de validação'
 description: Este artigo fornece recomendações sobre como resolver o problema em que as consultas do GraphQL da loja Venia à instância do Adobe Commerce produzem erros de validação.
 exl-id: ba268945-2a10-4af5-8089-cde21f0687bd
 feature: GraphQL

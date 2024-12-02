@@ -1,15 +1,15 @@
 ---
-title: "ACSD-59378: nível de armazenamento [!DNL URL] regravações incorretamente atualizadas durante a importação"
+title: 'ACSD-59378: regravações no nível do armazenamento [!DNL URL] incorretamente atualizadas durante a importação'
 description: Aplique o patch ACSD-59378 para corrigir o problema do Adobe Commerce em que as regravações no nível da loja  [!DNL URL]  são atualizadas incorretamente durante a importação.
 feature: Data Import/Export
 role: Admin, Developer
-source-git-commit: 3f400c3e325c3f377a5e12170b08615ebeadbcd1
+exl-id: 4ba567e3-323d-4068-90cc-50aacd45d397
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
 
 ---
-
 
 # ACSD-59378: regravações no nível de armazenamento [!DNL URL] atualizadas incorretamente durante a importação
 

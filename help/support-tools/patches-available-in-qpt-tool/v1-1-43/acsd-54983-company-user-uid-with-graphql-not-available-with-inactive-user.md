@@ -1,19 +1,19 @@
 ---
-title: "ACSD-54983: UID de usuário da empresa com GraphQL não disponível com usuário inativo"
-description: Aplique o patch ACSD-54983 para corrigir o problema do Adobe Commerce em que não é possível obter a UID do usuário da empresa com a solicitação do GraphQL quando o status do usuário está definido como inativo.
+title: 'ACSD-54983: UID do usuário da empresa com GraphQL não disponível com usuário inativo'
+description: Aplique o patch ACSD-54983 para corrigir o problema do Adobe Commerce em que não é possível obter o usuário da empresa UID com a solicitação do GraphQL quando o status do usuário está definido como inativo.
 feature: GraphQL
 role: Admin, Developer
 exl-id: 57e7b9ca-3421-4b50-86b4-abdf1b3d79d1
-source-git-commit: c903360ffb22f9cd4648f6fdb4a812cb61cd90c5
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
 
 ---
 
-# ACSD-54983: UID de usuário da empresa com GraphQL não disponível com usuário inativo
+# ACSD-54983: UID do usuário da empresa com GraphQL não disponível com usuário inativo
 
-O patch ACSD-54983 corrige o problema em que não é possível obter a UID de usuário da empresa com a solicitação do GraphQL quando o status do usuário está definido como inativo. Este patch está disponível quando o [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.43 está instalado. A ID do patch é ACSD-54983. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.7.
+O patch ACSD-54983 corrige o problema em que não é possível obter o usuário da empresa UID com a solicitação do GraphQL quando o status do usuário está definido como inativo. Este patch está disponível quando o [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.43 está instalado. A ID do patch é ACSD-54983. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.7.
 
 ## Produtos e versões afetados
 
@@ -31,7 +31,7 @@ O patch ACSD-54983 corrige o problema em que não é possível obter a UID de us
 
 ## Problema
 
-Não é possível obter a UID de usuário da empresa com a solicitação do GraphQL quando o status do usuário está definido como inativo.
+Não é possível obter a solicitação do usuário da empresa UID com GraphQL quando o status do usuário está definido como inativo.
 
 <u>Etapas a serem reproduzidas</u>:
 
@@ -46,11 +46,11 @@ Não é possível obter a UID de usuário da empresa com a solicitação do Grap
 
 <u>Resultados esperados</u>:
 
-É possível obter a UID do usuário da empresa quando o status está definido como inativo.
+É possível obter o UID do usuário da empresa quando o status está definido como inativo.
 
 <u>Resultados reais</u>:
 
-Os clientes inativos não estão na lista. Não é possível obter a UID de usuário da empresa quando o status está definido como inativo.
+Os clientes inativos não estão na lista. Não é possível obter o UID do usuário da empresa quando o status está definido como inativo.
 
 ## Aplicar o patch
 

@@ -1,10 +1,10 @@
 ---
-title: "MDVA-40961: não é possível adicionar mais itens ao carrinho quando a quantidade mínima de itens já está no carrinho"
+title: 'MDVA-40961: Não é possível adicionar mais itens ao carrinho quando a quantidade mínima de itens já está no carrinho'
 description: O patch MDVA-40961 corrige o problema em que um item adicional não pode ser adicionado ao carrinho quando a quantidade mínima do item já está no carrinho. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.15 está instalada. A ID do patch é MDVA-40961. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.5.
 exl-id: fc90c2b6-f631-49ff-81b0-e41918dd79a7
 feature: Orders, Shopping Cart
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 0%

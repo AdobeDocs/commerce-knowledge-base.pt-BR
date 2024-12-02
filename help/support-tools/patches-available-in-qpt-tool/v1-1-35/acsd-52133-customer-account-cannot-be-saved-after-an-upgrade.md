@@ -1,5 +1,5 @@
 ---
-title: "ACSD-52133: a conta do cliente não pode ser salva após uma atualização"
+title: 'ACSD-52133: A conta do cliente não pode ser salva após uma atualização'
 description: Aplique o patch ACSD-52133 para corrigir o problema do Adobe Commerce em que uma conta de cliente não pode ser salva após uma atualização.
 feature: Customers, Upgrade
 role: Admin

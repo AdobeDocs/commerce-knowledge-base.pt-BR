@@ -1,5 +1,5 @@
 ---
-title: "MDVA-41350: exceção quando o administrador adiciona produtos fora de seu acesso"
+title: 'MDVA-41350: exceção quando o administrador adiciona produtos fora de seu acesso'
 description: O patch MDVA-41350 corrige o problema em que um erro de exceção é lançado em vez de uma notificação de acesso limitado quando um usuário administrador adiciona um produto no pedido pelo SKU, que está fora do acesso dele. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.11 está instalada. A ID do patch é MDVA-41350. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.5.
 exl-id: 3a96d029-5350-4dd6-aad3-2f2cdd5e65ac
 feature: Admin Workspace, Products

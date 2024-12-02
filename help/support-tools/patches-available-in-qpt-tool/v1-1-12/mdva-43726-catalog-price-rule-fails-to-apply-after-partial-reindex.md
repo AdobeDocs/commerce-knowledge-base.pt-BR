@@ -1,5 +1,5 @@
 ---
-title: "MDVA-43726: Falha na aplicação da regra de preço do catálogo após reindexação parcial"
+title: 'MDVA-43726: Falha na aplicação da regra de preço do catálogo após reindexação parcial'
 description: O patch MDVA-43726 corrige o problema em que a regra de preço do catálogo com base na correspondência de atributos no nível do armazenamento falha ao ser aplicada após a reindexação parcial. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12 está instalada. A ID do patch é MDVA-43726. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.5.
 exl-id: 70e7e1d2-e601-4fed-9274-a1a619de29e1
 feature: Catalog Management, Categories, Orders, Price Rules

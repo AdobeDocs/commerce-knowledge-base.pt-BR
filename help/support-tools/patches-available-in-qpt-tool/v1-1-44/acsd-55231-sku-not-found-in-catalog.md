@@ -1,5 +1,5 @@
 ---
-title: "ACSD-55231: erro SKU não encontrado ao usar a funcionalidade de pedido rápido"
+title: 'ACSD-55231: erro SKU não encontrado ao usar a funcionalidade de pedido rápido'
 description: Aplique o patch ACSD-55231 para corrigir o problema do Adobe Commerce em que você obtém o erro *'O SKU não foi encontrado no catálogo'* ao tentar adicionar um produto ao carrinho usando a funcionalidade de pedido rápido.
 feature: Products, Checkout, B2B
 role: Admin, Developer

@@ -1,5 +1,5 @@
 ---
-title: "MDVA-27456: Os usuários recebem um erro ao carregar o Swagger"
+title: 'MDVA-27456: Os usuários recebem um erro ao carregar o Swagger'
 description: O patch MDVA-27456 corrige o problema em que os usuários recebem um erro ao tentar carregar o Swagger. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.6 está instalada. A ID do patch é MDVA-27456. Observe que o problema foi corrigido no Adobe Commerce 2.3.7.
 exl-id: e331595f-a94b-4070-803a-60f559735b29
 feature: Tools and External Services

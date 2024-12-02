@@ -1,5 +1,5 @@
 ---
-title: "ACSD-54018: problema de desempenho com a lista de produtos do widget de catálogo"
+title: 'ACSD-54018: problema de desempenho com a lista de produtos do widget de catálogo'
 description: Aplique o patch ACSD-54018 para corrigir o problema do Adobe Commerce em que a página é carregada lentamente ao adicionar uma lista de produtos widget de catálogo com condição e tipo de atributo booleano.
 feature: Attributes, Catalog Management, Page Builder, Page Content, Storefront
 role: Admin, Developer

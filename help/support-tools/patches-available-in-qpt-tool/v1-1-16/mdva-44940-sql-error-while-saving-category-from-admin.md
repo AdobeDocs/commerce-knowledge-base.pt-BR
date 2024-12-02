@@ -1,10 +1,10 @@
 ---
-title: "MDVA-44940: erro SQL ao salvar a categoria do administrador"
+title: 'MDVA-44940: erro SQL ao salvar a categoria do administrador'
 description: O patch MDVA-44940 corrige o problema em que ocorre um erro de SQL ao salvar uma categoria do administrador. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.16 está instalada. A ID do patch é MDVA-44940. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.6.
 exl-id: cae6f231-3b91-441f-af56-824db0fa2d32
 feature: Admin Workspace, Categories, Sales Channels
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%

@@ -1,10 +1,10 @@
 ---
-title: 'ACSD-56790: **[!UICONTROL move out of stock to bottom]** a opção não funciona ao classificar produtos no  [!DNL Visual Merchandiser]'
+title: 'ACSD-56790: a opção **[!UICONTROL move out of stock to bottom]** não funciona ao classificar produtos no  [!DNL Visual Merchandiser]'
 description: Aplique o patch ACSD-56790 para corrigir o problema do Adobe Commerce em que a opção de mover do estoque para o final não funciona ao classificar produtos no Visual Merchandiser.
 feature: Products, Categories
 role: Admin, Developer
 exl-id: a0c61696-a12d-4c1a-a061-e2f17f38e1f4
-source-git-commit: a28257f55abf21cddec9b415e7e8858df33647be
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 0%

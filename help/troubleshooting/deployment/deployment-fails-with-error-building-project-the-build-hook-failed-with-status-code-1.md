@@ -1,10 +1,10 @@
 ---
-title: 'Falha na implantação com "Erro ao criar projeto: o gancho de compilação falhou com o código de status 1"'
-description: '"Este artigo fala sobre as causas e as soluções do Adobe Commerce no problema de infraestrutura em nuvem, em que a fase de criação do processo de implantação falha, e a mensagem de erro é resumida com: *"Erro ao criar projeto: o gancho de criação falhou com o código de status 1"*."'
+title: 'Falha na implantação com "Erro ao criar projeto: o gancho de criação falhou com o código de status 1"'
+description: 'Este artigo fala sobre as causas e soluções do problema de infraestrutura na nuvem do Adobe Commerce, em que a fase de criação do processo de implantação falha, e a mensagem de erro é resumida com: *"Error building project: The build hook failed with status code 1"*.'
 exl-id: add1cdac-dbcb-4c55-8bc2-c1f27e24aadb
 feature: Build, Deploy
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%

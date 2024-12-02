@@ -1,5 +1,5 @@
 ---
-title: "Limpeza de endereço Vertex: endereços diferentes não permitidos"
+title: 'Limpeza de endereço Vertex: endereços diferentes não permitidos'
 description: Este artigo fala sobre a solução do problema em que, quando um usuário tenta inserir um **diferente** endereço de faturamento e de envio, com a validação do endereço Vertex ativada, a loja não permitirá que o usuário o insira.
 exl-id: a481b044-3b74-4792-abc6-249a182c49e1
 feature: B2B, Orders, Shipping/Delivery, Checkout

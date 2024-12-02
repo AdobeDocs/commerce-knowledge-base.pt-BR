@@ -1,5 +1,5 @@
 ---
-title: "Falha na implantação: não é possível aplicar o patch MDVA-43395"
+title: 'Falha na implantação: não é possível aplicar o patch MDVA-43395'
 description: Este artigo fornece uma solução para o problema, em que tentar aplicar o patch MDVA-43395 resulta em falha na implantação.
 exl-id: 5341be3a-a9d7-4a4b-9755-8c585c6922a4
 feature: Deploy

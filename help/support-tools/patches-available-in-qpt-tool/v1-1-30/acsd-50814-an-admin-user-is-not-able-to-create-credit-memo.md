@@ -1,5 +1,5 @@
 ---
-title: "ACSD-50814: o usuário administrador não pode criar memorando de crédito"
+title: 'ACSD-50814: O usuário administrador não pode criar memorando de crédito'
 description: Aplique o patch ACSD-50814 para corrigir o problema do Adobe Commerce em que um usuário administrador não pode criar um memorando de crédito.
 exl-id: bda374cf-6fb7-479f-8130-213ce3cc553e
 feature: Admin Workspace, Orders, Returns

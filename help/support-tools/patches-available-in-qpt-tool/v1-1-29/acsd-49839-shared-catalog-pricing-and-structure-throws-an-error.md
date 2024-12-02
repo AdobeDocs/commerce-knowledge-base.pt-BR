@@ -1,5 +1,5 @@
 ---
-title: "ACSD-49839: a estrutura e os preços do catálogo compartilhado geram um erro"
+title: 'ACSD-49839: a estrutura e os preços do catálogo compartilhado geram um erro'
 description: Aplique o patch ACSD-49839 para corrigir o problema do Adobe Commerce em que o preço e a estrutura do catálogo compartilhado geram um erro no administrador quando os produtos têm aspas simples ou duplas no SKU.
 exl-id: 4c477ae8-602b-452e-83f0-b72a29547ef9
 feature: Admin Workspace, Catalog Management, Categories

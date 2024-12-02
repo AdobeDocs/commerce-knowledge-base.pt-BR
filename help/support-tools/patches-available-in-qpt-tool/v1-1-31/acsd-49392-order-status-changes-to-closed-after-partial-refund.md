@@ -1,5 +1,5 @@
 ---
-title: "ACSD-49392: o status do pedido muda para fechado após o reembolso parcial"
+title: 'ACSD-49392: O status da ordem muda para fechado após reembolso parcial'
 description: Aplique o patch ACSD-49392 para corrigir o problema do Adobe Commerce em que o status do pedido muda para fechado após um reembolso parcial para um produto empacotado.
 exl-id: fca6f502-e224-4444-b0d0-f823853c9458
 feature: Orders

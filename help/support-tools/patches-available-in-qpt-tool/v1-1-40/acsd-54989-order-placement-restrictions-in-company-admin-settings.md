@@ -1,5 +1,5 @@
 ---
-title: "ACSD-54989: o administrador da empresa não pode fazer pedidos quando [!UICONTROL Enable Purchase Orders] está definido como Sim e [!UICONTROL Purchase Order] está definido como Não"
+title: 'ACSD-54989: O administrador da empresa não pode fazer pedidos quando [!UICONTROL Enable Purchase Orders] está definido como Sim e [!UICONTROL Purchase Order] está definido como Não'
 description: Aplique o patch ACSD-54989 para corrigir o problema do Adobe Commerce em que o administrador da empresa não pode fazer pedidos se [!UICONTROL Enable Purchase Orders] estiver definido como Sim e [!UICONTROL Purchase Order] estiver definido como Não.
 feature: Orders, Companies, Purchase Orders
 role: Admin, Developer

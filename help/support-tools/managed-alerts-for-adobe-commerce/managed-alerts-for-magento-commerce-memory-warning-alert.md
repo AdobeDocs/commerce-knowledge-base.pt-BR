@@ -1,5 +1,5 @@
 ---
-title: "Alertas gerenciados para Adobe Commerce: alerta de aviso de memória"
+title: 'Alertas gerenciados para Adobe Commerce: alerta de aviso de memória'
 description: Este artigo fornece etapas de solução de problemas para quando você recebe um alerta de aviso de memória do Adobe Commerce no New Relic. É necessária uma ação imediata para corrigir o problema. O alerta será semelhante ao seguinte, dependendo do canal de notificação de alerta selecionado.
 exl-id: bb5eb3f4-b162-4737-93d5-4037f2844bb1
 feature: Cache, Marketing Tools, Observability, Support, Tools and External Services

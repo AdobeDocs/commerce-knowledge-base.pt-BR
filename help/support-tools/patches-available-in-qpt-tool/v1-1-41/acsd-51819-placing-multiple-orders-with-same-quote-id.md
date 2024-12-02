@@ -1,10 +1,10 @@
 ---
-title: "ACSD-51819: Fazer vários pedidos com uma ID de cotação única"
+title: 'ACSD-51819: Fazer vários pedidos com uma ID de cotação única'
 description: Aplique o patch ACSD-51819 para corrigir o problema do Adobe Commerce em que vários pedidos podem ser feitos por meio da mesma ID de cotação.
 feature: Orders, Checkout
 role: Admin, Developer
 exl-id: f217de21-2914-4b84-b596-e9e763669941
-source-git-commit: 6fa7182a807147a00ad750966cd839ec18ffe0c7
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%

@@ -1,10 +1,10 @@
 ---
-title: '"PWA Studio: O navegador exibe "Não é possível usar proxy para"erro"'
+title: 'PWA Studio: O navegador exibe o erro "Não é possível usar proxy para"'
 description: Este tópico discute uma solução quando o navegador da Web exibe um "*Não é possível usar proxy para*" e o console exibe um
 exl-id: de689633-34b8-4a25-bbd0-a58742c4d03c
 feature: Console
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 0%

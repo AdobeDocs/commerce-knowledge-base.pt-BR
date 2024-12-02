@@ -1,9 +1,9 @@
 ---
-title: "Vídeo de treinamento do Adobe Commerce Intelligence: Report Builder SQL"
+title: 'Vídeo de treinamento do Adobe Commerce Intelligence: Report Builder SQL'
 description: Lembre-se, **você precisa de permissões de Administrador para acessar o Report Builder SQL!**
 exl-id: bbe47df3-c7f2-4a35-bc48-c93a67bd2ce2
 feature: Commerce Intelligence
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 0%

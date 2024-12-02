@@ -1,10 +1,10 @@
 ---
-title: "O arquivo não pode ser excluído. Aviso! desvincular: erro de arquivo ou diretório inexistente em  [!DNL Admin]"
+title: 'O arquivo não pode ser excluído. Aviso! desvincular: o erro de arquivo ou diretório não existe em  [!DNL Admin]'
 description: Este artigo fornece uma solução para o problema em que você vê um erro *O arquivo não pode ser excluído. Aviso!desvincular Esse erro de arquivo ou diretório* do  [!DNL Admin] ao fazer uma [!DNL Javascript/CSS] liberação.
 feature: Admin Workspace, Observability
 role: Developer
 exl-id: db265e3c-a809-4404-839a-273001e81d22
-source-git-commit: fd5fd6e1bc04db56497a2e0c2a96bc1b06d4f7a1
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 0%

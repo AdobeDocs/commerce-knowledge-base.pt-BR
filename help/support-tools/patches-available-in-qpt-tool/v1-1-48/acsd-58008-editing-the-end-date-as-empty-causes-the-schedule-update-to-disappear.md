@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-58008: editar a data de término como *empty* faz com que a atualização da programação desapareça'
+title: 'ACSD-58008: editar a data final como *vazia* faz com que a atualização da programação desapareça'
 description: Aplique o patch ACSD-58008 para corrigir o problema do Adobe Commerce em que editar a data de término como *vazia* faz com que a atualização de agendamento desapareça.
 feature: Staging, Page Content
 role: Admin, Developer

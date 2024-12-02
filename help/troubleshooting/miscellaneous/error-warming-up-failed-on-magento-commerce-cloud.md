@@ -1,10 +1,10 @@
 ---
-title: "ERRO: falha no aquecimento do Adobe Commerce na infraestrutura em nuvem"
-description: "Este artigo fornece uma solução para quando o cache da página está sendo aquecido e falha com um erro:"
+title: 'ERRO: falha no aquecimento do Adobe Commerce na infraestrutura de nuvem'
+description: 'Este artigo fornece uma solução para quando o cache da página está sendo aquecido e falha com um erro:'
 exl-id: 20a88030-b1c9-4fdc-83c1-f344d44cd2e1
 feature: Cache, Cloud, Paas
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 0%

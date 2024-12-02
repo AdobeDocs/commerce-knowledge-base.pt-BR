@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51984: desmarcado [!UICONTROL Use Default Value] e valores de campo de produto não padrão não são salvos para a segunda exibição de site, loja e loja"
+title: 'ACSD-51984: Desmarcado [!UICONTROL Use Default Value] e os valores de campo de produto não padrão não são salvos para a segunda exibição de site, loja e loja'
 description: Aplique o patch ACSD-51984 para corrigir o problema do Adobe Commerce em que os valores de campo de produto desmarcados [!UICONTROL Use Default Value] e não padrão não são salvos para a segunda exibição de site, loja e loja.
 feature: Products
 role: Admin

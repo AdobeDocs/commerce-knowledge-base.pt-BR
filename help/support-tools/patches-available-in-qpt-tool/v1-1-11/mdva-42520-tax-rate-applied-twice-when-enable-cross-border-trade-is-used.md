@@ -1,10 +1,10 @@
 ---
-title: '"MDVA-42520: alíquota de imposto aplicada duas vezes quando "Habilitar Comércio Transfronteiriço" é usado"'
+title: 'MDVA-42520: Alíquota de imposto aplicada duas vezes quando "Habilitar Comércio Transfronteiriço" é usado'
 description: O patch MDVA-42520 corrige o problema em que a alíquota do imposto é aplicada duas vezes quando a opção **Ativar comércio transfronteiriço** é usada. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.11 está instalada. A ID do patch é MDVA-42520. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.5.
 exl-id: c1ca44eb-fe92-4f28-807a-3a4563433386
 feature: Catalog Management, Orders, Taxes
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 0%

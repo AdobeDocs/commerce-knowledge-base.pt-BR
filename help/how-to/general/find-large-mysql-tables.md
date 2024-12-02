@@ -1,8 +1,8 @@
 ---
 title: Localizar tabelas MySQL grandes
-description: '"Para identificar as tabelas grandes, conecte-se ao banco de dados conforme descrito no artigo [Connect to the database](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/mysql#connect-to-the-database) e execute o seguinte comando, em que "project_id" é a ID do projeto na nuvem:"'
+description: 'Para identificar as tabelas grandes, conecte-se ao banco de dados conforme descrito no artigo [Connect to the database](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/mysql#connect-to-the-database) e execute o seguinte comando, em que "project_id" é a ID do seu projeto na nuvem:'
 exl-id: dc5019bc-ab6c-4568-986f-0a294a0f3ac3
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%

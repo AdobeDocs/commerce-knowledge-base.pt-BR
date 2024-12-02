@@ -1,10 +1,10 @@
 ---
-title: "ACSD-53998: Bloco dinâmico baseado em segmento de cliente funciona incorretamente após o logout"
+title: 'ACSD-53998: Bloco dinâmico baseado em segmento de cliente funciona incorretamente após o logout'
 description: Aplique o patch ACSD-53998 para corrigir o problema do Adobe Commerce em que um bloco dinâmico baseado em um segmento de cliente não funciona corretamente depois de fazer logout de uma conta de cliente.
 feature: Customers, Page Builder, Personalization
 role: Admin, Developer
 exl-id: 5a82a6b8-e8f7-47ff-89f6-93a39b72fe38
-source-git-commit: dccb8dde1666fa0c72c7c94cd94c82daddaadc54
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 0%

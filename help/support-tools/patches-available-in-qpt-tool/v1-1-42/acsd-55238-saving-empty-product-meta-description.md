@@ -1,10 +1,10 @@
 ---
-title: "ACSD-55238: Salvar a metadescrição do produto vazia"
+title: 'ACSD-55238: Salvar a metadescrição vazia do produto'
 description: Aplique o patch ACSD-55238 para corrigir o problema do Adobe Commerce em que uma descrição de produto que contém o código de HTML gerado pelo  [!DNL Page Builder]  ou outro editor de HTML é sempre exibida na metadescrição e não há como defini-la como vazia.
 feature: Products, Page Builder, Page Content
 role: Admin, Developer
 exl-id: 250026c3-925d-4a62-9855-d892c86d3d24
-source-git-commit: c903360ffb22f9cd4648f6fdb4a812cb61cd90c5
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%

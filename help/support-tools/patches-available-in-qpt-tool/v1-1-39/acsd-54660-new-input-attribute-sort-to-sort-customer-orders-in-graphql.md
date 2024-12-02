@@ -1,10 +1,10 @@
 ---
-title: "ACSD-54660: Nova classificação de atributo de entrada para classificar pedidos de clientes em [!DNL GraphQL]"
+title: 'ACSD-54660: Nova classificação de atributo de entrada para classificar pedidos de clientes em  [!DNL GraphQL]'
 description: Aplique o patch ACSD-54660 para corrigir o problema do Adobe Commerce em que um novo atributo de entrada "sort" foi adicionado para classificar pedidos do cliente em [!DNL GraphQL] por "sort_field" e "sort_direction".
 feature: GraphQL, Orders
 role: Admin, Developer
 exl-id: 29869139-e5e2-4b00-a090-e2c6673ff9ca
-source-git-commit: f12e25ac5dd607cc614dd99c90c5e104b2cee6a8
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 0%

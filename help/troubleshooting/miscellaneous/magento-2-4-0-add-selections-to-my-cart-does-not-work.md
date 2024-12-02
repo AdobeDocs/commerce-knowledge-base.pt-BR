@@ -1,10 +1,10 @@
 ---
-title: '"Adobe Commerce 2.4.0: "Adicionar seleções ao meu carrinho" não funciona"'
+title: 'Adobe Commerce 2.4.0: "Adicionar seleções ao meu carrinho" não funciona'
 description: Este artigo fornece uma solução alternativa para um problema conhecido de botão quebrado no Administrador do Commerce ao gerenciar o carrinho de compras de um cliente. Ao tentar adicionar produtos selecionados ao carrinho de compras de um cliente, o botão **Adicionar seleções ao meu carrinho** localizado na parte inferior da seção não funciona. Esse problema ocorre em qualquer página do painel Admin que contém dois botões **Adicionar seleções ao meu carrinho**. Uma correção permanente estará disponível no Adobe Commerce 2.4.1.
 exl-id: b0830ec2-2aea-4afb-8d02-e9c8f54283be
 feature: Orders, Shopping Cart
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%

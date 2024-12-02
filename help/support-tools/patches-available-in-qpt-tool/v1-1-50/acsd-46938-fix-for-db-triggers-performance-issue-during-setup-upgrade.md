@@ -1,9 +1,10 @@
 ---
-title: '"ACSD-46938: problemas de desempenho com acionadores de DB durante "setup:upgrade""'
+title: 'ACSD-46938: problemas de desempenho com acionadores de DB durante "setup:upgrade"'
 description: Aplique o patch ACSD-46938 para corrigir o problema do Adobe Commerce em que o comando "setup:upgrade" altera o modo do indexador de agendamento para salvar, causando lentidão significativa no desempenho.
 feature: Upgrade
 role: Admin, Developer
-source-git-commit: cbd16ac7c6d6d7a4e3786880409475a10964c070
+exl-id: 967727ed-f490-4233-a2b0-fcb2fa3f964b
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%

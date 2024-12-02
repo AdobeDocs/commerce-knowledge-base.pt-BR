@@ -1,6 +1,6 @@
 ---
 title: Erro ao limpar o cache do Fastly na Nuvem (A solicitação de limpeza não foi processada com êxito)
-description: '"Este artigo fornece uma correção para quando você usa uma opção de limpeza do Fastly e recebe o erro: *A solicitação de limpeza não foi processada com êxito*. O Fastly é um serviço de CDN e armazenamento em cache incluído no Adobe Commerce para planos e implementações de infraestrutura em nuvem. Se você tentar usar uma opção de limpeza do Fastly sem processar, talvez você tenha credenciais incorretas no ambiente ou tenha encontrado um problema.'''
+description: 'Este artigo fornece uma correção para quando você usa uma opção de limpeza Fastly e recebe o erro: *A solicitação de limpeza não foi processada com êxito*. O Fastly é um serviço de CDN e armazenamento em cache incluído no Adobe Commerce para planos e implementações de infraestrutura em nuvem. Se você tentar usar uma opção de limpeza do Fastly sem processar, talvez você tenha credenciais incorretas no ambiente ou tenha encontrado um problema.'
 exl-id: 568b1f4c-2ccb-4740-a6e4-d227a55fcfe6
 feature: Cache, Cloud, Paas
 role: Developer

@@ -1,10 +1,10 @@
 ---
-title: "MDVA-43718: o erro 'o consumidor não está autorizado a acessar recursos' aparece ao acessar o catálogo compartilhado"
+title: 'MDVA-43718: o erro "o consumidor não está autorizado a acessar recursos" aparece ao acessar o catálogo compartilhado'
 description: O patch MDVA-43718 resolve o problema em que o erro *consumidor não está autorizado a acessar %resources.* é exibido ao acessar um catálogo compartilhado de uma integração personalizada. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.15 está instalada. A ID do patch é MDVA-43718. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.5.
 exl-id: fa783ed4-906e-4ee6-b82a-cfe6db5ae89e
 feature: Catalog Management
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%

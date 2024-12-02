@@ -1,5 +1,5 @@
 ---
-title: "ACSD-48910: o produto agrupado atribuído a várias fontes sai do estoque após a fatura e o envio"
+title: 'ACSD-48910: o produto empacotado atribuído a várias fontes sai do estoque após a fatura e o envio'
 description: Aplique o patch ACSD-48910 para corrigir o problema do Adobe Commerce em que o produto empacotado atribuído a várias fontes fica esgotado depois que um pedido é faturado e enviado, mesmo que ainda tenha uma quantidade diferente de zero.
 feature: Products, Inventory
 role: Admin, Developer

@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51700: erro ao alternar exibições da loja na página de edição do produto baixável"
+title: 'ACSD-51700: erro ao alternar exibições da loja na página de edição do produto baixável'
 description: Aplique o patch ACSD-51700 para corrigir o problema do Adobe Commerce em que ocorre um erro ao alternar as exibições da loja em uma página de edição de produto baixável no administrador.
 feature: Products
 role: Admin

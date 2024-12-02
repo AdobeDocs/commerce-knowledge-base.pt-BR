@@ -1,5 +1,5 @@
 ---
-title: "ACSD-46856: melhora o desempenho ao atualizar os preços de camada"
+title: 'ACSD-46856: melhora o desempenho ao atualizar os preços de nível'
 description: Aplique o patch ACSD-46856 para melhorar o desempenho ao atualizar os preços de camada por meio do System &gt; Configuration &gt; Import &gt; Advanced Pricing.
 exl-id: c08560ef-94fa-4be4-9c59-d4b1b5e4186f
 feature: Orders

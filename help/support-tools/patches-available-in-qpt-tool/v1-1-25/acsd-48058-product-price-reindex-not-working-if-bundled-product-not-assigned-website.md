@@ -1,5 +1,5 @@
 ---
-title: "ACSD-48058: a reindexação de preço do produto não funciona se o produto empacotado não for atribuído ao site"
+title: 'ACSD-48058: a reindexação de preço do produto não funciona se o produto empacotado não for atribuído ao site'
 description: Aplique o patch ACSD-48058 para corrigir o problema do Adobe Commerce em que a reindexação de preço do produto não está funcionando se o produto incluído não estiver atribuído a nenhum site.
 exl-id: 691371f1-7f10-4be6-80e4-821e7cf664a6
 feature: Admin Workspace, Orders, Products

@@ -1,5 +1,5 @@
 ---
-title: "ACSD-50368: a group_id dos clientes é ignorada quando um cliente é criado por meio da API REST assíncrona ou da API REST assíncrona em massa"
+title: 'ACSD-50368: a group_id dos clientes é ignorada quando um cliente é criado por meio da API REST assíncrona ou da API REST assíncrona em massa'
 description: Aplique o patch ACSD-50368 para corrigir o problema do Adobe Commerce em que os clientes group_id são ignorados quando um cliente é criado por meio da API REST assíncrona ou da API REST em massa assíncrona.
 feature: REST
 role: Admin

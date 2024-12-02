@@ -1,5 +1,5 @@
 ---
-title: "ACSD-45424: compensação de reserva incorreta criada após reembolso parcial"
+title: 'ACSD-45424: Compensação de reserva incorreta criada após reembolso parcial'
 description: O patch ACSD-45424 corrige o problema em que uma compensação de reserva incorreta é criada após um reembolso parcial. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.17 está instalada. A ID do patch é ACSD-45424. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.6.
 exl-id: 0676cfda-a28e-4a66-a75b-8a3fc5e22566
 feature: Orders

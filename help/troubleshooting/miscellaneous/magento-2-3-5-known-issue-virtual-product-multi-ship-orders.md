@@ -1,5 +1,5 @@
 ---
-title: "Problema conhecido do Adobe Commerce 2.3.5: pedidos virtuais de várias entregas"
+title: 'Problema conhecido do Adobe Commerce 2.3.5: pedidos virtuais de vários envios'
 description: Este artigo explica um problema conhecido no Adobe Commerce 2.3.5 em que um pedido de vários envios contendo um produto virtual não é processado corretamente.
 exl-id: 34ce79a2-5157-492b-8ee4-bdc09aae0c40
 feature: Orders, Products, Shipping/Delivery

@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-43414: erro fatal PHP ao executar "inventory.reserved.updateSalabilityStatus"'
+title: 'MDVA-43414: erro fatal do PHP ao executar "inventory.reserved.updateSalabilityStatus"'
 description: O patch MDVA-43414 resolve o erro fatal do PHP que ocorre ao executar o consumidor da fila "inventory.reserved.updateSalabilityStatus" em SKUs numéricas. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12 está instalada. A ID do patch é MDVA-43414. Observe que o problema foi corrigido no Adobe Commerce 2.4.2.
 exl-id: 197c5db1-36bc-41a7-a5ca-f026600da786
 feature: Inventory, Orders

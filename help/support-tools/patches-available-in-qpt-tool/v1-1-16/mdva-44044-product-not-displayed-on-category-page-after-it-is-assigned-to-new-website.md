@@ -1,5 +1,5 @@
 ---
-title: "MDVA-44044: o produto não é exibido na página de categoria depois de ser atribuído ao novo site"
+title: 'MDVA-44044: produto não exibido na página de categoria depois de atribuído ao novo site'
 description: O patch MDVA-44044 resolve o problema em que um produto não é exibido na página de categoria depois de ser atribuído a um novo site. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.16 está instalada. A ID do patch é MDVA-44044. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.6.
 exl-id: e3a179ed-243c-4200-a01a-796657bd31ab
 feature: Categories, Products

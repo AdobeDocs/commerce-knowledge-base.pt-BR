@@ -1,5 +1,5 @@
 ---
-title: "MDVA-40101: os itens permanecem minicarrinho após o posicionamento do pedido Check-out do PayPal Express"
+title: 'MDVA-40101: os itens permanecem minicarrinho após o posicionamento do pedido Check-out do PayPal Express'
 description: O patch MDVA-40101 corrige o problema em que os itens não são removidos do minicarrinho após um pedido bem-sucedido feito usando a Finalização de compra do PayPal Express. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.4 está instalada. A ID do patch é MDVA-40101. Observe que o problema foi corrigido no Adobe Commerce 2.4.0.
 exl-id: d640dfcd-6fb6-4cc6-8817-3ae19aa59bed
 feature: Checkout, Orders, Payments, Shopping Cart

@@ -1,10 +1,10 @@
 ---
-title: "ACSD-51899: endereço de entrega padrão preenchido automaticamente incorretamente"
+title: 'ACSD-51899: endereço de entrega padrão preenchido automaticamente incorretamente'
 description: Aplique o patch ACSD-51899 para corrigir o problema do Adobe Commerce em que o endereço de envio padrão é preenchido automaticamente com um endereço errado.
 feature: Checkout
 role: Admin
 exl-id: 67100fcd-e98f-4740-8f1f-fcc820f4c75d
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 0%

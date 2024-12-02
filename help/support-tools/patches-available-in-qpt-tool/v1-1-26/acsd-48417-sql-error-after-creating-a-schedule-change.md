@@ -1,5 +1,5 @@
 ---
-title: "ACSD-48417: erro SQL após criar uma alteração de agendamento"
+title: 'ACSD-48417: Erro de SQL após criar uma alteração de agendamento'
 description: Aplique o patch ACSD-48417 para corrigir o problema do Adobe Commerce em que um erro SQL é exibido após criar uma alteração de agendamento para um produto e salvar outro produto.
 exl-id: 2bbf3bb5-dec8-43b3-81f1-be0dc53d1f46
 feature: Storage

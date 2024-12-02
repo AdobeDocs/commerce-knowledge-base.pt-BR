@@ -1,10 +1,10 @@
 ---
-title: "ACSD-47559: a pré-visualização do modelo de email não está totalmente visível"
+title: 'ACSD-47559: a pré-visualização do modelo de email para email não está totalmente visível'
 description: Aplique o patch ACSD-47559 para corrigir o problema do Adobe Commerce em que a pré-visualização do modelo de email não está totalmente visível.
 exl-id: de8c9001-5c4f-4ef3-a80a-92d69825ecb0
 feature: Communications, Marketing Tools, Personalization
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%

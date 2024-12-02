@@ -1,5 +1,5 @@
 ---
-title: "ACSD-52399: produto com qtd. vendável 0 é exibido em estoque"
+title: 'ACSD-52399: produto com qtd. vendável 0 é exibido em estoque'
 description: Aplique o patch ACSD-52399 para corrigir o problema do Adobe Commerce em que a opção de produto configurável com quantidade comerciável de 0 mostra *Em estoque* na página do produto.
 feature: Products, Configuration
 role: Admin, Developer

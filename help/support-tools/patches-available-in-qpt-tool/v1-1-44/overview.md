@@ -22,7 +22,7 @@ O QPT v1.1.44 inclui os seguintes patches:
 1. **ACSD-55231**: corrige o problema em que um erro *SKU não encontrado* ocorre ao usar a funcionalidade de ordem rápida.
 1. **ACSD-55427**: corrige o problema em que um usuário administrador não pode desatribuir um produto de um catálogo compartilhado de uma página de produto no back-end.
 1. **ACSD-56158**: corrige o problema em que um valor de imposto incorreto é renderizado na loja quando várias regras de imposto são aplicadas ao carrinho.
-1. **ACSD-56023**: corrige o problema em que o conteúdo do widget não é atualizado na página CMS.
+1. **ACSD-56023**: corrige o problema em que o conteúdo do widget não é atualizado na página do CMS.
 1. **ACSD-56790**: corrige o problema em que a classificação de produtos com *[!UICONTROL Move out of Stock to bottom]* não está funcionando corretamente.
 1. **ACSD-56193**: corrige o problema em que o cache [!DNL Fastly] não é limpo para atualização de preparo de conteúdo.
 1. **ACSD-56280**: corrige o problema em que ocorre um erro ao tentar fazer um pedido a partir de um registro de presente, impedindo a conclusão da compra.

@@ -1,10 +1,10 @@
 ---
-title: "ACSD-54376: exceção no carrinho de compras quando o produto é removido de [!UICONTROL shared catalog]"
+title: 'ACSD-54376: Exceção no carrinho de compras quando o produto foi removido de [!UICONTROL shared catalog]'
 description: Aplique o patch ACSD-54376 para corrigir o problema do Adobe Commerce em que uma exceção ocorre no carrinho de compras quando um produto é removido do [!UICONTROL shared catalog] após ser adicionado ao carrinho.
 feature: Shopping Cart, B2B
 role: Admin, Developer
 exl-id: a1e5c084-532f-49e8-ab87-6674b44218e8
-source-git-commit: 1cc565d5888e5a380c04879d9aced2c19e92c2e5
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 0%

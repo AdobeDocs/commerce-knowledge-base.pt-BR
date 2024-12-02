@@ -1,5 +1,5 @@
 ---
-title: "MDVA-40816: dados de inventário não mostrados na grade de produtos"
+title: 'MDVA-40816: Dados de estoque não mostrados na grade de produtos'
 description: O patch MDVA-40816 resolve o problema em que as informações de inventário não são exibidas na grade do produto se um SKU de produto contiver caracteres especiais. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.10 está instalada. A ID do patch é MDVA-40816. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.5.
 exl-id: 88c05c88-33be-4d72-a302-23a1510c401c
 feature: Admin Workspace, Inventory, Orders, Products

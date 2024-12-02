@@ -1,5 +1,5 @@
 ---
-title: "ACSD-47520: os clientes perdem pontos de recompensa quando um memorando de crédito é criado"
+title: 'ACSD-47520: os clientes perdem pontos de premiação quando um memorando de crédito é criado'
 description: Aplique o patch ACSD-47520 para corrigir o problema do Adobe Commerce em que os clientes perdem pontos de recompensa quando um memorando de crédito é criado.
 exl-id: 748b4e05-981d-49f6-a4f5-b121d57085f4
 feature: Admin Workspace, Cache, Orders, Rewards, Returns

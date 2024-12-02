@@ -1,5 +1,5 @@
 ---
-title: "ACSD-47292: os produtos empacotados esgotados não estão disponíveis na resposta da GraphQL"
+title: 'ACSD-47292: os produtos empacotados esgotados não estão disponíveis na resposta da GraphQL'
 description: Aplique o patch ACSD-47292 para corrigir o problema do Adobe Commerce em que os produtos empacotados indisponíveis não estão disponíveis na resposta do GraphQL, mesmo se "mostrar produtos indisponíveis" estiver definido como Sim.
 exl-id: 377dc62f-d1cd-4292-b25d-53c498b772a9
 feature: Admin Workspace, Categories, GraphQL, Orders, Products

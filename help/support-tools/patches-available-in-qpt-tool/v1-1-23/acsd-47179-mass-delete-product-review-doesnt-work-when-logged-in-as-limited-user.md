@@ -1,5 +1,5 @@
 ---
-title: "ACSD-47179: a exclusão em massa de análises de produtos não funciona quando conectado como função de usuário limitada"
+title: 'ACSD-47179: a exclusão em massa de análises de produtos não funciona quando conectado como função de usuário limitada'
 description: Aplique o patch ACSD-47179 para corrigir o problema do Adobe Commerce em que a exclusão em massa de análises de produtos não funciona quando conectado como uma função de usuário limitada.
 exl-id: 85d7ce63-7dd6-4df4-b314-278d18e69fbb
 feature: Marketing Tools, Products, Roles/Permissions

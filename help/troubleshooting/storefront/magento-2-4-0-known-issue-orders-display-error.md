@@ -1,6 +1,6 @@
 ---
-title: "Problema conhecido do Adobe Commerce 2.4.0: pedidos exibem erro"
-description: '"Este artigo fornece uma solução alternativa para um problema conhecido no Adobe Commerce para um erro de exibição de pedidos. Quando os clientes conectados verificam seus pedidos no menu **Minha conta** (**Minha conta &gt; Meus pedidos**), a grade de pedidos não consegue alternar o número de pedidos por página para 20 a partir da página 2 quando há 11 pedidos. Além disso, se houver mais pedidos do que o configurado para serem mostrados por página, ao navegar até a última página com pedidos, alterar o número de pedidos mostrados por página gerará a mensagem de erro: *Você não fez pedidos*. Este problema será resolvido no Adobe Commerce 2.4.1.'''
+title: 'Problema conhecido do Adobe Commerce 2.4.0: erros de exibição de pedidos'
+description: 'Este artigo fornece uma solução alternativa para um problema conhecido no Adobe Commerce para um erro de exibição de pedidos. Quando os clientes conectados verificam seus pedidos no menu **Minha conta** (**Minha conta &gt; Meus pedidos**), a grade de pedidos não consegue alternar o número de pedidos por página para 20 a partir da página 2 quando há 11 pedidos. Além disso, se houver mais pedidos do que o configurado para serem mostrados por página, ao navegar até a última página com pedidos, alterar o número de pedidos mostrados por página gerará a mensagem de erro: *Você não fez pedidos*. Este problema será resolvido no Adobe Commerce 2.4.1.'
 exl-id: a6d300e1-1cbc-42b9-997d-d72f8765517b
 feature: B2B, Categories, Storefront
 role: Admin

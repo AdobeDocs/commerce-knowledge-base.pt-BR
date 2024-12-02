@@ -1,5 +1,5 @@
 ---
-title: "ACSD-47803: amostras de produtos configuráveis indisponíveis exibidas como disponíveis"
+title: 'ACSD-47803: amostras de produtos configuráveis indisponíveis exibidas como disponíveis'
 description: Aplique o patch ACSD-47803 para corrigir o problema do Adobe Commerce em que as amostras de produto configuráveis e indisponíveis são exibidas como disponíveis.
 exl-id: 28b3f378-a790-4af6-9627-5bd8571523fd
 feature: Configuration, Orders, Products

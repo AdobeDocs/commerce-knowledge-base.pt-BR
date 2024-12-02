@@ -1,5 +1,5 @@
 ---
-title: "ACSD-49574: não é possível atualizar o produto de cartão-presente no carrinho de compras via GraphQL"
+title: 'ACSD-49574: não é possível atualizar o produto de cartão-presente no carrinho de compras via GraphQL'
 description: Aplique o patch ACSD-49574 para corrigir o problema do Adobe Commerce em que um produto de cartão-presente não pode ser atualizado no carrinho de compras via GraphQL.
 exl-id: e446128f-c991-4c3c-8d1c-bbff6230e448
 feature: Admin Workspace, Gift, GraphQL, Orders, Products, Shopping Cart

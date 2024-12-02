@@ -1,5 +1,5 @@
 ---
-title: "MDVA-42790: os atributos de preço do produto não podem ser atualizados para um site específico por meio da API REST"
+title: 'MDVA-42790: os atributos de preço do produto não podem ser atualizados para um site específico por meio da API REST'
 description: O patch MDVA-42790 corrige o problema em que os usuários não conseguem atualizar atributos de preço do produto para sites específicos por meio da API REST. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.11 está instalada. A ID do patch é MDVA-42790. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.5.
 exl-id: b9d80190-17d2-436f-86d5-33689b8224d4
 feature: REST, Attributes, Orders, Products

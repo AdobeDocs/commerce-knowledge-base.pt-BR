@@ -1,10 +1,10 @@
 ---
-title: '"ACSD-55031: erro "O tipo "misto" não pode ser anulável" durante a compilação"'
+title: 'ACSD-55031: erro "O tipo "misto" não pode ser anulável" durante a compilação'
 description: Aplique o patch ACSD-55031 para corrigir o problema do Adobe Commerce em que o erro *Tipo "misto" não pode ser anulável* durante a compilação após a instalação de uma extensão personalizada.
 feature: Extensions
 role: Admin, Developer
 exl-id: 5259c744-eb8a-44a9-b6c5-7c50abe5d092
-source-git-commit: f12e25ac5dd607cc614dd99c90c5e104b2cee6a8
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 0%

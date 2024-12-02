@@ -1,10 +1,10 @@
 ---
-title: "ACSD-50621: os preços de camada para diferentes sites no catálogo compartilhado não estão visíveis"
+title: 'ACSD-50621: os preços de nível para diferentes sites no catálogo compartilhado não estão visíveis'
 description: Aplique o patch ACSD-50621 para corrigir o problema do Adobe Commerce, em que os preços de camada para sites diferentes no catálogo compartilhado não estão visíveis ao editá-los em um ambiente de vários sites.
 exl-id: 6d6635bc-4f76-4e2f-9bc7-0276cced8ca9
 feature: Catalog Management, Orders
 role: Admin
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%

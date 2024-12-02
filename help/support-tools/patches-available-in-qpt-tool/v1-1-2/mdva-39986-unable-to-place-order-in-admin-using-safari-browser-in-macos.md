@@ -1,10 +1,10 @@
 ---
-title: "MDVA-39986: Não é possível fazer pedidos no administrador do navegador Safari no macOS"
+title: 'MDVA-39986: Não é possível fazer pedidos no administrador no navegador Safari no macOS'
 description: O patch MDVA-39986 corrige o problema em que os usuários não conseguem fazer pedidos no administrador usando o navegador Safari no macOS. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.2 está instalada. A ID do patch é MDVA-39986. Observe que o problema foi corrigido no Adobe Commerce 2.4.3.
 exl-id: a35b6253-e03f-4bdb-a3a3-fceb70588c6e
 feature: Admin Workspace, Orders
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%

@@ -1,10 +1,10 @@
 ---
-title: "ACSD-49822: atualizações na página de lista de requisições não refletidas na lista de requisições de impressão"
+title: 'ACSD-49822: Atualizações na página de lista de requisições não refletidas na lista de requisições de impressão'
 description: Aplique o patch ACSD-49822 para corrigir o problema do Adobe Commerce em que as atualizações na página de lista de requisições não são refletidas na lista imprimir requisições.
 exl-id: 584e3fcd-9153-41aa-8857-cf1fa41269c9
 feature: Admin Workspace, B2B
 role: Admin
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%

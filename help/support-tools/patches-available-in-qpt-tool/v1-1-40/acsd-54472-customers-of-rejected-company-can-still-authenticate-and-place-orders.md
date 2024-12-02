@@ -1,5 +1,5 @@
 ---
-title: "ACSD-54472: os clientes de uma empresa rejeitada ainda podem autenticar"
+title: 'ACSD-54472: os clientes de uma empresa rejeitada ainda podem autenticar'
 description: Aplique o patch ACSD-54472 para corrigir o problema do Adobe Commerce em que os clientes de uma empresa rejeitada ainda podem se autenticar e os clientes de uma empresa bloqueada e rejeitada ainda podem fazer pedidos.
 feature: B2B
 role: Admin, Developer

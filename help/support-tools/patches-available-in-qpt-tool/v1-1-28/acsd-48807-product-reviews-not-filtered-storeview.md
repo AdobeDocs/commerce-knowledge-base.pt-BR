@@ -1,5 +1,5 @@
 ---
-title: "ACSD-48807: análises de produtos não filtradas pela loja"
+title: 'ACSD-48807: análises de produtos não filtradas pela loja'
 description: Aplique o patch ACSD-48807 para corrigir o problema do Adobe Commerce, em que as análises de produtos não são filtradas pela loja via GraphQL.
 exl-id: 754ef455-ff06-4832-9eb6-ad8cccec8799
 feature: Admin Workspace, Products

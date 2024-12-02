@@ -1,10 +1,10 @@
 ---
-title: '[!DNL Live Search] exibe produtos indisponíveis independentemente das configurações de status de estoque no administrador'
+title: '[!DNL Live Search] exibe produtos indisponíveis, independentemente das configurações de status do estoque no administrador'
 description: Este artigo fornece informações sobre o problema conhecido em que a Página de listagem de produtos (PLP) mostra o erro *Não é possível encontrar produtos que correspondam à seleção*, enquanto o popover de pesquisa retorna alguns itens.
 exl-id: 2a351b83-407c-444a-a761-4932b5b88843
 feature: Admin Workspace, Categories, Orders, Products, Search
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 0%

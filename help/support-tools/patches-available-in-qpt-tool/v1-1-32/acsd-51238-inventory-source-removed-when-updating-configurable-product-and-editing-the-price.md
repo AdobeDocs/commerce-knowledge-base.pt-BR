@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51238: a origem do inventário é removida ao atualizar um produto configurável e editar o preço"
+title: 'ACSD-51238: A origem do inventário é removida ao atualizar um produto configurável e editar o preço'
 description: Aplique o patch ACSD-51238 para corrigir o problema do Adobe Commerce em que a origem do inventário é removida ao atualizar um produto configurável e editar o preço.
 exl-id: ab2f60fd-5da3-45f7-a489-6f4f9d34e1f1
 feature: Configuration, Inventory, Orders, Products

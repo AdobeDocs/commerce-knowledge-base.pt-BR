@@ -1,6 +1,6 @@
 ---
-title: "E: Erro ao verificar route.yaml erro durante a implantação de preparo ou produção"
-description: '"Este artigo fornece uma solução para o problema de infraestrutura em nuvem do Adobe Commerce, em que você recebe a mensagem de erro *"E: Erro ao verificar rotas.yaml"* ao tentar implantar o projeto no ambiente de preparo ou produção."'
+title: 'E: Erro ao verificar o erro route.yaml durante a implantação de preparo ou produção'
+description: 'Este artigo fornece uma solução para o problema de infraestrutura em nuvem do Adobe Commerce, em que você recebe a mensagem de erro *"E: Error while verifying route.yaml"* ao tentar implantar o projeto no ambiente de preparo ou produção.'
 exl-id: 7f58591a-5581-46cd-984d-09ac2c0f3903
 feature: Deploy, Routes, Staging
 role: Developer

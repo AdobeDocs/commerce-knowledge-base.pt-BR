@@ -1,5 +1,5 @@
 ---
-title: "ACSD-50116: um usuário administrador não pode criar uma regravação de URL para as subcategorias de nível três ou inferior"
+title: 'ACSD-50116: um usuário administrador não pode criar uma regravação de URL para as subcategorias do nível três ou inferior'
 description: Aplique o patch ACSD-50116 para corrigir o problema do Adobe Commerce em que um usuário administrador não pode criar uma regravação de URL para as subcategorias de nível três ou inferior.
 exl-id: 3fa8ebc1-b55d-437e-9dc7-bf6c300b9bbe
 feature: Admin Workspace, Categories

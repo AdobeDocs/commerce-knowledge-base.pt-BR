@@ -1,10 +1,10 @@
 ---
 title: Solucionar problemas de desempenho usando o New Relic no Adobe Commerce
-description: '"Este artigo fornece etapas de solução de problemas para resolver problemas de desempenho de infraestrutura em nuvem do Adobe Commerce usando o New Relic. Também fornece recursos para obter mais informações. Esta é uma lista de problemas. Clique para ver as etapas de solução de problemas em nossa base de conhecimento de suporte:'''
+description: 'Este artigo fornece etapas de solução de problemas para resolver problemas de desempenho de infraestrutura em nuvem do Adobe Commerce usando o New Relic. Também fornece recursos para obter mais informações. Esta é uma lista de problemas. Clique para ver as etapas de solução de problemas em nossa base de conhecimento de suporte:'
 exl-id: 0a22beb7-18b0-47eb-a6b8-63b7322b392c
 feature: Observability
 role: Developer
-source-git-commit: 324cce66df1e4ab7ec4ef8fb6512c3acbabdf3ab
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '900'
 ht-degree: 0%

@@ -1,6 +1,6 @@
 ---
 title: Perguntas frequentes sobre a política de ciclo de vida atualizada para versões do Adobe Commerce
-description: '"A Adobe Commerce fornece correções de qualidade para uma versão secundária por um mínimo de 12 meses a partir da data de disponibilidade geral da próxima versão secundária de software. A maneira como fornecemos correções de qualidade durante esse período está mudando:'''
+description: 'A Adobe Commerce fornece correções de qualidade para uma versão secundária por um mínimo de 12 meses a partir da data de disponibilidade geral da próxima versão secundária de software. A maneira como fornecemos correções de qualidade durante esse período está mudando:'
 exl-id: 4aa601d0-ee1d-4f1f-a684-188772a58dd1
 feature: Compliance, Support
 role: Admin

@@ -1,8 +1,8 @@
 ---
-title: "[!DNL Fastly] perguntas frequentes sobre a habilitação de encobrimento de origem"
-description: Estas Perguntas frequentes discutem perguntas comuns sobre a habilitação do cloaking de origem no Adobe Commerce (que foi totalmente implementado a partir de 2021). [!DNL Fastly]
+title: Perguntas frequentes sobre a habilitação de encobrimento de origem [!DNL Fastly]
+description: 'Estas Perguntas frequentes discutem perguntas comuns sobre a habilitação do cloaking de origem no Adobe Commerce (que foi totalmente implementado a partir de 2021). [!DNL Fastly] '
 exl-id: d608abe7-7d64-44ce-bea1-34b201c29113
-source-git-commit: 1021a1ab81481f92e850bd49330f1742fe9a21f2
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
@@ -19,7 +19,7 @@ O cloaking de origem é um recurso de segurança que permite que o Adobe Commerc
 
 ## Quais são os benefícios do cloaking de origem?
 
-O cloaking de origem foi projetado para impedir que o tráfego ignore o [!DNL Fastly Web Application Firewall] (WAF) e o encaminhe pelo fluxo estritamente definido de **[!DNL Fastly]** > **Balanceador de Carga** > **Instâncias**. Com essa implementação, todo o tráfego passará pelo WAF [!DNL Fastly], bem como pelo WAF interno integrado ao balanceador de carga.
+O cloaking de origem foi projetado para impedir que o tráfego ignore o [!DNL Fastly Web Application Firewall] (WAF) e o roteie pelo fluxo estritamente definido de **[!DNL Fastly]** > **Balanceador de Carga** > **Instâncias**. Com essa implementação, todo o tráfego passará pelo WAF [!DNL Fastly], bem como pelo WAF interno integrado ao balanceador de carga.
 
 ## Por que essa ativação de cloaking de origem está acontecendo?
 

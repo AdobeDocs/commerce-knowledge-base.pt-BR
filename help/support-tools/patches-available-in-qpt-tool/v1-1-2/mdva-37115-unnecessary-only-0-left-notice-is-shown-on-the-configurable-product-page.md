@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-37115: o aviso "Somente 0 restante" é exibido na página do produto'
+title: 'MDVA-37115: o aviso "Apenas 0 restante" é exibido na página do produto'
 description: O patch MDVA-37115 resolve o problema em que o aviso *Only 0 left* desnecessário é mostrado na página do produto configurável. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2 está instalada. A ID do patch é MDVA-37115. Observe que o problema foi corrigido no Adobe Commerce 2.4.3.
 exl-id: 08aa6ac7-13ae-44c1-9db4-d449c3d8c985
 feature: Configuration, Products, Orders

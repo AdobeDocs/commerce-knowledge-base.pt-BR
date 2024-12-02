@@ -1,5 +1,5 @@
 ---
-title: "Adobe Commerce 2.3.6, 2.4.0-p1, 2.4.1 problema conhecido: dotdigital login"
+title: 'Adobe Commerce 2.3.6, 2.4.0-p1, 2.4.1 problema conhecido: dotdigital login'
 description: Este artigo descreve um problema conhecido do Adobe Commerce 2.3.6, 2.4.0-p1 e 2.4.1 em que é impossível fazer logon no [dotdigital](https://dotdigital.com/) por meio do Painel de administração quando a conta dotdigital está ativada.
 exl-id: 427d895c-8c03-4ced-813a-eeaa67f1d1f0
 feature: Configuration

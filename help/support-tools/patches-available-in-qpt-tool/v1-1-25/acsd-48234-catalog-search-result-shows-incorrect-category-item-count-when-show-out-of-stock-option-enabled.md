@@ -1,5 +1,5 @@
 ---
-title: "ACSD-48234: contagem incorreta de itens de categoria no resultado da pesquisa de catálogo quando [!UICONTROL Display Out of Stock Products] está habilitado"
+title: 'ACSD-48234: contagem incorreta de itens de categoria do resultado da pesquisa do catálogo quando [!UICONTROL Display Out of Stock Products] habilitado'
 description: Aplique o patch ACSD-48234 para corrigir o problema do Adobe Commerce em que o resultado da pesquisa no catálogo mostra uma contagem de itens de categoria incorreta quando a opção [!UICONTROL Display Out of Stock Products] estiver habilitada.
 exl-id: 8e70fe73-d550-4e11-b25e-84955e136d12
 feature: Admin Workspace, Categories, Catalog Management, Orders, Products, Search

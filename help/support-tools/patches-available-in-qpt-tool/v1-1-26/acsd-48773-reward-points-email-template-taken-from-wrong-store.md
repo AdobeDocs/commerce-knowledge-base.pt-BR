@@ -1,10 +1,10 @@
 ---
-title: "ACSD-48773: modelo de email de pontos de recompensa retirado do armazenamento errado"
+title: 'ACSD-48773: modelo de email de pontos de recompensa retirado da loja errada'
 description: Aplique o patch ACSD-48773 para corrigir o problema do Adobe Commerce em que o modelo de email de pontos de premiação é retirado da loja errada.
 exl-id: 96dda97c-5177-4883-ad2b-709928cb5f4d
 feature: Admin Workspace, Communications, Marketing Tools, Orders, Personalization, Rewards
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 0%

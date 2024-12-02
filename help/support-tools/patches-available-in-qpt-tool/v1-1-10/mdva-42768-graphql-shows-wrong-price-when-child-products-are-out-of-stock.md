@@ -1,5 +1,5 @@
 ---
-title: "MDVA-42768: o GraphQL mostra o preço errado quando os produtos derivados estão indisponíveis"
+title: 'MDVA-42768: o GraphQL mostra o preço errado quando os produtos infantis estão indisponíveis'
 description: O patch MDVA-42768 corrige o problema em que o GraphQL mostra o preço errado quando os produtos secundários de um produto configurável estão indisponíveis. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.10 está instalada. A ID do patch é MDVA-42768. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.5.
 exl-id: 012e7e21-e508-4449-98a6-4bdb41284c3a
 feature: GraphQL, Orders, Products

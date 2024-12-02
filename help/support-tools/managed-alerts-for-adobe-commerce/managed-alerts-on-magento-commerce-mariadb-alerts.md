@@ -1,10 +1,10 @@
 ---
-title: "Alertas gerenciados no Adobe Commerce: alertas do MariaDB"
-description: '"Este artigo fornece etapas de solução de problemas quando você recebe alertas MariaDB para Adobe Commerce no New Relic. Os alertas do MariaDB monitoram a alta carga de consultas, bem como o excesso de consultas DML (Data Manipulation Language). Ambos podem levar a uma experiência degradada do usuário ou até mesmo a um tempo de inatividade. Você pode receber quatro tipos de alertas:'''
+title: 'Alertas gerenciados no Adobe Commerce: alertas do MariaDB'
+description: 'Este artigo fornece etapas de solução de problemas quando você recebe alertas MariaDB para Adobe Commerce no New Relic. Os alertas do MariaDB monitoram a alta carga de consultas, bem como o excesso de consultas DML (Data Manipulation Language). Ambos podem levar a uma experiência degradada do usuário ou até mesmo a um tempo de inatividade. Você pode receber quatro tipos de alertas:'
 exl-id: 707e20e0-faba-4bcd-884c-b54568787442
 feature: Cache, Observability, Support, Tools and External Services
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 0%

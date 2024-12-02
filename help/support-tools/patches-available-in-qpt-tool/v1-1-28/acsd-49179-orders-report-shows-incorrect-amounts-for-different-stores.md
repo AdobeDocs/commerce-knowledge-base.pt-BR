@@ -1,5 +1,5 @@
 ---
-title: "ACSD-49179: o relatório de pedidos mostra valores incorretos para armazenamentos diferentes."
+title: 'ACSD-49179: O relatório de pedidos mostra valores incorretos para armazenamentos diferentes.'
 description: Aplique o patch ACSD-49179 para corrigir o problema do Adobe Commerce em que o relatório de pedidos mostra valores incorretos no caso de moedas diferentes para lojas diferentes.
 exl-id: 01e4cd2d-6c33-4cf5-bf31-bbc34eaaed1a
 feature: Admin Workspace, Orders

@@ -1,15 +1,15 @@
 ---
-title: "ACSD-58352: rótulos de atributo de retorno para o armazenamento padrão são retornados por meio da API  [!DNL GraphQL] "
+title: 'ACSD-58352: Os rótulos de atributo de retorno para o armazenamento padrão são retornados por meio da API  [!DNL GraphQL] '
 description: Aplique o patch ACSD-58352 para corrigir o problema do Adobe Commerce em que os rótulos de atributo de retorno para o armazenamento padrão são retornados por meio da API  [!DNL GraphQL]  quando uma exibição de armazenamento não padrão é especificada no cabeçalho da solicitação.
 feature: GraphQL, Returns
 role: Admin, Developer
-source-git-commit: 6df1ec7e2cccfbadaa88b8233ca99faf40a208c5
+exl-id: 372a50bb-28e1-4259-97d1-011956b73d59
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
 
 ---
-
 
 # ACSD-58352: Rótulos de atributos de retorno para o armazenamento padrão são retornados pela API [!DNL GraphQL]
 

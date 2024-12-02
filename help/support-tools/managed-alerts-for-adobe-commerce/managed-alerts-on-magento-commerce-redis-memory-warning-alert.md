@@ -1,6 +1,6 @@
 ---
-title: "Alertas gerenciados no Adobe Commerce: alerta de aviso de memória Redis"
-description: '"Este artigo fornece etapas de solução de problemas para quando você recebe um alerta de aviso Redis para Adobe Commerce no New Relic. É necessária ação imediata para resolver o problema. O alerta será semelhante ao seguinte, dependendo do canal de notificação de alerta selecionado:'''
+title: 'Alertas gerenciados no Adobe Commerce: alerta de aviso de memória Redis'
+description: 'Este artigo fornece etapas de solução de problemas para quando você recebe um alerta de aviso Redis para Adobe Commerce no New Relic. É necessária ação imediata para resolver o problema. O alerta será semelhante ao seguinte, dependendo do canal de notificação de alerta selecionado:'
 exl-id: b7867a42-3817-4cb4-93cf-d69acee33a41
 feature: Categories, Marketing Tools, Observability, Services, Support, Tools and External Services, Variables
 role: Admin

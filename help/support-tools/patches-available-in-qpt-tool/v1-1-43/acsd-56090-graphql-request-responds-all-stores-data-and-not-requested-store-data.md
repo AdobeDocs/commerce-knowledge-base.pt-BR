@@ -1,10 +1,10 @@
 ---
-title: "ACSD-56090: a resposta do GraphQL não é específica do armazenamento"
+title: 'ACSD-56090: a resposta do GraphQL não é específica da loja'
 description: Aplique o patch ACSD-56090 para corrigir o problema do Adobe Commerce em que a resposta do GraphQL contém todos os dados de lojas em vez dos dados específicos da loja.
 feature: GraphQL
 role: Admin, Developer
 exl-id: 129491e0-1a77-4ccc-8aba-cd0afdb26176
-source-git-commit: c903360ffb22f9cd4648f6fdb4a812cb61cd90c5
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%

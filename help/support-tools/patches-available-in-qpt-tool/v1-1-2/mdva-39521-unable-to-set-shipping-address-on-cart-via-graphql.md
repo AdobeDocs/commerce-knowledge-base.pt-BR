@@ -1,5 +1,5 @@
 ---
-title: "MDVA-39521: Não é possível definir o endereço de entrega em carrinhos por meio do GraphQL"
+title: 'MDVA-39521: Não é possível definir o endereço de entrega em carrinhos por meio do GraphQL'
 description: O patch MDVA-39521 resolve o problema em que o usuário não consegue definir o endereço de envio em carrinhos com um número de telefone vazio via GraphQL. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2 está instalada. A ID do patch é MDVA-39521. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.4.
 exl-id: b6bb4e83-ba65-4f15-82be-1252d9beb2fb
 feature: GraphQL, Orders, Shipping/Delivery, Shopping Cart

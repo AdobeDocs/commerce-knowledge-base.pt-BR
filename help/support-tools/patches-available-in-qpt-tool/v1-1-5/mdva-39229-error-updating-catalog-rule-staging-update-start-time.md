@@ -1,10 +1,10 @@
 ---
-title: "MDVA-39229: Erro após a atualização da hora de início da atualização da Regra de catálogo"
+title: 'MDVA-39229: Erro após a atualização da hora de início da atualização de Preparo da regra de catálogo'
 description: O patch MDVA-39229 corrige o problema em que os usuários recebem um erro após atualizar a hora de início da atualização de Preparo da regra de catálogo. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.5 está instalada. A ID do patch é MDVA-39229. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.4.
 exl-id: b9a203af-693d-4253-877b-591ae5f388d3
 feature: Catalog Management, Staging
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%

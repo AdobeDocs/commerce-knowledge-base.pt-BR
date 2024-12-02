@@ -1,10 +1,10 @@
 ---
 title: Falha na instalação do Adobe Commerce 2.4.0 com cache de lojas desatualizado
-description: "Este artigo fornece uma solução para o problema em que a instalação do Adobe Commerce 2.4.0 falha com a mensagem de erro: *O site padrão não está definido. Defina o site e tente novamente.* exibido no console."
+description: 'Este artigo fornece uma solução para o problema em que a instalação do Adobe Commerce 2.4.0 falha com a mensagem de erro: *O site padrão não está definido. Defina o site e tente novamente.* exibido no console.'
 exl-id: 0680199b-7e47-4a8c-91fe-9f6c32839a0e
 feature: B2B, Cache, Console, Install, Upgrade
 role: Developer
-source-git-commit: a1046621259ea49eab74cd6ba3bba550e0c70283
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%

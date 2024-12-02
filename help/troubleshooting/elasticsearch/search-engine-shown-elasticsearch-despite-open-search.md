@@ -1,9 +1,9 @@
 ---
-title: '[!DNL Elasticsearch] é mostrado como mecanismo de pesquisa apesar da  [!DNL OpenSearch] instalação'
+title: '[!DNL Elasticsearch] é mostrado como o mecanismo de pesquisa apesar da instalação [!DNL OpenSearch] '
 description: Este artigo fornece uma solução para o problema em que  [!DNL Elasticsearch]  ainda é exibido como mecanismo de pesquisa para Adobe Commerce na nuvem mesmo após a instalação ou atualização para  [!DNL OpenSearch].
 exl-id: cdd8a35d-da6f-46d3-b732-65626487c9bb
 feature: Install
-source-git-commit: 1f053f76ae56edc06bfe82e55210244c8ec4b8eb
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%

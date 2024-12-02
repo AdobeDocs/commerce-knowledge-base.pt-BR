@@ -1,10 +1,10 @@
 ---
-title: "ACSD-46869: produtos configuráveis não são atualizados usando a API REST no check-out"
+title: 'ACSD-46869: produtos configuráveis não são atualizados usando a API REST no check-out'
 description: O patch ACSD-46869 corrige o problema em que os produtos configuráveis não são atualizados usando a API REST na finalização. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.20 está instalada. A ID do patch é ACSD-46869. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.6.
 exl-id: d1bac489-f0f3-4b50-bc48-86c844230da7
 feature: REST, Checkout, Configuration, Orders, Products
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 0%

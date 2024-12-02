@@ -1,10 +1,10 @@
 ---
-title: "MDVA-39923: a pesquisa por SKU na funcionalidade de ordem rápida B2B diferencia maiúsculas de minúsculas"
+title: 'MDVA-39923: A pesquisa por SKU na funcionalidade de ordem rápida B2B diferencia maiúsculas de minúsculas'
 description: O patch MDVA-39923 corrige o problema em que os clientes recebem um erro ao pesquisar o pedido por SKU na funcionalidade de pedido rápido B2B com um caso diferente daquele com o qual o nome é salvo. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2 está instalada. A ID do patch é MDVA-39923. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.4.
 exl-id: 52e435df-28a7-49be-a257-7e5801601d57
 feature: B2B, Catalog Management, Orders, Search
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%

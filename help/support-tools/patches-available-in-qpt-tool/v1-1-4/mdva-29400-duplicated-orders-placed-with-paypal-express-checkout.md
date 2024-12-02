@@ -1,10 +1,10 @@
 ---
-title: "MDVA-29400: Pedidos duplicados feitos com o Check-out expresso do PayPal"
+title: 'MDVA-29400: Pedidos duplicados feitos com o Check-out do PayPal Express'
 description: O patch MDVA-29400 resolve o problema em que os pedidos duplicados são criados quando os clientes fazem pedidos com o Check-out do PayPal Express. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.4 está instalada. A ID do patch é MDVA-29400. Observe que o problema foi corrigido no Adobe Commerce 2.4.1.
 exl-id: 75b943c8-5f7c-4d94-ae92-935428fdfcf8
 feature: Checkout, Orders, Payments
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%

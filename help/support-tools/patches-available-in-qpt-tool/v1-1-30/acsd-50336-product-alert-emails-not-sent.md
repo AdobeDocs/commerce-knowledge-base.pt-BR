@@ -1,5 +1,5 @@
 ---
-title: "ACSD-50336: emails de alerta de produto não enviados"
+title: 'ACSD-50336: emails de alerta de produto não enviados'
 description: Aplique o patch ACSD-50336 para corrigir o problema do Adobe Commerce em que os emails de alerta do produto não são enviados quando um produto está de volta ao estoque ou o preço é alterado.
 exl-id: 0fc51603-e74d-4ce7-9e67-42826ffbfab2
 feature: Communications, Personalization, Products

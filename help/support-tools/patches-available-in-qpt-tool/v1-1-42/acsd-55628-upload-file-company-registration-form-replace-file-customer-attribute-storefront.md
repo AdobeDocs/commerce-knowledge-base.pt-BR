@@ -1,10 +1,10 @@
 ---
-title: "ACSD-55628: Carregando arquivo no formulário de registro da empresa; substituindo arquivo pelo atributo do cliente na loja"
+title: 'ACSD-55628: Carregando arquivo no formulário de registro da empresa; substituindo arquivo para atributo do cliente na loja'
 description: Aplique o patch ACSD-55628 para corrigir o problema do Adobe Commerce com o upload de um arquivo no formulário de registro da empresa e a substituição de um arquivo para um atributo do cliente na loja.
 feature: Storefront, Attributes, B2B, Customers
 role: Admin, Developer
 exl-id: ca85b459-f72b-4663-85af-1f793935fe7e
-source-git-commit: c903360ffb22f9cd4648f6fdb4a812cb61cd90c5
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%

@@ -1,5 +1,5 @@
 ---
-title: "Falha na atualização do compositor no Adobe Commerce: tipo de argumento incompatível"
+title: 'Falha na atualização do compositor no Adobe Commerce: tipo de argumento incompatível'
 description: Este artigo fornece uma solução para quando a implantação travar devido a um problema com a compilação de código. Esse problema é causado por uma nova versão da dependência de symfony/console (4.4.27, 4.4.28).
 exl-id: ba2dd229-29f6-43e2-9467-8bd1bf59e6ef
 feature: Console

@@ -1,10 +1,10 @@
 ---
-title: "ACSD-53239: o indexador de inventário limpa todos os caches"
+title: 'ACSD-53239: O indexador de inventário limpa todos os caches'
 description: Aplique o patch ACSD-53239 para corrigir o problema do Adobe Commerce em que o indexador de inventário limpa todos os caches no modo [!UICONTROL Update on Schedule].
 feature: GraphQL, Inventory, Catalog Management
 role: Admin, Developer
 exl-id: b8e68cf7-d326-4c9e-8749-d83113de2070
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 0%

@@ -1,10 +1,10 @@
 ---
-title: "MDVA-39935: o GraphQL retorna produtos secundários configuráveis desabilitados no nível do site'"
+title: 'MDVA-39935: o GraphQL retorna produtos secundários configuráveis desabilitados no nível do site'''
 description: O patch MDVA-39935 do Adobe Commerce corrige o problema em que o GraphQL retorna produtos secundários configuráveis desativados no nível do site. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.2 está instalada. A ID do patch é MDVA-39935. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.4.
 exl-id: 45bd6bd9-3572-4477-a689-d6b952a3290a
 feature: GraphQL, Configuration, Products
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%

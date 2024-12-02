@@ -1,5 +1,5 @@
 ---
-title: "ACSD-49497: ordem ainda em processamento após a remessa e reembolso parcial"
+title: 'ACSD-49497: ordem ainda em processamento após a entrega e reembolso parcial'
 description: Aplique o patch ACSD-49497 para corrigir o problema do Adobe Commerce em que o status do pedido permanece como processamento após a entrega e um reembolso parcial é aplicado.
 exl-id: d195bcf4-bb8b-4373-8aad-a5b953b07443
 feature: Admin Workspace, Orders, Shipping/Delivery

@@ -1,10 +1,10 @@
 ---
-title: "ACSD-53925: Não é possível salvar o bloco CMS com [!UICONTROL Product Carousel]"
-description: Aplique o patch ACSD-53925 para corrigir o problema do Adobe Commerce em que o administrador não pode salvar um bloco CMS com o Carrossel de produtos quando o modo de dimensões para "catalog_product_price" está definido como site.
+title: 'ACSD-53925: Não é possível salvar o bloco CMS com [!UICONTROL Product Carousel]'
+description: Aplique o patch ACSD-53925 para corrigir o problema do Adobe Commerce em que o administrador não pode salvar um bloco do CMS com o Carrossel de produtos quando o modo de dimensões para "catalog_product_price" está definido como site.
 feature: CMS, Page Builder, Price Indexer, Products
 role: Admin, Developer
 exl-id: 6ef6d8ff-4ebb-4adb-9fb7-0d4a81a25f50
-source-git-commit: c903360ffb22f9cd4648f6fdb4a812cb61cd90c5
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # ACSD-53925: Não é possível salvar o bloco CMS com *[!UICONTROL Product Carousel]*
 
-O patch ACSD-53925 corrige o problema em que o administrador não pode salvar um bloco CMS com *[!UICONTROL Product Carousel]* quando o modo de dimensões para `catalog_product_price` está definido como site. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.43 está instalado. A ID do patch é ACSD-53925. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.7.
+O patch ACSD-53925 corrige o problema em que o administrador não pode salvar um bloco do CMS com *[!UICONTROL Product Carousel]* quando o modo de dimensões para `catalog_product_price` está definido como site. Este patch está disponível quando o [!DNL Quality Patches Tool (QPT)] 1.1.43 está instalado. A ID do patch é ACSD-53925. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.7.
 
 ## Produtos e versões afetados
 
@@ -43,13 +43,13 @@ O administrador não pode salvar um bloco CMS com *[!UICONTROL Product Carousel]
 
    `bin/magento indexer:set-dimensions-mode catalog_product_price website`
 
-1. Vá para **[!UICONTROL Content]** > **[!UICONTROL Blocks]** e crie um novo bloco CMS.
+1. Vá para **[!UICONTROL Content]** > **[!UICONTROL Blocks]** e crie um novo bloco do CMS.
 1. Editar o conteúdo usando [!DNL Page Builder]:
    * Adicionar um elemento *[!UICONTROL Row]*
    * Adicionar um elemento *[!UICONTROL Products]*
    * Selecionar *[!UICONTROL Product Carousel]*
    * Inserir SKU do produto - *bundle1-dyn*
-1. Salve o bloco CMS.
+1. Salve o bloco do CMS.
 
 <u>Resultados esperados</u>:
 

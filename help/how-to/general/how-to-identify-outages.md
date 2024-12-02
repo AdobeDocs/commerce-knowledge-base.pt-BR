@@ -1,7 +1,7 @@
 ---
 title: Identificar e medir paralisações do Adobe Commerce na infraestrutura em nuvem
 promoted: true
-description: "Há várias maneiras de um comerciante (ou qualquer pessoa interessada na integridade do site) identificar sites inativos, também conhecidos como interrupções do site. Um site down é o período em que o site do comerciante não pode responder adequadamente às solicitações do cliente. A definição de paralisações e seus efeitos em sites é ampla. O artigo em anexo descreve o seguinte:"
+description: 'Há várias maneiras de um comerciante (ou qualquer pessoa interessada na integridade do site) identificar sites detalhados, também conhecidos como interrupções do site. Um site down é o período em que o site do comerciante não pode responder adequadamente às solicitações do cliente. A definição de paralisações e seus efeitos em sites é ampla. O artigo em anexo descreve o seguinte:'
 exl-id: 204910b0-49d5-43df-921b-8c0c7a42524e
 feature: Cloud
 source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8

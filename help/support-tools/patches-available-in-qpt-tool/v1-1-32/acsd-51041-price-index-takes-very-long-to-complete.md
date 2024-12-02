@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51041: o índice de preço leva muito tempo para ser concluído"
+title: 'ACSD-51041: O índice de preço leva muito tempo para ser concluído'
 description: Aplique o patch ACSD-51041 para corrigir o problema do Adobe Commerce em que o índice de preço leva muito tempo para ser concluído com um conjunto de produtos muito grande.
 exl-id: 442f5eae-ca00-4329-be24-68970624928f
 feature: Configuration

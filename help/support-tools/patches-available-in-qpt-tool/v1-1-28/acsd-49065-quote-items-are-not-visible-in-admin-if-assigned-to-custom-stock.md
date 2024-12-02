@@ -1,5 +1,5 @@
 ---
-title: "ACSD-49065: os itens de cotação não estão visíveis no administrador"
+title: 'ACSD-49065: os itens de cotação não estão visíveis no administrador'
 description: Aplique o patch ACSD-49065 para corrigir o problema do Adobe Commerce em que os itens de cotação não estão visíveis no administrador se estiverem atribuídos apenas ao estoque personalizado.
 exl-id: 3a5ceb4c-4c94-4938-98d9-9171f2633056
 feature: Admin Workspace, B2B, Orders, Quotes

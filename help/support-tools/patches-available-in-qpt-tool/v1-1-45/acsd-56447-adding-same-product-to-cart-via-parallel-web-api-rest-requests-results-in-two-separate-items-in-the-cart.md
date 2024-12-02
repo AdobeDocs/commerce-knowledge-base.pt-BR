@@ -1,5 +1,5 @@
 ---
-title: "ACSD-56447: Adicionar o mesmo produto ao carrinho por meio da API REST da Web paralela resulta em dois itens separados no carrinho"
+title: 'ACSD-56447: Adicionar o mesmo produto ao carrinho por meio da API REST da Web paralela resulta em dois itens separados no carrinho'
 description: Aplique o patch ACSD-56447 para corrigir o problema do Adobe Commerce em que adicionar o mesmo produto ao carrinho por meio de solicitações paralelas de API REST da Web resulta em dois itens separados no carrinho.
 feature: Shopping Cart, REST
 role: Admin, Developer

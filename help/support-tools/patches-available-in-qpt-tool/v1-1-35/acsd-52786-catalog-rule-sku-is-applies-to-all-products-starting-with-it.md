@@ -1,5 +1,5 @@
 ---
-title: "ACSD-52786: a regra de catálogo *[!UICONTROL SKU is]* se aplica a todos os produtos que começam com o SKU"
+title: 'ACSD-52786: a regra de catálogo *[!UICONTROL SKU is]* se aplica a todos os produtos que começam com a SKU'
 description: Aplique o patch ACSD-52786 para corrigir o problema do Adobe Commerce em que a condição de regra de catálogo *[!UICONTROL SKU is]* se aplica a todos os produtos que começam com o SKU fornecido.
 feature: Price Rules
 role: Admin

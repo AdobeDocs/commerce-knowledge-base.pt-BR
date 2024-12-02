@@ -1,5 +1,5 @@
 ---
-title: "Ferramenta de correções de qualidade lançada: nova ferramenta para autoatendimento de patches de qualidade"
+title: 'Ferramenta de correções de qualidade lançada: nova ferramenta para autoatendimento de correções de qualidade'
 description: O Adobe lançou a Ferramenta de patches de qualidade para disponibilidade geral - uma ferramenta que permite aplicar, reverter e exibir informações gerais sobre patches de qualidade disponíveis para a sua versão instalada do Adobe Commerce (no local e na infraestrutura em nuvem) ou Magento Open Source.
 exl-id: e6a79d16-84be-4a71-a41d-ef2b43ec98d9
 feature: Tools and External Services

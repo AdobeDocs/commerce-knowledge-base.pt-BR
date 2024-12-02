@@ -1,5 +1,5 @@
 ---
-title: "Alertas gerenciados no Adobe Commerce: alerta crítico de memória"
+title: 'Alertas gerenciados no Adobe Commerce: alerta crítico de memória'
 description: Este artigo fornece etapas de solução de problemas quando você recebe um alerta crítico de memória para o Adobe Commerce no New Relic. É necessária uma ação imediata para corrigir o problema. O alerta será semelhante ao seguinte, dependendo do canal de notificação de alerta selecionado.
 exl-id: feed7998-c50b-4cbf-a92d-cbfc65745a1c
 feature: Cache, Marketing Tools, Observability, Support, Tools and External Services

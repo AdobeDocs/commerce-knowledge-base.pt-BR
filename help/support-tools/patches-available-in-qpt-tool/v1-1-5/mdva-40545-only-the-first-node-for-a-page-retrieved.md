@@ -1,10 +1,10 @@
 ---
-title: "MDVA-40545: somente o primeiro nó de uma página é recuperado"
+title: 'MDVA-40545: Somente o primeiro nó de uma página é recuperado'
 description: O patch MDVA-40545 resolve o problema em que apenas o primeiro nó de uma página é recuperado mesmo se houver mais de um nó para a mesma página. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.5 está instalada. A ID do patch é MDVA-40545. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.4.
 exl-id: ac7aaed9-5e81-45fe-b699-40d9c086a05c
 feature: CMS, Cache
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 0%

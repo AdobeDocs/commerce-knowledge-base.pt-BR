@@ -1,10 +1,10 @@
 ---
-title: "Adobe Commerce na infraestrutura em nuvem: verificar a configuração da CPU do host"
+title: 'Adobe Commerce na infraestrutura em nuvem: verificar a configuração da CPU do host'
 promoted: true
 description: O artigo em anexo fornece diretrizes detalhadas sobre as etapas e consultas que um usuário pode seguir para verificar a configuração da CPU de um host. O usuário pode aplicar essas etapas para identificar um redimensionamento, identificar o momento da alteração e visualizar todas as alterações de configuração de hardware que ocorreram, se houver, em qualquer momento antes ou depois do redimensionamento.
 exl-id: 34c28744-9ebb-45b6-af12-a66dc4c7d943
 feature: Cloud, Configuration
-source-git-commit: f11c8944b83e294b61d9547aefc9203af344041d
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%

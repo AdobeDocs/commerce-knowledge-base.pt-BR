@@ -1,10 +1,10 @@
 ---
-title: "ACSD-49464: NFFs, entregas e avisos de crédito não movidos do arquivo"
+title: 'ACSD-49464: NFFs, entregas e avisos de crédito não movidos do arquivo'
 description: Aplique o patch ACSD-49464 para corrigir o problema do Adobe Commerce em que NFFs, entregas e avisos de crédito não são movidos de volta do arquivo quando orderId é diferente.
 exl-id: 845f9878-5f7e-4e58-8f8a-b02af17b3f11
 feature: Admin Workspace, Invoices, Orders, Returns, Shipping/Delivery
 role: Admin
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%

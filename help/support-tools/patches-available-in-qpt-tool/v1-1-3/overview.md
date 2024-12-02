@@ -18,7 +18,7 @@ Esta subseção fornece uma descrição detalhada dos problemas corrigidos pelos
 O QPT v1.1.3 inclui os seguintes patches:
 
 1. **MDVA-31590**: corrige o problema em que os usuários não podem atualizar atributos em massa usando filas assíncronas MySQL.
-1. **MDVA-33606**: corrige o problema em que os usuários recebem um erro *Violação de restrição exclusiva* ao salvar uma página CMS atribuída a uma hierarquia.
+1. **MDVA-33606**: corrige o problema em que os usuários recebem um erro *Violação de restrição exclusiva* ao salvar uma página do CMS atribuída a uma hierarquia.
 1. **MDVA-36309**: corrige o problema em que a pesquisa de produto por atributos está lenta nas grades de administração.
 1. **MDVA-37234**: corrige o problema em que adicionar um item ao carrinho várias vezes (solicitação paralela) para o mesmo SKU cria um item de linha duplicado para a mesma ID de carrinho.
 1. **MDVA-40262**: corrige o problema em que as consultas de pesquisa do GraphQL não são mostradas em termos de pesquisa populares no Administrador.

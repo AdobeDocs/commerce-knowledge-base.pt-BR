@@ -1,10 +1,10 @@
 ---
-title: "ACSD-49706: valor padrão salvo para o atributo de amostra visual quando nenhum valor é selecionado"
+title: 'ACSD-49706: Valor padrão salvo para o atributo de amostra visual quando nenhum valor é selecionado'
 description: Aplique o patch ACSD-49706 para corrigir o problema do Adobe Commerce em que um valor padrão é salvo para um atributo de amostra visual quando nenhum valor é selecionado.
 exl-id: fe6071df-f2a4-443a-acfa-67f3d253c5e4
 feature: Admin Workspace, Attributes
 role: Admin
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%

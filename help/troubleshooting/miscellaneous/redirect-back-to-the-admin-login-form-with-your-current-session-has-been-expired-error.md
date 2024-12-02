@@ -1,10 +1,10 @@
 ---
-title: 'Redirecionar de volta para o formulário de logon do [!UICONTROL Commerce Admin] com o erro "Sua sessão atual expirou"'
-description: '''Este artigo fornece as soluções possíveis para o problema de logon do [!UICONTROL Commerce Admin], para o qual você é redirecionado de volta ao formulário de logon com a seguinte mensagem de erro: *"Sua sessão atual expirou"*. As soluções incluem a verificação de problemas de configuração de tempo do servidor e a alteração das configurações de armazenamento da sessão."'
+title: Redirecione de volta para o formulário de logon do [!UICONTROL Commerce Admin] com o erro "Sua sessão atual expirou"
+description: 'Este artigo fornece as soluções possíveis para o problema de logon do [!UICONTROL Commerce Admin], no qual você é redirecionado de volta ao formulário de logon com a seguinte mensagem de erro: *"Sua sessão atual expirou"*. As soluções incluem a verificação de problemas de configuração de tempo do servidor e a alteração das configurações de armazenamento de sessão.'
 exl-id: 29df2ed2-ff4a-4f1a-bdb7-1160416cda00
 feature: Admin Workspace
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%

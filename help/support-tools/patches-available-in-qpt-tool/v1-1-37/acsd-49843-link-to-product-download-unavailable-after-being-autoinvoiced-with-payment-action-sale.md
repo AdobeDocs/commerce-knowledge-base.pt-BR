@@ -1,10 +1,10 @@
 ---
-title: "ACSD 49843: link de download do produto indisponível após ser faturado automaticamente com [!UICONTROL Payment Action] = [!UICONTROL Intent Sale]"
+title: 'ACSD 49843: link de download do produto indisponível após ser faturado automaticamente com [!UICONTROL Payment Action] = [!UICONTROL Intent Sale]'
 description: Aplique o patch ACSD-49843 para corrigir o problema do Adobe Commerce em que o link de download do produto fica indisponível depois que o item solicitado é faturado automaticamente por um método de pagamento online quando [!UICONTROL Payment Action] está definido como [!UICONTROL Intent Sale].
 feature: Catalog Management, Configuration, Invoices, Orders, Storefront
 role: Admin, Developer
 exl-id: 4bfa3827-a2b1-4168-a39c-99c617ee4795
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%

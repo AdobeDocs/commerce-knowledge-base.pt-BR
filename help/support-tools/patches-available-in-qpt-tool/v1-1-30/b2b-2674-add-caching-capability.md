@@ -1,5 +1,5 @@
 ---
-title: "B2B-2674: adiciona o recurso de armazenamento em cache à consulta de GraphQL customAttributeMetadata"
+title: 'B2B-2674: Adiciona o recurso de armazenamento em cache à consulta de GraphQL customAttributeMetadata'
 description: Aplique o patch B2B-2674 para adicionar o recurso de cache à consulta de GraphQL customAttributeMetadata.
 feature: Attributes, B2B, Cache, GraphQL
 role: Admin

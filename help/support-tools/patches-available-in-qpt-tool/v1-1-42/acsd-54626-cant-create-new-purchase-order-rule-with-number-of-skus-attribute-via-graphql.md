@@ -1,10 +1,10 @@
 ---
-title: "ACSD-54626: Não é possível criar nova regra de ordem de compra com NUMBER_OF_SKUS via GraphQL"
+title: 'ACSD-54626: Não é possível criar nova regra de ordem de compra com NUMBER_OF_SKUS via GraphQL'
 description: Aplique o patch ACSD-54626 para corrigir o problema do Adobe Commerce em que um cliente não pode criar uma nova regra de ordem de compra ("createPurchaseOrderApprovalRule") com o atributo "NUMBER_OF_SKUS" por meio do GraphQL.
 feature: Attributes, B2B, GraphQL, Purchase Orders
 role: Admin, Developer
 exl-id: 807f06e3-6708-4860-bf46-df4404124f27
-source-git-commit: 35cd21581ee34a6213be42a79e159439b8856fb6
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 0%

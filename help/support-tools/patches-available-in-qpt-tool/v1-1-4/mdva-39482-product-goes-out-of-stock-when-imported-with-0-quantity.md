@@ -1,10 +1,10 @@
 ---
-title: "MDVA-39482: o produto sai do estoque se importado com a quantidade '0' com ordens pendentes habilitadas"
+title: 'MDVA-39482: o produto sai do estoque se importado com a quantidade "0" com ordens pendentes ativadas'
 description: O MDVA-39482 corrige o problema em que o produto sai do estoque se importado com a quantidade "0" quando o MSI e os backorders estão habilitados e o Limite de Indisponibilidade é definido como um valor menos. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.4 está instalada. A ID do patch é MDVA-39482. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.4.
 exl-id: 2caf461c-993d-48b3-bc47-3fa1d014deaf
 feature: Data Import/Export, Orders, Products
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%

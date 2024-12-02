@@ -1,10 +1,10 @@
 ---
-title: "ACSD-52095: o gerenciamento do valor de estoque está incorreto ao exportar CSV"
+title: 'ACSD-52095: o gerenciamento do valor de estoque está incorreto ao exportar CSV'
 description: Aplique o patch ACSD-52095 para corrigir o problema do Adobe Commerce em que o valor do estoque de gerenciamento de produtos está incorreto ao exportar CSV.
 feature: Inventory, Products
 role: Admin, Developer
 exl-id: 9e599931-e9b1-4216-b78d-3993d9c3132d
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%

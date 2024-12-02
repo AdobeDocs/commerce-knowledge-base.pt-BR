@@ -1,5 +1,5 @@
 ---
-title: "ACSD-54324: a solicitação requisition_lists do GraphQL não considera configurações de paginação"
+title: 'ACSD-54324: a solicitação requisition_lists do GraphQL não considera as configurações de paginação'
 description: Aplique o patch ACSD-54324 para corrigir o problema do Adobe Commerce em que a solicitação "requisition_lists" do GraphQL não considera configurações de paginação e retorna todos os resultados.
 feature: B2B, Customers, GraphQL
 role: Admin, Developer

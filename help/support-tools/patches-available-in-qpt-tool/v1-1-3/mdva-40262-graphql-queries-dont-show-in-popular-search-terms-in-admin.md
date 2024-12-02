@@ -1,5 +1,5 @@
 ---
-title: "MDVA-40262: as consultas do GraphQL não são exibidas em termos de pesquisa populares no admin"
+title: 'MDVA-40262: as consultas do GraphQL não são exibidas em termos de pesquisa populares no admin'
 description: O patch de qualidade MDVA-40262 do Adobe Commerce corrige o problema em que as consultas de pesquisa do GraphQL não são mostradas em termos de pesquisa populares no administrador. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.3 está instalada. A ID do patch é MDVA-40262. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.4.
 exl-id: 7157e47d-a042-4462-96ed-23203a3213bd
 feature: Admin Workspace, GraphQL, Search

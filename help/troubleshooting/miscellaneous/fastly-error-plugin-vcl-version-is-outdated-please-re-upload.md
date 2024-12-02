@@ -1,5 +1,5 @@
 ---
-title: '"Erro do Fastly: A versão do VCL do plug-in está desatualizada! Recarregue'''
+title: 'Erro do Fastly: a versão do VCL do plug-in está desatualizada! Faça upload novamente'
 description: Este artigo fornece uma solução para quando você visualizar a mensagem "*A versão do VCL do plug-in está desatualizada! Faça upload novamente.*" na Configuração do Fastly, no Administrador do Commerce, devido a não ter instalado o módulo Fastly mais recente.
 exl-id: d7870e9e-ba6b-49c2-a80c-26fb464cbae3
 feature: Best Practices, Cache

@@ -1,5 +1,5 @@
 ---
-title: "ACSD-53204: erro *O produto não pode ser salvo* em solicitações simultâneas para adicionar imagens à galeria"
+title: 'ACSD-53204: erro *O produto não pode ser salvo* em solicitações simultâneas para adicionar imagens à galeria'
 description: Aplique o patch ACSD-53204 para corrigir o problema do Adobe Commerce, em que *O produto não pode ser salvo*, o erro é lançado ao fazer solicitações simultâneas para adicionar imagens à galeria de produtos usando o ponto de extremidade rest/V1/products/&lt;sku&gt;/media.
 feature: Catalog Management, Media, Products, REST
 role: Admin, Developer

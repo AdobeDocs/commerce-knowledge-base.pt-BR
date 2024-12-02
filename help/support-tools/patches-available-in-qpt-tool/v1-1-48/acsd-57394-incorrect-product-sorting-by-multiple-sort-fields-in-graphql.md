@@ -1,10 +1,10 @@
 ---
-title: "ACSD-57394: Classificação de produto incorreta por atributos de classificação múltipla em [!DNL GraphQL]"
+title: 'ACSD-57394: Classificação de produto incorreta por atributos de classificação múltipla em [!DNL GraphQL]'
 description: Aplique o patch ACSD-57394 para corrigir o problema do Adobe Commerce em que os produtos são classificados incorretamente ao usar vários atributos de classificação no [!DNL GraphQL].
 feature: GraphQL, Products
 role: Admin, Developer
 exl-id: f2e24daa-43a0-46b2-80b2-4e0ee116b776
-source-git-commit: 42712af2ce4337cd64b8dea555139e4252fb91cf
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%

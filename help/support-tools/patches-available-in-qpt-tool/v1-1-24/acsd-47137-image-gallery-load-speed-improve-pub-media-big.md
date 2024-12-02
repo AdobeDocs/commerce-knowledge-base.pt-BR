@@ -1,10 +1,10 @@
 ---
-title: '"ACSD-47137: melhorar a velocidade de carregamento da galeria de imagens na pasta "pub/media" big"'
+title: 'ACSD-47137: melhorar a velocidade de carregamento da galeria de imagens na pasta "pub/media" big'
 description: Aplique o patch ACSD-47137 para melhorar a velocidade de carregamento da galeria de imagens quando a pasta "pub/media" for muito grande.
 exl-id: 43268909-6845-4d1d-b6b8-4ae0ce40fd5e
 feature: Cache, Catalog Management, Categories, Media
 role: Admin
-source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 0%

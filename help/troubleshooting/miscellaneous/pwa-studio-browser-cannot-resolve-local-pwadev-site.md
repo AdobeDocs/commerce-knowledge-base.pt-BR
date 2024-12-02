@@ -1,5 +1,5 @@
 ---
-title: "PWA Studio: o navegador não pode resolver o site .local.pwadev"
+title: 'PWA Studio: o navegador não pode resolver o site .local.pwadev'
 description: Este artigo fornece uma solução para quando outro programa ou processo editou seu [arquivo host](https://en.wikipedia.org/wiki/Hosts_(file\) e removeu a entrada do domínio do projeto.
 exl-id: a1606016-906a-433f-9e40-9faa5f9bd790
 feature: Configuration

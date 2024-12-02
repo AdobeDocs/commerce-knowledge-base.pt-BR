@@ -1,10 +1,10 @@
 ---
 title: Implantação paralisada com o erro "Não é possível fazer upload do aplicativo para o cluster remoto"
-description: '"Este artigo fornece uma solução para o problema do Adobe Commerce, em que a implantação trava, e a seguinte mensagem de erro pode ser encontrada no log de implantação: *"Erro: não é possível carregar o aplicativo para o cluster remoto"*."'
+description: 'Este artigo fornece uma solução para o problema do Adobe Commerce, em que a implantação trava, e a seguinte mensagem de erro pode ser encontrada no log de implantação: *"Erro: não é possível carregar o aplicativo para o cluster remoto"*.'
 exl-id: 30f0ec31-db27-429c-b065-cf7770a72194
 feature: Deploy
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%

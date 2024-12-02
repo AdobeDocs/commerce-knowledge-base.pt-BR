@@ -1,10 +1,10 @@
 ---
-title: "ACSD-53643: o pedido tem um total incorreto ao colocar um pedido de compra"
+title: 'ACSD-53643: o pedido tem um total incorreto ao colocar um pedido de compra'
 description: Aplique o patch ACSD-53643 para corrigir o problema do Adobe Commerce em que o pedido tem um total incorreto ao fazer um pedido com produtos desativados ou indisponíveis.
 feature: B2B
 role: Admin, Developer
 exl-id: 9843e07a-8a17-401e-98bc-559df5148d34
-source-git-commit: 2356ac10b05ae9f38e5c0ca90d9156b0fc405718
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 0%

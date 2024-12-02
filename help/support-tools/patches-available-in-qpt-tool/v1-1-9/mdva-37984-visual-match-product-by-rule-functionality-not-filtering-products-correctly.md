@@ -1,10 +1,10 @@
 ---
-title: "MDVA-37984: o Visual Merchandiser não está funcionando corretamente quando atualizações de preparo são aplicadas"
+title: 'MDVA-37984: Merchandiser visual não está funcionando corretamente quando atualizações de preparo são aplicadas'
 description: O patch MDVA-37984 resolve o problema em que a funcionalidade "Corresponder produto por regra" do Visual Merchandiser não filtra produtos corretamente quando atualizações de preparo são aplicadas. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.9 está instalada. A ID do patch é MDVA-37984. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.5.
 exl-id: d806b94c-3b22-4d4c-8afb-7b57a0ebfe46
 feature: Categories, Merchandising, Products, Staging
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 0%

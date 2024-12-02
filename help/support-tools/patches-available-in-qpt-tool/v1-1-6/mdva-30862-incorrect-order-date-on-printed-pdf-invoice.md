@@ -1,10 +1,10 @@
 ---
-title: "MDVA-30862: data de ordem incorreta na fatura de PDF impressa"
+title: 'MDVA-30862: data de ordem incorreta na fatura de PDF impressa'
 description: O patch MDVA-30862 corrige o problema em que uma data de pedido incorreta é impressa na fatura da PDF. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.6 está instalada. A ID do patch é MDVA-30862. Observe que o problema foi corrigido no Adobe Commerce 2.4.0.
 exl-id: 695f530e-6abf-4883-972d-5d9c379493a2
 feature: Invoices, Orders
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 0%

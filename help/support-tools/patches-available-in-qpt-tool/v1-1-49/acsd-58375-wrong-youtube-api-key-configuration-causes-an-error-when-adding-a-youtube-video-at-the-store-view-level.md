@@ -1,9 +1,10 @@
 ---
-title: "ACSD-58375: a chave de API do YouTube configurada incorretamente causa erro ao adicionar vídeo no nível de exibição da loja"
+title: 'ACSD-58375: a chave de API do YouTube configurada incorretamente causa erro ao adicionar vídeo no nível de exibição da loja'
 description: Aplique o patch ACSD-58375 para corrigir o problema do Adobe Commerce em que uma configuração incorreta da chave de API do YouTube causa um erro ao adicionar um vídeo do YouTube no nível de exibição da loja.
 feature: Catalog Management, Configuration
 role: Admin, Developer
-source-git-commit: 1887a74b0c5545f9213f54602c58de7028d1ad72
+exl-id: e97f53a1-930b-417f-bd1a-8084bb168d68
+source-git-commit: a84c3d296deb49d419be78f454696177a974d923
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%

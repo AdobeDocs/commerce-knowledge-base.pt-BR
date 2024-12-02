@@ -1,5 +1,5 @@
 ---
-title: "ACSD-49960: a filtragem por data não funciona para a grade de pedidos do cliente"
+title: 'ACSD-49960: a filtragem por data não funciona para a grade de ordens do cliente'
 description: Aplique o patch ACSD-49960 para corrigir o problema do Adobe Commerce em que a filtragem por data não funciona para a grade de pedidos do cliente.
 exl-id: 483479f4-2688-4ff5-bbf3-bfd577a0c641
 feature: Admin Workspace, Orders

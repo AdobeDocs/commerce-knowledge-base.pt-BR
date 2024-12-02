@@ -1,10 +1,10 @@
 ---
-title: '''Redirecione de volta para o formulário de logon do [!UICONTROL Commerce Admin] com o erro "Sua conta está temporariamente desabilitada"'
-description: '''Este artigo fornece as soluções possíveis para o problema de logon de administrador do Commerce, em que você é redirecionado de volta ao formulário de logon com a seguinte mensagem de erro: *"Sua conta está temporariamente desabilitada"*. A solução sugerida é verificar e corrigir as configurações do banco de dados do usuário administrador."'
+title: Redirecione de volta para o formulário de logon do [!UICONTROL Commerce Admin] com o erro "Sua conta está temporariamente desabilitada"
+description: 'Este artigo fornece as soluções possíveis para o problema de logon de administrador do Commerce, em que você é redirecionado de volta para o formulário de logon com a seguinte mensagem de erro: *"Sua conta está temporariamente desabilitada"*. A solução sugerida é verificar e corrigir as configurações do banco de dados do usuário administrador.'
 exl-id: 1c7ffa1c-1fb1-4f69-9534-77d1e119318a
 feature: Admin Workspace, Customer Service
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 0%

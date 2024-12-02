@@ -1,5 +1,5 @@
 ---
-title: "MDVA-40120: a classificação DESC/ASC do produto GraphQL não funciona"
+title: 'MDVA-40120: a classificação DESC/ASC do produto GraphQL não funciona'
 description: O patch MDVA-40120 resolve o problema em que a classificação do GraphQL por DESC/ASC não funciona com produtos que têm a mesma relevância ou preço. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.6 está instalada. A ID do patch é MDVA-40120. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.4.
 exl-id: f04373d6-d3e8-47ba-9261-87fad8dff327
 feature: GraphQL, Products

@@ -1,5 +1,5 @@
 ---
-title: "ACSD-56546: os produtos configuráveis e empacotados são exibidos como esgotados na loja"
+title: 'ACSD-56546: os produtos configuráveis e empacotados são exibidos como esgotados na loja'
 description: Aplique o patch ACSD-56546 para corrigir o problema do Adobe Commerce em que os produtos configuráveis e de pacote são exibidos como esgotados na loja quando a opção de configuração *[!UICONTROL Display Out of Stock Products]* está desabilitada.
 feature: Storefront, Products
 role: Admin, Developer

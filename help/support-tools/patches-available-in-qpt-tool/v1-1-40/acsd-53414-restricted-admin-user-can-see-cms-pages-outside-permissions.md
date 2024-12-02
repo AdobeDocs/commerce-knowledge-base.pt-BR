@@ -1,6 +1,6 @@
 ---
-title: "ACSD-53414: os usuários administradores restritos podem ver páginas do CMS fora do escopo de permissões"
-description: Aplique o patch ACSD-53414 para corrigir o problema do Adobe Commerce em que um usuário administrador restrito pode ver páginas CMS fora do escopo de permissões.
+title: 'ACSD-53414: Os usuários administradores restritos podem ver as páginas do CMS fora do escopo de permissões'
+description: Aplique o patch ACSD-53414 para corrigir o problema do Adobe Commerce em que um usuário administrador restrito pode ver páginas do CMS fora do escopo de permissões.
 feature: CMS
 role: Admin, Developer
 exl-id: f8540d52-a3bb-49bb-8868-7b1db03e571b
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ---
 
-# ACSD-53414: Os usuários administradores restritos podem ver páginas do CMS fora do escopo de permissões
+# ACSD-53414: Os usuários administradores restritos podem ver as páginas do CMS fora do escopo de permissões
 
 O patch ACSD-53414 corrige o problema em que um usuário administrador restrito pode ver páginas do CMS fora do escopo de permissões. Este patch está disponível quando o [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40 está instalado. A ID do patch é ACSD-53414. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.7.
 

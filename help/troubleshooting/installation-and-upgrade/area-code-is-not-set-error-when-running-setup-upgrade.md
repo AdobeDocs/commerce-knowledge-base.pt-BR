@@ -1,5 +1,5 @@
 ---
-title: Erro "Código de área não definido" ao executar setup:upgrade"
+title: Erro "Código de área não definido" ao executar setup:upgrade
 description: Este artigo fornece um patch para o problema conhecido do Adobe Commerce na infraestrutura em nuvem 2.2.3 relacionado ao erro *O código de área não está definido* ao executar o comando setup:upgrade.
 exl-id: ace92331-6022-49fa-a776-d06d841b3b32
 feature: Install, Upgrade

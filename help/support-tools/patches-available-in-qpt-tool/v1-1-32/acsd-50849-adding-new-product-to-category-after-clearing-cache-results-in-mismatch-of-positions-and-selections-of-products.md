@@ -1,10 +1,10 @@
 ---
-title: "ACSD-50849: a adição de novo produto após a limpeza do cache resulta em incompatibilidade"
+title: 'ACSD-50849: a adição de novo produto após a limpeza do cache resulta em incompatibilidade'
 description: Aplique o patch ACSD-50849 para corrigir o problema do Adobe Commerce em que adicionar um novo produto à categoria após limpar o cache resulta em uma incompatibilidade de posições e seleções dos produtos existentes.
 feature: Cache, Categories, Products
 role: Admin
 exl-id: 3c797bf4-45da-4500-8c06-8c1007249738
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 0%

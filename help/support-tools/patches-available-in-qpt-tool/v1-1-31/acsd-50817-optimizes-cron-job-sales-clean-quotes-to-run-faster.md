@@ -1,5 +1,5 @@
 ---
-title: "ACSD-50817: otimiza o trabalho cron sales_clean_quotes para ser executado mais rápido"
+title: 'ACSD-50817: otimiza o trabalho cron sales_clean_quotes para ser executado mais rápido'
 description: Aplique o patch ACSD-50817 para otimizar o trabalho cron "sales_clean_quotes" para ser executado mais rápido adicionando um índice composto nas colunas "store_id" e "updated_at" na tabela de cotações.
 exl-id: b08b12ff-37ac-4a7d-bce2-2a27e4f916f0
 feature: Quotes

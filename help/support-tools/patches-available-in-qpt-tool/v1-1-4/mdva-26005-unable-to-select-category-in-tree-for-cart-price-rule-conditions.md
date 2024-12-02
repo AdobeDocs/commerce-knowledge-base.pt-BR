@@ -1,10 +1,10 @@
 ---
-title: "MDVA-26005: Não é possível selecionar a categoria na árvore para as condições da regra de Preço do carrinho"
+title: 'MDVA-26005: Não é possível selecionar a categoria na árvore para as condições da regra de Preço do carrinho'
 description: O patch MDVA-26005 resolve o problema em que os usuários não conseguem selecionar uma categoria na árvore de categorias para as condições da regra de Preço do carrinho. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.4 está instalada. A ID do patch é MDVA-26005. Observe que o problema foi corrigido no Adobe Commerce 2.3.6.
 exl-id: d3b8efc3-fd0a-4706-8851-4cecb7d3126a
 feature: Categories, Orders, Price Rules, Shopping Cart
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%

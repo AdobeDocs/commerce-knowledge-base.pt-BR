@@ -1,5 +1,5 @@
 ---
-title: "MDVA-42326: os clientes recebem um erro no check-out após o tempo limite da sessão"
+title: 'MDVA-42326: Os clientes recebem um erro no check-out após o tempo limite da sessão'
 description: O patch MDVA-42326 resolve o problema em que os clientes recebem um erro no check-out após o tempo limite da sessão, mesmo se o Carrinho de compras persistente estiver ativado. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.8 está instalada. A ID do patch é MDVA-42326. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.4.
 exl-id: bc9b71de-510d-4c4e-8b0d-9abf9a3e447f
 feature: Checkout, Orders

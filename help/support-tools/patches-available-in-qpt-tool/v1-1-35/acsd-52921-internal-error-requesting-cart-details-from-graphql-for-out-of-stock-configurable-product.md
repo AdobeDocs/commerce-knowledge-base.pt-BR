@@ -1,5 +1,5 @@
 ---
-title: "ACSD-52921: erro ao solicitar detalhes do carrinho da GraphQL para produto configurável indisponível"
+title: 'ACSD-52921: erro ao solicitar detalhes do carrinho da GraphQL para produto configurável indisponível'
 description: Aplique o patch ACSD-52921 para corrigir o problema do Adobe Commerce em que ocorre um erro interno ao solicitar detalhes do carrinho da GraphQL para um produto configurável indisponível.
 feature: GraphQL, Configuration, Products, Shopping Cart
 role: Admin

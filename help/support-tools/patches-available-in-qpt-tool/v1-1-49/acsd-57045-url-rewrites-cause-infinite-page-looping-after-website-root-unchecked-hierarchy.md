@@ -1,15 +1,15 @@
 ---
-title: "ACSD-57045: substituições de URL causam looping de página infinito após [!UICONTROL Website Root] ser desmarcado de [!UICONTROL Hierarchy]"
+title: 'ACSD-57045: substituições de URL causam looping de página infinito após [!UICONTROL Website Root] ser desmarcado de [!UICONTROL Hierarchy]'
 description: Aplique o patch ACSD-57045 para corrigir o problema do Adobe Commerce em que substituições de URL causam looping de página infinito depois que [!UICONTROL Website Root] é desmarcado de [!UICONTROL Hierarchy].
 feature: CMS
 role: Admin, Developer
-source-git-commit: a39e5c857aae398a0b0ba44308ea417525a410d3
+exl-id: 9dca2d1a-3aef-41f0-b140-f3987003a5fd
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 0%
 
 ---
-
 
 # ACSD-57045: substituições de URL causam looping de página infinito após [!UICONTROL Website Root] ser desmarcado de [!UICONTROL Hierarchy]
 

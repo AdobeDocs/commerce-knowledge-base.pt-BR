@@ -1,5 +1,5 @@
 ---
-title: "MDVA-37364: Atributo de cliente personalizado do tipo de data quebra a interface de grade"
+title: 'MDVA-37364: Atributo de cliente personalizado do tipo de data quebra a interface de grade'
 description: O patch MDVA-37364 resolve o problema em que o atributo de cliente personalizado do tipo de data quebra a interface do usuário da Grade do cliente. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2 está instalada. A ID do patch é MDVA-37364. Observe que o problema está programado para ser corrigido no Adobe Commerce versão 2.4.4.
 exl-id: d25baabf-45eb-403c-9f88-9c2448cc7b49
 feature: Attributes, Cache

@@ -1,5 +1,5 @@
 ---
-title: "Adobe Commerce na infraestrutura em nuvem: cálculo de alocação de CPU"
+title: 'Adobe Commerce na infraestrutura em nuvem: cálculo de alocação de CPU'
 promoted: true
 description: O artigo em anexo fornece diretrizes detalhadas sobre quais métricas devem ser usadas ao tomar decisões sobre a alocação de CPU e como calculá-las.
 exl-id: 2fe93b96-f975-4ac6-81d2-e24002ce69db

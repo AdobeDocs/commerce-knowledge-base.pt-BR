@@ -1,10 +1,10 @@
 ---
-title: "Consultas SQL: EXPLICAR erros de custo"
+title: 'Consultas SQL: EXPLICAR erros de custo'
 description: Este artigo fornece soluções para erros de custo EXPLICAR ao executar consultas SQL malsucedidas. O PostgreSQL usa algo chamado [o comando EXPLAIN](https://www.postgresql.org/docs/9.5/static/using-explain.html) para determinar o custo de consultas SQL. Criamos o Report Builder SQL para também usar esse comando, o que significa que, se o custo for considerado muito alto - a quantidade de recursos necessários para executar o query excede nossos limites - o query não será executado e uma mensagem EXPLAIN será exibida.
 exl-id: 6f6df66a-665e-46a8-ad4c-842a0270c4eb
 feature: Commerce Intelligence
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 0%

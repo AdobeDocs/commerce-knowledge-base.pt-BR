@@ -1,10 +1,10 @@
 ---
-title: "MDVA-37748: a consulta do GraphQL retorna produtos não atribuídos ao catálogo compartilhado"
+title: 'MDVA-37748: a consulta do GraphQL retorna produtos não atribuídos ao catálogo compartilhado'
 description: O patch MDVA-37748 corrige o problema em que uma consulta do GraphQL retorna produtos não atribuídos a um catálogo compartilhado. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.5 está instalada. A ID do patch é MDVA-37748. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.4.
 exl-id: 1f441882-dc14-433c-aa03-ff22483ce5a7
 feature: B2B, GraphQL, Catalog Management, Categories, Products
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 0%

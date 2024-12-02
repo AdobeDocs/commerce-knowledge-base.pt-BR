@@ -1,5 +1,5 @@
 ---
-title: "ACSD-48857: não é possível salvar alterações após a edição com [!DNL Page Builder]"
+title: 'ACSD-48857: Não é possível salvar as alterações após a edição com [!DNL Page Builder]'
 description: Aplique o patch ACSD-48857 para corrigir o problema do Adobe Commerce em que o usuário não pode salvar alterações após editar com o  [!DNL Page Builder].
 exl-id: c95b354d-8954-4e9c-9e92-8a64f62f0a68
 feature: Admin Workspace, CMS, Page Builder
@@ -36,7 +36,7 @@ O usuário não pode salvar as alterações após a edição com [!DNL Page Buil
 <u>Etapas a serem reproduzidas</u>
 
 1. Faça logon no site de administração.
-1. Navegue até **[!UICONTROL Content]** > **[!UICONTROL Elements]** > **[!UICONTROL Pages]** para criar uma página CMS vazia.
+1. Navegue até **[!UICONTROL Content]** > **[!UICONTROL Elements]** > **[!UICONTROL Pages]** para criar uma página vazia do CMS.
 1. Execute este script SQL para definir o seguinte valor de campo **[!UICONTROL Content]**:
 
    ```SQL

@@ -1,5 +1,5 @@
 ---
-title: "MDVA-39713: O usuário pode editar a hora de início da atualização agendada ativa"
+title: 'MDVA-39713: O usuário pode editar a hora de início da atualização agendada ativa'
 description: O patch MDVA-39713 corrige o problema em que um usuário pode editar a hora de início de uma atualização agendada ativa. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12 está instalada. A ID do patch é MDVA-39713. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.5.
 exl-id: c7221fdb-5fc0-4179-8d4c-c9e1f0d00692
 feature: CMS

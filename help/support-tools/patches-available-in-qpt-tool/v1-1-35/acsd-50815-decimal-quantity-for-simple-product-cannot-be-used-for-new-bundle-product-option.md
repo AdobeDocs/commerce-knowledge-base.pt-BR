@@ -1,10 +1,10 @@
 ---
-title: "ACSD-50815: a quantidade decimal do produto simples não pode ser usada para a nova opção de produto agrupada"
+title: 'ACSD-50815: a quantidade decimal do produto simples não pode ser usada para a opção de novo produto agrupado'
 description: Aplique o patch ACSD-50815 para corrigir o problema do Adobe Commerce em que a quantidade decimal de um produto simples não pode ser usada para uma nova opção de produto agrupado.
 feature: Products
 role: Admin
 exl-id: f4aa417c-b0eb-4a68-bf1e-fd86770cc72d
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%

@@ -1,5 +1,5 @@
 ---
-title: "ACSD-52041: a renderização do Page Builder não libera bloqueios"
+title: 'ACSD-52041: a renderização do Page Builder não libera bloqueios'
 description: Aplique o patch ACSD-52041 para corrigir o problema do Adobe Commerce em que o Page Builder é renderizado por cinco segundos sem liberar bloqueios.
 feature: Page Builder
 role: Admin, Developer

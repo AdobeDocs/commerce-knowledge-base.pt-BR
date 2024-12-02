@@ -1,5 +1,5 @@
 ---
-title: "ACSD-46146: dois emails de confirmação de pedido enviados após a solicitação de colocação do administrador"
+title: 'ACSD-46146: dois emails de confirmação de pedido enviados após a solicitação de colocação do administrador'
 description: O patch ACSD-46146 resolve o problema em que dois emails de confirmação de pedido são enviados após a realização de um pedido do administrador. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.18 está instalada. A ID do patch é ACSD-46146. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.6.
 exl-id: 3bf2cccf-7a40-48ca-ab51-ffb5939f8802
 feature: Admin Workspace, Communications, Orders

@@ -1,10 +1,10 @@
 ---
-title: "Adobe Commerce 2.4.4: não é possível criar faturas parciais"
+title: 'Adobe Commerce 2.4.4: Não é possível criar faturas parciais'
 description: Este artigo fornece uma correção para o problema em que os usuários não conseguem criar faturas parciais ao usar o Apple Pay ou o Google Pay through Braintree como métodos de pagamento.
 exl-id: bf78cc07-9dc7-4eb8-bfdf-57ea5131effb
 feature: Invoices, Orders, Payments
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 0%

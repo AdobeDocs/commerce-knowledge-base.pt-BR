@@ -1,5 +1,5 @@
 ---
-title: "ACSD-55305: Congelamento de pop-ups durante a edição de usuários da empresa em [!UICONTROL My Account]"
+title: 'ACSD-55305: Congelamento de pop-ups durante a edição de usuários da empresa em [!UICONTROL My Account]'
 description: Aplique a correção ACSD-55305 para corrigir o problema do Adobe Commerce em que o pop-up [!UICONTROL Edit Company User] no &gt; [!UICONTROL My Account] da página congela com um carregador na tela.[!UICONTROL Company Structure]
 feature: Companies, B2B
 role: Admin, Developer

@@ -1,5 +1,5 @@
 ---
-title: "ACSD-57565: o painel de pedidos exibe informações de pedidos incorretas"
+title: 'ACSD-57565: o painel de pedidos exibe informações de pedidos incorretas'
 description: Aplique o patch ACSD-57565 para corrigir o problema do Adobe Commerce em que o painel de pedidos exibe informações incorretas sobre os pedidos até que o período seja atualizado.
 feature: Roles/Permissions
 role: Admin, Developer

@@ -1,10 +1,10 @@
 ---
-title: "ACSD-52815: O campo de entrada para o campo de quantidade de origem não padrão suporta apenas até 6 dígitos"
+title: 'ACSD-52815: O campo de entrada para o campo de quantidade de origem não-padrão suporta apenas até 6 dígitos'
 description: Aplique o patch ACSD-52815 para corrigir o problema de desempenho do Adobe Commerce, em que o campo de entrada para o campo de quantidade de uma fonte não padrão suporta apenas até 6 dígitos, ao contrário de 8 para um estoque padrão.
 feature: Inventory, Products
 role: Admin
 exl-id: 44fda5ef-cb8a-481a-9112-f36d886ae3db
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 0%

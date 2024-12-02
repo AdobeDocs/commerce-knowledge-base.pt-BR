@@ -1,5 +1,5 @@
 ---
-title: "ACSD-53704: histórico de saldo de pontos de premiação calculado incorretamente após a expiração"
+title: 'ACSD-53704: histórico de saldo de pontos de premiação calculado incorretamente após a expiração'
 description: Aplique o patch ACSD-53704 para corrigir o problema do Adobe Commerce em que o histórico de saldo de pontos de premiação é calculado incorretamente após a data de expiração dos pontos de premiação.
 feature: Rewards
 role: Admin, Developer

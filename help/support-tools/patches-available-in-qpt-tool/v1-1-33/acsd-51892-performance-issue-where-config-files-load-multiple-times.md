@@ -1,10 +1,10 @@
 ---
-title: "ACSD-51892: problema de desempenho em que os arquivos de configuração são carregados várias vezes"
+title: 'ACSD-51892: problema de desempenho em que os arquivos de configuração são carregados várias vezes'
 description: Aplique o patch ACSD-51892 para corrigir o problema de desempenho do Adobe Commerce em que os arquivos de configuração são carregados várias vezes durante a implantação.
 feature: Observability
 role: Admin
 exl-id: 397343df-360f-43c4-bcef-be5f0da5aeef
-source-git-commit: 97734799a39f41d0d6441379e21608fa5fcd1d4c
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 0%

@@ -1,10 +1,10 @@
 ---
-title: "PWA Studio: o navegador não confia no certificado SSL gerado"
+title: 'PWA Studio: o navegador não confia no certificado SSL gerado'
 description: Este artigo fornece uma solução para um aviso de certificado SSL gerado não confiável em seu navegador quando você navega para uma instância local de sua loja de PWA Studio durante o desenvolvimento.
 exl-id: b7bfe1e6-5832-4472-9e51-f04b8583428a
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 0%

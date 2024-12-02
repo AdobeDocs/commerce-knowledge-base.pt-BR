@@ -1,10 +1,10 @@
 ---
-title: "Alertas gerenciados para Adobe Commerce: alerta de aviso da CPU"
+title: 'Alertas gerenciados para Adobe Commerce: alerta de aviso da CPU'
 description: Este artigo fornece etapas de solução de problemas quando você recebe um alerta de aviso da CPU para o Adobe Commerce no New Relic. É necessária uma ação imediata para corrigir o problema. O alerta será semelhante ao seguinte, dependendo do canal de notificação de alerta selecionado.
 exl-id: 03686684-3b7e-430a-a05a-a96f38345322
 feature: Cache, Marketing Tools, Observability, Support, Tools and External Services
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 0%

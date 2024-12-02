@@ -3,7 +3,8 @@ title: 'Visão geral: [!DNL Quality Patches Tool] (QPT) v1.1.50'
 description: Esta subseção fornece uma descrição detalhada dos problemas corrigidos pelos patches disponíveis no  [!DNL Quality Patches Tool] (QPT) v1.1.50.
 feature: Tools and External Services
 role: Admin, Developer
-source-git-commit: f62cf4284d7bb99a1ab58df676dfff726c34d327
+exl-id: 2bda5e91-a213-434a-b4e4-0dffeb222cae
+source-git-commit: 9bb839292a120a3dab5151d493f915619dbf5c06
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 0%
@@ -33,4 +34,3 @@ O QPT v1.1.50 inclui os seguintes patches:
 1. **ACSD-60441**: corrige o problema com a atualização de clientes por meio do ponto de extremidade `V1/customers REST API` ao usar o token de acesso de integração gerado do back-end.
 
 Use o menu à esquerda para navegar até uma página de patch específica.
-

@@ -1,10 +1,10 @@
 ---
-title: "ACSD-46703: o arrastar e soltar da personalização do produto não funciona"
+title: 'ACSD-46703: o arrastar e soltar da personalização do produto não funciona'
 description: Este artigo fornece uma solução para o problema em que as opções personalizáveis do produto de arrastar e soltar não funcionam conforme esperado.
 exl-id: 49b29495-d225-4f34-ac76-b7294a86aea6
 feature: Products
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%

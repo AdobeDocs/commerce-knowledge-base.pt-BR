@@ -22,7 +22,7 @@ O QPT v1.1.2 inclui os seguintes patches:
 1. **MDVA-38447**: corrige dois problemas: em que *Não visível individualmente* os produtos filho configuráveis são retornados na resposta do GraphQL e otimizam a consulta MySQL para a consulta de produtos da GraphQL com filtro de categoria.
 1. **MDVA-38852**: corrige o problema em que o inventário de catálogo por design bloqueia tabelas para atualizações que diminuem significativamente o desempenho em casos com várias ordens paralelas.
 1. **MDVA-38929**: corrige o problema em que a fatura com FPT mostra um Total Geral incorreto quando o pedido é pago a partir do crédito da loja.
-1. **MDVA-39043**: corrige o problema em que o usuário administrador com acesso limitado recebe um erro ao tentar adicionar o widget *Produtos* à página CMS.
+1. **MDVA-39043**: corrige o problema em que o usuário administrador com acesso limitado recebe um erro ao tentar adicionar o widget *Produtos* à página do CMS.
 1. **MDVA-39195**: corrige o problema em que o botão **[!UICONTROL Add to Cart]** estava inativo na página de categoria quando o redirecionamento para o carrinho estava habilitado.
 1. **MDVA-39384**: corrige o problema em que o atributo de cliente personalizado de um usuário da empresa não é salvo.
 1. **MDVA-39521**: corrige o problema em que o usuário não pode definir endereços de envio no carrinho com um número de telefone vazio via GraphQL.

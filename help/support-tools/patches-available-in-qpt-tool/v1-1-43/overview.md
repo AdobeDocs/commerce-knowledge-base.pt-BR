@@ -23,7 +23,7 @@ O QPT v1.1.43 inclui os seguintes patches:
 1. **ACSD-55610**: corrige o problema em que um pedido parcialmente cancelado tem um valor de desconto incorreto.
 1. **ACSD-55334**: corrige traduções para rótulos por meio de dicionários de tradução na resposta do GraphQL.
 1. **ACSD-54739**: corrige o problema em que a condição de status de estoque do produto não é aplicada às regras de produto relacionadas.
-1. **ACSD-53925**: corrige o problema em que o administrador não pode salvar o bloco CMS com o carrossel de produtos quando o modo de dimensões `catalog_product_price` está definido como *site*.
+1. **ACSD-53925**: corrige o problema em que o administrador não pode salvar o bloco do CMS com o carrossel do produto quando o modo de dimensões `catalog_product_price` está definido como *site*.
 1. **ACSD-52714**: corrige o problema em que o filtro de data não está funcionando na grade do administrador quando o formato de data está definido como *Y-m-d*.
 1. **ACSD-53790**: corrige o problema em que vários RMAs para um único produto podem ser criados por meio da API REST.
 1. **ACSD-56090**: corrige o problema em que a solicitação do GraphQL está respondendo com os dados de todos os armazenamentos em vez dos dados de armazenamento solicitados especificamente.

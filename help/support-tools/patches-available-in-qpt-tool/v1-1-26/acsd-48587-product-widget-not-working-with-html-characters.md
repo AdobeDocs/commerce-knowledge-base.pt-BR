@@ -1,10 +1,10 @@
 ---
-title: "ACSD-48587: o widget do produto não funciona com SKUs que contêm caracteres HTML"
+title: 'ACSD-48587: o widget do produto não funciona com SKUs que contêm caracteres HTML'
 description: Aplique o patch ACSD-48587 para corrigir o problema do Adobe Commerce, em que os caracteres especiais de HTML nas regras de correspondência do widget produtos impedem que eles exibam produtos correspondentes.
 exl-id: 9f8f436c-f3ef-4510-a941-12f701e7524e
 feature: Admin Workspace, CMS, Orders, Products
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%
@@ -36,12 +36,12 @@ O widget do produto não está funcionando com SKUs contendo símbolos *&quot;&a
 <u>Etapas a serem reproduzidas</u>:
 
 1. Crie um produto contendo *&quot;&amp;&quot;* na SKU (por exemplo, s000&amp;01).
-1. Edite o conteúdo de uma página CMS no *Page Builder*.
+1. Edite o conteúdo de uma página do CMS no *Page Builder*.
 1. Adicionar um widget Produtos.
 1. Edite o widget e defina **[!UICONTROL Select Products by]** = **[!UICONTROL SKU]**.
 1. Insira a SKU que contém *&quot;&amp;&quot;* no campo SKUs do produto.
 1. Salve o conteúdo e a página do CMS.
-1. Verifique o conteúdo da *Página CMS* para a *visualização do Page Builder* e a vitrine do produto.
+1. Verifique o conteúdo da *Página do CMS* para a *visualização do Page Builder* e a vitrine do produto.
 
 <u>Resultados esperados</u>:
 

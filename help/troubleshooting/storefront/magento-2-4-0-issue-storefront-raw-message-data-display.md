@@ -1,10 +1,10 @@
 ---
-title: "Problema do Adobe Commerce 2.4.0: exibição de dados de mensagens brutas da loja"
+title: 'Problema do Adobe Commerce 2.4.0: exibição de dados de mensagem bruta da loja'
 description: Este artigo fornece uma solução para o problema que ocorre quando todas as mensagens de erro da loja são exibidas com um sinal "+" em vez de um espaço. Essa solução ajuda as mensagens de erro a permanecerem legíveis.
 exl-id: f44fe434-a320-4e7e-a876-9575921749f3
 feature: Storefront
 role: Admin
-source-git-commit: a1046621259ea49eab74cd6ba3bba550e0c70283
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%

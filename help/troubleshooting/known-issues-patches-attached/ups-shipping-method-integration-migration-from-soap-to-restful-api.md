@@ -1,11 +1,11 @@
 ---
-title: Migração da integração do método de envio '[!DNL UPS] de [!DNL SOAP] para [!DNL RESTful API]'
+title: Migração da integração do método de envio [!DNL UPS] de [!DNL SOAP] para [!DNL RESTful API]
 promoted: true
 description: Aplique um patch para lidar com a  [!DNL UPS] migração de integração de método de envio de  [!DNL SOAP] para [!DNL RESTful API] para Adobe Commerce 2.4.4 - 2.4.6-pX.
 feature: Shipping/Delivery
 role: Developer
 exl-id: 8ab5d4a8-0155-4b2c-ab67-d0bd2f949a07
-source-git-commit: 6694bb1e041e6285f5bd5a05a1c37b7062521f52
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 0%

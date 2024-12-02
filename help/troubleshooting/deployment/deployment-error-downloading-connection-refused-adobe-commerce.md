@@ -1,10 +1,10 @@
 ---
-title: "Erro de implantação: *erro 7 ao baixar ... porta 443: conexão recusada*"
+title: 'Erro de implantação: *erro 7 ao baixar ... porta 443: conexão recusada*'
 description: 'Este artigo fornece uma solução para o erro de implantação: *"erro 7 ao baixar ... porta 443: conexão recusada"*.'
 exl-id: 520cf50f-3682-441d-87a7-8e05301a2b0c
 feature: Cache, Deploy
 role: Developer
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%

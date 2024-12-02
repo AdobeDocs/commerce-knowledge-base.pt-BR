@@ -1,15 +1,15 @@
 ---
-title: "ACSD-57941: as opções de produto são atribuídas incorretamente à loja de administração"
+title: 'ACSD-57941: as opções de produto são atribuídas incorretamente à loja do administrador'
 description: Aplique o patch ACSD-57941 para corrigir o problema do Adobe Commerce em que as opções do produto são atribuídas incorretamente à loja do administrador em vez de suas respectivas lojas.
 feature: Products
 role: Admin, Developer
-source-git-commit: 1cc673716b75bda6cfe7b3d597ec94e4510fa7e4
+exl-id: 7aa6f5c0-b718-4c3a-be0f-d86ae15e31a2
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%
 
 ---
-
 
 # ACSD-57941: as opções de produto são atribuídas incorretamente à loja do administrador
 

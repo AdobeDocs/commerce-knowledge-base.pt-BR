@@ -1,9 +1,10 @@
 ---
-title: "ACSD-58739: a reindexação parcial gera um erro"
+title: 'ACSD-58739: a reindexação parcial gera um erro'
 description: Aplique o patch ACSD-55241 para corrigir o problema do Adobe Commerce em que a reindexação parcial gera um erro.
 feature: Inventory, Products
 role: Admin, Developer
-source-git-commit: b21eab3bf8ec492f0b1c5be9c13c6c579f43fe44
+exl-id: 19f177f4-054b-4593-970b-7cbf04710bef
+source-git-commit: 06f751e43ef825c0eb29cb9b42eb41f07c308625
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%

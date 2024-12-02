@@ -1,10 +1,10 @@
 ---
-title: "MDVA-44505: a consulta do GraphQL para o carrinho que aplica pontos de premiação não atualiza o total geral"
+title: 'MDVA-44505: a consulta do GraphQL para o carrinho que aplica pontos de premiação não atualiza o total geral'
 description: O patch MDVA-44505 resolve o problema em que a consulta do GraphQL para um carrinho que aplica pontos de premiação não considera os pontos de premiação e retorna um total geral incorreto. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.14 está instalada. A ID do patch é MDVA-44505. Observe que o problema foi corrigido no Adobe Commerce 2.4.3.
 exl-id: 724273ba-b020-4dba-88ae-94968bbd83de
 feature: GraphQL, Orders, Rewards, Shopping Cart
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%

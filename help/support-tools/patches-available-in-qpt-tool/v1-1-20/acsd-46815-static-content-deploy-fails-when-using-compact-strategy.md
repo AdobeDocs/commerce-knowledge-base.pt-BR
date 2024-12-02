@@ -1,5 +1,5 @@
 ---
-title: "ACSD-46815: falha na implantação de conteúdo estático usando estratégia compacta"
+title: 'ACSD-46815: falha na implantação de conteúdo estático usando estratégia compacta'
 description: Aplique o patch ACSD-46815 para corrigir o problema do Adobe Commerce em que a implantação de conteúdo estático falha ao usar uma estratégia compacta.
 exl-id: e94a0911-5cd9-4866-a027-7ea3239555d3
 feature: Deploy, Page Content, SCD

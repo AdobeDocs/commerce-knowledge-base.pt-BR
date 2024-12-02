@@ -1,6 +1,6 @@
 ---
-title: "MBI: criação e edição de colunas calculadas avançadas"
-description: '''[Usuários administradores](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management) podem criar e editar determinadas colunas calculadas no Gerenciador de Datas Warehouse. Essas colunas calculadas oferecem a capacidade de configurar os relatórios que você está procurando para responder às principais perguntas de negócios."'
+title: 'MBI: Criação e edição de colunas calculadas avançadas'
+description: '[Usuários administradores](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management) podem criar e editar determinadas colunas calculadas no Gerenciador de Datas Warehouse. Essas colunas calculadas permitem configurar os relatórios que você está procurando para responder às principais perguntas de negócios.'
 exl-id: 713a5593-8103-4d74-be5e-0102678d0f97
 feature: Commerce Intelligence
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733

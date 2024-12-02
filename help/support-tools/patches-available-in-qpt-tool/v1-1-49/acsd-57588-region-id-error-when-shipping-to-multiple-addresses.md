@@ -1,9 +1,10 @@
 ---
-title: "ACSD-57588: erro no processamento da ID da região ao enviar para vários endereços"
+title: 'ACSD-57588: erro no processamento da ID da região ao enviar para vários endereços'
 description: Aplique o patch ACSD-57588 para corrigir o problema do Adobe Commerce em que o envio de um pedido para vários endereços aciona um erro durante o processamento da ID da região.
 feature: Orders, Shipping/Delivery
 role: Admin, Developer
-source-git-commit: 1899e4601d292a8543d1c34e622251a7f6aed124
+exl-id: 01a33db3-fdbe-4acd-a617-45fb3aee6f3d
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 0%

@@ -1,10 +1,10 @@
 ---
-title: "MDVA-42410: os relatórios de cupom exibem somente a moeda base padrão"
+title: 'MDVA-42410: os relatórios de cupom exibem somente a moeda base padrão'
 description: O patch MDVA-42410 corrige o problema em que os relatórios de cupom exibem apenas a moeda base. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12 está instalada. A ID do patch é MDVA-42410. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.5.
 exl-id: b442a2ce-1bd4-4f09-95fd-2c626e32f509
 feature: Orders
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%

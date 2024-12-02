@@ -1,5 +1,5 @@
 ---
-title: "Problema conhecido do Adobe Commerce 2.4.0: pagamento do Amazon, sem métodos de pagamento"
+title: 'Problema conhecido do Adobe Commerce 2.4.0: pagamento do Amazon, sem métodos de pagamento'
 description: Este artigo fornece uma solução para um problema conhecido do Adobe Commerce 2.4.0 em que os métodos de pagamento estão ausentes quando os clientes usam o **Retornar à finalização padrão**, depois de ativarem o pagamento do Amazon.
 exl-id: efd792c7-8970-4366-b9d1-4bf284ea96db
 feature: B2B, Orders, Payments

@@ -1,5 +1,5 @@
 ---
-title: "ACSD-48293: produtos compostos esgotados quando vendidos produtos-filho reabastecidos"
+title: 'ACSD-48293: produtos compostos sem estoque quando vendidos produtos secundários reabastecidos'
 description: Aplique o patch ACSD-48293 para corrigir o problema do Adobe Commerce em que os produtos compostos ficam sem estoque quando os produtos secundários esgotados são devolvidos ao estoque.
 exl-id: 74ca34fe-e015-4daf-a608-4756c8ab3558
 feature: Admin Workspace, Orders, Products

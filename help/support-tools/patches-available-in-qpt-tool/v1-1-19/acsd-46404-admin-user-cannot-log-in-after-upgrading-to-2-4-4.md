@@ -1,10 +1,10 @@
 ---
-title: "ACSD-46404: o usuário administrador não consegue fazer logon após atualizar para a versão 2.4.4"
+title: 'ACSD-46404: o usuário administrador não consegue fazer logon após atualizar para a versão 2.4.4'
 description: O patch ACSD-46404 resolve o problema em que um usuário administrador não consegue fazer logon após atualizar para a versão 2.4.4. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.19 está instalada. A ID do patch é ACSD-46404. Observe que o problema foi corrigido no Adobe Commerce 2.4.5.
 exl-id: 0aebc879-1128-4be2-a6a8-90d5812c7602
 feature: Admin Workspace
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 0%

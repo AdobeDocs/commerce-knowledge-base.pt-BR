@@ -1,9 +1,9 @@
 ---
-title: "ACSD-56760: o usuário administrador está restrito a um site específico e não pode classificar ou adicionar novos produtos"
+title: 'ACSD-56760: o usuário administrador está restrito a um site específico e não pode classificar ou adicionar novos produtos'
 description: Aplique o patch ACSD-56760 para corrigir o problema do Adobe Commerce em que o usuário administrador, que está restrito a um site específico e não pode classificar ou adicionar novos produtos dentro de uma categoria, caso a loja da Web tenha sua própria categoria raiz.
 role: Admin
 exl-id: fc1898ce-dcd7-4c0b-bef0-445219e8455f
-source-git-commit: a8e1b3b5b9de41c62bf819ef68ac9f89626483a1
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%

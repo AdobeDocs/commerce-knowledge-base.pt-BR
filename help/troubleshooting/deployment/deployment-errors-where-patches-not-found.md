@@ -1,6 +1,6 @@
 ---
 title: Erros de implantação em que patches não foram encontrados
-description: "Este artigo fornece uma solução para o problema em que você vê um erro *Os próximos patches não foram encontrados: MDVA-XXXXX, ACSD-XXXXX. Verifique com o comando 'status' a disponibilidade desses patches para a versão atual do Magento*."
+description: 'Este artigo fornece uma solução para o problema em que você vê um erro *Próximos patches não foram encontrados: MDVA-XXXXX, ACSD-XXXXX. Verifique com o comando ''status'' a disponibilidade desses patches para a versão atual do Magento*.'
 exl-id: 5a2fd35a-892a-48af-a41f-f275297b3e2e
 source-git-commit: c903360ffb22f9cd4648f6fdb4a812cb61cd90c5
 workflow-type: tm+mt

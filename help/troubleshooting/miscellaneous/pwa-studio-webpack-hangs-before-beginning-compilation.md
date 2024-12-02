@@ -1,5 +1,5 @@
 ---
-title: "PWA Studio: O Webpack trava antes de iniciar a compilação"
+title: 'PWA Studio: o Webpack trava antes de iniciar a compilação'
 description: Este artigo fala sobre uma solução sugerida para quando um javascript [Webpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack) trava por um longo tempo antes de iniciar a compilação no Progressive Web App Studio (PWA Studio).
 exl-id: 692eeafa-9289-4d66-9f2f-1e0fe36e681d
 feature: Configuration

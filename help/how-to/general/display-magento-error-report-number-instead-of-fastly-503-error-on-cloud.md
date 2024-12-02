@@ -3,7 +3,7 @@ title: Exibir número do relatório de erros do Adobe Commerce em vez do erro Fa
 description: 'Por padrão, o Fastly oculta todos os erros do Adobe Commerce atrás do erro **503 Service Unavailable**. Para exibir o número do relatório de log de erros do Adobe Commerce (para encontrá-lo nos logs e ver os detalhes do erro), abra o site omitindo o Fastly usando estas etapas:'
 exl-id: c0a4a9f8-a674-4cef-8088-e844594e6076
 feature: Cache, Cloud
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%

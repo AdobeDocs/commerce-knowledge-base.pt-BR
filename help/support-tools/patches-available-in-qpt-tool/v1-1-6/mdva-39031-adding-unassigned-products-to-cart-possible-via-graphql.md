@@ -1,5 +1,5 @@
 ---
-title: "MDVA-39031: É possível adicionar produtos não atribuídos ao carrinho por meio do GraphQL"
+title: 'MDVA-39031: Possibilidade de adicionar produtos não atribuídos ao carrinho por meio do GraphQL'
 description: O patch MDVA-39031 resolve o problema em que é possível adicionar um produto ao carrinho por meio do GraphQL, mesmo que ele não esteja atribuído ao site de destino. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.6 está instalada. A ID do patch é MDVA-39031. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.4.
 exl-id: 5bbd64d1-06ae-4cab-a20e-0e5e5807742b
 feature: GraphQL, Orders, Products, Shopping Cart

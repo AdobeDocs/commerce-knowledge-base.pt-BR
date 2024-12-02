@@ -1,15 +1,15 @@
 ---
-title: "ACSD-57846: a pesquisa de produtos da GraphQL com filtro para preços zero não retorna os resultados"
+title: 'ACSD-57846: pesquisa de produtos da GraphQL com filtro para preços zero não retorna resultados'
 description: Aplique o patch ACSD-57846 para corrigir o problema do Adobe Commerce em que filtrar produtos por preço zero resulta em uma solicitação malformada para  [!DNL OpenSearch] e não retorna resultados.
 feature: GraphQL, Products
 role: Admin, Developer
-source-git-commit: 490c7449761ded6aef10a838f27e1ea7671c6cc8
+exl-id: 6676cfec-b833-4895-a7c4-c81fcd042e54
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
 
 ---
-
 
 # ACSD-57846: pesquisa de produtos da GraphQL com filtro para preços zero não retorna resultados
 

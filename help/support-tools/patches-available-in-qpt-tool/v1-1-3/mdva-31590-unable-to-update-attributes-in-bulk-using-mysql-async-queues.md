@@ -1,10 +1,10 @@
 ---
-title: "MDVA-31590: Não é possível atualizar atributos em massa usando filas assíncronas MySQL"
+title: 'MDVA-31590: Não é possível atualizar atributos em massa usando filas assíncronas MySQL'
 description: O patch MDVA-31590 resolve o problema em que os usuários não conseguem atualizar atributos em massa usando filas assíncronas MySQL. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.3 está instalada. A ID do patch é MDVA-31590. Observe que o problema foi corrigido no Adobe Commerce 2.4.2.
 exl-id: 57db28dd-a739-4a77-927d-6339af4fa4a6
 feature: Attributes, Services
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Os usuários não podem atualizar atributos em massa usando o MySQL async.
 1. Novos registros são criados nas tabelas `queue_message` e `queue_message_status`.
 1. A tabela `queue_message_status` possui registro com status de erro (valor de status &quot;6&quot;).
 1. `system.log` contém um erro semelhante ao seguinte:
-   *main.CRITICAL: Mensagem rejeitada: SQLSTATE[23000]: Violação de restrição de integridade: 1048 A coluna &#39;operation_key&#39; não pode ser nula, a consulta foi: INSERT INTO {{magento_operation}} ({{id}}, {{bulk_uuid}}, {{topic_name}}, {{serialized_data}}, {{result_serialized_data}}, {{status}}, {{error_code}}, {{result_message}}, {{operation_key}}) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?) [][]*
+   *main.CRITICAL: Mensagem rejeitada: SQLSTATE[23000]: Violação de restrição de integridade: 1048 A coluna &#39;operation_key&#39; não pode ser nula, a consulta foi: INSERT INTO {{magento_operation}} ({{id}}, {{bulk_uuid}}, {{topic_name}}, {{serialized_data}}, {{result_serialized_data}}, {{status}}, {{error_code}}, {{result_message}}, {{operation_key}}) VALORES (?, ?, ?, ?, ?, ?, ?, ?, ?) ?, ? [][]*
 
 ## Aplicar o patch
 

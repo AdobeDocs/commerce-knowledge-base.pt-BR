@@ -1,5 +1,5 @@
 ---
-title: "ACSD-52831: não é possível colocar ordens de cotação negociáveis quando [!DNL Google reCAPTCHA v3 Invisible] habilitado"
+title: 'ACSD-52831: Não é possível colocar ordens de cotação negociáveis quando [!DNL Google reCAPTCHA v3 Invisible] habilitado'
 description: Aplique o patch ACSD-52831 para corrigir o problema do Adobe Commerce em que você não pode fazer pedidos de cotação negociáveis quando o  [!DNL Google reCAPTCHA v3 Invisible]  está habilitado.
 feature: Quotes, B2B, Checkout
 role: Admin

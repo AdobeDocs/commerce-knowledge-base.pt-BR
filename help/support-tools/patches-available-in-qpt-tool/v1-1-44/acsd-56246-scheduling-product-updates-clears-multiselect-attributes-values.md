@@ -1,5 +1,5 @@
 ---
-title: "ACSD-56246: o agendamento de atualizações de produto apaga valores de atributo de seleção múltipla"
+title: 'ACSD-56246: O agendamento de atualizações de produto apaga valores de atributo de seleção múltipla'
 description: Aplique o patch ACSD-56246 para corrigir o problema do Adobe Commerce em que a programação de atualizações de produtos apaga os valores de atributo de seleção múltipla.
 feature: Products, Attributes, Staging
 role: Admin, Developer

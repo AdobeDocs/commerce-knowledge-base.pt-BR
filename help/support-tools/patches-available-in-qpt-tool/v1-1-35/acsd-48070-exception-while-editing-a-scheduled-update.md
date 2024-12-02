@@ -1,10 +1,10 @@
 ---
-title: "ACSD-48070: exceção ao editar uma atualização programada"
+title: 'ACSD-48070: exceção ao editar uma atualização programada'
 description: Aplique o patch ACSD-48070 para corrigir o problema do Adobe Commerce em que uma exceção é acionada ao editar uma atualização programada.
 feature: Catalog Management, Categories
 role: Admin
 exl-id: 047813e3-4659-4a94-9dd8-e3534387a890
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%

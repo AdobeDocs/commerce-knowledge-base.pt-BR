@@ -1,5 +1,5 @@
 ---
-title: "Problema conhecido do Adobe Commerce 2.4.0: páginas em branco de mensagens no site do Klarna"
+title: 'Problema conhecido do Adobe Commerce 2.4.0: páginas em branco de mensagens no site do Klarna'
 description: Este artigo descreve um problema conhecido do Adobe Commerce 2.4.0 com o método de pagamento Klarna, em que ativar mensagens no site do Klarna sem especificar um tema de design resulta na não exibição correta das páginas de produto na loja (as páginas de produto aparecem em branco).
 exl-id: f0f9edfc-eaad-4947-9200-41e217bfbe84
 feature: Orders, Payments

@@ -1,5 +1,5 @@
 ---
-title: "ACSD-48204: a regra de preço de catálogo criada com base no atributo *Sim/Não* não considera o escopo selecionado"
+title: 'ACSD-48204: a regra de preço de catálogo criada com base no atributo *Sim/Não* não considera o escopo selecionado'
 description: Aplique o patch ACSD-48204 para corrigir o problema do Adobe Commerce em que a regra de preço de catálogo criada com base no atributo *Sim/Não* não considera o escopo selecionado.
 exl-id: 9b0b4d62-c4c5-40d7-a279-52f59ee7ac42
 feature: Admin Workspace, Attributes, Catalog Management, Orders, Price Rules

@@ -1,5 +1,5 @@
 ---
-title: "ACSD-45257: o GraphQL não exibe o desconto do carrinho corretamente"
+title: 'ACSD-45257: o GraphQL não exibe o desconto do carrinho corretamente'
 description: O patch ACSD-45257 corrige o problema em que o GraphQL não exibe o desconto do carrinho corretamente. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.18 está instalada. A ID do patch é ACSD-45257. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.6.
 exl-id: 64576fa3-1160-4fc3-8458-4e622c30af74
 feature: GraphQL, Marketing Tools, Orders, Personalization, Shopping Cart

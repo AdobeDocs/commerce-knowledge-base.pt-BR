@@ -1,10 +1,10 @@
 ---
-title: '"ACSD-49370: o atributo de produto tem o tipo "FilterMatchTypeInput" no esquema do GraphQL"'
+title: 'ACSD-49370: o atributo de produto tem o tipo "FilterMatchTypeInput" no esquema do GraphQL'
 description: Aplique o patch ACSD-49370 para corrigir o problema do Adobe Commerce em que o atributo do produto tem um tipo "FilterMatchTypeInput" no esquema do GraphQL.
 exl-id: 132eee3a-30b0-4810-b2f0-0d05d0a9f009
 feature: Admin Workspace, Attributes, GraphQL, Products
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%

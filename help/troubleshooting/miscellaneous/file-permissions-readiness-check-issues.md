@@ -1,10 +1,10 @@
 ---
 title: Problemas de verificação de preparação de permissões de arquivo
-description: '"Este artigo fornece uma correção para problemas de verificação de preparação de permissões de arquivo. Os diretórios no sistema de arquivos do Adobe Commerce devem ser graváveis pelo usuário do servidor da Web e pelo proprietário do sistema de arquivos do Adobe Commerce, se aplicável. Um erro semelhante ao seguinte é exibido no Assistente de configuração da Web se suas permissões não estiverem definidas corretamente:'''
+description: 'Este artigo fornece uma correção para problemas de verificação de preparação de permissões de arquivo. Os diretórios no sistema de arquivos do Adobe Commerce devem ser graváveis pelo usuário do servidor da Web e pelo proprietário do sistema de arquivos do Adobe Commerce, se aplicável. Um erro semelhante ao seguinte é exibido no Assistente de configuração da Web se suas permissões não estiverem definidas corretamente:'
 exl-id: 252e6e7d-5269-44ce-b3ce-6fc2ea6a1c5c
 feature: Roles/Permissions
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 0%

@@ -3,7 +3,8 @@ title: '[!DNL Live Search] facetas não estão classificadas alfabeticamente'
 description: Este artigo fornece informações sobre a solução de problemas se os aspectos  [!DNL Live Search]  não estiverem classificados em ordem alfabética.
 feature: Admin Workspace, Categories, Search
 role: Developer
-source-git-commit: b20a98e44cfad6667b9fe0ab232b0020ed834ca2
+exl-id: 59f86727-c2a6-4418-8753-40f7937e059c
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%

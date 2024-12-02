@@ -1,5 +1,5 @@
 ---
-title: "ACSD-46770: o email de confirmação do pedido é enviado mesmo quando [!UICONTROL Email Order Confirmation] está desmarcado"
+title: 'ACSD-46770: o email de confirmação de pedido é enviado mesmo quando [!UICONTROL Email Order Confirmation] está desmarcado'
 description: Aplique o patch ACSD-46770 para corrigir o problema do Adobe Commerce em que os emails de confirmação de pedido são enviados mesmo quando [!UICONTROL Email Order Confirmation] não está selecionado.
 exl-id: 9cbf3a57-1f59-4030-b432-0e6cad410a27
 feature: Communications, Orders

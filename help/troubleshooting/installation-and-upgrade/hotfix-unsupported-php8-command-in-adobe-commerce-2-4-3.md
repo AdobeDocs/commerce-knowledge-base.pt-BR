@@ -1,6 +1,6 @@
 ---
 title: Hotfix de erro fatal do PHP 2.4.3, 2.3.7-p1 para Adobe Commerce
-description: "Este artigo fornece uma correção para quando os comerciantes tentam atualizar para o Adobe Commerce (todos os métodos de implantação) ou para o Magento Open Source 2.4.3 ou 2.3.7-p1; o seguinte erro é exibido:"
+description: 'Este artigo fornece uma correção para quando os comerciantes tentam atualizar para o Adobe Commerce (todos os métodos de implantação) ou para o Magento Open Source 2.4.3 ou 2.3.7-p1. O seguinte erro é exibido:'
 exl-id: 1c472214-8387-403e-b2d2-d3f3c9e1da6a
 feature: Install, Upgrade
 role: Developer

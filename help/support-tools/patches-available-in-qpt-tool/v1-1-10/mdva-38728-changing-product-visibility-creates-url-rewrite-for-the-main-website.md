@@ -1,10 +1,10 @@
 ---
-title: "MDVA-38728: alterar a visibilidade do produto cria regravação de URL para o site principal"
+title: 'MDVA-38728: Alterar a visibilidade do produto cria regravação de URL para o site principal'
 description: O patch MDVA-38728 resolve o problema em que a alteração da visibilidade do produto do segundo site cria uma reescrita de URL para o site principal. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.10 está instalada. A ID do patch é MDVA-38728. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.5.
 exl-id: ad1d5f82-294d-485d-acd3-28c3cd0fbf56
 feature: Products
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 0%

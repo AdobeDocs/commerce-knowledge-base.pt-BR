@@ -1,5 +1,5 @@
 ---
-title: "ACSD-47497: ACL ausente para Armazenamento/Configuração/Serviços [!UICONTROL OAuth]"
+title: 'ACSD-47497: ACL ausente para Armazenamento / Configuração / Serviços [!UICONTROL OAuth]'
 description: Aplique o patch ACSD-47497 para corrigir o problema do Adobe Commerce quando as permissões forem definidas para uma função específica e você não puder definir o acesso à seção de configuração.
 exl-id: c13fd541-1379-4893-9190-9da1422b2b99
 feature: Configuration, Identity Management, Services

@@ -1,10 +1,10 @@
 ---
-title: "MDVA-39711: Não é possível acessar a grade dos clientes após excluir o site"
+title: 'MDVA-39711: Não é possível acessar a grade dos clientes após excluir o site'
 description: O patch MDVA-39711 corrige o problema em que o usuário administrador não consegue acessar a grade do cliente após excluir o site. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.7 está instalada. A ID do patch é MDVA-39711. Observe que o problema foi corrigido no Adobe Commerce 2.4.3.
 exl-id: 46bef304-9360-4b69-b064-631725de381c
 feature: Configuration
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 0%

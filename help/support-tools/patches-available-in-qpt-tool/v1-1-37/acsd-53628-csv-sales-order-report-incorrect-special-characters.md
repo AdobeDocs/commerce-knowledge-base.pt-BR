@@ -1,5 +1,5 @@
 ---
-title: "ACSD-53628: o relatório de ordem de venda CSV mostra caracteres especiais incorretos"
+title: 'ACSD-53628: o relatório de ordem de venda CSV mostra caracteres especiais incorretos'
 description: Aplique o patch ACSD-53628 para corrigir o problema do Adobe Commerce em que o relatório de ordem de venda CSV mostra caracteres especiais incorretos.
 feature: Orders, Data Import/Export
 role: Admin, Developer

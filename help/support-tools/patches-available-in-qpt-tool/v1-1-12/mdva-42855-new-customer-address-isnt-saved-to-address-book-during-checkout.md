@@ -1,5 +1,5 @@
 ---
-title: "MDVA-42855: O novo endereço do cliente não é salvo no catálogo de endereços durante a finalização da compra"
+title: 'MDVA-42855: O novo endereço do cliente não é salvo no catálogo de endereços durante a finalização da compra '
 description: O patch MDVA-42855 corrige o problema em que o novo endereço do cliente não é salvo no catálogo de endereços durante a finalização da compra. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12 está instalada. A ID do patch é MDVA-42855. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.5.
 exl-id: 37fc51f4-773e-4bef-9fb1-e6629562b94a
 feature: Checkout, Orders, Shipping/Delivery

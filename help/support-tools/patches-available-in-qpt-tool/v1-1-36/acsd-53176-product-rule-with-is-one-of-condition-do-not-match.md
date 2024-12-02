@@ -1,10 +1,10 @@
 ---
-title: '"ACSD-53176: a regra de produto com a condição "é um de" não corresponde"'
+title: 'ACSD-53176: a regra de produto com a condição "é um de" não corresponde'
 description: Aplique o patch ACSD-53176 para corrigir o problema do Adobe Commerce em que a condição "Produtos para correspondência" da regra de produto relacionada "é um de" não funciona corretamente para "Produtos para correspondência".
 feature: Marketing Tools
 role: Admin
 exl-id: 91f05f5b-6a5e-4b93-9dfb-88cbeccb6c9e
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 0%

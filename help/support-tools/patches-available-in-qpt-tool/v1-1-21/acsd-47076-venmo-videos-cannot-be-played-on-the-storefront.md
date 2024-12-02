@@ -1,10 +1,10 @@
 ---
-title: 'ACSD-47076: [!DNL Vimeo] vídeos não podem ser reproduzidos na loja'
+title: 'ACSD-47076: [!DNL Vimeo] não é possível reproduzir vídeos na loja'
 description: Aplique o patch ACSD-47076 para corrigir o problema do Adobe Commerce em que os vídeos  [!DNL Vimeo]  não podem ser reproduzidos na loja.
 exl-id: 52161c0d-3d51-45a3-ba41-36f955df0bea
 feature: Storefront
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%

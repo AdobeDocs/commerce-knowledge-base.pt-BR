@@ -1,10 +1,10 @@
 ---
-title: "ACSD-47336: erro [!UICONTROL Something went wrong] ao descartar notificações no Adobe Commerce Admin"
+title: 'ACSD-47336: erro [!UICONTROL Something went wrong] ao descartar notificações no Adobe Commerce Admin'
 description: Aplique o patch ACSD-47336 para corrigir o problema do Adobe Commerce em que o usuário vê o erro [!UICONTROL Something went wrong] ao dispensar notificações no  [!DNL Commerce] Administrador.
 exl-id: 7561f055-ce04-4a49-8c58-271c24420a60
 feature: Admin Workspace
 role: Admin
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%

@@ -1,10 +1,10 @@
 ---
-title: "MDVA-44100: Todos os FPTs são atribuídos ao último produto no carrinho de compras"
+title: 'MDVA-44100: Todos os FPTs são atribuídos ao último produto no carrinho de compras'
 description: O patch MDVA-44100 resolve o problema em que todos os FPTs são atribuídos ao último produto no carrinho de compras. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.14 está instalada. A ID do patch é MDVA-44100. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.5.
 exl-id: ab0f195c-fcc6-41ac-932d-d2603d068aa6
 feature: Orders, Products, Shopping Cart
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%

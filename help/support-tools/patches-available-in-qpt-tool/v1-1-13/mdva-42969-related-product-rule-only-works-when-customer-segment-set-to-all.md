@@ -1,5 +1,5 @@
 ---
-title: "MDVA-42969: a regra de produto relacionada funciona somente quando o segmento do cliente é definido como all"
+title: 'MDVA-42969: A regra de produto relacionada só funciona quando o segmento do cliente é definido como all'
 description: O patch MDVA-42969 corrige o problema em que a regra de produto relacionada só funciona quando o segmento do cliente é definido como todos. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.13 está instalada. A ID do patch é MDVA-42969. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.5.
 exl-id: 2877ba7a-2681-4de2-9c37-228de232424f
 feature: Customer Service, Marketing Tools, Products

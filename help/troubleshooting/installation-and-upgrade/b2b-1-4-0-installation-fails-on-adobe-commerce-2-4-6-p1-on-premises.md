@@ -1,5 +1,5 @@
 ---
-title: Falha na instalação do '[!DNL B2B] 1.4.0 no Adobe Commerce 2.4.6-p1 local'
+title: Falha na instalação do [!DNL B2B] 1.4.0 no Adobe Commerce 2.4.6-p1 local
 description: Este artigo fornece uma solução alternativa para o problema local do Adobe Commerce 2.4.6-p1 em que a instalação da  [!DNL B2B] versão 1.4.0 falha.
 feature: Install, Upgrade, B2B
 role: Developer

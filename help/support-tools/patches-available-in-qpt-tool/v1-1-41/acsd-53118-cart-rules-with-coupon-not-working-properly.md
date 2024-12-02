@@ -1,5 +1,5 @@
 ---
-title: "ACSD-53118: as regras do carrinho com cupom não estão funcionando corretamente"
+title: 'ACSD-53118: as regras do carrinho com cupom não funcionam corretamente'
 description: Aplique o patch ACSD-53118 para corrigir o problema do Adobe Commerce em que a regra de preço do carrinho é aplicada usando um código de cupom enquanto o produto no carrinho tem um atributo correspondente vazio.
 feature: Shopping Cart, Price Rules
 role: Admin, Developer

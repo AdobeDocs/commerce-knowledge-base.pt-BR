@@ -1,10 +1,10 @@
 ---
-title: "ACSD-53845: problema de tempo limite de conexão MySQL quando consumidor max_messages = 0"
+title: 'ACSD-53845: problema de tempo limite de conexão MySQL quando consumidor max_messages = 0'
 description: Aplique o patch ACSD-53845 para corrigir o problema do Adobe Commerce em que a conexão MySQL atinge o tempo limite quando o consumidor "max_messages = 0".
 feature: REST, Configuration
 role: Admin, Developer
 exl-id: 68f862ed-5401-41e9-a6cc-cef44ebc1915
-source-git-commit: 6fa7182a807147a00ad750966cd839ec18ffe0c7
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 0%

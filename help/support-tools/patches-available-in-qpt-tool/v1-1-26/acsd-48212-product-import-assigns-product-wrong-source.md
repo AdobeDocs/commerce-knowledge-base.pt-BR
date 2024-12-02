@@ -1,5 +1,5 @@
 ---
-title: "ACSD-48212: a importação de produto atribui o produto à origem errada"
+title: 'ACSD-48212: a importação de produto atribui o produto à origem errada'
 description: Aplique o patch ACSD-48212 para corrigir o problema do Adobe Commerce em que a importação de produto atribui o produto à origem errada.
 exl-id: b3426f62-f73a-4b76-8e0e-544a9133720f
 feature: Admin Workspace, Data Import/Export, Products

@@ -1,5 +1,5 @@
 ---
-title: "Visão geral: [!DNL Quality Patches Tool] (QPT) v1.1.16"
+title: 'Visão geral: [!DNL Quality Patches Tool] (QPT) v1.1.16'
 description: Esta subseção fornece uma descrição detalhada dos problemas corrigidos pelos patches disponíveis no [!DNL Quality Patches Tool] (QPT) v1.1.16.
 exl-id: 1a9cdcda-ca01-48aa-8387-60609f81d758
 feature: Tools and External Services

@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51792: a página não tem evento de impressão"
+title: 'ACSD-51792: a página não tem evento de impressão'
 description: Aplique o patch ACSD-51792 para corrigir o problema de desempenho do Adobe Commerce em que uma página não tem o evento de impressão quando o Google Tag Manager 4 está ativado.
 exl-id: 59194d4c-c387-4372-a0ff-1cdd74f8c6df
 source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc

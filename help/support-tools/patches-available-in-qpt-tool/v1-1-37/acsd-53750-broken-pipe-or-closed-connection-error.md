@@ -1,10 +1,10 @@
 ---
-title: '"ACSD-53750: erro "Tubulação quebrada ou conexão fechada" durante reindexação de catalog_product_price de multithread"'
+title: 'ACSD-53750: erro "Tubulação quebrada ou conexão fechada" durante reindexação de catalog_product_price de vários threads'
 description: Aplique o patch ACSD-53750 para corrigir o problema do Adobe Commerce em que um erro *Pipe quebrado ou conexão fechada* ocorre durante a reindexação de vários threads catalog_product_price.
 feature: Products
 role: Admin, Developer
 exl-id: afb30384-74e7-4857-9aff-8e99f5abc309
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 0%

@@ -1,6 +1,6 @@
 ---
 title: Alteração de preço base afeta no preço de catálogo compartilhado
-description: "Este artigo responde à pergunta: se um produto em um catálogo compartilhado tiver um preço personalizado e o preço base do produto mudar (por exemplo, após uma atualização programada), qual preço se aplica no catálogo compartilhado?"
+description: 'Este artigo responde à pergunta: se um produto em um catálogo compartilhado tiver um preço personalizado e o preço base do produto mudar (por exemplo, após uma atualização programada), qual preço se aplica ao catálogo compartilhado?'
 exl-id: 916678c1-ada6-4f23-af16-b107cb83ff16
 feature: Catalog Management
 source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0

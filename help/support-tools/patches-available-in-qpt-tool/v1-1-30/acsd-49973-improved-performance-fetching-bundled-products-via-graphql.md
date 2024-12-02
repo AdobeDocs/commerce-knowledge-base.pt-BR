@@ -1,10 +1,10 @@
 ---
-title: "ACSD-49973: melhor desempenho ao buscar produtos empacotados via [!DNL GraphQL]"
+title: 'ACSD-49973: melhor desempenho ao buscar produtos empacotados via [!DNL GraphQL]'
 description: Aplique o patch ACSD-49973 para corrigir o problema do Adobe Commerce em que ocorre degradação de desempenho ao buscar produtos agrupados via  [!DNL GraphQL].
 exl-id: 7d7fce0f-40f9-4dec-aee7-1014690ccd7c
 feature: GraphQL, Products
 role: Admin
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%

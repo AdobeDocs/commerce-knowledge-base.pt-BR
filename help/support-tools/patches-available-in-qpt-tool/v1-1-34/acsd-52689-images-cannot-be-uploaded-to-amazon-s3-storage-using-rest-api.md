@@ -1,5 +1,5 @@
 ---
-title: "ACSD-52689: as imagens não podem ser carregadas no armazenamento do Amazon S3 por meio da API REST"
+title: 'ACSD-52689: as imagens não podem ser carregadas no armazenamento do Amazon S3 por meio da API REST'
 description: Aplique o patch ACSD-52689 para corrigir o problema do Adobe Commerce em que as imagens não podem ser carregadas para o armazenamento do Amazon S3 por meio da API REST.
 feature: REST, Storage, Iaas
 role: Admin

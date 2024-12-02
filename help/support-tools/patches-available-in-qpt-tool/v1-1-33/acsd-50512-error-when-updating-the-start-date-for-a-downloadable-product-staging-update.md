@@ -1,10 +1,10 @@
 ---
-title: "ACSD-50512: erro ao atualizar a data de início de uma atualização de preparo de produto baixável"
+title: 'ACSD-50512: erro ao atualizar a data de início de uma atualização de preparo de produto baixável'
 description: Aplique o patch ACSD-51892 para corrigir o problema de desempenho do Adobe Commerce em que o erro *O link para download não está relacionado ao produto. Verifique o link e tente novamente*; isso ocorre ao atualizar a data de início de uma atualização de preparo de produto para download.
 feature: Products, Staging
 role: Admin
 exl-id: 873357ef-49c3-48f8-a98e-41c48cb9ba8b
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 0%

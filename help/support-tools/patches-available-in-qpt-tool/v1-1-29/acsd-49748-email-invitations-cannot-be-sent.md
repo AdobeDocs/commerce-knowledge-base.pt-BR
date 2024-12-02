@@ -1,5 +1,5 @@
 ---
-title: "ACSD-49748: convites por email não podem ser enviados"
+title: 'ACSD-49748: Convites por email não podem ser enviados'
 description: Aplique o patch ACSD-49748 para corrigir o problema do Adobe Commerce em que os usuários não conseguem enviar convites por email.
 exl-id: 65de8ea9-e65c-463b-8cba-d35767d4343d
 feature: Admin Workspace, Communications, Marketing Tools

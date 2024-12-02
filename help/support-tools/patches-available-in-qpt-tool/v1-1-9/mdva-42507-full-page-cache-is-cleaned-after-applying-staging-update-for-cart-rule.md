@@ -1,5 +1,5 @@
 ---
-title: "MDVA-42507: o cache de página inteira é limpo após a aplicação da atualização de preparo para a regra de carrinho"
+title: 'MDVA-42507: o cache de página inteira é limpo após a aplicação da atualização de preparo para a regra de carrinho'
 description: O patch MDVA-42507 resolve o problema em que o cache de página inteira é limpo após a aplicação da atualização de preparo para a regra de carrinho. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.9 está instalada. A ID do patch é MDVA-42507. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.5.
 exl-id: 9303d488-428b-4565-b9ea-469c34856dce
 feature: Cache, Categories, Orders, Shopping Cart, Staging

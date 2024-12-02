@@ -1,10 +1,10 @@
 ---
-title: "ACSD-48627: o produto configurável sem estoque causa um erro"
+title: 'ACSD-48627: o produto configurável sem estoque causa um erro'
 description: Aplique o patch ACSD-48627 para corrigir o problema do Adobe Commerce em que o produto configurável indisponível causa um erro ao enviar uma solicitação do GraphQL para obter detalhes do carrinho.
 exl-id: e3048a91-1112-49a7-afcc-e6bb23208351
 feature: Admin Workspace, Configuration, Orders, Products
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%
