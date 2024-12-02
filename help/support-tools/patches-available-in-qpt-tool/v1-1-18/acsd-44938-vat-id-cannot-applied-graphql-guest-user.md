@@ -1,10 +1,10 @@
 ---
-title: "ACSD-44938: VAT_ID não pode ser aplicado na solicitação do GraphQL para o usuário convidado"
+title: 'ACSD-44938: VAT_ID não pode ser aplicado na solicitação GraphQL para o usuário convidado'
 description: O patch ACSD-44938 corrige o problema em que a VAT_ID não pode ser aplicada em uma solicitação GraphQL para um usuário convidado. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.18 está instalada. A ID do patch é ACSD-44938. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.6.
 exl-id: 18b3dfa5-b666-491e-a067-526a53294f39
 feature: Admin Workspace, GraphQL
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 77f41d6034f985794e5c5b89cc007a69858683b9
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%
@@ -35,12 +35,12 @@ VAT_ID não pode ser aplicado em uma solicitação GraphQL para um usuário conv
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. Siga as etapas mencionadas no [tutorial do GraphQL](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/checkout-shopping-cart.html) em nossa documentação do desenvolvedor para criar um carrinho de convidado.
+1. Siga as etapas mencionadas no [tutorial do GraphQL](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/) em nossa documentação do desenvolvedor para criar um carrinho de convidado.
 1. Tente aplicar VAT_ID para o usuário convidado usando o GraphQL.
 
 <u>Resultados esperados</u>:
 
-VAT_ID pode ser aplicado da mesma forma que para um cliente registrado. Consulte o artigo [createCustomerAddress mutation](https://developer.adobe.com/commerce/webapi/graphql/mutations/create-customer-address.html) na documentação do desenvolvedor.
+VAT_ID pode ser aplicado da mesma forma que para um cliente registrado. Consulte o artigo [createCustomerAddress mutation](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/create-address/) na documentação do desenvolvedor.
 
 <u>Resultados reais</u>:
 

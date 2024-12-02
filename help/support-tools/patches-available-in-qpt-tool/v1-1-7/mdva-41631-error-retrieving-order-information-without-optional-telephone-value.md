@@ -1,10 +1,10 @@
 ---
-title: 'MDVA-41631: Erro ao recuperar informações do pedido sem valor "phone" opcional'
+title: 'MDVA-41631: erro ao recuperar informações do pedido sem valor "phone" opcional'
 description: O patch MDVA-41631 corrige o problema em que os usuários obtêm um erro ao recuperar informações do pedido sem o valor opcional de "telefone" por meio do GraphQL. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.7 está instalada. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.4.
 exl-id: 94b0b918-c1f9-4f5d-8fcd-8b92a9ca8c59
 feature: Orders
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 77f41d6034f985794e5c5b89cc007a69858683b9
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
@@ -37,8 +37,8 @@ Os usuários recebem um erro ao recuperar informações do pedido sem o valor op
 
 1. Vá para **Loja** > **Configuração** > **Clientes** > **Configuração do Cliente** > **Opções de Nome e Endereço** > **Mostrar Telefone** e defina o número de telefone como opcional.
 1. Faça um pedido usando a API do GraphQL como cliente conectado.
-   * Não defina o número de telefone ao definir os endereços de faturamento e de envio. Siga as instruções fornecidas no [Tutorial de check-out do GraphQL](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/checkout-customer.html) em nossa documentação do desenvolvedor.
-1. Recupere o pedido usando a [consulta customerOrders](https://developer.adobe.com/commerce/webapi/graphql/queries/customer-orders.html) do GraphQL.
+   * Não defina o número de telefone ao definir os endereços de faturamento e de envio. Siga as instruções fornecidas no [Tutorial de check-out do GraphQL](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/) em nossa documentação do desenvolvedor.
+1. Recupere o pedido usando a [consulta customerOrders](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/queries/orders/) do GraphQL.
 
 <pre>
 <code class="language-graphql">

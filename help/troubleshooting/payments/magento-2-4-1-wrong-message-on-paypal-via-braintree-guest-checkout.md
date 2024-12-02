@@ -1,10 +1,10 @@
 ---
-title: "Adobe Commerce 2.4.1: mensagem incorreta na finalização de compra de convidado do PayPal-Braintree"
+title: 'Adobe Commerce 2.4.1: mensagem incorreta na finalização de compra de convidado PayPal-Braintree'
 description: Este artigo descreve um problema conhecido do Adobe Commerce 2.4.1 em que, se o check-out do convidado estiver desativado, um cliente convidado que tenta fazer um pedido no PayPal por meio do Braintree receberá uma mensagem de erro não informativa.
 exl-id: 758f5c57-997e-4aca-b299-9934c94fa121
 feature: Checkout, Orders, Payments
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 77f41d6034f985794e5c5b89cc007a69858683b9
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%
@@ -61,4 +61,4 @@ A solução alternativa para esse problema é que o cliente pode fazer logon em 
 
 * [Prática recomendada para o número de produtos no carrinho na Adobe Commerce](https://support.magento.com/hc/en-us/articles/360048550332) em nossa base de dados de conhecimento de suporte.
 * [Tutorial de processamento de pedido: Etapa 1. Adicionar itens ao carrinho](https://developer.adobe.com/commerce/webapi/rest/tutorials/orders/order-add-items/) em nossa documentação do desenvolvedor
-* [Tutorial de check-out do GraphQL: Etapa 1. Adicionar produtos ao carrinho](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/checkout-add-product-to-cart.html) em nossa documentação do desenvolvedor
+* [Tutorial de check-out do GraphQL: Etapa 1. Adicionar produtos ao carrinho](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/add-product-to-cart/) em nossa documentação do desenvolvedor

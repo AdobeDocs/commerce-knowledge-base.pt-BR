@@ -1,10 +1,10 @@
 ---
-title: "MDVA-44147: a solicitação do GraphQL não retorna Listas de Requisições"
+title: 'MDVA-44147: A solicitação do GraphQL não retorna Listas de Requisições'
 description: O patch MDVA-44147 corrige o problema em que a solicitação do GraphQL não retorna Listas de requisições. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.14 está instalada. A ID do patch é MDVA-44147. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.5.
 exl-id: c7a526f2-638c-4172-8750-aa076724851a
 feature: B2B, GraphQL
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 77f41d6034f985794e5c5b89cc007a69858683b9
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -52,7 +52,7 @@ A solicitação GraphQL não retorna Listas de Requisições.
       </code>
       </pre>
 
-1. Use a consulta a seguir para recuperar todas as Listas de Requisições do cliente. Use o cabeçalho **Autorização** com o valor `Bearer <customer_token>`. Para obter mais informações, consulte o artigo [Consulta a clientes](https://developer.adobe.com/commerce/webapi/graphql/queries/customer.html) em nossa documentação para desenvolvedores.
+1. Use a consulta a seguir para recuperar todas as Listas de Requisições do cliente. Use o cabeçalho **Autorização** com o valor `Bearer <customer_token>`. Para obter mais informações, consulte o artigo [Consulta a clientes](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/queries/customer/) em nossa documentação para desenvolvedores.
 
    Solicitação:
 
