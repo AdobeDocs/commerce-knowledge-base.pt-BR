@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-53998 para corrigir o problema do Adobe Commer
 feature: Customers, Page Builder, Personalization
 role: Admin, Developer
 exl-id: 5a82a6b8-e8f7-47ff-89f6-93a39b72fe38
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: dccb8dde1666fa0c72c7c94cd94c82daddaadc54
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 0%

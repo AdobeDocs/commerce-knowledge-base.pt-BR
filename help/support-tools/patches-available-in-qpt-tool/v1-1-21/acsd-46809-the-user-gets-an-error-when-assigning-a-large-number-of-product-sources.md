@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-46809 para corrigir o problema do Adobe Commer
 exl-id: c67d7981-37fe-433a-b818-56a5b391082d
 feature: Products
 role: Admin
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 0%

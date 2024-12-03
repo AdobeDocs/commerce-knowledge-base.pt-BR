@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-54965 para corrigir o problema do Adobe Commer
 feature: Merchandising, Categories
 role: Admin, Developer
 exl-id: 13d98f55-ca2c-4064-b66f-ab2cdeb37382
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 4f05117aa42dec1f56e4986ffd22d1a68bf5cea2
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 0%

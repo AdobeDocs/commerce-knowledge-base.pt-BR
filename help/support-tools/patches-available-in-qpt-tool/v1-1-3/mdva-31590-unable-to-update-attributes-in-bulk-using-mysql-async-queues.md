@@ -4,7 +4,7 @@ description: O patch MDVA-31590 resolve o problema em que os usuários não cons
 exl-id: 57db28dd-a739-4a77-927d-6339af4fa4a6
 feature: Attributes, Services
 role: Admin
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 0%

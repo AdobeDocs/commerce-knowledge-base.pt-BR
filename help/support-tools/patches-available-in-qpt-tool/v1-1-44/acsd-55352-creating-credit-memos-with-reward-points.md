@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-55352 para corrigir o problema do Adobe Commer
 feature: Checkout, Orders
 role: Admin, Developer
 exl-id: 33ceb2e9-3cd5-4472-941a-e06c5c534f4a
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: a28257f55abf21cddec9b415e7e8858df33647be
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%

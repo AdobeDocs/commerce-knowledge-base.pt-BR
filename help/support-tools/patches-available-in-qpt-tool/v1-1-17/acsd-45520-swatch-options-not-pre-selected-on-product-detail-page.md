@@ -4,7 +4,7 @@ description: O patch ACSD-45520 corrige o problema em que as opções de amostra
 exl-id: 941f4a45-bc3c-44c0-a582-ddfe179fa8c3
 feature: Products
 role: Admin
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%

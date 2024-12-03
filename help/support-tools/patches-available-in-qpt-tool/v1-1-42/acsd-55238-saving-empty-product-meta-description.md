@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-55238 para corrigir o problema do Adobe Commer
 feature: Products, Page Builder, Page Content
 role: Admin, Developer
 exl-id: 250026c3-925d-4a62-9855-d892c86d3d24
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: c903360ffb22f9cd4648f6fdb4a812cb61cd90c5
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%

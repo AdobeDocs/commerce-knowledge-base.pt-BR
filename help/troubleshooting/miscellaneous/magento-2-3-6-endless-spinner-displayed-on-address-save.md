@@ -4,7 +4,7 @@ description: Este artigo descreve um problema conhecido do Adobe Commerce 2.3.6,
 exl-id: 63841114-167e-4915-b6ed-ee0ef4eae36e
 feature: Shipping/Delivery, Orders, Checkout
 role: Developer
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 0%

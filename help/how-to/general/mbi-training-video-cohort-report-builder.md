@@ -3,7 +3,7 @@ title: 'Vídeo de treinamento do Adobe Commerce Intelligence: Report Builder de 
 description: Você já quis estudar como diferentes subconjuntos de usuários se comportam ao longo do tempo? Por exemplo, você já se perguntou se os usuários que se registram durante um período promocional têm uma receita média vitalícia maior do que aqueles que não têm? Se a resposta for "Sim!", o Report Builder de coorte é a ferramenta perfeita para você. O Commerce Intelligence foi otimizado especificamente para realizar essa análise e torná-la relevante para sua empresa.
 exl-id: c3e2415a-7251-46ae-9ddc-a5b86c85602c
 feature: Commerce Intelligence
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%

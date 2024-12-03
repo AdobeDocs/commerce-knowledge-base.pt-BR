@@ -4,7 +4,7 @@ description: O  [!DNL Site-Wide Analysis Tool]  é uma ferramenta de autoatendim
 exl-id: cfb51926-4293-410b-aad4-724344c7f24a
 feature: Support, Tools and External Services
 role: Admin
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 4b1b5547688509dfe64adc6b308340dd4a5c430a
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%

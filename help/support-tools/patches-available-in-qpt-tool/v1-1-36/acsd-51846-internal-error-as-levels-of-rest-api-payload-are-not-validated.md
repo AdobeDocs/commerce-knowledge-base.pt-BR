@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-51846 para corrigir o problema do Adobe Commer
 feature: REST
 role: Developer
 exl-id: 17ce5cca-063d-439c-9390-f5e2bf5b696b
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%

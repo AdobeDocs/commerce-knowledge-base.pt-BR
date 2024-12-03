@@ -4,7 +4,7 @@ description: O patch MDVA-38626 resolve o problema em que o usuário administrad
 exl-id: b9257d42-d8df-4dd6-b2b4-70ddd6f3e414
 feature: Admin Workspace, Orders, Payments
 role: Admin
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%

@@ -4,7 +4,7 @@ description: O patch MDVA-41305 resolve o problema em que os usuários obtêm um
 exl-id: 97d4ee1c-19af-46c0-96b2-c2765899ed83
 feature: GraphQL, Configuration, Products
 role: Admin
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%

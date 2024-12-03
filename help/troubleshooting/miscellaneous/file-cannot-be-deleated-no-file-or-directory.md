@@ -4,7 +4,7 @@ description: Este artigo fornece uma solução para o problema em que você vê 
 feature: Admin Workspace, Observability
 role: Developer
 exl-id: db265e3c-a809-4404-839a-273001e81d22
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: fd5fd6e1bc04db56497a2e0c2a96bc1b06d4f7a1
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 0%

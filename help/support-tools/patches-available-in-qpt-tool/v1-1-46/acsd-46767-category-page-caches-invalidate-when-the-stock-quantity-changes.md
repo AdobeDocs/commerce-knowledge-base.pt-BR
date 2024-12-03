@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-46767 para corrigir o problema do Adobe Commer
 feature: Cache, Products, Inventory
 role: Admin, Developer
 exl-id: 39811c03-8518-4975-a128-31537b4706c0
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: b7e2ff7cd259963adb9a113eb8e94acdaa45ba1e
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%

@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-49843 para corrigir o problema do Adobe Commer
 feature: Catalog Management, Configuration, Invoices, Orders, Storefront
 role: Admin, Developer
 exl-id: 4bfa3827-a2b1-4168-a39c-99c617ee4795
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%

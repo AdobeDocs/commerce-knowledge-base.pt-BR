@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-57074 para corrigir o problema do Adobe Commer
 feature: Products, Categories, Catalog Management
 role: Admin, Developer
 exl-id: c620722f-a66d-4cae-9614-becec589a78c
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 4197f2a8f3d4775d3459b17bd92fa51a54ff9607
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 0%

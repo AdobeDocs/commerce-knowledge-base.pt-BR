@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-53585 para melhorar o desempenho parcial do re
 feature: Products, Categories
 role: Admin, Developer
 exl-id: 1c8f7df3-379f-42d6-8b41-286d34f725d2
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 29c2918ccae6404f6ae87d360ac16b149de5dd0d
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%

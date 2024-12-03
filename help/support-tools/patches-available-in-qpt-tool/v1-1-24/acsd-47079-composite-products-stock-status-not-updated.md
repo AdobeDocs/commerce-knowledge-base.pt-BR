@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-47079 para corrigir o problema do Adobe Commer
 exl-id: 603e4548-fb04-43b4-a033-4f2c7f665fae
 feature: Orders, Products
 role: Admin
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 0%

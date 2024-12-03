@@ -4,7 +4,7 @@ description: Este tópico sugere uma solução para um problema típico de desem
 exl-id: 8b22d25d-0865-4d21-b275-d344ba8748f2
 feature: Routes
 role: Developer
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 0%

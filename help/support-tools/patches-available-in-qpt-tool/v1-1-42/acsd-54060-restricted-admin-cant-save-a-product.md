@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-54060 para corrigir o problema do Adobe Commer
 feature: Admin Workspace, Roles/Permissions, Products
 role: Admin, Developer
 exl-id: 28fa3c99-f2b6-4c6d-955a-bd6638a1b077
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: c903360ffb22f9cd4648f6fdb4a812cb61cd90c5
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%

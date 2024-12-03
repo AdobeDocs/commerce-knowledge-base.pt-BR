@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-56979 para corrigir o problema do Adobe Commer
 feature: Products
 role: Admin, Developer
 exl-id: efb8aada-d775-4428-b7fe-7ab5d41ae2b6
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 9bb839292a120a3dab5151d493f915619dbf5c06
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%

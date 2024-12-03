@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-54376 para corrigir o problema do Adobe Commer
 feature: Shopping Cart, B2B
 role: Admin, Developer
 exl-id: a1e5c084-532f-49e8-ab87-6674b44218e8
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 1cc565d5888e5a380c04879d9aced2c19e92c2e5
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 0%

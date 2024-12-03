@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-47910 para corrigir o problema do Adobe Commer
 exl-id: 4eb897ec-16e4-420e-89a6-c8f7c8740303
 feature: Admin Workspace, Invoices, Orders, Returns, Shipping/Delivery
 role: Admin
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 3eeb86c2644f8a04ddcf5e205bc400d2ca9969af
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 0%

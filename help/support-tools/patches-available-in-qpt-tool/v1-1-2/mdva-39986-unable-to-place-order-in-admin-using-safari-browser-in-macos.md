@@ -4,7 +4,7 @@ description: O patch MDVA-39986 corrige o problema em que os usuários não cons
 exl-id: a35b6253-e03f-4bdb-a3a3-fceb70588c6e
 feature: Admin Workspace, Orders
 role: Admin
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%

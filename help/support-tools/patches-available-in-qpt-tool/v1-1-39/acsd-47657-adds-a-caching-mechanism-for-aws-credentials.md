@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-47657 para corrigir o problema do Adobe Commer
 feature: Cache
 role: Admin, Developer
 exl-id: d5822082-c656-45bf-b192-9cc8007b82a2
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: dccb8dde1666fa0c72c7c94cd94c82daddaadc54
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 0%

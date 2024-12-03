@@ -4,7 +4,7 @@ description: Este artigo fornece uma solução alternativa para um problema conh
 exl-id: 59de4b3d-af28-4ae8-8f55-4ec958e6ee8b
 feature: B2B, Checkout, Orders, Rewards, Shipping/Delivery, Storefront
 role: Admin
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%

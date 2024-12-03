@@ -4,7 +4,7 @@ description: O patch MDVA-39711 corrige o problema em que o usuário administrad
 exl-id: 46bef304-9360-4b69-b064-631725de381c
 feature: Configuration
 role: Admin
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 0%

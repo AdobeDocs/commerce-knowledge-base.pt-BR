@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-48210 para corrigir o problema do Adobe Commer
 feature: Products, Attributes
 role: Admin, Developer
 exl-id: e279df44-0916-4f2e-99f2-76e123895125
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: a84c3d296deb49d419be78f454696177a974d923
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 0%

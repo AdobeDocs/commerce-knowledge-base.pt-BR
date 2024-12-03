@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-54739 para corrigir o problema do Adobe Commer
 feature: Products
 role: Admin, Developer
 exl-id: 7bc106b1-2c97-46a1-8bb6-71b99511e480
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: c903360ffb22f9cd4648f6fdb4a812cb61cd90c5
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 0%

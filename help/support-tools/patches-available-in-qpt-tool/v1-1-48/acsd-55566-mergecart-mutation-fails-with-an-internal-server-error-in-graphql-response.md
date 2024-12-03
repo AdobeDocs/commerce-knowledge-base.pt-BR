@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-55566 para corrigir o problema do Adobe Commer
 feature: GraphQL, Shopping Cart
 role: Admin, Developer
 exl-id: 84a9b861-351e-4fcc-bb91-3e31c7ae24e6
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 6b8eecb3df0bb32344a5861a604a40402bb4d392
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%

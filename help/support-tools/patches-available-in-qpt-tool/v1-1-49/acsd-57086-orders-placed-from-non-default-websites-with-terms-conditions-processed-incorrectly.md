@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-57086 para corrigir o problema do Adobe Commer
 feature: Orders
 role: Admin, Developer
 exl-id: 400e3673-9c61-4acd-8e37-e9a2e0bf9379
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: e61dd2874a2b6cb4c49aa6916c6273a2cb9f9e60
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 0%

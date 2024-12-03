@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-54026 para corrigir o problema do Adobe Commer
 feature: Roles/Permissions
 role: Admin, Developer
 exl-id: c18a8815-975a-499d-a372-8635d89aa673
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: dccb8dde1666fa0c72c7c94cd94c82daddaadc54
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 0%

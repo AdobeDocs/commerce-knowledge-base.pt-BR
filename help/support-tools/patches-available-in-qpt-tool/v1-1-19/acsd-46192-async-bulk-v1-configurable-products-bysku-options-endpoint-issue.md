@@ -4,7 +4,7 @@ description: O patch ACSD-46192 corrige o problema com o endpoint "async/bulk/V1
 exl-id: fed49708-868a-48ec-8dbc-638d75506a40
 feature: Configuration, Products
 role: Admin
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%

@@ -4,7 +4,7 @@ description: O patch MDVA-38799 resolve o problema em que os produtos baixáveis
 exl-id: 306f9ef3-ca3a-41b9-a5d3-42aa4ef59953
 feature: Products, Staging
 role: Admin
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 0%

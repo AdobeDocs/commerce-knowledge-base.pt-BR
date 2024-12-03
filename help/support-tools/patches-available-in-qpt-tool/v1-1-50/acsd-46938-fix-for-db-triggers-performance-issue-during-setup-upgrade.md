@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-46938 para corrigir o problema do Adobe Commer
 feature: Upgrade
 role: Admin, Developer
 exl-id: 967727ed-f490-4233-a2b0-fcb2fa3f964b
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 151e5b70433fbebf0e2b1376d7fc540850978bb0
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%

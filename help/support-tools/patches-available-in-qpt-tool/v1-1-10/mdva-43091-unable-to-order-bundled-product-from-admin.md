@@ -4,7 +4,7 @@ description: O patch MDVA-43091 resolve o problema em que os usuários não pode
 exl-id: 77dff356-4f75-4b06-b62b-5379a4eec273
 feature: Admin Workspace, Orders, Products
 role: Admin
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 0%

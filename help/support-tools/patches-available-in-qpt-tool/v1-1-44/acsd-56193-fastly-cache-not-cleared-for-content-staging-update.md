@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-56193 para corrigir o problema do Adobe Commer
 feature: Cache, GraphQL, Staging
 role: Admin, Developer
 exl-id: d4bbfafa-2d24-44cf-a08b-f7dd9111a65b
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: a28257f55abf21cddec9b415e7e8858df33647be
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 0%

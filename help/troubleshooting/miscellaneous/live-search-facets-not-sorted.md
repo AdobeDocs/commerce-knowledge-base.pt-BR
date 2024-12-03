@@ -4,7 +4,7 @@ description: Este artigo fornece informações sobre a solução de problemas se
 feature: Admin Workspace, Categories, Search
 role: Developer
 exl-id: 59f86727-c2a6-4418-8753-40f7937e059c
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 9bb839292a120a3dab5151d493f915619dbf5c06
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%

@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-51431 para corrigir o problema do Adobe Commer
 feature: Logs, Price Indexer
 role: Admin
 exl-id: 85977b78-7f6b-47c7-b33e-16668bdf98fe
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%

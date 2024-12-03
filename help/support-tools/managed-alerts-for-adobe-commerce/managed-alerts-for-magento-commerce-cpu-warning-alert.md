@@ -4,7 +4,7 @@ description: Este artigo fornece etapas de solução de problemas quando você r
 exl-id: 03686684-3b7e-430a-a05a-a96f38345322
 feature: Cache, Marketing Tools, Observability, Support, Tools and External Services
 role: Admin
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 0%

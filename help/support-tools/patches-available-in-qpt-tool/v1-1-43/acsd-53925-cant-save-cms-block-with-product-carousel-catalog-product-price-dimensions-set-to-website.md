@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-53925 para corrigir o problema do Adobe Commer
 feature: CMS, Page Builder, Price Indexer, Products
 role: Admin, Developer
 exl-id: 6ef6d8ff-4ebb-4adb-9fb7-0d4a81a25f50
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: c903360ffb22f9cd4648f6fdb4a812cb61cd90c5
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 0%

@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-56741 para corrigir o problema do Adobe Commer
 feature: Install
 role: Admin, Developer
 exl-id: 97839140-03c5-44f0-ba75-935d62f5bf90
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 7cd830d9ba4af6350a14e0cdb50439d2d07084dc
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%

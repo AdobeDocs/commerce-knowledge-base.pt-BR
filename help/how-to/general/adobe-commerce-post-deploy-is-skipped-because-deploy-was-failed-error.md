@@ -3,7 +3,7 @@ title: Adobe Commerce *a pós-implantação é ignorada porque a implantação f
 description: 'Este artigo explica como investigar um erro de implantação: *A pós-implantação é ignorada porque a implantação falhou*'
 exl-id: cd0a3015-b7b9-442e-8ac1-89447ef12cd7
 feature: Deploy
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%

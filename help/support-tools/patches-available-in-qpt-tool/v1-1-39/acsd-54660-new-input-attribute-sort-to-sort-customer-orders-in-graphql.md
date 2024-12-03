@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-54660 para corrigir o problema do Adobe Commer
 feature: GraphQL, Orders
 role: Admin, Developer
 exl-id: 29869139-e5e2-4b00-a090-e2c6673ff9ca
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: f12e25ac5dd607cc614dd99c90c5e104b2cee6a8
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 0%

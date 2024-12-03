@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-52815 para corrigir o problema de desempenho d
 feature: Inventory, Products
 role: Admin
 exl-id: 44fda5ef-cb8a-481a-9112-f36d886ae3db
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 0%

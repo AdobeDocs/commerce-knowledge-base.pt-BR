@@ -4,7 +4,7 @@ description: Este artigo fornece uma solução alternativa para um problema conh
 exl-id: 24ae880e-6d74-4444-9165-2744b12af81a
 feature: B2B
 role: Developer
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: a1046621259ea49eab74cd6ba3bba550e0c70283
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%

@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-57315 para corrigir o problema do Adobe Commer
 feature: Payments
 role: Admin, Developer
 exl-id: bcc7467d-09f9-4235-9f9f-46d3034567b8
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: d7ace1f20defb01105d4a241f971b06fca052215
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%

@@ -4,7 +4,7 @@ description: O patch MDVA-42410 corrige o problema em que os relatórios de cupo
 exl-id: b442a2ce-1bd4-4f09-95fd-2c626e32f509
 feature: Orders
 role: Admin
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%

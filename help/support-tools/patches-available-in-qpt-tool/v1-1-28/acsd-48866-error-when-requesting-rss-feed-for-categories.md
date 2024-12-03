@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-48866 para corrigir o problema do Adobe Commer
 exl-id: 0b509f32-3904-47c3-aacd-df8b6adbf443
 feature: Admin Workspace, Categories
 role: Admin
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%

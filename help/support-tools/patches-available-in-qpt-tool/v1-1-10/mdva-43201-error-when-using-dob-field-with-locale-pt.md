@@ -4,7 +4,7 @@ description: O patch MDVA-43201 resolve o problema em que ocorre um erro ao usar
 exl-id: 02979378-adc1-4a1a-93bf-a35ad50e6b80
 feature: B2B, Cache
 role: Admin
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%

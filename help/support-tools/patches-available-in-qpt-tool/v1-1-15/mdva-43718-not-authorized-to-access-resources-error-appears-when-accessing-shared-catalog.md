@@ -4,7 +4,7 @@ description: O patch MDVA-43718 resolve o problema em que o erro *consumidor nã
 exl-id: fa783ed4-906e-4ee6-b82a-cfe6db5ae89e
 feature: Catalog Management
 role: Admin
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%

@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-49773 para corrigir o problema do Adobe Commer
 exl-id: 5ef853c3-8080-4403-836b-6fff93ec71c6
 feature: Data Import/Export, Iaas, Products, Storage
 role: Admin
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 0%

@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-59036 para corrigir o problema do Adobe Commer
 feature: Categories, Products, Storefront, Search
 role: Admin, Developer
 exl-id: 40f13aee-5cba-4367-94e2-d8c0e86e96c9
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 06f751e43ef825c0eb29cb9b42eb41f07c308625
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%

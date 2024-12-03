@@ -4,7 +4,7 @@ description: O patch MDVA-43178 corrige o problema em que o token do cliente de 
 exl-id: b2a8bf96-7534-41d2-b83b-58d8e0b6d076
 feature: GraphQL
 role: Admin
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%

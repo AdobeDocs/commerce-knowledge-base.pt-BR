@@ -5,7 +5,7 @@ description: Aplique um patch para lidar com a  [!DNL UPS] migração de integra
 feature: Shipping/Delivery
 role: Developer
 exl-id: 8ab5d4a8-0155-4b2c-ab67-d0bd2f949a07
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 6694bb1e041e6285f5bd5a05a1c37b7062521f52
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 0%

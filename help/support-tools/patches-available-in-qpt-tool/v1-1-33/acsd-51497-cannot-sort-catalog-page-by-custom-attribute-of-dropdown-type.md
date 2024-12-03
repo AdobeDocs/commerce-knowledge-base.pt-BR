@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-51497 para corrigir o problema do Adobe Commer
 feature: Attributes, Cache, Catalog Management, Categories
 role: Developer
 exl-id: 60a4f375-9b9a-4026-9dc7-d9f847a75656
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%

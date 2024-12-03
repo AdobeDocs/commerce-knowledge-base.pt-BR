@@ -4,7 +4,7 @@ description: O patch MDVA-39163 resolve o problema em que os métodos de envio n
 exl-id: f8661a4e-5832-41bb-be3d-4ea6c863fdb9
 feature: CMS, Marketing Tools, Orders, Products, Shipping/Delivery
 role: Admin
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%

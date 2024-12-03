@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-57588 para corrigir o problema do Adobe Commer
 feature: Orders, Shipping/Delivery
 role: Admin, Developer
 exl-id: 01a33db3-fdbe-4acd-a617-45fb3aee6f3d
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 9bb839292a120a3dab5151d493f915619dbf5c06
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 0%

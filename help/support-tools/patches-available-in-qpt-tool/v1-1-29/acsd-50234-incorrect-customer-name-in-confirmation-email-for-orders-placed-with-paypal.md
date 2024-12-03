@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-50234 para corrigir o problema do Adobe Commer
 exl-id: b2e9c25a-5dd5-4b37-81e3-ca960078da77
 feature: Admin Workspace, Communications, Orders, Payments
 role: Admin
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 0%

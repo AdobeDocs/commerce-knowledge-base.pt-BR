@@ -4,7 +4,7 @@ description: O patch MDVA-42283 corrige o problema em que o formato de data e ho
 exl-id: 9b470e7b-4b73-4100-9a9d-1a45a5ac628b
 feature: CMS
 role: Admin
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%

@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-52095 para corrigir o problema do Adobe Commer
 feature: Inventory, Products
 role: Admin, Developer
 exl-id: 9e599931-e9b1-4216-b78d-3993d9c3132d
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%

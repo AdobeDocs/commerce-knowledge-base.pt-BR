@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-58442 para corrigir o problema do Adobe Commer
 feature: Storefront
 role: Admin, Developer
 exl-id: 05d812b9-c5f5-4397-9755-bed2424e70b3
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: a84c3d296deb49d419be78f454696177a974d923
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%

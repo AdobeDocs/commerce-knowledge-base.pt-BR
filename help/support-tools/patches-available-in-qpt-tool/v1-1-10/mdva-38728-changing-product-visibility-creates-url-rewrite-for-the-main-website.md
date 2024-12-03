@@ -4,7 +4,7 @@ description: O patch MDVA-38728 resolve o problema em que a alteração da visib
 exl-id: ad1d5f82-294d-485d-acd3-28c3cd0fbf56
 feature: Products
 role: Admin
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 0%

@@ -4,7 +4,7 @@ description: O patch MDVA-40545 resolve o problema em que apenas o primeiro nó 
 exl-id: ac7aaed9-5e81-45fe-b699-40d9c086a05c
 feature: CMS, Cache
 role: Admin
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 0%

@@ -4,7 +4,7 @@ description: '**Problema:** Você deseja fornecer acesso compartilhado ao colega
 exl-id: 9e03c031-2359-42a6-9de4-943451a16456
 feature: Cache
 role: Developer
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 6529a7d2c080a410617af8c51893c79c65c0bb81
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 0%

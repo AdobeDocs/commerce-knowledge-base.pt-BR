@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-60303 para corrigir o problema do Adobe Commer
 feature: Orders
 role: Admin, Developer
 exl-id: 06f7fc4f-8cdc-47c6-a706-52b8e70d66e0
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: a84c3d296deb49d419be78f454696177a974d923
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%

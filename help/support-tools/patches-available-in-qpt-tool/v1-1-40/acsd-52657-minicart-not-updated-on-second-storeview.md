@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-52657 para corrigir o problema do Adobe Commer
 feature: Shopping Cart
 role: Admin, Developer
 exl-id: d0877a15-800e-4e10-9ace-ebb7f26dbd18
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: f12e25ac5dd607cc614dd99c90c5e104b2cee6a8
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%

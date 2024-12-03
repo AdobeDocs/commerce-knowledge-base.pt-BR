@@ -4,7 +4,7 @@ description: O patch ACSD-45143 corrige o problema em que a mutação setShippin
 exl-id: 5867ea97-7d54-486e-b5d0-bfb87f24fb80
 feature: Orders, Shipping/Delivery, Shopping Cart
 role: Admin
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 0%

@@ -4,7 +4,7 @@ description: O patch MDVA-43935 corrige o problema em que o produto de venda adi
 exl-id: 4ca531b8-12c1-4fa1-b036-5531d11b0f1d
 feature: Products
 role: Admin
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%

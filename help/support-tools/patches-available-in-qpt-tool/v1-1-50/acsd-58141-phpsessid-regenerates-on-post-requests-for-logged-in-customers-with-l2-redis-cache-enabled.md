@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-58141 para corrigir o problema do Adobe Commer
 feature: Customers, Cache
 role: Admin, Developer
 exl-id: 72ae2ed4-bbac-472b-b257-3234f86000f4
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: a84c3d296deb49d419be78f454696177a974d923
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%

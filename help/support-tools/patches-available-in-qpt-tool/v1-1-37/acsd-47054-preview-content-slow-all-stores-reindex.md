@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-47054 para corrigir o problema do Adobe Commer
 feature: Page Content
 role: Admin, Developer
 exl-id: 4dc61f78-7038-48ab-a2d3-9b05cf0c9b5c
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%

@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-54040 para corrigir o problema do Adobe Commer
 feature: B2B
 role: Admin, Developer
 exl-id: 5c420b94-43e1-40ac-9482-8a2d42f173d9
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: c903360ffb22f9cd4648f6fdb4a812cb61cd90c5
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 0%

@@ -2,7 +2,7 @@
 title: Acesse o Guia de suporte ao cliente da Adobe Commerce
 description: 'O Guia de suporte ao cliente da Adobe Commerce explica as ofertas de suporte ao cliente e como utilizá-las. Isso inclui práticas recomendadas para o relacionamento de suporte, coleta de informações necessárias para diagnóstico, prioridade de suporte ao cliente, envio de uma solicitação de suporte e links para recursos. Este guia pode ser acessado na seção de downloads na página da sua conta Magento. Para acessar:'
 exl-id: 4acd471d-7d94-49a6-ac2d-80661d77a569
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: c1c2bd29e14f4cbfffb235801e95ec7cbb7c7a55
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%

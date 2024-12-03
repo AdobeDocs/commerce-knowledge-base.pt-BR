@@ -4,7 +4,7 @@ description: Aplique a correção ACSD-56023 para corrigir o problema do Adobe C
 feature: CMS
 role: Admin, Developer
 exl-id: 2ff33b1c-ae92-4c59-83d2-e252bf543bab
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: a28257f55abf21cddec9b415e7e8858df33647be
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%

@@ -4,7 +4,7 @@ description: O patch MDVA-39305 corrige o problema em que os clientes registrado
 exl-id: 1e8e7dc7-f8f1-4432-90f4-dc73d85f353a
 feature: Console
 role: Admin
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 0%

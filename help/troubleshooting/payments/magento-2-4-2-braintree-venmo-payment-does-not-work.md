@@ -4,7 +4,7 @@ description: Este artigo descreve um problema conhecido do Adobe Commerce 2.4.2 
 exl-id: 1832ab64-5024-444b-915e-473b34979a6e
 feature: Orders, Payments
 role: Developer
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 0%

@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-54680 para corrigir o problema do Adobe Commer
 feature: B2B
 role: Admin, Developer
 exl-id: 4d05714c-d32d-46f3-b857-81704c9e96cd
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: f12e25ac5dd607cc614dd99c90c5e104b2cee6a8
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 0%

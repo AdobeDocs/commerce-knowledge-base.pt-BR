@@ -4,7 +4,7 @@ description: O patch MDVA-44562 corrige o problema em que a ID de armazenamento 
 exl-id: 902bfc05-411d-4a6c-a6e8-cd7376629b0c
 feature: Quotes
 role: Admin
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%

@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-59378 para corrigir o problema do Adobe Commer
 feature: Data Import/Export
 role: Admin, Developer
 exl-id: 4ba567e3-323d-4068-90cc-50aacd45d397
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 06f751e43ef825c0eb29cb9b42eb41f07c308625
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%

@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-52714 para corrigir o problema do Adobe Commer
 feature: Attributes
 role: Admin, Developer
 exl-id: b292ab2c-e12d-40df-a9ad-19f25fbde5a0
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 513cb47c054dbb907810bbdc3d20d2aca9d5e42b
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%

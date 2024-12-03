@@ -4,7 +4,7 @@ description: O patch MDVA-43167 corrige o problema em que a ação em massa da g
 exl-id: 58a126db-8a4f-4e20-8fe5-3ce2e25edf7e
 feature: Admin Workspace, Orders
 role: Admin
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%

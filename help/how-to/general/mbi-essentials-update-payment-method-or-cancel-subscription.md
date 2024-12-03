@@ -3,7 +3,7 @@ title: 'Adobe Commerce Intelligence Essentials: atualizar a forma de pagamento o
 description: Este artigo explica como os clientes do Adobe Commerce Intelligence Essentials podem cancelar mensalmente suas assinaturas ou atualizar o método de pagamento para suas assinaturas existentes.
 exl-id: 45e95451-6d17-44c7-81d3-87f5876b5758
 feature: Commerce Intelligence
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%

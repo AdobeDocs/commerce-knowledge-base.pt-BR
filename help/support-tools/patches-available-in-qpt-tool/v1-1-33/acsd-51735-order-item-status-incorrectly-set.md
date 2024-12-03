@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-51735 para corrigir o problema do Adobe Commer
 feature: Orders, Products
 role: Admin
 exl-id: c6376698-71dc-46b8-a5b2-86dc26a574ab
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%

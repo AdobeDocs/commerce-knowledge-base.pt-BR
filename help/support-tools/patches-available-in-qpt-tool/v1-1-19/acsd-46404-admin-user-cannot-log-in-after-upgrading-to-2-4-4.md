@@ -4,7 +4,7 @@ description: O patch ACSD-46404 resolve o problema em que um usuário administra
 exl-id: 0aebc879-1128-4be2-a6a8-90d5812c7602
 feature: Admin Workspace
 role: Admin
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 0%

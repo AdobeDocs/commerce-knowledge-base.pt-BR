@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-52906 para corrigir o problema do Adobe Commer
 feature: Cache
 role: Admin, Developer
 exl-id: 863e0808-9208-467d-8d56-9dd7a7f4354d
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%

@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-54626 para corrigir o problema do Adobe Commer
 feature: Attributes, B2B, GraphQL, Purchase Orders
 role: Admin, Developer
 exl-id: 807f06e3-6708-4860-bf46-df4404124f27
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 35cd21581ee34a6213be42a79e159439b8856fb6
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 0%

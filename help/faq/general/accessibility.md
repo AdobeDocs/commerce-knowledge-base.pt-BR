@@ -3,7 +3,7 @@ title: Acessibilidade de conteúdo da Web para o Adobe Commerce
 description: 'Entendemos a importância da acessibilidade no Adobe. Embora a responsabilidade pela acessibilidade seja do parceiro/comerciante, continuamos a melhorar nossa acessibilidade em cada versão que também será incluída em nossos planos de melhoria de acessibilidade para 2022.  '
 exl-id: f3b4025e-37ef-44fc-9a18-b0d159994062
 feature: Compliance
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 0%

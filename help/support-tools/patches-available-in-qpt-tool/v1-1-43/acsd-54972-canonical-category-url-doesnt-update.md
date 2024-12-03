@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-54972 para corrigir o problema do Adobe Commer
 feature: Catalog Management, Products, Categories
 role: Admin, Developer
 exl-id: 2d78f5f6-d485-45a4-a40d-9a0ddd124f82
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: c903360ffb22f9cd4648f6fdb4a812cb61cd90c5
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 0%

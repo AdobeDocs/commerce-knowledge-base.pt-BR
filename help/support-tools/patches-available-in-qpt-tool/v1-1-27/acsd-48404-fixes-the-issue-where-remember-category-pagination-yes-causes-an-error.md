@@ -4,7 +4,7 @@ description: Aplique o patch ACSD-48404 para corrigir o problema do Adobe Commer
 exl-id: b4b96198-dee6-4b3c-b60a-0983ef8ef7b2
 feature: Categories
 role: Admin
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 0%

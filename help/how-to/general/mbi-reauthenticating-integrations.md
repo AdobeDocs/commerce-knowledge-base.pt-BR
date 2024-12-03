@@ -3,7 +3,7 @@ title: 'MBI: Reautenticação de integrações'
 description: Este artigo fornece soluções para reautorizar uma integração a fim de conceder ao Magento Business Intelligence (MBI) os privilégios necessários para obter dados de um serviço de terceiros. A reautorização é necessária quando esses privilégios são revogados.
 exl-id: c608d6f9-64a5-44f8-9d7b-9a85a2668775
 feature: Commerce Intelligence, Integration
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
