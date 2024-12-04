@@ -1,19 +1,19 @@
 ---
 title: O arquivo .csv de produtos exportados não é exibido
-description: Este artigo fornece uma correção para o problema em que você tenta exportar produtos para um arquivo .csv no Administrador do Commerce, mas o arquivo não é exibido.
+description: Este artigo fornece uma correção para o problema em que você tenta exportar o tipo de entidade desejado para um arquivo .csv no Admin do Commerce, mas o arquivo não é exibido.
 exl-id: 8e3bb65c-ea75-4af4-ad4b-4d94ab219bbb
 feature: Cache, Data Import/Export, Products, Variables
 role: Developer
-source-git-commit: d55702ab97f3770d0ec71322f6c24448f0169ad4
+source-git-commit: b6f1222918b027eaecda42b767e6f83b2cf0f5d0
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '590'
 ht-degree: 0%
 
 ---
 
 # O arquivo .csv de produtos exportados não é exibido
 
-Este artigo fornece uma correção para o problema em que você tenta exportar produtos para um arquivo .csv no Administrador do Commerce, mas o arquivo não é exibido.
+Este artigo fornece uma solução para o problema em que a exportação do tipo de entidade desejado para um arquivo .csv no Commerce Admin faz com que o arquivo não apareça.
 
 ## Produtos e versões afetados
 
@@ -30,7 +30,7 @@ Pré-requisitos: a opção **Adicionar Chave Secreta às URLs** está definida c
    ![magento_export_products_2.3.4.png](assets/magento_export_products_2.3.4.png)
 
 1. Selecionar
-   * **Tipo de entidade**: *Produtos*
+   * **Tipo de entidade**: a entidade que você deseja exportar
    * **Formato de Arquivo de Exportação**: *CSV*
    * **Compartimento de Campo**: deixe desmarcado.
 1. Clique em **Continuar**.
@@ -38,11 +38,11 @@ Pré-requisitos: a opção **Adicionar Chave Secreta às URLs** está definida c
 
 <u>Resultado esperado</u>
 
-O arquivo .csv com os produtos exportados é exibido na grade em alguns minutos.
+O arquivo .csv que contém o tipo de entidade desejado exportado é exibido na grade em alguns minutos.
 
 <u>Resultado real</u>
 
-O arquivo .csv com os produtos exportados não é exibido na grade em 10 minutos ou mais.
+O arquivo .csv que contém o tipo de entidade desejado exportado não é exibido na grade em 10 minutos ou mais.
 
 ## Causa
 
