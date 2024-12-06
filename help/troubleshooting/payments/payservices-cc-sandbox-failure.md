@@ -4,7 +4,7 @@ description: Este artigo explica por que um cartão de crédito de teste falha e
 exl-id: 65fd08e0-eefc-47f3-8964-bef3610e6182
 feature: Orders, Payments
 role: Developer
-source-git-commit: 35d4f2130d0ec71f71f5f20aa8a7c76207e7a35a
+source-git-commit: 16fc1b45e7df32ef05dac6a245d6604bbbbef13a
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
@@ -36,6 +36,6 @@ Esse erro é exibido quando o PayPal sinaliza um número de cartão de crédito 
 
 Use outro cartão de crédito de teste. Para gerar cartões de crédito fictícios, você pode usar para testes:
 
-1. Vá para a página do Portal do Desenvolvedor do PayPal [Gerador de Cartão de Crédito](https://developer.paypal.com/developer/creditCardGenerator/).
+1. Vá para a página do Portal do Desenvolvedor do PayPal [Gerador de Cartão de Crédito](https://developer.paypal.com/api/rest/sandbox/card-testing/#link-creditcardgenerator).
 1. Faça logon no Painel do Portal do Desenvolvedor do PayPal.
 1. Gerar um cartão de crédito de teste.
