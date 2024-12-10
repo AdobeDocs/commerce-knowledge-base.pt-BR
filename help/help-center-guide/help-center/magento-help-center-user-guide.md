@@ -3,9 +3,9 @@ title: Guia do usuário de suporte Experience League para Adobe Commerce
 description: Saiba como enviar um tíquete de suporte para o Suporte Experience League, fornecer acesso compartilhado a contas e navegar na Base de conhecimento Adobe Commerce.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 7fbedaaf0d4edccc688be24951a7d30a9e774be8
+source-git-commit: 9abd435c2b360ca667b7c5a4431fdbf4b3c86831
 workflow-type: tm+mt
-source-wordcount: '2782'
+source-wordcount: '2934'
 ht-degree: 0%
 
 ---
@@ -83,6 +83,18 @@ Para fazer logon no Suporte da Adobe Experience League, siga estas etapas:
 ### Enviar um caso de suporte {#support-case}
 
 Depois de fazer logon como proprietário da conta ou usuário de Acesso compartilhado, você pode enviar um caso de suporte usando a página inicial do Adobe Experience League, a página da conta do Adobe Commerce e a página da conta do Adobe Commerce Cloud.
+
+>[!NOTE]
+>
+>As solicitações de suporte para a equipe do Adobe Commerce Marketplace não podem ser enviadas por meio do Experience League, pois o sistema de suporte opera em uma plataforma separada que não está integrada ao Experience League.
+>
+>Você poderá enviar seu caso de suporte se as seguintes declarações forem verdadeiras:
+>
+>* A organização em questão é nomeada na coluna à esquerda e termina em ([!DNL Commerce]). Seu problema está relacionado a essa organização ou a uma conta associada a ela.
+>* Seu problema é que você não pode fazer logon na conta do Marketplace ou que tem uma dúvida sobre a implantação de uma extensão.
+>* Seu problema não é apenas solicitar um reembolso para sua(s) compra(s) no Marketplace.
+>
+>Para problemas relacionados à publicação de sua extensão, problemas ao comprar ou solicitar um reembolso no [Adobe Commerce Marketplace](https://commercemarketplace.adobe.com/), entre em contato diretamente com a equipe do [!DNL Commerce Marketplace] acessando https://commercemarketplace.adobe.com/. Navegue até a parte inferior da página e clique em **[!UICONTROL Contact Us]**, que abrirá um formulário para enviar um tíquete de suporte do Marketplace.
 
 #### Página inicial do Adobe Experience League {#experience-league-start-page}
 
