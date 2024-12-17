@@ -4,9 +4,9 @@ description: Implantações travadas e com falha no Adobe Commerce podem ser res
 exl-id: 5141e079-be61-44c2-8bff-c4b13cb7e07c
 feature: Build, Deploy, Support
 role: Developer
-source-git-commit: 6177863da268f43cc30119cef6f718a04c46b3e6
+source-git-commit: 7f4f24c596eac96dc8fef40589a827eb9aa0c468
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ b. NÃO - manutenção ou paralisações globais. Verifique a duração estimada
 
 +++**Existem implantações em outros ambientes que estão bloqueando a implantação no ambiente existente?**
 
-Para obter uma lista de atividades em andamento, execute o seguinte comando usando a Magento-Cloud CLI (se você tiver sido adicionado apenas a um projeto de nuvem):
+Para obter uma lista de atividades em andamento, execute o comando a seguir usando a Magento-Cloud CLI (se você tiver sido adicionado apenas a um projeto de nuvem). **Observação**: verifique se você está usando a versão mais recente da CLI do Magento Cloud. Para obter as etapas, consulte [Atualizar a CLI](/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview#update-the-cli) no guia do Commerce na Infraestrutura em Nuvem.
 
 ```bash
 magento-cloud --state=in_progress
@@ -199,7 +199,7 @@ b. NÃO - Continue na [Etapa 18](#step-18).
 
 ## Etapa 18 - Verificar falha do gancho de postagem {#step-18}
 
-+++**Falha/travamento do gancho do Post?**
++++**Falha/travamento do gancho de postagem?**
 
 a. SIM - Banco de Dados: [Espaço livre em disco](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#allocate-disk-space), corrompido, tabelas incompletas/corrompidas.\
 b. NÃO - Continue na [Etapa 19](#step-19).
