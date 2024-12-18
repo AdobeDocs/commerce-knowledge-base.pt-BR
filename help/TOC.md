@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 80b0dc119058ec7533124919d5917cdd219552fe
+source-git-commit: ace01511b6a3f3b406b25d563d892351a5f6cf7d
 workflow-type: tm+mt
-source-wordcount: '9469'
+source-wordcount: '9409'
 ht-degree: 0%
 
 ---
@@ -24,12 +24,12 @@ ht-degree: 0%
       * [Alertas gerenciados para Adobe Commerce: alerta crítico de disco](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-critical-alert.md)
       * [Alertas gerenciados no Adobe Commerce: alerta de aviso de memória Redis](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-redis-memory-warning-alert.md)
       * [Alertas gerenciados para Adobe Commerce: alerta de aviso de memória](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-memory-warning-alert.md)
-      * [Alertas gerenciados no Adobe Commerce: alerta crítico de CPU](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-cpu-critical-alert.md)
+      * [Alertas gerenciados no Adobe Commerce: alerta crítico do CPU](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-cpu-critical-alert.md)
       * [Alertas gerenciados no Adobe Commerce: alerta crítico de memória](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-memory-critical-alert.md)
       * [Alertas gerenciados para Adobe Commerce: alerta crítico Apdex](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-critical-alert.md)
       * [Alertas gerenciados no Adobe Commerce: alertas do MariaDB](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-mariadb-alerts.md)
       * [Alertas gerenciados para Adobe Commerce: alerta de aviso Apdex](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-warning-alert.md)
-      * [Alertas gerenciados para Adobe Commerce: alerta de aviso da CPU](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-cpu-warning-alert.md)
+      * [Alertas gerenciados para Adobe Commerce: alerta de aviso do CPU](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-cpu-warning-alert.md)
    * Patches disponíveis na ferramenta QPT {#patches}
       * [Patches disponíveis na visão geral da ferramenta QPT](/help/support-tools/patches-available-in-qpt-tool/patches-available-in-qpt-tool-overview.md)
       * v1.1.0 {#v1-1-0}
@@ -947,15 +947,9 @@ ht-degree: 0%
       * [A pesquisa avançada não mostra os resultados mais relevantes](/help/troubleshooting/known-issues-patches-attached/advanced-search-not-showing-the-most-relevant-results.md)
       * [Erro ao filtrar pedidos no Administrador](/help/troubleshooting/known-issues-patches-attached/error-when-filtering-orders-in-admin.md)
       * [Os usuários não podem adicionar o produto ao carrinho se nada estiver selecionado em Permitir países](/help/troubleshooting/known-issues-patches-attached/user-not-able-to-add-product-to-cart-if-allow-countries-is-not-selected.md)
-      * [Pedidos não exibidos na grade Pedidos no Administrador](/help/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.md)
-      * [Não é possível validar o número de IVA - Adobe Commerce na infraestrutura em nuvem](/help/troubleshooting/known-issues-patches-attached/unable-to-validate-vat-number-magento-commerce-cloud.md)
-      * [As páginas de check-out não são carregadas quando o bloqueador de anúncios está ativado](/help/troubleshooting/known-issues-patches-attached/checkout-pages-not-loading-when-ad-blocker-is-enabled.md)
       * [Localização do URL de administração do Adobe Commerce divulgada](/help/troubleshooting/known-issues-patches-attached/magento-admin-url-location-disclosed.md)
-      * [Vários trabalhos cron agendados para o mesmo período de tempo](/help/troubleshooting/known-issues-patches-attached/multiple-cron-jobs-scheduled-for-the-same-time-period.md)
-      * [Amostras de produto configuráveis não exibidas riscadas quando fora de estoque](/help/troubleshooting/known-issues-patches-attached/configurable-product-swatches-not-displayed-as-crossed-out-when-out-of-stock.md)
       * [O administrador não pode criar pedido/reordenação quando o pagamento Braintree está ativado](/help/troubleshooting/known-issues-patches-attached/admin-cant-create-order-reorder-when-braintree-payment-enabled.md)
       * [Pacotes rebaixados após a atualização de 2.4.4 para 2.4.4-p1](/help/troubleshooting/known-issues-patches-attached/packages-downgraded-after-upgrading-from-2-4-4-to-2-4-4-p1.md)
-      * [O Adobe Commerce 2.3.6, 2.4.1 CAPTCHA no check-out não está funcionando](/help/troubleshooting/known-issues-patches-attached/magento-commerce-2-3-6-2-4-1-captcha-in-checkout-not-working.md)
       * [Email do pedido enviado do endereço de email do servidor](/help/troubleshooting/known-issues-patches-attached/order-email-sent-from-the-server-email-address.md)
       * [Ordem de inserção de erros do Adobe Commerce 2.4.6 no painel Admin](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-6-error-placing-order-from-admin-panel.md)
       * [[!UICONTROL salesRule] problemas de rótulo ao atualizar de versões &lt; 2.4.5](/help/troubleshooting/known-issues-patches-attached/salesrule-label-issues-when-upgrade-from-versions-under-2-4-5.md)
@@ -992,7 +986,7 @@ ht-degree: 0%
    * [Como adicionar um novo país ao Adobe Commerce](/help/how-to/general/how-to-add-a-new-country-to-magento-2.md)
    * [Personalizar a configuração de design no Administrador do Commerce](/help/how-to/general/customize-design-configuration-in-magento-admin.md)
    * [Aumentar o espaço em disco para o ambiente de integração na nuvem](/help/how-to/general/increase-disk-space-for-integration-environment-on-cloud.md)
-   * [Adobe Commerce na infraestrutura em nuvem: cálculo de alocação de CPU](/help/how-to/general/magento-commerce-cloud-cpu-allocation-calculation.md)
+   * [Adobe Commerce na infraestrutura em nuvem: cálculo de alocação do CPU](/help/how-to/general/magento-commerce-cloud-cpu-allocation-calculation.md)
    * [Atualizar preços do Catálogo compartilhado usando a API REST](/help/how-to/general/update-shared-catalog-prices-using-rest-api.md)
    * [Localizar tabelas MySQL grandes](/help/how-to/general/find-large-mysql-tables.md)
    * [Sincronizar dados e arquivos da produção para preparo ou preparo para integração](/help/how-to/general/sync-data-and-files-from-production-to-staging-or-staging-to-integration.md)
@@ -1026,7 +1020,7 @@ ht-degree: 0%
    * [Alterar a senha do administrador no Adobe Commerce na infraestrutura em nuvem](/help/how-to/general/change-magento-admin-password-on-cloud.md)
    * [Como solicitar o Adobe Commerce temporário no upsize da infraestrutura em nuvem](/help/how-to/general/how-to-request-temporary-magento-upsize.md)
    * [Exibir a camada de vCPU do ambiente em seu cluster no Adobe Commerce](/help/how-to/general/check-vcpu-using-observation-for-adobe-commerce.md)
-   * [Adobe Commerce na infraestrutura em nuvem: verificar a configuração da CPU do host](/help/how-to/general/magento-commerce-cloud-check-hosts-cpu-configuration.md)
+   * [Adobe Commerce na infraestrutura em nuvem: verifique a configuração do CPU do host](/help/how-to/general/magento-commerce-cloud-check-hosts-cpu-configuration.md)
    * [Altere o proprietário da conta (credenciais de acesso por meio de tokens de API) para o Fastly na Cloud](/help/how-to/general/change-account-owner-access-credentials-via-api-tokens-for-fastly-on-cloud.md)
    * [Adobe Commerce na nuvem: altere as chaves de autenticação e reimplante](/help/how-to/general/redeploy-with-another-key.md)
    * [Como criar um despejo &quot;limpo&quot; quando solicitado pelo agente de suporte](/help/how-to/general/create-dump-for-support.md)
