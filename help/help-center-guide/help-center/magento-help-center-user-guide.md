@@ -3,9 +3,9 @@ title: Guia do usuário de suporte Experience League para Adobe Commerce
 description: Saiba como enviar um tíquete de suporte para o Suporte Experience League, fornecer acesso compartilhado a contas e navegar na Base de conhecimento Adobe Commerce.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 9abd435c2b360ca667b7c5a4431fdbf4b3c86831
+source-git-commit: 16511a9bcc0e229297916f5c48ee8b606e10edbe
 workflow-type: tm+mt
-source-wordcount: '2934'
+source-wordcount: '2935'
 ht-degree: 0%
 
 ---
@@ -339,13 +339,15 @@ Depois de fornecer acesso compartilhado a um novo usuário, as informações rel
 
 <u>Causa</u>
 
-Se você tiver/tiver tido um projeto do Adobe Commerce Cloud e tiver adicionado um usuário ao projeto, ele receberá automaticamente o Acesso compartilhado na ID de MAGE do proprietário do projeto. Isso normalmente seria indicado na coluna **[!UICONTROL Share Name]**, mostrando o *Acesso Compartilhado na Nuvem de MAG[XYZ]*.
+Se você tiver/tiver tido um projeto do Adobe Commerce Cloud e tiver adicionado um usuário ao projeto, ele poderá ter recebido automaticamente o Acesso Compartilhado na ID de MAGE do Proprietário do projeto. Isso normalmente seria indicado na coluna **[!UICONTROL Share Name]**, mostrando o *Acesso Compartilhado na Nuvem de MAG[XYZ]*.
 
-Se o link DELETE estiver ausente, significa que o Acesso Compartilhado foi concedido automaticamente por meio do Commerce Cloud.
+>[!NOTE]
+>
+>Se o link DELETE estiver ausente, significa que o Acesso Compartilhado foi concedido automaticamente por meio do Commerce Cloud.
 
 <u>Solução</u>
 
-Não é possível excluir a lista de usuários de Acesso Compartilhado com o Nome de Compartilhamento do *Acesso Compartilhado na Nuvem da MAG[XYZ]* se o Acesso Compartilhado não tiver sido adicionado/fornecido nesta página. Elas são mantidas para fins informativos/de auditoria.
+Não é possível excluir a lista de usuários de Acesso Compartilhado com o Nome de Compartilhamento do *Acesso Compartilhado na Nuvem da MAG[XYZ]* se o Acesso Compartilhado não tiver sido adicionado/fornecido [nesta página](https://account.magento.com/grantor/manage/). Elas são mantidas para fins informativos/de auditoria.
 
 No entanto, após revogar as permissões desses usuários do Acesso compartilhado, eles não terão mais esse acesso.
 
