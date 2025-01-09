@@ -4,7 +4,7 @@ description: Este artigo fornece uma correção para um desempenho insatisfatór
 exl-id: 4f20a862-cf54-4196-8a88-101f0c80f8f1
 feature: Best Practices
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 72ee49a8667f575a58e0cf1b3d5c9df936cc628b
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 0%
@@ -59,3 +59,4 @@ Execute a reindexação somente quando necessário. Para ver as etapas, consulte
 
 * [Visão geral da indexação: como reindexar](https://developer.adobe.com/commerce/php/development/components/indexing/#how-to-reindex) em nossa documentação do desenvolvedor.
 * [O cache invalidado causa degradação do tempo de resposta](/help/troubleshooting/miscellaneous/invalidated-cache-causes-response-time-degradation.md) em nossa base de dados de conhecimento de suporte.
+
