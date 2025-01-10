@@ -4,7 +4,7 @@ description: Implantações travadas e com falha no Adobe Commerce podem ser res
 exl-id: 5141e079-be61-44c2-8bff-c4b13cb7e07c
 feature: Build, Deploy, Support
 role: Developer
-source-git-commit: 7f4f24c596eac96dc8fef40589a827eb9aa0c468
+source-git-commit: aedf869e96ce6bcbf538805dd6d14d31db8c2e02
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 0%
@@ -30,7 +30,7 @@ b. NÃO - manutenção ou paralisações globais. Verifique a duração estimada
 
 +++**Existem implantações em outros ambientes que estão bloqueando a implantação no ambiente existente?**
 
-Para obter uma lista de atividades em andamento, execute o comando a seguir usando a Magento-Cloud CLI (se você tiver sido adicionado apenas a um projeto de nuvem). **Observação**: verifique se você está usando a versão mais recente da CLI do Magento Cloud. Para obter as etapas, consulte [Atualizar a CLI](/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview#update-the-cli) no guia do Commerce na Infraestrutura em Nuvem.
+Para obter uma lista de atividades em andamento, execute o comando a seguir usando a Magento-Cloud CLI (se você tiver sido adicionado apenas a um projeto de nuvem). **Observação**: verifique se você está usando a versão mais recente da CLI do Magento Cloud. Para obter as etapas, consulte [Atualizar a CLI](/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview) no guia do Commerce na Infraestrutura em Nuvem.
 
 ```bash
 magento-cloud --state=in_progress

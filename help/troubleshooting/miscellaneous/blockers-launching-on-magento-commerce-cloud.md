@@ -4,7 +4,7 @@ description: Este artigo fornece uma correção para bloqueadores a serem inicia
 exl-id: 3b2c331f-5d90-4051-ada1-4934538fce79
 feature: Cache, Cloud, Marketing Tools, Observability, Paas
 role: Developer
-source-git-commit: d728d44c4e1be3172ebf595122f3cc215207ac17
+source-git-commit: df966df6a85057b26d53a870d038269ebdcc2b32
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 0%
@@ -78,7 +78,7 @@ Problema: os ativos estáticos são fornecidos lentamente para que o site tenha 
 
 Recomendação: para identificar as possíveis causas de desempenho insatisfatório, considere usar o [Adobe Commerce Performance Toolkit](https://github.com/magento/magento2/tree/2.3/setup/performance-toolkit) para testes de desempenho. Você também pode considerar estas ferramentas de terceiros:
 
-* [Cerco](https://www.joedog.org/siege-home/): utilitário de teste de carga e benchmarking HTTP; oferece suporte à autenticação básica, cookies, protocolos HTTP, HTTPS e FTP.
+* [Cerco](https://www.joedog.org/siege-home): utilitário de teste de carga e benchmarking HTTP; oferece suporte à autenticação básica, cookies, protocolos HTTP, HTTPS e FTP.
 * [Jmeter](https://jmeter.apache.org/): uma ferramenta respeitável de teste de carga e medição de desempenho. Ajuda a medir o desempenho de tráfego pico, por exemplo, para vendas de flash.
 * [New Relic](https://support.newrelic.com/): localiza processos e áreas do site que causam desempenho lento com o tempo rastreado gasto por ação, como dados de transmissão, consultas, Redis etc.
 * [WebPageTest](https://www.webpagetest.org/) (gratuito) e [PKingdom](https://www.pingdom.com/) (pago): a análise em tempo real do tempo de carregamento das páginas do site com locais de origem diferentes.
