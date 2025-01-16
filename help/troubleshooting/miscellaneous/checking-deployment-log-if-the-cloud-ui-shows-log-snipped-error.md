@@ -4,9 +4,9 @@ description: Este artigo fornece uma solução para o problema em que a interfac
 exl-id: 04d28741-72c1-4722-be46-425fe136b9a6
 feature: Cloud, Deploy, Logs, Paas
 role: Developer
-source-git-commit: 71bec5b99063d771982f6dcab111b9e5a4aaec69
+source-git-commit: 846df05668b357b9088bcaf605a75c45ab10f1ae
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -35,13 +35,17 @@ Observe que o log mostrado na interface do usuário não deve ser tratado como a
 ## Solução
 
 1. Verifique se você tem a [CLI do Magento Cloud](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html) instalada em seu ambiente local.
-1. Execute o seguinte comando:
+1. Você pode executar um dos comandos a seguir:
 
    ```bash
-   magento-cloud activity -p <project id> -e <environment>
+   magento-cloud act -p <project id> -e <environment>
    ```
 
-1. Ele retornará uma saída semelhante à seguinte:
+   ```bash
+   magento-cloud activity:list -p <project id> -e <environment>
+   ```
+
+1. Eles retornarão uma saída semelhante à seguinte:
 
    ```bash
    Activities on the project <project name> (project id), environment <environment>:
