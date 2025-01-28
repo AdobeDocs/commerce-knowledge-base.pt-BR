@@ -4,7 +4,7 @@ description: Problemas avançados de relatórios no Adobe Commerce podem ser res
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: 3b402728be7a80b62f21319d2cf91a92f1ad4a0c
+source-git-commit: aed14781c6a7b43d0a719ac89c2965d5044d8c22
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 0%
@@ -138,7 +138,7 @@ b. NÃO - Continue na [Etapa 10](#step-10).
 
 +++**Há uma mensagem de erro emitida pelo trabalho cron?**
 
-Exemplo: na tabela `core_config_data`, você vê o erro *O arquivo &quot;/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a0000850c0 não pode ser excluído*. Aviso!unlink(/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a0000850c0?lang=en): Arquivo ou diretório inexistente*
+Exemplo: na tabela `cron_schedule`, você vê o erro *O arquivo &quot;/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a0000850c0 não pode ser excluído*. Aviso!unlink(/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a0000850c0?lang=en): Arquivo ou diretório inexistente*
 
 a. SIM - Use o patch ACSD-50165 em [O arquivo não pode ser excluído. Aviso!unlink: erro de arquivo ou diretório inexistente no Admin](/help/troubleshooting/miscellaneous/file-cannot-be-deleated-no-file-or-directory.md), aguarde 24 horas para que o trabalho seja executado novamente e tente novamente.\
 b. NÃO - Continue na [Etapa 11](#step-11).
