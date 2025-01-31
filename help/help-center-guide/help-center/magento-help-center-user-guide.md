@@ -3,9 +3,9 @@ title: Guia do usuário de suporte Experience League para Adobe Commerce
 description: Saiba como enviar um tíquete de suporte para o Suporte Experience League, fornecer acesso compartilhado a contas e navegar na Base de conhecimento Adobe Commerce.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 6321dfa57f694a53f4b9b1c1e93182d60fa63c7b
+source-git-commit: c287b45c3cea99f6d536d6ed4d90a5e19d9fa71c
 workflow-type: tm+mt
-source-wordcount: '2939'
+source-wordcount: '2963'
 ht-degree: 0%
 
 ---
@@ -309,6 +309,10 @@ Os usuários que receberam acesso compartilhado não podem transferir ou concede
 ### Fornecer acesso compartilhado {#provide-shared-access}
 
 Consulte a seção [Compartilhar uma conta do Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share) do Guia de Introdução do Adobe Commerce para obter as etapas detalhadas sobre como configurar uma conta compartilhada.
+
+>[!NOTE]
+>
+>O usuário deve ter uma conta existente para que possa receber o Acesso Compartilhado. Consulte [Criar uma conta do Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account) para obter mais detalhes.
 
 Depois de fornecer acesso compartilhado a um novo usuário, as informações relacionadas ficam disponíveis em **Acesso Compartilhado** > **Gerenciar Permissões** da página da sua conta do Adobe Commerce.
 
