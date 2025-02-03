@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: c46d29aa11b9cbbcccbf1765b4ae972e14ac80ac
+source-git-commit: b14ce46b2e68b76f349c3d2791897c7519088f24
 workflow-type: tm+mt
-source-wordcount: '9397'
+source-wordcount: '9387'
 ht-degree: 0%
 
 ---
@@ -892,7 +892,6 @@ ht-degree: 0%
       * [O sistema Magento Order Management (OMS) para Adobe Commerce atinge o tempo limite](/help/troubleshooting/miscellaneous/mom-times-out-when-trying-to-connect-to-a-local-environment.md)
       * [A entrega direta coleta o endereço errado](/help/troubleshooting/miscellaneous/drop-shipping-picks-up-wrong-address.md)
       * [Erro ao limpar o cache no Commerce Admin](/help/troubleshooting/miscellaneous/error-purging-cache-in-admin.md)
-      * [Emails não enviados quando os créditos SendGrid são excedidos no Adobe Commerce](/help/troubleshooting/miscellaneous/emails-not-being-sent-sendgrid-credits-exceeded.md)
       * [Adobe Commerce 2.4.1: página vazia quando o formulário dotdigital Page Builder é salvo](/help/troubleshooting/miscellaneous/magento-2-4-1-empty-page-when-dotdigital-page-builder-form-saved.md)
       * [Nuvem do Adobe Commerce: a reindexação é encerrada com a mensagem eliminada](/help/troubleshooting/miscellaneous/adobe-commerce-reindex-terminated.md)
       * [Atualize para o esquema DHL versão 10.0 para continuar oferecendo o envio para a DHL](/help/troubleshooting/miscellaneous/upgrade-to-v10-dhl-schema-to-continue-using-dhl-as-a-carrier.md)
