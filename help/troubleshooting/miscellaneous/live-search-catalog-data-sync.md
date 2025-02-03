@@ -4,9 +4,9 @@ description: Este artigo fornece soluções para o problema do Adobe Commerce em
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
 feature: Catalog Management, Search
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 96e5bfc677949fb5f925040b95f951ca518fa71a
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,9 @@ Este artigo fornece soluções para o problema do Adobe Commerce em que os dados
 
 ## Problema
 
-Os dados do catálogo não estão sincronizados corretamente ou um novo produto foi adicionado, mas não aparece nos resultados da pesquisa.
+Os dados do catálogo não estão sincronizados corretamente ou um novo produto foi adicionado, mas não aparece nos resultados da pesquisa. Você também pode receber o seguinte erro no `var/log/exception.log`:
+
+`Magento_LiveSearch: An error occurred in search backend. {"result":{"errors":[{"message":"Exception while fetching data (/productSearch) : No index was found for this request"}]}}`
 
 >[!NOTE]
 >
@@ -134,6 +136,22 @@ Se você vir os dados corretos em `cde_product_attributes_feed`:
 bin/magento saas:resync --feed products
 bin/magento saas:resync --feed productattributes
 ```
+
+Execute os seguintes comandos para ressincronizar os feeds:
+
+```
+bin/magento saas:resync --feed productattributes --cleaup-feed
+bin/magento saas:resync --feed products --cleanup-feed
+bin/magento saas:resync --feed scopesCustomerGroup --cleanup-feed
+bin/magento saas:resync --feed scopesWebsite --cleanup-feed
+bin/magento saas:resync --feed prices --cleanup-feed
+bin/magento saas:resync --feed productOverrides --cleanup-feed
+bin/magento saas:resync --feed variants --cleanup-feed
+bin/magento saas:resync --feed categories --cleanup-feed
+bin/magento saas:resync --feed categoryPermissions --cleanup-feed
+```
+
+[Enviar uma solicitação de suporte](https://experienceleague.adobe.com/home?support-tab=home#support) para solicitar a reindexação do índice do Live Search. Na descrição do problema, inclua o espaço de dados/ID do ambiente encontrado no painel de administração em **[!UICONTROL System]** > **[!UICONTROL Services]** > **[!UICONTROL Commerce Services Connector]**.
 
 ## Leitura relacionada
 
