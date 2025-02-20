@@ -2,9 +2,9 @@
 title: Atualização da política de ciclo de vida do tíquete de suporte da Adobe Commerce
 description: Este artigo fornece informações sobre a atualização da política de ciclo de vida do tíquete de suporte da Adobe Commerce.
 exl-id: c3fbcb4a-107f-48b3-afed-b9a0c5d0425c
-source-git-commit: 5d291a221509c35c8bc34fd0957534c24342c59c
+source-git-commit: b882fcc3a890fa0eb06c17f877d7d315be66e294
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Nesse cenário, quando são necessárias informações adicionais de um cliente,
 * No primeiro, terceiro e quinto dia seguintes ao status estar definido como &quot;Resposta pendente&quot;, as notificações de acompanhamento são enviadas ao cliente solicitando as informações adicionais.
 * Se não houver resposta do cliente por seis dias depois do status ter sido definido como &quot;Resposta pendente&quot;, a ocorrência será definida como fechada e uma notificação de fechamento será enviada.
 
-Os clientes podem reabrir um caso fechado em 14 dias para continuar a comunicação. Além de 14 dias, um novo caso de suporte pode ser aberto para continuar a comunicação relacionada a um caso fechado anteriormente.
+Os clientes podem reabrir um caso fechado no Experience League em 14 dias para continuar a comunicação. Além de 14 dias, um novo caso de suporte pode ser aberto para continuar a comunicação relacionada a um caso fechado anteriormente. Observe que responder a um email sobre um tíquete fechado não o reabrirá.
 
 ### Quando um engenheiro fornece uma solução
 
