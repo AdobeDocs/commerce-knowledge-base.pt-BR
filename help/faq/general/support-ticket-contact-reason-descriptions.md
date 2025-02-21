@@ -1,153 +1,55 @@
 ---
-title: Tíquete de suporte Descrições do motivo de contato
-description: Este artigo lista as opções de campo **Motivo do contato** do tíquete de suporte e descrições mais detalhadas de cada uma.
+title: Descrições do motivo do problema do tíquete de suporte
+description: Este artigo lista as opções de campo **Motivo do problema** do tíquete de suporte e fornece descrições detalhadas de cada uma.
 exl-id: 678505fe-8c8d-4963-8dee-eec0a61a2daf
-source-git-commit: b7444c3b2360b38b7e382645991a441c649009b8
+source-git-commit: d3523be967f16a3e65025917fa6ac65097214100
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
 
-# Tíquete de suporte Descrições do motivo de contato
+# Descrições do motivo do problema do tíquete de suporte
 
-Este artigo lista as opções de campo do tíquete de suporte **Motivo do Contato** e descrições mais detalhadas de cada uma.
+Este artigo lista as opções de campo **Motivo do problema** do tíquete de suporte e fornece descrições detalhadas de cada uma.
 
-## Motivos de contato
+## Motivos do problema
 
 <table class="tg">
 <thead>
   <tr>
-    <th><span style="font-weight:bold;font-style:normal">Motivo do contato</span></th>
+    <th><span style="font-weight:bold;font-style:normal">Motivo do problema</span></th>
     <th><span style="font-weight:700;font-style:normal">Descrição</span></th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>Armazenamento Inoperante (Não é possível processar pedidos, remessas ou emails)</td>
-    <td>Sua vitrine da Adobe Commerce está inativa e você não pode realizar tarefas comerciais críticas como processar pedidos, remessas ou enviar emails.</td>
+    <td>Segurança</td>
+    Você descobriu um problema de segurança com sua loja da Adobe Commerce.</td>
   </tr>
   <tr>
-    <td>Segurança</td>
-    <td>Você descobriu um problema de segurança na sua loja da Adobe Commerce.</td>
+    <td>Conta/Usuário/Identity Management</td>
+    <td>Você precisa de ajuda para atualizar a propriedade da conta ou solucionar problemas de permissões de acesso compartilhado. Isso não se aplica a problemas relacionados ao gerenciamento nem à obtenção de acesso à conta [!DNL New Relic], nem a solicitações de acesso SSH/sFTP.</td>
   </tr>
   <tr>
     <td>Aplicativo Adobe Commerce</td>
-    <td>Você precisa de ajuda com seu aplicativo do Adobe Commerce.</td>
+    <td>Você precisa de ajuda com seu aplicativo do Adobe Commerce, incluindo B2B, Serviço de Catálogo, [!DNL Live Search], Recomendações de Produto, Relatórios do Adobe Commerce, Serviços de Pagamento da Adobe, Adobe I/O Events para Adobe Commerce etc.</td>
   </tr>
   <tr>
-    <td>Infraestrutura Adobe Commerce Cloud</td>
-    <td>Você precisa de ajuda com sua infraestrutura Adobe Commerce Cloud ou tem uma solicitação de alteração de configuração.</td>
+    <td>Integração com outras soluções da Adobe</td>
+    <td>Você precisa de ajuda com o Adobe Experience Manager, Adobe Experience Platform, Adobe Analytics etc.</td>
   </tr>
   <tr>
-    <td>Notificação de interrupção proativa</td>
-    <td>N/D</td>
+    <td>Instalação</td>
+    <td>Você precisa de ajuda para instalar ou atualizar o Adobe Commerce.</td>
   </tr>
   <tr>
-    <td>Notificação de infraestrutura proativa</td>
-    <td>N/D</td>
-  </tr>
-</tbody>
-</table>
-
-## Motivos de aplicação do Adobe Commerce
-
-Estas são as opções que aparecerão se o **Aplicativo Adobe Commerce** for selecionado como o **Motivo do Contato**:
-
-<table class="tg">
-<thead>
-  <tr>
-    <th><span style="font-weight:bold;font-style:normal">Aplicativo Adobe Commerce</span></th>
-    <th><span style="font-weight:700;font-style:normal">Descrição</span></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>Problemas ao instalar ou atualizar o aplicativo do Adobe Commerce</td>
-    <td>Dúvidas ou problemas relacionados à instalação ou atualização do aplicativo Adobe Commerce para uma versão mais recente</td>
+    <td>Solicitação de alteração de infraestrutura</td>
+    <td>Você precisa de ajuda com o Adobe Commerce na infraestrutura em nuvem ou tem uma solicitação de alteração de configuração, como aumento temporário da vCPU, solicitações de backup/instantâneo, atualização de domínios etc.</td>
   </tr>
   <tr>
-    <td>Desempenho (Aplicativo)</td>
-    <td>Perguntas ou problemas relacionados ao desempenho com sua loja da Adobe Commerce e acredite que estejam relacionados a aplicativos</td>
-  </tr>
-  <tr>
-    <td>Serviço de catálogo (SaaS)</td>
-    <td>Perguntas ou problemas relacionados ao Serviço de catálogo.  Forneça a ID de ambiente indicada no administrador do Adobe Commerce em Sistema &gt; Commerce Services Connector.</td>
-  </tr>
-  <tr>
-    <td>Recommendations de produto (SaaS)</td>
-    <td>Perguntas ou problemas relacionados ao Recommendations do produto. Forneça a ID de ambiente indicada no administrador do Adobe Commerce em Sistema &gt; Commerce Services Connector.</td>
-  </tr>
-  <tr>
-    <td>Live Search (SaaS)</td>
-    <td>Perguntas ou problemas relacionados ao Live Search. Forneça a ID de ambiente indicada no administrador do Adobe Commerce em Sistema &gt; Commerce Services Connector.</td>
-  </tr>
-  <tr>
-    <td>PWA Studio</td>
-    <td>Perguntas ou problemas relacionados ao PWA Studio para Adobe Commerce</td>
-  </tr>
-  <tr>
-    <td>Aplicativo principal (Outro)</td>
-    <td>Perguntas ou problemas relacionados a uma parte do aplicativo Adobe Commerce que não foi especificada anteriormente na lista de opções</td>
-  </tr>
-</tbody>
-</table>
-
-## Motivos da infraestrutura Adobe Commerce Cloud
-
-Estas são as opções que aparecerão se a **Infraestrutura do Adobe Commerce Cloud** for selecionada como o **Motivo do Contato**:
-
-<table class="tg">
-<thead>
-  <tr>
-    <th><span style="font-weight:bold;font-style:normal">Infraestrutura Adobe Commerce Cloud</span></th>
-    <th><span style="font-weight:700;font-style:normal">Descrição</span></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>Implantação paralisada</td>
-    <td>Seu ambiente do Adobe Commerce Cloud tem uma implantação travada.</td>
-  </tr>
-  <tr>
-    <td>Desempenho (infraestrutura)</td>
-    <td>Perguntas ou problemas relacionados ao desempenho com sua loja da Adobe Commerce e acredite que estejam relacionados à infraestrutura</td>
-  </tr>
-  <tr>
-    <td>Adicionar novos domínios (Fastly e Nginx)</td>
-    <td>Adicionar novos domínios ao serviço Fastly e ao Nginx</td>
-  </tr>
-  <tr>
-    <td>Solicitação de capacidade de disco/armazenamento</td>
-    <td>Aumente o armazenamento em disco em ambientes de preparo e/ou produção para seus projetos Adobe Commerce Cloud Pro</td>
-  </tr>
-  <tr>
-    <td>Desabilitar 2FA</td>
-    <td>Desative a autenticação de dois fatores para o seu ambiente do Adobe Commerce Cloud</td>
-  </tr>
-  <tr>
-    <td>Ativar 2FA</td>
-    <td>Habilitar a Autenticação de dois fatores para o seu ambiente Adobe Commerce Cloud</td>
-  </tr>
-  <tr>
-    <td>Solicitação de capacidade de aumento de feriado</td>
-    <td>Adição de recursos de capacidade de aumento ao ambiente Adobe Commerce Cloud antes dos períodos de pico de vendas</td>
-  </tr>
-  <tr>
-    <td>Atualização dos Serviços de Infraestrutura</td>
-    <td>Solicitação de alteração de infraestrutura para seus ambientes de preparo/e/ou produção do Adobe Commerce Cloud, ou seja, modificar versões de serviço, criação de usuários de ftp etc.</td>
-  </tr>
-  <tr>
-    <td>Upsize temporário do projeto na nuvem (vCPU)</td>
-    <td>Adicione recursos de capacidade de sobretensão ao seu ambiente Adobe Commerce Cloud para uma promoção futura. É necessário um aviso de no mínimo 48 horas.</td>
+    <td>Incidente de infraestrutura</td>
+    <td>Você precisa de ajuda com o Adobe Commerce na infraestrutura de nuvem, como implantações paralisadas, acesso de [!DNL New Relic], acesso SSH/sFTP, atualizações de serviço ([!DNL OpenSearch], [!DNL MariaDB]/[!DNL MySQL], [!DNL Redis], [!DNL RabbitMQ], mas não incluindo PHP), certificados SSL, etc. **(Não se aplica a [!DNL Live Search])**</td>
   </tr>  
-  <tr>
-    <td>Infraestrutura (Outros)</td>
-    <td>Perguntas ou problemas relacionados a uma parte da Pilha do Adobe Commerce Infrastructure que não tenha sido especificada anteriormente na lista de opções</td>
-  </tr>
 </tbody>
 </table>
-
-## Leitura relacionada
-
-Consulte [Guia da Central de Ajuda > Campos de tíquete de suporte explicados](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-tickets) para ver detalhes sobre outros campos de formulário de entrada de tíquetes.
