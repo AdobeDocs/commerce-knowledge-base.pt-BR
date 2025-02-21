@@ -1,18 +1,18 @@
 ---
-title: Guia do usuário de suporte Experience League para Adobe Commerce
-description: Saiba como enviar um tíquete de suporte para o Suporte Experience League, fornecer acesso compartilhado a contas e navegar na Base de conhecimento Adobe Commerce.
+title: Guia do usuário de suporte da Experience League para Adobe Commerce
+description: Saiba como enviar um tíquete de suporte ao Suporte da Experience League, fornecer acesso compartilhado a contas e navegar pela Base de conhecimento da Adobe Commerce.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: c287b45c3cea99f6d536d6ed4d90a5e19d9fa71c
+source-git-commit: c578bdc5684705283bb1d3eb4c42edb62ad769f9
 workflow-type: tm+mt
-source-wordcount: '2963'
+source-wordcount: '3072'
 ht-degree: 0%
 
 ---
 
-# Guia do usuário de suporte Experience League para Adobe Commerce
+# Guia do usuário de suporte da Experience League para Adobe Commerce
 
-Neste guia, saiba como enviar um tíquete de suporte para o [Suporte para Experience League](https://experienceleague.adobe.com/home#support) e fornecer acesso compartilhado às contas do Adobe Commerce.
+Neste guia, saiba como enviar um tíquete de suporte ao [Suporte do Experience League](https://experienceleague.adobe.com/home#support) e fornecer acesso compartilhado às contas do Adobe Commerce.
 
 >[!NOTE]
 >
@@ -20,22 +20,22 @@ Neste guia, saiba como enviar um tíquete de suporte para o [Suporte para Experi
 
 >[!NOTE]
 >
->Neste momento, para ver seus casos enviados anteriormente no Adobe Commerce Help Center, você terá que acessar https://support.magento.com/hc/en-us/requests, pois esses casos não foram migrados para o novo sistema de tíquetes de suporte. A Central de Ajuda agora é somente leitura; para continuar recebendo suporte para o problema original, você terá que enviar um tíquete de acompanhamento para o [Suporte de Experience League](https://experienceleague.adobe.com/home#support).
+>Neste momento, para ver seus casos enviados anteriormente no Adobe Commerce Help Center, você terá que acessar https://support.magento.com/hc/en-us/requests, pois esses casos não foram migrados para o novo sistema de tíquetes de suporte. A Central de Ajuda agora é somente leitura; para continuar recebendo suporte para o problema original, você terá que enviar um tíquete de acompanhamento para o [Suporte da Experience League](https://experienceleague.adobe.com/home#support).
 
 >[!NOTE]
 >
->A parte da Base de conhecimento do Adobe Commerce Help Center migrou para o portal da Adobe Experience League. Ao criar um tíquete de suporte, serão sugeridos artigos relacionados da Knowledge base, juntamente com outra documentação relevante do Adobe Commerce no Adobe Experience League.
+>A parte da Base de conhecimento do Adobe Commerce Help Center migrou para o portal Adobe Experience League. Ao criar um tíquete de suporte, serão sugeridos artigos relacionados da Knowledge base, juntamente com outra documentação relevante do Adobe Commerce da Adobe Experience League.
 
 **Atualização principal:** 29 de julho de 2024
 
-**[O QUE É SUPORTE PARA EXPERIENCE LEAGUE?](#what-is-experience-support)**
+**[O QUE É O SUPORTE DA EXPERIENCE LEAGUE?](#what-is-experience-support)**
 
 **[CASOS DE SUPORTE](#support-cases)**
 
-* [Entrar no suporte para Experience League](#sign-in-experience-support)
+* [Fazer logon no suporte da Experience League](#sign-in-experience-support)
 * [Enviar um caso de suporte](#submit-case)
 
-   * [Página inicial do Adobe Experience League](#experience-league-start-page)
+   * [Página inicial da Adobe Experience League](#experience-league-start-page)
    * [Página da conta do Adobe Commerce](#submit-case-adobe-commerce-account-page)
    * [*Verifique seu endereço de email*](#verify-email-address-error)
 
@@ -61,32 +61,32 @@ Neste guia, saiba como enviar um tíquete de suporte para o [Suporte para Experi
 **[PERGUNTAS FREQUENTES SOBRE COBRANÇA DO ADOBE COMMERCE](#billing-faq)**
 
 
-## O QUE É SUPORTE PARA EXPERIENCE LEAGUE? {#what-is-experience-support}
+## O QUE É SUPORTE DA EXPERIENCE LEAGUE? {#what-is-experience-support}
 
-O Experience League Support é um portal de suporte para o Adobe, no qual os clientes qualificados da Adobe Commerce podem enviar e gerenciar tíquetes de suporte. Também é onde você pode consultar os artigos de solução de problemas.
+O Suporte da Experience League é um portal de suporte da Adobe no qual os clientes qualificados da Adobe Commerce podem enviar e gerenciar tíquetes de suporte. Também é onde você pode consultar os artigos de solução de problemas.
 
 ## CASOS DE SUPORTE {#support-cases}
 
-O Gerenciamento de casos de suporte da Adobe Experience League permite trabalhar com suporte através de casos para resolver problemas específicos encontrados durante o uso de produtos Adobe, incluindo o Adobe Commerce, para todos os produtos Adobe Commerce sob contrato.
+O Gerenciamento de casos de suporte da Adobe Experience League permite trabalhar com suporte por meio de casos para solucionar problemas específicos encontrados ao usar produtos da Adobe, incluindo o Adobe Commerce, para todos os produtos da Adobe Commerce sob contrato.
 
-## FAZER LOGON NO SUPORTE PARA EXPERIENCE LEAGUE {#sign-in-experience-support}
+## FAZER LOGON NO SUPORTE DA EXPERIENCE LEAGUE {#sign-in-experience-support}
 
 Ao fazer logon, você pode enviar, atualizar e responder a perguntas dos agentes sobre tíquetes de suporte.
 
 Para fazer logon no Suporte da Adobe Experience League, siga estas etapas:
 
 1. Navegue até [experienceleague.adobe.com](https://experienceleague.adobe.com/).
-1. Faça logon usando suas credenciais de logon do Adobe.
+1. Faça logon usando suas credenciais de logon da Adobe.
 
 ![entrar-na-liga-da-experiência](assets/experience_league_sign_in.png)
 
 ### Enviar um caso de suporte {#support-case}
 
-Depois de fazer logon como proprietário da conta ou usuário de Acesso compartilhado, você pode enviar um caso de suporte usando a página inicial do Adobe Experience League, a página da conta do Adobe Commerce e a página da conta do Adobe Commerce Cloud.
+Depois de fazer logon como proprietário da conta ou usuário de acesso compartilhado, você pode enviar um caso de suporte usando a página inicial da Adobe Experience League, a página da conta do Adobe Commerce e a página da conta da Adobe Commerce Cloud.
 
 >[!NOTE]
 >
->As solicitações de suporte para a equipe do Adobe Commerce Marketplace não podem ser enviadas por meio do Experience League, pois o sistema de suporte opera em uma plataforma separada que não está integrada ao Experience League.
+>As solicitações de suporte da equipe do Adobe Commerce Marketplace não podem ser enviadas por meio do Experience League, pois o sistema de suporte opera em uma plataforma separada que não está integrada ao Experience League.
 >
 >Você poderá enviar seu caso de suporte se as seguintes declarações forem verdadeiras:
 >
@@ -96,21 +96,21 @@ Depois de fazer logon como proprietário da conta ou usuário de Acesso comparti
 >
 >Para problemas relacionados à publicação de sua extensão, problemas ao comprar ou solicitar um reembolso no [Adobe Commerce Marketplace](https://commercemarketplace.adobe.com/), entre em contato diretamente com a equipe do [!DNL Commerce Marketplace] acessando https://commercemarketplace.adobe.com/. Navegue até a parte inferior da página e clique em **[!UICONTROL Contact Us]**, que abrirá um formulário para enviar um tíquete de suporte do Marketplace.
 
-#### Página inicial do Adobe Experience League {#experience-league-start-page}
+#### Página inicial da Adobe Experience League {#experience-league-start-page}
 
-Para enviar um novo caso de suporte usando a página inicial do Adobe Experience League, siga estas etapas:
+Para enviar um novo caso de suporte usando a página inicial da Adobe Experience League, siga estas etapas:
 
 >[!INFO]
 >
->1. Para enviar um caso, você deve ter direito ao suporte para o produto apropriado (por exemplo, Adobe Commerce, Adobe Commerce Intelligence, Experience Platform, etc.). Se você não tiver direito ao suporte, uma barra será exibida na parte superior da página informando que você não é um usuário com direito ao suporte na organização.
->1. Se você pertencer a várias organizações ou se houver várias organizações com nomes com aparência semelhante (cada uma representará qualquer um dos outros produtos de Adobe para os quais a organização tem assinaturas), será necessário selecionar primeiro a organização apropriada na lista suspensa na coluna à esquerda que termina em &quot;(Commerce)&quot;.
->1. Para enviar um caso, você deve ter direito ao suporte para o produto apropriado (por exemplo, Adobe Commerce, Adobe Commerce Reporting, Adobe Commerce Payment Services, Experience Platform, etc.). Se você não tiver direito ao suporte, uma barra será exibida na parte superior da página informando que você não é um usuário com direito ao suporte na organização. Para enviar um caso de problemas relacionados ao Commerce, primeiro selecione o nome da organização apropriada que termina em *[!DNL (Commerce)]*.
->1. Se você pertencer a várias organizações ou se houver várias organizações com nomes de aparência semelhante (cada uma representará qualquer um dos outros produtos de Adobe para os quais a organização tem assinaturas), será necessário selecionar primeiro a organização apropriada na lista suspensa.
+>1. Para enviar um caso, você deve ter direito ao suporte do produto apropriado (por exemplo, Adobe Commerce, Adobe Commerce Intelligence, Experience Platform etc.). Se você não tiver direito ao suporte, uma barra será exibida na parte superior da página informando que você não é um usuário com direito ao suporte na organização.
+>1. Se você pertencer a várias organizações ou se houver várias organizações com nomes com aparência semelhante (cada uma representará qualquer um dos outros produtos da Adobe aos quais a organização tem assinaturas), será necessário selecionar primeiro a organização apropriada na lista suspensa na coluna à esquerda que termina em &quot;(Commerce)&quot;.
+>1. Para enviar um caso, você deve ter direito ao suporte para o produto apropriado (por exemplo, Adobe Commerce, Adobe Commerce Reporting, Adobe Commerce Payment Services, Experience Platform etc.). Se você não tiver direito ao suporte, uma barra será exibida na parte superior da página informando que você não é um usuário com direito ao suporte na organização. Para enviar um caso de problemas relacionados ao Commerce, primeiro selecione o nome da organização apropriada que termina em *[!DNL (Commerce)]*.
+>1. Se você pertencer a várias organizações ou se houver várias organizações com nomes com aparência semelhante (cada uma representará qualquer um dos outros produtos da Adobe aos quais a organização tem assinaturas), será necessário selecionar primeiro a organização apropriada na lista suspensa.
 >1. Se você não vir o Adobe Commerce na lista suspensa [!UICONTROL Select a product], obtenha primeiro o [Acesso Compartilhado](#shared-access) do Proprietário da Conta do Commerce. Depois de receber o Acesso Compartilhado, você terá que [sincronizar sua conta](#switch-accounts) para finalizar o processo antes de enviar um caso.
 
 >[!NOTE]
 >
->Verifique se você selecionou a organização correta antes de enviar a ocorrência e se a organização selecionada tem os direitos apropriados para o produto para o qual você está solicitando suporte. Por exemplo, se seu problema estiver relacionado ao Adobe Commerce, mas você selecionou o Experience Platform como o produto e o caso foi enviado com êxito, isso pode levar ao roteamento incorreto do caso e a atrasos nos tempos de resposta.
+>Verifique se você selecionou a organização correta antes de enviar a ocorrência e se a organização selecionada tem os direitos apropriados para o produto para o qual você está solicitando suporte. Por exemplo, se seu problema estiver relacionado ao Adobe Commerce, mas você selecionou Adobe Commerce Intelligence ou Adobe Experience Platform como o produto e o caso foi enviado com êxito, isso pode levar ao roteamento incorreto do caso e a atrasos nos tempos de resposta.
 >
 >Além disso, se a organização errada foi selecionada no momento em que o caso foi enviado, sua equipe não poderá ver o caso em [!UICONTROL My Cases] para a organização apropriada/correta. A equipe de suporte da Adobe Commerce não tem a capacidade de alterar a organização associada ao caso; para resolver isso, você deve fechar o caso existente e enviar um novo caso com os detalhes apropriados fornecidos/selecionados.
 
@@ -126,11 +126,16 @@ Para enviar um novo caso de suporte usando a página inicial do Adobe Experience
 
    ![open-support-case](assets/open_support_case.png)
 
-1. Selecione um produto no menu suspenso e forneça um título de caso e uma descrição. OBSERVAÇÃO: se a lista suspensa não exibir nenhum produto ou se Commerce não for uma opção disponível, tente alternar para Organização na coluna à esquerda e verifique novamente.
+1. Selecione um produto no menu suspenso e forneça um título de caso e uma descrição. OBSERVAÇÃO: Se o menu suspenso não exibir nenhum produto ou [!DNL Commerce] não for uma opção disponível, tente alternar o [!UICONTROL Organization] na coluna esquerda e verifique novamente.
 
    ![select_product](assets/support_case_product.png)
 
-1. O Adobe Experience League sugerirá artigos e práticas recomendadas que podem ajudar você a resolver seu caso. Se ainda precisar de suporte direto, forneça algumas informações adicionais antes de enviar seu caso.
+>[!NOTE]
+>
+>Se você estiver enviando um tíquete com &quot;**[!DNL Commerce]na infraestrutura em nuvem**&quot; selecionado como o produto e a organização tiver vários projetos listados, você será solicitado a selecionar o [!UICONTROL Project ID] apropriado. Se não conseguir localizar o [!UICONTROL Project ID] desejado, adicione uma observação no tíquete que você está procurando ajuda para um &quot;projeto X&quot; diferente.<br>Se você pretende enviar um tíquete &quot;**[!DNL Commerce]no Managed Services**&quot; e está no **[!DNL Commerce]na infraestrutura de nuvem**, mas não vê **[!DNL Commerce]na infraestrutura de nuvem** como um produto disponível:<br>1. Digite um assunto para o problema em **[!UICONTROL Case title]**.<br>2. Digite uma descrição do problema em **[!UICONTROL Case description]**.<br>3. Depois de inserir esses dois itens, você verá o campo **[!UICONTROL Cloud Project URL]** abaixo.
+
+
+1. A Adobe Experience League sugerirá artigos e práticas recomendadas que podem ajudar você a resolver seu caso. Se ainda precisar de suporte direto, forneça algumas informações adicionais antes de enviar seu caso.
 
    ![direct_support_required](assets/direct_support.png)
 
@@ -140,7 +145,7 @@ Para enviar um novo caso de suporte usando a página inicial do Adobe Experience
 >
 >Se você não conseguir ver sua organização no menu suspenso de organização ao fazer logon em experienceleague.adobe.com, talvez seja necessário sincronizar o perfil com accounts.magento.com antes de solicitar suporte ou gerenciar um caso de suporte existente.   
 >
->1. Navegue até accounts.magento.com e faça logon com o mesmo perfil (corporativo, escolar ou pessoal) que você usará para gerenciar casos de suporte no Adobe Experience League. 
+>1. Navegue até accounts.magento.com e faça logon com o mesmo perfil (corporativo, escolar ou pessoal) que você usará para gerenciar casos de suporte na Adobe Experience League. 
 >1. Depois de fazer logon no perfil accounts.magento.com, navegue de volta para experienceleague.adobe.com e faça logon. 
 >1. Selecione sua organização no menu suspenso de organização. 
 >1. Se sua organização ainda não aparecer, entre em contato com o administrador do Commerce para obter os direitos de representante de suporte. Para obter informações adicionais, consulte o artigo de ajuda [Compartilhamento de conta da Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share). 
@@ -149,7 +154,7 @@ Para enviar um novo caso de suporte usando a página inicial do Adobe Experience
 >
 >Por que a organização/produto é importante
 >
->**Exemplo A**: você tem acesso compartilhado a apenas uma empresa e essa empresa tem direitos para dois produtos de Adobe: Product1 e Product2.
+>**Exemplo A**: você compartilhou acesso a apenas uma empresa e essa empresa tem direitos para dois produtos da Adobe: Product1 e Product2.
 >1. Como cada Organização representa um produto, você verá duas organizações na lista suspensa, por exemplo, OrgA-Product1 e OrgB-Product2.
 >1. Se você selecionou Produto = Produto 1, mas o problema está relacionado ao Produto 2, o caso será encaminhado para o suporte do Produto 2 e haverá atrasos ao transferir o caso para o suporte do Produto 1.
 >1. Se você tiver enviado o caso para OrgA-Product1 e quiser analisar [!UICONTROL My Cases] para essa Organização no futuro, não o verá se selecionar OrgA-Product2 como a Organização (basta selecionar a outra Organização, em comparação com o Exemplo B).
@@ -158,7 +163,7 @@ Para enviar um novo caso de suporte usando a página inicial do Adobe Experience
 >1. Se você tiver enviado o caso para a OrgA, mas o problema estiver afetando a OrgB, os membros da OrgB não poderão ver esse caso em [!UICONTROL My Cases] no futuro.
 >1. Além disso, os membros da Organização A poderão ver casos em [!UICONTROL My Cases] que na verdade se destinam à Organização B, o que pode levar a problemas de privacidade.
 
-Você deve ter uma conta em https://account.adobe.com e https://account.magento.com para fazer logon no Experience League para enviar um caso de suporte. Você não poderá enviar um caso de suporte até entrar.
+Você deve ter uma conta no https://account.adobe.com e no https://account.magento.com para fazer logon na Experience League e enviar um caso de suporte. Você não poderá enviar um caso de suporte até entrar.
 
 >[!NOTE]
 >
@@ -177,7 +182,7 @@ Para enviar um novo tíquete de suporte usando a página de conta da Adobe Comme
 
    ![magento_account_support_tab](assets/magento_account_support_tab.png){width="800"}
 
-1. A página de suporte do Adobe Experience League é carregada para você.
+1. A página de suporte da Adobe Experience League é carregada para você.
 1. Selecione **[!UICONTROL Open Ticket]** no menu à esquerda.
 1. Preencha os campos.
 1. Clique em **Enviar**.
@@ -343,11 +348,11 @@ Depois de fornecer acesso compartilhado a um novo usuário, as informações rel
 
 <u>Causa</u>
 
-Se você tiver/tiver tido um projeto do Adobe Commerce Cloud e tiver adicionado um usuário ao projeto, ele poderá ter recebido automaticamente o Acesso Compartilhado na ID de MAGE do Proprietário do projeto. Isso normalmente seria indicado na coluna **[!UICONTROL Share Name]**, mostrando o *Acesso Compartilhado na Nuvem de MAG[XYZ]*.
+Se você tiver/tiver tido um projeto da Adobe Commerce Cloud e tiver adicionado um usuário ao projeto, ele poderá ter recebido automaticamente o Acesso compartilhado na ID de MAGE do proprietário do projeto. Isso normalmente seria indicado na coluna **[!UICONTROL Share Name]**, mostrando o *Acesso Compartilhado na Nuvem de MAG[XYZ]*.
 
 >[!NOTE]
 >
->Se o link DELETE estiver ausente, significa que o Acesso Compartilhado foi concedido automaticamente por meio do Commerce Cloud.
+>Se o link do DELETE estiver ausente, significa que o Acesso compartilhado foi concedido automaticamente por meio do Commerce Cloud.
 
 <u>Solução</u>
 
