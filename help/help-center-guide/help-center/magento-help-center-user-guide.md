@@ -3,7 +3,7 @@ title: Guia do usuário de suporte da Experience League para Adobe Commerce
 description: Saiba como enviar um tíquete de suporte ao Suporte da Experience League, fornecer acesso compartilhado a contas e navegar pela Base de conhecimento da Adobe Commerce.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: c578bdc5684705283bb1d3eb4c42edb62ad769f9
+source-git-commit: cb0d3b47c7b9693c83c6f1e85fa41cce57972c9f
 workflow-type: tm+mt
 source-wordcount: '3072'
 ht-degree: 0%
@@ -130,9 +130,9 @@ Para enviar um novo caso de suporte usando a página inicial da Adobe Experience
 
    ![select_product](assets/support_case_product.png)
 
->[!NOTE]
->
->Se você estiver enviando um tíquete com &quot;**[!DNL Commerce]na infraestrutura em nuvem**&quot; selecionado como o produto e a organização tiver vários projetos listados, você será solicitado a selecionar o [!UICONTROL Project ID] apropriado. Se não conseguir localizar o [!UICONTROL Project ID] desejado, adicione uma observação no tíquete que você está procurando ajuda para um &quot;projeto X&quot; diferente.<br>Se você pretende enviar um tíquete &quot;**[!DNL Commerce]no Managed Services**&quot; e está no **[!DNL Commerce]na infraestrutura de nuvem**, mas não vê **[!DNL Commerce]na infraestrutura de nuvem** como um produto disponível:<br>1. Digite um assunto para o problema em **[!UICONTROL Case title]**.<br>2. Digite uma descrição do problema em **[!UICONTROL Case description]**.<br>3. Depois de inserir esses dois itens, você verá o campo **[!UICONTROL Cloud Project URL]** abaixo.
+   >[!NOTE]
+   >
+   >Se você estiver enviando um tíquete com &quot;**[!DNL Commerce]na infraestrutura em nuvem**&quot; selecionado como o produto e a organização tiver vários projetos listados, você será solicitado a selecionar o [!UICONTROL Project ID] apropriado. Se não conseguir localizar o [!UICONTROL Project ID] desejado, adicione uma observação no tíquete que você está procurando ajuda para um &quot;projeto X&quot; diferente.<br>Se você pretende enviar um tíquete &quot;**[!DNL Commerce]no Managed Services**&quot; e está no **[!DNL Commerce]na infraestrutura de nuvem**, mas não vê **[!DNL Commerce]na infraestrutura de nuvem** como um produto disponível:<br>1. Digite um assunto para o problema em **[!UICONTROL Case title]**.<br>2. Digite uma descrição do problema em **[!UICONTROL Case description]**.<br>3. Depois de inserir esses dois itens, você verá o campo **[!UICONTROL Cloud Project URL]** abaixo.
 
 
 1. A Adobe Experience League sugerirá artigos e práticas recomendadas que podem ajudar você a resolver seu caso. Se ainda precisar de suporte direto, forneça algumas informações adicionais antes de enviar seu caso.
@@ -143,23 +143,25 @@ Para enviar um novo caso de suporte usando a página inicial da Adobe Experience
 
 >[!IMPORTANT]
 >
->Se você não conseguir ver sua organização no menu suspenso de organização ao fazer logon em experienceleague.adobe.com, talvez seja necessário sincronizar o perfil com accounts.magento.com antes de solicitar suporte ou gerenciar um caso de suporte existente.   
+>Se você não conseguir ver sua organização no menu suspenso de organização ao fazer logon em experienceleague.adobe.com, talvez seja necessário sincronizar o perfil com accounts.magento.com antes de solicitar suporte ou gerenciar um caso de suporte existente.
 >
->1. Navegue até accounts.magento.com e faça logon com o mesmo perfil (corporativo, escolar ou pessoal) que você usará para gerenciar casos de suporte na Adobe Experience League. 
->1. Depois de fazer logon no perfil accounts.magento.com, navegue de volta para experienceleague.adobe.com e faça logon. 
->1. Selecione sua organização no menu suspenso de organização. 
->1. Se sua organização ainda não aparecer, entre em contato com o administrador do Commerce para obter os direitos de representante de suporte. Para obter informações adicionais, consulte o artigo de ajuda [Compartilhamento de conta da Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share). 
+>1. Navegue até accounts.magento.com e faça logon com o mesmo perfil (corporativo, escolar ou pessoal) que você usará para gerenciar casos de suporte na Adobe Experience League.
+>1. Depois de fazer logon no perfil accounts.magento.com, navegue de volta para experienceleague.adobe.com e faça logon.
+>1. Selecione sua organização no menu suspenso de organização.
+>1. Se sua organização ainda não aparecer, entre em contato com o administrador do Commerce para obter os direitos de representante de suporte. Para obter informações adicionais, consulte o artigo de ajuda [Compartilhamento de conta da Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share).
 
 >[!NOTE]
 >
 >Por que a organização/produto é importante
 >
 >**Exemplo A**: você compartilhou acesso a apenas uma empresa e essa empresa tem direitos para dois produtos da Adobe: Product1 e Product2.
+>
 >1. Como cada Organização representa um produto, você verá duas organizações na lista suspensa, por exemplo, OrgA-Product1 e OrgB-Product2.
 >1. Se você selecionou Produto = Produto 1, mas o problema está relacionado ao Produto 2, o caso será encaminhado para o suporte do Produto 2 e haverá atrasos ao transferir o caso para o suporte do Produto 1.
 >1. Se você tiver enviado o caso para OrgA-Product1 e quiser analisar [!UICONTROL My Cases] para essa Organização no futuro, não o verá se selecionar OrgA-Product2 como a Organização (basta selecionar a outra Organização, em comparação com o Exemplo B).
 >
 >**Exemplo B**: você tem Acesso Compartilhado a duas empresas e cada empresa tem somente direitos para a Adobe Commerce.
+>
 >1. Se você tiver enviado o caso para a OrgA, mas o problema estiver afetando a OrgB, os membros da OrgB não poderão ver esse caso em [!UICONTROL My Cases] no futuro.
 >1. Além disso, os membros da Organização A poderão ver casos em [!UICONTROL My Cases] que na verdade se destinam à Organização B, o que pode levar a problemas de privacidade.
 
@@ -170,6 +172,7 @@ Você deve ter uma conta no https://account.adobe.com e no https://account.magen
 >Se você já tiver uma conta em https://account.magento.com, mas não puder fazer logon, talvez não tenha se registrado para uma conta em https://account.adobe.com, que é necessária a partir de agosto de 2022.
 >
 >Para resolver isso:
+>
 >1. Crie uma conta em https://account.adobe.com usando o mesmo endereço de email em sua ID MAG.
 >1. Acesse https://account.magento.com para vincular seu Adobe ID com a ID MAG.
 
