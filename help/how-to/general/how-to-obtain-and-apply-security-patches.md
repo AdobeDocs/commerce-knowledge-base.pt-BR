@@ -2,9 +2,9 @@
 title: Como obter e aplicar o [!UICONTROL security patch]
 description: Este artigo fornece instruções sobre como obter e aplicar um [!UICONTROL security patch] que foi lançado, mas as instruções não estão disponíveis.
 exl-id: 55f2be73-2ccc-4750-a7bd-3058fc2d5107
-source-git-commit: b15a1d008b6cc2bdce797768e6ee7029a747e6da
+source-git-commit: 06bc239cb5b1a894d2a60236a9b32b2b0c4eba80
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
@@ -32,10 +32,11 @@ Se um arquivo/hotfix de patch físico for mencionado nas Notas de versão:
 
 **Avisos:**
 
-Se você estiver usando uma versão mais antiga do Adobe Commerce e tiver adquirido o Extended Support, sua versão deverá ser uma das seguintes para poder aplicar os patches de segurança:
+Se você estiver em uma versão mais antiga do Adobe Commerce (2.4.4), terá recebido automaticamente o Suporte estendido. Sua versão deve ser uma das seguintes versões não suportadas para poder aplicar os patches de segurança mais recentes disponíveis:
 
-* 2.4.2-p2
-* 2.4.3-p3
+2.4.4 - 2.4.4-p11
+
+Versões não compatíveis (2.3.x, 2.4.0 - 2.4.3) não são elegíveis para suporte e você deve primeiro atualizar para uma versão compatível para aproveitar as correções de segurança mais recentes.
 
 Se você não tiver o suporte estendido, poderá solicitar suporte para compartilhar os patches com você, mas eles não poderão resolver nenhum problema/erro que você possa encontrar ao aplicá-los.
 
@@ -55,5 +56,5 @@ Se um arquivo/hotfix de patch físico não for mencionado nas Notas de versão:
 
 ## Leitura relacionada
 
-* Consulte as [notas de versão do Conjunto de ferramentas do Commerce Cloud](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-tools-suite) no *Guia do Adobe Commerce na Infraestrutura da Nuvem*.
+* Consulte as [Notas de versão do Conjunto de ferramentas do Commerce Cloud](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-tools-suite) no *Guia de Infraestrutura do Adobe Commerce na Nuvem*.
 * Consulte [Atualizar a versão do Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) no *Guia de Infraestrutura do Adobe Commerce on Cloud*.

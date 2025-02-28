@@ -4,9 +4,9 @@ description: Problemas avançados de relatórios no Adobe Commerce podem ser res
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: aed14781c6a7b43d0a719ac89c2965d5044d8c22
+source-git-commit: 207fd4cd11f76a5076e98cda8b6776b2d68ef937
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1017'
 ht-degree: 0%
 
 ---
@@ -125,9 +125,14 @@ ls -ltr pub/media/analytics/
 
 Para verificar se há registros em access.logs, execute este comando:
 
-```
-zgrep -i analytics /var/log/platform/[cluster_id|cluster_id_stg]/access.log* | grep MagentoBI
-```
+* No Commerce Cloud:
+
+  ```
+  {{zgrep -i analytics /var/log/platform/*/access.log* | grep MagentoBI}}
+  ```
+
+* No local, substitua o caminho do arquivo de acordo:
+  `zgrep -i analytics <your web server's log path>/access.log* | grep MagentoBI`
 
 a. SIM - Se o arquivo `data.tgz` estiver presente e houver registros nos logs de acesso, mas ainda houver um erro 404, será necessário [enviar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
 b. NÃO - Continue na [Etapa 10](#step-10).

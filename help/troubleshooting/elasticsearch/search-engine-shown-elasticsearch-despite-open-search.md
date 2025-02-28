@@ -3,9 +3,9 @@ title: '[!DNL Elasticsearch] é mostrado como o mecanismo de pesquisa apesar da 
 description: Este artigo fornece uma solução para o problema em que  [!DNL Elasticsearch]  ainda é exibido como mecanismo de pesquisa para Adobe Commerce na nuvem mesmo após a instalação ou atualização para  [!DNL OpenSearch].
 exl-id: cdd8a35d-da6f-46d3-b732-65626487c9bb
 feature: Install
-source-git-commit: 1f053f76ae56edc06bfe82e55210244c8ec4b8eb
+source-git-commit: b3f68e43ce3c4fdea001db1d8ba2774900db7dba
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Este artigo fornece uma solução para o problema em que o [!DNL Elasticsearch] 
 
 ## Versões afetadas
 
-Adobe Commerce na nuvem 2.4.3-p2 - 2.4.5-p6
+Adobe Commerce na nuvem 2.4.4 - 2.4.5-p11
 
 >[!NOTE]
 >
@@ -33,9 +33,9 @@ Adobe Commerce na nuvem 2.4.3-p2 - 2.4.5-p6
 
 ## Causa
 
-O Adobe Commerce está embutido em código para especificar [!DNL Elasticsearch7] como mecanismo de pesquisa.
+[!DNL Elasticsearch7] está embutido em código no Adobe Commerce para ser o mecanismo de pesquisa usado nessas versões.
 
-Isso não deve ser confundido com a versão instalada do serviço. O aplicativo só reconhece [!DNL Elasticsearch7] como mecanismo de pesquisa, mas não [!DNL OpenSearch], mesmo que ele use o serviço [!DNL OpenSearch] subjacente como mecanismo no back-end.
+Isso não deve ser confundido com a versão instalada do serviço. Mesmo que não haja um módulo [!DNL Opensearch] incluído no código, a Adobe Commerce pode usar o serviço [!DNL Opensearch] subjacente.
 
 ## Solução
 
@@ -70,7 +70,7 @@ $ curl 127.0.0.1:9200
 
 **Método 2**:
 
-* Use o seguinte comando na CLI Magento-cloud: `magento-cloud relationships -p <project_id>`. Depois de usar o comando, localize [!DNL OpenSearch].
+* Use o seguinte comando na CLI da nuvem Magento: `magento-cloud relationships -p <project_id>`. Depois de usar o comando, localize [!DNL OpenSearch].
 
 ## Leitura relacionada
 
