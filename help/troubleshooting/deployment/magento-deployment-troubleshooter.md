@@ -4,9 +4,9 @@ description: Implantações travadas e com falha no Adobe Commerce podem ser res
 exl-id: 5141e079-be61-44c2-8bff-c4b13cb7e07c
 feature: Build, Deploy, Support
 role: Developer
-source-git-commit: aedf869e96ce6bcbf538805dd6d14d31db8c2e02
+source-git-commit: 4704446d043e3175b5af27c068908e58bfb7a9ff
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Implantações travadas e com falha no Adobe Commerce podem ser resolvidas usand
 
 +++**O Adobe Commerce está funcionando no serviço de infraestrutura em nuvem?**
 
-Implantação paralisada - o serviço de infraestrutura em nuvem do Adobe Commerce está ativo? Verificar [Adobe Commerce Cloud](https://status.adobe.com/products/3350/).
+Implantação paralisada - o serviço de infraestrutura em nuvem do Adobe Commerce está ativo? Verifique a [Adobe Commerce Cloud](https://status.adobe.com/products/3350/).
 
 a. SIM - Continue na [Etapa 2](#step-2).\
 b. NÃO - manutenção ou paralisações globais. Verifique a duração estimada e as atualizações.
@@ -30,7 +30,7 @@ b. NÃO - manutenção ou paralisações globais. Verifique a duração estimada
 
 +++**Existem implantações em outros ambientes que estão bloqueando a implantação no ambiente existente?**
 
-Para obter uma lista de atividades em andamento, execute o comando a seguir usando a Magento-Cloud CLI (se você tiver sido adicionado apenas a um projeto de nuvem). **Observação**: verifique se você está usando a versão mais recente da CLI do Magento Cloud. Para obter as etapas, consulte [Atualizar a CLI](/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview) no guia do Commerce na Infraestrutura em Nuvem.
+Para obter uma lista de atividades em andamento, execute o comando a seguir usando a Magento-Cloud CLI (se você tiver sido adicionado apenas a um projeto de nuvem). **Observação**: verifique se você está usando a versão mais recente da CLI do Magento Cloud. Para obter as etapas, consulte [Atualizar a CLI](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview) no guia do Commerce na Infraestrutura em Nuvem.
 
 ```bash
 magento-cloud --state=in_progress
@@ -42,7 +42,7 @@ Para obter uma lista de atividades em andamento, execute o seguinte comando usan
 magento-cloud -p <project-id or project-url> --state=in_progress
 ```
 
-Para encontrar informações sobre uma atividade de implantação existente (consulte [Verificando o log de implantação se a interface de nuvem tiver um erro de &quot;log recortado&quot;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error.html)
+Para encontrar informações sobre uma atividade de implantação existente (consulte [Verificando o log de implantação se a interface de nuvem tiver um erro de &quot;log recortado&quot;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error)
 para obter detalhes), execute este comando para obter um log em execução dessa atividade:
 
 ```bash
@@ -79,7 +79,7 @@ b. NÃO - [Enviar um tíquete de suporte](/help/help-center-guide/help-center/ma
 +++**Usando Bitbucket?**
 
 a. SIM - Verificar [status.bitbucket.com](https://bitbucket.status.atlassian.com/).\
-b. NÃO - Verifique os erros do log de implantação nos [Logs de compilação e implantação](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html). Vá para a [Etapa 6](#step-6).
+b. NÃO - Verifique os erros do log de implantação nos [Logs de compilação e implantação](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/test/log-locations). Vá para a [Etapa 6](#step-6).
 
 +++
 
@@ -124,7 +124,7 @@ b. NÃO - Continue na [Etapa 11](#step-11).
 +++**Armazenamento disponível ok?**
 
 a. SIM - Continue com a [Etapa 11](#step-11).\
-b. NÃO - Revise [Gerenciar espaço em disco](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html).
+b. NÃO - Revise [Gerenciar espaço em disco](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/storage/manage-disk-space).
 
 +++
 
@@ -150,7 +150,7 @@ b. NÃO - Continue com a [Etapa 8](#step-8).
 
 +++**Elasticsearch sendo atualizado ou implantado?**
 
-a. SIM - falha nas etapas de atualização do Elasticsearch. Consulte [compatibilidade de software de Elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-upgrade.html). Se a atualização do Elasticsearch ainda não funcionar, [envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket). **Observação**: no Adobe Commerce na infraestrutura em nuvem, esteja ciente de que as atualizações de serviço não podem ser enviadas para o ambiente de produção sem aviso prévio de 48 horas úteis para nossa equipe de infraestrutura. Isso é necessário, pois precisamos garantir que tenhamos um engenheiro de suporte de infraestrutura disponível para atualizar sua configuração dentro do prazo desejado com tempo de inatividade mínimo para seu ambiente de produção. Portanto, 48 horas antes de quando suas alterações precisam estar em produção, [envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) detalhando a atualização de serviço necessária e informando a hora em que deseja que o processo de atualização tenha início.\
+a. SIM - falha nas etapas de atualização do Elasticsearch. Consulte [compatibilidade de software do Elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-upgrade.html). Se a atualização do Elasticsearch ainda não funcionar, [envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket). **Observação**: no Adobe Commerce na infraestrutura em nuvem, esteja ciente de que as atualizações de serviço não podem ser enviadas para o ambiente de produção sem aviso prévio de 48 horas úteis para nossa equipe de infraestrutura. Isso é necessário, pois precisamos garantir que tenhamos um engenheiro de suporte de infraestrutura disponível para atualizar sua configuração dentro do prazo desejado com tempo de inatividade mínimo para seu ambiente de produção. Portanto, 48 horas antes de quando suas alterações precisam estar em produção, [envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) detalhando a atualização de serviço necessária e informando a hora em que deseja que o processo de atualização tenha início.\
 b. NÃO - Continue na [Etapa 14](#step-14).
 
 +++
@@ -210,7 +210,7 @@ b. NÃO - Continue na [Etapa 19](#step-19).
 
 +++**Usando extensões de terceiros?**
 
-a. SIM - Tente [desabilitar as extensões de terceiros](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html) e executar a implantação (para ver se elas são a causa do problema), especialmente se houver nomes de extensão em quaisquer erros.\
+a. SIM - Tente [desabilitar as extensões de terceiros](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions) e executar a implantação (para ver se elas são a causa do problema), especialmente se houver nomes de extensão em quaisquer erros.\
 b. NÃO - Continue na [Etapa 20](#step-20).
 
 +++
