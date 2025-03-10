@@ -4,9 +4,9 @@ description: 'Este artigo fornece etapas de solução de problemas para resolver
 exl-id: 0a22beb7-18b0-47eb-a6b8-63b7322b392c
 feature: Observability
 role: Developer
-source-git-commit: 324cce66df1e4ab7ec4ef8fb6512c3acbabdf3ab
+source-git-commit: 27fed162416c619a08d757279a3405f1fa72e976
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 Este artigo fornece etapas de solução de problemas para resolver problemas de desempenho de infraestrutura em nuvem do Adobe Commerce usando o New Relic. Também fornece recursos para obter mais informações. Os seguintes problemas abordados na tabela abaixo com recursos recomendados são:
 
 * Pontuação baixa do Apdex
-* Alto uso da CPU
+* Alto uso do CPU
 * Operações de E/S altas
 * Interrupção
 
@@ -60,18 +60,18 @@ Este artigo fornece etapas de solução de problemas para resolver problemas de 
 </ol>
 </td>
 <td>
-<p>Para saber mais sobre a pontuação do Apdex do New Relic, consulte <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction">Documentação do New Relic &gt; Apdex APM &gt; Medir a satisfação do usuário</a>. Você também pode consultar <a href="/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-warning-alert.md">Alertas gerenciados para Adobe Commerce: alerta de aviso Apdex</a> em nossa base de dados de conhecimento de suporte.</p>
+<p>Para saber mais sobre a pontuação do Apdex do New Relic, consulte <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction">Documentação do New Relic &gt; Apdex APM &gt; Medir a satisfação do usuário</a>. Você também pode consultar <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-apdex-warning-alert">Alertas gerenciados para Adobe Commerce: alerta de aviso Apdex</a> em nossa base de dados de conhecimento de suporte.</p>
 </td>
 </tr>
 <tr>
 <td>
-<p>Alto uso da CPU:</p>
-<p>O alto uso da CPU pode indicar que há um serviço particularmente ocupado, como MySQL, Redis, etc.</p>
+<p>Alto uso do CPU:</p>
+<p>O alto uso do CPU pode indicar que há um serviço particularmente ocupado, como MySQL, Redis etc.</p>
 </td>
 <td>
 <ol>
 <li>Faça logon no <a href="https://login.newrelic.com/login">New Relic</a> &gt; Infraestrutura &gt; Processos.</li>
-<li>Revise os gráficos da CPU para ver se há algum processo paralisado ou de alto consumo que esteja usando mais de 100% do tempo da CPU e compare com a contagem do processador na instância. Preste atenção aos picos na utilização de recursos. Não é recomendável matar um processo, a menos que seja um cron travado.</li>
+<li>Revise os gráficos do CPU para ver se há algum processo paralisado ou de alto consumo que esteja usando mais de 100% do tempo do CPU e compare com a contagem de processadores na instância. Preste atenção aos picos na utilização de recursos. Não é recomendável matar um processo, a menos que seja um cron travado.</li>
 </ol>
 </td>
 <td>
@@ -121,7 +121,7 @@ Este artigo fornece etapas de solução de problemas para resolver problemas de 
 <li>Classifique por Mais demorado.</li>
 <li>Revise as principais consultas.
 
-Observação: <code>ATUALIZAR</code> ou <code>INSERT</code>as consultas são as consultas que mais consomem CPU.</li>
+Observação: <code>ATUALIZAR</code> ou <code>INSERT</code>as consultas são as consultas mais demoradas do CPU.</li>
 <li>Alterne para Throughput do seletor Classificar por e procure os processos que causaram a queda do throughput do banco de dados.</li>
 <li>Se precisar investigar mais, considere examinar serviços de terceiros.</li>
 </ol>
