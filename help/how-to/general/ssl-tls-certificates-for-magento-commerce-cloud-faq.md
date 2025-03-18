@@ -3,9 +3,9 @@ title: Certificados SSL (TLS) para Adobe Commerce na infraestrutura em nuvem
 description: Este artigo fornece respostas rápidas a perguntas sobre como obter certificados SSL (TLS) para o seu site do Adobe Commerce na nossa infraestrutura em nuvem.
 exl-id: 5a682d07-e4d7-4e81-a2ad-3232f2d8d9c1
 feature: Cloud, Console
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 7694e6cb739d73a28c902e95d324b1317f4daaf6
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Este artigo fornece respostas rápidas a perguntas sobre como obter certificados SSL (TLS) para o seu site do Adobe Commerce na nossa infraestrutura em nuvem.
 
-## Que certificado SSL/TLS o Adobe fornece?
+## Qual certificado SSL/TLS a Adobe fornece?
 
-O Adobe fornece um [Vamos criptografar o certificado SSL/TLS](https://letsencrypt.org/) validado pelo domínio para proteger o tráfego HTTPS de [!DNL Fastly]. O Adobe fornece um certificado para cada ambiente de arquitetura do plano Adobe Commerce na infraestrutura em nuvem Pro, Preparo e Adobe Commerce na infraestrutura em nuvem Arquitetura do plano inicial para proteger todos os domínios nesse ambiente.
+A Adobe fornece um [Vamos criptografar o certificado SSL/TLS](https://letsencrypt.org/) validado pelo domínio para proteger o tráfego HTTPS de [!DNL Fastly]. O Adobe fornece um certificado para cada ambiente de arquitetura de plano do Adobe Commerce na infraestrutura em nuvem Pro, Preparo e Adobe Commerce na infraestrutura em nuvem Starter para proteger todos os domínios nesse ambiente.
 
 ## O que é coberto por um certificado?
 
@@ -43,7 +43,7 @@ Se o site já estiver no ar e/ou se você puder apontar os URLs que serão usado
 
 ## Posso usar meu próprio certificado SSL/TLS?
 
-Você pode fornecer seu próprio certificado SSL/TLS em vez de usar o [Vamos criptografar o certificado](https://letsencrypt.org/) fornecido pelo Adobe.
+Você pode fornecer seu próprio certificado SSL/TLS em vez de usar o [Vamos criptografar o certificado](https://letsencrypt.org/) fornecido pela Adobe.
 
 No entanto, esse processo requer trabalho adicional para configurar e manter. Primeiro, você precisará gerar uma Solicitação de assinatura de certificado (CSR) para o nome de domínio do site (ou nome comum) e fornecê-la ao fornecedor de SSL para fornecer um certificado SSL.
 
@@ -54,8 +54,8 @@ Depois de ter o certificado SSL, envie um [tíquete de Suporte da Adobe Commerce
 
 >[!WARNING]
 >
->É importante não fazer upload dos arquivos do certificado diretamente no ticket. Caso contrário, os certificados serão considerados comprometidos e o Adobe precisará solicitar um novo certificado.
->Os arquivos devem ser carregados por meio de SFTP no servidor - não use outros métodos, como confirmar os arquivos no repositório (o que só deve ser feito para arquivos imutáveis que não contenham dados confidenciais).
+>É importante não fazer upload dos arquivos do certificado diretamente no ticket. Caso contrário, os certificados serão considerados comprometidos e a Adobe precisará solicitar um novo certificado.
+>Os arquivos devem ser carregados via SFTP no servidor para uma pasta de sua escolha, por exemplo, `var/ssl`, `/tmp/ssl`, etc. - não use outros métodos, como confirmar os arquivos no repositório (o que só deve ser feito para arquivos imutáveis que não contenham dados confidenciais).
 
 ## O nome do certificado
 
@@ -67,7 +67,7 @@ O domínio exibido no certificado é apenas o primeiro domínio adicionado ao ce
 
 ## Posso usar certificados TLS curingas?
 
-Certificados TLS curinga só podem ser usados com seu certificado personalizado e não com certificados Let&#39;s Encrypt da Adobe Commerce. Como parte de nossa otimização de TLS, o Adobe está encerrando o suporte a certificados TLS curinga. Estamos identificando e entrando em contato com comerciantes que usam um certificado curinga com certificados Adobe Let&#39;s Encrypt e estão configurados no console [!DNL Fastly] para Adobe Commerce. Pedimos que esses certificados curingas sejam substituídos por domínios exatos para garantir a cobertura TLS. Para substituir um certificado TLS curinga, visite a [seção de domínio](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration#manage-domains) do plug-in [!DNL Fastly]. Aqui, domínios exatos podem ser adicionados e o curinga pode ser removido. Observe que o DNS precisará apontar para [!DNL Fastly] para que esses novos domínios sejam roteados pela CDN. Depois que os domínios forem adicionados e o DNS for atualizado, um certificado [Let&#39;s Encrypt](https://letsencrypt.org/) correspondente será provisionado. Se você não remover um domínio que aponte para [!DNL Fastly] usando um curinga, o Adobe excluirá o certificado compartilhado. Isso pode resultar em uma interrupção do site se você não tiver o FQDN de URL configurado e o mesmo FQDN de URL configurado em seu DNS. Portanto, você deve confirmar se as URLs configuradas também têm uma correspondência um para um no DNS que aponta para [!DNL Fastly].
+Certificados TLS curinga só podem ser usados com seu certificado personalizado e não com certificados Let&#39;s Encrypt da Adobe Commerce. Como parte de nossa otimização de TLS, a Adobe está encerrando o suporte a certificados TLS curinga. Estamos identificando e entrando em contato com comerciantes que usam um certificado curinga com certificados Let&#39;s Encrypt da Adobe e estão configurados no console [!DNL Fastly] para o Adobe Commerce. Pedimos que esses certificados curingas sejam substituídos por domínios exatos para garantir a cobertura TLS. Para substituir um certificado TLS curinga, visite a [seção de domínio](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration#manage-domains) do plug-in [!DNL Fastly]. Aqui, domínios exatos podem ser adicionados e o curinga pode ser removido. Observe que o DNS precisará apontar para [!DNL Fastly] para que esses novos domínios sejam roteados pela CDN. Depois que os domínios forem adicionados e o DNS for atualizado, um certificado [Let&#39;s Encrypt](https://letsencrypt.org/) correspondente será provisionado. Se você não remover um domínio que aponte para [!DNL Fastly] usando um curinga, o Adobe excluirá o certificado compartilhado. Isso pode resultar em uma interrupção do site se você não tiver o FQDN de URL configurado e o mesmo FQDN de URL configurado em seu DNS. Portanto, você deve confirmar se as URLs configuradas também têm uma correspondência um para um no DNS que aponta para [!DNL Fastly].
 
 ## O que devo fazer se meu domínio não estiver mais apontando para o Adobe Commerce?
 
