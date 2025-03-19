@@ -1,17 +1,18 @@
 ---
-title: O login do [!DNL Admin] não está funcionando - tamanho máximo de sessão permitido excedido
-description: Resolva o problema ao tentar fazer logon no painel  [!DNL Admin] e o formulário for atualizado e você não conseguir fazer logon.
+title: O login do [!UICONTROL Admin] não está funcionando - tamanho máximo de sessão permitido excedido
+description: Resolva o problema ao tentar fazer logon no painel do [!UICONTROL Admin] e o formulário for atualizado e você não conseguir fazer logon.
 exl-id: 12789df0-6130-4e60-a92a-68ed329bd7fd
-source-git-commit: 8718148f6d9a40c9a71484a7fbc818a626e825e1
+source-git-commit: fe4a48581bdfe24da5082b69fb26a8032bd77334
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
 
-# O login do [!DNL Admin] não está funcionando - tamanho máximo de sessão permitido excedido
+# O login do [!UICONTROL Admin] não está funcionando - tamanho máximo de sessão permitido excedido
 
-Este artigo fornece uma correção para quando você tenta fazer logon no painel do [!DNL Admin], mas o formulário é atualizado e você não consegue fazer logon. Isso ocorre porque o Tamanho da Sessão [!DNL Admin] foi excedido.
+Este artigo fornece uma correção para quando você tenta fazer logon no painel [!UICONTROL Admin], mas o formulário é atualizado e você não pode fazer logon, ou está executando algumas ações no painel [!UICONTROL Admin] e é desconectado automaticamente.
+Isso é causado pelo [!UICONTROL Admin] [!UICONTROL Session Size] ter sido excedido.
 
 ## Versões afetadas
 
@@ -20,7 +21,10 @@ Este artigo fornece uma correção para quando você tenta fazer logon no painel
 
 ## Problema
 
-É impossível fazer logon no [!DNL Admin], pois o formulário continua sendo recarregado.
+Você tem um dos seguintes sintomas no [!UICONTROL Admin]:
+
+1. É impossível fazer logon no [!UICONTROL Admin], pois o formulário continua sendo recarregado.
+1. Você está sendo desconectado automaticamente ao tentar executar uma ação.
 
 ## Causa
 
@@ -41,7 +45,7 @@ Se você vir esses erros, a solução será:
 
 <u>Adobe Commerce na infraestrutura em nuvem</u>:
 
-(Essa configuração só é acessível no [!DNL Admin] quando o modo de implantação/operação é padrão ou de desenvolvedor. No entanto, somente o modo de implantação de Produção é permitido no ambiente de Nuvem.)
+(Esta configuração só é acessível no [!UICONTROL Admin] quando o modo de implantação/operação é *padrão* ou *desenvolvedor*. No entanto, somente o modo de implantação Produção é permitido no ambiente de nuvem.)
 
 Para aumentar esse valor, execute este comando no terminal (SSH):
 
@@ -53,6 +57,6 @@ Você pode definir como maior que *500000*, dependendo do tamanho máximo existe
 
 ## Leitura relacionada
 
-* [Tamanho da sessão](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#admin-sessions) no Guia de Sistemas de Administração.
-* [Modo de operação](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode) no Guia de Configuração.
-* [Conexões seguras](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) no Guia de Infraestrutura do Commerce na Nuvem.
+* [Tamanho da sessão](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#admin-sessions) no Guia de Sistemas de Administração
+* [Modo de operação](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode) no Guia de Configuração
+* [Conexões seguras](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) no Guia de Infraestrutura do Commerce na Nuvem
