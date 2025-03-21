@@ -4,9 +4,9 @@ description: Este artigo fornece uma solução para quando a loja e/ou o adminis
 exl-id: 4412d744-3066-4f78-bc45-8149614ce455
 feature: Products
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: b58e182c64b3fad508145d9078619ddbe0e2b887
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
@@ -51,4 +51,5 @@ O cloaking de origem é um recurso de segurança que permite que o Adobe Commerc
 
 ## Leitura relacionada
 
-[Perguntas frequentes sobre a habilitação do Fastly origin cloaking](/help/faq/general/fastly-origin-cloaking-enablement-faq.md) em nossa base de dados de conhecimento de suporte.
+* [Perguntas frequentes sobre a habilitação do Fastly origin cloaking](/help/faq/general/fastly-origin-cloaking-enablement-faq.md) em nossa base de dados de conhecimento de suporte
+* [Lista de verificação para configurar um novo domínio](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/checklist-for-setting-up-a-new-domain) em nossa knowledge base de suporte
