@@ -5,9 +5,9 @@ description: Aplique um patch Isolado para corrigir [!DNL critical, important, a
 feature: Compliance, Security
 role: Developer
 exl-id: 567e6ad2-704e-461f-a54d-75f6bd96e996
-source-git-commit: d669c097767b5855c6bd747a0ab11b3520f405a0
+source-git-commit: aba9548c0b5a06ffd0cddce630e53e5664bb9aac
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,10 @@ Infraestrutura do Adobe Commerce na nuvem, Adobe Commerce no local e Magento Ope
 * 2.4.4-p11 e anterior
 
 ## Solução para software Adobe Commerce na nuvem, Adobe Commerce no local e Magento Open Source
+
+>[!NOTE]
+>
+>Esse problema foi resolvido pela [última atualização de patches de nuvem](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-patches#latest). Tentar aplicar o patch isolado quando a correção já estiver em vigor na atualização de patches em nuvem pode causar falhas de instalação.
 
 Para ajudar a resolver a vulnerabilidade dos produtos e versões afetados, você deve aplicar o patch Isolado do [!DNL CVE-2025-24434], dependendo da sua versão do Adobe Commerce/Magento Open Source.
 
@@ -97,4 +101,4 @@ Considerando que não é possível verificar facilmente se o problema foi corrig
 Atualizações de segurança disponíveis para o Adobe Commerce:
 
 * [Boletim de Segurança do Adobe ([!DNL APSB25-08])](https://helpx.adobe.com/security/products/magento/apsb25-08.html)
-* [As atualizações de Segurança mais recentes disponíveis para o Adobe Commerce)](https://helpx.adobe.com/security/products/magento.html)
+* [As atualizações de Segurança mais recentes disponíveis para o Adobe Commerce](https://helpx.adobe.com/security/products/magento.html)
