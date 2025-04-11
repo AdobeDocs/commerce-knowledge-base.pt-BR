@@ -3,7 +3,7 @@ title: Linha direta de notificação Adobe Commerce P1
 description: Este artigo fornece os números de linha direta de notificação P1 da Adobe Commerce que podem ser usados para relatar um incidente P1 e explica quais informações fornecer.
 feature: Communications
 exl-id: 48c4fe93-676e-4c69-a96c-8fb3e6872973
-source-git-commit: c5e94c6407394cd905ea470628d28db2c2c6c0ed
+source-git-commit: 8c0c128f2469086c44dcea0e9edc87f934578a69
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Este artigo fornece os números de linha direta de notificação P1 da Adobe Com
 
 ## Definição de incidente P1
 
-Conforme definido nos [Termos e Condições dos Serviços de Suporte da Adobe Commerce](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Magento-Support-Services-Terms-and-Conditions.pdf): &quot;Um incidente P1 é um incidente de produção catastrófico no Serviço que afeta seriamente o Site do Cliente, fazendo com que o site pare de operar ou aceitar pedidos, ou por causa do qual o Site do Cliente está completamente inativo ou não está funcionando, ou que resulta em perda de dados de produção e não existe nenhuma solução alternativa. Incidentes P1 devem ser relatados no número de telefone P1 para Adobe gratuitos para agilizar a resolução. A Adobe envidará esforços contínuos, com escalonamento apropriado para a alta administração, para fornecer uma solução para um incidente P1 assim que for comercialmente razoável.&quot;
+Conforme definido nos [Termos e Condições dos Serviços de Suporte da Adobe Commerce](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Magento-Support-Services-Terms-and-Conditions.pdf): &quot;Um incidente P1 é um incidente de produção catastrófico no Serviço que afeta seriamente o Site do Cliente, fazendo com que o site pare de operar ou aceitar pedidos, ou por causa do qual o Site do Cliente está completamente inativo ou não está funcionando, ou que resulta em perda de dados de produção e não existe nenhuma solução alternativa. Incidentes P1 devem ser relatados no número de telefone P1 gratuito da Adobe para agilizar a resolução. A Adobe usará esforços contínuos, com escalonamento apropriado para a alta administração, para fornecer uma solução para um incidente P1 assim que for comercialmente razoável.&quot;
 
 ## Políticas de telefone de linha direta de notificação P1
 
@@ -40,7 +40,7 @@ Observação: Se você acessar a caixa postal por qualquer motivo, deixe suas in
    * Itália: (+39) 0269 682 818 (No primeiro menu, pressione 6 para a linha direta Adobe Commerce P1)
    * Suécia: (+46) 0200 810 330 (No primeiro menu, pressione 6 para a linha direta Adobe Commerce P1)
 * APAC
-   * Austrália: (+61) 1 800 358 683 (no primeiro menu, pressione 6 para a linha direta Adobe Commerce P1)
+   * Austrália: (+61) 1 800 358 683 (no primeiro menu, pressione 3 para obter a linha direta Adobe Commerce P1)
    * Cingapura: (+65) 1 800 818 5220 (No primeiro menu, pressione 6 para obter a linha direta Adobe Commerce P1)
    * Filipinas (chamada a cobrar): (+63) 1 800 1441 0660 (no primeiro menu, pressione 6 para obter a linha direta Adobe Commerce P1)
    * Nova Zelândia (chamada tarifada): (+64) 050 861 4264 (No primeiro menu, pressione 6 para obter a linha direta Adobe Commerce P1)
