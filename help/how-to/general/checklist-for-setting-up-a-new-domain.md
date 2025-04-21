@@ -3,16 +3,16 @@ title: Lista de verificação para configurar um novo  [!DNL domain]
 description: Esta é uma lista de verificação de como configurar um novo [!DNL domain]  no Adobe Commerce na infraestrutura em nuvem.
 exl-id: bfe0582d-2c6d-4814-908f-dfd8c898bef7
 feature: Cache
-source-git-commit: 625ed2c7ab79f7bca9a979903e97c44c875e607c
+source-git-commit: f7b246088e3580922bd3389b2992e5dd8f97ff7a
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
 
 # Lista de verificação para configurar um novo [!DNL domain]
 
-Esta é uma lista de verificação de como configurar um novo [!DNL domain] no Adobe Commerce na infraestrutura em nuvem. Isso se aplica independentemente de você estar tentando simplesmente adicionar um novo domínio ou substituir o domínio atual por um novo.
+Esta lista de verificação explica como configurar um novo [!DNL domain] no Adobe Commerce na infraestrutura em nuvem. Ela se aplica se você estiver adicionando um novo domínio ou substituindo o atual. Também se aplica após obter um novo ambiente de preparo (consulte a Etapa 4).
 
 ## Produtos e versões afetados
 
@@ -65,3 +65,4 @@ Adobe Commerce na infraestrutura em nuvem, [todas as versões com suporte](https
 ## Leitura relacionada
 
 * [Configurar vários sites ou lojas: Adicionar Novo [!DNL Domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#add-new-domains) em nosso guia do usuário.
+* [Site não acessível devido ao encobrimento de origem](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/production-site-not-accessible-due-to-origin-cloaking)
