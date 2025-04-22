@@ -2,14 +2,17 @@
 title: Como obter e aplicar o [!UICONTROL security patch]
 description: Este artigo fornece instruções sobre como obter e aplicar um [!UICONTROL security patch] que foi lançado, mas as instruções não estão disponíveis.
 exl-id: 55f2be73-2ccc-4750-a7bd-3058fc2d5107
-source-git-commit: 06bc239cb5b1a894d2a60236a9b32b2b0c4eba80
+source-git-commit: 43c8308c6539c53f60fb6457047898a2edd46532
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
 
 # Como obter e aplicar um [!UICONTROL security patch]
+
+>[!NOTE]
+>Se você tiver uma instalação no local e não estiver usando sistemas de controle de versão como o [!DNL CVS] ou o [!DNL GitHub] para gerenciar seu código, talvez o host da Web possa ajudá-lo a aplicar o patch. Entre em contato com eles para obter suporte
 
 Este artigo fornece instruções sobre como obter e aplicar um [!UICONTROL security patch] que foi lançado, mas as instruções não estão disponíveis.
 
@@ -17,18 +20,17 @@ Este artigo fornece instruções sobre como obter e aplicar um [!UICONTROL secur
 
 Adobe Commerce no local e na nuvem - Todas as versões
 
+
 ## Causa
 
-A maioria dos [!UICONTROL Security Patches] foi lançada sem nenhum arquivo físico ou hotfix para aplicar.
+A maioria dos [!UICONTROL Security Patches] foi lançada sem nenhum patch ou hotfix isolado para ser aplicada e exigirá atualização para a versão [!UICONTROL Security Patch].
 
 ## Solução
 
 
 ### Caso I:
 
-Se um arquivo/hotfix de patch físico for mencionado nas Notas de versão:
-
-* Baixe o arquivo da seção de download de [https://account.magento.com](https://account.magento.com/downloads/view/). (Os usuários com acesso compartilhado devem primeiro receber privilégios de download do proprietário da conta/titular da licença)
+* Se um arquivo/hotfix de patch isolado for mencionado nas [Notas de Versão](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-tools-suite), baixe o arquivo da seção de download de [https://account.magento.com](https://account.magento.com/downloads/view/). Os usuários com acesso compartilhado devem primeiro receber privilégios de download do proprietário da conta/titular da licença.
 
 **Avisos:**
 
@@ -42,7 +44,9 @@ Se você não tiver o suporte estendido, poderá solicitar suporte para comparti
 
 ### Caso II:
 
-Se um arquivo/hotfix de patch físico não for mencionado nas Notas de versão:
+Os patches isolados são fornecidos apenas em casos excepcionais, e não é a forma preferida de implementar correções de segurança.
+
+Se um arquivo/hotfix de patch isolado não for mencionado nas Notas de versão:
 
 * **Nuvem:**
 
@@ -51,8 +55,8 @@ Se um arquivo/hotfix de patch físico não for mencionado nas Notas de versão:
 
 * **Nuvem ou no Local:**
 
-* Se um arquivo/hotfix de patch físico não estiver disponível, [atualize a versão do Adobe Commerce na Nuvem](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) 2.4.X para a versão de patch mais recente 2.4.X-pY.
-* Se um arquivo/hotfix de patch físico não estiver disponível, [atualize a versão do Adobe Commerce no local](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade) 2.4.X para a versão de patch mais recente 2.4.X-pY.
+* Se um arquivo/hotfix de patch isolado não estiver disponível, [atualize a versão do Adobe Commerce na nuvem](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) 2.4.X para a versão de patch mais recente 2.4.X-pY.
+* Se um arquivo/hotfix de patch isolado não estiver disponível, [atualize a versão do Adobe Commerce no local](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade) 2.4.X para a versão de patch mais recente 2.4.X-pY.
 
 ## Leitura relacionada
 
