@@ -2,9 +2,9 @@
 title: Restaurar um instantâneo do banco de dados de preparo ou produção
 description: Este artigo mostra como restaurar um instantâneo do banco de dados de Preparo ou Produção na Adobe Commerce na infraestrutura em nuvem.
 exl-id: 1026a1c9-0ca0-4823-8c07-ec4ff532606a
-source-git-commit: c8cd2bf97681527a32a403a413c5fa823d07abed
+source-git-commit: 20aaeacc4f71725c005e7bec3b9d6ac3aa844170
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -160,3 +160,4 @@ Em nossa documentação do desenvolvedor:
 
 * [Importar código: Importar o banco de dados](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)
 * [[!DNL Snapshots] e [!DNL backup] gerenciamento: [!DNL Dump] seu banco de dados](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
+* [Backup (instantâneo) na nuvem: Perguntas frequentes](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/faq/backup-snapshot-on-cloud-faq)
