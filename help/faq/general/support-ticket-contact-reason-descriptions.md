@@ -2,7 +2,7 @@
 title: Descrições do motivo do problema do tíquete de suporte
 description: Este artigo lista as opções de campo **Motivo do problema** do tíquete de suporte e fornece descrições detalhadas de cada uma.
 exl-id: 678505fe-8c8d-4963-8dee-eec0a61a2daf
-source-git-commit: d3523be967f16a3e65025917fa6ac65097214100
+source-git-commit: e1f13098e3e0894b1d3acf9ad38fb49f6a5a54f6
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Este artigo lista as opções de campo **Motivo do problema** do tíquete de sup
   </tr>
   <tr>
     <td>Incidente de infraestrutura</td>
-    <td>Você precisa de ajuda com o Adobe Commerce na infraestrutura de nuvem, como implantações paralisadas, acesso de [!DNL New Relic], acesso SSH/sFTP, atualizações de serviço ([!DNL OpenSearch], [!DNL MariaDB]/[!DNL MySQL], [!DNL Redis], [!DNL RabbitMQ], mas não incluindo PHP), certificados SSL, etc. **(Não se aplica a [!DNL Live Search])**</td>
+    <td>Você precisa de ajuda com o Adobe Commerce na infraestrutura de nuvem, como implantações paralisadas, acesso de [!DNL New Relic], acesso SSH/sFTP, atualizações de serviço ([!DNL OpenSearch], [!DNL MariaDB]/[!DNL MySQL], [!DNL Redis], [!DNL RabbitMQ], mas não incluindo PHP), certificados SSL, etc.<strong> (Não se aplica a [!DNL Live Search])</strong>.</td>
   </tr>  
 </tbody>
 </table>
