@@ -2,9 +2,9 @@
 title: Descrições do motivo do problema do tíquete de suporte
 description: Este artigo lista as opções de campo **Motivo do problema** do tíquete de suporte e fornece descrições detalhadas de cada uma.
 exl-id: 678505fe-8c8d-4963-8dee-eec0a61a2daf
-source-git-commit: e1f13098e3e0894b1d3acf9ad38fb49f6a5a54f6
+source-git-commit: f502c913964103b88bcb00f942f70439394148f5
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -53,3 +53,7 @@ Este artigo lista as opções de campo **Motivo do problema** do tíquete de sup
   </tr>  
 </tbody>
 </table>
+
+## Leitura relacionada
+
+* [Envie um caso de suporte](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) no Guia do Usuário de Suporte da Experience League para Adobe Commerce.

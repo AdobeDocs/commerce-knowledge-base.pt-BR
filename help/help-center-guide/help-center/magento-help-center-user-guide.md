@@ -3,7 +3,7 @@ title: Guia do usuário de suporte da Experience League para Adobe Commerce
 description: Saiba como enviar um tíquete de suporte ao Suporte da Experience League, fornecer acesso compartilhado a contas e navegar pela Base de conhecimento da Adobe Commerce.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 46c19ec1185aa176beff9e5039a324a1f11b9aa1
+source-git-commit: 145fc1dfc197cde39d55ceac4d02ecee6c641459
 workflow-type: tm+mt
 source-wordcount: '2966'
 ht-degree: 0%
@@ -185,7 +185,7 @@ Para enviar um novo tíquete de suporte usando a página de conta da Adobe Comme
 
 1. A página de suporte da Adobe Experience League é carregada para você.
 1. Selecione **[!UICONTROL Open Ticket]** no menu à esquerda.
-1. Preencha os campos.
+1. Preencha os [campos](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/faq/support-ticket-contact-reason-descriptions).
 1. Clique em **Enviar**.
 
 #### *Verifique o erro de seu endereço de email* na página da conta da Adobe Commerce {#verify-email-address-error}
@@ -279,8 +279,7 @@ Para enviar um novo tíquete de suporte usando o Cloud Console, siga estas etapa
 1. Selecione **[!UICONTROL Support]** no menu do usuário.
 1. A página **[!UICONTROL My Tickets]** é carregada.
 1. Clique em **[!UICONTROL Submit a ticket]** no canto superior direito.
-1. Preencha os campos.
-1. Clique em **Enviar**.
+1. Preencha os [campos](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/faq/support-ticket-contact-reason-descriptions).
 1. Clique em **[!UICONTROL Submit]**.
 
 ### Linha direta Adobe Commerce P1 {#P1-hotline}
