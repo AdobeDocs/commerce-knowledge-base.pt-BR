@@ -3,9 +3,9 @@ title: 'Backup (instantâneo) na nuvem: Perguntas frequentes'
 description: Este artigo aborda os conceitos básicos para fazer backup de seus ambientes com snapshots no Adobe Commerce na infraestrutura em nuvem.
 exl-id: 0077db74-3e7e-4c98-b215-7f6c089f49e8
 feature: Cloud, Iaas
-source-git-commit: 0958a8923e27c1341f4b536812b26205685b2b81
+source-git-commit: cfaa7043eed9cc5369f5317b10609d97a91d5861
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '560'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,9 @@ Este artigo aborda o backup de seus ambientes com instantâneos no Adobe Commerc
 ### Ambientes de preparo e produção
 
 * Os instantâneos manuais não estão disponíveis para ambientes de preparo e produção no plano Pro.
-* Instantâneos automáticos são criados **independentemente do estado ativo** do site (instantâneos também criados para sites que ainda não foram inicializados). Os backups automáticos não são acessíveis publicamente, pois são armazenados em um sistema separado. Você pode [enviar um tíquete de Suporte da Adobe Commerce](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) para solicitar um backup especial ou restaurar de um backup específico fornecendo a data, a hora e o fuso horário no tíquete. Além disso, observe que o suporte não executa a reversão ou restauração do banco de dados para você - eles recuperam o instantâneo, mas você mesmo deve restaurar o banco de dados.
+* Instantâneos automáticos são criados **independentemente do estado ativo** do site (instantâneos também são criados para sites que ainda não foram inicializados). Os backups automáticos não são acessíveis publicamente, pois são armazenados em um sistema separado.
+Você pode [enviar um tíquete de Suporte da Adobe Commerce](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) para solicitar um backup especial ou restaurar de um backup específico fornecendo a data, a hora e o fuso horário no tíquete. O suporte não gera instantâneos manuais sob demanda.
+Além disso, observe que o suporte não executa a reversão ou restauração do banco de dados para você - eles recuperam o instantâneo, mas você mesmo deve restaurar o banco de dados.
 * Os backups são criados usando os **instantâneos criptografados do Amazon Web Services Elastic Block Store (AWS EBS)**.
 * Os snapshots do ambiente incluem o sistema completo (sistema de arquivos e banco de dados).
 * O tempo de retenção para instantâneos automáticos **é diferente** e segue [o agendamento](/docs/commerce-cloud-service/user-guide/architecture/pro-architecture.html?lang=en#backup-and-disaster-recovery).
