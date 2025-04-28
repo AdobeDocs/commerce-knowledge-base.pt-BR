@@ -4,9 +4,9 @@ description: Este artigo fornece soluções para o problema do Adobe Commerce em
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
 feature: Catalog Management, Search
 role: Developer
-source-git-commit: b0d4b2e541c42095d6d09b91ba6f390064c89af6
+source-git-commit: fec99ebd6b03f2dc1b70c0ea388935dc5e60ad57
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -136,14 +136,7 @@ Se você vir os dados corretos em `cde_product_attributes_feed`:
 
 ### Sincronizar após alteração na configuração da API
 
-(Problema conhecido) Se você alterou a configuração da API, o que resulta em uma alteração na ID do espaço de dados e descobriu que as alterações no catálogo não estão mais sincronizadas, execute os seguintes comandos:
-
-```bash
-bin/magento saas:resync --feed products
-bin/magento saas:resync --feed productattributes
-```
-
-Execute os seguintes comandos para ressincronizar os feeds:
+(Problema conhecido) Se você alterou a configuração da API, o que resulta em uma alteração na ID do espaço de dados e descobriu que as alterações no catálogo não estão mais sincronizadas, execute os seguintes comandos para sincronizar novamente os feeds:
 
 ```
 bin/magento saas:resync --feed productattributes --cleanup-feed
@@ -158,6 +151,9 @@ bin/magento saas:resync --feed categoryPermissions --cleanup-feed
 ```
 
 [Enviar uma solicitação de suporte](https://experienceleague.adobe.com/home?support-tab=home#support) para solicitar a reindexação do índice do Live Search. Na descrição do problema, inclua o espaço de dados/ID do ambiente encontrado no painel de administração em **[!UICONTROL System]** > **[!UICONTROL Services]** > **[!UICONTROL Commerce Services Connector]**.
+
+>[!IMPORTANT]
+>Use a opção `--cleanup-feed` somente se tiver atualizado a configuração da API ou se você executar o comando `saas:resync` com a opção [—dry-run](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-export-cli-commands#--dry-run). Usar a opção `--cleanup-feed` em outros casos gera perda de dados e problemas de sincronização de dados.
 
 ## Leitura relacionada
 
