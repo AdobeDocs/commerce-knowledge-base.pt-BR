@@ -1,6 +1,6 @@
 ---
 title: 'MDVA-37748: a consulta do GraphQL retorna produtos não atribuídos ao catálogo compartilhado'
-description: O patch MDVA-37748 corrige o problema em que uma consulta do GraphQL retorna produtos não atribuídos a um catálogo compartilhado. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.5 está instalada. A ID do patch é MDVA-37748. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.4.
+description: O patch MDVA-37748 corrige o problema em que uma consulta do GraphQL retorna produtos não atribuídos a um catálogo compartilhado. Este patch está disponível quando a [Ferramenta de correções de qualidade (QPT)](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.5 está instalada. A ID do patch é MDVA-37748. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.4.
 exl-id: 1f441882-dc14-433c-aa03-ff22483ce5a7
 feature: B2B, GraphQL, Catalog Management, Categories, Products
 role: Admin
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # MDVA-37748: a consulta do GraphQL retorna produtos não atribuídos ao catálogo compartilhado
 
-O patch MDVA-37748 corrige o problema em que uma consulta do GraphQL retorna produtos não atribuídos a um catálogo compartilhado. Este patch está disponível quando a [Ferramenta de Patches de Qualidade (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.5 está instalada. A ID do patch é MDVA-37748. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.4.
+O patch MDVA-37748 corrige o problema em que uma consulta do GraphQL retorna produtos não atribuídos a um catálogo compartilhado. Este patch está disponível quando a [Ferramenta de Patches de Qualidade (QPT)](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.5 está instalada. A ID do patch é MDVA-37748. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.4.
 
 ## Produtos e versões afetados
 
@@ -27,7 +27,7 @@ Adobe Commerce (todos os métodos de implantação) 2.4.2 - 2.4.2-p2
 
 >[!NOTE]
 >
->O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com a sua versão do Adobe Commerce, atualize o pacote `magento/quality-patches` para a versão mais recente e verifique a compatibilidade na [[!DNL Quality Patches Tool]: página Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
+>O patch pode se tornar aplicável a outras versões com as novas versões da Ferramenta de patches de qualidade. Para verificar se o patch é compatível com a sua versão do Adobe Commerce, atualize o pacote `magento/quality-patches` para a versão mais recente e verifique a compatibilidade na [[!DNL Quality Patches Tool]: página Procurar patches](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html?lang=pt-BR). Use a ID do patch como palavra-chave de pesquisa para localizar o patch.
 
 ## Problema
 
@@ -320,8 +320,8 @@ Apenas &quot;Produto 2&quot; é retornado, mas `total_count` mostra dois.
 
 Para aplicar patches individuais, use os links a seguir, dependendo do método de implantação:
 
-* Adobe Commerce ou Magento Open Source no local: [Guia de Atualização de Software > Aplicar Patches](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage) na documentação do desenvolvedor.
-* Adobe Commerce na infraestrutura em nuvem: [Atualizações e patches > Aplicar patches](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) na documentação do desenvolvedor.
+* Adobe Commerce ou Magento Open Source no local: [Guia de Atualização de Software > Aplicar Patches](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/tools/quality-patches-tool/usage) na documentação do desenvolvedor.
+* Adobe Commerce na infraestrutura em nuvem: [Atualizações e patches > Aplicar patches](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) na documentação do desenvolvedor.
 
 ## Leitura relacionada
 

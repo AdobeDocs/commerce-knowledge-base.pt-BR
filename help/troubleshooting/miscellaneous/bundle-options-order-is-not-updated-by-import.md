@@ -29,7 +29,7 @@ Você tem um arquivo .csv válido contendo produtos agrupados.
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. Importe o arquivo usando a [funcionalidade de importação](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/import/data-import).
+1. Importe o arquivo usando a [funcionalidade de importação](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/systems/data-transfer/import/data-import).
 1. Abra a página do produto do pacote.
 
 <u>Resultados esperados</u>:
@@ -46,7 +46,7 @@ A posição das opções não foi declarada explicitamente.
 
 ## Solução
 
-1. Declare uma posição explicitamente para cada opção no parâmetro `position` da coluna `bundle_values` no arquivo .csv. Para obter instruções detalhadas, consulte [Editar os dados do produto](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/examples/data-transfer-bundle-products#method-2-edit-the-product-data) no guia do usuário.
+1. Declare uma posição explicitamente para cada opção no parâmetro `position` da coluna `bundle_values` no arquivo .csv. Para obter instruções detalhadas, consulte [Editar os dados do produto](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/systems/data-transfer/examples/data-transfer-bundle-products#method-2-edit-the-product-data) no guia do usuário.
 1. Repita a operação de importação.
 
-Para obter informações gerais sobre Importação, consulte o [Produto do Pacote de Importação](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/examples/data-transfer-bundle-products) no nosso guia do usuário.
+Para obter informações gerais sobre Importação, consulte o [Produto do Pacote de Importação](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/systems/data-transfer/examples/data-transfer-bundle-products) no nosso guia do usuário.

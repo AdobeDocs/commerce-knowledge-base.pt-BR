@@ -29,15 +29,15 @@ Isso acontece quando as Variáveis não são atualizadas após a adição de um 
 
 ## Solução
 
-1. Se o domínio estiver redirecionando no mesmo ambiente, verifique se você configurou as [Variáveis](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#modify-variables).
+1. Se o domínio estiver redirecionando no mesmo ambiente, verifique se você configurou as [Variáveis](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html?lang=pt-BR#modify-variables).
 1. Se o domínio estiver redirecionando para outro ambiente, verifique se você configurou o serviço [!DNL Fastly] correto executando o seguinte comando: `bin/magento fastly:conf:get -s`
 
 >[!NOTE]
 >
->Você pode encontrar as credenciais da API [!DNL Fastly] fazendo logon em cada ambiente (Preparação/Produção) e verificando o arquivo `/mnt/shared/fastly_tokens.txt`. Para obter mais informações, consulte [configurar [!DNL Fastly] serviços](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) no Guia de Infraestrutura do Commerce na Nuvem.
+>Você pode encontrar as credenciais da API [!DNL Fastly] fazendo logon em cada ambiente (Preparação/Produção) e verificando o arquivo `/mnt/shared/fastly_tokens.txt`. Para obter mais informações, consulte [configurar [!DNL Fastly] serviços](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=pt-BR) no Guia de Infraestrutura do Commerce na Nuvem.
 
 Se ambas as configurações acima estiverem corretas, envie um tíquete de suporte.
 
 ## Leitura relacionada
 
-* [Lista de verificação para configurar um novo domínio](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/checklist-for-setting-up-a-new-domain.html) em nossa knowledge base de suporte.
+* [Lista de verificação para configurar um novo domínio](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/checklist-for-setting-up-a-new-domain.html?lang=pt-BR) em nossa knowledge base de suporte.

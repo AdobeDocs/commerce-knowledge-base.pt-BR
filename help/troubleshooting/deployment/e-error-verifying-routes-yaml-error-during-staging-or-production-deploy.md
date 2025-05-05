@@ -80,7 +80,7 @@ Para resolver a implantação bloqueada, atualize o arquivo `routes.yaml` para c
 
 1. СConfirme e envie suas alterações para reimplantar seu projeto.
 
-Para obter instruções detalhadas sobre como atualizar a configuração de rota, consulte [Cloud para Adobe Commerce > Configurar rotas](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml) na documentação do desenvolvedor.
+Para obter instruções detalhadas sobre como atualizar a configuração de rota, consulte [Cloud para Adobe Commerce > Configurar rotas](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml) na documentação do desenvolvedor.
 
 >[!NOTE]
 >

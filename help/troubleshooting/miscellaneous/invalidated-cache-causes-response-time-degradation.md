@@ -67,4 +67,4 @@ Normalmente, o cache é invalidado devido ao seguinte:
 ## Recomendação
 
 1. Evite liberar o cache da CLI do Commerce.
-1. Configure indexadores para **Atualizar por agendamento** em vez de **Atualizar no modo de salvamento**, pois o último aciona a reindexação completa. Para referência, consulte [Gerenciar os indexadores > Configurar indexadores](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers) na documentação do desenvolvedor.
+1. Configure indexadores para **Atualizar por agendamento** em vez de **Atualizar no modo de salvamento**, pois o último aciona a reindexação completa. Para referência, consulte [Gerenciar os indexadores > Configurar indexadores](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers) na documentação do desenvolvedor.

@@ -43,4 +43,4 @@ A seguinte mensagem é mostrada nos logs (e pode ser observada em [!DNL New Reli
 
 ## Leitura relacionada
 
-* [Instalar [!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html) em nosso Guia do Live Search
+* [Instalar [!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=pt-BR) em nosso Guia do Live Search

@@ -53,21 +53,21 @@ Consulte uma das seções a seguir para obter uma solução para o seu problema.
 
 ### Solução para configurações perdidas [!DNL OpCache] {#solution-missed-opcache-settings}
 
-Consulte [[!DNL Cron] interrompido devido a configurações incorretas ou ausentes [!DNL OpCache] configurações](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/crons-blocked-running-missing-opache-settings) em nossa base de dados de conhecimento Commerce.
+Consulte [[!DNL Cron] interrompido devido a configurações incorretas ou ausentes [!DNL OpCache] configurações](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/crons-blocked-running-missing-opache-settings) em nossa base de dados de conhecimento Commerce.
 
 ### Solução para desabilitados pela equipe de infraestrutura {#solution-disabled-by-infrastructure-team}
 
 1. Verifique os tíquetes de suporte anteriores em que o site estava inativo ou não estava respondendo.
 1. Em seguida, verifique se a equipe de infraestrutura indicou que a desativou.
 1. Verifique se você solucionou os problemas/preocupações apresentados pela equipe de infraestrutura.
-1. Envie uma [Solicitação de suporte](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-tickets) se precisar de mais assistência para solicitar a reativação de [!DNL cron] e explicar como você resolveu os problemas indicados pela equipe de infraestrutura.
+1. Envie uma [Solicitação de suporte](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-tickets) se precisar de mais assistência para solicitar a reativação de [!DNL cron] e explicar como você resolveu os problemas indicados pela equipe de infraestrutura.
 
 ### Falha na solução para implantação {#solution-deployment-failed}
 
 Verifique os logs de implantação:
 
-* [Exiba e gerencie logs](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations) em nosso Guia do Commerce na Infraestrutura em Nuvem.
-* [Verificando o log de implantação se a Interface do Usuário da Nuvem tem *`log snipped`* erro](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error) em nossa Base de Dados de Conhecimento Commerce.
+* [Exiba e gerencie logs](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/test/log-locations) em nosso Guia do Commerce na Infraestrutura em Nuvem.
+* [Verificando o log de implantação se a Interface do Usuário da Nuvem tem *`log snipped`* erro](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error) em nossa Base de Dados de Conhecimento Commerce.
 
 1. Se a implantação falhou durante a etapa `setup:upgrade`, o [!DNL cron] não terá sido reativado.
 Por exemplo: você verá esta linha no log de implantação:
@@ -80,4 +80,4 @@ Por exemplo: você verá esta linha no log de implantação:
 ...<br>
    ```  [2024-02-07T10:50:09.579005+00:00] INFO: Enable cron```
 
-**Envie uma [Solicitação de suporte](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-tickets) se precisar de mais ajuda.**
+**Envie uma [Solicitação de suporte](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-tickets) se precisar de mais ajuda.**

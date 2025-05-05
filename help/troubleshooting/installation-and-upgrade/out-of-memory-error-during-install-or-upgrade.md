@@ -40,7 +40,7 @@ O também pode ser exibido na linha de comando.
 
 ## Solução {#solution}
 
-Recomendamos que você [aloque 2GB de memória para o PHP](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings) em nossa documentação do desenvolvedor para ter certeza de que sua instalação ou atualização terá êxito.
+Recomendamos que você [aloque 2GB de memória para o PHP](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/prerequisites/php-settings) em nossa documentação do desenvolvedor para ter certeza de que sua instalação ou atualização terá êxito.
 
 Se você já tiver feito isso, crie um arquivo de troca em sua máquina. Um computador Linux usa *espaço de troca* se precisar de mais recursos de memória e a RAM estiver cheia. O espaço de permuta é usado para páginas inativas na memória.
 

@@ -29,7 +29,7 @@ Esse é um recurso destinado a garantir que os dados e as interações do desenv
 
 ## Solução
 
-Se quiser que o Google Analytics sempre esteja habilitado, defina a variável de implantação `ENABLE_GOOGLE_ANALYTICS = true`, conforme descrito em [Implantar variáveis](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy#enable_google_analytics) na documentação do desenvolvedor.
+Se quiser que o Google Analytics sempre esteja habilitado, defina a variável de implantação `ENABLE_GOOGLE_ANALYTICS = true`, conforme descrito em [Implantar variáveis](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy#enable_google_analytics) na documentação do desenvolvedor.
 
 >[!NOTE]
 >

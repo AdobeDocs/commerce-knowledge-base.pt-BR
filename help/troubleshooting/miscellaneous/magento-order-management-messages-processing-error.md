@@ -68,4 +68,4 @@ Para resolver o problema, execute a seguinte instrução [!DNL SQL] na CLI, que 
 ## Leitura relacionada
 
 * Documentação do OMS [Tutorial de Instalação do Conector OMS](https://commerce-docs.github.io/oms-documentation-archive/integration/connector/setup-tutorial/)
-* [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce
+* [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce

@@ -40,7 +40,7 @@ Estas são as causas mais comuns de problemas:
 
 Durante o pré-lançamento, os pacotes de versão estão disponíveis em dois locais:
 
-1. Através do Composer em [magento.com](https://repo.magento.com/) usando o MageID principal da conta. Para obter mais detalhes sobre como usar o Composer, consulte [Instalar o Adobe Commerce usando o Composer](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer) na documentação do desenvolvedor.
+1. Através do Composer em [magento.com](https://repo.magento.com/) usando o MageID principal da conta. Para obter mais detalhes sobre como usar o Composer, consulte [Instalar o Adobe Commerce usando o Composer](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/composer) na documentação do desenvolvedor.
 1. **Minha Conta** > **Downloads** em [account.magento.com](https://account.magento.com/customer/account/login).
 
 >[!NOTE]

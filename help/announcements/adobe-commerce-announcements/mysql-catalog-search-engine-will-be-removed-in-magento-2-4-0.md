@@ -36,11 +36,11 @@ O motivo para a remoção do mecanismo de pesquisa MySQL é que o Elasticsearch 
 </tr>
 <tr>
 <td class="wysiwyg-text-align-center" style="width: 133px;">MySQL</td>
-<td style="width: 478.2px;">Você deve instalar o Elasticsearch. Consulte <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search">Instalar e configurar o Elasticsearch</a> na documentação do desenvolvedor.</td>
+<td style="width: 478.2px;">Você deve instalar o Elasticsearch. Consulte <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/search/overview-search">Instalar e configurar o Elasticsearch</a> na documentação do desenvolvedor.</td>
 </tr>
 <tr>
 <td class="wysiwyg-text-align-center" style="width: 133px;">Elasticsearch (sem versão listada)</td>
-<td style="width: 478.2px;">Você está usando o Elasticsearch 2 e deve atualizar para o Elasticsearch 7 (preferencial) ou 6. Consulte <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search#es-upgrade6">Atualizando o Elasticsearch</a> e <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/configure-search-engine">Configurar o Commerce para usar o Elasticsearch</a> na documentação do desenvolvedor para obter detalhes.</td>
+<td style="width: 478.2px;">Você está usando o Elasticsearch 2 e deve atualizar para o Elasticsearch 7 (preferencial) ou 6. Consulte <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/search/overview-search#es-upgrade6">Atualizando o Elasticsearch</a> e <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/search/configure-search-engine">Configurar o Commerce para usar o Elasticsearch</a> na documentação do desenvolvedor para obter detalhes.</td>
 </tr>
 <tr>
 <td class="wysiwyg-text-align-center" style="width: 133px;">ELASTICSEARCH 5</td>
@@ -59,7 +59,7 @@ O motivo para a remoção do mecanismo de pesquisa MySQL é que o Elasticsearch 
 
 ## Instalação:
 
-Quando o Adobe Commerce no local e o Magento Open Source 2.4.0 forem lançados, o Elasticsearch será um componente obrigatório, portanto, você deve ter uma configuração de host de Elasticsearch e configurada antes de instalar a versão 2.4.0. Consulte [Instalar e configurar o Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search) na documentação do desenvolvedor.
+Quando o Adobe Commerce no local e o Magento Open Source 2.4.0 forem lançados, o Elasticsearch será um componente obrigatório, portanto, você deve ter uma configuração de host de Elasticsearch e configurada antes de instalar a versão 2.4.0. Consulte [Instalar e configurar o Elasticsearch](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/search/overview-search) na documentação do desenvolvedor.
 
 Por padrão, a pesquisa no Adobe Commerce usará o Elasticsearch 7 como mecanismo de pesquisa e tentará se conectar a um servidor em localhost:9200. Elasticsearch 6.x também é suportado. Se sua configuração não corresponder aos padrões, você poderá definir essas configurações usando argumentos passados para `setup:install`, da mesma forma que a conexão de banco de dados é configurada.
 

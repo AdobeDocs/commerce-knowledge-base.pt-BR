@@ -56,7 +56,7 @@ O resultado conterá uma lista de atributos usados para a Navegação em camadas
 Para corrigir o problema, você precisa definir `is_filterable` (ou seja, usado na Navegação em Camadas) e `filterable_in_search` (ou seja, usado na Navegação em Camadas dos resultados da pesquisa) como &quot;0&quot; (não usado). Para fazer isso, siga estas etapas:
 
 1. Criar um backup de banco de dados.
-1. Use uma ferramenta de banco de dados como [phpMyAdmin](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin) ou acesse o BD manualmente a partir da linha de comando para executar a seguinte consulta SQL:
+1. Use uma ferramenta de banco de dados como [phpMyAdmin](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin) ou acesse o BD manualmente a partir da linha de comando para executar a seguinte consulta SQL:
 
    ```sql
    UPDATE catalog_eav_attribute AS cea

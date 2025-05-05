@@ -35,4 +35,4 @@ Armazene os scripts do lado do servidor em diretórios não graváveis, como `./
 
 ## Documentação relacionada
 
-* [Nuvem para Adobe Commerce > Estrutura de projeto > Diretórios graváveis](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/file-structure#writable-directories) em nossa documentação do desenvolvedor.
+* [Nuvem para Adobe Commerce > Estrutura de projeto > Diretórios graváveis](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/project/file-structure#writable-directories) em nossa documentação do desenvolvedor.

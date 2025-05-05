@@ -82,4 +82,4 @@ Altere sua seção extra para corresponder à fornecida abaixo e tente implantar
 
 ## Leitura relacionada
 
-* [Atualizações e correções](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/best-practices) em nossa documentação para desenvolvedores.
+* [Atualizações e correções](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/upgrade/best-practices) em nossa documentação para desenvolvedores.

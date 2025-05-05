@@ -42,8 +42,8 @@ A indexação por mecanismos de pesquisa está desativada.
 
 ## Solução
 
-Habilitar indexação por mecanismos de pesquisa. Consulte [Configurar indexação por mecanismo de pesquisa](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap#configure-indexing-by-search-engine) na documentação do desenvolvedor.
+Habilitar indexação por mecanismos de pesquisa. Consulte [Configurar indexação por mecanismo de pesquisa](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap#configure-indexing-by-search-engine) na documentação do desenvolvedor.
 
 ## Leitura relacionada
 
-* [Adicionar o mapa do site e os robôs do mecanismo de pesquisa](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap) à documentação do desenvolvedor.
+* [Adicionar o mapa do site e os robôs do mecanismo de pesquisa](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap) à documentação do desenvolvedor.

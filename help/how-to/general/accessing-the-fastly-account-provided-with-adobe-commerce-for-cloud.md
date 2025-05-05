@@ -16,9 +16,9 @@ Este artigo explica como fazer logon na sua conta do Fastly fornecida com o Adob
 
 ## Como visualizar as credenciais do Fastly
 
-Consulte a seção [Obter credenciais do Fastly](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#cloud-fastly-creds) em nossa documentação do desenvolvedor.
+Consulte a seção [Obter credenciais do Fastly](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#cloud-fastly-creds) em nossa documentação do desenvolvedor.
 
 ## Como testar as credenciais do Fastly
 
-Consulte a seção [Testar as credenciais do Fastly](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials) em nossa documentação do desenvolvedor.
+Consulte a seção [Testar as credenciais do Fastly](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials) em nossa documentação do desenvolvedor.
 

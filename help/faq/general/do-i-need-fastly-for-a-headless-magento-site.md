@@ -25,7 +25,7 @@ Estou desenvolvendo uma implementação headless do Adobe Commerce. Ainda precis
 Não, você não. Nessa situação, você pode pular o uso do Fastly - pelo menos, no início do desenvolvimento.
 
 A única situação que talvez você não queira ativar é para uma implantação headless.
-Consulte [Cloud para Adobe Commerce > Fastly](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly) em nossa documentação do desenvolvedor.
+Consulte [Cloud para Adobe Commerce > Fastly](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/cdn/fastly) em nossa documentação do desenvolvedor.
 
 Ainda assim, provavelmente, você precisará do Fastly para usar seu certificado SSL.
 
@@ -34,4 +34,4 @@ Todos os clientes do Adobe Commerce na infraestrutura em nuvem obtêm um certifi
 ## Mais informações
 
 * [Sites headless: qual é a grande vantagem da arquitetura dissociada?](https://pantheon.io/blog/headless-websites-whats-big-deal-decoupled-architecture) de [Josh Koenig](https://pantheon.io/team/josh-koenig).
-* [Fastly](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly) em nossa documentação para desenvolvedores.
+* [Fastly](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/cdn/fastly) em nossa documentação para desenvolvedores.

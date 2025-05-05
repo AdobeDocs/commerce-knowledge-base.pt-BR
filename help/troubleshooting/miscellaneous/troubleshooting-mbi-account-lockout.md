@@ -70,6 +70,6 @@ Não se preocupe! Registre um novo tíquete de suporte (certifique-se de incluir
 
 ## Tópicos relacionados em nossa base de conhecimento de suporte:
 
-* [Adicionando um novo usuário e definindo permissões](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management.html)
-* [Como atualizar meu endereço de email ou senha?](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/create-user.html)
-* [Como redefinir minha senha?](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/reset-password.html)
+* [Adicionando um novo usuário e definindo permissões](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management.html?lang=pt-BR)
+* [Como atualizar meu endereço de email ou senha?](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/create-user.html?lang=pt-BR)
+* [Como redefinir minha senha?](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/reset-password.html?lang=pt-BR)

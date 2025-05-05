@@ -48,11 +48,11 @@ O uso do subdomínio permite executar uma &quot;inicialização suave&quot; do a
 
 Em nossa base de conhecimento de suporte:
 
-* [Definir as configurações do Fastly DNS nos ambientes de Preparo e Produção](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/configure-fastly-dns-settings-on-staging-and-production-environments.html)
-* [Configurar o Fastly para o plano inicial na nuvem](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/set-up-fastly-for-starter-plan-on-cloud.html)
-* [Possíveis bloqueadores para inicialização no Adobe Commerce na infraestrutura de nuvem](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.html)
+* [Definir as configurações do Fastly DNS nos ambientes de Preparo e Produção](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/configure-fastly-dns-settings-on-staging-and-production-environments.html?lang=pt-BR)
+* [Configurar o Fastly para o plano inicial na nuvem](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/set-up-fastly-for-starter-plan-on-cloud.html?lang=pt-BR)
+* [Possíveis bloqueadores para inicialização no Adobe Commerce na infraestrutura de nuvem](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.html?lang=pt-BR)
 
 Em nossa documentação do desenvolvedor:
 
-* [Visão geral do Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
-* [Lista de verificação de ativação: configurações de DNS para o Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html)
+* [Visão geral do Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=pt-BR)
+* [Lista de verificação de ativação: configurações de DNS para o Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html?lang=pt-BR)

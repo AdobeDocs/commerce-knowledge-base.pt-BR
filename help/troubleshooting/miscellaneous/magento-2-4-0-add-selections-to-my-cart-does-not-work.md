@@ -41,7 +41,7 @@ O botão **Adicionar seleções ao meu carrinho**, localizado na parte superior 
 
 ## Leitura relacionada
 
-* [Gerenciamento de um carrinho de compras do MerchDocs](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage) no nosso guia do usuário.
+* [Gerenciamento de um carrinho de compras do MerchDocs](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage) no nosso guia do usuário.
 * [Problema conhecido do Adobe Commerce 2.4.0: exibição de dados de mensagens brutas na loja](/help/troubleshooting/storefront/magento-2-4-0-issue-storefront-raw-message-data-display.md) em nossa base de dados de suporte.
 * [Problema conhecido do Adobe Commerce 2.4.0: as Taxas de Imposto sobre Exportação não funcionam](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md) em nossa base de dados de conhecimento de suporte.
 * [Problema conhecido do Adobe Commerce 2.4.0: os métodos de pagamento Braintree não aparecem no check-out de Vários Endereços](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md) em nossa base de dados de conhecimento de suporte.

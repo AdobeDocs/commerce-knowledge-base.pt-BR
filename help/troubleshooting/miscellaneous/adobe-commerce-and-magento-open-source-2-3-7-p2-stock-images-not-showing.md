@@ -50,4 +50,4 @@ Exclua as imagens Adobe Stock carregadas das pastas `pub/media` e `pub/media/cat
 
 ## Leitura relacionada
 
-* [Armazenamento de mídia](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/storage/media-storage) em nosso guia do usuário.
+* [Armazenamento de mídia](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/content-design/wysiwyg/storage/media-storage) em nosso guia do usuário.

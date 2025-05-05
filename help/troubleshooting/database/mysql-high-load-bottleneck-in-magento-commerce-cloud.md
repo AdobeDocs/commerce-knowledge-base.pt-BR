@@ -24,7 +24,7 @@ Este tópico discute uma solução quando a alta carga do MySQL causa um problem
 * Ferramentas ECE versão 2002.0.16 e superior
 * Serviço de APM da New Relic (**A conta da infraestrutura em nuvem do Adobe Commerce inclui o software para o serviço de APM da New Relic**, juntamente com uma chave de licença.)
 
-Para obter mais informações sobre o serviço APM da New Relic e sua configuração com a conta do Adobe Commerce na infraestrutura em nuvem, vá para [New Relic Services](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) e [Introdução ao APM da New Relic](https://docs.newrelic.com/docs/apm/new-relic-apm/getting-started/introduction-apm/).
+Para obter mais informações sobre o serviço APM da New Relic e sua configuração com a conta do Adobe Commerce na infraestrutura em nuvem, vá para [New Relic Services](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) e [Introdução ao APM da New Relic](https://docs.newrelic.com/docs/apm/new-relic-apm/getting-started/introduction-apm/).
 
 ## Problema
 
@@ -61,7 +61,7 @@ O Adobe Commerce pode ler vários bancos de dados ou o Redis de forma assíncron
 
    ![KB-372_image004.png](assets/KB-372_image004.png)
 
-   Você pode encontrar mais detalhes em [Implantar Variáveis em DevDocs](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy#mysql_use_slave_connection).
+   Você pode encontrar mais detalhes em [Implantar Variáveis em DevDocs](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy#mysql_use_slave_connection).
 
 1. Confirme suas alterações e envie-as por push.
 1. O envio de alterações iniciará um novo processo de implantação. Depois que a implantação for concluída com êxito, sua instância do Adobe Commerce na infraestrutura em nuvem deverá estar configurada para usar conexões subordinadas.
@@ -70,7 +70,7 @@ O Adobe Commerce pode ler vários bancos de dados ou o Redis de forma assíncron
 
 Abaixo estão as perguntas comuns que você pode fazer ao considerar usar a funcionalidade Conexões Escravas para o seu Adobe Commerce na loja de infraestrutura em nuvem.
 
-* Há algum problema conhecido ou limitação para usar conexões subordinadas? **Não temos problemas conhecidos ao usar Conexões Escravas. Verifique se você está usando o pacote de ferramentas ece atualizado mais recentemente. Há instruções aqui sobre [como atualizar seu pacote ece-tools](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package).**
+* Há algum problema conhecido ou limitação para usar conexões subordinadas? **Não temos problemas conhecidos ao usar Conexões Escravas. Verifique se você está usando o pacote de ferramentas ece atualizado mais recentemente. Há instruções aqui sobre [como atualizar seu pacote ece-tools](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package).**
 * Há alguma latência extra usando conexões subordinadas? *Sim, a latência entre AZs (zonas de disponibilidade cruzada) é maior e reduz o desempenho de uma instância de Adobe Commerce na infraestrutura de nuvem caso a instância não esteja sobrecarregada e possa carregar toda a carga. Mas, claramente, se a instância estiver sobrecarregada - master-slave ajudará no desempenho, espalhando a carga no banco de dados MySQL ou Redis em diferentes nós.*
 
   **Em clusters não sobrecarregados** - **As Conexões Escravos reduzirão o desempenho em 10-15%**, uma das razões pelas quais não é padrão.
@@ -82,9 +82,9 @@ Abaixo estão as perguntas comuns que você pode fazer ao considerar usar a func
 
 Em nossa documentação do desenvolvedor:
 
-* [Implantar variáveis](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy).
-* [Configure a replicação opcional do banco de dados](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/split-db/multi-master-replication).
-* [pacote de ferramentas ece](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/package-overview).
+* [Implantar variáveis](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy).
+* [Configure a replicação opcional do banco de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/storage/split-db/multi-master-replication).
+* [pacote de ferramentas ece](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/package-overview).
 
 >[!NOTE]
 >

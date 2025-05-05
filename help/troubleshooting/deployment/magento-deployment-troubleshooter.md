@@ -30,7 +30,7 @@ b. NÃO - manutenção ou paralisações globais. Verifique a duração estimada
 
 +++**Existem implantações em outros ambientes que estão bloqueando a implantação no ambiente existente?**
 
-Para obter uma lista de atividades em andamento, execute o comando a seguir usando a Magento-Cloud CLI (se você tiver sido adicionado apenas a um projeto de nuvem). **Observação**: verifique se você está usando a versão mais recente da CLI do Magento Cloud. Para obter as etapas, consulte [Atualizar a CLI](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview) no guia do Commerce na Infraestrutura em Nuvem.
+Para obter uma lista de atividades em andamento, execute o comando a seguir usando a Magento-Cloud CLI (se você tiver sido adicionado apenas a um projeto de nuvem). **Observação**: verifique se você está usando a versão mais recente da CLI do Magento Cloud. Para obter as etapas, consulte [Atualizar a CLI](https://experienceleague.adobe.com/pt-br/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview) no guia do Commerce na Infraestrutura em Nuvem.
 
 ```bash
 magento-cloud --state=in_progress
@@ -42,7 +42,7 @@ Para obter uma lista de atividades em andamento, execute o seguinte comando usan
 magento-cloud -p <project-id or project-url> --state=in_progress
 ```
 
-Para encontrar informações sobre uma atividade de implantação existente (consulte [Verificando o log de implantação se a interface de nuvem tiver um erro de &quot;log recortado&quot;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error)
+Para encontrar informações sobre uma atividade de implantação existente (consulte [Verificando o log de implantação se a interface de nuvem tiver um erro de &quot;log recortado&quot;](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error)
 para obter detalhes), execute este comando para obter um log em execução dessa atividade:
 
 ```bash
@@ -79,7 +79,7 @@ b. NÃO - [Enviar um tíquete de suporte](/help/help-center-guide/help-center/ma
 +++**Usando Bitbucket?**
 
 a. SIM - Verificar [status.bitbucket.com](https://bitbucket.status.atlassian.com/).\
-b. NÃO - Verifique os erros do log de implantação nos [Logs de compilação e implantação](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/test/log-locations). Vá para a [Etapa 6](#step-6).
+b. NÃO - Verifique os erros do log de implantação nos [Logs de compilação e implantação](https://experienceleague.adobe.com/pt-br/docs/commerce-on-cloud/user-guide/develop/test/log-locations). Vá para a [Etapa 6](#step-6).
 
 +++
 
@@ -124,7 +124,7 @@ b. NÃO - Continue na [Etapa 11](#step-11).
 +++**Armazenamento disponível ok?**
 
 a. SIM - Continue com a [Etapa 11](#step-11).\
-b. NÃO - Revise [Gerenciar espaço em disco](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/storage/manage-disk-space).
+b. NÃO - Revise [Gerenciar espaço em disco](https://experienceleague.adobe.com/pt-br/docs/commerce-on-cloud/user-guide/develop/storage/manage-disk-space).
 
 +++
 
@@ -132,7 +132,7 @@ b. NÃO - Revise [Gerenciar espaço em disco](https://experienceleague.adobe.com
 
 +++**_Não foi possível gravar o arquivo Aviso _?**
 
-a. SIM - [Aumente o valor do disco em .magento.app.yaml](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#application-disk-space) e reimplante. Se isso não funcionar, [envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
+a. SIM - [Aumente o valor do disco em .magento.app.yaml](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html?lang=pt-BR#application-disk-space) e reimplante. Se isso não funcionar, [envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
 b. NÃO - Continue com a [Etapa 12](#step-12).
 
 +++
@@ -159,7 +159,7 @@ b. NÃO - Continue na [Etapa 14](#step-14).
 
 +++**Sistema de arquivos sem inodes ou espaço?**
 
-a. SIM - Consulte [Gerenciar espaço em disco](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#application-disk-space).\
+a. SIM - Consulte [Gerenciar espaço em disco](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html?lang=pt-BR#application-disk-space).\
 b. NÃO - Continue na [Etapa 15](#step-15).
 
 +++
@@ -201,7 +201,7 @@ b. NÃO - Continue na [Etapa 18](#step-18).
 
 +++**Falha/travamento do gancho de postagem?**
 
-a. SIM - Banco de Dados: [Espaço livre em disco](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#allocate-disk-space), corrompido, tabelas incompletas/corrompidas.\
+a. SIM - Banco de Dados: [Espaço livre em disco](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html?lang=pt-BR#allocate-disk-space), corrompido, tabelas incompletas/corrompidas.\
 b. NÃO - Continue na [Etapa 19](#step-19).
 
 +++
@@ -210,7 +210,7 @@ b. NÃO - Continue na [Etapa 19](#step-19).
 
 +++**Usando extensões de terceiros?**
 
-a. SIM - Tente [desabilitar as extensões de terceiros](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions) e executar a implantação (para ver se elas são a causa do problema), especialmente se houver nomes de extensão em quaisquer erros.\
+a. SIM - Tente [desabilitar as extensões de terceiros](https://experienceleague.adobe.com/pt-br/docs/commerce-on-cloud/user-guide/configure-store/extensions) e executar a implantação (para ver se elas são a causa do problema), especialmente se houver nomes de extensão em quaisquer erros.\
 b. NÃO - Continue na [Etapa 20](#step-20).
 
 +++

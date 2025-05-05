@@ -16,8 +16,8 @@ Para versões do Adobe Commerce anteriores à 2.4.7, é possível configurar vá
 
 Para usar mais de um código de cupom no carrinho simultaneamente, você pode considerar usar uma extensão correspondente em [Commerce Marketplace](https://marketplace.magento.com/).
 
-No entanto, a partir do Adobe Commerce versão 2.4.7, você pode configurar e usar **mais de um código de cupom no carrinho simultaneamente**. Para habilitá-lo, consulte [Configurações de Vários Cupom](https://experienceleague.adobe.com/en/docs/commerce-admin/config/sales/sales#multicoupon-settings).
+No entanto, a partir do Adobe Commerce versão 2.4.7, você pode configurar e usar **mais de um código de cupom no carrinho simultaneamente**. Para habilitá-lo, consulte [Configurações de Vários Cupom](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/config/sales/sales#multicoupon-settings).
 
 ## Mais informações
 
-[Códigos do cupom](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon.html) em nosso guia do usuário.
+[Códigos do cupom](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon.html?lang=pt-BR) em nosso guia do usuário.

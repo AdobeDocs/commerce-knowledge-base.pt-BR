@@ -30,7 +30,7 @@ Ao desenvolver componentes Adobe Commerce (todas as implantações) e Magento Op
 
 Se você precisar redefinir o tema de armazenamento, mas não puder acessar o painel Admin, poderá redefini-lo no banco de dados fazendo o seguinte:
 
-1. Use uma ferramenta de banco de dados como [phpMyAdmin](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin) ou acesse o BD manualmente a partir da linha de comando para executar a seguinte consulta SQL: `UPDATE core_config_data SET value=NULL WHERE path='design/theme/theme_id'`
+1. Use uma ferramenta de banco de dados como [phpMyAdmin](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin) ou acesse o BD manualmente a partir da linha de comando para executar a seguinte consulta SQL: `UPDATE core_config_data SET value=NULL WHERE path='design/theme/theme_id'`
 1. Limpe os seguintes diretórios:
    * `pub/static/frontend`
    * `var/view_preprocessing`

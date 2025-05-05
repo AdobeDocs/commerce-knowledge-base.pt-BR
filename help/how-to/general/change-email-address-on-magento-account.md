@@ -34,7 +34,7 @@ Alterando o endereço de email de um usuário que tem sua própria conta em <htt
 
 <u>Solução</u>
 
-1. [Envie uma solicitação de suporte](https://experienceleague.adobe.com/home#support) em https://experienceleague.adobe.com/home#support informando o seguinte:
+1. [Envie uma solicitação de suporte](https://experienceleague.adobe.com/home?lang=pt-BR#support) em https://experienceleague.adobe.com/home?lang=pt-BR#support informando o seguinte:
 
    * Endereço de email existente a ser atualizado
    * Novo endereço de email
@@ -48,7 +48,7 @@ Alterando o endereço de email de um usuário que atualmente não tem sua própr
 
 <u>Solução</u>
 
-Se você tiver acesso à caixa de correio do [email do proprietário atual], redefina a senha do email do proprietário atual seguindo o guia [Redefinir ou alterar a senha do Adobe](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) no Guia do Usuário do Creative Cloud.
+Se você tiver acesso à caixa de correio do [email do proprietário atual], redefina a senha do email do proprietário atual seguindo o guia [Redefinir ou alterar a senha do Adobe](https://helpx.adobe.com/br/manage-account/using/change-or-reset-password.html) no Guia do Usuário do Creative Cloud.
 
 1. Localize o link de redefinição de senha enviado para a caixa de correio do proprietário atual com instruções.
 1. Defina uma nova senha e altere o email para [novo email de proprietário].
@@ -62,5 +62,5 @@ No entanto, se você não tiver acesso a emails enviados ao [email do proprietá
 
 ## Leitura relacionada
 
-[Redefinir senha esquecida](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) no Guia do Usuário do Creative Cloud.
-[Atualize seu perfil de conta](https://helpx.adobe.com/manage-account/using/edit-adobe-account-personal-profile.html) no Guia do Usuário do Creative Cloud.
+[Redefinir senha esquecida](https://helpx.adobe.com/br/manage-account/using/change-or-reset-password.html) no Guia do Usuário do Creative Cloud.
+[Atualize seu perfil de conta](https://helpx.adobe.com/br/manage-account/using/edit-adobe-account-personal-profile.html) no Guia do Usuário do Creative Cloud.

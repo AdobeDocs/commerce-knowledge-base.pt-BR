@@ -63,5 +63,5 @@ Execute as seguintes etapas:
 
 ## Leitura relacionada
 
-* [Substituições de URL](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) em nosso guia do usuário.
-* [Práticas recomendadas da SEO](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview) em nosso guia do usuário.
+* [Substituições de URL](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) em nosso guia do usuário.
+* [Práticas recomendadas da SEO](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/marketing/seo/seo-overview) em nosso guia do usuário.

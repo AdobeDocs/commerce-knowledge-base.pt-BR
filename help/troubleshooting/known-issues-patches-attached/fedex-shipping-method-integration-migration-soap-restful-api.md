@@ -18,11 +18,11 @@ ht-degree: 0%
 >
 >Use o patch ACSD-61622 da versão 1.1.57 do [!DNL Quality Patches Tool] (QPT) em vez do patch fornecido anteriormente. O novo patch é compatível com as versões do Adobe Commerce (todos os métodos de implantação) 2.4.6-p1 - 2.4.6-p8. Ela pode se tornar aplicável a outras versões com as novas versões do [!DNL Quality Patches Tool].
 >
->Para obter mais informações, consulte o [artigo de correção ACSD-61622](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-57/acsd-61622-fedex-account-specific-rates-missing-from-response) em nosso Guia de ferramentas do Adobe Commerce.
+>Para obter mais informações, consulte o [artigo de correção ACSD-61622](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-57/acsd-61622-fedex-account-specific-rates-missing-from-response) em nosso Guia de ferramentas do Adobe Commerce.
 
 >[!WARNING]
 >
->Antes de instalar o novo patch, é necessário desinstalar o patch anterior fornecido neste artigo. Para obter instruções sobre como desinstalar patches, consulte [Reverter um patch personalizado](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches#revert-a-custom-patch) no guia do usuário.
+>Antes de instalar o novo patch, é necessário desinstalar o patch anterior fornecido neste artigo. Para obter instruções sobre como desinstalar patches, consulte [Reverter um patch personalizado](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches#revert-a-custom-patch) no guia do usuário.
 
 
 Este artigo fornece uma correção para resolver problemas com a migração de integração do método de envio [!DNL FedEx] do SOAP para a API RESTful para Adobe Commerce 2.4.4-p4 - 2.4.6-pX.
@@ -75,7 +75,7 @@ Use os seguintes patches anexados, dependendo da sua versão do Adobe Commerce/M
 
 ## Como aplicar o patch
 
-Descompacte o arquivo e consulte [Como aplicar um patch de compositor fornecido pelo Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html) em nossa base de dados de suporte para obter instruções.
+Descompacte o arquivo e consulte [Como aplicar um patch de compositor fornecido pelo Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html?lang=pt-BR) em nossa base de dados de suporte para obter instruções.
 
 ## Como saber se os patches foram aplicados
 
@@ -83,7 +83,7 @@ Considerando que não é possível verificar facilmente se o problema foi corrig
 
 <u>Você pode fazer isso executando as seguintes etapas</u>:
 
-1. [Instalar o [!DNL Quality Patches Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html).
+1. [Instalar o [!DNL Quality Patches Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html?lang=pt-BR).
 1. Execute o comando:
 
    ```bash

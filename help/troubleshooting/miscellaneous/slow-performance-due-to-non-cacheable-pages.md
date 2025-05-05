@@ -53,7 +53,7 @@ Verifique se os arquivos especificados acima têm a configuração `cacheable="f
 
 >[!NOTE]
 >
->Para o Adobe Commerce na infraestrutura em nuvem 2.4.1 e posterior, você pode usar a [Ferramenta de Análise do Site](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/site-wide-analysis-tool/access) para verificar automaticamente se o Cache de Página Inteira não está configurado corretamente.
+>Para o Adobe Commerce na infraestrutura em nuvem 2.4.1 e posterior, você pode usar a [Ferramenta de Análise do Site](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/tools/site-wide-analysis-tool/access) para verificar automaticamente se o Cache de Página Inteira não está configurado corretamente.
 
 ### Leitura relacionada
 

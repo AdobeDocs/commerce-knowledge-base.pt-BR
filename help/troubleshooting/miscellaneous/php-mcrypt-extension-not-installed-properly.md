@@ -29,7 +29,7 @@ exception 'Exception' with message 'PHP Warning: PHP Startup: Unable to load dyn
 Installing data fixtures:
 /usr/bin/php -f '/Users/username/www/magento/dev/shell/run_data_fixtures.php' -- --bootstrap='MAGE_DIRS[base][path]=/Users/username/www/magento' 2>&1
 [ERROR] exception 'Exception' with message '
-Fatal error: Uncaught exception 'Exception' with message 'Module 'Magento_Core' depends on 'mcrypt' PHP [extension](https://experienceleague.adobe.com/en/docs/commerce-operations/operational-playbook/glossary#extension) that is not loaded.'
+Fatal error: Uncaught exception 'Exception' with message 'Module 'Magento_Core' depends on 'mcrypt' PHP [extension](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/operational-playbook/glossary#extension) that is not loaded.'
 ```
 
 ```php
@@ -60,4 +60,4 @@ Se o mcrypt estiver *não* instalado, mensagens semelhantes serão exibidas:
 PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib/php5/20121212/mcrypt.so' - /usr/lib/php5/20121212/mcrypt.so: cannot open shared object file: No such file or directory in Unknown on line 0
 ```
 
-Em alguns casos, talvez seja necessário instalar o software Adobe Commerce a partir da [linha de comando](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/advanced) e especificar o caminho completo para a pilha de LAMP que tem o mcrypt instalado.
+Em alguns casos, talvez seja necessário instalar o software Adobe Commerce a partir da [linha de comando](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/advanced) e especificar o caminho completo para a pilha de LAMP que tem o mcrypt instalado.

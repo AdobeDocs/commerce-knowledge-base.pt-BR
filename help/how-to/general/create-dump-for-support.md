@@ -27,7 +27,7 @@ Crie um despejo &quot;depurado&quot; na página Admin:
 
 Em seguida, você pode fornecer ao Suporte o link de download direto para os arquivos de despejo (o endereço da loja e o nome do arquivo conforme exibido).
 
-Se você tiver problemas ao criar despejos do Administrador, considere usar comandos da CLI conforme descrito em [Executar os utilitários de suporte](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/run-support-utilities) em nossa documentação de desenvolvedor.
+Se você tiver problemas ao criar despejos do Administrador, considere usar comandos da CLI conforme descrito em [Executar os utilitários de suporte](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/cli/run-support-utilities) em nossa documentação de desenvolvedor.
 
 ## Leitura relacionada
 

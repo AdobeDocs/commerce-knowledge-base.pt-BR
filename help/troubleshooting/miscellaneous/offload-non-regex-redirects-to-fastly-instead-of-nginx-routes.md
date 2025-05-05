@@ -103,4 +103,4 @@ Se você não quiser executar um ambiente de preparo do Adobe Commerce, mas quis
 * [Configurar rotas](/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml.html) na documentação do desenvolvedor
 * [Configure [!DNL Fastly]](/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) em nossa documentação do desenvolvedor
 * [[!DNL VCL] folha de características de expressão regular](https://docs.fastly.com/en/guides/vcl-regular-expression-cheat-sheet) em nossa documentação do desenvolvedor
-* [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce
+* [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce

@@ -28,6 +28,6 @@ Se você não tiver acesso ao endereço de email atual, configure o encaminhamen
 
 Siga estas etapas para alterar o endereço de email:
 
-1. Redefina a senha usada com o endereço de email antigo. Siga as instruções fornecidas em [Redefinir senha esquecida](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) no Adobe helpx.
+1. Redefina a senha usada com o endereço de email antigo. Siga as instruções fornecidas em [Redefinir senha esquecida](https://helpx.adobe.com/br/manage-account/using/change-or-reset-password.html) no Adobe helpx.
 1. O link de redefinição de senha é enviado para a caixa de correio do proprietário atual com instruções.
 1. Navegue até a [página da conta de Adobe](https://account.adobe.com) para fazer logon com o novo email e configurar a senha.

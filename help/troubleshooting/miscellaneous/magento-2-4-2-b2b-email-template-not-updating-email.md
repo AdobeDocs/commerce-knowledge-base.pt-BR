@@ -45,4 +45,4 @@ Execute manualmente o job cron ou o consumidor para propagar as novas informaç�
 
 ## Leitura relacionada
 
-* [Gerenciar filas de mensagens](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues) na documentação do desenvolvedor.
+* [Gerenciar filas de mensagens](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues) na documentação do desenvolvedor.

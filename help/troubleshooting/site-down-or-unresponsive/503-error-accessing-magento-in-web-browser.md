@@ -23,7 +23,7 @@ Adobe Commerce 2.3.x
 
 <u>Etapas a serem reproduzidas</u>
 
-(Pré-requisitos: verifique se o repositório não está no [modo de manutenção](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode#config-mode-show)).
+(Pré-requisitos: verifique se o repositório não está no [modo de manutenção](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/cli/set-mode#config-mode-show)).
 
 Navegue até o administrador do Commerce ou a loja em um navegador da Web.
 

@@ -14,15 +14,15 @@ ht-degree: 0%
 
 os trabalhos cron do Adobe Commerce na infraestrutura em nuvem não terminam de ser executados, ficam presos e impedem que outros trabalhos cron sejam executados. Este artigo mostra como redefinir os trabalhos cron travados manualmente.
 
-Use esse comando com cuidado! Recomendamos ler o artigo [Redefinir trabalhos cron](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html) em nossa base de dados de conhecimento de suporte para obter mais detalhes.
+Use esse comando com cuidado! Recomendamos ler o artigo [Redefinir trabalhos cron](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html?lang=pt-BR) em nossa base de dados de conhecimento de suporte para obter mais detalhes.
 
 ## Etapas
 
 >[!INFO]
 >
->Em [ECE-Tools v2002.0.4](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/cloud-release-archive.html#v2002.0.4), é possível redefinir manualmente os trabalhos cron travados usando um comando CLI via acesso SSH.
+>Em [ECE-Tools v2002.0.4](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/cloud-release-archive.html?lang=pt-BR#v2002.0.4), é possível redefinir manualmente os trabalhos cron travados usando um comando CLI via acesso SSH.
 
-1. [SSH para o seu ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
+1. [SSH para o seu ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=pt-BR).
 1. Executar este comando: `./vendor/bin/ece-tools cron:unlock`
 
 ## Avisos
@@ -32,4 +32,4 @@ Use esse comando com cuidado! Recomendamos ler o artigo [Redefinir trabalhos cro
 
 ## Leia na nossa base de conhecimento de suporte:
 
-[Redefinir trabalhos cron](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html)
+[Redefinir trabalhos cron](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html?lang=pt-BR)

@@ -20,7 +20,7 @@ Por padrão, o Fastly oculta todos os erros do Adobe Commerce atrás do erro **5
 
 Depois de ver o erro autêntico do Adobe Commerce e o número do relatório de erros, você pode obter detalhes no arquivo do relatório de erros seguindo estas etapas:
 
-1. SSH para o ambiente afetado. Consulte [SSH para um ambiente](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) na documentação do desenvolvedor.
+1. SSH para o ambiente afetado. Consulte [SSH para um ambiente](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/secure-connections) na documentação do desenvolvedor.
 1. Localize o arquivo `./var/report/{error_number}`.
 
 ## Adicionar o domínio do aplicativo e o endereço IP ao arquivo de hosts: etapas detalhadas

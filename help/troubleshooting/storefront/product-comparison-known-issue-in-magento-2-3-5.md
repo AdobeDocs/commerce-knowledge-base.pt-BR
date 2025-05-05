@@ -1,6 +1,6 @@
 ---
 title: Problema conhecido de comparação de produto no Adobe Commerce 2.3.5
-description: Este artigo fornece recomendações sobre como evitar um problema conhecido [comparação de produto](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/product-compare) no Adobe Commerce no local 2.3.5 e no Adobe Commerce na infraestrutura em nuvem 2.3.5.
+description: Este artigo fornece recomendações sobre como evitar um problema conhecido [comparação de produto](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/shopper-tools/product-compare) no Adobe Commerce no local 2.3.5 e no Adobe Commerce na infraestrutura em nuvem 2.3.5.
 exl-id: 1488e2db-4a5d-4963-b48e-b84f760582d1
 feature: Products, Storefront
 role: Admin
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Problema conhecido de comparação de produto no Adobe Commerce 2.3.5
 
-Este artigo fornece recomendações sobre como evitar um problema conhecido de [comparação de produtos](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/shopper-tools/product-compare) no Adobe Commerce no local 2.3.5 e no Adobe Commerce no Cloud Infrastructure 2.3.5.
+Este artigo fornece recomendações sobre como evitar um problema conhecido de [comparação de produtos](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/shopper-tools/product-compare) no Adobe Commerce no local 2.3.5 e no Adobe Commerce no Cloud Infrastructure 2.3.5.
 
 ## Produtos e versões afetados
 
@@ -30,7 +30,7 @@ Especifique valores não vazios para atributos de produto comparáveis ou use o 
 
 >[!NOTE]
 >
->Os atributos do produto estão definidos para serem usados para comparação usando a configuração **Comparável na Loja**. Para obter mais informações, consulte [Criar atributos de produto](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create#step-4-describe-the-storefront-properties) no guia do usuário.
+>Os atributos do produto estão definidos para serem usados para comparação usando a configuração **Comparável na Loja**. Para obter mais informações, consulte [Criar atributos de produto](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/catalog/product-attributes/create/attribute-product-create#step-4-describe-the-storefront-properties) no guia do usuário.
 
 Uma correção estará disponível no Adobe Commerce 2.3.6, com lançamento previsto para o quarto trimestre de 2020.
 

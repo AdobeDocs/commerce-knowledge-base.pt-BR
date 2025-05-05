@@ -29,7 +29,7 @@ Nesta etapa, definimos os URLs seguros do armazenamento. Se isso já tiver sido 
 1. Defina as configurações **Usar URLs Seguras na Loja** e **Usar URLs Seguras na Administração** para **Sim**.    ![magento-admin_base-urls-secure-settings.png](assets/magento-admin_base-urls-secure-settings.png)
 1. Clique em **Salvar configuração** no canto superior direito para aplicar as alterações.
 
-**Documentação relacionada em nosso guia do usuário:**   [Armazenar URLs](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls).
+**Documentação relacionada em nosso guia do usuário:**   [Armazenar URLs](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/site-store/store-urls).
 
 ### Etapa 2: Ativar Forçar TLS {#step-2-enable-force-tls}
 

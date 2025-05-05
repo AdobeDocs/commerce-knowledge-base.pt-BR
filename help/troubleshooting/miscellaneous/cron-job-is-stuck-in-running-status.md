@@ -37,7 +37,7 @@ Os sintomas de [!DNL cron] trabalhos que devem ser redefinidos incluem:
 
 Para resolver esse problema, você deve redefinir o(s) trabalho(s) [!DNL cron] usando o comando `cron:unlock`. Este comando altera o status do trabalho [!DNL cron] no banco de dados, encerrando o trabalho à força para permitir que outros trabalhos agendados continuem.
 
-1. Abra um terminal e use suas [chaves SSH](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) para se conectar ao ambiente afetado.
+1. Abra um terminal e use suas [chaves SSH](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/secure-connections) para se conectar ao ambiente afetado.
 1. Obtenha as credenciais do banco de dados MySQL:    ```shell    echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 -d | json_pp    ```
 1. Conectar ao banco de dados usando `mysql`:    ```shell    mysql -hdatabase.internal -uuser -ppassword main    ```
 1. Selecione o banco de dados `main`:    ```shell    use main    ```
@@ -47,7 +47,7 @@ Para resolver esse problema, você deve redefinir o(s) trabalho(s) [!DNL cron] u
 
 ### Solução para parar um único [!DNL cron] {#solution-stop-a-single-cron}
 
-1. Abra um terminal e use suas [chaves SSH](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) para se conectar ao ambiente afetado.
+1. Abra um terminal e use suas [chaves SSH](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/secure-connections) para se conectar ao ambiente afetado.
 1. Verifique as tarefas de longa duração usando o seguinte comando:
 
    ```date; ps aux | grep '[%]CPU\|cron\|magento\|queue' | grep -v 'grep\|cron -f'```

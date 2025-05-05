@@ -58,4 +58,4 @@ Verifique se há emails na pasta Spam. Se o email apareceu lá, [envie um tíque
 
 ## Leitura relacionada
 
-* [SendGrid](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/sendgrid) em nossa documentação do desenvolvedor.
+* [SendGrid](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/project/sendgrid) em nossa documentação do desenvolvedor.

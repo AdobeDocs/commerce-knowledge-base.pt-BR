@@ -21,7 +21,7 @@ Adobe Commerce na infraestrutura em nuvem (todas as versões)
 
 ## Problema
 
-Você está recebendo erros de implantação ao confirmar no repositório de arquivos/pastas. Por exemplo, o seguinte erro é causado devido a uma tentativa de conexão com o BD quando ele não está disponível durante a [Fase de Compilação](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html#build-phase):
+Você está recebendo erros de implantação ao confirmar no repositório de arquivos/pastas. Por exemplo, o seguinte erro é causado devido a uma tentativa de conexão com o BD quando ele não está disponível durante a [Fase de Compilação](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html?lang=pt-BR#build-phase):
 
 ```SQL
 SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for database.i  
@@ -42,7 +42,7 @@ SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for database.i
 
 ## Causa
 
-Determinados arquivos/pastas não devem ser confirmados no repositório, pois causam uma quebra no [fluxo de trabalho de implantação](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html).
+Determinados arquivos/pastas não devem ser confirmados no repositório, pois causam uma quebra no [fluxo de trabalho de implantação](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html?lang=pt-BR).
 
 ## Solução
 

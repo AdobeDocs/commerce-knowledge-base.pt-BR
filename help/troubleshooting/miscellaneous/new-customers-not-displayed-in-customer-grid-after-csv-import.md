@@ -47,4 +47,4 @@ Também recomendamos reindexar manualmente o indexador `customer_grid` após con
 Links para tópicos relacionados na documentação do desenvolvedor:
 
 * [Visão geral da indexação](https://developer.adobe.com/commerce/php/development/components/indexing/)
-* [Gerenciar os indexadores](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers)
+* [Gerenciar os indexadores](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/cli/manage-indexers)

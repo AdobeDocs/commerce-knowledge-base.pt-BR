@@ -65,7 +65,7 @@ O patch está anexado a este artigo. Para baixá-lo, clique no link a seguir:
 
 ## Como aplicar o patch
 
-Descompacte o arquivo e consulte [Como aplicar um patch de compositor fornecido pelo Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html) em nossa base de dados de suporte para obter instruções.
+Descompacte o arquivo e consulte [Como aplicar um patch de compositor fornecido pelo Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html?lang=pt-BR) em nossa base de dados de suporte para obter instruções.
 
 ## Como saber se os patches foram aplicados
 
@@ -73,7 +73,7 @@ Considerando que não é possível verificar facilmente se o problema foi corrig
 
 <u>Você pode fazer isso executando as seguintes etapas</u>:
 
-1. [Instalar o [!DNL Quality Patches Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html).
+1. [Instalar o [!DNL Quality Patches Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html?lang=pt-BR).
 1. Execute o comando:
 
    ```bash

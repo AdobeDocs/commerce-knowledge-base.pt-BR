@@ -40,5 +40,5 @@ conteúdo:
 
 ## Leitura relacionada
 
-* [Web Application Firewall (WAF)](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly-waf-service) no guia Commerce on Cloud Infrastructure.
-* [Introdução ao VCL personalizado](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets) no guia do Commerce on Cloud Infrastructure.
+* [Web Application Firewall (WAF)](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/cdn/fastly-waf-service) no guia Commerce on Cloud Infrastructure.
+* [Introdução ao VCL personalizado](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets) no guia do Commerce on Cloud Infrastructure.

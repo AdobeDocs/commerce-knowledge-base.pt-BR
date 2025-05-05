@@ -37,6 +37,6 @@ O código é essencial para conectar a origem aos pedidos. Este é um identifica
 
 Você pode remover uma origem de um produto transferindo o inventário ou descartando o produto de todas as remessas em um local.
 
-Se você precisar remover uma origem dos cálculos de [SSA](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/basics/selection-reservations) e do processamento de ordem do Adobe Commerce Inventory, poderá desabilitar a origem. As fontes desativadas retêm todos os dados, os produtos atribuídos e as quantidades de inventário, e podem ser reativadas a qualquer momento para começar a entrega novamente.
+Se você precisar remover uma origem dos cálculos de [SSA](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/inventory/basics/selection-reservations) e do processamento de ordem do Adobe Commerce Inventory, poderá desabilitar a origem. As fontes desativadas retêm todos os dados, os produtos atribuídos e as quantidades de inventário, e podem ser reativadas a qualquer momento para começar a entrega novamente.
 
 Consulte o [guia Criar Fontes](https://github.com/magento/inventory/wiki/Create-Sources#disable-sources) para obter detalhes sobre como desabilitar uma origem.

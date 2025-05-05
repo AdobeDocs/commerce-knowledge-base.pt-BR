@@ -95,7 +95,7 @@ Para adicionar o processo como um trabalho cron opcionalmente, você deve adicio
 
 >[!TIP]
 >
->[Arquivos YAML](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) diferenciam maiúsculas de minúsculas e não permitem guias. Tenha cuidado para usar recuo consistente em todo o arquivo .magento.env.yaml ou sua configuração pode não funcionar como esperado. Os exemplos na documentação e no arquivo de amostra usam recuo de dois espaços. Use o comando ece-tools validate para verificar sua configuração.
+>[Arquivos YAML](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=pt-BR) diferenciam maiúsculas de minúsculas e não permitem guias. Tenha cuidado para usar recuo consistente em todo o arquivo .magento.env.yaml ou sua configuração pode não funcionar como esperado. Os exemplos na documentação e no arquivo de amostra usam recuo de dois espaços. Use o comando ece-tools validate para verificar sua configuração.
 
 >[!NOTE]
 >

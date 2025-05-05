@@ -24,7 +24,7 @@ Use o seguinte patch anexado:
 
 ## Como aplicar o patch
 
-1. Siga as etapas em [Executar uma atualização](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html) no guia do Commerce.
+1. Siga as etapas em [Executar uma atualização](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=pt-BR) no guia do Commerce.
 1. Aplicar o patch anexado antes da fase **[!UICONTROL Update metadata]**.
 (Você também pode aplicar o patch depois de concluir a fase **[!UICONTROL Update metadata]**, mas precisa executar `bin/magento setup:upgrade` novamente).
-1. Continue com o restante das etapas em [Executar uma atualização](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html).
+1. Continue com o restante das etapas em [Executar uma atualização](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=pt-BR).

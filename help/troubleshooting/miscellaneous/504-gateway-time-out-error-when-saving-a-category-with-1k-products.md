@@ -64,4 +64,4 @@ Agora é possível continuar a adicionar produtos às categorias ou mover catego
 
 ## Leitura relacionada
 
-[Redirecionamentos Automáticos de Produto](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-redirect-product-automatic) em nosso guia do usuário.
+[Redirecionamentos Automáticos de Produto](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/marketing/seo/url-rewrites/url-redirect-product-automatic) em nosso guia do usuário.

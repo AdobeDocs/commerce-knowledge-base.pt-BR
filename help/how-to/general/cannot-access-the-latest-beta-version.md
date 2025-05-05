@@ -33,7 +33,7 @@ Estas são as causas mais comuns de problemas:
 
 ### Localização do código de acesso antecipado
 
-Durante os períodos de acesso beta, os pacotes de versão só estão disponíveis via Composer no [repo.magento.com](https://repo.magento.com/). Os pacotes de versão não estão disponíveis nos portais GitHub e Adobe Commerce durante esse período, e nós os publicaremos nesses locais na data de disponibilidade geral. Para obter mais detalhes sobre como usar o Composer, clique [aqui](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer).
+Durante os períodos de acesso beta, os pacotes de versão só estão disponíveis via Composer no [repo.magento.com](https://repo.magento.com/). Os pacotes de versão não estão disponíveis nos portais GitHub e Adobe Commerce durante esse período, e nós os publicaremos nesses locais na data de disponibilidade geral. Para obter mais detalhes sobre como usar o Composer, clique [aqui](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/composer).
 
 ### ID da imagem que você precisa usar
 

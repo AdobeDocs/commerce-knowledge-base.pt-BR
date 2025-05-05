@@ -35,7 +35,7 @@ Digite o seguinte comando da CLI:
 bin/magento config:set system/backup/functionality_enabled 1
 ```
 
-Para obter informações adicionais sobre backups, consulte [Fazer backup e reverter o sistema de arquivos, a mídia e o banco de dados.](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/backup)
+Para obter informações adicionais sobre backups, consulte [Fazer backup e reverter o sistema de arquivos, a mídia e o banco de dados.](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/tutorials/backup)
 
 ## Espaço em disco insuficiente {#insufficient-disk-space-trouble-backup-space-}
 
@@ -55,6 +55,6 @@ Infelizmente, não podemos recomendar nada específico devido à variedade de er
 
 ## Falha no backup {#backup-fails-trouble-backup-all-}
 
-Se o backup falhar ou se todos os testes de backup falharem, é possível que o [proprietário do sistema de arquivos do Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/overview) não tenha privilégios suficientes e propriedade do sistema de arquivos do Adobe Commerce. Por exemplo, outro usuário pode ser o proprietário dos arquivos ou os arquivos podem ser somente leitura.
+Se o backup falhar ou se todos os testes de backup falharem, é possível que o [proprietário do sistema de arquivos do Adobe Commerce](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/prerequisites/file-system/overview) não tenha privilégios suficientes e propriedade do sistema de arquivos do Adobe Commerce. Por exemplo, outro usuário pode ser o proprietário dos arquivos ou os arquivos podem ser somente leitura.
 
-Preste atenção especial às permissões do sistema de arquivos e à propriedade do diretório e dos subdiretórios `<magento_root>/var`. Para obter mais informações, consulte [Definir permissões e propriedade do sistema de arquivos](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/configure-permissions).
+Preste atenção especial às permissões do sistema de arquivos e à propriedade do diretório e dos subdiretórios `<magento_root>/var`. Para obter mais informações, consulte [Definir permissões e propriedade do sistema de arquivos](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/prerequisites/file-system/configure-permissions).

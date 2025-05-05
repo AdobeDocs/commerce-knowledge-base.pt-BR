@@ -27,7 +27,7 @@ Um erro inespecífico é exibido quando o check-out do convidado é desativado n
 <u>Pré-requisitos</u>:
 
 1. No Administrador do Commerce, em **Lojas** > **Configuração** > **Vendas** > **Check-out**, defina **Permitir Check-out de Convidado** = *Não*.
-1. Ative o PayPal por meio do Braintree, conforme descrito no [Braintree](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/braintree?) em nosso guia do usuário.
+1. Ative o PayPal por meio do Braintree, conforme descrito no [Braintree](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/payments/braintree?) em nosso guia do usuário.
 
 <u>Etapas a serem reproduzidas</u>:
 

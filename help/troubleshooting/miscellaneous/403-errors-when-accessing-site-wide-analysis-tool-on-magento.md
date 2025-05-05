@@ -79,4 +79,4 @@ Se você ainda não conseguir acessar a Ferramenta de Análise do Site, ao fazer
 
 ## Leitura relacionada
 
-* [Guia da Ferramenta de Análise do Site](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/intro.html)
+* [Guia da Ferramenta de Análise do Site](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/intro.html?lang=pt-BR)

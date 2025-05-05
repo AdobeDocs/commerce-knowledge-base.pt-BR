@@ -45,4 +45,4 @@ Remova o JSON da seção **Tempo de Execução** > **Extensões** em `.magento.a
 
 ## Leitura relacionada
 
-[Aplicativo PHP](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/php-settings) em nossa documentação do desenvolvedor.
+[Aplicativo PHP](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/configure/app/php-settings) em nossa documentação do desenvolvedor.

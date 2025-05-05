@@ -68,5 +68,5 @@ Crie um trabalho cron para excluir os índices de rastreamento. Esse comando exc
 
 Se você deseja excluir índices em uma frequência de tempo definida, crie um trabalho cron referenciando os seguintes artigos em nossa documentação do desenvolvedor:
 
-* [Configurar um trabalho cron personalizado e um grupo cron (tutorial)](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/crons/custom-cron-tutorial)
-* [Configurar trabalhos cron](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property)
+* [Configurar um trabalho cron personalizado e um grupo cron (tutorial)](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/crons/custom-cron-tutorial)
+* [Configurar trabalhos cron](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property)

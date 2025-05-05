@@ -47,9 +47,9 @@ O cloaking de origem é um recurso de segurança que permite que o Adobe Commerc
 ## Solução
 
 * Se o site na nuvem estiver ativo, alterne para https://mydomain.com/.
-* Se você tiver um site ativo (não nuvem), usando o domínio https://mydomain.com/, configure um subdomínio `mcprod.mydomain.com` e atualize sua **URL Base** para *https://mcprod.mydomain.com* e depois [aponte o DNS para Fastly](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#update-dns-configuration-with-development-settings).
+* Se você tiver um site ativo (não nuvem), usando o domínio https://mydomain.com/, configure um subdomínio `mcprod.mydomain.com` e atualize sua **URL Base** para *https://mcprod.mydomain.com* e depois [aponte o DNS para Fastly](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#update-dns-configuration-with-development-settings).
 
 ## Leitura relacionada
 
 * [Perguntas frequentes sobre a habilitação do Fastly origin cloaking](/help/faq/general/fastly-origin-cloaking-enablement-faq.md) em nossa base de dados de conhecimento de suporte
-* [Lista de verificação para configurar um novo domínio](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/checklist-for-setting-up-a-new-domain) em nossa knowledge base de suporte
+* [Lista de verificação para configurar um novo domínio](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/how-to/checklist-for-setting-up-a-new-domain) em nossa knowledge base de suporte

@@ -33,4 +33,4 @@ Contate o proprietário da conta da New Relic e solicite que ele adicione você 
 
 ## Leitura relacionada
 
-[Gerenciar [!DNL New Relic] conta](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) em nossa documentação de desenvolvedor.
+[Gerenciar [!DNL New Relic] conta](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) em nossa documentação de desenvolvedor.

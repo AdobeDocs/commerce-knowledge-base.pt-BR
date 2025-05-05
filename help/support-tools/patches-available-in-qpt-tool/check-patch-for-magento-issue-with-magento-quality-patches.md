@@ -42,7 +42,7 @@ A ferramenta tem como objetivo permitir que você faça o autoatendimento com pa
 
 ## Patches disponíveis na Ferramenta de patches de qualidade
 
-Consulte a [Ferramenta de Patches de Qualidade](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) em nossa documentação do desenvolvedor para obter a lista de patches disponíveis.
+Consulte a [Ferramenta de Patches de Qualidade](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html?lang=pt-BR) em nossa documentação do desenvolvedor para obter a lista de patches disponíveis.
 
 ## Como instalar e usar a Ferramenta de correções de qualidade
 
@@ -50,14 +50,14 @@ Os comandos de instalação e uso são diferentes para o Adobe Commerce no local
 
 ### Como instalar e usar o QPT para Adobe Commerce no local
 
-Consulte o [Guia de Atualização de Software > Patches](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage) em nossa documentação do desenvolvedor para obter detalhes sobre como instalar e usar o QPT para aplicar e reverter patches.
+Consulte o [Guia de Atualização de Software > Patches](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/tools/quality-patches-tool/usage) em nossa documentação do desenvolvedor para obter detalhes sobre como instalar e usar o QPT para aplicar e reverter patches.
 
 ### Como instalar e usar o QPT para Adobe Commerce na infraestrutura em nuvem
 
-Consulte [Nuvem para Adobe Commerce > Aplicar patches](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) em nossa documentação do desenvolvedor para obter detalhes sobre como instalar e usar o QPT para aplicar e reverter patches no Adobe Commerce na infraestrutura em nuvem.
+Consulte [Nuvem para Adobe Commerce > Aplicar patches](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) em nossa documentação do desenvolvedor para obter detalhes sobre como instalar e usar o QPT para aplicar e reverter patches no Adobe Commerce na infraestrutura em nuvem.
 
 ## Leitura relacionada
 
-* [Notas de versão da Ferramenta de correções de qualidade](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/release-notes) em nossa documentação do desenvolvedor.
+* [Notas de versão da Ferramenta de correções de qualidade](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/tools/quality-patches-tool/release-notes) em nossa documentação do desenvolvedor.
 * [Como aplicar os patches do compositor fornecidos pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de dados de conhecimento de suporte.
 

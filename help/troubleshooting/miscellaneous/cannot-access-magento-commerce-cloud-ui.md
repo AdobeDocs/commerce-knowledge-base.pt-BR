@@ -23,12 +23,12 @@ Ao tentar fazer logon na Adobe Commerce pela primeira vez na interface do usuár
 
 Se você receber um erro 403 ao acessar o URL pela primeira vez, verifique se você tem uma função na ramificação mestre.
 
-1. Сcontate o proprietário da licença ou um superusuário no projeto e verifique se ele forneceu acesso a você como um **usuário de nível de ambiente**, também descrito em [Projetos na nuvem > Gerenciar usuários no Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#manage-users-from-the-cloud-console) na documentação do desenvolvedor.
+1. Сcontate o proprietário da licença ou um superusuário no projeto e verifique se ele forneceu acesso a você como um **usuário de nível de ambiente**, também descrito em [Projetos na nuvem > Gerenciar usuários no Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=pt-BR#manage-users-from-the-cloud-console) na documentação do desenvolvedor.
 
    Se você tiver apenas uma função aplicável em uma ramificação específica, será necessário acessar o URL dessa ramificação, por exemplo,
    `https://console.adobecommerce.com/<owner-name>/<project-id>/<branch-name>`
 
    Na próxima vez que você acessar o URL principal, ele assumirá como padrão o último ambiente visitado.
 
-1. Se você ainda não conseguir fazer logon, сcontate o proprietário da licença ou um superusuário no projeto e verifique se ele forneceu acesso a você como um **usuário de nível de projeto**, conforme descrito em [Projetos na nuvem > Adicionar um usuário ao projeto](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#add-a-user-to-the-project) na documentação do desenvolvedor.
+1. Se você ainda não conseguir fazer logon, сcontate o proprietário da licença ou um superusuário no projeto e verifique se ele forneceu acesso a você como um **usuário de nível de projeto**, conforme descrito em [Projetos na nuvem > Adicionar um usuário ao projeto](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=pt-BR#add-a-user-to-the-project) na documentação do desenvolvedor.
 1. Se o erro persistir, [envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).

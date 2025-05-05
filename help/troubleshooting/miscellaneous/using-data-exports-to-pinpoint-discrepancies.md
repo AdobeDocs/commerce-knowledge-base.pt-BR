@@ -1,6 +1,6 @@
 ---
 title: Uso de Exportações de Dados para apontar discrepâncias
-description: Este artigo fornece soluções para discrepâncias de solução de problemas nos dados de Magento BI. As Exportações de dados são uma ferramenta útil para comparar seus dados do Magento BI com os dados de origem para apontar discrepâncias de dados em seus relatórios, especialmente se a [lista de verificação de diagnóstico de discrepância de dados](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy) não ajudou a identificar o problema. Este artigo o guiará por um exemplo real de como as discrepâncias de dados podem ser identificadas usando as Exportações de dados.
+description: Este artigo fornece soluções para discrepâncias de solução de problemas nos dados de Magento BI. As Exportações de dados são uma ferramenta útil para comparar seus dados do Magento BI com os dados de origem para apontar discrepâncias de dados em seus relatórios, especialmente se a [lista de verificação de diagnóstico de discrepância de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy) não ajudou a identificar o problema. Este artigo o guiará por um exemplo real de como as discrepâncias de dados podem ser identificadas usando as Exportações de dados.
 exl-id: b42d585c-ad8c-4685-9ad4-a13686566f18
 feature: Commerce Intelligence, Data Import/Export
 role: Developer
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Uso de Exportações de Dados para apontar discrepâncias
 
-Este artigo fornece soluções para discrepâncias de solução de problemas nos dados de Magento BI. As Exportações de Dados são uma ferramenta útil para comparar seus dados do Magento BI com seus dados de origem para apontar discrepâncias de dados em seus relatórios, especialmente se a [lista de verificação de diagnóstico de discrepância de dados](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy) não ajudou a identificar o problema. Este artigo o guiará por um exemplo real de como as discrepâncias de dados podem ser identificadas usando as Exportações de dados.
+Este artigo fornece soluções para discrepâncias de solução de problemas nos dados de Magento BI. As Exportações de Dados são uma ferramenta útil para comparar seus dados do Magento BI com seus dados de origem para apontar discrepâncias de dados em seus relatórios, especialmente se a [lista de verificação de diagnóstico de discrepância de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy) não ajudou a identificar o problema. Este artigo o guiará por um exemplo real de como as discrepâncias de dados podem ser identificadas usando as Exportações de dados.
 
 Faça esta análise, por exemplo:
 
@@ -51,7 +51,7 @@ Agora que todos os dados estão em um só lugar, podemos procurar a fonte da dis
 
 Se ambos os sistemas tiverem a mesma contagem de linhas e a métrica **Receita** não corresponder aos dados de origem, a **ordem\_total** deverá estar desativada em algum lugar. É possível que o campo **ordem\_total** tenha sido atualizado no banco de dados de origem e o Magento BI não esteja coletando essas alterações.
 
-Para confirmar isso, verifique se a coluna **order\_total** está ou não sendo verificada novamente. Vá para o Gerenciador de Datas Warehouse e clique na tabela **`orders`**. Você verá a [frequência de reverificação](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks.html) listada em &#39;Alterações?&#39; coluna. O campo **order\_total** deve ser definido para verificar novamente com a frequência esperada; caso contrário, vá em frente e defina-o com a frequência de verificação desejada.
+Para confirmar isso, verifique se a coluna **order\_total** está ou não sendo verificada novamente. Vá para o Gerenciador de Datas Warehouse e clique na tabela **`orders`**. Você verá a [frequência de reverificação](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks.html?lang=pt-BR) listada em &#39;Alterações?&#39; coluna. O campo **order\_total** deve ser definido para verificar novamente com a frequência esperada; caso contrário, vá em frente e defina-o com a frequência de verificação desejada.
 
 ### ![](assets/Export_Discrepancies_4.gif)
 
@@ -69,7 +69,7 @@ Navegue até a página Conexões e verifique o status da fonte de dados que cont
 
 ## O banco de dados de origem tem MENOS linhas do que o Magento BI {#lessrows}
 
-Se o banco de dados de origem tiver menos linhas do que o Magento BI, é possível que as linhas estejam sendo excluídas do banco de dados de origem e o Magento BI não esteja coletando essas exclusões. **&#x200B; [A exclusão de dados](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/opt-db-analysis.html) pode gerar discrepâncias, tempos de atualização mais longos e uma enxurrada de dores de cabeça com logística**. Portanto, recomendamos que você nunca exclua dados, a menos que seja realmente necessário.
+Se o banco de dados de origem tiver menos linhas do que o Magento BI, é possível que as linhas estejam sendo excluídas do banco de dados de origem e o Magento BI não esteja coletando essas exclusões. **&#x200B; [A exclusão de dados](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/opt-db-analysis.html?lang=pt-BR) pode gerar discrepâncias, tempos de atualização mais longos e uma enxurrada de dores de cabeça com logística**. Portanto, recomendamos que você nunca exclua dados, a menos que seja realmente necessário.
 
 No entanto, se as linhas forem excluídas da tabela, verifique a frequência de reverificação na chave primária. Verificar novamente a chave primária significa que a tabela será verificada em busca de linhas excluídas.
 
@@ -89,7 +89,7 @@ Se você não puder identificar a origem do problema, precisará executar um loo
 
 ## Leitura relacionada
 
-* [Lista de verificação de diagnóstico de discrepância de dados](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)
-* [Políticas de Serviço do Adobe Commerce Intelligence](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies)
-* [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce
+* [Lista de verificação de diagnóstico de discrepância de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)
+* [Políticas de Serviço do Adobe Commerce Intelligence](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies)
+* [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce
 

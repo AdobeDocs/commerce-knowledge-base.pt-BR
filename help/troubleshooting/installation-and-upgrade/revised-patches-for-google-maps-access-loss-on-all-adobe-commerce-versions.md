@@ -72,4 +72,4 @@ Este problema será corrigido permanentemente no escopo das versões de patch so
 
 ## Leitura relacionada
 
-[Como aplicar um patch de compositor fornecido pelo Adobe](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento)
+[Como aplicar um patch de compositor fornecido pelo Adobe](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento)

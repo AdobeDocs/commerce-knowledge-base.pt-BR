@@ -40,7 +40,7 @@ Dois métodos para verificar quando a última implantação foi executada:
 
 Se a implantação for concluída com êxito, o [!DNL SSL certificate] será renovado automaticamente.
 
-Se a implantação falhar e você precisar de ajuda para resolvê-la, [envie um tíquete de suporte](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
+Se a implantação falhar e você precisar de ajuda para resolvê-la, [envie um tíquete de suporte](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=pt-BR#submit-ticket).
 
 ### Método 1: usar a CLI do [!DNL magento-cloud] {#meth2}
 
@@ -55,9 +55,9 @@ Vá para, por exemplo: `https://demo.magento.cloud/#/projects/<project>/environm
 Em nossa documentação do desenvolvedor:
 
 * [API do Cloud Manager: SSLCertificates](https://developer.adobe.com/experience-cloud/cloud-manager/reference/api/#tag/SSLCertificates)
-* [Configurar o Fastly: Provisionar certificados SSL/TLS](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#provision-ssltls-certificates)
+* [Configurar o Fastly: Provisionar certificados SSL/TLS](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#provision-ssltls-certificates)
 
 Em nossa base de conhecimento de suporte:
 
-* [Informações de expiração do certificado SSL personalizado](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/custom-ssl-certificate-expiration-information.html)
-* [Certificados SSL (TLS) para Adobe Commerce na infraestrutura em nuvem](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/ssl-tls-certificates-for-magento-commerce-cloud-faq.html)
+* [Informações de expiração do certificado SSL personalizado](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/custom-ssl-certificate-expiration-information.html?lang=pt-BR)
+* [Certificados SSL (TLS) para Adobe Commerce na infraestrutura em nuvem](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/ssl-tls-certificates-for-magento-commerce-cloud-faq.html?lang=pt-BR)

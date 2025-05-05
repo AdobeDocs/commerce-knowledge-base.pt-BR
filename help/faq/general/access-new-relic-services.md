@@ -28,8 +28,8 @@ Se alguns clientes tiverem recebido do New Relic o email contendo um link de ati
 
 **Clientes da arquitetura de plano inicial do Adobe Commerce na infraestrutura em nuvem que desejam usar o New Relic:**
 
-Os clientes da arquitetura inicial não recebem o serviço New Relic Infrastructure como parte de sua assinatura. No entanto, eles poderão usar o New Relic Application Performance Monitoring (APM) se adicionarem uma licença seguindo as etapas [Conectar-se ao New Relic](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) da documentação do desenvolvedor.
+Os clientes da arquitetura inicial não recebem o serviço New Relic Infrastructure como parte de sua assinatura. No entanto, eles poderão usar o New Relic Application Performance Monitoring (APM) se adicionarem uma licença seguindo as etapas [Conectar-se ao New Relic](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) da documentação do desenvolvedor.
 
 ## Leitura relacionada
 
-Para saber mais sobre os serviços da New Relic, consulte [Investigar desempenho](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) na documentação do desenvolvedor. Você também pode revisar [Solucionar problemas de desempenho usando o New Relic na infraestrutura em nuvem do Adobe Commerce](/help/troubleshooting/miscellaneous/troubleshoot-performance-using-new-relic-on-magento-commerce.md) em nossa base de conhecimento de suporte.
+Para saber mais sobre os serviços da New Relic, consulte [Investigar desempenho](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) na documentação do desenvolvedor. Você também pode revisar [Solucionar problemas de desempenho usando o New Relic na infraestrutura em nuvem do Adobe Commerce](/help/troubleshooting/miscellaneous/troubleshoot-performance-using-new-relic-on-magento-commerce.md) em nossa base de conhecimento de suporte.

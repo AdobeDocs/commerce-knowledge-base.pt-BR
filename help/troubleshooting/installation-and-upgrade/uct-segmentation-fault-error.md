@@ -17,7 +17,7 @@ Este artigo explica os erros que você pode enfrentar ao usar a Ferramenta de co
 
 ## Produtos e versões afetados
 
-* A [Ferramenta de Compatibilidade de Atualização](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html) é compatível com as versões do Adobe Commerce a partir da versão 2.3.0.
+* A [Ferramenta de Compatibilidade de Atualização](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html?lang=pt-BR) é compatível com as versões do Adobe Commerce a partir da versão 2.3.0.
 
 ## Erro de falha de segmentação
 
@@ -82,4 +82,4 @@ Essa opção de comando também permite que a Ferramenta de compatibilidade de a
 bin/uct upgrade:check /<dir>/<instance-name> -m /vendor/<vendor-name>/
 ```
 
-Consulte a página [Executar a ferramenta em uma interface de linha de comando](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/use-upgrade-compatibility-tool/run.html) para obter mais informações sobre opções de interface de linha de comando.
+Consulte a página [Executar a ferramenta em uma interface de linha de comando](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/use-upgrade-compatibility-tool/run.html?lang=pt-BR) para obter mais informações sobre opções de interface de linha de comando.

@@ -14,11 +14,11 @@ ht-degree: 0%
 # Descontinuação do Centro de ajuda da Adobe Commerce
 
 Em nossa jornada de melhor conexão com a família de soluções Adobe, a Adobe Commerce migrou nosso processo de entrada de suporte do Adobe Commerce Help Center para o Adobe Experience League.
-Em 29 de julho de 2024, a Central de Ajuda do Adobe Commerce foi colocada em um status somente leitura, e todos os novos casos de suporte agora são enviados por meio do [Adobe Experience League](https://experienceleague.adobe.com/).
+Em 29 de julho de 2024, a Central de Ajuda do Adobe Commerce foi colocada em um status somente leitura, e todos os novos casos de suporte agora são enviados por meio do [Adobe Experience League](https://experienceleague.adobe.com/pt-br).
 
 >[!NOTE]
 >
->**Use o fluxo de formulário do caso Experience League descrito [aqui](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide?lang=en#what-is-experience-support) para enviar casos de suporte.**
+>**Use o fluxo de formulário do caso Experience League descrito [aqui](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide?lang=en#what-is-experience-support) para enviar casos de suporte.**
 
 ## Exibindo Ocorrências Históricas no Adobe Commerce Help Center
 
@@ -34,4 +34,4 @@ Se você quiser revisar casos de suporte históricos criados no Centro de ajuda 
 
 >[!NOTE]
 >
->A parte da Base de Dados de Conhecimento da Central de Ajuda da Adobe Commerce também migrou para o [portal do Adobe Experience League](https://experienceleague.adobe.com/). Ao criar um tíquete de suporte, serão sugeridos artigos relacionados da Knowledge base, juntamente com outra documentação relevante do Adobe Commerce no Adobe Experience League.
+>A parte da Base de Dados de Conhecimento da Central de Ajuda da Adobe Commerce também migrou para o [portal do Adobe Experience League](https://experienceleague.adobe.com/pt-br). Ao criar um tíquete de suporte, serão sugeridos artigos relacionados da Knowledge base, juntamente com outra documentação relevante do Adobe Commerce no Adobe Experience League.

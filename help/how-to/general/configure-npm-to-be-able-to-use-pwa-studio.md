@@ -54,4 +54,4 @@ As alterações entrarão em vigor depois que o Git enviar o arquivo YAML atuali
 
 ## Documentação relacionada
 
-* [Configuração do aplicativo: ganchos](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/hooks-property.html) em nosso Guia do Adobe Commerce na Infraestrutura em Nuvem.
+* [Configuração do aplicativo: ganchos](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/hooks-property.html?lang=pt-BR) em nosso Guia do Adobe Commerce na Infraestrutura em Nuvem.

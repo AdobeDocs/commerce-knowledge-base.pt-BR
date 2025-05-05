@@ -30,7 +30,7 @@ Um motivo para a degradação de desempenho pode ser a desativação de determin
 
 ## Solução
 
-1. Primeiro, verifique o status do cache do Adobe Commerce para ver se esse é o problema. Para isso, [SSH para o seu ambiente](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh) e execute o seguinte comando:
+1. Primeiro, verifique o status do cache do Adobe Commerce para ver se esse é o problema. Para isso, [SSH para o seu ambiente](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh) e execute o seguinte comando:
 
    ```bash
    php bin/magento cache:status
@@ -48,7 +48,7 @@ Se houver dúvidas e/ou se um determinado tipo de cache do Adobe Commerce pode o
 Documentação do cache do Adobe Commerce na documentação do desenvolvedor:
 
 * [visão geral do cache do Adobe Commerce](https://developer.adobe.com/commerce/frontend-core/guide/caching/)
-* [Gerenciar o cache](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache)
+* [Gerenciar o cache](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/cli/manage-cache)
 
 Outros motivos possíveis para problemas de desempenho e as soluções para eles:
 

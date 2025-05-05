@@ -50,5 +50,5 @@ O atributo de status do produto foi renomeado no arquivo CSV. Agora é a coluna 
 
 ## Leitura relacionada
 
-* [Trabalhando com arquivos CSV](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-csv) em nosso guia do usuário.
-* [Referência a atributos de exportação do produto](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-attributes-product) em nosso guia do usuário.
+* [Trabalhando com arquivos CSV](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/systems/data-transfer/data-csv) em nosso guia do usuário.
+* [Referência a atributos de exportação do produto](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/systems/data-transfer/data-attributes-product) em nosso guia do usuário.

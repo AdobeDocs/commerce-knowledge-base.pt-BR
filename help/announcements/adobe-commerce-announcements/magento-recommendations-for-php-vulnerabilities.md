@@ -28,7 +28,7 @@ Se você estiver usando o Adobe Commerce na infraestrutura em nuvem, trabalhe co
 Observações adicionais sobre a reimplantação do site na nuvem para esta atualização:
 
 * Se o seu site ainda estiver usando o PHP versão 7.0, você precisará fazer upgrade para uma versão suportada do PHP primeiro antes de reimplantar para aproveitar essas atualizações de segurança.
-* Para 2.1.x/2.2.x, você pode encontrar mais informações sobre como atualizar o PHP [aqui](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version.html).
+* Para 2.1.x/2.2.x, você pode encontrar mais informações sobre como atualizar o PHP [aqui](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version.html?lang=pt-BR).
 
 \* *As versões anteriores deste artigo e nossas mensagens iniciaram em 19 de setembro, mas nossas equipes concluíram o trabalho antes do agendamento.*
 

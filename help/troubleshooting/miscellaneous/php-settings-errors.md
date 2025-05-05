@@ -48,7 +48,7 @@ Configurações com um alto número de lojas, produtos, atributos ou opções po
 PHP message: PHP Warning: Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini.
 ```
 
-Não há valor &#39;apropriado&#39; para `max-input-vars`; isso depende do tamanho e da complexidade da sua configuração. Modifique o valor no arquivo `php.ini` conforme necessário. Consulte [Configurações PHP necessárias](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings).
+Não há valor &#39;apropriado&#39; para `max-input-vars`; isso depende do tamanho e da complexidade da sua configuração. Modifique o valor no arquivo `php.ini` conforme necessário. Consulte [Configurações PHP necessárias](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/prerequisites/php-settings).
 
 ## erro de nível de aninhamento de função máxima xdebug
 
@@ -76,4 +76,4 @@ Vários modelos têm sintaxe para suporte de nível abstrato em modelos (use dif
 
 Mais informações sobre [asp\_tags](http://php.net/manual/en/ini.core.php#ini.asp-tags).
 
-Editar `php.ini` e definir `asp_tags = off`. Para obter mais informações, consulte [Configurações PHP necessárias](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings).
+Editar `php.ini` e definir `asp_tags = off`. Para obter mais informações, consulte [Configurações PHP necessárias](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/prerequisites/php-settings).

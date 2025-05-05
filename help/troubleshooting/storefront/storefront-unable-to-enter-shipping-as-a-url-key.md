@@ -122,5 +122,5 @@ Além disso, evite usar essas palavras-chave rotuladas como *reservadas* que faz
 
 ## Leitura relacionada
 
-* [Substituições de URL](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) em nosso Guia do Usuário de Merchandising e Promoções.
-* [Práticas recomendadas da SEO](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview) em nosso Guia do usuário de merchandising e promoções.
+* [Substituições de URL](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) em nosso Guia do Usuário de Merchandising e Promoções.
+* [Práticas recomendadas da SEO](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/marketing/seo/seo-overview) em nosso Guia do usuário de merchandising e promoções.

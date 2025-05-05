@@ -30,11 +30,11 @@ Esse é o comportamento esperado. A conta do usuário deve ser criada primeiro e
 ## Solução
 
 1. Peça ao usuário para fazer logon em sua conta em https://accounts.magento.cloud (ele já deve ter se registrado para uma conta em adobe.com nesse endereço de email. Criar/ter uma conta em https://account.adobe.com não significa automaticamente que o usuário teria uma conta em https://accounts.magento.cloud)
-Observação: se o usuário tiver uma conta no account.magento.com ou accounts.magento.cloud antes de agosto de 2022, talvez ele não tenha uma conta no/no adobe.com, a menos que o tenha criado em agosto de 2022 ou posterior. Se o usuário tiver uma conta Adobe e não conseguir fazer logon, [envie uma solicitação de suporte](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide) em https://experienceleague.adobe.com/home#support e forneça os detalhes (Motivo do problema = Gerenciamento do usuário).
+Observação: se o usuário tiver uma conta no account.magento.com ou accounts.magento.cloud antes de agosto de 2022, talvez ele não tenha uma conta no/no adobe.com, a menos que o tenha criado em agosto de 2022 ou posterior. Se o usuário tiver uma conta Adobe e não conseguir fazer logon, [envie uma solicitação de suporte](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide) em https://experienceleague.adobe.com/home?lang=pt-BR#support e forneça os detalhes (Motivo do problema = Gerenciamento do usuário).
 1. O usuário deve acessar https://accounts.magento.cloud.
-1. Depois disso, você poderá adicionar o usuário ao projeto. Para obter etapas, consulte [Adicionar usuários e gerenciar o acesso](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#add-users-and-manage-access) em nosso Guia de Infraestrutura do Commerce na Nuvem.
+1. Depois disso, você poderá adicionar o usuário ao projeto. Para obter etapas, consulte [Adicionar usuários e gerenciar o acesso](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=pt-BR#add-users-and-manage-access) em nosso Guia de Infraestrutura do Commerce na Nuvem.
 
 ## Leitura relacionada:
 
-* [Gerenciar o acesso do usuário](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) em nosso Guia do Commerce na Infraestrutura em Nuvem.
-* [Não é possível fazer logon no suporte da Adobe Commerce ou na conta de nuvem](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/unable-to-log-in-to-support-or-cloud-project.html)
+* [Gerenciar o acesso do usuário](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=pt-BR) em nosso Guia do Commerce na Infraestrutura em Nuvem.
+* [Não é possível fazer logon no suporte da Adobe Commerce ou na conta de nuvem](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/unable-to-log-in-to-support-or-cloud-project.html?lang=pt-BR)

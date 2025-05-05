@@ -29,7 +29,7 @@ Depois de faturar (capturar) um pedido ou emitir um aviso de crédito para um pe
 
 Pré-requisitos: um pedido é feito usando a funcionalidade Serviços de pagamento.
 
-1. Um pedido é [faturado](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice) (ou [cancelado](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order) ou [reembolsado via memorando de crédito](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos)) no [Administrador](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/admin).
+1. Um pedido é [faturado](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice) (ou [cancelado](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order) ou [reembolsado via memorando de crédito](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos)) no [Administrador](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/start/admin/admin).
 1. Navegue até o relatório de status de pagamento da Ordem para ver informações sobre essa ordem.
 1. O status é mostrado como `AUTHORIZED`, que é o status do pedido anterior ao faturamento ou outra ação do pedido.
 
@@ -37,7 +37,7 @@ Pré-requisitos: um pedido é feito usando a funcionalidade Serviços de pagamen
 
 >[!NOTE]
 >
->Este é apenas um caso de uso comum. Pode haver outros casos de uso quando uma [ação de pedido](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/orders#actions) ocorrer e os dados não estiverem imediatamente disponíveis no relatório aplicável.
+>Este é apenas um caso de uso comum. Pode haver outros casos de uso quando uma [ação de pedido](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/order-management/orders/orders#actions) ocorrer e os dados não estiverem imediatamente disponíveis no relatório aplicável.
 
 <u>Resultado esperado</u>:
 Os dados do relatório são preenchidos imediatamente após uma ação em um pedido.
@@ -49,7 +49,7 @@ Pode haver um atraso nos dados visíveis do relatório para ações de pedido re
 
 Há dois fatores que afetam esse atraso nos dados visíveis no Administrador:
 
-* Com que frequência você opta por sincronizar (exportar e manter) dados do Commerce, por meio da [configuração no Administrador](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/configure/configure-admin.html).
+* Com que frequência você opta por sincronizar (exportar e manter) dados do Commerce, por meio da [configuração no Administrador](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/configure/configure-admin.html?lang=pt-BR).
 * Período no qual o PayPal publica dados de relatórios.
 
 ## Solução

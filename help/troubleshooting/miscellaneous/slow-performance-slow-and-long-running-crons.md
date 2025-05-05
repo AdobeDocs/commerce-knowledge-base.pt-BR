@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >Em qualquer versão do Adobe Commerce, como algumas extensões funcionam somente com tabelas simples, há um risco se você desativar as tabelas simples. Se você souber que tem algumas extensões que usam indexadores de Catálogo Simples, talvez precise levar isso em consideração ao definir esses valores como &quot; *Não* &quot;.
 
-Este artigo descreve como resolver problemas de desempenho do site e cronogramas de execução lenta e travados causados por [tabelas simples e indexadores](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/catalog-flat) habilitados.
+Este artigo descreve como resolver problemas de desempenho do site e cronogramas de execução lenta e travados causados por [tabelas simples e indexadores](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/catalog/catalog/catalog-flat) habilitados.
 
 PRODUTOS E VERSÕES AFETADOS
 

@@ -57,7 +57,7 @@ Todos os comerciantes locais do Adobe Commerce 2.3.5+ devem executar o seguinte 
 
 **Como corrigir no Adobe Commerce na infraestrutura em nuvem:**
 
-Execute os comandos acima ou atualize para a versão mais recente das ferramentas ECE (ece-tools: 2002.1.7), que estará disponível na quinta-feira, 29 de julho. Para ver as etapas, consulte [Cloud para Adobe Commerce > Atualizar versão de ferramentas ece](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package) na documentação do desenvolvedor.
+Execute os comandos acima ou atualize para a versão mais recente das ferramentas ECE (ece-tools: 2002.1.7), que estará disponível na quinta-feira, 29 de julho. Para ver as etapas, consulte [Cloud para Adobe Commerce > Atualizar versão de ferramentas ece](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package) na documentação do desenvolvedor.
 
 A correção completa será lançada no Adobe Commerce (todos os métodos de implantação) 2.4.4.
 

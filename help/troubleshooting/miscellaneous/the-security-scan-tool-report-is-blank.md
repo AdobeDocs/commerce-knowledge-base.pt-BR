@@ -23,7 +23,7 @@ Este artigo fornece uma correção para o problema em que a Ferramenta de verifi
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. Configure a Ferramenta de Verificação de Segurança para verificar seu site, conforme descrito em [Verificação de Segurança](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan) em nosso guia do usuário.
+1. Configure a Ferramenta de Verificação de Segurança para verificar seu site, conforme descrito em [Verificação de Segurança](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/systems/security/security-scan) em nosso guia do usuário.
 1. Na coluna Ações, selecione **Executar Verificação**.
 
 <u>Resultados esperados</u>:
@@ -47,5 +47,5 @@ Tente abrir seu site.
 
 ## Leitura relacionada
 
-* [Ativar e iniciar](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/overview) em nossa documentação de desenvolvedor.
-* [Verificação de segurança](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan) em nosso guia do usuário.
+* [Ativar e iniciar](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/launch/overview) em nossa documentação de desenvolvedor.
+* [Verificação de segurança](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/systems/security/security-scan) em nosso guia do usuário.

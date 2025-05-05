@@ -30,6 +30,6 @@ Desabilitar uma saída de módulo em **Lojas** > **Configurações** > **Configu
 
 ## Solução
 
-Se você precisar desabilitar a funcionalidade do módulo, desabilite o módulo conforme descrito em [Habilitar ou desabilitar módulos](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/manage-modules) na documentação do desenvolvedor.
+Se você precisar desabilitar a funcionalidade do módulo, desabilite o módulo conforme descrito em [Habilitar ou desabilitar módulos](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/tutorials/manage-modules) na documentação do desenvolvedor.
 
 A funcionalidade de desabilitação de saída do módulo foi removida a partir da versão 2.2.0.

@@ -63,4 +63,4 @@ Como o Administrador é acessado pelo Varnish, você não pode fazer logon no Ad
 $ bin/magento cache:enable
 ```
 
-Para obter mais informações sobre como usar a linha de comando, consulte [Introdução à configuração da linha de comando](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/config-cli).
+Para obter mais informações sobre como usar a linha de comando, consulte [Introdução à configuração da linha de comando](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/cli/config-cli).

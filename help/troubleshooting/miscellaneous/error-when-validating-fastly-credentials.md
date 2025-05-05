@@ -26,7 +26,7 @@ O usuário recebe um erro ao validar as credenciais do Fastly.
 
 ## Solução
 
-1. Verifique se você tem a ID de serviço Fastly e o token da API e tente validar novamente. Para obter instruções detalhadas, consulte [Testar as credenciais do Fastly](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials) na documentação do desenvolvedor.
+1. Verifique se você tem a ID de serviço Fastly e o token da API e tente validar novamente. Para obter instruções detalhadas, consulte [Testar as credenciais do Fastly](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials) na documentação do desenvolvedor.
 1. Se a verificação das credenciais falhar, execute o seguinte comando curl para confirmar o status do serviço:
 
    ```curl
@@ -45,6 +45,6 @@ O usuário recebe um erro ao validar as credenciais do Fastly.
 
 ## Leituras relacionadas em nossa documentação do desenvolvedor:
 
-* [Nuvem para Adobe Commerce > Fastly > Conta de serviço e credenciais do Fastly](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly#fastly-service-account-and-credentials)
+* [Nuvem para Adobe Commerce > Fastly > Conta de serviço e credenciais do Fastly](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/cdn/fastly#fastly-service-account-and-credentials)
 
-* [Cloud para Adobe Commerce > Configurar o Fastly > Testar as credenciais do Fastly](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials)
+* [Cloud para Adobe Commerce > Configurar o Fastly > Testar as credenciais do Fastly](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials)

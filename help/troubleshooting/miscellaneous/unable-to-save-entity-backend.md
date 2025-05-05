@@ -44,7 +44,7 @@ A regra está definida como inativa.
 
 ## Causa
 
-Esse problema está relacionado à nova funcionalidade introduzida recentemente que afetou o Tamanho máximo da sessão. Consulte [Gerenciamento de sessão](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management) na documentação do desenvolvedor.
+Esse problema está relacionado à nova funcionalidade introduzida recentemente que afetou o Tamanho máximo da sessão. Consulte [Gerenciamento de sessão](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/systems/security/security-session-management) na documentação do desenvolvedor.
 
 ## Solução
 
@@ -52,4 +52,4 @@ Aumente o valor de &quot;Tamanho Máximo da Sessão&quot; em (**Lojas** > **Conf
 
 ## Leitura relacionada
 
-* [Menu de marketing](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/marketing-menu) em nosso guia do usuário.
+* [Menu de marketing](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/marketing/marketing-menu) em nosso guia do usuário.

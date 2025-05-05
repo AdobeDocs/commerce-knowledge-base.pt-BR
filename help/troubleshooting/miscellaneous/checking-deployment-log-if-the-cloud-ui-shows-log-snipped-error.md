@@ -30,11 +30,11 @@ Ao tentar exibir o log de implantação na interface do projeto de nuvem, o Adob
 
 ## Causa
 
-Observe que o log mostrado na interface do usuário não deve ser tratado como a fonte da verdade, especialmente se você descobrir que o site não está respondendo ou funcionando corretamente depois que a implantação foi listada com um status de Sucesso. Você também deve verificar os com os logs no servidor. Consulte [Exibir e gerenciar logs](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html) na documentação do desenvolvedor.
+Observe que o log mostrado na interface do usuário não deve ser tratado como a fonte da verdade, especialmente se você descobrir que o site não está respondendo ou funcionando corretamente depois que a implantação foi listada com um status de Sucesso. Você também deve verificar os com os logs no servidor. Consulte [Exibir e gerenciar logs](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=pt-BR) na documentação do desenvolvedor.
 
 ## Solução
 
-1. Verifique se você tem a [CLI do Magento Cloud](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html) instalada em seu ambiente local.
+1. Verifique se você tem a [CLI do Magento Cloud](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html?lang=pt-BR) instalada em seu ambiente local.
 1. Você pode executar um dos comandos a seguir:
 
    ```bash
@@ -70,5 +70,5 @@ Observe que o log mostrado na interface do usuário não deve ser tratado como a
 
 ## Leituras relacionadas em nossa documentação do desenvolvedor:
 
-* [Adobe Commerce na infraestrutura em nuvem > Criar e implantar](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html)
-* [Adobe Commerce na infraestrutura em nuvem > Exibir e gerenciar logs](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)
+* [Adobe Commerce na infraestrutura em nuvem > Criar e implantar](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=pt-BR)
+* [Adobe Commerce na infraestrutura em nuvem > Exibir e gerenciar logs](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=pt-BR)

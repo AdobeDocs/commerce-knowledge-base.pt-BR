@@ -20,7 +20,7 @@ Este artigo explica como sincronizar seu ambiente de produção para Armazenamen
 
 ## Para sincronizar dados de um ambiente para outro
 
-Para sincronizar os dados, você deve despejar manualmente o banco de dados do ambiente de origem. Para transferir dados para outro ambiente, carregue o despejo de origem no ambiente de destino e importe-o. Para obter mais informações, consulte [Importar código do Adobe Commerce para um projeto na nuvem > Importar banco de dados do Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production) na documentação do desenvolvedor.
+Para sincronizar os dados, você deve despejar manualmente o banco de dados do ambiente de origem. Para transferir dados para outro ambiente, carregue o despejo de origem no ambiente de destino e importe-o. Para obter mais informações, consulte [Importar código do Adobe Commerce para um projeto na nuvem > Importar banco de dados do Adobe Commerce](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production) na documentação do desenvolvedor.
 
 Para a arquitetura de plano Pro da infraestrutura em nuvem do Adobe Commerce, você também pode sincronizar do armazenamento temporário e da produção para a sua ramificação mestre de integração. Essa sincronização extrai e envia apenas código, não dados. Para sincronizar dados, você precisará despejar os dados do banco de dados e enviá-los para outro banco de dados do ambiente.
 
@@ -30,7 +30,7 @@ Para a arquitetura de plano Pro da infraestrutura em nuvem do Adobe Commerce, vo
 
 ## Para sincronizar arquivos de um ambiente para outro
 
-Para sincronizar arquivos de um ambiente para outro, use o comando `rsync`. Para obter mais informações, consulte [Implantar código e migrar arquivos estáticos e dados > Migrar arquivos usando rsync](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production#migrate-files-using-rsync) na documentação do desenvolvedor.
+Para sincronizar arquivos de um ambiente para outro, use o comando `rsync`. Para obter mais informações, consulte [Implantar código e migrar arquivos estáticos e dados > Migrar arquivos usando rsync](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production#migrate-files-using-rsync) na documentação do desenvolvedor.
 
 >[!NOTE]
 >

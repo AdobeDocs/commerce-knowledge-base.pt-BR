@@ -52,9 +52,9 @@ Estágios2:
 ## Solução alternativa
 
 * Não use anexos com mais de 6Mb ou 10Mb.
-* Considere o uso de um servidor SMTP remoto em sua instância do Adobe Commerce. Para ver as etapas, consulte [Configurar comunicações por email](https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-communications.html) em nosso Guia de Sistemas de Administração.
+* Considere o uso de um servidor SMTP remoto em sua instância do Adobe Commerce. Para ver as etapas, consulte [Configurar comunicações por email](https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-communications.html?lang=pt-BR) em nosso Guia de Sistemas de Administração.
 * Reconfigure o servidor para que os arquivos possam ser salvos no módulo e, em seguida, anexe o link aos arquivos nos emails.
 
 ## Leitura relacionada
 
-* [[!DNL SendGrid] serviço de email](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html) em nosso Guia de Infraestrutura do Commerce na Nuvem.
+* [[!DNL SendGrid] serviço de email](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html?lang=pt-BR) em nosso Guia de Infraestrutura do Commerce na Nuvem.

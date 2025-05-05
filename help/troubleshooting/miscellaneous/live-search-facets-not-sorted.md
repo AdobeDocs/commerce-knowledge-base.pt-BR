@@ -23,7 +23,7 @@ Todas as facetas de vitrine do Adobe Commerce são classificadas alfabeticamente
 
 ## Solução alternativa
 
-No entanto, em certos casos de borda, os aspectos podem não ser classificados alfabeticamente como configurado no [[!DNL Live Search] espaço de trabalho de facetas](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-admin/facets/faceting-workspace).
+No entanto, em certos casos de borda, os aspectos podem não ser classificados alfabeticamente como configurado no [[!DNL Live Search] espaço de trabalho de facetas](https://experienceleague.adobe.com/pt-br/docs/commerce-merchant-services/live-search/live-search-admin/facets/faceting-workspace).
 
 Como solução alternativa, você pode classificar atributos de produto na seção de atributos [!UICONTROL Admin].
 

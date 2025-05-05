@@ -47,7 +47,7 @@ Isso não é um erro. Para configurar uma filial principal para outra filial, o 
 
 ## Solução
 
-Uma ramificação pai só pode ser definida depois que o comerciante enviou uma ramificação recém-criada e a ativou. Consulte [Adobe Commerce na infraestrutura da nuvem > Integração do Bitbucket](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/integrations/bitbucket#create-a-cloud-branch) em nossa documentação de desenvolvedor.
+Uma ramificação pai só pode ser definida depois que o comerciante enviou uma ramificação recém-criada e a ativou. Consulte [Adobe Commerce na infraestrutura da nuvem > Integração do Bitbucket](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/dev-tools/integrations/bitbucket#create-a-cloud-branch) em nossa documentação de desenvolvedor.
 
 Para atualizar um pai para a ramificação existente no servidor, use o comando `magento-cloud environment:info` na CLI da magento-cloud.
 
@@ -59,4 +59,4 @@ Isso definirá a ramificação principal como &quot;Preparo&quot; para a ramific
 
 ## Leitura relacionada
 
-* [Adobe Commerce na infraestrutura da nuvem > magento-cloud CLI](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview) na documentação do desenvolvedor.
+* [Adobe Commerce na infraestrutura da nuvem > magento-cloud CLI](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview) na documentação do desenvolvedor.

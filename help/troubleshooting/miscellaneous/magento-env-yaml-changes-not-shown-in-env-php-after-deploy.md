@@ -29,7 +29,7 @@ As alterações feitas no arquivo `.magento.env.yaml` não afetam o `app/etc/env
 
 <u>Etapas a serem reproduzidas:</u>
 
-Altere qualquer valor em `.magento.env.yaml` e envie por push para o servidor, onde ele deve definir a configuração (e as configurações de implantação) para o ambiente com check-out no momento. Para ver as etapas, consulte [Variáveis de ambiente > Implantar variáveis](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy) na documentação do desenvolvedor.
+Altere qualquer valor em `.magento.env.yaml` e envie por push para o servidor, onde ele deve definir a configuração (e as configurações de implantação) para o ambiente com check-out no momento. Para ver as etapas, consulte [Variáveis de ambiente > Implantar variáveis](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy) na documentação do desenvolvedor.
 
 <u>Resultado esperado:</u>
 
@@ -45,11 +45,11 @@ O problema pode ser causado pelo valor incorreto do parâmetro `opcache.enable_c
 
 ## Solução
 
-1. Verifique se o sistema está configurado de acordo com [Práticas recomendadas de desempenho do Adobe Commerce > Recomendações de software](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/software).
+1. Verifique se o sistema está configurado de acordo com [Práticas recomendadas de desempenho do Adobe Commerce > Recomendações de software](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/performance-best-practices/software).
 1. Verifique se a diretiva `opcache.enable_cli` em `php.ini` está definida como `0` executando: `php -i | grep opcache.enable_cli`
 1. Se a saída se parece com `opcache.enable_cli=1` , edite o arquivo `php.ini` no diretório raiz do projeto e altere `opcache.enable_cli=1` para `opcache.enable_cli=0`
 1. Reimplante o projeto.
 
 ## Leitura relacionada
 
-* [Nuvem para Adobe Commerce > Criar e implantar](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml).
+* [Nuvem para Adobe Commerce > Criar e implantar](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml).

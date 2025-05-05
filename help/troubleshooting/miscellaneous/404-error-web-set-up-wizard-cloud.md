@@ -43,9 +43,9 @@ O Assistente de Configuração da Web foi desabilitado para todas as instâncias
 
 Esse recurso está desabilitado no Adobe Commerce na infraestrutura em nuvem.
 
-Consulte [Instalar, gerenciar e atualizar extensões](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions) em nossa documentação do desenvolvedor para obter informações sobre como executar atualizações ou instalar módulos externos para o Adobe Commerce em nossa infraestrutura em nuvem.
-Consulte [Instalação de início rápido](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer) em nossa documentação do desenvolvedor para obter informações sobre como executar atualizações ou instalar módulos externos para o Adobe Commerce no local.
+Consulte [Instalar, gerenciar e atualizar extensões](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/configure-store/extensions) em nossa documentação do desenvolvedor para obter informações sobre como executar atualizações ou instalar módulos externos para o Adobe Commerce em nossa infraestrutura em nuvem.
+Consulte [Instalação de início rápido](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/composer) em nossa documentação do desenvolvedor para obter informações sobre como executar atualizações ou instalar módulos externos para o Adobe Commerce no local.
 
 ## Leitura relacionada
 
-* Consulte [Instalar uma extensão](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions#install-an-extension) na documentação do desenvolvedor.
+* Consulte [Instalar uma extensão](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/configure-store/extensions#install-an-extension) na documentação do desenvolvedor.

@@ -1,6 +1,6 @@
 ---
 title: 'MBI: Criação e edição de colunas calculadas avançadas'
-description: '[Usuários administradores](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management) podem criar e editar determinadas colunas calculadas no Gerenciador de Datas Warehouse. Essas colunas calculadas permitem configurar os relatórios que você está procurando para responder às principais perguntas de negócios.'
+description: '[Usuários administradores](https://experienceleague.adobe.com/pt-br/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management) podem criar e editar determinadas colunas calculadas no Gerenciador de Datas Warehouse. Essas colunas calculadas permitem configurar os relatórios que você está procurando para responder às principais perguntas de negócios.'
 exl-id: 713a5593-8103-4d74-be5e-0102678d0f97
 feature: Commerce Intelligence
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
@@ -12,14 +12,14 @@ ht-degree: 0%
 
 # MBI: Criação e edição de colunas calculadas avançadas
 
-[Usuários administradores](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management) podem criar e editar determinadas colunas calculadas no Gerenciador de Datas Warehouse. Essas colunas calculadas permitem configurar os relatórios que você está procurando para responder às principais perguntas de negócios.
+[Usuários administradores](https://experienceleague.adobe.com/pt-br/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management) podem criar e editar determinadas colunas calculadas no Gerenciador de Datas Warehouse. Essas colunas calculadas permitem configurar os relatórios que você está procurando para responder às principais perguntas de negócios.
 
 Para obter a lista de colunas calculadas que podem ser criadas no Gerenciador de Datas Warehouse, bem como orientação para garantir que elas estejam configuradas corretamente, consulte os seguintes artigos no guia do usuário:
 
-* [Criando colunas calculadas](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/creating-calculated-columns)
-* [Tipos de coluna calculados](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/calc-column-types)
-* [Compreendendo e avaliando relações de tabela](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/table-relationships)
-* [Criando caminhos para colunas calculadas](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/create-paths-calc-columns)
+* [Criando colunas calculadas](https://experienceleague.adobe.com/pt-br/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/creating-calculated-columns)
+* [Tipos de coluna calculados](https://experienceleague.adobe.com/pt-br/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/calc-column-types)
+* [Compreendendo e avaliando relações de tabela](https://experienceleague.adobe.com/pt-br/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/table-relationships)
+* [Criando caminhos para colunas calculadas](https://experienceleague.adobe.com/pt-br/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/create-paths-calc-columns)
 
 ## Eu ainda preciso de ajuda!
 
@@ -35,7 +35,7 @@ Se você não tiver certeza de como responder a qualquer uma dessas perguntas, n
 
 ## Leitura relacionada
 
-* [Guia do Usuário do MBI](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/guide-overview)
+* [Guia do Usuário do MBI](https://experienceleague.adobe.com/pt-br/docs/commerce-business-intelligence/mbi/guide-overview)
 * [MBI: discrepâncias de dados](/help/troubleshooting/miscellaneous/mbi-data-discrepancies.md)
-* [MBI: Analista de Dados](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/data-analyst)
-* [MBI: Obtendo Ajuda com o Magento BI](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/start/sign-in)
+* [MBI: Analista de Dados](https://experienceleague.adobe.com/pt-br/docs/commerce-business-intelligence/mbi/analyze/data-analyst)
+* [MBI: Obtendo Ajuda com o Magento BI](https://experienceleague.adobe.com/pt-br/docs/commerce-business-intelligence/mbi/start/sign-in)

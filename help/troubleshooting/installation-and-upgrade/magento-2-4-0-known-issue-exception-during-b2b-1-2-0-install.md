@@ -69,8 +69,8 @@ Consulte [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to
 
 <u>Patch do Git </u>
 
-* Consulte [Aplicar patches](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) na documentação do desenvolvedor para obter instruções de patch do Git para o Adobe Commerce na infraestrutura em nuvem.
-* Consulte [Aplicação de patches: patches personalizados](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview#custom-patches) na documentação do desenvolvedor para obter instruções sobre patch do Git para o Adobe Commerce.
+* Consulte [Aplicar patches](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) na documentação do desenvolvedor para obter instruções de patch do Git para o Adobe Commerce na infraestrutura em nuvem.
+* Consulte [Aplicação de patches: patches personalizados](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/upgrade-guide/patches/overview#custom-patches) na documentação do desenvolvedor para obter instruções sobre patch do Git para o Adobe Commerce.
 
 ## Leitura relacionada
 

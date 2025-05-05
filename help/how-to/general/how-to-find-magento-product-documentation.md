@@ -44,7 +44,7 @@ Adobe Commerce na infraestrutura em nuvem</td>
 <tr>
 <td>
 <p>Documentação do comerciante (usuário final):</p>
-<p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home">https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home</a></p>
+<p><a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/user-guides/home">https://experienceleague.adobe.com/pt-br/docs/commerce-admin/user-guides/home</a></p>
 </td>
 </tr>
 <tr>
@@ -54,7 +54,7 @@ Adobe Commerce na infraestrutura em nuvem</td>
 </td>
 <td>
 <p>Documentação do comerciante (usuário final):</p>
-<p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home">https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home</a></p>
+<p><a href="https://experienceleague.adobe.com/pt-br/docs/commerce-admin/user-guides/home">https://experienceleague.adobe.com/pt-br/docs/commerce-admin/user-guides/home</a></p>
 </td>
 </tr>
 <tr>
@@ -64,7 +64,7 @@ Adobe Commerce na infraestrutura em nuvem</td>
 </td>
 <td>
 <p>Documentação do comerciante (usuário final):</p>
-<p><a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html">https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html</a></p>
+<p><a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html?lang=pt-BR">https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html?lang=pt-BR</a></p>
 </td>
 </tr>
 <tr>
@@ -85,7 +85,7 @@ Adobe Commerce na infraestrutura em nuvem</td>
 <td>Business Intelligence Adobe Commerce</td>
 <td>
 <p>Documentação do comerciante (usuário final):</p>
-<p><a href="https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html">https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html</a></p>
+<p><a href="https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=pt-BR">https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=pt-BR</a></p>
 </td>
 </tr>
 <tr>

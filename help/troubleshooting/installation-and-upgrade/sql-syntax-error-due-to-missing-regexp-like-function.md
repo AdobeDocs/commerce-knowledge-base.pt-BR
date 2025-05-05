@@ -38,7 +38,7 @@ A atualização para a versão 1.5.2 B2B falha com um erro de sintaxe SQL devido
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. Atribua uma empresa a uma empresa principal para estabelecer a hierarquia da empresa. Consulte [Gerenciar a Hierarquia da Empresa](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/company-management/manage-company-hierarchy) no guia B2B do Adobe Commerce para obter mais informações.
+1. Atribua uma empresa a uma empresa principal para estabelecer a hierarquia da empresa. Consulte [Gerenciar a Hierarquia da Empresa](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/b2b/company-management/manage-company-hierarchy) no guia B2B do Adobe Commerce para obter mais informações.
 1. Atualize o B2B para a versão 1.5.2.
 
 <u>Resultados esperados</u>:
@@ -78,4 +78,4 @@ Para a infraestrutura do Adobe Commerce na nuvem, siga as etapas abaixo:
    composer update magento/magento-cloud-patches
    ```
 
-1. Confirme e envie as alterações para iniciar a reimplantação. Consulte [Aplicar patches](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches) em nosso guia do Adobe Commerce na nuvem para obter instruções.
+1. Confirme e envie as alterações para iniciar a reimplantação. Consulte [Aplicar patches](https://experienceleague.adobe.com/pt-br/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches) em nosso guia do Adobe Commerce na nuvem para obter instruções.

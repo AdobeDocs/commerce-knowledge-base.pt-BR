@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # A classificação do painel e do resultado da pesquisa [!DNL Live Search] está incorreta
 
-Se você perceber que os dados exibidos no painel [!DNL Live Search] estão incorretos, ou se a [classificação dos resultados da pesquisa](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-admin/category-merch#ranking-strategies) não é o que você espera, veja os seguintes motivos:
+Se você perceber que os dados exibidos no painel [!DNL Live Search] estão incorretos, ou se a [classificação dos resultados da pesquisa](https://experienceleague.adobe.com/pt-br/docs/commerce-merchant-services/live-search/live-search-admin/category-merch#ranking-strategies) não é o que você espera, veja os seguintes motivos:
 
 * O campo `topLevelSku` do contexto de produto em `productView` eventos está ausente. Isso causa conversões vazias e outras métricas inesperadas.
 

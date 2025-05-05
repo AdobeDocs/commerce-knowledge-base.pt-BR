@@ -114,5 +114,5 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 1. Conclua o processo de instalação ou atualização.
 
-   * [Instalar [!DNL B2B] na infraestrutura em nuvem](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html)
-   * [Instalar no local](https://experienceleague.adobe.com/docs/commerce-admin/b2b/install.html)
+   * [Instalar [!DNL B2B] na infraestrutura em nuvem](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html?lang=pt-BR)
+   * [Instalar no local](https://experienceleague.adobe.com/docs/commerce-admin/b2b/install.html?lang=pt-BR)

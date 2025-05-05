@@ -45,12 +45,12 @@ Sua versão do MariaDB não é compatível com a versão do Adobe Commerce para 
 Você deve atualizar o serviço MariaDB para uma versão compatível antes de atualizar o aplicativo.
 
 
-Para obter a ramificação de integração na arquitetura de plano Pro da infraestrutura em nuvem do Adobe Commerce (e todas as ramificações na arquitetura Starter), siga [Configurar serviço](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/services-yaml) na documentação do desenvolvedor.
+Para obter a ramificação de integração na arquitetura de plano Pro da infraestrutura em nuvem do Adobe Commerce (e todas as ramificações na arquitetura Starter), siga [Configurar serviço](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/configure/service/services-yaml) na documentação do desenvolvedor.
 
 Para Preparo e Produção na arquitetura do plano Pro da infraestrutura em nuvem do Adobe Commerce, [envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) para solicitar que os serviços sejam atualizados antes de implantar a atualização da versão do Adobe Commerce.
 
 
 ## Leitura relacionada
 
-* [Práticas recomendadas para compilações e implantação](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/best-practices#best-practices) em nossa documentação para desenvolvedores.
-* [Atualização do Adobe Commerce 2.3.5: compacte para tabelas dinâmicas](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html) em nossa base de dados de suporte.
+* [Práticas recomendadas para compilações e implantação](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/deploy/best-practices#best-practices) em nossa documentação para desenvolvedores.
+* [Atualização do Adobe Commerce 2.3.5: compacte para tabelas dinâmicas](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html?lang=pt-BR) em nossa base de dados de suporte.

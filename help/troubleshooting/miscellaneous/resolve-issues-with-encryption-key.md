@@ -33,7 +33,7 @@ Você precisa copiar a chave de criptografia do ambiente de origem e adicioná-l
 
 Para copiar a chave de criptografia:
 
-1. O SSH para o projeto que foi a origem do despejo do banco de dados, conforme descrito em [SSH para o ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html) na documentação do desenvolvedor.
+1. O SSH para o projeto que foi a origem do despejo do banco de dados, conforme descrito em [SSH para o ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=pt-BR) na documentação do desenvolvedor.
 1. Abra `app/etc/env.php` em um editor de texto.
 1. Copie o valor de `key` para `crypt`.
 
@@ -44,7 +44,7 @@ return array ('crypt' =>      array ('key' => '<your encryption key>', ),);
 Para definir o valor da chave para o projeto de destino:
 
 1. Abra o [Cloud Console](https://console.adobecommerce.com) e localize o projeto.
-1. Defina o valor da variável [CRYPT\_KEY](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html) (na documentação do desenvolvedor), conforme descrito em [Configurar o projeto](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html) na documentação do desenvolvedor. Isso disparará o processo de implantação e `CRYPT_KEY` será substituído no arquivo `app/etc/env.php` em cada implantação.
+1. Defina o valor da variável [CRYPT\_KEY](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html?lang=pt-BR) (na documentação do desenvolvedor), conforme descrito em [Configurar o projeto](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html?lang=pt-BR) na documentação do desenvolvedor. Isso disparará o processo de implantação e `CRYPT_KEY` será substituído no arquivo `app/etc/env.php` em cada implantação.
 
 Como opção, você pode substituir manualmente a chave de criptografia no arquivo `app/etc/env.php`:
 

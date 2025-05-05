@@ -35,4 +35,4 @@ Instale/compre as extensões oficiais separadamente. Eles estão disponíveis no
 
 ## Leitura relacionada
 
-[Vendor-Bundled Extensions](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-4.html?#vendor-bundled-extensions) em Adobe Commerce Documentation > Informações da versão > Notas de versão do Adobe Commerce 2.4.4.
+[Vendor-Bundled Extensions](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-4.html?lang=pt-BR&#vendor-bundled-extensions) em Adobe Commerce Documentation > Informações da versão > Notas de versão do Adobe Commerce 2.4.4.

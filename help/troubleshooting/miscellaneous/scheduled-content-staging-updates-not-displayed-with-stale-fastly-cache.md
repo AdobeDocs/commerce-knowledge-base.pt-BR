@@ -17,7 +17,7 @@ Este artigo fornece uma correção para quando as lojas Adobe Commerce não exib
 
 ## Problema
 
-Atualizações programadas para um ativo de conteúdo de armazenamento (página, produto, bloco etc.) não são exibidos na loja imediatamente após a hora de início da atualização. Isso acontece quando as atualizações foram agendadas usando a funcionalidade [Preparo de conteúdo](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html).
+Atualizações programadas para um ativo de conteúdo de armazenamento (página, produto, bloco etc.) não são exibidos na loja imediatamente após a hora de início da atualização. Isso acontece quando as atualizações foram agendadas usando a funcionalidade [Preparo de conteúdo](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html?lang=pt-BR).
 
 ## Causa
 
@@ -45,6 +45,6 @@ Se o fornecimento de conteúdo obsoleto, mesmo para a primeira solicitação, fo
 
 ## Documentação relacionada
 
-* [Configure as opções de limpeza](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) no Guia de Infraestrutura do Commerce na Nuvem.
-* [Preparo de conteúdo](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html) na documentação de Conteúdo e Design.
+* [Configure as opções de limpeza](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=pt-BR) no Guia de Infraestrutura do Commerce na Nuvem.
+* [Preparo de conteúdo](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html?lang=pt-BR) na documentação de Conteúdo e Design.
 * [Veiculação de conteúdo obsoleto](https://docs.fastly.com/guides/performance-tuning/serving-stale-content) na documentação do Fastly.

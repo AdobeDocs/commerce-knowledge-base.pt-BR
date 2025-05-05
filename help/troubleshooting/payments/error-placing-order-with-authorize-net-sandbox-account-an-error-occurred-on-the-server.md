@@ -19,7 +19,7 @@ Este artigo fornece uma correção para a mensagem de erro &quot;*Ocorreu um err
 >
 >**Aviso de descontinuação**
 >
->Devido à Diretiva de Serviço de Pagamento [PSD2](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/payments/compliance-payment-services-directive) e à evolução contínua de muitas APIs, o Authorize.Net corre o risco de se tornar desatualizado e não estar mais em conformidade com a segurança no futuro. Por esse motivo, ela agora está obsoleta, e recomendamos que você a desative na configuração do Adobe Commerce e faça a transição para a [extensão de Commerce Marketplace](https://marketplace.magento.com/extensions.html) correspondente.
+>Devido à Diretiva de Serviço de Pagamento [PSD2](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/start/compliance/payments/compliance-payment-services-directive) e à evolução contínua de muitas APIs, o Authorize.Net corre o risco de se tornar desatualizado e não estar mais em conformidade com a segurança no futuro. Por esse motivo, ela agora está obsoleta, e recomendamos que você a desative na configuração do Adobe Commerce e faça a transição para a [extensão de Commerce Marketplace](https://marketplace.magento.com/extensions.html) correspondente.
 >
 >**Esta integração foi removida da versão 2.4.0 do Adobe Commerce e foi descontinuada das versões atuais 2.3.**
 >
@@ -27,7 +27,7 @@ Este artigo fornece uma correção para a mensagem de erro &quot;*Ocorreu um err
 
 ## Problema
 
-Fazer um pedido usando a conta de sandbox [Authorize.Net Direct Post](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/payments/error-placing-order-with-authorize-net-sandbox-account-an-error-occurred-on-the-server) causa uma mensagem de erro:
+Fazer um pedido usando a conta de sandbox [Authorize.Net Direct Post](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/payments/error-placing-order-with-authorize-net-sandbox-account-an-error-occurred-on-the-server) causa uma mensagem de erro:
 
 &#x200B;>>
 &quot;Erro no servidor. Tente fazer o pedido novamente&quot;

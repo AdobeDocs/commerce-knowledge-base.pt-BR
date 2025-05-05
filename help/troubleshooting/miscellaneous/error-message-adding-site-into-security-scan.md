@@ -53,4 +53,4 @@ Se ainda não conseguir adicionar sites, conclua as seguintes etapas:
 
 ## Leitura relacionada
 
-* [Verificação de segurança](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan) em nosso guia do usuário.
+* [Verificação de segurança](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/systems/security/security-scan) em nosso guia do usuário.

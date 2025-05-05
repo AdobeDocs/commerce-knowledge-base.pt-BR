@@ -34,7 +34,7 @@ Este artigo fornece recursos para solução de problemas do New Relic no Adobe C
 <p>Nesses casos, um usuário administrador precisa adicioná-lo ao projeto.</p>
 </td>
 <td>
-<p><a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/access-new-relic-services.html">Acessando os serviços da New Relic</a> em nossa base de dados de conhecimento de suporte.</p>
+<p><a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/access-new-relic-services.html?lang=pt-BR">Acessando os serviços da New Relic</a> em nossa base de dados de conhecimento de suporte.</p>
 </td>
 </tr>
 <tr>

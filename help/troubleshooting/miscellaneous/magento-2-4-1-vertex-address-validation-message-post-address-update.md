@@ -24,7 +24,7 @@ Este artigo descreve um problema conhecido do Adobe Commerce 2.4.1 em que a vali
 
 Pré-requisitos:
 
-Habilitar **Limpeza de Endereço Vertex**. Para ver as etapas, consulte [Configurando a Limpeza de Endereço da Loja](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.html) no guia do usuário.
+Habilitar **Limpeza de Endereço Vertex**. Para ver as etapas, consulte [Configurando a Limpeza de Endereço da Loja](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.html?lang=pt-BR) no guia do usuário.
 
 <u>Etapas a serem reproduzidas:</u>
 

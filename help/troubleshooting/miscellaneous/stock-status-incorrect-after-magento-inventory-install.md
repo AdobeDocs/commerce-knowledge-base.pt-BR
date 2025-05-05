@@ -33,4 +33,4 @@ Quando você instala/atualiza pela primeira vez, todos os seus produtos são atr
 
 Se você tiver mais de um site, precisará adicioná-los como Sales Channel no Estoque padrão ou em outros estoques personalizados.
 
-Consulte a seção [Stock do wiki/guia do usuário](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/stocks/stocks-manage) em nosso guia do usuário para obter detalhes sobre como fazer isso.
+Consulte a seção [Stock do wiki/guia do usuário](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/inventory/stocks/stocks-manage) em nosso guia do usuário para obter detalhes sobre como fazer isso.

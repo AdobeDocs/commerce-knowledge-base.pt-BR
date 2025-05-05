@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Atualização da política de ciclo de vida do tíquete de suporte da Adobe Commerce
 
-Esta documentação descreve as melhorias no ciclo de vida do caso de suporte Adobe DX com a intenção de aumentar a comunicação e fornecer resoluções para os clientes o mais rápido possível para ajudar a garantir o sucesso do cliente. Isso também pode ser encontrado em [Visão geral dos planos de sucesso do Adobe: ciclo de vida do caso de suporte](https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/overview#support-case-lifecycle---coming-soon).
+Esta documentação descreve as melhorias no ciclo de vida do caso de suporte Adobe DX com a intenção de aumentar a comunicação e fornecer resoluções para os clientes o mais rápido possível para ajudar a garantir o sucesso do cliente. Isso também pode ser encontrado em [Visão geral dos planos de sucesso do Adobe: ciclo de vida do caso de suporte](https://experienceleague.adobe.com/pt-br/docs/support-resources/data-sheets/overview#support-case-lifecycle---coming-soon).
 Abaixo estão as linhas do tempo e notificações para vários cenários encontrados durante o processo de suporte:
 
 ## Lembretes de acompanhamento de caso
@@ -47,7 +47,7 @@ Os clientes podem reabrir um caso fechado em 14 dias para continuar a comunicaç
 
 ## Leitura relacionada
 
-* [Enviar um tíquete de suporte](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)
-* [ O link &quot;Enviar um tíquete&quot; não é exibido na página inicial da Central de Ajuda da Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#no-submit-link)
-* [Formulário de envio de tíquete: o comerciante não é exibido no menu suspenso Organização](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#merchant-not-displayed)
-* [Visão Geral Dos Planos De Sucesso Do Adobe: Ciclo De Vida Do Caso De Suporte](https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/overview#support-case-lifecycle---coming-soon)
+* [Enviar um tíquete de suporte](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)
+* [ O link &quot;Enviar um tíquete&quot; não é exibido na página inicial da Central de Ajuda da Adobe Commerce](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#no-submit-link)
+* [Formulário de envio de tíquete: o comerciante não é exibido no menu suspenso Organização](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#merchant-not-displayed)
+* [Visão Geral Dos Planos De Sucesso Do Adobe: Ciclo De Vida Do Caso De Suporte](https://experienceleague.adobe.com/pt-br/docs/support-resources/data-sheets/overview#support-case-lifecycle---coming-soon)

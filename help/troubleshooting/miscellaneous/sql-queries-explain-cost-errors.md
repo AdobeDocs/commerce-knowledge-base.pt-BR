@@ -19,7 +19,7 @@ Há algumas razões pelas quais isso pode acontecer. Estas são as mensagens que
 
 ## Não é possível executar a consulta. O valor de custo EXPLICAR de \[xxx\] é muito alto para executar esta consulta.
 
-Se você vir essa mensagem, significa que a execução do query foi considerada muito cara. Temos duas recomendações para essa situação: uma é eliminar qualquer cláusula ORDER BY de seu query, já que são operações caras. A segunda é seguir as dicas em nosso [artigo de otimização](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/optimizing-your-sql-queries.html) para ajustar sua consulta.
+Se você vir essa mensagem, significa que a execução do query foi considerada muito cara. Temos duas recomendações para essa situação: uma é eliminar qualquer cláusula ORDER BY de seu query, já que são operações caras. A segunda é seguir as dicas em nosso [artigo de otimização](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/optimizing-your-sql-queries.html?lang=pt-BR) para ajustar sua consulta.
 
 ## Não é possível executar a consulta. Essa consulta retorna \[xxx\] linhas, o que excede nosso limite de 10.000
 

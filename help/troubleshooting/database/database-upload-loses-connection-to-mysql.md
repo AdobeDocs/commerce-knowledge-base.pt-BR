@@ -42,7 +42,7 @@ web@ddc35c264bd89a72042f1f3e5a:~$ nc database.internal 3306
 Database out of space
 ```
 
-Será necessário alocar mais espaço para o banco de dados no `services.yaml` e implantar se houver espaço não utilizado. Para obter as etapas, consulte [Espaço em Disco do Serviço](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#service-disk-space).
+Será necessário alocar mais espaço para o banco de dados no `services.yaml` e implantar se houver espaço não utilizado. Para obter as etapas, consulte [Espaço em Disco do Serviço](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#service-disk-space).
 
 Observação: no plano Pro architecture, você pode verificar o espaço alocado em sua partição executando o seguinte comando: `df -h`
 
@@ -58,4 +58,4 @@ Filesystem                                         Size  Used Avail Use% Mounted
 
 ## Leitura relacionada
 
-[Gerenciar espaço em disco](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space) na documentação do desenvolvedor
+[Gerenciar espaço em disco](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space) na documentação do desenvolvedor

@@ -66,11 +66,11 @@ Siga as etapas a seguir para resolver o problema com as chaves de autorização 
 
 Se você estava usando as chaves criadas na conta compartilhada, é necessário entrar em contato com o proprietário da licença da Adobe Commerce que fornece acesso e solicitar que ele gere as chaves para você.
 
-Se sua licença tiver sido revogada anteriormente devido a problemas de pagamento e você tiver resolvido esses problemas e sua licença tiver sido renovada, será necessário [gerar as novas chaves de autenticação](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
+Se sua licença tiver sido revogada anteriormente devido a problemas de pagamento e você tiver resolvido esses problemas e sua licença tiver sido renovada, será necessário [gerar as novas chaves de autenticação](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=pt-BR).
 
 ### 2. Adicione o valor keys na variável env:COMPOSER\_AUTH e verifique se as mesmas chaves são especificadas em auth.json
 
-Consulte as instruções e informações relacionadas em [Preparar o sistema existente](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/overview) e [Adicionar chaves de autenticação](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/overview) na documentação do desenvolvedor.
+Consulte as instruções e informações relacionadas em [Preparar o sistema existente](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/project/overview) e [Adicionar chaves de autenticação](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/project/overview) na documentação do desenvolvedor.
 
 ### 3. Atualizar ou excluir auth.json
 

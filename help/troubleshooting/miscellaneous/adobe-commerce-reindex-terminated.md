@@ -37,5 +37,5 @@ O motivo mais comum para isso é um grande número de produtos, lojas e/ou grupo
 
 Em nossa documentação do desenvolvedor:
 
-* [Arquitetura Pro > Ambiente de integração](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
-* [Arquitetura inicial > Ambiente de preparo](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#cloud-arch-stage)
+* [Arquitetura Pro > Ambiente de integração](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
+* [Arquitetura inicial > Ambiente de preparo](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#cloud-arch-stage)

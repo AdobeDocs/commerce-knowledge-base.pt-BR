@@ -31,5 +31,5 @@ Por exemplo, se o principal selecionado for o nó 1, em que `auto_increment_offs
 
 Consulte na documentação do desenvolvedor:
 
-* [Nuvem para Adobe Commerce > Arquitetura Pro > Backup e recuperação de desastres](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#backup-and-disaster-recovery)
-* [Nuvem para Adobe Commerce > Instalar pré-requisitos: banco de dados](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/overview)
+* [Nuvem para Adobe Commerce > Arquitetura Pro > Backup e recuperação de desastres](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#backup-and-disaster-recovery)
+* [Nuvem para Adobe Commerce > Instalar pré-requisitos: banco de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/overview)

@@ -29,5 +29,5 @@ Após instalar a ferramenta, você pode verificar os patches disponíveis, aplic
 
 Consulte nossa documentação do desenvolvedor para obter detalhes:
 
-* [Patches disponíveis na Ferramenta de Patches de Qualidade](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)
-* [Notas de versão da Ferramenta de correções de qualidade](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/release-notes)
+* [Patches disponíveis na Ferramenta de Patches de Qualidade](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html?lang=pt-BR)
+* [Notas de versão da Ferramenta de correções de qualidade](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/tools/quality-patches-tool/release-notes)

@@ -67,7 +67,7 @@ Se houver uma solução temporária, especifique-a como uma seção separada aba
 
 ## Leitura relacionada
 
-* [Tópico do artigo](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home) em nosso guia do usuário.
+* [Tópico do artigo](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/user-guides/home) em nosso guia do usuário.
 * [Tópico do artigo](https://developer.adobe.com/commerce/docs/) em nossa documentação para desenvolvedores. Você também pode dizer para diferenciar entre instruções em devdocs para usuários na nuvem e usuários locais: &quot;[Tópico do artigo](https://developer.adobe.com/commerce/docs/) em nossa documentação do desenvolvedor para Adobe Commerce na infraestrutura em nuvem.&quot; vs &quot;[Tópico do artigo](https://developer.adobe.com/commerce/docs/) em nossa documentação do desenvolvedor para Adobe Commerce local.&quot;
 * [Tópico do artigo](https://support.magento.com/hc/en-us) em nossa knowledge base de suporte.
 * Quaisquer recursos relacionados (blogs, fóruns, StackOverflow, etc.)

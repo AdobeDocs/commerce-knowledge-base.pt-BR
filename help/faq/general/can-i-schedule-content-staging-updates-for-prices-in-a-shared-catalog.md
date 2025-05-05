@@ -1,6 +1,6 @@
 ---
 title: Posso programar atualizações de Armazenamento temporário de conteúdo para preços em um catálogo compartilhado?
-description: A Adobe Commerce não oferece a funcionalidade de agendar uma atualização de preço ([Preparo de conteúdo](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html)) para um ou mais produtos em um catálogo compartilhado.
+description: A Adobe Commerce não oferece a funcionalidade de agendar uma atualização de preço ([Preparo de conteúdo](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html?lang=pt-BR)) para um ou mais produtos em um catálogo compartilhado.
 exl-id: 5482326f-54c2-4efc-8e5e-6d075ee5be55
 feature: Catalog Management, Customer Service
 source-git-commit: c3120f7df24e105b082df6544ab82241d6b6851f
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Posso programar atualizações de Armazenamento temporário de conteúdo para preços em um catálogo compartilhado?
 
-A Adobe Commerce não oferece a funcionalidade de agendar uma atualização de preço ([Preparo de Conteúdo](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html)) para um ou mais produtos em um catálogo compartilhado.
+A Adobe Commerce não oferece a funcionalidade de agendar uma atualização de preço ([Preparo de Conteúdo](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html?lang=pt-BR)) para um ou mais produtos em um catálogo compartilhado.
 
 Isso significa que você não pode agendar essa atualização de preço diretamente no menu **Definir Preço e Estrutura** do painel de administração do Commerce (não há nenhum botão **Agendar nova atualização** nesse menu).
 
@@ -23,7 +23,7 @@ Ainda assim, você pode usar métodos alternativos e programar uma atualização
 
 ## Agendar atualização de preço para um grupo de clientes
 
-1. Iniciar [agendando uma nova atualização de produto](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-scheduled-update.html).
+1. Iniciar [agendando uma nova atualização de produto](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-scheduled-update.html?lang=pt-BR).
 1. Role para baixo até o campo **Preço** e clique em **Preços avançados**.
 
    ![advanced_price.png](assets/advanced_pricing.png){width="600"}
@@ -40,8 +40,8 @@ Lembre-se: os catálogos compartilhados usam os preços do grupo de clientes.
 
 **Documentação relacionada**
 
-* [Agendando uma atualização (Preparo de Conteúdo)](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-scheduled-update.html) em nosso guia do usuário.
-* [Preços avançados](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html) em nosso guia do usuário.
+* [Agendando uma atualização (Preparo de Conteúdo)](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-scheduled-update.html?lang=pt-BR) em nosso guia do usuário.
+* [Preços avançados](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html?lang=pt-BR) em nosso guia do usuário.
 
 ## Programar atualização de preço para o preço-base
 

@@ -51,7 +51,7 @@ As possíveis razões para o problema são as seguintes:
 
 Para resolver os problemas, você precisa executar uma configuração adicional de Verniz e reiniciar o Verniz.
 
-1. Como usuário com privilégios `root`, abra o arquivo de configuração Vanish em um editor de texto. Consulte a [Modificar a configuração do sistema Vernish](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/config-varnish-server) na documentação do desenvolvedor para obter informações sobre onde esse arquivo pode estar localizado para diferentes sistemas operacionais.
+1. Como usuário com privilégios `root`, abra o arquivo de configuração Vanish em um editor de texto. Consulte a [Modificar a configuração do sistema Vernish](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/cache/config-varnish-server) na documentação do desenvolvedor para obter informações sobre onde esse arquivo pode estar localizado para diferentes sistemas operacionais.
 1. No `DAEMON_OPTS variable`, adicione `-p feature=+esi_ignore_https`, `-p  feature=+esi_ignore_other_elements`, `-p  feature=+esi_disable_xml_check`. Isso seria semelhante a:
 
    ```bash
@@ -64,5 +64,5 @@ Para resolver os problemas, você precisa executar uma configuração adicional 
 
 ## Leitura relacionada
 
-* [Configure o Varnish e seu servidor Web](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/config-varnish-server) na documentação do desenvolvedor.
+* [Configure o Varnish e seu servidor Web](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/cache/config-varnish-server) na documentação do desenvolvedor.
 * [Documentação de verniz](https://varnish-cache.org/docs/5.1/reference/index.html)

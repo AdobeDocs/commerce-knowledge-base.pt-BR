@@ -23,4 +23,4 @@ Recomendamos usar [Texto Sublime](https://www.sublimetext.com/2) para salvar e c
 1. Clique em &#x200B;&#x200B; **Arquivo** > **Salvar como** &#x200B; &#x200B; &#x200B; &#x200B;e escolha o formato separados por vírgula **Var.** para salvar o arquivo.
 1. Abra o arquivo CSV em Texto sublime.
 1. Em Texto Sublime, navegue até &#x200B;&#x200B; **Arquivo** > **Salvar com Codificação** > **UTF-8\*&#x200B;** . Isso salvará o arquivo CSV com codificação UTF-8.    ![csv_file_UTF-8_sublime_3.2.2_magento_BI.png](assets/csv_file_UTF-8_sublime_3.2.2_magento_BI.png)
-1. [Carregar os dados](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/connecting/using-file-uploader) (em nosso guia do usuário) para uma nova tabela no Magento BI.
+1. [Carregar os dados](https://experienceleague.adobe.com/pt-br/docs/commerce-business-intelligence/mbi/analyze/connecting/using-file-uploader) (em nosso guia do usuário) para uma nova tabela no Magento BI.

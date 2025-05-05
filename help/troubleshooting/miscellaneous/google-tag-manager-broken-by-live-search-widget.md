@@ -31,6 +31,6 @@ Para fazer isso, desative o widget no Administrador. [!DNL Live Search] em segui
 
 ## Leitura relacionada
 
-* [[!DNL Live Search] Visão geral do Guia](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html) em nossa Documentação do Adobe Commerce Live Search
+* [[!DNL Live Search] Visão geral do Guia](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html?lang=pt-BR) em nossa Documentação do Adobe Commerce Live Search
 
-* [Instalando [!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html) em nossa Documentação do Adobe Commerce Live Search
+* [Instalando [!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=pt-BR) em nossa Documentação do Adobe Commerce Live Search

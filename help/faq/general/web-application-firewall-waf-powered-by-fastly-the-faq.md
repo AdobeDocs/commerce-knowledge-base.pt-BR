@@ -104,7 +104,7 @@ Uma latência estimada de 1,5 milissegundos (ms) a 20 ms é introduzida a cada s
 
 ## Os clientes podem criar e modificar listas negras de IP para bloquear o tráfego?
 
-Sim, os clientes podem habilitar o bloqueio por país e a ACL (lista de controle de acesso) na interface do administrador do Adobe Commerce na infraestrutura em nuvem. Use esses recursos nos casos em que deseja bloquear o acesso de visitantes provenientes de países específicos ou de determinados IPs ou intervalos de IPs. Se você quiser que os visitantes bloqueados vejam uma página personalizada em vez de um código de erro, é possível criar uma página de erro personalizada carregando o HTML no menu de Configuração do Fastly. Consulte [Criar uma página de erro/manutenção personalizada](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) na documentação do desenvolvedor.
+Sim, os clientes podem habilitar o bloqueio por país e a ACL (lista de controle de acesso) na interface do administrador do Adobe Commerce na infraestrutura em nuvem. Use esses recursos nos casos em que deseja bloquear o acesso de visitantes provenientes de países específicos ou de determinados IPs ou intervalos de IPs. Se você quiser que os visitantes bloqueados vejam uma página personalizada em vez de um código de erro, é possível criar uma página de erro personalizada carregando o HTML no menu de Configuração do Fastly. Consulte [Criar uma página de erro/manutenção personalizada](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=pt-BR) na documentação do desenvolvedor.
 
 ## Onde posso verificar o status operacional do meu serviço da WAF?
 
@@ -118,7 +118,7 @@ No momento, o Gerenciamento de incidentes não é oferecido.
 
 Embora a Adobe Commerce não tenha um Centro de Operações de Segurança, temos um processo de operações de segurança que nos permite envolver os recursos certos para responder a incidentes de segurança em tempo real. Também oferecemos suporte 24 horas por dia, 7 dias por semana, 365 dias por ano, após o horário normal.
 
-Você também pode obter notícias e atualizações de segurança relacionadas ao Adobe Commerce na [Central de Segurança](https://helpx.adobe.com/security.html).
+Você também pode obter notícias e atualizações de segurança relacionadas ao Adobe Commerce na [Central de Segurança](https://helpx.adobe.com/br/security.html).
 
 ## Que suporte está disponível?
 
@@ -160,7 +160,7 @@ A tabela a seguir resume os canais de suporte e a disponibilidade do Suporte da 
 </tr>
 <tr>
 <td>Escalonamento de emergência*</td>
-<td>Consulte o artigo <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-p1-notification-hotline.html">hotline de notificação P1 da Adobe Commerce</a> para ver os números internacionais e dos EUA.</td>
+<td>Consulte o artigo <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-p1-notification-hotline.html?lang=pt-BR">hotline de notificação P1 da Adobe Commerce</a> para ver os números internacionais e dos EUA.</td>
 </tr>
 </tbody>
 </table>

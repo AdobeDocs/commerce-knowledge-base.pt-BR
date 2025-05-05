@@ -36,7 +36,7 @@ Este artigo instrui como aplicar um patch de compositor para Adobe Commerce no l
    git push origin
    ```
 
-Para obter informações adicionais sobre como aplicar patches a projetos na nuvem, consulte [Aplicar patches](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) na documentação do desenvolvedor.
+Para obter informações adicionais sobre como aplicar patches a projetos na nuvem, consulte [Aplicar patches](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) na documentação do desenvolvedor.
 
 ### Como aplicar um patch do compositor para Adobe Commerce no local e Magento Open Source {#commerce}
 

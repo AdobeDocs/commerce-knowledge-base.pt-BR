@@ -59,7 +59,7 @@ Além disso, observe que o suporte não executa a reversão ou restauração do 
 
 ## Restaurar um instantâneo do ambiente
 
-Para restaurar um instantâneo existente (no ambiente compatível: Integração, Preparo, Produção no plano Starter ou Integração no plano Pro), siga as etapas em [Gerenciamento de backup: Restaurar um backup manual](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup) em nosso Guia de Infraestrutura do Commerce na Nuvem.
+Para restaurar um instantâneo existente (no ambiente compatível: Integração, Preparo, Produção no plano Starter ou Integração no plano Pro), siga as etapas em [Gerenciamento de backup: Restaurar um backup manual](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup) em nosso Guia de Infraestrutura do Commerce na Nuvem.
 
 ## Backup do banco de dados (BD)
 

@@ -51,7 +51,7 @@ Você pode fazer logon na conta com:
 - Uma conta Adobe existente corporativa/pessoal.
 - Se você não tiver uma conta Adobe, crie uma com o mesmo endereço de email.
 
-Para ver as etapas, consulte o [Commerce Identity Manager](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-identity-manager.html) no Adobe Experience League.
+Para ver as etapas, consulte o [Commerce Identity Manager](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-identity-manager.html?lang=pt-BR) no Adobe Experience League.
 
 ## Leitura relacionada
 

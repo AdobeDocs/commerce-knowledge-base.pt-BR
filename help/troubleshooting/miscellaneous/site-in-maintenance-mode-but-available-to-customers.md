@@ -45,4 +45,4 @@ As páginas ainda são armazenadas em cache, portanto, a página de manutenção
 
 ## Leitura relacionada
 
-[Habilite ou desabilite o modo de manutenção](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) na documentação do desenvolvedor.
+[Habilite ou desabilite o modo de manutenção](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) na documentação do desenvolvedor.

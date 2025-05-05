@@ -18,7 +18,7 @@ Os números em um determinado relatório parecem imprecisos? Você vê valores N
 * [Lista de verificação de diagnóstico de discrepância de dados](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
 * [Uso de exportações para apontar discrepâncias de dados](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
 
-Também recomendamos que você verifique se os [métodos de replicação](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-replication-methods) e as [reverificações](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks) corretos foram definidos para as tabelas e colunas envolvidas na discrepância. Observe que você precisa de permissões de Administrador para acessar o método de replicação e verificar novamente as informações.
+Também recomendamos que você verifique se os [métodos de replicação](https://experienceleague.adobe.com/pt-br/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-replication-methods) e as [reverificações](https://experienceleague.adobe.com/pt-br/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks) corretos foram definidos para as tabelas e colunas envolvidas na discrepância. Observe que você precisa de permissões de Administrador para acessar o método de replicação e verificar novamente as informações.
 
 ## Eu ainda preciso de ajuda!
 
@@ -32,4 +32,4 @@ Se o relatório ainda estiver impreciso, não se preocupe - nossa equipe de supo
 ## Leitura relacionada
 
 * [Colunas calculadas](/help/how-to/general/mbi-creating-and-editing-advanced-calculated-columns.md)
-* [Alterações estruturais no banco de dados](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/connecting/data-migration-services.html)
+* [Alterações estruturais no banco de dados](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/connecting/data-migration-services.html?lang=pt-BR)
