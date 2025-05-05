@@ -76,7 +76,7 @@ Abaixo estão as perguntas comuns que você pode fazer ao considerar usar a func
   **Em clusters não sobrecarregados** - **As Conexões Escravos reduzirão o desempenho em 10-15%**, uma das razões pelas quais não é padrão.
 
   *Mas em clusters sobrecarregados, há um aumento de desempenho porque esses 10 a 15% são atenuados pela redução da carga por tráfego.*
-* Devo ativar essas configurações para minha loja? *Se você tiver carga alta ou esperar carga alta no Banco de Dados MySQL ou no Redis, você definitivamente precisa habilitar as Conexões Escravas. Para um cliente comum com tráfego médio, esta configuração **não**é a ideal para ser habilitada.*
+* Devo ativar essas configurações para minha loja? *Se você tiver carga alta ou esperar carga alta no Banco de Dados MySQL ou no Redis, você definitivamente precisa habilitar as Conexões Escravas. Para um cliente comum com tráfego médio, esta configuração **não**&#x200B;é a ideal para ser habilitada.*
 
 ## Leitura relacionada
 

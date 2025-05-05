@@ -47,7 +47,7 @@ TLS (Transport Layer Security) é um protocolo para conexões HTTP seguras que s
 
 A funcionalidade Forçar TLS do Fastly permite forçar todas as solicitações não criptografadas recebidas para as páginas do site para o TLS.
 
->>
+&#x200B;>>
 Funciona retornando uma resposta *301 Movido Permanentemente* para qualquer solicitação não criptografada, que redireciona para o equivalente TLS. Por exemplo, fazer uma solicitação para *http://www.example.com/foo.jpeg* redirecionaria para *https://www.example.com/foo.jpeg*.
 
 [Protegendo comunicações](https://docs.fastly.com/guides/securing-communications/) (documentação do Fastly)

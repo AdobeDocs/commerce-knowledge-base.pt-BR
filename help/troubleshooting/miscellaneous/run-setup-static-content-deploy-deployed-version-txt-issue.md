@@ -1,6 +1,6 @@
 ---
-title: executar problema de `setup:static-content:deploy` deployed_version.txt
-description: Este artigo fornece uma correção para `deployed_version.txt` não é um erro gravável ao executar o comando `setup:static-content:deploy` manualmente.
+title: executar problema de &grave;setup:static-content:deploy&grave; deployed_version.txt
+description: Este artigo fornece uma correção para &grave;deployed_version.txt&grave; não é um erro gravável ao executar o comando &grave;setup:static-content:deploy&grave; manualmente.
 exl-id: 88d8c126-349f-49cd-8f02-2a32e4994521
 feature: Deploy, Page Content, SCD
 role: Developer

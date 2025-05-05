@@ -42,26 +42,26 @@ O GraphQL retorna produtos secundários configuráveis mesmo depois que eles sã
 
 <pre>
   <code class="language-graphql">
-{
-  products(filter: { sku: { eq: "cp1" } }) {
-    items {
+&lbrace;
+  products(filter: { sku: { eq: "cp1" } }) &lbrace;
+    items &lbrace;
       __typename
       name
       sku
-      ... on ConfigurableProduct {
-        variants {
-          product {
+      ... on ConfigurableProduct &lbrace;
+        variants &lbrace;
+          product &lbrace;
             __typename
             name
             sku
             color
             stock_status
-          }
-        }
-      }
-    }
-  }
-}
+          &rbrace;
+        &rbrace;
+      &rbrace;
+    &rbrace;
+  &rbrace;
+&rbrace;
 </code>
 </pre>
 

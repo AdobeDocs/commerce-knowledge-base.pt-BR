@@ -38,7 +38,7 @@ A condição de regra de catálogo *[!UICONTROL SKU is]* se aplica a todos os pr
 1. Crie dois produtos, um com o SKU &quot;24&quot; e outro com o SKU &quot;24-MB01&quot;.
 1. Navegue até **[!UICONTROL Marketing]** > **[!UICONTROL Catalog Price Rule]** > **[!UICONTROL Add New Rule]**.
 1. Aplique a seguinte condição:
-   * *[!UICONTROL If ** TODAS **destas condições são** TRUE **]*: *[!UICONTROL SKU is 24]*
+   * *[!UICONTROL If **&#x200B; TODAS &#x200B;** destas condições são **&#x200B; TRUE &#x200B;**]*: *[!UICONTROL SKU is 24]*
 1. Definir qualquer valor de desconto em ações.
 1. Clique em **[!UICONTROL Save and Apply]**.
 1. Liberar cache.

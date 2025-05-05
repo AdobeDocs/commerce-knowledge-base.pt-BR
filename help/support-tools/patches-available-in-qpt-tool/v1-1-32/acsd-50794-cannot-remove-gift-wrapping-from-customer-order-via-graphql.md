@@ -49,13 +49,13 @@ Os usuários não podem remover a embalagem do presente do pedido do cliente por
 1. Agora verifique o invólucro do presente *Uid* com esta consulta de carrinho:
 
    <pre><code class="language-GraphQL">
-    {
-      cart(cart_id: "{{CART_ID}}") {
-        available_gift_wrappings{
+    &lbrace;
+      cart(cart_id: "{{CART_ID}}") &lbrace;
+        available_gift_wrappings&lbrace;
             uid
-        }
-    }
-    }
+        &rbrace;
+    &rbrace;
+    &rbrace;
     </code></pre>
 
 1. Definir invólucro do presente usando `setGiftOptionsOnCart`.
@@ -66,38 +66,38 @@ Os usuários não podem remover a embalagem do presente do pedido do cliente por
 1. Executar consulta de cliente: cliente.
 
    <pre><code class="language-graphql">
-    query {
-      customer {
+    query &lbrace;
+      customer &lbrace;
         firstname
         middlename
         lastname
         suffix
         email
-        orders {
-            items {
+        orders &lbrace;
+            items &lbrace;
                 order_date
-                gift_wrapping {
+                gift_wrapping &lbrace;
                     design
                     uid
-                }
-            }
-        }
-        addresses {
+                &rbrace;
+            &rbrace;
+        &rbrace;
+        addresses &lbrace;
           firstname
           middlename
           lastname
           street
           city
-          region {
+          region &lbrace;
             region_code
             region
-          }
+          &rbrace;
           postcode
           country_code
           telephone
-        }
-      }
-    }
+        &rbrace;
+      &rbrace;
+    &rbrace;
     </code></pre>
 
 <u>Resultados esperados</u>:

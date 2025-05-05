@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# ACSD-47336: erro _[!UICONTROL Something went wrong]_ao descartar notificações no Adobe Commerce Admin
+# ACSD-47336: erro _[!UICONTROL Something went wrong]_&#x200B;ao descartar notificações no Adobe Commerce Admin
 
-O patch ACSD-47336 corrige o problema em que o usuário vê o erro _[!UICONTROL Something went wrong]_ao dispensar notificações no administrador [!DNL Commerce]. Este patch está disponível quando o [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.24 está instalado. A ID do patch é ACSD-47336. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.6.
+O patch ACSD-47336 corrige o problema em que o usuário vê o erro _[!UICONTROL Something went wrong]_&#x200B;ao dispensar notificações no administrador [!DNL Commerce]. Este patch está disponível quando o [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.24 está instalado. A ID do patch é ACSD-47336. Observe que o problema está programado para ser corrigido no Adobe Commerce 2.4.6.
 
 ## Produtos e versões afetados
 
@@ -31,7 +31,7 @@ O patch ACSD-47336 corrige o problema em que o usuário vê o erro _[!UICONTROL 
 
 ## Problema
 
-O usuário vê o erro _[!UICONTROL Something went wrong]_ao dispensar notificações no Administrador [!DNL Commerce].
+O usuário vê o erro _[!UICONTROL Something went wrong]_&#x200B;ao dispensar notificações no Administrador [!DNL Commerce].
 
 <u>Etapas a serem reproduzidas</u>:
 
@@ -41,11 +41,11 @@ O usuário vê o erro _[!UICONTROL Something went wrong]_ao dispensar notificaç
 
 <u>Resultados esperados</u>:
 
-O erro _[!UICONTROL Something went wrong]_não deve ser exibido ao limpar as tarefas concluídas.
+O erro _[!UICONTROL Something went wrong]_&#x200B;não deve ser exibido ao limpar as tarefas concluídas.
 
 <u>Resultados reais</u>:
 
-O erro _[!UICONTROL Something went wrong]_é exibido.
+O erro _[!UICONTROL Something went wrong]_&#x200B;é exibido.
 
 ## Aplicar o patch
 

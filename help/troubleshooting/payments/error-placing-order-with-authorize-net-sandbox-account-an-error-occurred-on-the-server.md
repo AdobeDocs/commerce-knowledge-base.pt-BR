@@ -29,7 +29,7 @@ Este artigo fornece uma correção para a mensagem de erro &quot;*Ocorreu um err
 
 Fazer um pedido usando a conta de sandbox [Authorize.Net Direct Post](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/payments/error-placing-order-with-authorize-net-sandbox-account-an-error-occurred-on-the-server) causa uma mensagem de erro:
 
->>
+&#x200B;>>
 &quot;Erro no servidor. Tente fazer o pedido novamente&quot;
 
 ## Causa 1: o Modo de Teste está habilitado

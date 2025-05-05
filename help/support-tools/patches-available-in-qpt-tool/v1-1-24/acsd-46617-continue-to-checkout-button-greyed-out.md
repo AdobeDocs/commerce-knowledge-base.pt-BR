@@ -37,7 +37,8 @@ O botão **[!UICONTROL Continue to Checkout]** ficará esmaecido mesmo se o subt
 
 1. Vá para Adobe Commerce Admin > **[!UICONTROL Store]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Minimum Order Amount]** e defina o seguinte:
    * [!UICONTROL Enable]: *[!UICONTROL Yes]*
-   * 
+   * &#x200B;
+
      [!UICONTROL Minimum Amount]: *2*
 
 1. Criar um [!UICONTROL Cart Price Rule].
@@ -45,7 +46,8 @@ O botão **[!UICONTROL Continue to Checkout]** ficará esmaecido mesmo se o subt
    * [!UICONTROL Conditions]: *[!UICONTROL Keep empty]*
    * [!UICONTROL Actions]:
       * [!UICONTROL Apply]: *[!UICONTROL Percent of product price discount]*
-      * 
+      * &#x200B;
+
         [!UICONTROL Discount Amount]: *92*
       * [!UICONTROL Apply to Shipping Amount]: *[!UICONTROL Yes]*
 1. Crie um produto com o preço de US$ 25.

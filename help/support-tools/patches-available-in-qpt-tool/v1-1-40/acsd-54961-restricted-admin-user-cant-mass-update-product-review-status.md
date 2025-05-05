@@ -38,7 +38,7 @@ Um usuário administrador restrito não pode atualizar [!UICONTROL Product Revie
 1. Crie um site adicional, loja e visualização de loja.
 1. Adicione um produto à segunda loja e, em seguida, adicione uma revisão.
 1. Crie um usuário administrador restrito com acesso somente ao 2º armazenamento.
-1. Faça logon como o usuário administrador restrito, vá para **[!UICONTROL  Marketings]** > **[!UICONTROL Reviews]** > **[!UICONTROL Mass Update]** e defina o **Status** como *Aprovado* ou *Pendente*.
+1. Faça logon como o usuário administrador restrito, vá para **[!UICONTROL &#x200B; Marketings]** > **[!UICONTROL Reviews]** > **[!UICONTROL Mass Update]** e defina o **Status** como *Aprovado* ou *Pendente*.
 
 <u>Resultados esperados</u>:
 

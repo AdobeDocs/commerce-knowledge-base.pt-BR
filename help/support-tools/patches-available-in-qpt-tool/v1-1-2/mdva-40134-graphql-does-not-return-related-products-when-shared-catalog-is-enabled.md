@@ -46,16 +46,16 @@ A instância deve ser limpa somente com os dados de amostra.
 1. Em **Produtos relacionados**, adicione as duas bolsas Duffle (ID 7 e 13).
 1. Enviar uma solicitação **Post**:
 
-<pre>{
-  products(filtro: {sku: {eq: "24-MB01"}}, classificar: {name: ASC}) {
-    itens {
-      related_products {
+<pre>&lbrace;
+  products(filtro: {sku: {eq: "24-MB01"}}, classificar: {name: ASC}) &lbrace;
+    itens &lbrace;
+      related_products &lbrace;
         uid
         name
-      }
-    }
-  }
-}</pre>
+      &rbrace;
+    &rbrace;
+  &rbrace;
+&rbrace;</pre>
 
 <u>Resultados esperados</u>:
 
@@ -65,7 +65,7 @@ Os produtos relacionados são mostrados na resposta da GraphQL.
 
 Os usuários recebem o seguinte erro:
 
-<pre>O valor de retorno de Magento\CatalogPermissionsGraphQl\Model\Store\StoreProcessor::getStoreId() deve ser do tipo int, null retornado {"exception":"[object] (GraphQL\\Error\\Error(code: 0): O valor de retorno de Magento\\CatalogPermissionsGraphQl\\Model\\Store\\StoreProcessor::getStoreId() deve ser do tipo int, null retornado </pre>
+<pre>O valor de retorno de Magento\CatalogPermissionsGraphQl\Model\Store\StoreProcessor::getStoreId() deve ser do tipo int, null retornado &lbrace;"exception":"[object] (GraphQL\\Error\\Error(code: 0): O valor de retorno de Magento\\CatalogPermissionsGraphQl\\Model\\Store\\StoreProcessor::getStoreId() deve ser do tipo int, null retornado </pre>
 
 ## Aplicar o patch
 

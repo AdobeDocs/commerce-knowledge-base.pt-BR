@@ -1,6 +1,6 @@
 ---
 title: Solução de problemas de montagem /tmp completa para o Adobe Commerce
-description: Este artigo fornece uma solução para quando a montagem `/tmp` estiver cheia, o site puder estar inativo e você não conseguir aplicar SSH a um nó.
+description: Este artigo fornece uma solução para quando a montagem &grave;/tmp&grave; estiver cheia, o site puder estar inativo e você não conseguir aplicar SSH a um nó.
 exl-id: e72d0f99-0060-474b-bb1c-2851896e1e43
 feature: Storage
 role: Developer

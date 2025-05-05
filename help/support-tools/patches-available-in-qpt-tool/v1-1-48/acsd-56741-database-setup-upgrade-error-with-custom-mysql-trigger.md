@@ -1,6 +1,6 @@
 ---
 title: 'ACSD-56741: Resolução de erros de configuração de banco de dados com acionadores MySQL personalizados'
-description: Aplique o patch ACSD-56741 para corrigir o problema do Adobe Commerce em que uma mensagem de erro *Tentando acessar o deslocamento da matriz no valor do tipo null* aparece durante `setup:upgrade` devido a um gatilho MySQL personalizado no banco de dados não relacionado à indexação e  [!DNL MView].
+description: Aplique o patch ACSD-56741 para corrigir o problema do Adobe Commerce em que uma mensagem de erro *Tentando acessar o deslocamento da matriz no valor do tipo null* aparece durante &grave;setup:upgrade&grave; devido a um gatilho MySQL personalizado no banco de dados não relacionado à indexação e  [!DNL MView].
 feature: Install
 role: Admin, Developer
 exl-id: 97839140-03c5-44f0-ba75-935d62f5bf90

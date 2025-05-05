@@ -44,10 +44,10 @@ O token do cliente para um armazenamento personalizado não pode ser recuperado 
 
    <pre>
     <code class="language-graphql">
-    {
+    &lbrace;
       "username": "login",
       "password": "password"
-    }
+    &rbrace;
     </code>
     </pre>
 

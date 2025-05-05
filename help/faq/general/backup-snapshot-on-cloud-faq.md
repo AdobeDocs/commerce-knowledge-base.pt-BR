@@ -65,7 +65,7 @@ Para restaurar um instantâneo existente (no ambiente compatível: Integração,
 
 O backup de BD faz parte de um instantâneo da nuvem:
 
->>
+&#x200B;>>
 Um instantâneo é um backup completo de um ambiente que inclui todos os dados persistentes de todos os serviços em execução (por exemplo, **seu banco de dados MySQL**, Redis e assim por diante) e quaisquer arquivos armazenados nos volumes montados.
 
 >[!NOTE]

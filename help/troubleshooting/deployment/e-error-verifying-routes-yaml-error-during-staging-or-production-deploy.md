@@ -36,9 +36,9 @@ A implantação está bloqueada e a seguinte mensagem de erro é exibida no log:
 <pre>Implantação de aplicativos Verificação da configuração E: erro ao verificar route.yaml.
 Os domínios a seguir estão configurados para o cluster, mas não têm rotas definidas no arquivo route.yaml:
 
-- store1.example.com
-- store2.example.com
-- test-store.example.com
+&#x200B;- store1.example.com
+&#x200B;- store2.example.com
+&#x200B;- test-store.example.com
 
 Com sua configuração atual route.yaml,
   esses domínios NÃO seriam atendidos!

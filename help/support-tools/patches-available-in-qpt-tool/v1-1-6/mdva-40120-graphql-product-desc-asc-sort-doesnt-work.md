@@ -40,30 +40,30 @@ Crie alguns produtos diferentes com o mesmo preço.
 1. Execute a seguinte consulta do GraphQL:
    <pre>
     <code class="language-graphql">
-    {
-      products(filter: {category_id: {eq: "{{cat_id}}"}}, sort: {relevance: ASC}) {
+    &lbrace;
+      products(filter: {category_id: {eq: "{{cat_id}}"}}, sort: {relevance: ASC}) &lbrace;
         total_count
-        items {
+        items &lbrace;
           name
           sku
-        }
-      }
-    }
+        &rbrace;
+      &rbrace;
+    &rbrace;
     </code>
     </pre>
 1. Verifique a resposta.
 1. Altere a ordem de classificação de **ASC** para **DESC** na consulta do GraphQL:
    <pre>
     <code class="language-graphql">
-    {
-      products(filter: {category_id: {eq: "{{cat_id}}"}}, sort: {relevance: DESC}) {
+    &lbrace;
+      products(filter: {category_id: {eq: "{{cat_id}}"}}, sort: {relevance: DESC}) &lbrace;
         total_count
-        items {
+        items &lbrace;
           name
           sku
-        }
-      }
-    }
+        &rbrace;
+      &rbrace;
+    &rbrace;
     </code>
     </pre>
 1. Verifique a resposta.

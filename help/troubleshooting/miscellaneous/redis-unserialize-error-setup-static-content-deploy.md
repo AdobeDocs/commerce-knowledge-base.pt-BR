@@ -1,6 +1,6 @@
 ---
 title: Redefine o erro de desserialização "setup:static-content:deploy"
-description: Este artigo fornece uma correção para o erro de desserialização do Redis ao executar `magento setup:static-content:deploy`.
+description: Este artigo fornece uma correção para o erro de desserialização do Redis ao executar &grave;magento setup:static-content:deploy&grave;.
 exl-id: 4bc88933-3bf9-4742-b864-b82d3c1b07a9
 feature: Cache, Deploy, Page Content, SCD, Services, Variables
 role: Developer

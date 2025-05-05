@@ -69,7 +69,7 @@ Navegue até a página Conexões e verifique o status da fonte de dados que cont
 
 ## O banco de dados de origem tem MENOS linhas do que o Magento BI {#lessrows}
 
-Se o banco de dados de origem tiver menos linhas do que o Magento BI, é possível que as linhas estejam sendo excluídas do banco de dados de origem e o Magento BI não esteja coletando essas exclusões. ** [A exclusão de dados](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/opt-db-analysis.html) pode gerar discrepâncias, tempos de atualização mais longos e uma enxurrada de dores de cabeça com logística**. Portanto, recomendamos que você nunca exclua dados, a menos que seja realmente necessário.
+Se o banco de dados de origem tiver menos linhas do que o Magento BI, é possível que as linhas estejam sendo excluídas do banco de dados de origem e o Magento BI não esteja coletando essas exclusões. **&#x200B; [A exclusão de dados](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/opt-db-analysis.html) pode gerar discrepâncias, tempos de atualização mais longos e uma enxurrada de dores de cabeça com logística**. Portanto, recomendamos que você nunca exclua dados, a menos que seja realmente necessário.
 
 No entanto, se as linhas forem excluídas da tabela, verifique a frequência de reverificação na chave primária. Verificar novamente a chave primária significa que a tabela será verificada em busca de linhas excluídas.
 

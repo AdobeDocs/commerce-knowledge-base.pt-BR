@@ -36,7 +36,7 @@ Essas páginas são:
 
 Armazenável em cache e não armazenável em cache são termos usados para indicar se uma página deve ou não ser armazenada em cache. Por padrão, todas as páginas podem ser armazenadas em cache. No entanto, se qualquer bloco em um layout for designado como não armazenável em cache, a página inteira será armazenável em cache.
 
-A captura de tela abaixo mostra um bloco com uma configuração `cacheable="false"` ** ** que cria uma página não armazenável em cache.
+A captura de tela abaixo mostra um bloco com uma configuração `cacheable="false"` **&#x200B; ** que cria uma página não armazenável em cache.
 
 ![non_cacheable_kb.png](assets/non_cacheable_kb.png)
 

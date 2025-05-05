@@ -1,6 +1,6 @@
 ---
 title: 'ACSD-55004: O validador falha ao carregar um arquivo de importação maior que o valor'
-description: Aplique o patch ACSD-55004 para corrigir o problema do Adobe Commerce em que um validador falha ao carregar um arquivo de importação maior que o valor configurado em `php.ini`.
+description: Aplique o patch ACSD-55004 para corrigir o problema do Adobe Commerce em que um validador falha ao carregar um arquivo de importação maior que o valor configurado em &grave;php.ini&grave;.
 feature: Data Import/Export
 role: Admin, Developer
 exl-id: 03b7667e-9b5b-4319-9135-dbc7fda7861d

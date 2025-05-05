@@ -37,27 +37,27 @@ Neste exemplo, vamos criar um novo módulo chamado \`ExtraCountry\` com a seguin
 
 (Para saber mais sobre a estrutura do módulo, consulte [Visão geral do módulo](https://developer.adobe.com/commerce/php/architecture/modules/overview/) na documentação do desenvolvedor).
 
-<pre><ExtraCountries>
+<pre>&lt;ExtraCountries>
  |
- <etc>
+ &lt;etc>
  | |
  | config.xml
  | di.xml
  | module.xml
  |
- <Plugin>
+ &lt;Plugin>
  | |
- | <Framework>
+ | &lt;Framework>
  |   |
- |   <Locale>
+ |   &lt;Locale>
  |     |
  |     TranslatedListsPlugin.php
  |
- <Setup>
+ &lt;Setup>
  | |
- | <Patch>
+ | &lt;Patch>
  |   |
- |   <Data>
+ |   &lt;Data>
  |     |
  |     AddDataForAbstractCountry.php
  |

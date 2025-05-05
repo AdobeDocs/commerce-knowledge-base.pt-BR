@@ -36,34 +36,34 @@ Quando o método [!UICONTROL categoryList] [!DNL GraphQL] é usado para obter ca
 1. Use a seguinte solicitação [!DNL GraphQL] para obter a hierarquia de categoria com [!UICONTROL product_count]:
 
 <pre><code>
-{
-  categoryList(filters: { ids: { eq: "2" } }) {
+&lbrace;
+  categoryList(filters: { ids: { eq: "2" } }) &lbrace;
     id
     name
     product_count
     level
-    children {
+    children &lbrace;
       name
       product_count
       level
-      children {
+      children &lbrace;
         name
         product_count
         level
-        children {
+        children &lbrace;
           name
           product_count
           level
-          children {
+          children &lbrace;
             name
             product_count
             level
-          }
-        }
-      }
-    }
-  }
-}
+          &rbrace;
+        &rbrace;
+      &rbrace;
+    &rbrace;
+  &rbrace;
+&rbrace;
 </code></pre>
 
 <u>Resultados esperados</u>:
@@ -75,46 +75,46 @@ Se a categoria principal for uma categoria ancorada, o [!UICONTROL product_count
 Se a categoria principal for uma categoria ancorada, os produtos serão exibidos como 0 para a categoria de nível 2 e abaixo.
 
 <pre><code>
-{
-    "data": {
-        "categoryList": [
-            {
+&lbrace;
+    "data": &lbrace;
+        "categoryList": &lbrack;
+            &lbrace;
                 "id": 2,
                 "name": "Default Category",
                 "product_count": 186,
                 "level": 1,
-                "children": [
-                    {
+                "children": &lbrack;
+                    &lbrace;
                         "name": "What's New",
                         "product_count": 0,
                         "level": 2,
                         "children": []
-                    },
-                    {
+                    &rbrace;,
+                    &lbrace;
                         "name": "Women",
                         "product_count": 0,
                         "level": 2,
-                        "children": [
-                            {
+                        "children": &lbrack;
+                            &lbrace;
                                 "name": "Tops",
                                 "product_count": 0,
                                 "level": 3,
                                 "children": []
-                            },
-                            {
+                            &rbrace;,
+                            &lbrace;
                                 "name": "Bottoms",
                                 "product_count": 0,
                                 "level": 3,
                                 "children": []
-                            }
-                        ]
-                    },
+                            &rbrace;
+                        &rbrack;
+                    &rbrace;,
                     ...
-                ]
-            }
-        ]
-    }
-}
+                &rbrack;
+            &rbrace;
+        &rbrack;
+    &rbrace;
+&rbrace;
 </code></pre>
 
 ## Aplicar o patch

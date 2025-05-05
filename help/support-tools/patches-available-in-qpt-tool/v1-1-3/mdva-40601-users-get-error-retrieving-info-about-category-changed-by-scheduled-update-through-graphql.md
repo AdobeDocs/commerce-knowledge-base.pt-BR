@@ -42,6 +42,7 @@ Os usuários recebem um erro ao tentar recuperar informações sobre a categoria
    - Root
     - Some category
          - Some child category
+
    </code>
    </pre>
 
@@ -49,14 +50,14 @@ Os usuários recebem um erro ao tentar recuperar informações sobre a categoria
 
    <pre>
     <code class="language-graphql">
-    query {
-     category(id: 49) {
+    query &lbrace;
+     category(id: 49) &lbrace;
       name
-      children {
+      children &lbrace;
         name
-       }
-     }
-   }
+       &rbrace;
+     &rbrace;
+   &rbrace;
    </code>
    </pre>
 
@@ -64,18 +65,18 @@ Os usuários recebem um erro ao tentar recuperar informações sobre a categoria
 
    <pre>
     <code class="language-graphql">
-    {
-      "data": {
-        "category": {
+    &lbrace;
+      "data": &lbrace;
+        "category": &lbrace;
           "name": "Some category",
-          "children": [
-            {
+          "children": &lbrack;
+            &lbrace;
               "name": "Some child category"
-            }
-          ]
-        }
-      }
-    }
+            &rbrace;
+          &rbrack;
+        &rbrace;
+      &rbrace;
+    &rbrace;
     </code>
     </pre>
 
@@ -93,29 +94,29 @@ Você recebe o seguinte erro:
 
 <pre>
 <code class="language-graphql">
-{
-  "errors": [
-    {
+&lbrace;
+  "errors": &lbrack;
+    &lbrace;
       "debugMessage": "uasort() expects parameter 1 to be array, string given",
       "message": "Internal server error",
-      "extensions": {
+      "extensions": &lbrace;
         "category": "internal"
-      },
-      "locations": [
-        {
+      &rbrace;,
+      "locations": &lbrack;
+        &lbrace;
           "line": 2,
           "column": 3
-        }
-      ],
-      "path": [
+        &rbrace;
+      &rbrack;,
+      "path": &lbrack;
         "category"
-      ]
-    }
-  ],
-  "data": {
+      &rbrack;
+    &rbrace;
+  &rbrack;,
+  "data": &lbrace;
     "category": null
-  }
-}
+  &rbrace;
+&rbrace;
 </code>
 </pre>
 
@@ -123,14 +124,14 @@ Você recebe o seguinte erro:
 
 Para aplicar patches individuais, use os links a seguir, dependendo do tipo de implantação:
 
-* Adobe Commerce ou Magento Open Source no local: [Guia de Atualização de Software > Aplicar Patches](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage) na documentação do desenvolvedor.
-* Adobe Commerce na infraestrutura em nuvem: [Atualizações e patches > Aplicar patches](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) na documentação do desenvolvedor.
+&#x200B;* Adobe Commerce ou Magento Open Source no local: [Guia de Atualização de Software > Aplicar Patches](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage) na documentação do desenvolvedor.
+&#x200B;* Adobe Commerce na infraestrutura em nuvem: [Atualizações e patches > Aplicar patches](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) na documentação do desenvolvedor.
 
 ## Leitura relacionada
 
 Para saber mais sobre correções de qualidade para o Adobe Commerce, consulte:
 
-* [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatender correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md).
-* [Verifique se há um patch disponível para o problema do Adobe Commerce usando a Ferramenta de Patches de Qualidade](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md).
+&#x200B;* [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatender correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md).
+&#x200B;* [Verifique se há um patch disponível para o problema do Adobe Commerce usando a Ferramenta de Patches de Qualidade](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md).
 
 Para obter informações sobre outros patches disponíveis no QPT, consulte a seção [Patches disponíveis no QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-).

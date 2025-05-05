@@ -27,7 +27,7 @@ Se você for um cliente de arquitetura de plano Adobe Commerce na infraestrutura
 1. O comerciante precisa [enviar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) solicitando uma Atualização para Ambientes de Integração Aprimorada, usando o motivo de contato &quot;*Solicitar uma alteração na configuração da nuvem*&quot;.
 1. A equipe de engenharia de clientes do Adobe confirma o número de ambientes de integração e inicia a alteração.
 1. O comerciante será notificado no tíquete quando a atualização for concluída.
-1. O comerciante reimplanta os Ambientes de integração. Siga as etapas em [Mesclar uma ramificação](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches#merge-a-branch) na documentação do desenvolvedor. *Observação*: a implantação ocorre automaticamente quando você executa: <pre>origem de push do git <branch-name></pre>
+1. O comerciante reimplanta os Ambientes de integração. Siga as etapas em [Mesclar uma ramificação](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches#merge-a-branch) na documentação do desenvolvedor. *Observação*: a implantação ocorre automaticamente quando você executa: <pre>origem de push do git &lt;branch-name></pre>
 
 O aumento do desempenho indica uma atualização bem-sucedida para os Ambientes de integração aprimorados.
 
@@ -43,7 +43,7 @@ O aumento do desempenho indica uma atualização bem-sucedida para os Ambientes 
 1. O comerciante precisa [enviar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) solicitando uma Atualização para Ambientes de Integração Aprimorados, usando o motivo de contato *&quot;Solicitar uma alteração na configuração da nuvem&quot;* - **seu Ambiente de preparo é um Ambiente de Integração nomeado**.
 1. A equipe de engenharia de clientes do Adobe confirma o número de ambientes de integração e inicia a alteração.
 1. O comerciante será notificado no tíquete quando a atualização for concluída.
-1. O comerciante reimplanta os Ambientes de integração. Siga as etapas em [Mesclar uma ramificação](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches#merge-a-branch) na documentação do desenvolvedor. *Observação*: a implantação ocorre automaticamente quando você executa: <pre>origem de push do git <branch-name></pre>
+1. O comerciante reimplanta os Ambientes de integração. Siga as etapas em [Mesclar uma ramificação](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches#merge-a-branch) na documentação do desenvolvedor. *Observação*: a implantação ocorre automaticamente quando você executa: <pre>origem de push do git &lt;branch-name></pre>
 
 O aumento do desempenho indica uma atualização bem-sucedida para os Ambientes de integração aprimorados.
 

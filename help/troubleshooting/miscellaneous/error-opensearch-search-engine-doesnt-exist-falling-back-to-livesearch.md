@@ -1,6 +1,6 @@
 ---
 title: Erro  [!DNL opensearch] o mecanismo de pesquisa não existe. Retornando para  [!DNL livesearch].
-description: Este artigo fornece uma solução para o problema em que você vê o erro, 'Erro- [!DNL opensearch] mecanismo de pesquisa não existe. Retornando para  [!DNL livesearch].`, no Adobe Commerce na infraestrutura em nuvem.
+description: Este artigo fornece uma solução para o problema em que você vê o erro, 'Erro- [!DNL opensearch] mecanismo de pesquisa não existe. Retornando para  [!DNL livesearch].&grave;, no Adobe Commerce na infraestrutura em nuvem.
 feature: Deploy, Search
 role: Developer
 exl-id: a6cc981d-b8f0-402d-8771-60d2f21f09f8

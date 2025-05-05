@@ -26,7 +26,7 @@ Este artigo fornece um patch para o problema conhecido do Adobe Commerce 2.4.0, 
 
 <u>Etapas a serem reproduzidas:</u>
 
-No Commerce Admin, vá para **Vendas** > **Terminal Virtual Braintree** . ** **
+No Commerce Admin, vá para **Vendas** > **Terminal Virtual Braintree** . **&#x200B; **
 
 <u>Resultado esperado:</u>
 
@@ -40,7 +40,7 @@ A interface do usuário da página **Terminal Virtual Braintree** está corrompi
 
 <u>Etapas a serem reproduzidas:</u>
 
-No Commerce Admin, vá para **Vendas** > **Terminal Virtual Braintree** . ** **
+No Commerce Admin, vá para **Vendas** > **Terminal Virtual Braintree** . **&#x200B; **
 
 <u>Resultado esperado:</u>
 

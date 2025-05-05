@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Se você carregou algum dos três patches deste artigo antes de **6 de junho de 2024**: se estiver com este problema por causa das [!DNL Metric System/SI] medidas (quilogramas e centímetros) não estarem sendo usadas, reaplique um desses novos patches atualizados agora publicados neste artigo para a sua versão 2.4.4+/2.4.5+/2.4.6+ do Adobe Commerce/Magento Open Source mais uma vez, caso contrário, não será possível selecionar as [!DNL Metric System/SI] medidas de **quilogramas** e **centímetros** no 8} métodos de envio no **[!DNL Admin configuration]**. [!DNL UPS] Esses novos patches são compatíveis com os patches lançados anteriormente. Este problema será corrigido permanentemente no escopo da próxima versão 2.4.7-p1 do Adobe Commerce planejada para **11 de junho de 2024**.
+>Se você carregou algum dos três patches deste artigo antes de **6 de junho de 2024**: se estiver com este problema por causa das [!DNL Metric System/SI] medidas (quilogramas e centímetros) não estarem sendo usadas, reaplique um desses novos patches atualizados agora publicados neste artigo para a sua versão 2.4.4+/2.4.5+/2.4.6+ do Adobe Commerce/Magento Open Source mais uma vez, caso contrário, não será possível selecionar as [!DNL Metric System/SI] medidas de **quilogramas** e **centímetros** no 8&rbrace; métodos de envio no **[!DNL Admin configuration]**. [!DNL UPS] Esses novos patches são compatíveis com os patches lançados anteriormente. Este problema será corrigido permanentemente no escopo da próxima versão 2.4.7-p1 do Adobe Commerce planejada para **11 de junho de 2024**.
 
 >[!NOTE]
 >
