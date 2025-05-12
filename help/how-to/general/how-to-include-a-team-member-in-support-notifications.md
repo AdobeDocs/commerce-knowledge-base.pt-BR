@@ -4,9 +4,9 @@ description: Este artigo fornece uma explicação de como incluir um membro da e
 feature: Cloud, Support, Admin Workspace
 role: Admin, Developer
 exl-id: 63ea3f60-a509-447c-ac3d-bb2133141c80
-source-git-commit: 771793d45000e65c1bf41137cd984d2977b0a9ff
+source-git-commit: 6a4c1115aa92663ce12ce848dc583538e155509b
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Este artigo fornece uma explicação de como incluir um membro da equipe para re
 ## Causa
 
 * O membro da equipe não foi adicionado ao [!DNL cloud project] com os privilégios necessários.
-* O membro da equipe não tem uma conta de suporte.
+* O membro da equipe não tem uma conta de Suporte.
 
 ## Solução
 
@@ -31,12 +31,14 @@ Este artigo fornece uma explicação de como incluir um membro da equipe para re
 
 Se não tiverem sido adicionados ao projeto, será necessário adicioná-los como um [!DNL Super User] e conceder [!DNL Shared Access]:
 
-* [Gerenciar acesso do usuário](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=pt-BR) em nosso guia do usuário.
-* [Não é possível adicionar usuário ao projeto de nuvem do Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/unable-add-user-adobe-commerce-cloud-project.html?lang=pt-BR) na Base de Dados de Conhecimento Commerce.
-* [Guia do Usuário da Central de Ajuda do Adobe Commerce: Acesso Compartilhado](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=pt-BR#shared-access) na Base de Dados de Conhecimento Commerce.
+* [Gerenciar acesso do usuário](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) em nosso guia do usuário.
+* [Não é possível adicionar usuário ao projeto de nuvem do Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/unable-add-user-adobe-commerce-cloud-project.html) na Base de Dados de Conhecimento Commerce.
+* [Guia do Usuário da Central de Ajuda do Adobe Commerce: Acesso Compartilhado](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#shared-access) na Base de Dados de Conhecimento Commerce.
 
-Se eles foram adicionados ao [!DNL cloud project], mas não têm o [!DNL Super User role], atualize seus [!DNL role] apropriadamente em [Gerenciar acesso de usuário](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=pt-BR).
+Se eles foram adicionados ao [!DNL cloud project], mas não têm o [!DNL Super User role], atualize seus [!DNL role] apropriadamente em [Gerenciar acesso de usuário](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html).
+
+Se você quiser permitir que um membro da equipe seja um inspetor em todas as ocorrências abertas na sua organização, envie um [Tíquete de suporte](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=home#support).
 
 ## Leitura relacionada
 
-[Ex-membros da equipe recebem emails de notificação do Adobe Commerce na nuvem](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html?lang=pt-BR)
+[Ex-membros da equipe recebem emails de notificação do Adobe Commerce na nuvem](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html)
