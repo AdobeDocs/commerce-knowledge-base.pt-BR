@@ -16,15 +16,15 @@ ht-degree: 0%
 
 ![login_panel_s.png](assets/login_panel_s.png)
 
-Leia as etapas na seção [Redefinir sua senha de Entrada de Administrador](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html#admin-sign-in) em nosso guia do usuário.
+Leia as etapas na seção [Redefinir sua senha de Entrada de Administrador](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html?lang=pt-BR#admin-sign-in) em nosso guia do usuário.
 
 Abaixo estão as notas de uso críticas.
 
 ### Ativar emails de saída
 
-Antes de usar o formulário **Esqueceu sua senha**, [habilite os emails de saída](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/outgoing-emails.html) usando o [Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html). Isso se aplica somente a ambientes de integração e projetos de sandbox.
+Antes de usar o formulário **Esqueceu sua senha**, [habilite os emails de saída](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/outgoing-emails.html?lang=pt-BR) usando o [Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html?lang=pt-BR). Isso se aplica somente a ambientes de integração e projetos de sandbox.
 
-Se os emails de saída estiverem realmente desabilitados na Produção ou Preparo Pro - o que significa que o email não foi selecionado pelo SendGrid - você poderá verificar isso marcando [Habilitar emails no Cloud Console](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/outgoing-emails#enable-emails-in-the-cli). Se o problema persistir, você pode enviar um [Tíquete de suporte](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide) do Adobe.
+Se os emails de saída estiverem realmente desabilitados na Produção ou Preparo Pro - o que significa que o email não foi selecionado pelo SendGrid - você poderá verificar isso marcando [Habilitar emails no Cloud Console](https://experienceleague.adobe.com/pt-br/docs/commerce-on-cloud/user-guide/project/outgoing-emails#enable-emails-in-the-cli). Se o problema persistir, você pode enviar um [Tíquete de suporte](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide) do Adobe.
 
 ### Verificar a pasta Lixo Eletrônico
 
@@ -34,5 +34,5 @@ Se não conseguir localizar a mensagem com um link Redefinir Senha, verifique a 
 
 Se não conseguir restaurar ou redefinir a senha do usuário existente, você poderá criar um novo usuário administrador e definir uma senha para esse usuário. Para fazer isso, siga estas etapas:
 
-1. Use o [SSH para fazer logon no ambiente remoto](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
+1. Use o [SSH para fazer logon no ambiente remoto](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=pt-BR).
 1. Execute o seguinte comando: `bin/magento admin:user:create   --admin-user=%user_name% --admin-password=%your_password% --admin-email=%your_email% --admin-firstname=%admin_user_first_name% --admin-lastname=%admin_user_last_name%`
