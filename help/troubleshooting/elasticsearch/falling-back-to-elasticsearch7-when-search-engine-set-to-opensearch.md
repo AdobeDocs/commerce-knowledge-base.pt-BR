@@ -4,9 +4,9 @@ description: Este artigo fornece uma solução para o problema de *Falling back 
 feature: Search
 role: Developer
 exl-id: 965d2929-5cf0-4e0a-9eed-6a656daaa120
-source-git-commit: 6b8eecb3df0bb32344a5861a604a40402bb4d392
+source-git-commit: d17af0f8f92726aa5a6914fc9e1ff13268256d04
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,13 @@ Este artigo fornece uma solução para o problema quando um erro *Falling back t
 
 ## Versões afetadas
 
-Adobe Commerce na infraestrutura em nuvem 2.4.4 - 2.4.5
+Adobe Commerce na infraestrutura em nuvem
+2.4.4 - 2.4.4-p12
+2.4.5 - 2.4.5-p11
 
 >[!NOTE]
 >
->[!DNL OpenSearch] está disponível como um mecanismo de pesquisa a partir do Adobe Commerce 2.4.6.
+>O [!DNL OpenSearch] está disponível como um mecanismo de pesquisa a partir do Adobe Commerce 2.4.6, 2.4.5-p12, 2.4.4-p13.
 
 ## Problema
 
@@ -50,4 +52,4 @@ Atualize a variável `SEARCH_CONFIGURATION` no arquivo `.magento.env.yaml` e ver
 
 ## Leitura relacionada
 
-[Configure o serviço OpenSearch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/opensearch.html?lang=pt-BR) no guia Commerce na Infraestrutura na Nuvem.
+[Configure o serviço OpenSearch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/opensearch.html) no guia Commerce na Infraestrutura na Nuvem.
