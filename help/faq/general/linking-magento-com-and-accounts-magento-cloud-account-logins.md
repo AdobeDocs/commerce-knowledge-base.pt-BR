@@ -33,4 +33,4 @@ Os usuários em [accounts.magento.cloud](https://accounts.magento.cloud/) podem 
 ## Leitura relacionada
 
 * [Não é possível fazer logon no suporte da Adobe Commerce ou na conta da nuvem](/help/troubleshooting/miscellaneous/unable-to-log-in-to-support-or-cloud-project.md)
-* [O proprietário da conta MageID não pode fazer logon e enviar um tíquete de suporte](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25231)
+* [O proprietário da conta MageID não pode fazer logon e enviar um tíquete de suporte](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-25231)
