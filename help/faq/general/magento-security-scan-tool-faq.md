@@ -3,9 +3,9 @@ title: Perguntas frequentes sobre a Ferramenta de verificação de segurança da
 description: Este artigo responde a algumas perguntas frequentes sobre a Ferramenta de verificação de segurança da Adobe Commerce.
 exl-id: 380ce617-e3d9-491b-b425-8489abd3c541
 feature: Compliance
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: cff17a83648e10e85d95a5895acd8d1916a8eef9
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ A Ferramenta de Verificação de Segurança é uma ferramenta gratuita disponív
 
 ## A ferramenta Security Scan (Verificação de segurança) está disponível para todos os comerciantes do Adobe Commerce? {#is-magento-security-scan-tool-available-to-all-magento-merchants}
 
-Sim, a ferramenta Security Scan (Verificação de segurança) está disponível para todos os comerciantes de Adobe Commerce e Magento Open Source.
+Sim, a Ferramenta de verificação de segurança está disponível para todos os comerciantes da Adobe Commerce e da Magento Open Source.
 
 ## Alguém pode fazer uma varredura no meu site com a Ferramenta de varredura de segurança? {#can-anyone-scan-my-site-with-the-magento-security-scan-tool}
 
@@ -48,6 +48,6 @@ Os comerciantes podem se registrar para usar a Ferramenta de Verificação de Se
 
 ## O que devo fazer se encontrar um falso positivo no relatório de verificação? {#what-do-i-do-if-i-come-across-a-false-positive-in-the-scan-report}
 
-Recomendamos que nossos comerciantes investiguem todas as verificações com falha e tomem as medidas apropriadas para resolver esses problemas. Após a investigação, se os comerciantes encontrarem um resultado de verificação que pareça ser um falso positivo, solicitamos que o comerciante notifique o Adobe para tomar as medidas apropriadas.
+Recomendamos que nossos comerciantes investiguem todas as verificações com falha e tomem as medidas apropriadas para resolver esses problemas. Após a investigação, se os comerciantes encontrarem um resultado de verificação que pareça ser falso positivo, solicitamos que o comerciante notifique a Adobe para tomar as medidas apropriadas.
 
-Para enviar um relatório de falso positivo, insira um tíquete com suporte ao comerciante do Adobe Commerce para que possamos avaliar o falso positivo, fazer as alterações necessárias e/ou fornecer recomendações para evitar que essas notificações sejam exibidas no futuro. Os comerciantes também podem reportar um falso positivo enviando um email para [securityscan@magento.com](mailto:securityscan@magento.com).
+Para enviar um relatório de falso positivo, insira um tíquete com suporte ao comerciante do Adobe Commerce para que possamos avaliar o falso positivo, fazer as alterações necessárias e/ou fornecer recomendações para evitar que essas notificações sejam exibidas no futuro.
