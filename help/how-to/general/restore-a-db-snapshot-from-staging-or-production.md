@@ -2,7 +2,7 @@
 title: Restaurar um instantâneo do banco de dados de preparo ou produção
 description: Este artigo mostra como restaurar um instantâneo do banco de dados de Preparo ou Produção na Adobe Commerce na infraestrutura em nuvem.
 exl-id: 1026a1c9-0ca0-4823-8c07-ec4ff532606a
-source-git-commit: 20aaeacc4f71725c005e7bec3b9d6ac3aa844170
+source-git-commit: 3d75b53dd290731380b2da33e3c0a1f746b9275b
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
@@ -51,7 +51,7 @@ As etapas são:
    cd /mnt/shared/<cluster ID/ | cd /mnt/shared/<cluster ID_stg>
    gunzip all-databases.sql.gz 
    head -n 17 all-databases.sql > <cluster ID_stg>.sql
-   sed -n '/^-- Current Database: `wyf2o4zlrljjs`/,/^-- Current Database: `/p' all-databases.sql >> <cluster ID_stg>.sql 
+   sed -n '/^-- Current Database: <cluster ID_stg>/,/^-- Current Database: `/p' all-databases.sql >> <cluster ID_stg>.sql 
    gzip <cluster ID_stg>.sql  
    zcat <cluster ID_stg>.sql.gz | \
    sed -e 's/DEFINER[ ]*=[ ]*[^*]*\*/\*/' | \
@@ -62,7 +62,7 @@ As etapas são:
    ```
 
 1. Copie o banco de dados [!DNL dump file] (Por exemplo: `<cluster ID>.sql.gz` para [!DNL Production] ou `<cluster ID_stg>.sql.gz` para [!DNL Staging]) no computador local.
-1. Verifique se você configurou o [!DNL SSH tunnel] para se conectar ao banco de dados remotamente: [[!DNL SSH] e [!DNL sFTP]: [!DNL SSH tunneling]](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/secure-connections#env-start-tunn) em nossa documentação para desenvolvedores.
+1. Verifique se você configurou o [!DNL SSH tunnel] para se conectar ao banco de dados remotamente: [[!DNL SSH] e [!DNL sFTP]: [!DNL SSH tunneling]](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#env-start-tunn) em nossa documentação para desenvolvedores.
 1. Conectar ao banco de dados.
 
    ```sql
@@ -158,6 +158,6 @@ As etapas são:
 
 Em nossa documentação do desenvolvedor:
 
-* [Importar código: Importar o banco de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)
-* [[!DNL Snapshots] e [!DNL backup] gerenciamento: [!DNL Dump] seu banco de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
-* [Backup (instantâneo) na nuvem: Perguntas frequentes](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/faq/backup-snapshot-on-cloud-faq)
+* [Importar código: Importar o banco de dados](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)
+* [[!DNL Snapshots] e [!DNL backup] gerenciamento: [!DNL Dump] seu banco de dados](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
+* [Backup (instantâneo) na nuvem: Perguntas frequentes](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/faq/backup-snapshot-on-cloud-faq)
