@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Atualização de segurança disponível para o Adobe Commerce - [!DNL APSB25-50]
 
-Em 10 de junho de 2025, a Adobe lançou uma atualização de segurança programada regularmente para o Adobe Commerce e o Magento Open Source. Esta atualização soluciona as vulnerabilidades [[!DNL critical] e [!DNL important]](https://helpx.adobe.com/security/severity-ratings.html). A exploração bem-sucedida dessas vulnerabilidades pode levar ao desvio de recursos de segurança, escalonamento de privilégios e execução arbitrária de código.
+Em 10 de junho de 2025, a Adobe lançou uma atualização de segurança programada regularmente para o Adobe Commerce e o Magento Open Source. Esta atualização soluciona as vulnerabilidades [[!DNL critical] e [!DNL important]](https://helpx.adobe.com/br/security/severity-ratings.html). A exploração bem-sucedida dessas vulnerabilidades pode levar ao desvio de recursos de segurança, escalonamento de privilégios e execução arbitrária de código.
 
 Mais informações podem ser encontradas no [Boletim de Segurança do Adobe ([!DNL APSB25-50]) aqui](https://helpx.adobe.com/security/products/magento/apsb25-50.html).
 
@@ -33,7 +33,7 @@ Você pode ler mais sobre [nosso processo de implantação de patch isolado aqui
 >
 >Entre em contato com os Serviços de suporte se encontrar problemas ao aplicar o patch de segurança/patch isolado.
 
-Lembrando que você pode encontrar [as atualizações de Segurança mais recentes disponíveis para o Adobe Commerce aqui.](https://helpx.adobe.com/security/products/magento.html)
+Lembrando que você pode encontrar [as atualizações de Segurança mais recentes disponíveis para o Adobe Commerce aqui.](https://helpx.adobe.com/br/security/products/magento.html)
 
 ## Produtos e versões afetados
 
@@ -93,7 +93,7 @@ Para versões do Adobe Commerce:
 
 ## Como aplicar o patch Isolado
 
-Descompacte o arquivo e veja [Como aplicar um patch de compositor fornecido pelo Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html) em nossa base de dados de suporte para obter instruções.
+Descompacte o arquivo e veja [Como aplicar um patch de compositor fornecido pelo Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html?lang=pt-BR) em nossa base de dados de suporte para obter instruções.
 
 ## Somente para Adobe Commerce em comerciantes na nuvem - Como saber se os patches isolados foram aplicados
 
@@ -103,7 +103,7 @@ Considerando que não é possível verificar facilmente se o problema foi corrig
 >
 ><u>Você pode fazer isso seguindo as etapas abaixo, usando o arquivo `VULN-27015-2.4.7_COMPOSER.patch` **como EXEMPLO**</u>:
 
-1. [Instale a Ferramenta de Correções de Qualidade](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html).
+1. [Instale a Ferramenta de Correções de Qualidade](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html?lang=pt-BR).
 1. Executar o comando:<br>
    ![cve-2024-34102-tell-if-patch-plied-code](assets/cve-2024-34102-tell-if-patch-applied-code.png)
 1. Você deve ver uma saída semelhante a esta, onde VULN-27015 retorna o status *Aplicado*:
@@ -123,4 +123,4 @@ Considerando que não é possível verificar facilmente se o problema foi corrig
 Atualizações de segurança disponíveis para o Adobe Commerce:
 
 * [Boletim de Segurança do Adobe ([!DNL APSB25-50])](https://helpx.adobe.com/security/products/magento/apsb25-50.html)
-* [As atualizações de Segurança mais recentes disponíveis para o Adobe Commerce](https://helpx.adobe.com/security/products/magento.html)
+* [As atualizações de Segurança mais recentes disponíveis para o Adobe Commerce](https://helpx.adobe.com/br/security/products/magento.html)
