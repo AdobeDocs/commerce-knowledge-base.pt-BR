@@ -56,8 +56,8 @@ Quando o módulo `Magento_Banner` está habilitado, o Adobe Commerce envia solic
 >
 >Recomendamos testar as alterações em [Ambiente de preparo/integração](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) primeiro, antes de aplicá-lo à produção. Também recomendamos ter um backup recente antes de qualquer manipulação.
 
-1. Desative a saída do módulo `Magento_Banner`, conforme descrito em [Desativar saída do módulo](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/disable-module-output) na documentação do desenvolvedor. O nome do módulo que você precisa usar é `Magento_Banner`.
-1. Implante seu código. Para o Adobe Commerce na infraestrutura em nuvem, implante conforme descrito no artigo [Implante sua loja](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production) na documentação do desenvolvedor.
+1. Desative a saída do módulo `Magento_Banner`, conforme descrito em [Desativar saída do módulo](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/files/disable-module-output) na documentação do desenvolvedor. O nome do módulo que você precisa usar é `Magento_Banner`.
+1. Implante seu código. Para o Adobe Commerce na infraestrutura em nuvem, implante conforme descrito no artigo [Implante sua loja](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production) na documentação do desenvolvedor.
 1. Depois de desabilitar a saída do módulo, o menu não aparece mais no admin.
-1. Você não verá mais a opção Banner ou Dynamic em **[!UICONTROL Content]** > **[!UICONTROL Elements]**. Para mostrar as opções novamente, [habilite a saída do módulo](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/disable-module-output?lang=en#disable-module-output-in-a-simple-deployment).
+1. Você não verá mais a opção Banner ou Dynamic em **[!UICONTROL Content]** > **[!UICONTROL Elements]**. Para mostrar as opções novamente, [habilite a saída do módulo](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/files/disable-module-output?lang=en#disable-module-output-in-a-simple-deployment).
 
