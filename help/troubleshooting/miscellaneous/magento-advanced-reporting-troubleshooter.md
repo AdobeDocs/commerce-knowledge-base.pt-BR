@@ -19,10 +19,10 @@ Problemas avançados de relatórios no Adobe Commerce podem ser resolvidos usand
 
 +++**Seu site atende aos Requisitos Avançados de Relatório?**
 
-Você tem uma página de Erro 404 ao usar a Geração de relatórios avançada. Seu site atende aos [Requisitos Avançados de Relatório](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#requirements)?
+Você tem uma página de Erro 404 ao usar a Geração de relatórios avançada. Seu site atende aos [Requisitos Avançados de Relatório](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#requirements)?
 
 a. SIM - Continue na [Etapa 2](#step-2).\
-b. NÃO - Complete os requisitos avançados de relatórios para o site seguindo as etapas dos [requisitos avançados de relatórios](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#requirements). Em seguida, prossiga para [Etapa 2](#step-2).
+b. NÃO - Complete os requisitos avançados de relatórios para o site seguindo as etapas dos [requisitos avançados de relatórios](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#requirements). Em seguida, prossiga para [Etapa 2](#step-2).
 
 +++
 
@@ -44,7 +44,7 @@ Se várias moedas base tiverem sido usadas, você não poderá usar a Geração 
 
 +++**Você está usando a solução de banco de dados dividido?**
 
-Você está usando a [solução de banco de dados dividido](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/split-db/multi-master)?
+Você está usando a [solução de banco de dados dividido](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/storage/split-db/multi-master)?
 
 a. SIM - Use o patch **MDVA-26831** no erro 404 do Advanced Reporting na solução de banco de dados dividido e limpar cache. Aguarde 24 horas para que o trabalho seja executado novamente e tente novamente.\
 b. NÃO - Continue na [Etapa 4](#step-4).
@@ -55,10 +55,10 @@ b. NÃO - Continue na [Etapa 4](#step-4).
 
 +++**Os Relatórios Avançados estão habilitados?**
 
-Verificar **Administrador** > **Lojas** > **Configurações** > **Configuração** > **Geral** > **Relatórios Avançados**. Para obter etapas detalhadas, consulte [Relatórios avançados: Habilitar relatórios avançados](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting).
+Verificar **Administrador** > **Lojas** > **Configurações** > **Configuração** > **Geral** > **Relatórios Avançados**. Para obter etapas detalhadas, consulte [Relatórios avançados: Habilitar relatórios avançados](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting).
 
 a. SIM - Continue na [Etapa 5](#step-5).\
-b. NÃO - [Habilite os Relatórios Avançados](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting), salve e aguarde 24 horas para que o Adobe Commerce e os Relatórios Avançados sincronizem. Verifique se os dados agora são carregados. Se isso acontecer, você resolveu o problema. Se não prosseguir para [Etapa 5](#step-5).
+b. NÃO - [Habilite os Relatórios Avançados](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting), salve e aguarde 24 horas para que o Adobe Commerce e os Relatórios Avançados sincronizem. Verifique se os dados agora são carregados. Se isso acontecer, você resolveu o problema. Se não prosseguir para [Etapa 5](#step-5).
 
 +++
 
@@ -81,9 +81,9 @@ Verifique o valor do contador na tabela de sinalizador executando esta consulta:
 
 a. SIM - Execute as seguintes etapas: 1. Execute a consulta abaixo:\
 ``DELETE from `flag` where `flag_code` = 'analytics_link_subscription_update_reverse_counter';``\
-2\ [Desabilite e habilite o módulo de Relatórios Avançados](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting) nas configurações e [reautorize o token](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#verify-that-the-integration-is-active).\
+2\ [Desabilite e habilite o módulo de Relatórios Avançados](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting) nas configurações e [reautorize o token](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#verify-that-the-integration-is-active).\
 3 Aguarde 24 horas para que o Adobe Commerce e o Advanced Reporting sincronizem. Se você ainda não conseguir ver os dados nos Relatórios Avançados, [envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
-b. NÃO - Se a consulta não retornar nada, siga estas etapas: 1. [Desabilite e habilite o módulo de Relatórios Avançados](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting) nas configurações e [reautorize o token](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#verify-that-the-integration-is-active).\
+b. NÃO - Se a consulta não retornar nada, siga estas etapas: 1. [Desabilite e habilite o módulo de Relatórios Avançados](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting) nas configurações e [reautorize o token](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#verify-that-the-integration-is-active).\
 2\ Aguarde 24 horas para que o Adobe Commerce e o Advanced Reporting sincronizem. Se você ainda não conseguir ver os dados nos Relatórios Avançados, [envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 +++
@@ -145,7 +145,7 @@ b. NÃO - Continue na [Etapa 10](#step-10).
 
 Exemplo: na tabela `cron_schedule`, você vê o erro *O arquivo &quot;/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a0000850c0 não pode ser excluído*. Aviso!unlink(/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a0000850c0?lang=en): Arquivo ou diretório inexistente*
 
-a. SIM - Use o patch ACSD-50165 em [O arquivo não pode ser excluído. Aviso!unlink: erro de arquivo ou diretório inexistente no Admin](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26887), aguarde 24 horas para que o trabalho seja executado novamente e tente novamente.\
+a. SIM - Use o patch ACSD-50165 em [O arquivo não pode ser excluído. Aviso!unlink: erro de arquivo ou diretório inexistente no Admin](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-26887), aguarde 24 horas para que o trabalho seja executado novamente e tente novamente.\
 b. NÃO - Continue na [Etapa 11](#step-11).
 
 +++
@@ -165,4 +165,4 @@ b. NÃO - [enviar um tíquete de suporte](/help/help-center-guide/help-center/ma
 
 ## Leitura relacionada
 
-[Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce
+[Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce

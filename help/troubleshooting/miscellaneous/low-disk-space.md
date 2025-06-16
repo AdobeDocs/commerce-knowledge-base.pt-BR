@@ -21,7 +21,7 @@ Este artigo sugere soluções para a situação em que não há espaço suficien
 
 ## Problema
 
-Você está ficando sem espaço em disco com diretórios graváveis. Um sintoma pode ser [implantação paralisada](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26878).
+Você está ficando sem espaço em disco com diretórios graváveis. Um sintoma pode ser [implantação paralisada](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-26878).
 
 Para verificar o uso do disco, execute o seguinte comando:
 
@@ -45,7 +45,7 @@ Opções de solução:
 * Limpe o diretório `var`.
 * Configure um trabalho cron para rastrear o tamanho do diretório `var` e limpá-lo.
 * Aloque mais espaço em disco, se você tiver algum espaço não utilizado. (Consulte a seção abaixo para obter informações sobre como verificar qual é o limite de espaço.)
-   * Para os ambientes de plano Starter, todos os ambientes e Integração de plano Pro, é possível alocar o espaço em disco se você tiver algum espaço não utilizado, conforme descrito em [Gerenciar espaço em disco: Alocando espaço em disco](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#application-disk-space).
+   * Para os ambientes de plano Starter, todos os ambientes e Integração de plano Pro, é possível alocar o espaço em disco se você tiver algum espaço não utilizado, conforme descrito em [Gerenciar espaço em disco: Alocando espaço em disco](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#application-disk-space).
    * Para ambientes de preparo e produção planejados Pro, entre em contato com o suporte para alocar mais espaço em disco se você tiver algum não utilizado.
 * Se você tiver atingido o limite de espaço e ainda enfrentar problemas de pouco espaço, considere comprar mais espaço em disco, entre em contato com a equipe de conta da Adobe para obter detalhes.
 
