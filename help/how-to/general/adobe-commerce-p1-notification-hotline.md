@@ -21,7 +21,7 @@ Conforme definido nos [Termos e Condições dos Serviços de Suporte da Adobe Co
 ## Políticas de telefone de linha direta de notificação P1
 
 * A linha direta de notificação P1 está disponível para reportar problemas de nível P1. (consulte a definição de incidente P1 na seção anterior).
-* [Envie um tíquete de suporte](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) antes de chamar a linha direta de notificação P1 da Adobe Commerce.
+* [Envie um tíquete de suporte](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=pt-BR#submit-ticket) antes de chamar a linha direta de notificação P1 da Adobe Commerce.
 * A investigação, a solução de problemas e a comunicação ocorrerão exclusivamente no tíquete de suporte.
 * Adicione todas as informações adicionais relacionadas ao problema diretamente ao ticket, antes de chamar.
 * Ao ligar, certifique-se de ter o número do tíquete.
