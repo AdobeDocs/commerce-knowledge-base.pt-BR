@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: e5f5fda302aa5023cc4c05ec0971086bffbeaf39
+source-git-commit: 4f4d516ab4250249928c676d9451a1efe041c207
 workflow-type: tm+mt
-source-wordcount: '3657'
+source-wordcount: '3533'
 ht-degree: 0%
 
 ---
@@ -181,10 +181,8 @@ ht-degree: 0%
       * [Não é possível acessar o Adobe Commerce na interface do usuário da infraestrutura em nuvem](/help/troubleshooting/miscellaneous/cannot-access-magento-commerce-cloud-ui.md)
       * [Limpeza de endereço Vertex: endereços diferentes não permitidos](/help/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.md)
       * [As alterações nas categorias não estão sendo salvas](/help/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.md)
-      * [O Live Search exibe produtos indisponíveis, independentemente das configurações de status do estoque no administrador](/help/troubleshooting/miscellaneous/live-search-displays-out-of-stock-products.md)
       * [Problema conhecido do Adobe Commerce 2.4.0 - as Taxas de imposto de exportação não funcionam](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
       * [Erro de processamento do Magento Order Management System (OMS) para Adobe Commerce](/help/troubleshooting/miscellaneous/magento-order-management-messages-processing-error.md)
-      * [A pesquisa de correspondência exata não funciona no Adobe Commerce 2.4.x](/help/troubleshooting/miscellaneous/exact-match-search-for-product-not-working-in-adobe-commerce.md)
       * [Desempenho lento devido a páginas não armazenáveis em cache](/help/troubleshooting/miscellaneous/slow-performance-due-to-non-cacheable-pages.md)
       * [As imagens em cache não são carregadas após a atualização do 2.2.X para o 2.3.X](/help/troubleshooting/miscellaneous/cached-images-are-not-loaded-after-2-2-x-to-2-3-x-upgrade.md)
       * [Erro de tempo limite de gateway 504 ao salvar uma categoria com mais de 1k produtos](/help/troubleshooting/miscellaneous/504-gateway-time-out-error-when-saving-a-category-with-1k-products.md)
@@ -216,7 +214,6 @@ ht-degree: 0%
       * [Problemas após desabilitar um módulo](/help/troubleshooting/miscellaneous/issues-after-disabling-a-module.md)
       * [Descarga de redirecionamentos não regex para Fastly em vez de Nginx (rotas)](/help/troubleshooting/miscellaneous/offload-non-regex-redirects-to-fastly-instead-of-nginx-routes.md)
       * [Problema conhecido do Adobe Commerce 2.4.0: os botões Criar novo pedido não aparecem](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-create-new-order-buttons-missing.md)
-      * [O laminas/laminas-escaper 2.7.1 causa erros no Adobe Commerce front-end e nas páginas de administração](/help/troubleshooting/miscellaneous/laminas-escaper-2-7-1-causes-error-adobe-commerce-frontend-and-admin-pages.md)
       * [Erros 403 ao acessar a Ferramenta de análise do site no Adobe Commerce](/help/troubleshooting/miscellaneous/403-errors-when-accessing-site-wide-analysis-tool-on-magento.md)
       * [Solução de problemas de Relatórios avançados do Adobe Commerce](/help/troubleshooting/miscellaneous/magento-advanced-reporting-troubleshooter.md)
       * [Erros fatais comuns do PHP e suas soluções](/help/troubleshooting/miscellaneous/common-php-fatal-errors-and-solutions.md)
@@ -252,7 +249,6 @@ ht-degree: 0%
       * [PWA Studio: o Webpack trava antes de iniciar a compilação](/help/troubleshooting/miscellaneous/pwa-studio-webpack-hangs-before-beginning-compilation.md)
       * [Instale os patches mais recentes para corrigir problemas do Adobe Commerce Redis](/help/troubleshooting/miscellaneous/install-latest-patches-to-fix-magento-redis-issues.md)
       * [Resolver um erro de deslocamento ilegal](/help/troubleshooting/miscellaneous/resolve-an-illegal-offset-error.md)
-      * [A consulta do GraphQL para ocultar categorias não funciona com o catálogo compartilhado B2B](/help/troubleshooting/miscellaneous/graphql-categories-cannot-hide-categories-shared-catalog.md)
       * [Status do produto incorreto quando criado programaticamente](/help/troubleshooting/miscellaneous/product-status-incorrect-when-created-programmatically.md)
       * [Erro do Fastly: a versão do VCL do plug-in está desatualizada! Faça upload novamente](/help/troubleshooting/miscellaneous/fastly-error-plugin-vcl-version-is-outdated-please-re-upload.md)
       * [Adobe Commerce 2.4.0: a atualização das Atividades do cliente não funciona](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md)
@@ -297,7 +293,6 @@ ht-degree: 0%
       * [O novo domínio está redirecionando para o domínio padrão](/help/troubleshooting/miscellaneous/new-domain-redirecting.md)
       * [Não foi possível adicionar o usuário ao projeto na nuvem do Adobe Commerce](/help/troubleshooting/miscellaneous/unable-add-user-adobe-commerce-cloud-project.md)
       * [O Cron para devido a uma configuração incorreta ou ausente [!DNL OpCache settings]](/help/troubleshooting/miscellaneous/crons-blocked-running-missing-opache-settings.md)
-      * [O arquivo não pode ser excluído. Aviso! desvincular: erro de arquivo ou diretório * inexistente em  [!DNL Admin]](/help/troubleshooting/miscellaneous/file-cannot-be-deleated-no-file-or-directory.md)
       * [O login do [!DNL Admin] não está funcionando - tamanho máximo de sessão permitido excedido](/help/troubleshooting/miscellaneous/admin-login-not-working-allowed-session-max-size-exceed.md)
       * [Configuração da conexão do Adobe Commerce Intelligence para projetos existentes no Cloud Starter](/help/troubleshooting/miscellaneous/configure-mbi-connection-for-cloud-starter-projects.md)
       * [[!DNL Google Tag Manager] foi interrompido pelo widget do Live Search](/help/troubleshooting/miscellaneous/google-tag-manager-broken-by-live-search-widget.md)
@@ -313,15 +308,11 @@ ht-degree: 0%
       * [Erros de implantação ao ativar o módulo Early-Alpha Baler](/help/troubleshooting/deployment/deployment-errors-from-enabling-early-alpha-baler-javascript-bundling-build.md)
       * [Erro &quot;A versão atual do RDBMS não é compatível&quot; na implantação](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
       * [Falha na implantação do módulo Fastly na versão incompatível do Adobe Commerce](/help/troubleshooting/deployment/deployment-fails-fastly-module-incompatible-magento-version.md)
-      * [Falha na reimplantação do ambiente ou o servidor MySQL desapareceu](/help/troubleshooting/deployment/environment-redeployment-failed-or-mysql-server-gone-away.md)
       * [Erro de implantação: SQLSTATE[HY000]](/help/troubleshooting/deployment/deployment-error-sql-hy000.md)
       * [Problemas de implantação relacionados às permissões de conta e chaves de acesso](/help/troubleshooting/deployment/deployment-issues-relating-to-account-permissions-and-access-keys.md)
       * [Solução de problemas de implantação do Adobe Commerce](/help/troubleshooting/deployment/magento-deployment-troubleshooter.md)
       * [Erro durante a implantação ao atualizar para a versão que suporta o PHP 8.1](/help/troubleshooting/deployment/error-during-deployment-when-upgrading-to-version-supporting-php-8-1.md)
-      * [E: Erro ao verificar o erro route.yaml durante a implantação de preparo ou produção](/help/troubleshooting/deployment/e-error-verifying-routes-yaml-error-during-staging-or-production-deploy.md)
       * [Falha na implantação com &quot;Erro ao criar projeto: o gancho de criação falhou com o código de status 1&quot;](/help/troubleshooting/deployment/deployment-fails-with-error-building-project-the-build-hook-failed-with-status-code-1.md)
-      * [O Adobe Commerce no repositório de nuvem não pôde ser acessado: erro 403 proibido ou 404 não encontrado ao implantar](/help/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.md)
-      * [Implantação paralisada com o erro &quot;Não é possível fazer upload do aplicativo para o cluster remoto&quot;](/help/troubleshooting/deployment/deployment-stuck-with-unable-to-upload-the-application-to-the-remote-cluster-error.md)
       * [Erro de implantação: &quot;erro 7 ao baixar ... porta 443: conexão recusada&quot;](/help/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce.md)
       * [Erros de implantação ao confirmar arquivos incorretos](/help/troubleshooting/deployment/deployment-error-when-committing-incorrect-files.md)
       * [Erros de implantação em que patches não foram encontrados](/help/troubleshooting/deployment/deployment-errors-where-patches-not-found.md)
@@ -364,7 +355,6 @@ ht-degree: 0%
       * [O status do índice Elasticsearch é &quot;amarelo&quot; ou &quot;vermelho&quot;](/help/troubleshooting/elasticsearch/elasticsearch-index-status-is-yellow-or-red.md)
       * [O serviço Elasticsearch não está em execução](/help/troubleshooting/elasticsearch/elasticsearch-service-not-running.md)
       * [MySQL e Elasticsearch mostram resultados diferentes](/help/troubleshooting/elasticsearch/mysql-and-elasticsearch-show-different-results.md)
-      * [O Elasticsearch é mostrado como mecanismo de pesquisa apesar da instalação do OpenSearch](/help/troubleshooting/elasticsearch/search-engine-shown-elasticsearch-despite-open-search.md)
 * Guia da Central de ajuda {#help-center-guide}
    * [Guia do usuário de suporte da Experience League para Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
    * [Atualização da política de ciclo de vida do tíquete de suporte da Adobe Commerce](/help/help-center-guide/help-center/magento-support-ticket-lifecycle-policy-update.md)
@@ -467,6 +457,5 @@ ht-degree: 0%
    * [Backup (instantâneo) na nuvem: Perguntas frequentes](/help/faq/general/backup-snapshot-on-cloud-faq.md)
    * [Perguntas frequentes sobre a Estratégia e a Política de ciclo de vida das versões de 2024 e 2023 do Adobe Commerce](/help/faq/general/adobe-commerce-release-strategy-lifecycle-policy.md)
    * [Posso programar atualizações de Armazenamento temporário de conteúdo para preços em um catálogo compartilhado?](/help/faq/general/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.md)
-   * [Perguntas frequentes sobre a Ferramenta de verificação de segurança da Adobe Commerce](/help/faq/general/magento-security-scan-tool-faq.md)
    * [Perguntas frequentes sobre o fim do suporte ao software Adobe Commerce](/help/faq/general/adobe-commerce-eos-policy-faq.md)
    * [O Fastly é necessário para um site do Adobe Commerce Headless?](/help/faq/general/do-i-need-fastly-for-a-headless-magento-site.md)
