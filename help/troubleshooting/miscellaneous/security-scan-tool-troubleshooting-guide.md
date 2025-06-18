@@ -1,23 +1,23 @@
 ---
 title: Guia de solução de problemas da ferramenta Adobe Commerce Security Scan
-description: Saiba como solucionar vários problemas com a ferramenta Security Scan for Adobe Commerce e Magento Open Source.
+description: Saiba como solucionar os vários problemas com a ferramenta Security Scan for Adobe Commerce e Magento Open Source.
 exl-id: 35e18a11-bda9-47eb-924a-1095f4f01017
 feature: Compliance, Security
 role: Developer
-source-git-commit: 525352027bfa4a8728bdbbfe61af3dca5dbb18f9
+source-git-commit: c6e338fb33477ab107fe4de382b485339b57275a
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '909'
 ht-degree: 0%
 
 ---
 
 # Guia de solução de problemas da ferramenta Adobe Commerce Security Scan
 
-Saiba como solucionar vários problemas com a ferramenta Security Scan for Adobe Commerce e Magento Open Source.
+Saiba como solucionar os vários problemas com a ferramenta Security Scan for Adobe Commerce e Magento Open Source.
 
 ## Problema: não é possível enviar o site
 
-A ferramenta Verificação de segurança exige que você comprove a propriedade do site antes que o domínio possa ser adicionado à Ferramenta de verificação de segurança. Isso pode ser feito adicionando um código de confirmação ao site usando um comentário de HTML ou a tag `<meta>`. O comentário HTML deve ser colocado dentro da tag `<body>`, por exemplo, na seção de rodapé. A tag `<meta>` deve ser colocada dentro da seção `<head>` da página.
+A ferramenta Verificação de segurança exige que você comprove a propriedade do site antes que o domínio possa ser adicionado à Ferramenta de verificação de segurança. Isso pode ser feito adicionando um código de confirmação ao site usando um comentário do HTML ou a tag `<meta>`. O comentário HTML deve ser colocado dentro da tag `<body>`, por exemplo, na seção de rodapé. A tag `<meta>` deve ser colocada dentro da seção `<head>` da página.
 
 Um problema comum enfrentado pelos comerciantes ocorre quando a Ferramenta de verificação de segurança não consegue confirmar a propriedade do site do comerciante.
 
@@ -25,11 +25,11 @@ Se você estiver recebendo um erro e não puder enviar seu site para verificaç�
 
 ## Problema: Relatórios vazios gerados pela ferramenta Verificação de segurança
 
-Você obtém relatórios de verificação vazios da ferramenta Verificação de Segurança ou obtém relatórios contendo apenas um erro, como *A ferramenta de segurança não pôde acessar a URL base* ou a instalação do *Magento não foi encontrada na URL fornecida*.
+Você obtém relatórios de verificação vazios da ferramenta Verificação de Segurança ou obtém relatórios contendo apenas um erro, como *A ferramenta de segurança não conseguiu acessar a URL base* ou a instalação do *Magento não foi encontrada na URL fornecida*.
 
 ### Solução
 
-1. Verifique se os IPs 52.87.98.44, 34.196.167.176 e 3.218.25.102 não estão bloqueados nas portas 80 e 443.
+1. Verifique se os IPs do 52.87.98.44, 34.196.167.176 e 3.218.25.102 não estão bloqueados nas portas 80 e 443.
 1. Verifique se há redirecionamentos na URL enviada (por exemplo, `https://mystore.com` redireciona para `https://www.mystore.com` ou vice-versa ou redireciona para outros nomes de domínio).
 1. Investigue os logs de acesso do servidor da WAF/Web para solicitações rejeitadas/não atendidas. HTTP 403 `Forbidden` e HTTP 500 `Internal server error` são as respostas comuns do servidor que causam geração de relatórios vazios. Este é um exemplo do código de confirmação que bloqueia solicitações por agentes do usuário:
 
@@ -57,7 +57,7 @@ Os seguintes status podem aparecer nas verificações:
 
 1. **Aprovado**: a ferramenta Verificação de Segurança verificou os dados atualizados e aprovou as alterações.
 1. **Desconhecido**: a ferramenta Verificação de Segurança ainda não tem dados sobre seu domínio; aguarde o próximo ciclo de sincronização.
-1. **Falha**: se o status mostrar falha, você precisará corrigir o problema (habilitar 2FA, alterar URL do administrador etc.) e aguarde o próximo ciclo de sincronização.
+1. **Falha**: se o status mostrar falha, você precisará corrigir o problema (habilitar 2FA, alterar URL do administrador, etc.) e aguardar o próximo ciclo de sincronização.
 
 Se 24 horas tiverem se passado desde que as alterações foram feitas na instância e elas não forem refletidas no relatório de Verificação de Segurança, você poderá [enviar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket). Forneça o URL da loja ao enviar o tíquete.
 
@@ -76,7 +76,7 @@ Você recebe uma notificação sobre a falha &quot;BotNet Suspect&quot;.
 
 1. Verifique as contas SSH recém-criadas, as alterações no sistema de arquivos etc.
 1. Execute uma revisão de segurança.
-1. Verifique a versão e a atualização do Adobe Commerce, especialmente se ele ainda estiver executando o Magento 1, que não é mais suportado.
+1. Verifique a versão e a atualização do Adobe Commerce, especialmente se ele ainda estiver executando o Magento 1, que não é mais compatível.
 1. Se o problema persistir, [envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) e forneça a URL de armazenamento.
 
 ## Problema: Falha na injeção de comprometimento
@@ -104,7 +104,7 @@ Você pode gerar os 10 relatórios anteriores no seu lado. Se forem necessários
 
 ### Quais informações são necessárias ao enviar um tíquete de suporte?
 
-Forneça o nome de domínio.
+Forneça o nome de domínio exatamente como foi enviado para a [verificação de segurança](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26357), MAGEID e Cloud Project_ID. Observe que a Cloud Project_ID não é necessária para o Adobe Commerce no local.
 
 ### O que acontece se eu remover minha loja da verificação da ferramenta de verificação?
 
