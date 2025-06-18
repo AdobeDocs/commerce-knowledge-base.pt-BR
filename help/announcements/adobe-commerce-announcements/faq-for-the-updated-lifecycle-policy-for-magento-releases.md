@@ -18,7 +18,7 @@ ht-degree: 0%
 A Adobe Commerce fornece correções de qualidade para uma versão secundária por um mínimo de 12 meses a partir da data de disponibilidade geral da próxima versão secundária de software. A maneira como fornecemos correções de qualidade durante esse período está mudando:
 
 * **Política anterior:** Atualmente, as correções de qualidade para a linha anterior que está na janela de EOS de 12 meses são entregues por meio da versão de patch trimestral, tornando os patches trimestrais uma combinação de segurança + qualidade.
-* **Nova política:** a partir da versão 2.4 como a linha de versão secundária mais atual, os patches de versão da linha com suporte anterior (2.3) serão movidos para somente segurança. Ainda forneceremos correções de qualidade para a linha compatível anterior durante a janela de 12 meses após o lançamento de uma versão secundária (como 2.4) e novas linhas de versão secundárias subsequentes; mas elas serão disponibilizadas por meio da [Ferramenta de Patches de Qualidade (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches) e estarão focalizadas apenas em problemas críticos.
+* **Nova política:** a partir da versão 2.4 como a linha de versão secundária mais atual, os patches de versão da linha com suporte anterior (2.3) serão movidos para somente segurança. Ainda forneceremos correções de qualidade para a linha compatível anterior durante a janela de 12 meses após o lançamento de uma versão secundária (como 2.4) e novas linhas de versão secundárias subsequentes; mas elas serão disponibilizadas por meio da [Ferramenta de Patches de Qualidade (QPT)](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches) e estarão focalizadas apenas em problemas críticos.
 
 ## Quando esta política entra em vigor?
 
@@ -38,7 +38,7 @@ A Adobe também continuará a ter versões somente de segurança para a linha de
 
 ## O que é a Ferramenta de correção de qualidade?
 
-Consulte o artigo [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatendimento de correções de qualidade](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches) em nossa base de dados de conhecimento de suporte.
+Consulte o artigo [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatendimento de correções de qualidade](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches) em nossa base de dados de conhecimento de suporte.
 
 ## Quem deve considerar o uso dessa nova política?
 
