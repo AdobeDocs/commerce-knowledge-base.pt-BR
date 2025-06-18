@@ -4,9 +4,9 @@ description: 'A Adobe Commerce fornece correções de qualidade para uma versão
 exl-id: 4aa601d0-ee1d-4f1f-a684-188772a58dd1
 feature: Compliance, Support
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2898089896cc2cdc88110a999564669341a52136
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1179'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 A Adobe Commerce fornece correções de qualidade para uma versão secundária por um mínimo de 12 meses a partir da data de disponibilidade geral da próxima versão secundária de software. A maneira como fornecemos correções de qualidade durante esse período está mudando:
 
 * **Política anterior:** Atualmente, as correções de qualidade para a linha anterior que está na janela de EOS de 12 meses são entregues por meio da versão de patch trimestral, tornando os patches trimestrais uma combinação de segurança + qualidade.
-* **Nova política:** a partir da versão 2.4 como a linha de versão secundária mais atual, os patches de versão da linha com suporte anterior (2.3) serão movidos para somente segurança. Ainda forneceremos correções de qualidade para a linha compatível anterior durante a janela de 12 meses após o lançamento de uma versão secundária (como 2.4) e novas linhas de versão secundárias subsequentes; mas elas serão disponibilizadas por meio da [Ferramenta de Patches de Qualidade (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) e estarão focalizadas apenas em problemas críticos.
+* **Nova política:** a partir da versão 2.4 como a linha de versão secundária mais atual, os patches de versão da linha com suporte anterior (2.3) serão movidos para somente segurança. Ainda forneceremos correções de qualidade para a linha compatível anterior durante a janela de 12 meses após o lançamento de uma versão secundária (como 2.4) e novas linhas de versão secundárias subsequentes; mas elas serão disponibilizadas por meio da [Ferramenta de Patches de Qualidade (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches) e estarão focalizadas apenas em problemas críticos.
 
 ## Quando esta política entra em vigor?
 
@@ -34,11 +34,11 @@ As versões somente de segurança contêm apenas correções de segurança e nen
 
 ## Ainda haverá uma versão somente de segurança para a linha mais recente (a partir da publicação, 2.4)?
 
-O Adobe continuará a ter versões somente de segurança para a linha de versão mais recente também. O processo para isso está descrito em [Introdução à Nova Versão de Patch Somente de Segurança](https://community.magento.com/t5/Magento-DevBlog/Introducing-the-New-Security-only-Patch-Release/ba-p/141287) na publicação do DevBlog.
+A Adobe também continuará a ter versões somente de segurança para a linha de versão mais recente. O processo para isso está descrito em [Introdução à Nova Versão de Patch Somente de Segurança](https://community.magento.com/t5/Magento-DevBlog/Introducing-the-New-Security-only-Patch-Release/ba-p/141287) na publicação do DevBlog.
 
 ## O que é a Ferramenta de correção de qualidade?
 
-Consulte o artigo [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatendimento de correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) em nossa base de dados de conhecimento de suporte.
+Consulte o artigo [Ferramenta de correções de qualidade lançada: uma nova ferramenta para autoatendimento de correções de qualidade](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches) em nossa base de dados de conhecimento de suporte.
 
 ## Quem deve considerar o uso dessa nova política?
 
@@ -50,7 +50,7 @@ Em última análise, todos os comerciantes ainda devem priorizar o planejamento 
 
 ## Como receberei correções de qualidade em versões secundárias compatíveis que não sejam a linha mais recente?
 
-As correções serão disponibilizadas por meio da [Ferramenta de correções de qualidade](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md).
+As correções serão disponibilizadas por meio da [Ferramenta de correções de qualidade](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patche).
 
 ## Como obterei correções de qualidade na linha mais recente?
 
@@ -62,7 +62,7 @@ Somente problemas de qualidade importantes que interrompem os fluxos principais 
 
 ## Alguma correção de qualidade fará parte da versão trimestral das versões secundárias compatíveis que não forem a linha mais recente?
 
-Sim, como parte da linha somente de segurança, lançamos o que o Adobe chama de &quot;hot fixes&quot; para essa linha; esses são problemas altamente críticos que afetam o aplicativo Adobe Commerce.
+Sim, como parte da linha somente segurança, lançamos o que a Adobe chama de &quot;hot fixes&quot; para essa linha. Esses são problemas altamente críticos que afetam o aplicativo Adobe Commerce.
 
 ## As melhorias de segurança e o QPT serão fornecidos ao mesmo tempo?
 
@@ -72,7 +72,7 @@ A linha somente de segurança seguirá a programação de lançamento trimestral
 
 A linha anterior sendo apenas de segurança significa que o principal benefício é manter-se seguro. Somente patches para problemas graves que interrompem os fluxos principais serão disponibilizados por meio do QPT.
 
-Problemas que não afetam os fluxos principais ou têm soluções alternativas serão corrigidos somente na linha mais recente. O Adobe incentiva aqueles que desejam tanto correções críticas quanto não críticas a irem para a linha mais recente.
+Problemas que não afetam os fluxos principais ou têm soluções alternativas serão corrigidos somente na linha mais recente. A Adobe incentiva os usuários que desejam correções críticas e não críticas a avançarem para a linha mais recente.
 
 ## As atualizações serão mais caras ou difíceis para os comerciantes se permanecerem na linha somente de segurança até que o suporte de segurança seja encerrado?
 
