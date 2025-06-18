@@ -104,7 +104,7 @@ Você pode gerar os 10 relatórios anteriores no seu lado. Se forem necessários
 
 ### Quais informações são necessárias ao enviar um tíquete de suporte?
 
-Forneça o nome de domínio exatamente como foi enviado para a [verificação de segurança](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26357), MAGEID e Cloud Project_ID. Observe que a Cloud Project_ID não é necessária para o Adobe Commerce no local.
+Forneça o nome de domínio exatamente como foi enviado para a [verificação de segurança](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-26357), MAGEID e Cloud Project_ID. Observe que a Cloud Project_ID não é necessária para o Adobe Commerce no local.
 
 ### O que acontece se eu remover minha loja da verificação da ferramenta de verificação?
 
