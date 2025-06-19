@@ -42,4 +42,4 @@ A configuração do mecanismo de pesquisa está bloqueada no arquivo `app/etc/en
 
 ## Leitura relacionada
 
-* [Campos bloqueados (esmaecidos) no Commerce Admin](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26879) no Guia de Infraestrutura do Commerce na Nuvem.
+* [Campos bloqueados (esmaecidos) no Commerce Admin](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-26879) no Guia de Infraestrutura do Commerce na Nuvem.
