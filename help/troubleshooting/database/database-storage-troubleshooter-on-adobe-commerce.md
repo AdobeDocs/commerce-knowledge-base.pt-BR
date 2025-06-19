@@ -4,9 +4,9 @@ description: Este artigo é uma ferramenta de solução de problemas para client
 exl-id: f7b09023-7129-4fd0-9bb5-02a2228bc148
 feature: Observability, Services, Storage, Support
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 129e24366aedb132adb84e1f0196d2536422180f
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '822'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Se você tiver algum dos sintomas descritos acima, verifique o estado dos inodes
 
 O IUse% > 90%?
 
-a. SIM - Isso é causado por ter muitos arquivos. Revise as etapas para remover arquivos com segurança no [Exclua arquivos com segurança quando não houver espaço em disco, Adobe Commerce na infraestrutura de nuvem](/help/troubleshooting/miscellaneous/safely-delete-files-when-out-of-disk-space-adobe-commerce-on-our-cloud-architecture.md). Prossiga para a [Etapa 2](#step-2) depois de concluir essas etapas. Se quiser solicitar mais espaço, [envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
+a. SIM - Isso é causado por ter muitos arquivos. Revise as etapas para remover arquivos com segurança no [Exclua arquivos com segurança quando não houver espaço em disco, Adobe Commerce na infraestrutura de nuvem](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26889). Prossiga para a [Etapa 2](#step-2) depois de concluir essas etapas. Se quiser solicitar mais espaço, [envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
 b. NÃO - Verifique o espaço. Execute `df -h | grep mysql` e depois `df -h | grep tmp` no CLI/Terminal para verificar o uso de espaço em disco nos diretórios `/tmp` e `/data/mysql`. Vá para [Etapa 3](#step-3).
 
 +++
@@ -93,4 +93,4 @@ b. NÃO - [Enviar um tíquete de suporte](/help/help-center-guide/help-center/ma
 
 ## Leitura relacionada
 
-* [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce
+* [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce

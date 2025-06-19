@@ -4,9 +4,9 @@ description: Este artigo fornece soluções para problemas com o processamento d
 exl-id: f0772515-8456-4f08-84b4-aeef44516f2a
 feature: Orders, Payments
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 129e24366aedb132adb84e1f0196d2536422180f
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Se o método de pagamento do PayPal envolver API com Contratos de faturamento e 
 
 Consulte os seguintes artigos:
 
-* [Solicitação rejeitada pelo gateway do PayPal - problema de fatura duplicado](/help/troubleshooting/payments/paypal-gateway-rejected-request-duplicate-invoice-issue.md) em nossa base de dados de conhecimento de suporte.
+* [Solicitação rejeitada pelo gateway do PayPal - problema de fatura duplicado](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26838) em nossa base de dados de conhecimento de suporte.
 * [Alterar ID de incremento para nova entidade de armazenamento](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md) em nossa base de dados de conhecimento de suporte.
 
 ## Entre em contato com o Suporte para coletar logs de pagamento avançado

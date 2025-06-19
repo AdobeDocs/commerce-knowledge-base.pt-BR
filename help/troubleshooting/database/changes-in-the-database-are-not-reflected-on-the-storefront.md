@@ -4,7 +4,7 @@ description: Este artigo fornece soluções para evitar atrasos ou interrupçõe
 exl-id: ac52c808-299f-4d08-902f-f87db1fa7ca6
 feature: Catalog Management, Categories, Services, Storefront
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 129e24366aedb132adb84e1f0196d2536422180f
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 0%
@@ -26,7 +26,7 @@ As alterações feitas no banco de dados não são refletidas na loja ou há um 
 
 ## Causa
 
-Se seus indexadores estiverem [configurados para atualizar de acordo com a agenda](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers), o problema poderá ser causado por uma ou mais tabelas com logs de alteração muito grandes ou disparadores MySQL não configurados.
+Se seus indexadores estiverem [configurados para atualizar de acordo com a agenda](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers), o problema poderá ser causado por uma ou mais tabelas com logs de alteração muito grandes ou disparadores MySQL não configurados.
 
 ### Tabelas de log de alterações superdimensionadas
 
@@ -71,7 +71,7 @@ Use o seguinte comando para executar esta operação.
 
 >[!WARNING]
 >
->Antes de alternar os modos de indexador, recomendamos colocar seu site no modo [manutenção](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=pt-BR#maintenance-mode) e [desabilitar trabalhos cron](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=pt-BR#disable-cron-jobs) para evitar bloqueios de banco de dados.
+>Antes de alternar os modos de indexador, recomendamos colocar seu site no modo [manutenção](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#maintenance-mode) e [desabilitar trabalhos cron](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html#disable-cron-jobs) para evitar bloqueios de banco de dados.
 
 ```bash
 php bin/magento indexer:set-mode {realtime|schedule} [indexerName]
@@ -83,6 +83,6 @@ php bin/magento indexer:set-mode {realtime|schedule} [indexerName]
 
 ## Leitura relacionada
 
-* [[!DNL MySQL] as tabelas são muito grandes](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/database/mysql-tables-are-too-large) em nossa base de dados de conhecimento de suporte
+* [[!DNL MySQL] as tabelas são muito grandes](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26945) em nossa base de dados de conhecimento de suporte
 * [Indexando: [!DNL Mview]](https://developer.adobe.com/commerce/php/development/components/indexing/#mview) em nossa documentação do desenvolvedor
-* [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce
+* [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce

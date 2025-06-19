@@ -4,9 +4,9 @@ description: Este artigo explica como resolver um problema de site lento causado
 exl-id: e4e5a753-efa3-4552-aaf6-28e44efcfa5b
 feature: Cache, Observability
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 129e24366aedb132adb84e1f0196d2536422180f
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Um motivo para a degradação de desempenho pode ser a desativação de determin
 
 ## Solução
 
-1. Primeiro, verifique o status do cache do Adobe Commerce para ver se esse é o problema. Para isso, [SSH para o seu ambiente](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh) e execute o seguinte comando:
+1. Primeiro, verifique o status do cache do Adobe Commerce para ver se esse é o problema. Para isso, [SSH para o seu ambiente](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh) e execute o seguinte comando:
 
    ```bash
    php bin/magento cache:status
@@ -38,7 +38,7 @@ Um motivo para a degradação de desempenho pode ser a desativação de determin
 
    Isso exibiria o status de cada tipo de cache (&quot;0&quot; para desativado, &quot;1&quot; para ativado). Ou você pode obter essas informações no arquivo `app/etc/env.php`.
 
-1. Investigue os tipos de cache desabilitados. Todos os tipos de cache do Adobe Commerce devem ser ativados, a menos que você tenha recebido orientações alternativas do Adobe. As extensões de terceiros não devem exigir a desativação do cache do Adobe Commerce.
+1. Investigue os tipos de cache desabilitados. Todos os tipos de cache do Adobe Commerce devem ser ativados, a menos que você tenha recebido orientações alternativas da Adobe. As extensões de terceiros não devem exigir a desativação do cache do Adobe Commerce.
 1. Se a investigação confirmar que alguns tipos de cache estão desabilitados por engano, habilite-os executando o seguinte comando para cada tipo de cache: `php bin/magento cache:enable <your_disabled_cache_type>`
 
 Se houver dúvidas e/ou se um determinado tipo de cache do Adobe Commerce pode ou deve ser desabilitado, [contate o suporte da Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) solicitando recomendações.
@@ -48,11 +48,11 @@ Se houver dúvidas e/ou se um determinado tipo de cache do Adobe Commerce pode o
 Documentação do cache do Adobe Commerce na documentação do desenvolvedor:
 
 * [visão geral do cache do Adobe Commerce](https://developer.adobe.com/commerce/frontend-core/guide/caching/)
-* [Gerenciar o cache](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/cli/manage-cache)
+* [Gerenciar o cache](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache)
 
 Outros motivos possíveis para problemas de desempenho e as soluções para eles:
 
 * [Desative a saída do banner do Adobe Commerce para melhorar o desempenho do site](/help/troubleshooting/miscellaneous/disable-magento-banner-output-to-improve-site-performance.md)
-* [As tabelas MySQL são muito grandes](/help/troubleshooting/database/mysql-tables-are-too-large.md)
+* [Tabelas MySQL são muito grandes](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26945)
 * [Cores lentas, lentas e de longa duração](/help/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.md)
 * [Acesso de administrador restrito que causa problemas de desempenho](/help/troubleshooting/miscellaneous/restricted-admin-access-causing-performance-issues.md)
