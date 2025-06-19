@@ -36,7 +36,7 @@ As solicitações de AJAX de alta taxa de transferência incluem aquelas relacio
 
 Há três soluções:
 
-* [Atualize para a versão 2.3.4](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version).
+* [Atualize para a versão 2.3.4](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version).
 * Garanta solicitações mais leves (solicitações de cache ou migração para conteúdo privado dos clientes).
 * Reduza o número de solicitações.
 
@@ -46,11 +46,11 @@ Se houver solicitações do AJAX de terceiros acionadas em cada página, tente a
 
 <u>Reduzir o número de solicitações</u>
 
-* Desative o carrinho de compras persistente, pois isso pode aumentar o número de solicitações `customer/section/load`. Siga as etapas em [Caminhos de carrinho de compras persistentes](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/paths/config-reference-general) na documentação do desenvolvedor para ver se o carrinho de compras persistente está habilitado.
+* Desative o carrinho de compras persistente, pois isso pode aumentar o número de solicitações `customer/section/load`. Siga as etapas em [Caminhos de carrinho de compras persistentes](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/paths/config-reference-general) na documentação do desenvolvedor para ver se o carrinho de compras persistente está habilitado.
 * Se você precisar recarregar ou invalidar o conteúdo no `sections.xml`, siga as etapas em [Conteúdo privado: Invalidar conteúdo privado](https://developer.adobe.com/commerce/php/development/cache/page/private-content/#invalidate-private-content) na documentação do desenvolvedor. Certifique-se de que você não esteja usando o método `customerData.reload()` diretamente em suas personalizações.
 * Verifique outras solicitações POST AJAX na mesma página. Abra a ferramenta de desenvolvedor do Google Chrome no navegador Google Chrome. Clique na guia **Rede** e depois na guia **XHR**, e haverá a lista de todas as solicitações do AJAX da página específica. Em seguida, clique em cada solicitação e, no campo Método de solicitação, devem estar as solicitações do GET. Observação: o Google Chrome é usado como exemplo, e é possível fazer isso em outros navegadores também.
 * Verifique a funcionalidade do Google Tag Manager (GTM), que é uma solicitação específica do AJAX. O usuário pode remover esse AJAX e refatorar sua personalização com funcionalidade privada para reduzir o número total de solicitações para o servidor.
-* Verifique se o banner do Adobe Commerce está ativado, mas não é usado. Talvez seja necessário [Desabilitar a saída do banner do Adobe Commerce para melhorar o desempenho do site](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26909).
+* Verifique se o banner do Adobe Commerce está ativado, mas não é usado. Talvez seja necessário [Desabilitar a saída do banner do Adobe Commerce para melhorar o desempenho do site](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-26909).
 
 ### Leitura relacionada
 
