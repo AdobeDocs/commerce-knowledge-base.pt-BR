@@ -21,13 +21,13 @@ ht-degree: 0%
 
 **Solução:**
 
-* Se você for o proprietário da conta (titular primário da conta), entre em contato com a equipe de conta da Adobe. Se o membro da sua equipe tiver acesso ao Suporte, peça a ele para [criar um tíquete de suporte](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#merchant-not-displayed). Especifique o nome e o email associados à sua conta.
+* Se você for o proprietário da conta (titular primário da conta), entre em contato com a equipe de conta da Adobe. Se o membro da sua equipe tiver acesso ao Suporte, peça a ele para [criar um tíquete de suporte](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#merchant-not-displayed). Especifique o nome e o email associados à sua conta.
 * Se você não for o proprietário da conta, entre em contato com ele para fornecer acesso compartilhado e os privilégios necessários.
-* Se o proprietário da conta não estiver mais na empresa e você desejar transferir a conta para outro usuário, consulte [Transferir uma conta do Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-transfer).
+* Se o proprietário da conta não estiver mais na empresa e você desejar transferir a conta para outro usuário, consulte [Transferir uma conta do Commerce](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/start/commerce-account/commerce-account-transfer).
 
 >[!NOTE]
 >
->É possível até mesmo que um proprietário que não seja uma conta tenha a guia [!UICONTROL Shared Access] em sua conta. No entanto, somente o proprietário da conta (titular primário da conta) com os privilégios necessários pode fornecer acesso compartilhado a outros usuários. Para obter mais informações sobre acesso compartilhado, consulte [Acesso compartilhado: conceder privilégios a outros usuários para acessar sua conta](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#shared-access) no Guia do Usuário do Suporte da Experience League para Adobe Commerce.
+>É possível até mesmo que um proprietário que não seja uma conta tenha a guia [!UICONTROL Shared Access] em sua conta. No entanto, somente o proprietário da conta (titular primário da conta) com os privilégios necessários pode fornecer acesso compartilhado a outros usuários. Para obter mais informações sobre acesso compartilhado, consulte [Acesso compartilhado: conceder privilégios a outros usuários para acessar sua conta](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#shared-access) no Guia do Usuário do Suporte da Experience League para Adobe Commerce.
 
 ## Usei acesso compartilhado, mas não consigo obter acesso a um recurso específico
 
@@ -46,7 +46,7 @@ Se o problema persistir, entre em contato com a equipe de conta da Adobe. Especi
 
 ## Usei o acesso compartilhado e cliquei em [!UICONTROL Support], mas quando abri um novo tíquete para a organização, não havia nenhum produto disponível no formulário
 
-**Problema:** não consigo selecionar o Projeto na Nuvem apropriado ao abrir um tíquete no [Experience League](https://experienceleague.adobe.com/home#support).
+**Problema:** não consigo selecionar o Projeto na Nuvem apropriado ao abrir um tíquete no [Experience League](https://experienceleague.adobe.com/home?lang=pt-BR#support).
 
 **Causa possível:** você não selecionou a organização correta com [!DNL Commerce] direitos.
 
@@ -58,20 +58,20 @@ Se o problema persistir, entre em contato com a equipe de conta da Adobe. Especi
 
 ## Usei o acesso compartilhado e cliquei em [!UICONTROL Support], mas quando abri um novo tíquete para a organização que tem os direitos de [!DNL Commerce], o projeto de nuvem não estava listado no formulário
 
-**Problema**: não consigo selecionar o Projeto na Nuvem apropriado ao abrir um tíquete no [Experience League](https://experienceleague.adobe.com/home#support).
+**Problema**: não consigo selecionar o Projeto na Nuvem apropriado ao abrir um tíquete no [Experience League](https://experienceleague.adobe.com/home?lang=pt-BR#support).
 
 **Causa possível**: talvez você não tenha sido adicionado ao projeto ou o projeto esteja associado a uma licença diferente (algumas organizações podem ter subsidiárias/empresas relacionadas com nomes muito semelhantes).
 
 **Solução**:
 
-1. Verifique se você foi adicionado ao projeto. Consulte [Gerenciar acesso do usuário](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access).
+1. Verifique se você foi adicionado ao projeto. Consulte [Gerenciar acesso do usuário](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/project/user-access).
 1. Verifique se você recebeu acesso compartilhado pelo proprietário da conta à licença associada ao projeto.
 
 Se o problema persistir, entre em contato com a equipe de conta da Adobe. Especifique o nome e o email associados à sua conta.
 
 ## Usei o acesso compartilhado e cliquei em [!UICONTROL Support], mas quando abri um novo tíquete, a lista suspensa [!UICONTROL Organization] não era exibida ou não listava essa organização
 
-**Problema**: mudei para a conta [!UICONTROL Shared Access], mas quando tento enviar um tíquete no [Experience League](https://experienceleague.adobe.com/home#support), nenhuma organização está disponível ou o nome da organização não está listado na lista suspensa.
+**Problema**: mudei para a conta [!UICONTROL Shared Access], mas quando tento enviar um tíquete no [Experience League](https://experienceleague.adobe.com/home?lang=pt-BR#support), nenhuma organização está disponível ou o nome da organização não está listado na lista suspensa.
 
 **Causa possível**: você recebeu acesso compartilhado apenas para um comerciante em sua conta.
 
@@ -92,6 +92,6 @@ Se o problema persistir, entre em contato com a equipe de conta da Adobe. Especi
 
 ## Leitura relacionada
 
-* [Não é possível fazer logon no suporte da Adobe Commerce ou na conta de nuvem](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/unable-to-log-in-to-support-or-cloud-project)
-* [O proprietário da conta MageID não pode fazer logon e enviar um tíquete de suporte](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25231)
-* [Compartilhar uma conta da Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share)
+* [Não é possível fazer logon no suporte da Adobe Commerce ou na conta de nuvem](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/unable-to-log-in-to-support-or-cloud-project)
+* [O proprietário da conta MageID não pode fazer logon e enviar um tíquete de suporte](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-25231)
+* [Compartilhar uma conta da Commerce](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/start/commerce-account/commerce-account-share)
