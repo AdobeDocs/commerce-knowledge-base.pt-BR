@@ -4,16 +4,16 @@ description: Este artigo fornece soluções para quando você está tendo muito 
 exl-id: 788c709e-59f5-4062-ab25-5ce6508f29f9
 feature: Catalog Management, Categories, Cloud, Paas, Services
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 80343c834563e7550569d225979edfa6a997bcfc
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1319'
 ht-degree: 0%
 
 ---
 
 # [!DNL MySQL] espaço em disco insuficiente no Adobe Commerce na infraestrutura em nuvem
 
-Este artigo fornece soluções para quando você está tendo muito pouco espaço ou sem espaço para [!DNL MySQL] no Adobe Commerce na infraestrutura em nuvem. Os sintomas podem incluir paralisações do site, clientes que não conseguem adicionar produtos ao carrinho, não conseguem se conectar ao banco de dados, acessar o banco de dados remotamente e não conseguem aplicar SSH ao nó. Os sintomas também incluem o Galera, sincronização de ambiente, PHP, banco de dados e erros de implantação, conforme listado abaixo. Clique em [Solução](https://support.magento.com/hc/en-us/articles/360058472572#solution) para ir diretamente para a seção de solução.
+Este artigo fornece soluções para quando você está tendo muito pouco espaço ou sem espaço para [!DNL MySQL] no Adobe Commerce na infraestrutura em nuvem. Os sintomas incluem paralisações do site, clientes que não conseguem adicionar produtos ao carrinho, não conseguem se conectar ao banco de dados, acessar o banco de dados remotamente e não conseguem aplicar SSH ao nó. Os sintomas também incluem o Galera, sincronização de ambiente, PHP, banco de dados e erros de implantação, conforme listado abaixo. Clique em [Solução](https://support.magento.com/hc/en-us/articles/360058472572#solution) para ir diretamente para a seção de solução.
 
 ## Produtos e versões afetados
 
@@ -78,7 +78,7 @@ A montagem `/data/mysql` pode ficar cheia devido a vários problemas, como não 
 
 Você pode dar um passo imediato para colocar [!DNL MySQL] de volta no caminho certo (ou evitar que ele fique preso): libere espaço liberando mesas grandes.
 
-Mas uma solução de longo prazo seria alocar mais espaço e seguir as [práticas recomendadas do Banco de Dados](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=pt-BR), incluindo a habilitação da funcionalidade [Arquivo de Pedidos/Faturas/Remessas](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/order-management/orders/order-archive).
+Mas uma solução de longo prazo seria alocar mais espaço e seguir as [práticas recomendadas do Banco de Dados](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html), incluindo a habilitação da funcionalidade [Arquivo de Pedidos/Faturas/Remessas](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-archive).
 
 Veja a seguir detalhes sobre soluções rápidas e de longo prazo.
 
@@ -124,21 +124,66 @@ Verifique se há um arquivo grande `ibtmp1` em `/data/mysql` de cada nó: esse a
 
 >[!WARNING]
 >
->É altamente recomendável criar um backup de banco de dados antes de executar qualquer manipulação e evitá-la durante períodos de carregamento de site alto. Consulte [Despejar seu banco de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/storage/snapshots) na documentação do desenvolvedor.
+>É altamente recomendável criar um backup de banco de dados antes de executar qualquer manipulação e evitá-la durante períodos de carregamento de site alto. Consulte [Despejar seu banco de dados](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots) na documentação do desenvolvedor.
 
 Verifique se há tabelas grandes e considere se alguma delas pode ser liberada. Faça isso no nó principal (origem).
 
-Por exemplo, as tabelas com relatórios geralmente podem ser liberadas. Para obter detalhes sobre como localizar tabelas grandes, consulte o artigo [Localizar tabelas grandes [!DNL MySQL] 2&rbrace;.](/help/how-to/general/find-large-mysql-tables.md)
+Por exemplo, as tabelas com relatórios geralmente podem ser liberadas. Para obter detalhes sobre como localizar tabelas grandes, consulte o artigo [Localizar tabelas grandes [!DNL MySQL] 2}.](/help/how-to/general/find-large-mysql-tables.md)
 
 Se não houver tabelas de relatório enormes, considere liberar `_index` tabelas, apenas para retornar o aplicativo Adobe Commerce de volta ao controle. `index_price` tabelas seriam os melhores candidatos. Por exemplo, `catalog_category_product_index_storeX` tabelas, em que X pode ter valores de &quot;1&quot; até a contagem máxima de armazenamento. Lembre-se de que você precisaria reindexar para restaurar dados nessas tabelas e, no caso de catálogos grandes, esse reindexação pode levar muito tempo.
 
-Depois de liberá-los, aguarde a conclusão da sincronização wsrep. Agora você pode criar backups e executar etapas mais relevantes para adicionar mais espaço, como alocar/comprar mais espaço e habilitar a funcionalidade de [arquivamento de Pedidos/Faturas/Remessas](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/order-management/orders/order-archive).
+Depois de liberá-los, aguarde a conclusão da sincronização wsrep. Agora você pode criar backups e executar etapas mais relevantes para adicionar mais espaço, como alocar/comprar mais espaço e habilitar a funcionalidade de [arquivamento de Pedidos/Faturas/Remessas](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-archive).
 
 ### Verificar configurações de log binário
 
 Verifique as configurações de log binário do servidor [!DNL MySQL]: `log_bin` e `log_bin_index`. Se as configurações estiverem ativadas, os arquivos de log poderão se tornar enormes. [Criar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) solicitando a limpeza de arquivos de log binários grandes. Além disso, solicite a verificação de que o registro binário está sendo configurado corretamente para que os registros sejam removidos periodicamente e não ocupem muito espaço.
 
 Se você não tiver acesso às configurações do servidor [!DNL MySQL], solicite suporte para verificá-las.
+
+### Recuperar espaço em disco alocado não utilizado
+
+1. SSH no nó um e logon no MySQL:
+
+   ```sh
+   mysql -h127.0.0.1 -p`php -r "echo (include('app/etc/env.php'))['db']['connection']['default']['password'];"` -u`whoami` `whoami`
+   ```
+
+   Para obter etapas detalhadas, consulte [Conectar e executar consultas no banco de dados do Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/backend-development/remote-db-connection-execute-queries).
+
+1. Verificar se há espaço não utilizado:
+
+   ```sql
+   SELECT table_name, round((data_length+index_length)/1048576,2) AS size_MB, round((data_free)/1048576,2) AS Allocated_but_unused FROM information_schema.tables WHERE data_free > 1048576*10 ORDER BY data_free DESC;
+   ```
+
+
+   Exemplo de saída:
+
+   | table_name | size_MB | Allocated_but_unused |
+   |----------------------|----------|--------------------------|
+   | vertex_taxrequest | 28145,20 | 14943,00 |
+
+
+   Verifique na saída se há memória alocada, mas não usada. Isso ocorre quando os dados foram excluídos de uma tabela, no entanto, a memória ainda está alocada para essa tabela.
+
+
+1. Coloque o site no modo de manutenção e pare os trabalhos do cron para que não haja interações ocorrendo no banco de dados. Para obter etapas, consulte [Habilitar ou desabilitar o modo de manutenção](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) e [Desabilitar trabalhos cron](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/app/properties/crons-property#disable-cron-jobs).
+1. Recupere esse espaço recriando a tabela com o seguinte comando (exemplo usando a tabela listada acima com o espaço mais não utilizado):
+
+   ```sql
+   ALTER TABLE vertex_taxrequest Engine = "INNODB";
+   ```
+
+1. Execute a consulta a seguir para verificar o espaço não alocado para cada tabela que mostra um valor alto na coluna **[!UICONTROL Allocated_but_unused]**.
+
+   ```sql
+   SELECT table_name, round((data_length+index_length)/1048576,2) as size_MB, round((data_free)/1048576,2) as Allocated_but_unused FROM information_schema.tables WHERE 1 AND data_free > 1048576*10 ORDER BY 
+   data_free DESC;
+   ```
+
+
+1. Agora [Desabilite o modo de manutenção](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode#enable-or-disable-maintenance-mode-1) e [Habilite os trabalhos cron](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/app/properties/crons-property#disable-cron-jobs).
+
 
 ### Alocar/comprar mais espaço
 
@@ -147,8 +192,8 @@ Aloque mais espaço em disco para [!DNL MySQL] se você tiver algum espaço não
 * Para os ambientes Starter plan, all ambientes e Pro plan Integration, é possível alocar o espaço em disco se você tiver algum não utilizado. Para obter detalhes, consulte [Alocar mais espaço para [!DNL MySQL]](/help/how-to/general/allocate-more-space-for-mysql-in-magento-commerce-cloud.md).
 * Para ambientes de Preparo e Produção do plano Pro, [entre em contato com o suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) para alocar mais espaço em disco se você tiver algum espaço não utilizado.
 
-Se você tiver atingido o limite de espaço e ainda enfrentar problemas de pouco espaço, considere comprar mais espaço em disco, entre em contato com a equipe de conta do Adobe para obter detalhes.
+Se você tiver atingido o limite de espaço e ainda enfrentar problemas de pouco espaço, considere comprar mais espaço em disco, entre em contato com a equipe de conta da Adobe para obter detalhes.
 
 ## Leitura relacionada
 
-[Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce
+[Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce
