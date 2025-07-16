@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 9defec16bbe62e13320d20fcbd0b5e65e946d9f7
+source-git-commit: 86fcde85e7e751125c47f3bc3693b8155d1e972f
 workflow-type: tm+mt
-source-wordcount: '3257'
+source-wordcount: '3220'
 ht-degree: 0%
 
 ---
@@ -294,10 +294,6 @@ ht-degree: 0%
       * [Solucionando Problemas de Rotação de Chaves de Criptografia: [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102.md)
       * [Atualização de segurança disponível para Adobe Commerce - [!DNL APSB24-40] Revisado para incluir patch isolado para  [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-40-revised-to-include-isolated-patch-for-cve-2024-34102.md)
       * [Migração da integração do método de envio [!DNL UPS] de [!DNL SOAP] para [!DNL RESTful API]](/help/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.md)
-      * [[!DNL USPS] Hotfix de suporte do método de envio Ground Advantage para AC-9182](/help/troubleshooting/known-issues-patches-attached/usps-ground-advantage-shipping-method-support-hotfix-for-ac-9182.md)
-      * [Adobe Commerce 2.4.3-p2 - Hotfix de segurança 2.4.5 para CVE-2022-35698](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-3-p2-2-4-5-security-hotfix-for-cve-2022-35698.md)
-      * [Adobe Commerce 2.4.4: Não é possível criar faturas parciais](/help/troubleshooting/known-issues-patches-attached/braintree-partial-invoice-error-apple-pay-google-pay.md)
-      * [A pesquisa avançada não mostra os resultados mais relevantes](/help/troubleshooting/known-issues-patches-attached/advanced-search-not-showing-the-most-relevant-results.md)
       * [Erro ao filtrar pedidos no Administrador](/help/troubleshooting/known-issues-patches-attached/error-when-filtering-orders-in-admin.md)
       * [Os usuários não podem adicionar o produto ao carrinho se nada estiver selecionado em Permitir países](/help/troubleshooting/known-issues-patches-attached/user-not-able-to-add-product-to-cart-if-allow-countries-is-not-selected.md)
       * [Localização do URL de administração do Adobe Commerce divulgada](/help/troubleshooting/known-issues-patches-attached/magento-admin-url-location-disclosed.md)
