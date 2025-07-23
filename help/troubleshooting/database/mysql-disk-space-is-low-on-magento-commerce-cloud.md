@@ -128,7 +128,7 @@ Verifique se há um arquivo grande `ibtmp1` em `/data/mysql` de cada nó: esse a
 
 Verifique se há tabelas grandes e considere se alguma delas pode ser liberada. Faça isso no nó principal (origem).
 
-Por exemplo, as tabelas com relatórios geralmente podem ser liberadas. Para obter detalhes sobre como localizar tabelas grandes, consulte o artigo [Localizar tabelas grandes [!DNL MySQL] 2}.](/help/how-to/general/find-large-mysql-tables.md)
+Por exemplo, as tabelas com relatórios geralmente podem ser liberadas. Para obter detalhes sobre como localizar tabelas grandes, consulte o artigo [Localizar tabelas grandes [!DNL MySQL] 2&rbrace;.](/help/how-to/general/find-large-mysql-tables.md)
 
 Se não houver tabelas de relatório enormes, considere liberar `_index` tabelas, apenas para retornar o aplicativo Adobe Commerce de volta ao controle. `index_price` tabelas seriam os melhores candidatos. Por exemplo, `catalog_category_product_index_storeX` tabelas, em que X pode ter valores de &quot;1&quot; até a contagem máxima de armazenamento. Lembre-se de que você precisaria reindexar para restaurar dados nessas tabelas e, no caso de catálogos grandes, esse reindexação pode levar muito tempo.
 
