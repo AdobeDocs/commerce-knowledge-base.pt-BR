@@ -24,9 +24,9 @@ Este artigo fornece uma correção para o problema do Adobe Commerce no local e 
 
 >[!NOTE]
 >
->Este artigo não se aplica à situação em que você recebe um erro 404 ao tentar [visualizar a atualização de preparo](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/guide-overview#preview-the-scheduled-change). Se você tiver esse problema, abra um [tíquete de suporte](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case).
+>Este artigo não se aplica à situação em que você recebe um erro 404 ao tentar [visualizar a atualização de preparo](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/content-design/guide-overview#preview-the-scheduled-change). Se você tiver esse problema, abra um [tíquete de suporte](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case).
 
-O acesso a qualquer página da loja ou ao Administrador resulta no erro 404 (a página &quot;Ops, nossas más...&quot;) após executar operações com atualizações agendadas para ativos de conteúdo de loja usando [Armazenamento temporário](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html) (atualizações para ativos de conteúdo de loja agendadas usando o [módulo Magento\_Armazenamento temporário](https://developer.adobe.com/commerce/php/module-reference/)). Por exemplo, você pode ter excluído um Produto com uma atualização programada ou removido a data final da atualização programada.
+O acesso a qualquer página da loja ou ao Administrador resulta no erro 404 (a página &quot;Ops, nossas más...&quot;) após executar operações com atualizações agendadas para ativos de conteúdo de loja usando [Armazenamento temporário](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html?lang=pt-BR) (atualizações para ativos de conteúdo de loja agendadas usando o [módulo Magento\_Armazenamento temporário](https://developer.adobe.com/commerce/php/module-reference/)). Por exemplo, você pode ter excluído um Produto com uma atualização programada ou removido a data final da atualização programada.
 
 Um ativo de conteúdo de armazenamento inclui:
 
@@ -76,7 +76,7 @@ Se a consulta retornar uma tabela em que o valor `update_exists` é &quot;1&quot
 
 ![updates_exist_1.png](assets/updates_exist_1.png)
 
-Nesse caso, você pode consultar o [Solucionador de Problemas de Site Inativo](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27152) para obter ideias de solução de problemas.
+Nesse caso, você pode consultar o [Solucionador de Problemas de Site Inativo](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-27152) para obter ideias de solução de problemas.
 
 ## Solução
 
@@ -88,8 +88,8 @@ Nesse caso, você pode consultar o [Solucionador de Problemas de Site Inativo](h
 
 1. Aguarde até que o trabalho [!DNL cron] seja executado (executado em até cinco minutos se configurado corretamente) ou execute-o manualmente se você não tiver o [!DNL cron] configurado.
 
-O problema deve ser resolvido logo após a correção do link inválido. Se o problema persistir, [envie um tíquete de suporte](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case).
+O problema deve ser resolvido logo após a correção do link inválido. Se o problema persistir, [envie um tíquete de suporte](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case).
 
 ## Leitura relacionada
 
-[Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce
+[Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce
