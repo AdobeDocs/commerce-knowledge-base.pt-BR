@@ -40,7 +40,7 @@ Para definir a versão do NPM necessária, especifique-a no arquivo de configura
    >
    >Se você quiser executar Node.JS em seu aplicativo e não apenas em sua build, adicione os seguintes comandos para alterar seu gancho de build:
    > 
-   ```
+   > ```
    > echo 'unset NPM_CONFIG_PREFIX' >> .environment
    > echo 'export NO_UPDATE_NOTIFIER=1' >> .environment
    > echo 'export NVM_DIR="$MAGENTO_CLOUD_DIR/.nvm"' >> .environment
