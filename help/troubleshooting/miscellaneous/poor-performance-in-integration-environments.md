@@ -3,7 +3,8 @@ title: Baixo desempenho em ambientes de integração
 description: Este artigo fornece uma solução para o problema em que os ambientes de integração Pro e os ambientes de preparo de Início têm um desempenho insatisfatório.
 feature: Integration, Staging
 role: Developer
-source-git-commit: c0e2a8fdd2e4d231e56a3121544dbd8a25a8d60c
+exl-id: 46110dbc-2f54-4654-95e2-39e8ae1e6979
+source-git-commit: 139c2836ba36686357c7a5458a36550c7b1273c1
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 0%
@@ -30,10 +31,10 @@ Dependendo do tamanho do catálogo/dados ou dos requisitos de integrações/pers
 
 Para resolver problemas de desempenho, siga as práticas recomendadas para melhor desempenho no ambiente de integração. Talvez também seja necessário solicitar uma atualização dos ambientes para aprimorar a integração.
 
-Primeiro, determine se seu ambiente está na [configuração da Integração aprimorada](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/integration-environment-enhancement-request-pro-and-starter).
+Primeiro, determine se seu ambiente está na [configuração da Integração aprimorada](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242).
 
-* [Arquitetura Pro](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
-* [Arquitetura de Início](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment)
+* [Arquitetura Pro](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
+* [Arquitetura de Início](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment)
 
 Verifique o log de implantação usando um desses métodos.
 
@@ -58,11 +59,10 @@ opensearch (type: opensearch:2, size: L, disk: 1024)
 rabbitmq (type: rabbitmq:3.12, size: L, disk: 1024)
 ```
 
-Se você não estiver na configuração da Integração aprimorada, poderá [solicitar a melhoria/atualização](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/integration-environment-enhancement-request-pro-and-starter).
+Se você não estiver na configuração da Integração aprimorada, poderá [solicitar a melhoria/atualização](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242).
 Se você já estiver na configuração da Integração aprimorada ou ainda encontrar problemas de desempenho após a atualização, siga as práticas recomendadas para obter o desempenho ideal no ambiente de integração:
 
-* [Arquitetura Pro](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
-* [Arquitetura de Início](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment)
+* [Arquitetura Pro](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
+* [Arquitetura de Início](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment)
 
-Se você atendeu às recomendações acima, [envie uma solicitação de suporte](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket) para obter assistência adicional.
- 
+Se você atendeu às recomendações acima, [envie uma solicitação de suporte](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket) para obter assistência adicional.

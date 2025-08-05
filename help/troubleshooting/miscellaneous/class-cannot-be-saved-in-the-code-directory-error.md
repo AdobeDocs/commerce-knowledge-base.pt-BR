@@ -4,9 +4,9 @@ description: Este artigo descreve como corrigir o problema em que a maneira como
 exl-id: e2c00d4d-31c3-4446-a317-a8ac92c707d5
 feature: Configuration
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 139c2836ba36686357c7a5458a36550c7b1273c1
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Este artigo descreve como corrigir o problema em que a maneira como você especi
 1. No ambiente local, escreva uma classe personalizada com uma dependência na classe gerada automaticamente.
 1. Execute o cenário em que sua classe personalizada é acionada e veja se ela funciona corretamente.
 1. Confirme e envie suas alterações para o ambiente de integração. Isso acionaria o processo de implantação. Implantação bem-sucedida.
-1. No [ambiente de integração](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md), execute o cenário em que sua classe personalizada é acionada.
+1. No [ambiente de integração](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242), execute o cenário em que sua classe personalizada é acionada.
 
 <u>Resultado esperado</u>
 

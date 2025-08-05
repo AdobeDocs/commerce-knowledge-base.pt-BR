@@ -1,10 +1,10 @@
 ---
 title: Configurar NPM para poder usar o PWA Studio
-description: O [Progressive Web Apps (PWA) Studio](https://magento.github.io/pwa-studio/) é um novo projeto disponível para o Adobe Commerce na infraestrutura em nuvem 2.3.x ou posterior. Para usar e instalar o PWA Studio, é necessário definir a versão do gerenciador de pacotes NPM como 5.x ou posterior para obter suporte para Node.js 8.x. Isso é feito na seção "hooks:build" do arquivo de configuração ".magento.app.yaml".
+description: '[Aplicativos Web progressivos (PWA) Studio](https://magento.github.io/pwa-studio/) é um novo projeto disponível para o Adobe Commerce na infraestrutura em nuvem 2.3.x ou posterior. Para usar e instalar o PWA Studio, é necessário definir a versão do gerenciador de pacotes NPM como 5.x ou posterior para obter suporte para Node.js 8.x. Isso é feito na seção "hooks:build" do arquivo de configuração ".magento.app.yaml".'
 exl-id: 3854fc94-e8ad-45d8-bf3e-73462364220d
-source-git-commit: 37ac9cca1f876a48092467aa38f2f2f013c83dd9
+source-git-commit: 139c2836ba36686357c7a5458a36550c7b1273c1
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Para definir a versão do NPM necessária, especifique-a no arquivo de configura
    >
    >Se você quiser executar Node.JS em seu aplicativo e não apenas em sua build, adicione os seguintes comandos para alterar seu gancho de build:
    > 
-   > ```
+   ```
    > echo 'unset NPM_CONFIG_PREFIX' >> .environment
    > echo 'export NO_UPDATE_NOTIFIER=1' >> .environment
    > echo 'export NVM_DIR="$MAGENTO_CLOUD_DIR/.nvm"' >> .environment
@@ -48,10 +48,10 @@ Para definir a versão do NPM necessária, especifique-a no arquivo de configura
    > ```
 
 1. Salvar alterações no arquivo.
-1. O Git envia por push o arquivo editado para seu [ambiente de integração](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md).
+1. O Git envia por push o arquivo editado para seu [ambiente de integração](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242).
 
 As alterações entrarão em vigor depois que o Git enviar o arquivo YAML atualizado para o ambiente.
 
 ## Documentação relacionada
 
-* [Configuração do aplicativo: ganchos](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/hooks-property.html?lang=pt-BR) em nosso Guia do Adobe Commerce na Infraestrutura em Nuvem.
+* [Configuração do aplicativo: ganchos](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/hooks-property.html) em nosso Guia do Adobe Commerce na Infraestrutura em Nuvem.

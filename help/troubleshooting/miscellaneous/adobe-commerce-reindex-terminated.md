@@ -4,9 +4,9 @@ description: '* Adobe Commerce na infraestrutura em nuvem (todas as versões)'
 exl-id: 36ed9c9f-8280-41db-9df3-fe842dade4b1
 feature: Cloud, Paas
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 139c2836ba36686357c7a5458a36550c7b1273c1
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -31,11 +31,11 @@ O motivo mais comum para isso é um grande número de produtos, lojas e/ou grupo
 1. Reduzir o número de produtos (bem como de grupos de clientes e lojas, se aplicável).
 1. Limitar o uso a um ou dois usuários simultâneos.
 1. Desative os trabalhos cron e execute manualmente conforme necessário.
-1. Se isso não tiver sido feito anteriormente, solicite uma atualização para os ambientes de Integração aprimorada - anote a restrição no número de ambientes aos quais você estaria limitado após a atualização ter sido executada. Consulte o artigo [Solicitação de aprimoramento do ambiente de integração - Pro e Starter](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) em nossa base de dados de conhecimento de suporte para obter detalhes.
+1. Se isso não tiver sido feito anteriormente, solicite uma atualização para os ambientes de Integração aprimorada - anote a restrição no número de ambientes aos quais você estaria limitado após a atualização ter sido executada. Consulte o artigo [Solicitação de aprimoramento do ambiente de integração - Pro e Starter](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242) em nossa base de dados de conhecimento de suporte para obter detalhes.
 
 ## Leitura relacionada:
 
 Em nossa documentação do desenvolvedor:
 
-* [Arquitetura Pro > Ambiente de integração](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
-* [Arquitetura inicial > Ambiente de preparo](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#cloud-arch-stage)
+* [Arquitetura Pro > Ambiente de integração](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
+* [Arquitetura inicial > Ambiente de preparo](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#cloud-arch-stage)
