@@ -40,7 +40,7 @@ Você pode [enviar um tíquete de Suporte da Adobe Commerce](/help/help-center-g
 Além disso, observe que o suporte não executa a reversão ou restauração do banco de dados para você - eles recuperam o instantâneo, mas você mesmo deve restaurar o banco de dados.
 * Os backups são criados usando os **instantâneos criptografados do Amazon Web Services Elastic Block Store (AWS EBS)**.
 * Os snapshots do ambiente incluem o sistema completo (sistema de arquivos e banco de dados).
-* O tempo de retenção para instantâneos automáticos **é diferente** e segue [o agendamento](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/architecture/pro-architecture#backup-and-disaster-recovery).
+* O tempo de retenção para instantâneos automáticos **é diferente** e segue [o agendamento](https://experienceleague.adobe.com/pt-br/docs/commerce-on-cloud/user-guide/architecture/pro-architecture#backup-and-disaster-recovery).
 
 >[!NOTE]
 >
@@ -50,15 +50,15 @@ Além disso, observe que o suporte não executa a reversão ou restauração do 
 
 ### Ambiente de integração (desenvolvimento)
 
-* O backup do seu [ambiente de integração](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242) **não é automático**, mas você pode criar instantâneos **manualmente**.
+* O backup do seu [ambiente de integração](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-27242) **não é automático**, mas você pode criar instantâneos **manualmente**.
 * Você pode criar snapshots manuais para ambientes de Integração em lojas sem transmissão ao vivo.
 * Você pode ter **vários instantâneos** que foram acionados manualmente.
 * Um instantâneo disparado manualmente é armazenado por **7 dias**.
 
 **Artigos relacionados em nossa documentação para desenvolvedores:**
 
-* [Backup e recuperação de desastres](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/architecture/pro-architecture#backup-and-disaster-recovery)
-* [Criar um instantâneo](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/storage/snapshots)
+* [Backup e recuperação de desastres](https://experienceleague.adobe.com/pt-br/docs/commerce-on-cloud/user-guide/architecture/pro-architecture#backup-and-disaster-recovery)
+* [Criar um instantâneo](https://experienceleague.adobe.com/pt-br/docs/commerce-on-cloud/user-guide/develop/storage/snapshots)
 
 ## Instantâneo do ambiente, plano inicial
 
@@ -68,7 +68,7 @@ Além disso, observe que o suporte não executa a reversão ou restauração do 
 
 ## Restaurar um instantâneo do ambiente
 
-Para restaurar um instantâneo existente (no ambiente compatível: Integração, Preparo, Produção no plano Starter ou Integração no plano Pro), siga as etapas em [Gerenciamento de backup: Restaurar um backup manual](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup) em nosso Guia de Infraestrutura do Commerce na Nuvem.
+Para restaurar um instantâneo existente (no ambiente compatível: Integração, Preparo, Produção no plano Starter ou Integração no plano Pro), siga as etapas em [Gerenciamento de backup: Restaurar um backup manual](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup) em nosso Guia de Infraestrutura do Commerce na Nuvem.
 
 ## Backup do banco de dados (BD)
 
@@ -78,8 +78,8 @@ Um instantâneo é um backup completo de um ambiente que inclui todos os dados p
 
 >[!NOTE]
 >
->Os volumes montados incluem/referem-se apenas a [montagens graváveis](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/app/properties/properties#mounts) e não incluirão todo o diretório `/app`. Quanto aos outros arquivos, eles são criados/gerados pelo [processo de compilação e implantação](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/architecture/pro-develop-deploy-workflow#deployment-workflow), e você também terá que fazer check-out dos arquivos restantes do seu repositório Git.
+>Os volumes montados incluem/referem-se apenas a [montagens graváveis](https://experienceleague.adobe.com/pt-br/docs/commerce-on-cloud/user-guide/configure/app/properties/properties#mounts) e não incluirão todo o diretório `/app`. Quanto aos outros arquivos, eles são criados/gerados pelo [processo de compilação e implantação](https://experienceleague.adobe.com/pt-br/docs/commerce-on-cloud/user-guide/architecture/pro-develop-deploy-workflow#deployment-workflow), e você também terá que fazer check-out dos arquivos restantes do seu repositório Git.
 
-[Gerenciamento de instantâneos e backup](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/storage/snapshots) em nossa documentação do desenvolvedor.
+[Gerenciamento de instantâneos e backup](https://experienceleague.adobe.com/pt-br/docs/commerce-on-cloud/user-guide/develop/storage/snapshots) em nossa documentação do desenvolvedor.
 
 Envie apenas uma [solicitação de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md) para um instantâneo do banco de dados de produção e preparo profissionais se precisar do banco de dados a partir de um momento específico. Se você precisar de um backup atual apenas do seu banco de dados (em qualquer ambiente), consulte o artigo da base de dados de conhecimento: [Gerar despejos de banco de dados na Nuvem](/help/how-to/general/create-database-dump-on-cloud.md).

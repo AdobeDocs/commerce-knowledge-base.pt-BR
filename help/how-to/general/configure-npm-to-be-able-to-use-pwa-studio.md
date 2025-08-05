@@ -48,10 +48,10 @@ Para definir a versão do NPM necessária, especifique-a no arquivo de configura
    > ```
 
 1. Salvar alterações no arquivo.
-1. O Git envia por push o arquivo editado para seu [ambiente de integração](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242).
+1. O Git envia por push o arquivo editado para seu [ambiente de integração](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-27242).
 
 As alterações entrarão em vigor depois que o Git enviar o arquivo YAML atualizado para o ambiente.
 
 ## Documentação relacionada
 
-* [Configuração do aplicativo: ganchos](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/hooks-property.html) em nosso Guia do Adobe Commerce na Infraestrutura em Nuvem.
+* [Configuração do aplicativo: ganchos](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/hooks-property.html?lang=pt-BR) em nosso Guia do Adobe Commerce na Infraestrutura em Nuvem.
