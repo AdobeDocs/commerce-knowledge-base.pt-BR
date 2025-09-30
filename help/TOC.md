@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 2b12aeb9227944fc80da50d50fbc5668f4622269
+source-git-commit: 750c0c41580af90cc5c883472326f2073cfe0b23
 workflow-type: tm+mt
-source-wordcount: '2898'
+source-wordcount: '2891'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,6 @@ ht-degree: 0%
 * Solução de problemas {#troubleshooting}
    * [Visão geral da solução de problemas](/help/troubleshooting/overview.md)
    * Banco de dados {#database}
-      * [Várias linhas no banco de dados para a mesma entidade](/help/troubleshooting/database/multiple-rows-in-database-for-same-entity.md)
       * [Verificando consultas e processos lentos MySQL](/help/troubleshooting/database/checking-slow-queries-and-processes-mysql.md)
       * [O upload do banco de dados perde a conexão com o MySQL](/help/troubleshooting/database/database-upload-loses-connection-to-mysql.md)
       * [As alterações no banco de dados não são refletidas na loja](/help/troubleshooting/database/changes-in-the-database-are-not-reflected-on-the-storefront.md)
