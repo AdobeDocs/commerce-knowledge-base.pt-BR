@@ -19,7 +19,7 @@ ht-degree: 3%
 
 ![Página inicial da Base de Dados de Conhecimento](../help/assets/knowledge-base-home-page-cover.jpg){width="100%"}
 
-As informações nesta Base de Dados de Conhecimento foram criadas como complementares à [Documentação do Desenvolvedor do Adobe Commerce](https://developer.adobe.com/commerce/docs), ao [Guia do Comerciante do Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) e a outras publicações da Adobe Commerce. Ele aborda a solução de problemas e as práticas recomendadas, anúncios de hosts, responde às perguntas frequentes e destaca cenários específicos que não foram mencionados (por qualquer motivo) na documentação oficial.
+As informações nesta Base de Dados de Conhecimento foram criadas como complementares à [Documentação do Desenvolvedor do Adobe Commerce](https://developer.adobe.com/commerce/docs), ao [Guia do Comerciante do Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=pt-BR) e a outras publicações da Adobe Commerce. Ele aborda a solução de problemas e as práticas recomendadas, anúncios de hosts, responde às perguntas frequentes e destaca cenários específicos que não foram mencionados (por qualquer motivo) na documentação oficial.
 
 ## O que há nesta Base de Conhecimento?
 
