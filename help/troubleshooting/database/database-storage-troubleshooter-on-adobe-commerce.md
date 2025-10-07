@@ -30,7 +30,7 @@ Se você tiver algum dos sintomas descritos acima, verifique o estado dos inodes
 
 O IUse% > 90%?
 
-a. SIM - Isso é causado por ter muitos arquivos. Revise as etapas para remover arquivos com segurança no [Exclua arquivos com segurança quando não houver espaço em disco, Adobe Commerce na infraestrutura de nuvem](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26889). Prossiga para a [Etapa 2](#step-2) depois de concluir essas etapas. Se quiser solicitar mais espaço, [envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
+a. SIM - Isso é causado por ter muitos arquivos. Revise as etapas para remover arquivos com segurança no [Exclua arquivos com segurança quando não houver espaço em disco, Adobe Commerce na infraestrutura de nuvem](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-26889). Prossiga para a [Etapa 2](#step-2) depois de concluir essas etapas. Se quiser solicitar mais espaço, [envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
 b. NÃO - Verifique o espaço. Execute `df -h | grep mysql` e depois `df -h | grep tmp` no CLI/Terminal para verificar o uso de espaço em disco nos diretórios `/tmp` e `/data/mysql`. Vá para [Etapa 3](#step-3).
 
 +++
@@ -93,4 +93,4 @@ b. NÃO - [Enviar um tíquete de suporte](/help/help-center-guide/help-center/ma
 
 ## Leitura relacionada
 
-* [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce
+* [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce
