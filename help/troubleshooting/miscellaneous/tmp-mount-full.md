@@ -1,12 +1,12 @@
 ---
 title: Solução de problemas de montagem /tmp completa para o Adobe Commerce
-description: Este artigo fornece uma solução para quando a montagem &grave;/tmp&grave; estiver cheia, o site puder estar inativo e você não conseguir aplicar SSH a um nó.
+description: Este artigo fornece uma solução para quando a montagem `/tmp` estiver cheia, o site puder estar inativo e você não conseguir aplicar SSH a um nó.
 exl-id: e72d0f99-0060-474b-bb1c-2851896e1e43
 feature: Storage
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: aa4cfbceb745f1a06b8a8f9e93cbdebbc151458b
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -92,9 +92,9 @@ Há vários serviços que podem estar salvando arquivos em `/tmp`.
 
 #### Verificar e liberar espaço no MySQL
 
-Siga as instruções em [O espaço em disco do MySQL é insuficiente no Adobe Commerce na infraestrutura de nuvem > Verificar e liberar espaço de armazenamento](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md#check_and_free) em nossa base de dados de suporte.
+Siga as instruções em [O espaço em disco do MySQL é insuficiente no Adobe Commerce na infraestrutura de nuvem > Verificar e liberar espaço de armazenamento](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27806#check-and-free-up-storage-space) em nossa base de dados de suporte.
 
-#### Verificar Elasticsearch heapdumps
+#### Verificar dumps de pilha do Elasticsearch
 
 >[!WARNING]
 >
@@ -120,7 +120,7 @@ Verifique `/tmp` para arquivos `.sql` ou `.sql.gz` e limpe-os. Eles podem ter si
 
 Para evitar problemas com o `/tmp` cheio, siga estas recomendações:
 
-* Não use MySQL para pesquisa. O Elasticsearch para pesquisa geralmente elimina a necessidade da maioria das criações pesadas de tabelas temporárias. Consulte [Configurar o Adobe Commerce para usar o Elasticsearch](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/search/configure-search-engine) na documentação do desenvolvedor.
+* Não use MySQL para pesquisa. O Elasticsearch para pesquisa geralmente elimina a necessidade da maioria das grandes criações de tabelas temporárias. Consulte [Configurar o Adobe Commerce para usar o Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/configure-search-engine) na documentação do desenvolvedor.
 * Evite executar a consulta `SELECT` em colunas sem índices, pois isso consome uma grande quantidade de espaço temporário em disco. Você também pode adicionar os índices.
 * Crie um cron para limpar `/tmp` executando o seguinte comando na CLI:
 
@@ -130,4 +130,4 @@ Para evitar problemas com o `/tmp` cheio, siga estas recomendações:
 
 ## Leitura relacionada
 
-[O espaço em disco do MySQL é insuficiente na infraestrutura de nuvem do Adobe Commerce](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md) em nossa base de dados de conhecimento de suporte.
+[O espaço em disco do MySQL é insuficiente na infraestrutura de nuvem do Adobe Commerce](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27806) em nossa base de dados de conhecimento de suporte.
