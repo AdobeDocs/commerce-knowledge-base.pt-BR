@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 4b92294b26082da2ac5984b729cea2a49663f4b2
+source-git-commit: 5c4d76b3dbaf34b2ded10b520297087562fcaad2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2834'
 ht-degree: 0%
 
 ---
@@ -86,8 +86,6 @@ ht-degree: 0%
       * [A atualização para B2B 1.5.2 falha com erro de sintaxe SQL devido à ausência da função REGEXP_LIKE](/help/troubleshooting/installation-and-upgrade/sql-syntax-error-due-to-missing-regexp-like-function.md)
       * [Problema de desempenho na atualização do módulo Magento_Company após a atualização B2B 1.5.2](/help/troubleshooting/installation-and-upgrade/magento-company-module-upgrade-performance-issue.md)
    * Site inativo ou sem resposta {#site-down-or-unresponsive}
-      * [Erro 503 ao acessar o Adobe Commerce no navegador da web](/help/troubleshooting/site-down-or-unresponsive/503-error-accessing-magento-in-web-browser.md)
-      * [Falha ao carregar o site devido ao modo de manutenção deixado habilitado](/help/troubleshooting/site-down-or-unresponsive/site-fails-to-load-due-to-maintenance-mode-left-enabled.md)
       * [A aplicação de um patch derruba o site](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
       * [Patches revisados para perda de acesso ao Google Maps em todas as versões do Adobe Commerce](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * Diversos {#miscellaneous}
