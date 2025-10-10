@@ -28,7 +28,7 @@ Escolha o mais apropriado para seu caso:
 
 >[!NOTE]
 >
-> Se estiver importando um instantâneo para um ambiente de integração, lembre-se do tamanho do banco de dados. Bancos de dados grandes podem causar degradação de desempenho após a importação. É recomendável primeiro importar o instantâneo para um ambiente de preparo ou local para revisar e reduzir seu tamanho antes de transferi-lo para a integração. Além disso, considere desativar os trabalhos cron na ramificação de integração se surgirem problemas de desempenho após a importação. Para obter mais informações, consulte [Ambiente de integração](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/architecture/pro-architecture#integration-environment) no guia do Commerce na infraestrutura em nuvem.
+> Se estiver importando um instantâneo para um ambiente de integração, lembre-se do tamanho do banco de dados. Bancos de dados grandes podem causar degradação de desempenho após a importação. É recomendável primeiro importar o instantâneo para um ambiente de preparo ou local para revisar e reduzir seu tamanho antes de transferi-lo para a integração. Além disso, considere desativar os trabalhos cron na ramificação de integração se surgirem problemas de desempenho após a importação. Para obter mais informações, consulte [Ambiente de integração](https://experienceleague.adobe.com/pt-br/docs/commerce-on-cloud/user-guide/architecture/pro-architecture#integration-environment) no guia do Commerce na infraestrutura em nuvem.
 
 * [Método 1: Transfira o banco de dados [!DNL dump] para o computador local e importe-o](#meth2).
 * [Método 2: importar o banco de dados [!DNL dump] diretamente do servidor](#meth3).
@@ -83,7 +83,7 @@ As etapas são:
    ```
 
 1. Copie o banco de dados [!DNL dump file] (Por exemplo: `<cluster ID>.sql.gz` para [!DNL Production] ou `<cluster ID_stg>.sql.gz` para [!DNL Staging]) no computador local.
-1. Verifique se você configurou o [!DNL SSH tunnel] para se conectar ao banco de dados remotamente: [[!DNL SSH] e [!DNL sFTP]: [!DNL SSH tunneling]](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#env-start-tunn) em nossa documentação para desenvolvedores.
+1. Verifique se você configurou o [!DNL SSH tunnel] para se conectar ao banco de dados remotamente: [[!DNL SSH] e [!DNL sFTP]: [!DNL SSH tunneling]](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/secure-connections#env-start-tunn) em nossa documentação para desenvolvedores.
 1. Conectar ao banco de dados.
 
    ```bash
@@ -179,6 +179,6 @@ As etapas são:
 
 Em nossa documentação do desenvolvedor:
 
-* [Importar código: Importar o banco de dados](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)
-* [[!DNL Snapshots] e [!DNL backup] gerenciamento: [!DNL Dump] seu banco de dados](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
-* [Backup (instantâneo) na nuvem: Perguntas frequentes](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/faq/backup-snapshot-on-cloud-faq)
+* [Importar código: Importar o banco de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)
+* [[!DNL Snapshots] e [!DNL backup] gerenciamento: [!DNL Dump] seu banco de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
+* [Backup (instantâneo) na nuvem: Perguntas frequentes](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/faq/backup-snapshot-on-cloud-faq)
