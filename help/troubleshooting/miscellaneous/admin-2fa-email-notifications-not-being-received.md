@@ -60,7 +60,7 @@ Se o e-mail apareceu na pasta Spam, a autenticação de e-mail do seu domínio p
 
 Se você estiver usando o serviço SendGrid gerenciado pelo Adobe:
 
-[Envie um tíquete de suporte](https://experienceleague.adobe.com/home?support-tab=home#support) solicitando que o seu domínio de envio seja autenticado (às vezes chamado de *com rótulo branco*) com SendGrid.
+[Envie um tíquete de suporte](https://experienceleague.adobe.com/home?lang=pt-BR&support-tab=home#support) solicitando que o seu domínio de envio seja autenticado (às vezes chamado de *com rótulo branco*) com SendGrid.
 Esse processo envolve adicionar registros DNS (DKIM e SPF) para autorizar o SendGrid a enviar emails em nome de seu domínio, o que aumenta a probabilidade de seus emails serem entregues na caixa de entrada em vez da pasta Spam.
 
 Se você estiver usando sua própria conta do SendGrid:
@@ -74,4 +74,4 @@ Você é responsável por gerenciar as configurações de autenticação de dom�
 
 ## Leitura relacionada
 
-* [SendGrid](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/sendgrid) em nossa documentação do desenvolvedor.
+* [SendGrid](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/project/sendgrid) em nossa documentação do desenvolvedor.
