@@ -3,9 +3,9 @@ title: Como solicitar o Adobe Commerce temporário no upsize da infraestrutura e
 description: Se sua organização estiver planejando um evento online em que você espera alto tráfego ou se você subitamente descobrir que seu site está passando por um evento de alto tráfego, poderá registrar um [Tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) para solicitar capacidade de nuvem adicional temporária para seu Adobe Commerce na loja de infraestrutura em nuvem.
 exl-id: 561e2bdd-718a-45c1-8b6c-a0e3a6c8ad04
 feature: Cloud, Iaas
-source-git-commit: 357e0acb1c849079ff0fe9f53fe386f60475c7f9
+source-git-commit: e59335b67e1f33e138e34cab93ce593836d14b48
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '836'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Se você receber uma notificação de alerta que sugira um evento de alto tráfe
 
 ## Como monitorar o desempenho do site
 
-O Adobe fornece um conjunto de políticas de alerta do New Relic para a arquitetura de plano Pro da infraestrutura do Adobe Commerce na nuvem e ambientes de produção da arquitetura de plano Starter do Adobe Commerce na infraestrutura da nuvem para rastrear as seguintes métricas principais de desempenho:
+O Adobe fornece um conjunto de políticas de alerta do New Relic para a arquitetura de plano do Adobe Commerce na infraestrutura em nuvem Pro e a arquitetura de plano do Adobe Commerce na infraestrutura em nuvem Starter Ambientes de produção para rastrear as seguintes métricas principais de desempenho:
 
 * [Pontuação do Apdex](https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction)
 * Taxa de erros
@@ -51,21 +51,53 @@ Siga este link para saber como [configurar alertas baseados em desempenho](/docs
 
 ## Etapas para solicitar o upsize temporário
 
-Siga as etapas abaixo para enviar um [Tíquete de Suporte](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) para solicitar capacidade de nuvem adicional temporária:
-
-Envie um [Tíquete de Suporte no Centro de Suporte da Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket), depois de inserir as seguintes informações:
+Para solicitar capacidade de nuvem temporária adicional, envie um [Tíquete de Suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) para o Centro de Suporte da Adobe Commerce com as seguintes informações:
 
 >[!NOTE]
 >
 >A opção *Solicitação de sobretensão de feriado* é apenas uma opção entre os meses de outubro e dezembro.
 
-1. Selecione o produto da Adobe Commerce para o qual deseja obter suporte.
-1. Preencha os primeiros quatro campos (Produto, Organização, Tipo de implementação, Assunto).
-1. Selecione a *Infraestrutura de nuvem do Adobe Commerce* na lista suspensa **Motivo do contato**.
-1. Selecione *Solicitação de Capacidade de Sobretensão de Feriado* nas opções suspensas **Motivo do Contato do Adobe Commerce Infrastructure**. Clique em **OK** na mensagem pop-up solicitando o aviso de 48 horas úteis para solicitações temporárias adicionais de capacidade de nuvem.
-1. Selecione datas para os campos obrigatórios **Redimensionar Data de Início** e **Redimensionar Data de Término**. A **Hora de Início do Redimensionamento** preferencial também é um campo obrigatório.
-1. Preencha os próximos quatro campos.
-1. No campo **Descrição**, se você tiver informações adicionais sobre o tamanho, forneça-as aqui. Se nenhum tamanho maior específico for solicitado, faremos o upsizing até a próxima capacidade maior do tamanho do ambiente. As solicitações de sobretensão assumirão como padrão o próximo tamanho maior a partir do tamanho atual. Se você precisar de capacidade adicional, indique-a no campo **Descrição**. O aumento da capacidade será deduzido dos Dias de sobretensão contratados ou dos dias de vCPU. A janela típica de aumento de capacidade é de cinco dias, mas se você precisar de mais ou menos dias, indique isso no [Tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+1. Selecione o produto [!DNL Adobe Commerce] para o qual você precisa de suporte:
+   * [!DNL Commerce Cloud]
+   * [!DNL Commerce on Managed Service]
+
+1. Preencha os seguintes campos:
+   * **[!UICONTROL Case Title]**
+   * **[!UICONTROL Case Description]** *(descreva claramente o problema e o contexto.)*
+
+1. Selecione *Solicitação de alteração de infraestrutura* no menu suspenso **[!UICONTROL Issue Reason]**.
+
+1. Escolha o **[!UICONTROL Environment]** no menu suspenso.
+
+1. Selecione o **[!UICONTROL Product Version]** apropriado no menu suspenso.
+
+1. Escolha *Redimensionamento de Projeto em Nuvem (vCPU)* no menu suspenso **[!UICONTROL Which Infra Change you would like to do today]**.
+
+1. **Selecione o[!UICONTROL Architecture]**:
+   * *Arquitetura Padrão:* Selecione *Próximo Tamanho Disponível* no menu suspenso **Selecionar Tamanho**.
+   * *Arquitetura em Escala:* Quando selecionada, a tela muda para mostrar dois campos adicionais:
+      * *Tamanho do Nó da Web*
+      * *Tamanho do Nó de Serviço* *(insira os tamanhos desejados para cada nó.)*
+
+1. Insira o **[!UICONTROL From Date]** no formato UTC (data e hora).
+
+1. Insira o **[!UICONTROL To Date]** no formato UTC (data e hora).
+
+1. Fornecer **[!UICONTROL Project URL]** *(encontrado em https://accounts.magento.cloud/, normalmente no formato `https://[REGION].magento.cloud/projects/PROJECT_ID`)*
+
+1. Insira o **[!UICONTROL Project ID]**.
+
+1. Fornecer **[!UICONTROL Affected URL]** *(deve começar com `http://` ou `https://`.)*
+
+1. Selecione **[!UICONTROL Priority]**.
+
+1. Selecione **[!UICONTROL Business Impact]**.
+
+1. Confirmar **[!UICONTROL Time Zone]** *(por exemplo, `(UTC-5:00) Indiana (East)`)*
+
+1. Inserir **[!UICONTROL Phone Number]** *(por exemplo, `+12015550123`)*
+
+1. Clique em **[!UICONTROL Submit]** para finalizar seu caso de suporte.
 
 >[!NOTE]
 >
@@ -86,9 +118,9 @@ As seguintes informações estão disponíveis para cada solicitação de redime
 ## Leitura relacionada
 
 * Para obter insights, métodos e exemplos de como medir e melhorar o desempenho do site, consulte os seguintes artigos detalhados em nossa base de conhecimento de suporte:
-   * [Cálculo de alocação de CPU para o Adobe Commerce na nuvem](/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-cpu-allocation-calculation.html)
+   * [Cálculo de alocação de CPU para Adobe Commerce na nuvem](/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-cpu-allocation-calculation.html)
    * [Verifique se o upsize das instâncias do host é necessário para o Adobe Commerce na nuvem](/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.html)
-   * [Verifique a configuração da CPU do host para o Adobe Commerce na nuvem](/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-hosts-cpu-configuration.html)
+   * [Verificar a configuração do CPU do host para o Adobe Commerce na nuvem](/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-hosts-cpu-configuration.html)
 * Para obter informações sobre como identificar interrupções, consulte [Identificar e medir interrupções para o Adobe Commerce na nuvem](/docs/commerce-knowledge-base/kb/how-to/how-to-identify-outages.html) em nossa base de dados de conhecimento de suporte.
 * Para obter informações sobre como melhorar o desempenho do site para evitar a necessidade de utilizar um aumento na capacidade, consulte estes artigos na documentação do desenvolvedor:
    * [Dimensionamento da imagem](/docs/commerce-admin/catalog/products/digital-assets/product-image-config.html#product-image-resizing)
