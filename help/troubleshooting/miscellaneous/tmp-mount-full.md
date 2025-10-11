@@ -92,7 +92,7 @@ Há vários serviços que podem estar salvando arquivos em `/tmp`.
 
 #### Verificar e liberar espaço no MySQL
 
-Siga as instruções em [O espaço em disco do MySQL é insuficiente no Adobe Commerce na infraestrutura de nuvem > Verificar e liberar espaço de armazenamento](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27806#check-and-free-up-storage-space) em nossa base de dados de suporte.
+Siga as instruções em [O espaço em disco do MySQL é insuficiente no Adobe Commerce na infraestrutura de nuvem > Verificar e liberar espaço de armazenamento](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-27806#check-and-free-up-storage-space) em nossa base de dados de suporte.
 
 #### Verificar dumps de pilha do Elasticsearch
 
@@ -130,4 +130,4 @@ Para evitar problemas com o `/tmp` cheio, siga estas recomendações:
 
 ## Leitura relacionada
 
-[O espaço em disco do MySQL é insuficiente na infraestrutura de nuvem do Adobe Commerce](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27806) em nossa base de dados de conhecimento de suporte.
+[O espaço em disco do MySQL é insuficiente na infraestrutura de nuvem do Adobe Commerce](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-27806) em nossa base de dados de conhecimento de suporte.
