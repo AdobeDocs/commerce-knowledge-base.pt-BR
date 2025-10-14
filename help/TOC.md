@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 5c4d76b3dbaf34b2ded10b520297087562fcaad2
+source-git-commit: 3f0eb749d5f704af3584178187fa0907b9c81d83
 workflow-type: tm+mt
-source-wordcount: '2834'
+source-wordcount: '2787'
 ht-degree: 0%
 
 ---
@@ -264,13 +264,7 @@ ht-degree: 0%
       * [Diretrizes sobre como proteger seu repositório e girar chaves de criptografia: [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
    * Elasticsearch {#elasticsearch}
       * [Retornando para  [!DNL Elasticsearch7] quando o mecanismo de pesquisa estiver definido como [!DNL Opensearch]](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
-      * [Problemas do Elasticsearch após a atualização da infraestrutura em nuvem do Adobe Commerce 2.3.1+](/help/troubleshooting/elasticsearch/elasticsearch-issues-after-magento-commerce-cloud-2-3-1-upgrade.md)
       * [Os índices de rastreamento do ElasticSuite causam problemas com o Elasticsearch](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md)
-      * [Verifique se o Elasticsearch está instalado corretamente](/help/troubleshooting/elasticsearch/ensure-elasticsearch-is-installed-properly.md)
-      * [O Elasticsearch 5 está configurado, mas a página de pesquisa não carrega com o erro &quot;Fielddata is disabled...&quot;](/help/troubleshooting/elasticsearch/elasticsearch-5-is-configured-but-search-page-does-not-load-with-fielddata-is-disabled-error.md)
-      * [O status do índice Elasticsearch é &quot;amarelo&quot; ou &quot;vermelho&quot;](/help/troubleshooting/elasticsearch/elasticsearch-index-status-is-yellow-or-red.md)
-      * [O serviço Elasticsearch não está em execução](/help/troubleshooting/elasticsearch/elasticsearch-service-not-running.md)
-      * [MySQL e Elasticsearch mostram resultados diferentes](/help/troubleshooting/elasticsearch/mysql-and-elasticsearch-show-different-results.md)
 * Guia da Central de ajuda {#help-center-guide}
    * [Guia do usuário de suporte da Experience League para Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
    * [Atualização da política de ciclo de vida do tíquete de suporte da Adobe Commerce](/help/help-center-guide/help-center/magento-support-ticket-lifecycle-policy-update.md)
