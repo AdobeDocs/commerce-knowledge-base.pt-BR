@@ -30,7 +30,7 @@ b. NÃO - Continue na [Etapa 2](#step-2).
 
 Execute a URL do seu projeto por meio do [Testador de backend - Fastly](https://magento-tester.global.ssl.fastly.net/magento-tester/). Ela mostra a versão do arquivo de configuração de VCL, se a página for armazenável em cache, a versão do módulo Fastly e outras informações úteis para solução de problemas. Você tem algum erro?
 
-a. SIM - Você tem a mensagem _A versão do VCL do plug-in está desatualizada! Faça upload novamente._ Para obter a solução para este erro, consulte [Erro do Fastly: A versão do VCL do plug-in está desatualizada! Recarregue ](/help/troubleshooting/miscellaneous/fastly-error-plugin-vcl-version-is-outdated-please-re-upload.md).\
+a. SIM - Você tem a mensagem _A versão do VCL do plug-in está desatualizada! Faça upload novamente._ Para obter a solução para este erro, consulte [Erro do Fastly: A versão do VCL do plug-in está desatualizada! Recarregue &#x200B;](/help/troubleshooting/miscellaneous/fastly-error-plugin-vcl-version-is-outdated-please-re-upload.md).\
 b. NÃO - [Etapa 3](#step-3).
 
 +++

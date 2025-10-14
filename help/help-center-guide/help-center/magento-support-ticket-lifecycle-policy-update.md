@@ -48,6 +48,6 @@ Os clientes podem reabrir um caso fechado em 14 dias para continuar a comunicaç
 ## Leitura relacionada
 
 * [Enviar um tíquete de suporte](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)
-* [ O link &quot;Enviar um tíquete&quot; não é exibido na página inicial da Central de Ajuda da Adobe Commerce](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#no-submit-link)
+* [&#x200B; O link &quot;Enviar um tíquete&quot; não é exibido na página inicial da Central de Ajuda da Adobe Commerce](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#no-submit-link)
 * [Formulário de envio de tíquete: o comerciante não é exibido no menu suspenso Organização](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#merchant-not-displayed)
 * [Visão Geral Dos Planos De Sucesso Do Adobe: Ciclo De Vida Do Caso De Suporte](https://experienceleague.adobe.com/pt-br/docs/support-resources/data-sheets/overview#support-case-lifecycle---coming-soon)
