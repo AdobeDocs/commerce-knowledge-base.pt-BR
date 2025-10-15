@@ -16,7 +16,7 @@ Este artigo lista os recursos de documentação oficial que discutem como o Adob
 
 ## O Adobe Commerce está pronto para o GDPR
 
-A [página inicial oficial](https://business.adobe.com/privacy/general-data-protection-regulation.html) de todos os recursos do GDPR da Adobe Commerce.
+A [página inicial oficial](https://business.adobe.com/br/privacy/general-data-protection-regulation.html) de todos os recursos do GDPR da Adobe Commerce.
 
 ## Declarações oficiais do Adobe Commerce
 
