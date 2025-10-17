@@ -3,7 +3,7 @@ title: Linha direta de notificação Adobe Commerce P1
 description: Este artigo fornece os números de linha direta de notificação P1 da Adobe Commerce que podem ser usados para relatar um incidente P1 e explica quais informações fornecer.
 feature: Communications
 exl-id: 48c4fe93-676e-4c69-a96c-8fb3e6872973
-source-git-commit: bbff778a020a05953b82b452cdede7c46f20c990
+source-git-commit: 5ffe54bba60e0773779d03a26347d24e2c368365
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -20,8 +20,8 @@ Conforme definido nos [Termos e Condições dos Serviços de Suporte da Adobe Co
 
 ## Políticas de telefone de linha direta de notificação P1
 
-* A linha direta de notificação P1 está disponível para reportar problemas de nível P1. (consulte a definição de incidente P1 na seção anterior).
-* [Envie um tíquete de suporte](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=pt-BR#submit-ticket) antes de chamar a linha direta de notificação P1 da Adobe Commerce.
+* A linha direta de notificação P1 está disponível para reportar problemas de nível P1 (consulte a definição de incidente P1 na seção anterior).
+* [Envie um tíquete de suporte](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) antes de chamar a linha direta de notificação P1 da Adobe Commerce.
 * A investigação, a solução de problemas e a comunicação ocorrerão exclusivamente no tíquete de suporte.
 * Adicione todas as informações adicionais relacionadas ao problema diretamente ao ticket, antes de chamar.
 * Ao ligar, certifique-se de ter o número do tíquete.
@@ -34,18 +34,18 @@ Observação: Se você acessar a caixa postal por qualquer motivo, deixe suas in
 * EUA
    * Chamada gratuita: (+1) 800 497 0335 (No primeiro menu, pressione 3 para obter a linha direta Adobe Commerce P1)
 * EMEA
-   * Reino Unido: (+44) 800 169 0454 (no primeiro menu, pressione 6 para obter a linha direta Adobe Commerce P1)
-   * Dinamarca: (+45) 80206017 (No primeiro menu, pressione 6 para a linha direta Adobe Commerce P1)
-   * Holanda: (+31) 020 203 5138 (no primeiro menu, pressione 6 para obter a linha direta Adobe Commerce P1)
-   * Itália: (+39) 0269 682 818 (No primeiro menu, pressione 6 para a linha direta Adobe Commerce P1)
-   * Suécia: (+46) 0200 810 330 (No primeiro menu, pressione 6 para a linha direta Adobe Commerce P1)
+   * Reino Unido: (+44) 800 169 0454 (no primeiro menu, pressione 3 para obter a linha direta Adobe Commerce P1)
+   * Dinamarca: (+45) 80206017 (No primeiro menu, pressione 3 para a linha direta Adobe Commerce P1)
+   * Holanda: (+31) 020 203 5138 (no primeiro menu, pressione 3 para obter a linha direta Adobe Commerce P1)
+   * Itália: (+39) 0269 682 818 (No primeiro menu, pressione 3 para obter a linha direta Adobe Commerce P1)
+   * Suécia: (+46) 0200 810 330 (No primeiro menu, pressione 3 para obter a linha direta Adobe Commerce P1)
 * APAC
    * Austrália: (+61) 1 800 358 683 (no primeiro menu, pressione 3 para obter a linha direta Adobe Commerce P1)
-   * Cingapura: (+65) 1 800 818 5220 (No primeiro menu, pressione 6 para obter a linha direta Adobe Commerce P1)
-   * Filipinas (chamada a cobrar): (+63) 1 800 1441 0660 (no primeiro menu, pressione 6 para obter a linha direta Adobe Commerce P1)
-   * Nova Zelândia (chamada tarifada): (+64) 050 861 4264 (No primeiro menu, pressione 6 para obter a linha direta Adobe Commerce P1)
-   * Taiwan: (+886)0 800 666 381 (No primeiro menu, pressione 6 para obter a linha direta Adobe Commerce P1)
-   * Malásia (chamada tarifada): (+60) 1800 220 120 (No primeiro menu, pressione 6 para obter a linha direta Adobe Commerce P1)
-   * Índia: (+91) 0008 004 402 107 (No primeiro menu, pressione 6 para a linha direta Adobe Commerce P1)
-   * Hong Kong: (+852) 30 713 107 (No primeiro menu, pressione 6 para obter a linha direta Adobe Commerce P1)
-   * Japão: (+81) 120 071 300 (no primeiro menu, pressione 6 para obter a linha direta Adobe Commerce P1)
+   * Cingapura: (+65) 1 800 818 5220 (No primeiro menu, pressione 3 para obter a linha direta Adobe Commerce P1)
+   * Filipinas (chamada a cobrar): (+63) 1 800 1441 0660 (no primeiro menu, pressione 3 para obter a linha direta Adobe Commerce P1)
+   * Nova Zelândia (chamada tarifada): (+64) 050 861 4264 (No primeiro menu, pressione 3 para obter a linha direta Adobe Commerce P1)
+   * Taiwan: (+886)0 800 666 381 (No primeiro menu, pressione 3 para obter a linha direta Adobe Commerce P1)
+   * Malásia (chamada tarifada): (+60) 1800 220 120 (No primeiro menu, pressione 3 para obter a linha direta Adobe Commerce P1)
+   * Índia: (+91) 0008 004 402 107 (no primeiro menu, pressione 3 para obter a linha direta Adobe Commerce P1)
+   * Hong Kong: (+852) 30 713 107 (No primeiro menu, pressione 3 para obter a linha direta Adobe Commerce P1)
+   * Japão: (+81) 120 071 300 (no primeiro menu, pressione 3 para obter a linha direta Adobe Commerce P1)
