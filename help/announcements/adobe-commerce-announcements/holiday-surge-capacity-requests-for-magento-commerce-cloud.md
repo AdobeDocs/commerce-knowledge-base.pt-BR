@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Durante a temporada de pico de vendas de feriados (aproximadamente de meados de novembro a meados de janeiro), a Adobe recomenda que todos os comerciantes da Adobe Commerce hospedados em nossa infraestrutura em nuvem se preparem para aumentar o tráfego.
 
-Para obter uma lista de verificação abrangente entre soluções e práticas recomendadas para preparar seus sistemas e equipes para a temporada de pico, consulte o [Guia do Adobe DX Unified Holiday Readiness](https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/unified-holiday-readiness).
+Para obter uma lista de verificação abrangente entre soluções e práticas recomendadas para preparar seus sistemas e equipes para a temporada de pico, consulte o [Guia do Adobe DX Unified Holiday Readiness](https://experienceleague.adobe.com/pt-br/docs/support-resources/data-sheets/unified-holiday-readiness).
 
 **Planejando e estimando o tráfego**
 
@@ -36,7 +36,7 @@ As seguintes informações estão disponíveis para cada solicitação de redime
 
 **Solicitando Capacidade de Sobretensão**
 
-Os comerciantes da Adobe Commerce em nossa infraestrutura em nuvem que antecipam a necessidade de capacidade adicional durante a temporada de festas devem [enviar um Tíquete de Suporte para Capacidade Excedida](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-request-temporary-magento-upsize.html) por meio de nossa [Central de Ajuda](/help/overview.md), indicando as datas e as necessidades de capacidade esperadas dentro do tíquete. Observe que o aumento da capacidade exigirá o uso da capacidade excedente licenciada.
+Os comerciantes da Adobe Commerce em nossa infraestrutura em nuvem que antecipam a necessidade de capacidade adicional durante a temporada de festas devem [enviar um Tíquete de Suporte para Capacidade Excedida](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-request-temporary-magento-upsize.html?lang=pt-BR) por meio de nossa [Central de Ajuda](/help/overview.md), indicando as datas e as necessidades de capacidade esperadas dentro do tíquete. Observe que o aumento da capacidade exigirá o uso da capacidade excedente licenciada.
 
 **Recomendamos o envio desses tíquetes com pelo menos 48 horas úteis de antecedência em relação à necessidade da capacidade. Além disso, recomendamos que as solicitações referentes ao período Black Friday/Cyber Monday sejam feitas com a maior antecedência possível, já que a capacidade durante esse período é limitada.**
 
@@ -49,7 +49,7 @@ Precisa de mais orientação sobre como se preparar para o tráfego de pico de t
 
 Em nossa base de conhecimento de suporte:
 
-* [Cálculo de alocação de CPU para Adobe Commerce na nuvem](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-cpu-allocation-calculation.html)
-* [Verifique se o upsize das instâncias do host é necessário para o Adobe Commerce na nuvem](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.html)
-* [Verificar a configuração do CPU do host para o Adobe Commerce na nuvem](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-hosts-cpu-configuration.html)
-* [Identificar e medir interrupções do Adobe Commerce na nuvem](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-identify-outages.html)
+* [Cálculo de alocação de CPU para Adobe Commerce na nuvem](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-cpu-allocation-calculation.html?lang=pt-BR)
+* [Verifique se o upsize das instâncias do host é necessário para o Adobe Commerce na nuvem](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.html?lang=pt-BR)
+* [Verificar a configuração do CPU do host para o Adobe Commerce na nuvem](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-hosts-cpu-configuration.html?lang=pt-BR)
+* [Identificar e medir interrupções do Adobe Commerce na nuvem](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-identify-outages.html?lang=pt-BR)

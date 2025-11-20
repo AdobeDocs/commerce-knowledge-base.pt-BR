@@ -16,7 +16,7 @@ ht-degree: 0%
 
 O pdf anexado oferece dicas sobre como preparar sua infraestrutura para alto tráfego, evitar tempo de inatividade e otimizar o desempenho no período de festas.
 
-Para obter orientação adicional entre soluções sobre como preparar sua organização, infraestrutura e equipes para a temporada de pico, consulte o [Guia de disponibilidade de feriado unificado das soluções Adobe DX](https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/unified-holiday-readiness).
+Para obter orientação adicional entre soluções sobre como preparar sua organização, infraestrutura e equipes para a temporada de pico, consulte o [Guia de disponibilidade de feriado unificado das soluções Adobe DX](https://experienceleague.adobe.com/pt-br/docs/support-resources/data-sheets/unified-holiday-readiness).
 
 ## Produtos e versões afetados
 
