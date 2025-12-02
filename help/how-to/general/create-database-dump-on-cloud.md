@@ -18,7 +18,7 @@ Você só precisa usar uma variante (opção) para despejar seu DB. Essas opçõ
 
 ## Pré-requisito: SSH para o seu ambiente
 
-Para despejar seu BD no Adobe Commerce na infraestrutura em nuvem com qualquer variante discutida neste artigo, primeiro você deve [SSH em seu ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
+Para despejar seu BD no Adobe Commerce na infraestrutura em nuvem com qualquer variante discutida neste artigo, primeiro você deve [SSH em seu ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=pt-BR).
 
 >[!WARNING]
 >
@@ -26,7 +26,7 @@ Para despejar seu BD no Adobe Commerce na infraestrutura em nuvem com qualquer v
 
 ## Opção 1: db-dump (**ece-tools; recommended**)
 
-Você pode despejar seu BD usando o comando [ECE-Tools](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html):
+Você pode despejar seu BD usando o comando [ECE-Tools](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html?lang=pt-BR):
 
 ```php
 vendor/bin/ece-tools db-dump
@@ -34,7 +34,7 @@ vendor/bin/ece-tools db-dump
 
 Essa é a opção recomendada e mais segura.
 
-Consulte [Despejar seu banco de dados (ECE-Tools)](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/database-dump.html) no Guia de Infraestrutura do Commerce na Nuvem.
+Consulte [Despejar seu banco de dados (ECE-Tools)](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/database-dump.html?lang=pt-BR) no Guia de Infraestrutura do Commerce na Nuvem.
 
 ## Opção 2: mariadb-dump (ou mysqldump para versões mais antigas)
 
@@ -73,4 +73,4 @@ echo $MAGENTO_CLOUD_RELATIONSHIPS |base64 --d |json_pp
 **Documentação relacionada:**
 
 * [mysqldump - Um Programa de Backup do Banco de Dados](https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html) na documentação oficial do MySQL.
-* [Variáveis específicas da nuvem](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-cloud.html) (consulte `MAGENTO_CLOUD_RELATIONSHIPS`) em nosso Guia de Infraestrutura do Commerce na Nuvem.
+* [Variáveis específicas da nuvem](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-cloud.html?lang=pt-BR) (consulte `MAGENTO_CLOUD_RELATIONSHIPS`) em nosso Guia de Infraestrutura do Commerce na Nuvem.
