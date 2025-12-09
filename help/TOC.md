@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 9c17f1a10303f91ac95813171191983471d345a1
+source-git-commit: ed116b8fddfb6f5e22c2da2fdad5d0d0d2b4a377
 workflow-type: tm+mt
-source-wordcount: '2778'
+source-wordcount: '2769'
 ht-degree: 0%
 
 ---
@@ -203,7 +203,6 @@ ht-degree: 0%
       * [Atualizações programadas do armazenamento temporário de conteúdo não são exibidas com o cache obsoleto do Fastly](/help/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.md)
       * [Solução de problemas do CRON](/help/troubleshooting/miscellaneous/troubleshoot-cron.md)
       * [O arquivo .csv de produtos exportados não é exibido](/help/troubleshooting/miscellaneous/exported-products-csv-file-does-not-appear.md)
-      * [Erro &quot;A classe não pode ser salva no diretório de código&quot;](/help/troubleshooting/miscellaneous/class-cannot-be-saved-in-the-code-directory-error.md)
       * [Verificação do log de implantação se a interface do usuário da nuvem tiver um erro de &quot;log recortado&quot;](/help/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error.md)
       * [O download falha devido a alterações no Composer](/help/troubleshooting/miscellaneous/download-fails-because-of-changes-in-composer.md)
       * [ERRO: falha no aquecimento do Adobe Commerce na infraestrutura de nuvem](/help/troubleshooting/miscellaneous/error-warming-up-failed-on-magento-commerce-cloud.md)
