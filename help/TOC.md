@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: ed116b8fddfb6f5e22c2da2fdad5d0d0d2b4a377
+source-git-commit: 3a482f7e5ddc872ddaf9634da8ca4f41a3b46ab4
 workflow-type: tm+mt
-source-wordcount: '2769'
+source-wordcount: '2763'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,6 @@ ht-degree: 0%
       * [Pagamento Cybersource de Admin e front em diferentes domínios não processado](/help/troubleshooting/payments/cybersource-payment-from-admin-and-front-on-different-domains-not-processed.md)
       * [Problema conhecido do Adobe Commerce 2.4.0: pagamento do Amazon, sem métodos de pagamento](/help/troubleshooting/payments/magento-2-4-0-known-issue-amazon-pay-no-payment-methods.md)
       * [Adobe Commerce 2.4.0: Erro de check-out ao selecionar pagamentos locais](/help/troubleshooting/payments/magento-2-4-0-checkout-error-selecting-local-payments.md)
-      * [Atividade de cartão ativa do PayPal Payflow Pro](/help/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.md)
       * [Solução de problemas do PayPal no Adobe Commerce](/help/troubleshooting/payments/paypal-troubleshooting-on-magento.md)
       * [Adobe Commerce 2.4.0, 2.4.1: Ativar fatura parcial do Braintree Venmo](/help/troubleshooting/payments/magento-2-4-0-2-4-1-enable-braintree-venmo-partial-invoice-issue.md)
       * [Adobe Commerce 2.4.2 B2B: desconto permanece alteração do método de pagamento](/help/troubleshooting/payments/magento-2-4-2-b2b-discount-remains-pay-method-change.md)
