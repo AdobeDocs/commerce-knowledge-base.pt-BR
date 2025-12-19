@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: de5dd9b057f2dbe79f9c931ef6d3473d809aedab
+source-git-commit: 9a2dadfbb5ca0a2c04d4e86454a1145b97924f61
 workflow-type: tm+mt
-source-wordcount: '2663'
+source-wordcount: '2656'
 ht-degree: 0%
 
 ---
@@ -166,7 +166,6 @@ ht-degree: 0%
       * [Solução de problemas de erro 503 causados pela necessidade de alterar as configurações padrão de Verniz](/help/troubleshooting/miscellaneous/troubleshooting-503-errors.md)
       * [Cron tarefas bloqueiam tarefas de outros grupos](/help/troubleshooting/miscellaneous/cron-tasks-lock-tasks-from-other-groups.md)
       * [Erro de nível máximo de aninhamento de função xdebug de instalação](/help/troubleshooting/miscellaneous/installation-xdebug-maximum-function-nesting-level-error.md)
-      * [Não é possível salvar o back-end do Adobe Commerce da entidade](/help/troubleshooting/miscellaneous/unable-to-save-entity-backend.md)
       * [Erro de versão do PHP ou erro 404 ao acessar o Adobe Commerce no navegador](/help/troubleshooting/miscellaneous/php-version-error-or-404-error-when-accessing-magento-in-browser.md)
       * [A ordem de opções do pacote não é atualizada pela importação](/help/troubleshooting/miscellaneous/bundle-options-order-is-not-updated-by-import.md)
       * [Adobe Commerce 2.4.0: &quot;Adicionar seleções ao meu carrinho&quot; não funciona](/help/troubleshooting/miscellaneous/magento-2-4-0-add-selections-to-my-cart-does-not-work.md)
