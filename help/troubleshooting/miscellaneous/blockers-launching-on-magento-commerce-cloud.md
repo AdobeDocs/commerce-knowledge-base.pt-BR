@@ -23,26 +23,26 @@ Este artigo fornece uma correção para bloqueadores a serem iniciados no Adobe 
 >
 >Com o Full Page Cache (FPC) habilitado, seu site funciona de forma diferente; certifique-se de testá-lo antes de entrar em funcionamento.
 
-O processo de configuração do Fastly está documentado em detalhes no tópico [Configurar o Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) no guia do usuário. Abaixo estão as etapas importantes.
+O processo de configuração do Fastly está documentado em detalhes no tópico [Configurar o Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=pt-BR) no guia do usuário. Abaixo estão as etapas importantes.
 
 ### 1-A. Verifique se você tem a versão mais recente do módulo Fastly instalada
 
-Verifique se você tem a versão mais recente do módulo Fastly instalada para obter os recursos e as melhorias mais recentes. Para verificar se você tem a versão mais recente do Fastly, revise [Atualizar o módulo Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#upgrade-the-fastly-module) no nosso guia do usuário. Para obter mais detalhes, consulte [Configurar o Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) em nosso guia do usuário.
+Verifique se você tem a versão mais recente do módulo Fastly instalada para obter os recursos e as melhorias mais recentes. Para verificar se você tem a versão mais recente do Fastly, revise [Atualizar o módulo Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=pt-BR#upgrade-the-fastly-module) no nosso guia do usuário. Para obter mais detalhes, consulte [Configurar o Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=pt-BR) em nosso guia do usuário.
 
 ### 1-B. Ativar e configurar o Fastly usando o Commerce Admin
 
-Para obter mais detalhes, consulte [Obter suas credenciais do Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#get-fastly-credentials) no guia do usuário.
+Para obter mais detalhes, consulte [Obter suas credenciais do Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=pt-BR#get-fastly-credentials) no guia do usuário.
 
 ### 1-C. Carregar trechos de VCL do Fastly
 
-Para obter mais detalhes, consulte [Carregar VCL para Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) em nosso guia do usuário.
+Para obter mais detalhes, consulte [Carregar VCL para Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=pt-BR) em nosso guia do usuário.
 
-Você também pode [criar e adicionar seus próprios trechos de VCL personalizados](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html).
+Você também pode [criar e adicionar seus próprios trechos de VCL personalizados](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html?lang=pt-BR).
 
 ### 1-D. Configurar DNS para o Fastly
 
 
-Consulte este artigo para ver as etapas detalhadas: [Configurar o Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#update-dns-configuration-with-development-settings) em nosso guia do usuário.
+Consulte este artigo para ver as etapas detalhadas: [Configurar o Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=pt-BR#update-dns-configuration-with-development-settings) em nosso guia do usuário.
 
 ## &#x200B;2. Certificado SSL (TLS) válido
 
@@ -63,9 +63,9 @@ http://www.mywebsite.com/old-category-page.html **>** http://www.mywebsite.com/n
 
 **Artigos relacionados:**
 
-* [Redireciona por meio de route.yaml](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/routes/redirects.html) em nosso guia do usuário.
-* [Redireciona por meio do Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html) em nosso guia do usuário.
-* [Substituições de URL](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite.html) em nosso guia do usuário.
+* [Redireciona por meio de route.yaml](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/routes/redirects.html?lang=pt-BR) em nosso guia do usuário.
+* [Redireciona por meio do Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html?lang=pt-BR) em nosso guia do usuário.
+* [Substituições de URL](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite.html?lang=pt-BR) em nosso guia do usuário.
 
 ## &#x200B;4. Desempenho dos ativos
 
@@ -78,8 +78,8 @@ Recomendação: para identificar as possíveis causas de desempenho insatisfató
 * [New Relic](https://support.newrelic.com/): localiza processos e áreas do site que causam desempenho lento com o tempo rastreado gasto por ação, como dados de transmissão, consultas, Redis etc.
 * [WebPageTest](https://www.webpagetest.org/) (gratuito) e [PKingdom](https://www.pingdom.com/) (pago): a análise em tempo real do tempo de carregamento das páginas do site com locais de origem diferentes.
 
-Você também pode considerar a [minificação](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html) para CSS, JavaScript e HTML.
+Você também pode considerar a [minificação](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html?lang=pt-BR) para CSS, JavaScript e HTML.
 
 **Artigos relacionados:**
 
-* [Testar implantação](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/staging-and-production.html) em nossa documentação de desenvolvedor.
+* [Testar implantação](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/staging-and-production.html?lang=pt-BR) em nossa documentação de desenvolvedor.
