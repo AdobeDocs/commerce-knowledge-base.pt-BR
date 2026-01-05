@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: d1fe74501ffcb908e9434a0988087ae6c9e73088
+source-git-commit: 557cfbab3dd2c612255c177848d9faf98024a04b
 workflow-type: tm+mt
-source-wordcount: '2617'
+source-wordcount: '2612'
 ht-degree: 0%
 
 ---
@@ -330,7 +330,6 @@ ht-degree: 0%
    * [Posso instalar aplicativos de terceiros na minha instância da nuvem?](/help/faq/general/can-i-install-third-party-applications-on-my-cloud-instance.md)
    * [Link Magento.com e logons de conta do accounts.magento.cloud](/help/faq/general/linking-magento-com-and-accounts-magento-cloud-account-logins.md)
    * [Perguntas frequentes sobre a ativação do cloaking de origem do Fastly](/help/faq/general/fastly-origin-cloaking-enablement-faq.md)
-   * [Perguntas frequentes sobre faturamento do Adobe Commerce](/help/faq/general/billing-faq-for-adobe-commerce.md)
    * [Variável de incremento de auto_incremento do banco de dados definida como &quot;3&quot; Adobe Commerce em nossa arquitetura Cloud Pro](/help/faq/general/database-auto-increment-increment-variable-set-to-3-magento-cloud-pro.md)
    * [Folha de fatos de monitoramento do Adobe Commerce na infraestrutura do Cloud Pro](/help/faq/general/monitoring-whitepaper.md)
    * [Acessar serviços da New Relic](/help/faq/general/access-new-relic-services.md)
