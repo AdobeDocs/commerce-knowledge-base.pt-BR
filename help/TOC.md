@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 557cfbab3dd2c612255c177848d9faf98024a04b
+source-git-commit: fd5d542ca580060c3f0b3ad28024365a43758cfb
 workflow-type: tm+mt
-source-wordcount: '2612'
+source-wordcount: '2597'
 ht-degree: 0%
 
 ---
@@ -249,7 +249,6 @@ ht-degree: 0%
    * [Atualização da política de ciclo de vida do tíquete de suporte da Adobe Commerce](/help/help-center-guide/help-center/magento-support-ticket-lifecycle-policy-update.md)
 * Como {#how-to}
    * [Visão geral](/help/how-to/overview.md)
-   * [Linha direta de notificação Adobe Commerce P1](/help/how-to/general/adobe-commerce-p1-notification-hotline.md)
    * [Como incluir um membro da equipe nas notificações de suporte](/help/how-to/general/how-to-include-a-team-member-in-support-notifications.md)
    * [Como obter e aplicar patches de segurança](/help/how-to/general/how-to-obtain-and-apply-security-patches.md)
    * [Lista de verificação para configurar um novo  [!DNL domain]](/help/how-to/general/checklist-for-setting-up-a-new-domain.md)
@@ -296,7 +295,6 @@ ht-degree: 0%
    * [Bloquear tráfego mal-intencionado para o Adobe Commerce no nível Fastly](/help/how-to/general/block-malicious-traffic-for-magento-commerce-on-fastly-level.md)
    * [Criar um patch para a instalação do Adobe Commerce Composer a partir de uma confirmação do GitHub](/help/how-to/general/create-a-patch-for-a-magento-2-composer-installation-from-a-github-commit.md)
    * [Alterar a senha do administrador no Adobe Commerce na infraestrutura em nuvem](/help/how-to/general/change-magento-admin-password-on-cloud.md)
-   * [Como solicitar o Adobe Commerce temporário no upsize da infraestrutura em nuvem](/help/how-to/general/how-to-request-temporary-magento-upsize.md)
    * [Exibir a camada de vCPU do ambiente em seu cluster no Adobe Commerce](/help/how-to/general/check-vcpu-using-observation-for-adobe-commerce.md)
    * [Adobe Commerce na infraestrutura em nuvem: verifique a configuração do CPU do host](/help/how-to/general/magento-commerce-cloud-check-hosts-cpu-configuration.md)
    * [Adobe Commerce na nuvem: altere as chaves de autenticação e reimplante](/help/how-to/general/redeploy-with-another-key.md)
