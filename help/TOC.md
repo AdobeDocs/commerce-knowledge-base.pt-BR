@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: fd5d542ca580060c3f0b3ad28024365a43758cfb
+source-git-commit: f729183422f29ce4485f640e66e65a1eeb0c4525
 workflow-type: tm+mt
-source-wordcount: '2597'
+source-wordcount: '2583'
 ht-degree: 0%
 
 ---
@@ -157,7 +157,6 @@ ht-degree: 0%
       * [Erros fatais comuns do PHP e suas soluções](/help/troubleshooting/miscellaneous/common-php-fatal-errors-and-solutions.md)
       * [Falha na atualização do compositor no Adobe Commerce: tipo de argumento incompatível](/help/troubleshooting/miscellaneous/composer-update-fail-on-adobe-commerce-incompatible-argument-type.md)
       * [Adobe Commerce 2.4.2 B2B: o modelo de email não atualiza o email](/help/troubleshooting/miscellaneous/magento-2-4-2-b2b-email-template-not-updating-email.md)
-      * [Falha na exportação manual da ordem para o MOM. O botão Exportar pedido retorna o erro HTTP 404](/help/troubleshooting/miscellaneous/manual-order-export-to-mom-fails-the-export-order-button-returns-http-404-error.md)
       * [PWA Studio: o navegador não é confiável para o certificado SSL gerado](/help/troubleshooting/miscellaneous/pwa-studio-browser-not-trust-generated-ssl-certificate.md)
       * [Solução de problemas de erro 503 causados pela necessidade de alterar as configurações padrão de Verniz](/help/troubleshooting/miscellaneous/troubleshooting-503-errors.md)
       * [Cron tarefas bloqueiam tarefas de outros grupos](/help/troubleshooting/miscellaneous/cron-tasks-lock-tasks-from-other-groups.md)
