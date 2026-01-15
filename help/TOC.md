@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 881fdb528850471fcf34dbdf94c7980fff0f248b
+source-git-commit: d9d2382570c53d8da835d770dfae108fe64b31cc
 workflow-type: tm+mt
-source-wordcount: '2417'
+source-wordcount: '2413'
 ht-degree: 0%
 
 ---
@@ -212,7 +212,6 @@ ht-degree: 0%
       * [Falha na implantação do módulo Fastly na versão incompatível do Adobe Commerce](/help/troubleshooting/deployment/deployment-fails-fastly-module-incompatible-magento-version.md)
       * [Erro de implantação: SQLSTATE[HY000]](/help/troubleshooting/deployment/deployment-error-sql-hy000.md)
       * [Problemas de implantação relacionados às permissões de conta e chaves de acesso](/help/troubleshooting/deployment/deployment-issues-relating-to-account-permissions-and-access-keys.md)
-      * [Solução de problemas de implantação do Adobe Commerce](/help/troubleshooting/deployment/magento-deployment-troubleshooter.md)
       * [Erro durante a implantação ao atualizar para a versão que suporta o PHP 8.1](/help/troubleshooting/deployment/error-during-deployment-when-upgrading-to-version-supporting-php-8-1.md)
       * [Erro de implantação: &quot;erro 7 ao baixar ... porta 443: conexão recusada&quot;](/help/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce.md)
       * [Erros de implantação ao confirmar arquivos incorretos](/help/troubleshooting/deployment/deployment-error-when-committing-incorrect-files.md)
