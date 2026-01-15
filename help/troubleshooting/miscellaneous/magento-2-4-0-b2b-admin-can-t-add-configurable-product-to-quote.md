@@ -4,9 +4,9 @@ description: Este artigo fala sobre um problema conhecido no Administrador do Co
 exl-id: 73f7231b-b496-4250-b9e2-29427c772d56
 feature: Admin Workspace, B2B, Catalog Management, Configuration, Products, Quotes
 role: Developer
-source-git-commit: 9cd9720a73b8ecde3baf6a7a5b5732ad1330feee
+source-git-commit: 05297c82b292b8ccc88018c58e991bd3a32d6ffa
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -55,9 +55,4 @@ Este artigo fala sobre um problema conhecido no Administrador do Commerce ao ger
 ## Recomendação
 
 Atualmente, não há solução alternativa para esse problema com a edição da Cotação B2B, mas para o gerenciamento de Pedidos e do Carrinho de Compras, é possível selecionar produtos da **Lista de Produtos** em vez de adicioná-los pela **SKU**. Um patch para resolver o problema estará disponível para o Adobe Commerce 2.4.1, cujo lançamento está programado para o quarto trimestre de 2020.
-
-## Leitura relacionada
-
-* [Problema conhecido do Adobe Commerce 2.4.0: a atualização das Atividades do cliente não funciona](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md)
-* [Problema conhecido do Adobe Commerce 2.4.0: as taxas de imposto de exportação não funcionam](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
 
