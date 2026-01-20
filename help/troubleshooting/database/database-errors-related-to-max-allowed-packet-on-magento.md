@@ -45,7 +45,7 @@ O valor padrão de 16 MB para a configuração [!DNL MySQL] `max_allowed_packets
 
 ## Leitura relacionada
 
-* [Visão geral da instalação local](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/overview) em nossa documentação do desenvolvedor.
-* [Práticas recomendadas do banco de dados para Adobe Commerce na infraestrutura em nuvem](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html) em nossa base de dados de conhecimento de suporte.
-* [Práticas recomendadas para resolver problemas de desempenho do banco de dados](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html) em nossa base de dados de conhecimento de suporte.
-* [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce
+* [Visão geral da instalação local](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/overview) em nossa documentação do desenvolvedor.
+* [Práticas recomendadas do banco de dados para Adobe Commerce na infraestrutura em nuvem](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=pt-BR) em nossa base de dados de conhecimento de suporte.
+* [Práticas recomendadas para resolver problemas de desempenho do banco de dados](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html?lang=pt-BR) em nossa base de dados de conhecimento de suporte.
+* [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce
