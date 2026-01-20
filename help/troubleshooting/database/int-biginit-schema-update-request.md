@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >Antes de implementar a solução neste artigo (`INT` para `BIGINT` atualização de esquema), os comerciantes devem sempre verificar se o campo que vão alterar NÃO tem nenhuma relação de chave estrangeira com outra tabela. Se o campo não tiver relações de chave estrangeira com outra tabela, haverá problemas porque o campo relacionado ainda é `INT`. Eles podem usar a seguinte query para verificar isso. Esta consulta lista as relações de chave estrangeira disponíveis no banco de dados para o campo de tabela especificado:
 >
-```mysql
+>```mysql
 >SELECT 
 >     TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME,REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME
 >FROM
