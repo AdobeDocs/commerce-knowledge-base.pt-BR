@@ -4,9 +4,9 @@ description: Este artigo fornece uma solução para erros de conexão de banco d
 exl-id: e8932b72-91a3-43ea-800e-a6c7a5a17656
 feature: Best Practices, Observability, Services
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 5ca7a4400e62db2419b32a31a4f6cf04f5a82e35
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -45,8 +45,7 @@ O valor padrão de 16 MB para a configuração [!DNL MySQL] `max_allowed_packets
 
 ## Leitura relacionada
 
-* [Visão geral da instalação local](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/overview) em nossa documentação do desenvolvedor.
-* O carregamento do banco de dados [perde a conexão com [!DNL MySQL]](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/database/database-upload-loses-connection-to-mysql) em nossa knowledge base de suporte.
-* [Práticas recomendadas do banco de dados para Adobe Commerce na infraestrutura em nuvem](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=pt-BR) em nossa base de dados de conhecimento de suporte.
-* [Práticas recomendadas para resolver problemas de desempenho do banco de dados](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html?lang=pt-BR) em nossa base de dados de conhecimento de suporte.
-* [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce
+* [Visão geral da instalação local](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/overview) em nossa documentação do desenvolvedor.
+* [Práticas recomendadas do banco de dados para Adobe Commerce na infraestrutura em nuvem](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html) em nossa base de dados de conhecimento de suporte.
+* [Práticas recomendadas para resolver problemas de desempenho do banco de dados](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html) em nossa base de dados de conhecimento de suporte.
+* [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce

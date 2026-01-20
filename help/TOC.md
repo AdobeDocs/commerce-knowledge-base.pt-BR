@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: d9d2382570c53d8da835d770dfae108fe64b31cc
+source-git-commit: 5ca7a4400e62db2419b32a31a4f6cf04f5a82e35
 workflow-type: tm+mt
-source-wordcount: '2413'
+source-wordcount: '2407'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,6 @@ ht-degree: 0%
    * [Visão geral da solução de problemas](/help/troubleshooting/overview.md)
    * Banco de dados {#database}
       * [Verificando consultas e processos lentos MySQL](/help/troubleshooting/database/checking-slow-queries-and-processes-mysql.md)
-      * [O upload do banco de dados perde a conexão com o MySQL](/help/troubleshooting/database/database-upload-loses-connection-to-mysql.md)
       * [O servidor MySQL desapareceu&#x200B; erro no Adobe Commerce na nuvem](/help/troubleshooting/database/mysql-server-has-gone-away-error-on-magento-commerce-cloud.md)
       * [Erros de banco de dados relacionados a max_allowed_packet no Adobe Commerce](/help/troubleshooting/database/database-errors-related-to-max-allowed-packet-on-magento.md)
       * [Valor numérico do banco de dados Adobe Commerce fora do intervalo, [!DNL INT] a [!DNL BIGINT]](/help/troubleshooting/database/int-biginit-schema-update-request.md)
