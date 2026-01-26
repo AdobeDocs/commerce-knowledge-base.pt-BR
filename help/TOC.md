@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 2118d569e032293f0609becaf10ba4e903ae4b5d
+source-git-commit: e73894751543dcd1197cc0d20cfac61c44b3ecaa
 workflow-type: tm+mt
-source-wordcount: '2400'
+source-wordcount: '2395'
 ht-degree: 0%
 
 ---
@@ -311,7 +311,6 @@ ht-degree: 0%
    * [Quantos cupons um cliente pode usar no Adobe Commerce?](/help/faq/general/how-many-coupons-can-a-customer-use-in-magento-2.md)
    * [Tíquete de suporte Descrições do motivo de contato](/help/faq/general/support-ticket-contact-reason-descriptions.md)
    * [Solicitações de sandbox da infraestrutura em nuvem do Adobe Commerce para parceiros](/help/faq/general/partner-magento-commerce-cloud-sandbox-requests.md)
-   * [Perguntas frequentes sobre o canal de anúncios de compras do Google](/help/faq/general/google-shopping-ads-channel-faqs.md)
    * [Recursos do GDPR da Adobe Commerce](/help/faq/general/magento-gdpr-resources.md)
    * [Alteração de preço base afeta no preço de catálogo compartilhado](/help/faq/general/base-price-change-affect-on-shared-catalog-price.md)
    * [Perguntas frequentes sobre a autenticação de dois fatores no Painel de administração do Adobe Commerce](/help/faq/general/two-factor-authentication-in-admin-panel-on-magento-faq.md)
