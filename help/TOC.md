@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 4d40c0e6c8a73fac19e03d72aa1b1cc584a0228a
+source-git-commit: 12e17359c84e3a71425fce1b378cb57ed7fca86d
 workflow-type: tm+mt
-source-wordcount: '2378'
+source-wordcount: '2367'
 ht-degree: 0%
 
 ---
@@ -139,7 +139,6 @@ ht-degree: 0%
       * [Bloqueadores iniciados no Adobe Commerce na infraestrutura em nuvem](/help/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.md)
       * [Erros de configurações de PHP](/help/troubleshooting/miscellaneous/php-settings-errors.md)
       * [Extensão mcrypt do PHP não instalada corretamente](/help/troubleshooting/miscellaneous/php-mcrypt-extension-not-installed-properly.md)
-      * [Adobe Commerce 2.3.6, 2.4.0-p1, 2.4.1 problema conhecido: dotdigital login](/help/troubleshooting/miscellaneous/magento-2-3-6-2-4-0-p1-2-4-1-known-issue-dotdigital-login.md)
       * [A tarefa do Cron está paralisada no status &quot;em execução&quot;](/help/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.md)
       * [Descarga de redirecionamentos não regex para Fastly em vez de Nginx (rotas)](/help/troubleshooting/miscellaneous/offload-non-regex-redirects-to-fastly-instead-of-nginx-routes.md)
       * [Solução de problemas de Relatórios avançados do Adobe Commerce](/help/troubleshooting/miscellaneous/magento-advanced-reporting-troubleshooter.md)
