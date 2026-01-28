@@ -4,9 +4,9 @@ description: Este artigo descreve um problema conhecido do Adobe Commerce 2.3.6,
 exl-id: 427d895c-8c03-4ced-813a-eeaa67f1d1f0
 feature: Configuration
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 38b4d310cab9dccad142c244f6e07f8421a9894d
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,3 @@ Não é possível fazer logon no dotdigital.
 ## Solução
 
 Solução alternativa: use um navegador alternativo para o Safari para essa situação específica.
-
-## Leitura relacionada
-
-[Problema conhecido do Adobe Commerce 2.4.1 - O endereço Vertex não está sendo validado com endereços de remessa/cobrança diferentes](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md) em nossa base de dados de conhecimento de suporte.
