@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 6e47f604af3a498f4f9e10c0175875766ebd7e2a
+source-git-commit: 7f7e26f07e921577b1dd7686f5dace396888aa60
 workflow-type: tm+mt
-source-wordcount: '2360'
+source-wordcount: '2340'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,6 @@ ht-degree: 0%
       * [PWA Studio: o Webpack trava antes de iniciar a compilação](/help/troubleshooting/miscellaneous/pwa-studio-webpack-hangs-before-beginning-compilation.md)
       * [Resolver um erro de deslocamento ilegal](/help/troubleshooting/miscellaneous/resolve-an-illegal-offset-error.md)
       * [Status do produto incorreto quando criado programaticamente](/help/troubleshooting/miscellaneous/product-status-incorrect-when-created-programmatically.md)
-      * [A permissão var/export da pasta emite Adobe Commerce na nuvem](/help/troubleshooting/miscellaneous/issue-in-the0email-folder-adobe-commerce.md)
       * [Atualizações programadas do armazenamento temporário de conteúdo não são exibidas com o cache obsoleto do Fastly](/help/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.md)
       * [Solução de problemas do CRON](/help/troubleshooting/miscellaneous/troubleshoot-cron.md)
       * [O arquivo .csv de produtos exportados não é exibido](/help/troubleshooting/miscellaneous/exported-products-csv-file-does-not-appear.md)
@@ -302,7 +301,6 @@ ht-degree: 0%
    * [Link Magento.com e logons de conta do accounts.magento.cloud](/help/faq/general/linking-magento-com-and-accounts-magento-cloud-account-logins.md)
    * [Perguntas frequentes sobre a ativação do cloaking de origem do Fastly](/help/faq/general/fastly-origin-cloaking-enablement-faq.md)
    * [Variável de incremento de auto_incremento do banco de dados definida como &quot;3&quot; Adobe Commerce em nossa arquitetura Cloud Pro](/help/faq/general/database-auto-increment-increment-variable-set-to-3-magento-cloud-pro.md)
-   * [Folha de fatos de monitoramento do Adobe Commerce na infraestrutura do Cloud Pro](/help/faq/general/monitoring-whitepaper.md)
    * [Acessar serviços da New Relic](/help/faq/general/access-new-relic-services.md)
    * [Acessibilidade de conteúdo da Web para o Adobe Commerce](/help/faq/general/accessibility.md)
    * [Quantos cupons um cliente pode usar no Adobe Commerce?](/help/faq/general/how-many-coupons-can-a-customer-use-in-magento-2.md)
