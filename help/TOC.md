@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 49dd77f7cb185d771f5f1db823692ede72748634
+source-git-commit: 85d91886a6656b28da91fb3aa40016a800ecd53f
 workflow-type: tm+mt
-source-wordcount: '2333'
+source-wordcount: '2323'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,6 @@ ht-degree: 0%
       * [Resolver problemas com a chave de criptografia](/help/troubleshooting/miscellaneous/resolve-issues-with-encryption-key.md)
       * [PWA Studio: as consultas do Venia GraphQL ao Adobe Commerce produzem erros de validação](/help/troubleshooting/miscellaneous/pwa-studio-venia-graphql-queries-to-magento-produce-validation-errors.md)
       * [Status do estoque incorreto após a instalação do Inventory management](/help/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.md)
-      * [Problema conhecido do Adobe Commerce 2.3.5: pedidos virtuais de vários envios](/help/troubleshooting/miscellaneous/magento-2-3-5-known-issue-virtual-product-multi-ship-orders.md)
       * [Uso de Exportações de Dados para apontar discrepâncias](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
       * [Solução de problemas da Ferramenta de migração de dados](/help/troubleshooting/miscellaneous/data-migration-tool-troubleshooting.md)
       * [Problemas de verificação de preparação de dependência do componente](/help/troubleshooting/miscellaneous/component-dependency-readiness-check-issues.md)
