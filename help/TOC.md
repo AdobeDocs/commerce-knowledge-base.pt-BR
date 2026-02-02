@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 3786fde60a4161a155da798a9deda0184e6d1e6a
+source-git-commit: 87955322d02a499cf97d297761c9c1f7ebbca3c3
 workflow-type: tm+mt
-source-wordcount: '2317'
+source-wordcount: '2308'
 ht-degree: 0%
 
 ---
@@ -225,7 +225,6 @@ ht-degree: 0%
    * [Restaurar um instantâneo do banco de dados de preparo ou produção](/help/how-to/general/restore-a-db-snapshot-from-staging-or-production.md)
    * [Adobe Commerce Intelligence Essentials: atualizar a forma de pagamento ou cancelar a assinatura](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)
    * [Vídeo de treinamento de inteligência do Adobe commerce: SQL Report Builder](/help/how-to/general/mbi-training-video-sql-report-builder.md)
-   * [Definir o TTL de cache para imagens e outros conteúdos estáticos](/help/how-to/general/set-cache-ttl-for-images-and-other-static-content.md)
    * [Fornecer desconto apenas para a primeira compra (sem cupons)](/help/how-to/general/provide-discount-for-first-purchase-only-no-coupons.md)
    * [Reverter ambiente sem instantâneo da nuvem](/help/how-to/general/roll-back-environment-without-cloud-snapshot.md)
    * [Locais de log (diretórios) para o plano inicial](/help/how-to/general/log-locations-directories-for-starter-plan.md)
