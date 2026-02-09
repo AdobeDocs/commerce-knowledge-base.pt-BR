@@ -1,10 +1,10 @@
 ---
-title: executar problema de &grave;setup:static-content:deploy&grave; deployed_version.txt
-description: Este artigo fornece uma correção para &grave;deployed_version.txt&grave; não é um erro gravável ao executar o comando &grave;setup:static-content:deploy&grave; manualmente.
+title: executar problema de `setup:static-content:deploy` deployed_version.txt
+description: Este artigo fornece uma correção para `deployed_version.txt` não é um erro gravável ao executar o comando `setup:static-content:deploy` manualmente.
 exl-id: 88d8c126-349f-49cd-8f02-2a32e4994521
 feature: Deploy, Page Content, SCD
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: d7c714cf5b2f9db139440d814af26c12001bb4d9
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Este artigo fornece uma correção para o erro `deployed_version.txt` não é gr
 
 ## Problema
 
-Se você seguir as recomendações do Adobe Commerce na infraestrutura da nuvem para usar o [Gerenciamento de Configuração](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md) (e mover a geração de ativos estáticos para o estágio de compilação para reduzir o tempo de inatividade do site durante a implantação), poderá enfrentar o seguinte erro ao executar o comando `setup:static-content:deploy` manualmente:
+Se você seguir as recomendações do Adobe Commerce na infraestrutura em nuvem para usar o Gerenciamento de Configuração (e mover a geração de ativos estáticos para o estágio de compilação a fim de diminuir o tempo de inatividade do site durante a implantação), poderá enfrentar o seguinte erro ao executar o comando `setup:static-content:deploy` manualmente:
 
 ```
 {{cloud-project-id}}_stg@i:~$ php bin/magento setup:static-content:deploy
