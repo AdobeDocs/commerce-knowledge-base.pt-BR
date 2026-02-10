@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 014b425a0db4b5824a1caf033318fe7fd74d9a92
+source-git-commit: 41585ba5bc50e9a65d5d28963f43054f5f98b918
 workflow-type: tm+mt
-source-wordcount: '2226'
+source-wordcount: '2215'
 ht-degree: 0%
 
 ---
@@ -110,7 +110,6 @@ ht-degree: 0%
       * [Página em branco ou erro de loop de redirecionamento ao acessar a loja ou o administrador do Commerce](/help/troubleshooting/miscellaneous/blank-page-or-redirect-loop-error-when-accessing-storefront-or-magento-admin.md)
       * [Redirecionamento de logon ao tentar fazer logon no Commerce Admin](/help/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin.md)
       * [Resolver problemas com a chave de criptografia](/help/troubleshooting/miscellaneous/resolve-issues-with-encryption-key.md)
-      * [PWA Studio: as consultas do Venia GraphQL ao Adobe Commerce produzem erros de validação](/help/troubleshooting/miscellaneous/pwa-studio-venia-graphql-queries-to-magento-produce-validation-errors.md)
       * [Uso de Exportações de Dados para apontar discrepâncias](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
       * [Solução de problemas da Ferramenta de migração de dados](/help/troubleshooting/miscellaneous/data-migration-tool-troubleshooting.md)
       * [Problemas de verificação de preparação de dependência do componente](/help/troubleshooting/miscellaneous/component-dependency-readiness-check-issues.md)
