@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 950cbe6a4886f1f4f9f38250a46eb7f82bda73d4
+source-git-commit: 0e5465d2d3ef177f8d42f791f4652fc9139695fb
 workflow-type: tm+mt
-source-wordcount: '2196'
+source-wordcount: '2192'
 ht-degree: 0%
 
 ---
@@ -230,7 +230,6 @@ ht-degree: 0%
    * [Identificar e medir paralisações do Adobe Commerce na infraestrutura em nuvem](/help/how-to/general/how-to-identify-outages.md)
    * [Alterar proprietário da conta para New Relic na nuvem](/help/how-to/general/change-account-owner-for-new-relic-on-cloud.md)
    * [Alterar o URL do administrador no Adobe Commerce na infraestrutura em nuvem](/help/how-to/general/change-magento-admin-url-on-cloud.md)
-   * [Habilitar o Elasticsearch na nuvem](/help/how-to/general/enable-elasticsearch-on-cloud.md)
    * [Configurar NPM para poder usar o PWA Studio](/help/how-to/general/configure-npm-to-be-able-to-use-pwa-studio.md)
    * [Reorganizar ramificações de nuvem no Adobe Commerce](/help/how-to/general/rearrange-cloud-branches-adobe-commerce.md)
    * [Como encontrar a documentação do produto Adobe Commerce](/help/how-to/general/how-to-find-magento-product-documentation.md)
