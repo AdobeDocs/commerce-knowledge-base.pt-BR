@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 888089e960017477364b3b3dae7e9cc5c69892ba
+source-git-commit: 87c6be20e766e88978f7a02960457cf715cf6911
 workflow-type: tm+mt
-source-wordcount: '2184'
+source-wordcount: '2177'
 ht-degree: 0%
 
 ---
@@ -220,7 +220,6 @@ ht-degree: 0%
    * [Como adicionar um novo país ao Adobe Commerce](/help/how-to/general/how-to-add-a-new-country-to-magento-2.md)
    * [Personalizar a configuração de design no Administrador do Commerce](/help/how-to/general/customize-design-configuration-in-magento-admin.md)
    * [Adobe Commerce na infraestrutura em nuvem: cálculo de alocação do CPU](/help/how-to/general/magento-commerce-cloud-cpu-allocation-calculation.md)
-   * [Atualizar preços do Catálogo compartilhado usando a API REST](/help/how-to/general/update-shared-catalog-prices-using-rest-api.md)
    * [Localizar tabelas MySQL grandes](/help/how-to/general/find-large-mysql-tables.md)
    * [Verifique o espaço em disco usando a CLI no Adobe Commerce no ambiente de infraestrutura em nuvem](/help/how-to/general/check-disk-space-on-cloud-environment-using-cli.md)
    * [Redefinir trabalhos cron travados do Adobe Commerce na infraestrutura em nuvem manualmente](/help/how-to/general/reset-stuck-magento-cron-jobs-manually-on-cloud.md)
