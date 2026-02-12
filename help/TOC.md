@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 4c8bb0d63cd7826b24c2f6c85fbb9bb5982b2a35
+source-git-commit: 9d80bfb801d55c25627e92e9777699c14056e2dd
 workflow-type: tm+mt
-source-wordcount: '2170'
+source-wordcount: '2140'
 ht-degree: 0%
 
 ---
@@ -211,16 +211,13 @@ ht-degree: 0%
    * [Guia do usuário de suporte da Experience League para Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
 * Como {#how-to}
    * [Visão geral](/help/how-to/overview.md)
-   * [Como incluir um membro da equipe nas notificações de suporte](/help/how-to/general/how-to-include-a-team-member-in-support-notifications.md)
    * [Como obter e aplicar patches de segurança](/help/how-to/general/how-to-obtain-and-apply-security-patches.md)
    * [Lista de verificação para configurar um novo  [!DNL domain]](/help/how-to/general/checklist-for-setting-up-a-new-domain.md)
    * [Restaurar um instantâneo do banco de dados de preparo ou produção](/help/how-to/general/restore-a-db-snapshot-from-staging-or-production.md)
    * [Adobe Commerce Intelligence Essentials: atualizar a forma de pagamento ou cancelar a assinatura](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)
    * [Reverter ambiente sem instantâneo da nuvem](/help/how-to/general/roll-back-environment-without-cloud-snapshot.md)
-   * [Como adicionar um novo país ao Adobe Commerce](/help/how-to/general/how-to-add-a-new-country-to-magento-2.md)
    * [Adobe Commerce na infraestrutura em nuvem: cálculo de alocação do CPU](/help/how-to/general/magento-commerce-cloud-cpu-allocation-calculation.md)
    * [Localizar tabelas MySQL grandes](/help/how-to/general/find-large-mysql-tables.md)
-   * [Verifique o espaço em disco usando a CLI no Adobe Commerce no ambiente de infraestrutura em nuvem](/help/how-to/general/check-disk-space-on-cloud-environment-using-cli.md)
    * [Redefinir trabalhos cron travados do Adobe Commerce na infraestrutura em nuvem manualmente](/help/how-to/general/reset-stuck-magento-cron-jobs-manually-on-cloud.md)
    * [Testar o Fastly na produção se um Site Ativo usar o mesmo domínio](/help/how-to/general/test-fastly-on-production-if-a-live-site-uses-the-same-domain.md)
    * [Opções de implantação de conteúdo estático para reduzir o tempo de inatividade da implantação na nuvem](/help/how-to/general/static-content-deployment-options-to-reduce-deployment-downtime-on-cloud.md)
