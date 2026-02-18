@@ -17,7 +17,7 @@ No dia 3 de setembro, o MS-ISAC (Multi-State Information Sharing and Analysis Ce
 
 >[!WARNING]
 >
->No Adobe Commerce na infraestrutura em nuvem, observe que as atualizações de serviço não podem ser enviadas para o ambiente de produção sem aviso prévio de 48 horas úteis para nossa equipe de infraestrutura. Isso é necessário, pois precisamos garantir que tenhamos um engenheiro de suporte de infraestrutura disponível para atualizar sua configuração dentro de um prazo desejado com tempo de inatividade mínimo para seu ambiente de produção. Portanto, 48 horas antes de quando suas alterações precisam estar em produção [envie um tíquete de suporte](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) detalhando a atualização de serviço necessária e informando a hora em que deseja que o processo de atualização tenha início.
+>No Adobe Commerce na infraestrutura em nuvem, observe que as atualizações de serviço não podem ser enviadas para o ambiente de produção sem aviso prévio de 48 horas úteis para nossa equipe de infraestrutura. Isso é necessário, pois precisamos garantir que tenhamos um engenheiro de suporte de infraestrutura disponível para atualizar sua configuração dentro de um prazo desejado com tempo de inatividade mínimo para seu ambiente de produção. Portanto, 48 horas antes de quando suas alterações precisam estar em produção [envie um tíquete de suporte](https://experienceleague.adobe.com/pt-br/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) detalhando a atualização de serviço necessária e informando a hora em que deseja que o processo de atualização tenha início.
 
 Leia sobre os impactos e as etapas para sites do Adobe Commerce:
 
@@ -28,7 +28,7 @@ Se você estiver usando o Adobe Commerce na infraestrutura em nuvem, trabalhe co
 Observações adicionais sobre a reimplantação do site na nuvem para esta atualização:
 
 * Se o seu site ainda estiver usando o PHP versão 7.0, você precisará fazer upgrade para uma versão suportada do PHP primeiro antes de reimplantar para aproveitar essas atualizações de segurança.
-* Para 2.1.x/2.2.x, você pode encontrar mais informações sobre como atualizar o PHP [aqui](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version.html).
+* Para 2.1.x/2.2.x, você pode encontrar mais informações sobre como atualizar o PHP [aqui](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version.html?lang=pt-BR).
 
 \* *As versões anteriores deste artigo e nossas mensagens iniciaram em 19 de setembro, mas nossas equipes concluíram o trabalho antes do agendamento.*
 

@@ -33,7 +33,7 @@ Estas são as causas mais comuns de problemas:
 
 ### Localização do código de acesso antecipado
 
-Durante os períodos de acesso beta, os pacotes de versão só estão disponíveis via Composer no [repo.magento.com](https://repo.magento.com/). Os pacotes de versão não estão disponíveis nos portais GitHub e Adobe Commerce durante esse período, e nós os publicaremos nesses locais na data de disponibilidade geral. Para obter mais detalhes sobre como usar o Composer, clique [aqui](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer).
+Durante os períodos de acesso beta, os pacotes de versão só estão disponíveis via Composer no [repo.magento.com](https://repo.magento.com/). Os pacotes de versão não estão disponíveis nos portais GitHub e Adobe Commerce durante esse período, e nós os publicaremos nesses locais na data de disponibilidade geral. Para obter mais detalhes sobre como usar o Composer, clique [aqui](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/composer).
 
 ### ID da imagem que você precisa usar
 
@@ -47,7 +47,7 @@ Para descobrir se a MageID é primária, tente o seguinte:
    * Se você vir as informações ativas da licença do Partner, sua MageID é a principal. A licença do Parceiro estará ativa se o valor DATA FINAL for uma data futura.
    * Se você não vir as informações ativas da licença do Partner, sua MageID terá somente acesso compartilhado. Para descobrir quem é o detentor da ID primária, vá para **Compartilhado(s) comigo** Observe o SHARENAME especificado. Clique em **Alternar contas** e selecione o valor anotado em SHARENAME. Na página de boas-vindas, você verá o email do titular da ID principal.
 1. Se, por qualquer motivo, você não conseguir encontrar essas informações em [magento.com](https://account.magento.com/customer/account/login), entre em contato com seu Gerente de Parceiros.
-1. Se nenhuma das situações acima funcionar, [contate o Suporte](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide).
+1. Se nenhuma das situações acima funcionar, [contate o Suporte](https://experienceleague.adobe.com/pt-br/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide).
 
 #### O desenvolvedor não tem acesso correto às chaves
 

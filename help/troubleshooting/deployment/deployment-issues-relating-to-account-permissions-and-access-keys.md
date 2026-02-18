@@ -50,7 +50,7 @@ Se uma implantação falhar depois que uma alteração for feita no contato prin
 
 ### Como desativar a chave de acesso
 
-Se você não tiver acesso à conta do [Commerce Marketplace](https://marketplace.magento.com/) associada à chave antiga, [contate o Suporte da Adobe Commerce](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) para desabilitar a chave.
+Se você não tiver acesso à conta do [Commerce Marketplace](https://marketplace.magento.com/) associada à chave antiga, [contate o Suporte da Adobe Commerce](https://experienceleague.adobe.com/pt-br/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) para desabilitar a chave.
 
 Se você tiver acesso à conta do Marketplace associada à chave antiga, siga estas etapas para desabilitar a chave:
 
@@ -64,4 +64,4 @@ Se você tiver acesso à conta do Marketplace associada à chave antiga, siga es
 
 ## Leitura relacionada
 
-* [Obtenha suas chaves de autenticação](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) em nossa documentação para desenvolvedores.
+* [Obtenha suas chaves de autenticação](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) em nossa documentação para desenvolvedores.

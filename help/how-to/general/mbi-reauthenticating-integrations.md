@@ -16,7 +16,7 @@ Este artigo fornece soluções para reautorizar uma integração a fim de conced
 
 ## Integrações de banco de dados e SaaS
 
-Para obter listas de integrações de banco de dados e SaaS, consulte [Conectando dados externos usando uma integração](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/saas/integrations) na documentação do desenvolvedor. (Ao abrir a página, use o índice à esquerda para navegação).
+Para obter listas de integrações de banco de dados e SaaS, consulte [Conectando dados externos usando uma integração](https://experienceleague.adobe.com/pt-br/docs/commerce-business-intelligence/mbi/analyze/saas/integrations) na documentação do desenvolvedor. (Ao abrir a página, use o índice à esquerda para navegação).
 
 ## Problemas de conexão?
 
@@ -35,4 +35,4 @@ O status de todas as integrações está na página Integrações ( **Gerenciar 
 
 Para autenticar novamente, talvez seja necessário inserir novamente as credenciais da conta. Em alguns casos, pode ser necessário gerar novas chaves de API para a integração do problema. Clique no nome da integração do problema para iniciar o processo de reautorização.
 
-Se o problema persistir, [envie um tíquete de suporte](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket).
+Se o problema persistir, [envie um tíquete de suporte](https://experienceleague.adobe.com/pt-br/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket).

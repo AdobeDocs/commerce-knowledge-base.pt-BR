@@ -29,7 +29,7 @@ As etapas descritas neste artigo também se aplicam se você precisar girar (alt
 
 ## Solução
 
-1. Verifique se você tem a ID de serviço e o token de API [!DNL Fastly] corretos e tente validar novamente. Para obter instruções detalhadas, consulte [Testar as [!DNL Fastly] credenciais](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration?lang=en#test-the-fastly-credentials) na documentação do desenvolvedor.
+1. Verifique se você tem a ID de serviço e o token de API [!DNL Fastly] corretos e tente validar novamente. Para obter instruções detalhadas, consulte [Testar as [!DNL Fastly] credenciais](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration?lang=en#test-the-fastly-credentials) na documentação do desenvolvedor.
 1. Se a verificação das credenciais falhar, execute o seguinte comando curl para confirmar o status do serviço:
 
    ```curl
@@ -38,7 +38,7 @@ As etapas descritas neste artigo também se aplicam se você precisar girar (alt
 
 1. Se o comando acima retornar um erro semelhante a: `{"msg":"Token $TOKEN expired at 2021-09-28T02:03:37Z"}`, envie um tíquete de suporte para solicitar um novo token de API. Depois de receber o novo token, atualize a configuração no ambiente.
 
-   Para saber como enviar um tíquete de suporte, consulte [Guia do Usuário da Central de Ajuda da Adobe Commerce > TÍQUETES DE SUPORTE](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-tickets) em nossa base de dados de conhecimento de suporte.
+   Para saber como enviar um tíquete de suporte, consulte [Guia do Usuário da Central de Ajuda da Adobe Commerce > TÍQUETES DE SUPORTE](https://experienceleague.adobe.com/pt-br/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-tickets) em nossa base de dados de conhecimento de suporte.
 
    >[!NOTE]
    >
@@ -50,6 +50,6 @@ As etapas descritas neste artigo também se aplicam se você precisar girar (alt
 
 ## Leituras relacionadas em nossa documentação do desenvolvedor:
 
-* [Nuvem para Adobe Commerce > [!DNL Fastly] > [!DNL Fastly] conta de serviço e credenciais](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly?lang=en#fastly-service-account-and-credentials)
+* [Nuvem para Adobe Commerce > [!DNL Fastly] > [!DNL Fastly] conta de serviço e credenciais](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/cdn/fastly?lang=en#fastly-service-account-and-credentials)
 
-* [Nuvem para Adobe Commerce > Configurar [!DNL Fastly] > Testar as [!DNL Fastly] credenciais](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration?lang=en#test-the-fastly-credentials)
+* [Nuvem para Adobe Commerce > Configurar [!DNL Fastly] > Testar as [!DNL Fastly] credenciais](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration?lang=en#test-the-fastly-credentials)

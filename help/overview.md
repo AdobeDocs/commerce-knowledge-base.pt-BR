@@ -19,7 +19,7 @@ ht-degree: 3%
 
 ![Página inicial da Base de Dados de Conhecimento](../help/assets/knowledge-base-home-page-cover.jpg){width="100%"}
 
-As informações nesta Base de Dados de Conhecimento foram criadas como complementares à [Documentação do Desenvolvedor do Adobe Commerce](https://developer.adobe.com/commerce/docs), ao [Guia do Comerciante do Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) e a outras publicações da Adobe Commerce. Ele aborda a solução de problemas e as práticas recomendadas, anúncios de hosts, responde às perguntas frequentes e destaca cenários específicos que não foram mencionados (por qualquer motivo) na documentação oficial.
+As informações nesta Base de Dados de Conhecimento foram criadas como complementares à [Documentação do Desenvolvedor do Adobe Commerce](https://developer.adobe.com/commerce/docs), ao [Guia do Comerciante do Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=pt-BR) e a outras publicações da Adobe Commerce. Ele aborda a solução de problemas e as práticas recomendadas, anúncios de hosts, responde às perguntas frequentes e destaca cenários específicos que não foram mencionados (por qualquer motivo) na documentação oficial.
 
 ## O que há nesta Base de Conhecimento?
 
@@ -28,7 +28,7 @@ As informações nesta Base de Dados de Conhecimento foram criadas como compleme
 | [Ferramentas de suporte](/help/support-tools/overview.md) | Melhore sua experiência na loja de comércio eletrônico com as diferentes ferramentas de suporte fornecidas pelo Adobe Commerce. Fornecemos práticas recomendadas personalizadas, ferramentas de diagnóstico e monitoramento e as informações mais relevantes sobre seu site. |
 | [Avisos](/help/announcements/overview.md) | Obtenha atualizações importantes das equipes do Adobe Commerce. |
 | [Solução de problemas](/help/troubleshooting/overview.md) | Obtenha soluções e patches de autoatendimento da equipe de suporte da Adobe Commerce. |
-| [Guia do Usuário da Central de Ajuda](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) | Saiba como gerenciar seus tíquetes de suporte, conceder acesso compartilhado e navegar na Knowledge base de maneira eficaz. |
+| [Guia do Usuário da Central de Ajuda](https://experienceleague.adobe.com/pt-br/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) | Saiba como gerenciar seus tíquetes de suporte, conceder acesso compartilhado e navegar na Knowledge base de maneira eficaz. |
 | [Como](/help/how-to/overview.md) | Obtenha instruções passo a passo claras da equipe de suporte da Adobe Commerce. |
 | [Perguntas frequentes](/help/faq/overview.md) | Encontre perguntas frequentes sobre políticas, estratégias e informações específicas da Adobe Commerce sobre os recursos da Adobe Commerce. |
 

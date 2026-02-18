@@ -42,7 +42,7 @@ Para resolver o problema, atualize sua versão do Composer para 1.10.22:
 1. Isso adiciona o requisito para a versão do pacote do Composer. Verificar o arquivo de bloqueio - a versão `composer/composer` deve ser 1.0.22 ou superior.
 1. Confirme `composer.json` e `composer.lock` e envie uma implantação por push.
 
-Se este método não funcionar, [envie um tíquete de suporte](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket).
+Se este método não funcionar, [envie um tíquete de suporte](https://experienceleague.adobe.com/pt-br/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket).
 
 ## Leitura relacionada
 
