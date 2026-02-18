@@ -4,9 +4,9 @@ description: Saiba como solucionar os vários problemas com a ferramenta Securit
 exl-id: 35e18a11-bda9-47eb-924a-1095f4f01017
 feature: Compliance, Security
 role: Developer
-source-git-commit: c6e338fb33477ab107fe4de382b485339b57275a
+source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Os seguintes status podem aparecer nas verificações:
 1. **Desconhecido**: a ferramenta Verificação de Segurança ainda não tem dados sobre seu domínio; aguarde o próximo ciclo de sincronização.
 1. **Falha**: se o status mostrar falha, você precisará corrigir o problema (habilitar 2FA, alterar URL do administrador, etc.) e aguardar o próximo ciclo de sincronização.
 
-Se 24 horas tiverem se passado desde que as alterações foram feitas na instância e elas não forem refletidas no relatório de Verificação de Segurança, você poderá [enviar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket). Forneça o URL da loja ao enviar o tíquete.
+Se 24 horas tiverem se passado desde que as alterações foram feitas na instância e elas não forem refletidas no relatório de Verificação de Segurança, você poderá [enviar um tíquete de suporte](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide). Forneça o URL da loja ao enviar o tíquete.
 
 ## Falha de suspeita de BotNet
 
@@ -77,7 +77,7 @@ Você recebe uma notificação sobre a falha &quot;BotNet Suspect&quot;.
 1. Verifique as contas SSH recém-criadas, as alterações no sistema de arquivos etc.
 1. Execute uma revisão de segurança.
 1. Verifique a versão e a atualização do Adobe Commerce, especialmente se ele ainda estiver executando o Magento 1, que não é mais compatível.
-1. Se o problema persistir, [envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) e forneça a URL de armazenamento.
+1. Se o problema persistir, [envie um tíquete de suporte](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) e forneça a URL de armazenamento.
 
 ## Problema: Falha na injeção de comprometimento
 
@@ -90,7 +90,7 @@ Você recebe um erro em relação a uma falha de &quot;injeção de comprometime
 1. Executar revisão de alterações de configuração do sistema, especialmente as `HTML head` e `Miscellaneous HTML` personalizadas nos valores de seção `footer`.
 1. Executar análise de código e banco de dados para detectar alterações e sinais desconhecidos de malware injetado.
 
-Se nenhuma das situações acima ajudar, [envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) e forneça a URL de armazenamento e a mensagem de erro do relatório.
+Se nenhuma das situações acima ajudar, [envie um tíquete de suporte](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) e forneça a URL de armazenamento e a mensagem de erro do relatório.
 
 ## Perguntas frequentes
 
@@ -104,7 +104,7 @@ Você pode gerar os 10 relatórios anteriores no seu lado. Se forem necessários
 
 ### Quais informações são necessárias ao enviar um tíquete de suporte?
 
-Forneça o nome de domínio exatamente como foi enviado para a [verificação de segurança](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-26357), MAGEID e Cloud Project_ID. Observe que a Cloud Project_ID não é necessária para o Adobe Commerce no local.
+Forneça o nome de domínio exatamente como foi enviado para a [verificação de segurança](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26357), MAGEID e Cloud Project_ID. Observe que a Cloud Project_ID não é necessária para o Adobe Commerce no local.
 
 ### O que acontece se eu remover minha loja da verificação da ferramenta de verificação?
 

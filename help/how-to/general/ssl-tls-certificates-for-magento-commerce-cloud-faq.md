@@ -3,9 +3,9 @@ title: Certificados SSL (TLS) para Adobe Commerce na infraestrutura em nuvem
 description: Este artigo fornece respostas rápidas a perguntas sobre como obter certificados SSL (TLS) para o seu site do Adobe Commerce na nossa infraestrutura em nuvem.
 exl-id: 5a682d07-e4d7-4e81-a2ad-3232f2d8d9c1
 feature: Cloud, Console
-source-git-commit: 7694e6cb739d73a28c902e95d324b1317f4daaf6
+source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1090'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Para os ambientes de arquitetura de plano inicial e Integração PaaS, haverá u
 Para adicionar o domínio ao serviço em [!DNL Fastly]:
 
 1. Aponte seu domínio no DNS para prod.magentocloud.map.fastly.net e aguarde até 6 horas.
-1. [Envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) solicitando a adição deste domínio na configuração do Nginx (se não tiver feito isso antes).
+1. [Envie um tíquete de suporte](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) solicitando a adição deste domínio na configuração do Nginx (se não tiver feito isso antes).
 
 ## Como solicitar um certificado?
 
@@ -47,10 +47,10 @@ Você pode fornecer seu próprio certificado SSL/TLS em vez de usar o [Vamos cri
 
 No entanto, esse processo requer trabalho adicional para configurar e manter. Primeiro, você precisará gerar uma Solicitação de assinatura de certificado (CSR) para o nome de domínio do site (ou nome comum) e fornecê-la ao fornecedor de SSL para fornecer um certificado SSL.
 
-Depois de ter o certificado SSL, envie um [tíquete de Suporte da Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) ou trabalhe com sua CTA para adicionar certificados hospedados personalizados aos seus ambientes de nuvem.
+Depois de ter o certificado SSL, envie um [tíquete de Suporte da Adobe Commerce](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) ou trabalhe com sua CTA para adicionar certificados hospedados personalizados aos seus ambientes de nuvem.
 
 * Se os domínios não estiverem mais em uso, eles serão automaticamente removidos do nosso sistema e nenhuma outra ação será necessária.
-* Se você já possui um certificado, carregue-o usando um cliente SFTP (SSH File Transfer Protocol) para um local de arquivo inacessível pela Web em seu servidor e [envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) para que eles saibam o caminho do arquivo.
+* Se você já possui um certificado, carregue-o usando um cliente SFTP (SSH File Transfer Protocol) para um local de arquivo inacessível pela Web em seu servidor e [envie um tíquete de suporte](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) para que eles saibam o caminho do arquivo.
 
 >[!WARNING]
 >
@@ -67,7 +67,7 @@ O domínio exibido no certificado é apenas o primeiro domínio adicionado ao ce
 
 ## Posso usar certificados TLS curingas?
 
-Certificados TLS curinga só podem ser usados com seu certificado personalizado e não com certificados Let&#39;s Encrypt da Adobe Commerce. Como parte de nossa otimização de TLS, a Adobe está encerrando o suporte a certificados TLS curinga. Estamos identificando e entrando em contato com comerciantes que usam um certificado curinga com certificados Let&#39;s Encrypt da Adobe e estão configurados no console [!DNL Fastly] para o Adobe Commerce. Pedimos que esses certificados curingas sejam substituídos por domínios exatos para garantir a cobertura TLS. Para substituir um certificado TLS curinga, visite a [seção de domínio](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration#manage-domains) do plug-in [!DNL Fastly]. Aqui, domínios exatos podem ser adicionados e o curinga pode ser removido. Observe que o DNS precisará apontar para [!DNL Fastly] para que esses novos domínios sejam roteados pela CDN. Depois que os domínios forem adicionados e o DNS for atualizado, um certificado [Let&#39;s Encrypt](https://letsencrypt.org/) correspondente será provisionado. Se você não remover um domínio que aponte para [!DNL Fastly] usando um curinga, o Adobe excluirá o certificado compartilhado. Isso pode resultar em uma interrupção do site se você não tiver o FQDN de URL configurado e o mesmo FQDN de URL configurado em seu DNS. Portanto, você deve confirmar se as URLs configuradas também têm uma correspondência um para um no DNS que aponta para [!DNL Fastly].
+Certificados TLS curinga só podem ser usados com seu certificado personalizado e não com certificados Let&#39;s Encrypt da Adobe Commerce. Como parte de nossa otimização de TLS, a Adobe está encerrando o suporte a certificados TLS curinga. Estamos identificando e entrando em contato com comerciantes que usam um certificado curinga com certificados Let&#39;s Encrypt da Adobe e estão configurados no console [!DNL Fastly] para o Adobe Commerce. Pedimos que esses certificados curingas sejam substituídos por domínios exatos para garantir a cobertura TLS. Para substituir um certificado TLS curinga, visite a [seção de domínio](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration#manage-domains) do plug-in [!DNL Fastly]. Aqui, domínios exatos podem ser adicionados e o curinga pode ser removido. Observe que o DNS precisará apontar para [!DNL Fastly] para que esses novos domínios sejam roteados pela CDN. Depois que os domínios forem adicionados e o DNS for atualizado, um certificado [Let&#39;s Encrypt](https://letsencrypt.org/) correspondente será provisionado. Se você não remover um domínio que aponte para [!DNL Fastly] usando um curinga, o Adobe excluirá o certificado compartilhado. Isso pode resultar em uma interrupção do site se você não tiver o FQDN de URL configurado e o mesmo FQDN de URL configurado em seu DNS. Portanto, você deve confirmar se as URLs configuradas também têm uma correspondência um para um no DNS que aponta para [!DNL Fastly].
 
 ## O que devo fazer se meu domínio não estiver mais apontando para o Adobe Commerce?
 
@@ -75,4 +75,4 @@ Se o seu domínio não estiver mais apontando para o Adobe Commerce, remova-o do
 
 ## Leitura relacionada
 
-[Provisionar certificados SSL/TLS](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#provision-ssltls-certificates) na documentação do desenvolvedor
+[Provisionar certificados SSL/TLS](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#provision-ssltls-certificates) na documentação do desenvolvedor

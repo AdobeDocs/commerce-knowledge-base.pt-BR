@@ -1,10 +1,10 @@
 ---
 title: Informações de expiração do certificado SSL personalizado
-description: Este artigo fornece uma solução para quando um certificado SSL personalizado foi atualizado com um certificado SSL fornecido pelo Adobe.
+description: Este artigo fornece uma solução para quando um certificado SSL personalizado foi atualizado com um certificado SSL fornecido pela Adobe.
 exl-id: cc968bae-f742-449b-b291-bc121ec45935
 feature: Support
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Informações de expiração do certificado SSL personalizado
 
-Este artigo fornece uma solução para quando um certificado SSL personalizado foi atualizado com um certificado SSL fornecido pelo Adobe.
+Este artigo fornece uma solução para quando um certificado SSL personalizado foi atualizado com um certificado SSL fornecido pela Adobe.
 
 ## Produtos e versões afetados
 
@@ -41,11 +41,11 @@ O Adobe Commerce atualiza qualquer certificado quando ele está a 30 dias da exp
 
 Quando um comerciante opta por usar seu próprio certificado SSL personalizado, ele deve ser atualizado mais de 30 dias antes da expiração do certificado para garantir que não seja substituído por um certificado SSL interno da Adobe Commerce.
 
-Se você estiver em uma situação em que seu SSL personalizado foi substituído pelo nosso SSL interno e quiser substituí-lo pelo seu certificado SSL personalizado atualizado, [envie uma solicitação de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) com o local em que você carregou seus novos arquivos de certificado. Inclua a data de início do novo SSL. Depois que tivermos essas informações, poderemos prosseguir com a instalação do novo certificado SSL.
+Se você estiver em uma situação em que seu SSL personalizado foi substituído pelo nosso SSL interno e quiser substituí-lo pelo seu certificado SSL personalizado atualizado, [envie uma solicitação de suporte](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) com o local em que você carregou seus novos arquivos de certificado. Inclua a data de início do novo SSL. Depois que tivermos essas informações, poderemos prosseguir com a instalação do novo certificado SSL.
 
 ## Leitura relacionada
 
-* [Certificados SSL (TLS) para Magento Commerce Cloud: Perguntas frequentes](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md) em nossa base de dados de conhecimento de suporte.
-* [Referência de ferramentas de linha de comando: magento-cloud certificate:add](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-reference#certificateadd) em nossa documentação do desenvolvedor.
-* [Iniciar lista de verificação](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/launch/checklist)na documentação do desenvolvedor.
-* [Acesse a Ferramenta de Análise em Todo o Site](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/tools/site-wide-analysis-tool/access#step-2-access-site-wide-analysis-tool) em nosso guia do usuário.
+* [Certificados SSL (TLS) para a Magento Commerce Cloud: Perguntas frequentes](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md) em nossa base de conhecimento de suporte.
+* [Referência de ferramentas de linha de comando: magento-cloud certificate:add](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-reference#certificateadd) em nossa documentação do desenvolvedor.
+* [Iniciar lista de verificação](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/checklist)na documentação do desenvolvedor.
+* [Acesse a Ferramenta de Análise em Todo o Site](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/site-wide-analysis-tool/access#step-2-access-site-wide-analysis-tool) em nosso guia do usuário.

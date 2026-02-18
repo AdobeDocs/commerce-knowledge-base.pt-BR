@@ -4,9 +4,9 @@ description: 'Os números em um determinado relatório parecem imprecisos? Você
 exl-id: 2ecea990-7292-46c1-b6eb-75f0404aaf0b
 feature: Commerce Intelligence
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ Os números em um determinado relatório parecem imprecisos? Você vê valores N
 * [Lista de verificação de diagnóstico de discrepância de dados](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
 * [Uso de exportações para apontar discrepâncias de dados](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
 
-Também recomendamos que você verifique se os [métodos de replicação](https://experienceleague.adobe.com/pt-br/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-replication-methods) e as [reverificações](https://experienceleague.adobe.com/pt-br/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks) corretos foram definidos para as tabelas e colunas envolvidas na discrepância. Observe que você precisa de permissões de Administrador para acessar o método de replicação e verificar novamente as informações.
+Também recomendamos que você verifique se os [métodos de replicação](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-replication-methods) e as [reverificações](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks) corretos foram definidos para as tabelas e colunas envolvidas na discrepância. Observe que você precisa de permissões de Administrador para acessar o método de replicação e verificar novamente as informações.
 
 ## Eu ainda preciso de ajuda!
 
-Se o relatório ainda estiver impreciso, não se preocupe - nossa equipe de suporte tem o prazer de ajudar! [Entre em contato conosco](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) com as seguintes informações:
+Se o relatório ainda estiver impreciso, não se preocupe - nossa equipe de suporte tem o prazer de ajudar! [Entre em contato conosco](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) com as seguintes informações:
 
 * Qual é o nome do relatório em que você vê a discrepância?
 * Quais valores no relatório estão incorretos?
@@ -32,4 +32,4 @@ Se o relatório ainda estiver impreciso, não se preocupe - nossa equipe de supo
 ## Leitura relacionada
 
 * [Colunas calculadas](/help/how-to/general/mbi-creating-and-editing-advanced-calculated-columns.md)
-* [Alterações estruturais no banco de dados](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/connecting/data-migration-services.html?lang=pt-BR)
+* [Alterações estruturais no banco de dados](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/connecting/data-migration-services.html)

@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 3e4d6106345c2a05108171fa6b8d9646f40efbc5
+source-git-commit: 688cdb1d0e76850aa953c602a78820fe6208ae41
 workflow-type: tm+mt
-source-wordcount: '2123'
+source-wordcount: '2112'
 ht-degree: 0%
 
 ---
@@ -207,8 +207,6 @@ ht-degree: 0%
    * Elasticsearch {#elasticsearch}
       * [Retornando para  [!DNL Elasticsearch7] quando o mecanismo de pesquisa estiver definido como [!DNL Opensearch]](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
       * [Os índices de rastreamento do ElasticSuite causam problemas com o Elasticsearch](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md)
-* Guia da Central de ajuda {#help-center-guide}
-   * [Guia do usuário de suporte da Experience League para Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
 * Como {#how-to}
    * [Visão geral](/help/how-to/overview.md)
    * [Lista de verificação para configurar um novo  [!DNL domain]](/help/how-to/general/checklist-for-setting-up-a-new-domain.md)

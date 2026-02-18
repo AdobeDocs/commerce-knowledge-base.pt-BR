@@ -4,9 +4,9 @@ description: 'Este artigo fornece etapas de solução de problemas para resolver
 exl-id: 0a22beb7-18b0-47eb-a6b8-63b7322b392c
 feature: Observability
 role: Developer
-source-git-commit: 27fed162416c619a08d757279a3405f1fa72e976
+source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Este artigo fornece etapas de solução de problemas para resolver problemas de 
 <li>Role para baixo, clique em Mostrar todas as tabelas de transações.</li>
 <li>Você pode classificar transações por <a href="https://docs.newrelic.com/docs/apm/applications-menu/monitoring/transactions-page-find-specific-performance-problems#table_view">vários parâmetros</a> e saltar para aqueles que causam suspeita.</li>
 <li>Revise as transações com uma baixa pontuação do Apdex, contagem excepcionalmente alta ou tempo médio alto ou % de dispersão.</li>
-<li>Clique em cada transação individual. Se não conseguir resolver o problema, <a href="/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket">envie um tíquete de suporte.</a>
+<li>Clique em cada transação individual. Se não conseguir resolver o problema, <a href="https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket">envie um tíquete de suporte.</a>
 </li>
 <li>Se precisar investigar mais, considere verificar transações que não sejam da Web.</li>
 </ol>
@@ -60,7 +60,7 @@ Este artigo fornece etapas de solução de problemas para resolver problemas de 
 </ol>
 </td>
 <td>
-<p>Para saber mais sobre a pontuação do Apdex do New Relic, consulte <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction">Documentação do New Relic &gt; Apdex APM &gt; Medir a satisfação do usuário</a>. Você também pode consultar <a href="https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-apdex-warning-alert">Alertas gerenciados para Adobe Commerce: alerta de aviso Apdex</a> em nossa base de dados de conhecimento de suporte.</p>
+<p>Para saber mais sobre a pontuação do Apdex do New Relic, consulte <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction">Documentação do New Relic &gt; Apdex APM &gt; Medir a satisfação do usuário</a>. Você também pode consultar <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-apdex-warning-alert">Alertas gerenciados para Adobe Commerce: alerta de aviso Apdex</a> em nossa base de dados de conhecimento de suporte.</p>
 </td>
 </tr>
 <tr>

@@ -4,9 +4,9 @@ description: Este artigo fornece uma correção para o problema em que você ten
 exl-id: 8e3bb65c-ea75-4af4-ad4b-4d94ab219bbb
 feature: Cache, Data Import/Export, Products, Variables
 role: Developer
-source-git-commit: b6f1222918b027eaecda42b767e6f83b2cf0f5d0
+source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
@@ -95,8 +95,8 @@ Para adicionar o processo como um trabalho cron opcionalmente, você deve adicio
 
 >[!TIP]
 >
->[Arquivos YAML](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=pt-BR) diferenciam maiúsculas de minúsculas e não permitem guias. Tenha cuidado para usar recuo consistente em todo o arquivo .magento.env.yaml ou sua configuração pode não funcionar como esperado. Os exemplos na documentação e no arquivo de amostra usam recuo de dois espaços. Use o comando ece-tools validate para verificar sua configuração.
+>[Arquivos YAML](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) diferenciam maiúsculas de minúsculas e não permitem guias. Tenha cuidado para usar recuo consistente em todo o arquivo .magento.env.yaml ou sua configuração pode não funcionar como esperado. Os exemplos na documentação e no arquivo de amostra usam recuo de dois espaços. Use o comando ece-tools validate para verificar sua configuração.
 
 >[!NOTE]
 >
->Nos projetos Pro do Adobe Commerce on cloud infrastructure, o [recurso de autocronagem](/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=en#crontab) deve estar habilitado na infraestrutura do Adobe Commerce on cloud antes que você possa adicionar trabalhos cron personalizados aos ambientes de preparo e produção usando o `.magento.app.yaml`. Se este recurso não estiver habilitado, [crie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket), para que o trabalho seja adicionado para você.
+>Nos projetos Pro do Adobe Commerce on cloud infrastructure, o [recurso de autocronagem](/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=en#crontab) deve estar habilitado na infraestrutura do Adobe Commerce on cloud antes que você possa adicionar trabalhos cron personalizados aos ambientes de preparo e produção usando o `.magento.app.yaml`. Se este recurso não estiver habilitado, [crie um tíquete de suporte](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket), para que o trabalho seja adicionado para você.

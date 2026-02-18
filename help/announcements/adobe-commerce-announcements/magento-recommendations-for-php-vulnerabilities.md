@@ -1,23 +1,23 @@
 ---
-title: Adobe Commerce Recommendations para vulnerabilidades do PHP
+title: Recomendações do Adobe Commerce para vulnerabilidades do PHP
 description: No dia 3 de setembro, o Centro de Análise e Compartilhamento de Informações de Vários Estados (MS-ISAC) emitiu um alerta relacionado a várias vulnerabilidades que podem permitir a execução arbitrária de código e uma recomendação para que todos os sites que usam PHP atualizem para a versão mais recente do PHP o quanto antes ([alerta completo está disponível aqui](https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2019-087/)).
 exl-id: 0bc7caab-0b89-463a-a7f2-a7c92df9f84e
 feature: Compliance, Recommendations
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
 
-# Adobe Commerce Recommendations para vulnerabilidades do PHP
+# Recomendações do Adobe Commerce para vulnerabilidades do PHP
 
 No dia 3 de setembro, o MS-ISAC (Multi-State Information Sharing and Analysis Center) emitiu um alerta relacionado a várias vulnerabilidades que podem permitir a execução arbitrária de código e uma recomendação para que todos os sites que usam PHP atualizem para a versão mais recente do PHP o quanto antes ([o alerta completo está disponível aqui](https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2019-087/)).
 
 >[!WARNING]
 >
->No Adobe Commerce na infraestrutura em nuvem, observe que as atualizações de serviço não podem ser enviadas para o ambiente de produção sem aviso prévio de 48 horas úteis para nossa equipe de infraestrutura. Isso é necessário, pois precisamos garantir que tenhamos um engenheiro de suporte de infraestrutura disponível para atualizar sua configuração dentro de um prazo desejado com tempo de inatividade mínimo para seu ambiente de produção. Portanto, 48 horas antes de quando suas alterações precisam estar em produção [envie um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) detalhando a atualização de serviço necessária e informando a hora em que deseja que o processo de atualização tenha início.
+>No Adobe Commerce na infraestrutura em nuvem, observe que as atualizações de serviço não podem ser enviadas para o ambiente de produção sem aviso prévio de 48 horas úteis para nossa equipe de infraestrutura. Isso é necessário, pois precisamos garantir que tenhamos um engenheiro de suporte de infraestrutura disponível para atualizar sua configuração dentro de um prazo desejado com tempo de inatividade mínimo para seu ambiente de produção. Portanto, 48 horas antes de quando suas alterações precisam estar em produção [envie um tíquete de suporte](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) detalhando a atualização de serviço necessária e informando a hora em que deseja que o processo de atualização tenha início.
 
 Leia sobre os impactos e as etapas para sites do Adobe Commerce:
 
@@ -28,7 +28,7 @@ Se você estiver usando o Adobe Commerce na infraestrutura em nuvem, trabalhe co
 Observações adicionais sobre a reimplantação do site na nuvem para esta atualização:
 
 * Se o seu site ainda estiver usando o PHP versão 7.0, você precisará fazer upgrade para uma versão suportada do PHP primeiro antes de reimplantar para aproveitar essas atualizações de segurança.
-* Para 2.1.x/2.2.x, você pode encontrar mais informações sobre como atualizar o PHP [aqui](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version.html?lang=pt-BR).
+* Para 2.1.x/2.2.x, você pode encontrar mais informações sobre como atualizar o PHP [aqui](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version.html).
 
 \* *As versões anteriores deste artigo e nossas mensagens iniciaram em 19 de setembro, mas nossas equipes concluíram o trabalho antes do agendamento.*
 

@@ -4,9 +4,9 @@ description: Na Commerce Intelligence, nossa meta é fornecer um excelente atend
 exl-id: 2e1ef4b3-a77c-4281-8337-fb90574a44f7
 feature: Commerce Intelligence, User Account
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -43,11 +43,11 @@ Embora não possamos executar essas ações em seu nome, estamos dispostos a ori
 
 Além das funções de segurança de dados listadas acima, há algumas solicitações relacionadas ao produto que nossa equipe de suporte não pode acomodar:
 
-* **SQL de Ensino** - Deseja usar o Report Builder SQL, mas você não sabe o SQL? Não se preocupe - preparamos um [tutorial](/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html) para ajudá-lo com as noções básicas.
+* **SQL de Ensino** - Deseja usar o SQL Report Builder, mas você não sabe o SQL? Não se preocupe - preparamos um [tutorial](/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html) para ajudá-lo com as noções básicas.
 
 * **Problemas de visualização de SQL não causados por defeitos de produto** - Se um gráfico acabar parecendo um pouco estranho e **não for** causado por um defeito de produto, é provável que a causa seja a própria consulta. Veja nosso [Tutorial de criação de visualizações de consultas SQL](/docs/commerce-business-intelligence/mbi/tutorials/create-visuals-from-sql.html) em nosso guia do usuário para obter orientação sobre como estruturar suas consultas para visualização.
-* **Depurando consultas SQL** - Periodicamente, você pode encontrar erros não EXPLICAR que impedem a execução da consulta. Recomendamos consultar o [Guia do Usuário do Commerce Intelligence: usar o Report Builder SQL](/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html) e nosso tutorial SQL para ajudar a identificar onde a consulta deu errado.
+* **Depurando consultas SQL** - Periodicamente, você pode encontrar erros não EXPLICAR que impedem a execução da consulta. Recomendamos consultar o [Guia do Usuário do Commerce Intelligence: usar o SQL Report Builder](/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html) e nosso tutorial SQL para ajudar a identificar onde a consulta deu errado.
 
 ## Como faço para enviar um tíquete?
 
-Você pode [enviar um tíquete](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) para nossa equipe de suporte clicando no link **Enviar um tíquete** na parte superior da página. Recomendamos verificar as [Informações no seu tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#info-in-support-ticket) antes de entrar em contato conosco para verificar se todas as informações necessárias estão no seu envio inicial.
+Você pode [enviar um tíquete](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) para nossa equipe de suporte clicando no link **Enviar um tíquete** na parte superior da página. Recomendamos verificar as [Informações no seu tíquete de suporte](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) antes de entrar em contato conosco para verificar se todas as informações necessárias estão no seu envio inicial.

@@ -1,17 +1,17 @@
 ---
 title: Não é possível acessar a versão mais recente do Beta
-description: Este artigo fornece soluções para problemas que ocorrem ao tentar utilizar as versões mais recentes do Beta para o Adobe Commerce. O código Beta só está disponível para parceiros Adobe oficiais que tenham seguido o processo descrito no [Programa Adobe Commerce Beta](https://github.com/magento/magento2/wiki/Magento-Beta-Program).
+description: Este artigo fornece soluções para problemas que ocorrem ao tentar utilizar as versões mais recentes do Beta para o Adobe Commerce. O código Beta só está disponível para parceiros oficiais da Adobe que tenham seguido o processo descrito no [Programa Adobe Commerce Beta](https://github.com/magento/magento2/wiki/Magento-Beta-Program).
 exl-id: a53c854e-38a8-4c8c-8586-9d99c576c835
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
 
 # Não é possível acessar a versão mais recente do Beta
 
-Este artigo fornece soluções para problemas que ocorrem ao tentar utilizar as versões mais recentes do Beta para o Adobe Commerce. O código Beta só está disponível para parceiros Adobe oficiais que tenham seguido o processo descrito no [Programa Adobe Commerce Beta](https://github.com/magento/magento2/wiki/Magento-Beta-Program).
+Este artigo fornece soluções para problemas que ocorrem ao tentar utilizar as versões mais recentes do Beta para o Adobe Commerce. O código Beta só está disponível para parceiros oficiais da Adobe que tenham seguido o processo descrito no [Programa Adobe Commerce Beta](https://github.com/magento/magento2/wiki/Magento-Beta-Program).
 
 ## Problema
 
@@ -33,7 +33,7 @@ Estas são as causas mais comuns de problemas:
 
 ### Localização do código de acesso antecipado
 
-Durante os períodos de acesso beta, os pacotes de versão só estão disponíveis via Composer no [repo.magento.com](https://repo.magento.com/). Os pacotes de versão não estão disponíveis nos portais GitHub e Adobe Commerce durante esse período, e nós os publicaremos nesses locais na data de disponibilidade geral. Para obter mais detalhes sobre como usar o Composer, clique [aqui](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/composer).
+Durante os períodos de acesso beta, os pacotes de versão só estão disponíveis via Composer no [repo.magento.com](https://repo.magento.com/). Os pacotes de versão não estão disponíveis nos portais GitHub e Adobe Commerce durante esse período, e nós os publicaremos nesses locais na data de disponibilidade geral. Para obter mais detalhes sobre como usar o Composer, clique [aqui](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer).
 
 ### ID da imagem que você precisa usar
 
@@ -47,7 +47,7 @@ Para descobrir se a MageID é primária, tente o seguinte:
    * Se você vir as informações ativas da licença do Partner, sua MageID é a principal. A licença do Parceiro estará ativa se o valor DATA FINAL for uma data futura.
    * Se você não vir as informações ativas da licença do Partner, sua MageID terá somente acesso compartilhado. Para descobrir quem é o detentor da ID primária, vá para **Compartilhado(s) comigo** Observe o SHARENAME especificado. Clique em **Alternar contas** e selecione o valor anotado em SHARENAME. Na página de boas-vindas, você verá o email do titular da ID principal.
 1. Se, por qualquer motivo, você não conseguir encontrar essas informações em [magento.com](https://account.magento.com/customer/account/login), entre em contato com seu Gerente de Parceiros.
-1. Se nenhuma das situações acima funcionar, [contate o Suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#merchant-not-displayed).
+1. Se nenhuma das situações acima funcionar, [contate o Suporte](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide).
 
 #### O desenvolvedor não tem acesso correto às chaves
 
@@ -60,4 +60,4 @@ Se você for o proprietário primário da MageID e precisar conceder acesso a um
 
 ### Não faz parte do programa de acesso antecipado
 
-Nosso programa Beta Access está disponível apenas para nossos parceiros técnicos e de soluções, para que eles possam avaliar nosso código de pré-produção. Para ser incluída no programa Beta Access, sua organização deve ter uma conta de Parceiro de Adobe ativa e ter assinado o NDA da Beta [aqui](https://github.com/magento/magento2/wiki/Magento-Beta-Program). Se você acha que atende a estes critérios e não pode acessar o código beta, contate [commercebeta@adobe.com](mailto:commercebeta@adobe.com).
+Nosso programa Beta Access está disponível apenas para nossos parceiros técnicos e de soluções, para que eles possam avaliar nosso código de pré-produção. Para ser incluída no programa Beta Access, sua organização deve ter uma conta de Parceiro Adobe ativa em bom estado e ter assinado o NDA da Beta [aqui](https://github.com/magento/magento2/wiki/Magento-Beta-Program). Se você acha que atende a estes critérios e não pode acessar o código beta, contate [commercebeta@adobe.com](mailto:commercebeta@adobe.com).

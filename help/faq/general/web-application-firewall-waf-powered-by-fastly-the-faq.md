@@ -3,9 +3,9 @@ title: 'Firewall para aplicativos Web (WAF) ativado por Fastly: the FAQ'
 description: Os firewalls de aplicações Web (WAFs) impedem que tráfego mal-intencionado entre em sites e redes ao filtrar o tráfego em relação a um conjunto de regras de segurança. O tráfego que aciona qualquer uma das regras é bloqueado antes que possa danificar seus sites ou a rede.
 exl-id: d977ea68-7d8c-4863-b026-acdc25d8c430
 feature: Cache
-source-git-commit: f384ff9d5d8a8c5c5da20b582c02a2d783b32d7e
+source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1655'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Os firewalls de aplicativos Web (WAFs) impedem que [tráfego mal-intencionado](/
 
 O Adobe Commerce Cloud WAF fornece uma política do WAF com um conjunto de regras projetado para proteger seus aplicativos Web do Adobe Commerce contra uma grande variedade de ataques.
 
-O WAF examina o tráfego da Web e do administrador para identificar qualquer atividade suspeita. Ele avalia o GET e o tráfego de POST (chamadas de API HTTP) e aplica o conjunto de regras para determinar qual tráfego bloquear. O WAF pode bloquear uma grande variedade de ataques, incluindo ataques de injeção de SQL, ataques de script entre sites, ataques de exfiltração de dados e violações de protocolo HTTP.
+O WAF examina o tráfego da Web e do administrador para identificar qualquer atividade suspeita. Ele avalia o GET e o tráfego POST (chamadas de API HTTP) e aplica o conjunto de regras para determinar qual tráfego bloquear. O WAF pode bloquear uma grande variedade de ataques, incluindo ataques de injeção de SQL, ataques de script entre sites, ataques de exfiltração de dados e violações de protocolo HTTP.
 
 Como um serviço baseado em nuvem, a WAF não requer hardware ou software para instalar ou manter. O Fastly, um parceiro de tecnologia existente, fornece o software e a experiência. O WAF de alto desempenho e sempre ativo reside em cada nó de cache da rede de fornecimento global da Fastly.
 
@@ -104,7 +104,7 @@ Uma latência estimada de 1,5 milissegundos (ms) a 20 ms é introduzida a cada s
 
 ## Os clientes podem criar e modificar listas negras de IP para bloquear o tráfego?
 
-Sim, os clientes podem habilitar o bloqueio por país e a ACL (lista de controle de acesso) na interface do administrador do Adobe Commerce na infraestrutura em nuvem. Use esses recursos nos casos em que deseja bloquear o acesso de visitantes provenientes de países específicos ou de determinados IPs ou intervalos de IPs. Se você quiser que os visitantes bloqueados vejam uma página personalizada em vez de um código de erro, é possível criar uma página de erro personalizada carregando o HTML no menu de Configuração do Fastly. Consulte [Criar uma página de erro/manutenção personalizada](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=pt-BR) na documentação do desenvolvedor.
+Sim, os clientes podem habilitar o bloqueio por país e a ACL (lista de controle de acesso) na interface do administrador do Adobe Commerce na infraestrutura em nuvem. Use esses recursos nos casos em que deseja bloquear o acesso de visitantes provenientes de países específicos ou de determinados IPs ou intervalos de IPs. Se você quiser que os visitantes bloqueados vejam uma página personalizada em vez de um código de erro, é possível criar uma página de erro personalizada carregando o HTML no menu de Configuração rápida. Consulte [Criar uma página de erro/manutenção personalizada](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) na documentação do desenvolvedor.
 
 ## Onde posso verificar o status operacional do meu serviço da WAF?
 
@@ -118,7 +118,7 @@ No momento, o Gerenciamento de incidentes não é oferecido.
 
 Embora a Adobe Commerce não tenha um Centro de Operações de Segurança, temos um processo de operações de segurança que nos permite envolver os recursos certos para responder a incidentes de segurança em tempo real. Também oferecemos suporte 24 horas por dia, 7 dias por semana, 365 dias por ano, após o horário normal.
 
-Você também pode obter notícias e atualizações de segurança relacionadas ao Adobe Commerce na [Central de Segurança](https://helpx.adobe.com/br/security.html).
+Você também pode obter notícias e atualizações de segurança relacionadas ao Adobe Commerce na [Central de Segurança](https://helpx.adobe.com/security.html).
 
 ## Que suporte está disponível?
 
@@ -132,7 +132,7 @@ Consulte os termos do [Cloud SLA](https://www.adobe.com/content/dam/cc/en/legal/
 
 ## Se o WAF estiver bloqueando o tráfego legítimo ou causando outros problemas, como posso obter ajuda?
 
-[Enviar um tíquete de suporte](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) na [Central de Ajuda da Adobe Commerce](https://support.magento.com). Inclua, indique que o ticket está relacionado ao serviço do WAF e inclua o identificador (ID) de solicitação bloqueada.
+[Enviar um tíquete de suporte](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) na [Central de Ajuda da Adobe Commerce](https://support.magento.com). Inclua, indique que o ticket está relacionado ao serviço do WAF e inclua o identificador (ID) de solicitação bloqueada.
 
 O sistema de emissão de tíquetes de suporte da Adobe Commerce rastreia a comunicação entre nossos engenheiros de suporte e a equipe de um cliente. Esse sistema fornece uma transcrição das comunicações com carimbo de data e hora e envia emails para o cliente e para a equipe da Adobe Commerce à medida que os tíquetes são atualizados.
 
@@ -160,7 +160,7 @@ A tabela a seguir resume os canais de suporte e a disponibilidade do Suporte da 
 </tr>
 <tr>
 <td>Escalonamento de emergência*</td>
-<td>Consulte o artigo <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-p1-notification-hotline.html?lang=pt-BR">hotline de notificação P1 da Adobe Commerce</a> para ver os números internacionais e dos EUA.</td>
+<td>Consulte o artigo <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-p1-notification-hotline.html">hotline de notificação P1 da Adobe Commerce</a> para ver os números internacionais e dos EUA.</td>
 </tr>
 </tbody>
 </table>

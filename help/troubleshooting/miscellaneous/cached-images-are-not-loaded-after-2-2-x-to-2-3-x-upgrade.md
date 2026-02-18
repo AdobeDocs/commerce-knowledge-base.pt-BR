@@ -4,9 +4,9 @@ description: Este artigo fornece a solução para o problema de imagens em cache
 exl-id: 3e6bd5aa-bd5d-4880-8b78-64f280647abe
 feature: Cache, Upgrade
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -43,8 +43,8 @@ O problema é causado pelo conjunto incorreto de configuração Nginx em `.magen
    * Starter Plan: corrija o arquivo por conta própria e envie as alterações.
    * Plano Pro:
    * Integração: corrija o arquivo por conta própria e envie as alterações.
-   * Preparo e produção: corrija o arquivo você mesmo, envie as alterações por push e crie um [tíquete de suporte do Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) para aplicá-lo.
+   * Preparo e produção: corrija o arquivo você mesmo, envie as alterações por push e crie um [tíquete de suporte do Adobe Commerce](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) para aplicá-lo.
 
-1. Habilite a otimização de imagem do Fastly no Administrador do Commerce (O Fastly deve ser configurado previamente), conforme descrito em <https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization>.
+1. Habilite a otimização de imagem do Fastly no Administrador do Commerce (O Fastly deve ser configurado previamente), conforme descrito em <https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization>.
 
-Se a configuração estiver correta, mas o problema persistir, continue a investigação ou contate o [Suporte da Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+Se a configuração estiver correta, mas o problema persistir, continue a investigação ou contate o [Suporte da Adobe Commerce](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide).
