@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 9d80bfb801d55c25627e92e9777699c14056e2dd
+source-git-commit: 3e4d6106345c2a05108171fa6b8d9646f40efbc5
 workflow-type: tm+mt
-source-wordcount: '2140'
+source-wordcount: '2123'
 ht-degree: 0%
 
 ---
@@ -211,7 +211,6 @@ ht-degree: 0%
    * [Guia do usuário de suporte da Experience League para Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
 * Como {#how-to}
    * [Visão geral](/help/how-to/overview.md)
-   * [Como obter e aplicar patches de segurança](/help/how-to/general/how-to-obtain-and-apply-security-patches.md)
    * [Lista de verificação para configurar um novo  [!DNL domain]](/help/how-to/general/checklist-for-setting-up-a-new-domain.md)
    * [Restaurar um instantâneo do banco de dados de preparo ou produção](/help/how-to/general/restore-a-db-snapshot-from-staging-or-production.md)
    * [Adobe Commerce Intelligence Essentials: atualizar a forma de pagamento ou cancelar a assinatura](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)
@@ -220,7 +219,6 @@ ht-degree: 0%
    * [Localizar tabelas MySQL grandes](/help/how-to/general/find-large-mysql-tables.md)
    * [Redefinir trabalhos cron travados do Adobe Commerce na infraestrutura em nuvem manualmente](/help/how-to/general/reset-stuck-magento-cron-jobs-manually-on-cloud.md)
    * [Testar o Fastly na produção se um Site Ativo usar o mesmo domínio](/help/how-to/general/test-fastly-on-production-if-a-live-site-uses-the-same-domain.md)
-   * [Opções de implantação de conteúdo estático para reduzir o tempo de inatividade da implantação na nuvem](/help/how-to/general/static-content-deployment-options-to-reduce-deployment-downtime-on-cloud.md)
    * [Identificar e medir paralisações do Adobe Commerce na infraestrutura em nuvem](/help/how-to/general/how-to-identify-outages.md)
    * [Alterar proprietário da conta para New Relic na nuvem](/help/how-to/general/change-account-owner-for-new-relic-on-cloud.md)
    * [Alterar o URL do administrador no Adobe Commerce na infraestrutura em nuvem](/help/how-to/general/change-magento-admin-url-on-cloud.md)
