@@ -1,10 +1,10 @@
 ---
 title: 'PWA Studio: o navegador não pode resolver o site .local.pwadev'
-description: Este artigo fornece uma solução para quando outro programa ou processo editou seu [arquivo host] (https://en.wikipedia.org/wiki/Hosts_(file) e removeu a entrada do domínio do projeto.
+description: Este artigo fornece uma solução para quando outro programa ou processo editou seu [arquivo host](https://en.wikipedia.org/wiki/Hosts_(file\) e removeu a entrada do domínio do projeto.
 exl-id: a1606016-906a-433f-9e40-9faa5f9bd790
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 1d0d51209bdc02360c6f8527701cdf0da811659d
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # PWA Studio: o navegador não pode resolver o site .local.pwadev
 
-Este artigo fornece uma solução para quando outro programa ou processo tiver editado seu [arquivo host](https://en.wikipedia.org/wiki/Hosts_(file\)) e removido a entrada do domínio do projeto.
+Este artigo fornece uma solução para quando outro programa ou processo tiver editado seu [arquivo host]&#x200B;(https://en.wikipedia.org/wiki/Hosts_(file\)) e removido a entrada do domínio do projeto.
 
 ## Produtos e versões afetados
 
@@ -31,11 +31,11 @@ Essa entrada instrui qualquer navegador no computador do desenvolvedor a examina
 
 ## Solução
 
-Você pode [editar manualmente seu arquivo de host](https://support.rackspace.com/how-to/modify-your-hosts-file/) para adicionar a entrada de volta, mas deve examinar seu outro software instalado para ver o que substituiu a alteração anterior.
+Você pode [editar manualmente seu arquivo de host](https://docs.rackspace.com/docs/modify-your-hosts-file) para adicionar a entrada de volta, mas deve examinar seu outro software instalado para ver o que substituiu a alteração anterior.
 
 ## Leitura relacionada em nossa base de conhecimento de suporte
 
-* [PWA Studio: Erro de confiança de certificado autoassinado](https://support.magento.com/hc/en-us/articles/360038973172)
+* [PWA Studio: erro de confiança de certificado autoassinado](https://support.magento.com/hc/en-us/articles/360038973172)
 * [PWA Studio: o Webpack trava antes de iniciar a compilação](/help/troubleshooting/miscellaneous/pwa-studio-webpack-hangs-before-beginning-compilation.md)
-* [PWA Studio: O navegador exibe o erro &quot;Não é possível usar proxy para&quot;](/help/troubleshooting/miscellaneous/pwa-studio-browser-displays-cannot-proxy-to-error.md)
-* [PWA Studio: Erros de validação ao executar o modo de desenvolvedor](/help/troubleshooting/miscellaneous/pwa-studio-validation-errors-when-running-developer-mode.md)
+* [PWA Studio: o navegador exibe o erro &quot;Não é possível usar proxy para&quot;](/help/troubleshooting/miscellaneous/pwa-studio-browser-displays-cannot-proxy-to-error.md)
+* [PWA Studio: erros de validação ao executar o modo de desenvolvedor](/help/troubleshooting/miscellaneous/pwa-studio-validation-errors-when-running-developer-mode.md)
