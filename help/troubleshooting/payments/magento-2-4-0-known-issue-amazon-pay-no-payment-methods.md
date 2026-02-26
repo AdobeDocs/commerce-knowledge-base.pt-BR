@@ -4,9 +4,9 @@ description: Este artigo fornece uma solução para um problema conhecido do Ado
 exl-id: efd792c7-8970-4366-b9d1-4bf284ea96db
 feature: B2B, Orders, Payments
 role: Developer
-source-git-commit: 05297c82b292b8ccc88018c58e991bd3a32d6ffa
+source-git-commit: 7705b6030d2f0877c228dae1707916ad38c9d587
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
@@ -43,5 +43,4 @@ Uma resolução está planejada para 2.4.1.
 ## Leituras relacionadas em nossa base de conhecimento de suporte:
 
 * [Problema conhecido do Adobe Commerce 2.4.0: mensagem de erro que seleciona o método de pagamento local exibido para alguns países durante a finalização da compra](/help/troubleshooting/payments/magento-2-4-0-checkout-error-selecting-local-payments.md)
-* [O administrador B2B do Adobe Commerce 2.4.0 não pode adicionar o produto configurável à cotação](/help/troubleshooting/miscellaneous/magento-2-4-0-b2b-admin-can-t-add-configurable-product-to-quote.md)
 * [Problema conhecido do Adobe Commerce 2.4.0: os métodos de pagamento do Braintree não são exibidos na finalização de vários endereços](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)

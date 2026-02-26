@@ -4,9 +4,9 @@ description: 'Este artigo fornece uma solução para o problema em que a instala
 exl-id: 0680199b-7e47-4a8c-91fe-9f6c32839a0e
 feature: B2B, Cache, Console, Install, Upgrade
 role: Developer
-source-git-commit: 05297c82b292b8ccc88018c58e991bd3a32d6ffa
+source-git-commit: 7705b6030d2f0877c228dae1707916ad38c9d587
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,5 @@ O problema será corrigido no escopo da versão 2.4.1 do.
 * [Adobe Commerce 2.4.0, 2.4.1: Ativar problema de fatura parcial do Braintree Venmo](/help/troubleshooting/payments/magento-2-4-0-2-4-1-enable-braintree-venmo-partial-invoice-issue.md)
 * [Problema conhecido do Adobe Commerce 2.4.0: mensagem de erro que seleciona o método de pagamento local exibido para alguns países durante a finalização da compra](/help/troubleshooting/payments/magento-2-4-0-checkout-error-selecting-local-payments.md)
 * [Problema conhecido do Adobe Commerce 2.4.0: Pagamento do Amazon ativado, métodos de pagamento ausentes ao retornar ao checkout padrão usado](/help/troubleshooting/payments/magento-2-4-0-known-issue-amazon-pay-no-payment-methods.md)
-* [O administrador B2B do Adobe Commerce 2.4.0 não pode adicionar o produto configurável à cotação](/help/troubleshooting/miscellaneous/magento-2-4-0-b2b-admin-can-t-add-configurable-product-to-quote.md)
 * [Problema conhecido do Adobe Commerce 2.4.0: os métodos de pagamento do Braintree não são exibidos na finalização de vários endereços](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)
 
