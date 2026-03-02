@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: caefdec695d553b2681e8677b200e687ea824d55
+source-git-commit: d1169e70188408f48207d9ca9b5a9ec3aaabeea0
 workflow-type: tm+mt
-source-wordcount: '2071'
+source-wordcount: '2043'
 ht-degree: 1%
 
 ---
@@ -180,7 +180,6 @@ ht-degree: 1%
       * [Módulos ausentes do Adobe Commerce 2.4.4](/help/troubleshooting/miscellaneous/what-happened-modules-bundled-adobe-commerce.md)
       * [Ex-membros da equipe recebem emails de notificação na nuvem do Adobe Commerce](/help/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.md)
       * [O novo domínio está redirecionando para o domínio padrão](/help/troubleshooting/miscellaneous/new-domain-redirecting.md)
-      * [Não foi possível adicionar o usuário ao projeto na nuvem do Adobe Commerce](/help/troubleshooting/miscellaneous/unable-add-user-adobe-commerce-cloud-project.md)
       * [O Cron para devido a uma configuração incorreta ou ausente [!DNL OpCache settings]](/help/troubleshooting/miscellaneous/crons-blocked-running-missing-opache-settings.md)
       * [O login do [!DNL Admin] não está funcionando - tamanho máximo de sessão permitido excedido](/help/troubleshooting/miscellaneous/admin-login-not-working-allowed-session-max-size-exceed.md)
       * [[!DNL Google Tag Manager] foi interrompido pelo widget do Live Search](/help/troubleshooting/miscellaneous/google-tag-manager-broken-by-live-search-widget.md)
@@ -224,10 +223,8 @@ ht-degree: 1%
    * [Alterar ID de incremento de uma entidade do banco de dados (pedido, fatura, aviso de crédito etc.) em uma loja específica](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)
    * [Configurar o Fastly para o plano inicial na Nuvem](/help/how-to/general/set-up-fastly-for-starter-plan-on-cloud.md)
    * [Vídeo de treinamento do Adobe Commerce Intelligence: Cohort Report Builder](/help/how-to/general/mbi-training-video-cohort-report-builder.md)
-   * [Atualização do MariaDB 10.0 para 10.2 para Adobe Commerce na nuvem](/help/how-to/general/upgrade-mariadb-10-0-to-10-2-for-magento-commerce-cloud.md)
    * [Redefinir o ambiente no Adobe Commerce na infraestrutura em nuvem](/help/how-to/general/reset-environment-on-cloud.md)
    * [MBI: Reautenticação de integrações](/help/how-to/general/mbi-reauthenticating-integrations.md)
-   * [Definição das configurações de DNS do Fastly nos ambientes de Preparo e Produção](/help/how-to/general/configure-fastly-dns-settings-on-staging-and-production-environments.md)
    * [Locais de registro (diretórios) para plano Pro: integração, preparo, produção](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)
    * [Adobe Commerce na nuvem: verifique se o upsize das instâncias do host é necessário](/help/how-to/general/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.md)
    * [Bootstrap Adobe Commerce 2 em um script de sandbox](/help/how-to/general/bootstrap-magento-2-in-a-sandbox-script.md)
