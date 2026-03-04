@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 37d987f5eab3d229f0f3230c7da5a7a79c910dc4
+source-git-commit: 3386035e973f1f839a9ff8792b4c2dbd55262139
 workflow-type: tm+mt
-source-wordcount: '2036'
+source-wordcount: '2028'
 ht-degree: 1%
 
 ---
@@ -221,7 +221,6 @@ ht-degree: 1%
    * [Alocar mais espaço para o MySQL no Adobe Commerce na nuvem](/help/how-to/general/allocate-more-space-for-mysql-in-magento-commerce-cloud.md)
    * [Alterar ID de incremento de uma entidade do banco de dados (pedido, fatura, aviso de crédito etc.) em uma loja específica](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)
    * [Configurar o Fastly para o plano inicial na Nuvem](/help/how-to/general/set-up-fastly-for-starter-plan-on-cloud.md)
-   * [Vídeo de treinamento do Adobe Commerce Intelligence: Cohort Report Builder](/help/how-to/general/mbi-training-video-cohort-report-builder.md)
    * [Redefinir o ambiente no Adobe Commerce na infraestrutura em nuvem](/help/how-to/general/reset-environment-on-cloud.md)
    * [MBI: Reautenticação de integrações](/help/how-to/general/mbi-reauthenticating-integrations.md)
    * [Locais de registro (diretórios) para plano Pro: integração, preparo, produção](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)
