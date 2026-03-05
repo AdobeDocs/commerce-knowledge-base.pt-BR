@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 3386035e973f1f839a9ff8792b4c2dbd55262139
+source-git-commit: 0d15e1ccd8acd9bd20d2665a8e0581c034432609
 workflow-type: tm+mt
-source-wordcount: '2028'
+source-wordcount: '2018'
 ht-degree: 1%
 
 ---
@@ -236,7 +236,6 @@ ht-degree: 1%
    * [Adobe Commerce na nuvem: altere as chaves de autenticação e reimplante](/help/how-to/general/redeploy-with-another-key.md)
    * [Como criar um despejo &quot;limpo&quot; quando solicitado pelo agente de suporte](/help/how-to/general/create-dump-for-support.md)
    * [MBI: Criação e edição de colunas calculadas avançadas](/help/how-to/general/mbi-creating-and-editing-advanced-calculated-columns.md)
-   * [Verificar limite de espaço em disco para o Adobe Commerce na infraestrutura em nuvem](/help/how-to/general/check-disk-space-limit-for-magento-commerce-cloud.md)
    * [Certificados SSL (TLS) para Adobe Commerce na infraestrutura em nuvem](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md)
    * [Não é possível acessar a versão mais recente do Beta](/help/how-to/general/cannot-access-the-latest-beta-version.md)
    * [Alternar o modo de Aplicativo](/help/how-to/general/switch-the-magento-mode.md)
