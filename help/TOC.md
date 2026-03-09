@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 0d15e1ccd8acd9bd20d2665a8e0581c034432609
+source-git-commit: 27fdd8be38a2507601aba7d52a0cd4348ec9ed6e
 workflow-type: tm+mt
-source-wordcount: '2018'
+source-wordcount: '2009'
 ht-degree: 1%
 
 ---
@@ -215,7 +215,6 @@ ht-degree: 1%
    * [Redefinir trabalhos cron travados do Adobe Commerce na infraestrutura em nuvem manualmente](/help/how-to/general/reset-stuck-magento-cron-jobs-manually-on-cloud.md)
    * [Testar o Fastly na produção se um Site Ativo usar o mesmo domínio](/help/how-to/general/test-fastly-on-production-if-a-live-site-uses-the-same-domain.md)
    * [Identificar e medir paralisações do Adobe Commerce na infraestrutura em nuvem](/help/how-to/general/how-to-identify-outages.md)
-   * [Alterar o URL do administrador no Adobe Commerce na infraestrutura em nuvem](/help/how-to/general/change-magento-admin-url-on-cloud.md)
    * [Reorganizar ramificações de nuvem no Adobe Commerce](/help/how-to/general/rearrange-cloud-branches-adobe-commerce.md)
    * [Redirecionar HTTP para HTTPS para todas as páginas no Adobe Commerce na infraestrutura em nuvem (Forçar TLS)](/help/how-to/general/redirect-http-to-https-for-all-pages-on-cloud-force-tls.md)
    * [Alocar mais espaço para o MySQL no Adobe Commerce na nuvem](/help/how-to/general/allocate-more-space-for-mysql-in-magento-commerce-cloud.md)
