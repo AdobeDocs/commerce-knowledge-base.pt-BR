@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 9eb525793f5401cf23931b9cbff92ba92c1024c1
+source-git-commit: 90da89b659179c2789a9ac60b4834411300f332b
 workflow-type: tm+mt
-source-wordcount: '1996'
+source-wordcount: '1992'
 ht-degree: 1%
 
 ---
@@ -210,7 +210,6 @@ ht-degree: 1%
    * [Adobe Commerce Intelligence Essentials: atualizar a forma de pagamento ou cancelar a assinatura](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)
    * [Reverter ambiente sem instantâneo da nuvem](/help/how-to/general/roll-back-environment-without-cloud-snapshot.md)
    * [Adobe Commerce na infraestrutura em nuvem: cálculo de alocação do CPU](/help/how-to/general/magento-commerce-cloud-cpu-allocation-calculation.md)
-   * [Localizar tabelas MySQL grandes](/help/how-to/general/find-large-mysql-tables.md)
    * [Redefinir trabalhos cron travados do Adobe Commerce na infraestrutura em nuvem manualmente](/help/how-to/general/reset-stuck-magento-cron-jobs-manually-on-cloud.md)
    * [Testar o Fastly na produção se um Site Ativo usar o mesmo domínio](/help/how-to/general/test-fastly-on-production-if-a-live-site-uses-the-same-domain.md)
    * [Identificar e medir paralisações do Adobe Commerce na infraestrutura em nuvem](/help/how-to/general/how-to-identify-outages.md)
