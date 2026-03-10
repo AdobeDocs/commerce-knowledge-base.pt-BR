@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 8351ff2e2ac3db4488ad61dc38974e4ca79c6ce6
+source-git-commit: 9eb525793f5401cf23931b9cbff92ba92c1024c1
 workflow-type: tm+mt
-source-wordcount: '2002'
+source-wordcount: '1996'
 ht-degree: 1%
 
 ---
@@ -92,7 +92,6 @@ ht-degree: 1%
       * [Problemas de verificação de preparação do Cron](/help/troubleshooting/miscellaneous/cron-readiness-check-issues.md)
       * [Consultas SQL: EXPLICAR erros de custo](/help/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.md)
       * [Solução de problemas do New Relic no Adobe Commerce na infraestrutura em nuvem](/help/troubleshooting/miscellaneous/troubleshooting-new-relic-on-magento-commerce-cloud.md)
-      * [Habilite o cache para evitar degradação de desempenho](/help/troubleshooting/miscellaneous/enable-magento-cache-to-avoid-performance-degradation.md)
       * [Guia de solução de problemas da ferramenta Adobe Commerce Security Scan](/help/troubleshooting/miscellaneous/security-scan-tool-troubleshooting-guide.md)
       * [Problemas de verificação de preparação de permissões de arquivo](/help/troubleshooting/miscellaneous/file-permissions-readiness-check-issues.md)
       * [Diagnóstico de discrepâncias de receita de comércio eletrônico do Google](/help/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.md)
