@@ -34,13 +34,13 @@ Ao planejar seu projeto do Adobe Commerce na infraestrutura em nuvem, você pode
 
 Siga estas etapas para processar o subdomínio no projeto de infraestrutura do Adobe Commerce na nuvem:
 
-* [Envie um tíquete de suporte](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) solicitando a adição do subdomínio à configuração Fastly service/Nginx (para a arquitetura de plano do Adobe Commerce na infraestrutura em nuvem Pro).
+* [Envie um tíquete de suporte](https://experienceleague.adobe.com/pt-br/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) solicitando a adição do subdomínio à configuração Fastly service/Nginx (para a arquitetura de plano do Adobe Commerce na infraestrutura em nuvem Pro).
 * Defina as configurações de DNS correspondentes no seu lado.
 
 Depois de executar as etapas para configuração de subdomínio, você também deve seguir estas etapas para validar o domínio de produção para o certificado SSL:
 
 * Faça upload do registro TXT de DNS para validação SSL do seu domínio de produção.
-* [Envie um tíquete de suporte](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) solicitando a validação do domínio de produção para o certificado SSL.
+* [Envie um tíquete de suporte](https://experienceleague.adobe.com/pt-br/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) solicitando a validação do domínio de produção para o certificado SSL.
 
 O uso do subdomínio permite executar uma &quot;inicialização suave&quot; do armazenamento no futuro, pois essa inicialização requer apenas a atualização das configurações de DNS correspondentes.
 
@@ -48,10 +48,10 @@ O uso do subdomínio permite executar uma &quot;inicialização suave&quot; do a
 
 Em nossa base de conhecimento de suporte:
 
-* [Definir as configurações do Fastly DNS nos ambientes de Preparo e Produção](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/configure-fastly-dns-settings-on-staging-and-production-environments.html)
-* [Possíveis bloqueadores para inicialização no Adobe Commerce na infraestrutura de nuvem](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.html)
+* [Definir as configurações do Fastly DNS nos ambientes de Preparo e Produção](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/configure-fastly-dns-settings-on-staging-and-production-environments.html?lang=pt-BR)
+* [Possíveis bloqueadores para inicialização no Adobe Commerce na infraestrutura de nuvem](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.html?lang=pt-BR)
 
 Em nossa documentação do desenvolvedor:
 
-* [Visão geral do Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
-* [Lista de verificação de ativação: configurações de DNS para o Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html)
+* [Visão geral do Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=pt-BR)
+* [Lista de verificação de ativação: configurações de DNS para o Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html?lang=pt-BR)
