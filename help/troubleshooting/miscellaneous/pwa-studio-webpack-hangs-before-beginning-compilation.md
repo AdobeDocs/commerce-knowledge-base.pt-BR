@@ -1,10 +1,10 @@
 ---
 title: 'PWA Studio: o Webpack trava antes de iniciar a compilação'
-description: Este artigo fala sobre uma solução sugerida para quando um javascript [Webpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack) trava por um longo tempo antes de iniciar a compilação no Progressive Web App Studio (PWA Studio).
+description: Este artigo fala sobre uma solução sugerida para quando um javascript [Webpack](https://developer.adobe.com/commerce/pwa-studio/guides/project/tools-libraries/#webpack) trava por um longo tempo antes de iniciar a compilação no Progressive Web App Studio (PWA Studio).
 exl-id: 692eeafa-9289-4d66-9f2f-1e0fe36e681d
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 032fe4d32921c63570672b9c68e8c03e00bd1077
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # PWA Studio: o Webpack trava antes de iniciar a compilação
 
-Este artigo fala sobre uma solução sugerida para quando um javascript [Webpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack) trava por muito tempo antes de iniciar a compilação no Progressive Web App Studio (PWA Studio).
+Este artigo fala sobre uma solução sugerida para quando um javascript [Webpack](https://developer.adobe.com/commerce/pwa-studio/guides/project/tools-libraries/#webpack) trava por muito tempo antes de iniciar a compilação no Progressive Web App Studio (PWA Studio).
 
 ## Produtos e versões afetados
 
@@ -37,7 +37,7 @@ projeto, o webpack pode travar por muito tempo antes de iniciar a compilação.
 
 <u>Etapas a serem reproduzidas</u>:
 
-<u>Pré-requisitos</u>: configure uma loja de PWA Studio, como Venia, com uma instância do Adobe Commerce local e execute um
+<u>Pré-requisitos</u>: configure uma loja da PWA Studio, como Venia, com uma instância do Adobe Commerce local e execute um
 
 ```yaml
 build
@@ -93,7 +93,7 @@ Você pode instalar versões superiores do OpenSSL com o [Homebrew](https://brew
 ## Leitura relacionada
 
 * [Webpack de Javascript: Conceitos](https://webpack.js.org/concepts/)
-* [Configuração da vitrine Venia](https://magento.github.io/pwa-studio/venia-pwa-concept/setup/)
-* [Pacote de compilação do PWA](https://magento.github.io/pwa-studio/pwa-buildpack/)
-* [Interface de Linha de Comando do buildpack](https://magento.github.io/pwa-studio/pwa-buildpack/reference/buildpack-cli/)
-* [Ferramentas e bibliotecas: buildpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack)
+* [Configuração da vitrine Venia](https://developer.adobe.com/commerce/pwa-studio/guides/packages/venia/)
+* [Pacote de compilação do PWA](https://developer.adobe.com/commerce/pwa-studio/guides/packages/buildpack/)
+* [Interface de Linha de Comando do buildpack](https://developer.adobe.com/commerce/pwa-studio/api/buildpack/cli/)
+* [Ferramentas e bibliotecas: buildpack](https://developer.adobe.com/commerce/pwa-studio/guides/project/tools-libraries/#webpack)
