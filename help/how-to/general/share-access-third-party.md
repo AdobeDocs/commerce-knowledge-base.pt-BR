@@ -27,11 +27,11 @@ Dependendo dos seus padrões internos de segurança, você pode optar pela solu�
 
 * Forneça acesso de terceiros ao ambiente de nuvem. Artigos relacionados:
 
-   * [Guia do Usuário da Central de Ajuda do Adobe Commerce > ACESSO COMPARTILHADO: CONCEDER PRIVILÉGIOS PARA QUE OUTROS USUÁRIOS ACESSEM SUA CONTA](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#shared-access) em nossa base de dados de conhecimento de suporte.
-   * [Compartilhando sua conta da Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share) em nosso guia do usuário.
+   * [Guia do Usuário da Central de Ajuda do Adobe Commerce > ACESSO COMPARTILHADO: CONCEDER PRIVILÉGIOS PARA QUE OUTROS USUÁRIOS ACESSEM SUA CONTA](https://experienceleague.adobe.com/pt-br/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#shared-access) em nossa base de dados de conhecimento de suporte.
+   * [Compartilhando sua conta da Commerce](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/start/commerce-account/commerce-account-share) em nosso guia do usuário.
 
 * Crie um despejo de banco de dados (ou conceda acesso a fornecedor de terceiros para fazer isso). Isso pode ser feito usando a CLI ou no Commerce Admin. Esse despejo de DB ofuscará os dados do cliente, de modo que tudo o que eles obtêm é código e SKUs de produto etc., sem dados de propriedade/cliente. Para referência, use o [Compartilhamento de sua conta da Commerce] (/help/how-to/general/create-database-dump-on-cloud.md) em nossa knowledge base de suporte.
-* Quando o teste for concluído, revogue o acesso compartilhado ao seu ambiente de nuvem, conforme descrito no [Guia do Usuário da Central de Ajuda da Adobe Commerce > Revogar (excluir acesso compartilhado)](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#revoke-shared-access) em nossa base de dados de conhecimento de suporte.
+* Quando o teste for concluído, revogue o acesso compartilhado ao seu ambiente de nuvem, conforme descrito no [Guia do Usuário da Central de Ajuda da Adobe Commerce > Revogar (excluir acesso compartilhado)](https://experienceleague.adobe.com/pt-br/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#revoke-shared-access) em nossa base de dados de conhecimento de suporte.
 
 ## Prática recomendada de teste
 
