@@ -3,9 +3,9 @@ title: 'Vídeo de treinamento do Adobe Commerce Intelligence: conjuntos de filtr
 description: Deseja analisar apenas determinadas partes dos dados da empresa? Cansado de limpar manualmente as coisas? No Adobe Commerce Intelligence, você pode usar o recurso de conjuntos de filtros para simplificar esse processo.
 exl-id: 2756f1f0-1465-4a7b-b249-7a3b36674e43
 feature: Commerce Intelligence
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: 724a30310c3841f8280628436925f9a3e5933b14
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,6 @@ Neste vídeo, você aprenderá:
 * Como aplicar um conjunto de filtros a uma métrica
 * Como aplicar um conjunto de filtros a uma dimensão de dados calculada
 
-Para assistir ao vídeo, acesse [Commerce Intelligence - Conjuntos de Filtros](/docs/commerce-learn/tutorials/business-intelligence/filter-sets.html) no Adobe Experience League.
+Para assistir ao vídeo, acesse [Commerce Intelligence - Conjuntos de Filtros](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/business-intelligence/filter-sets.html) na Adobe Experience League.
 
-**Deseja acompanhar?** Confira nosso [Tutorial de criação de conjuntos de filtros para métricas](/docs/commerce-business-intelligence/mbi/build/reports/ess-manage-data-filters.html) para obter instruções escritas.
+**Deseja acompanhar?** Confira nosso [Tutorial de criação de conjuntos de filtros para métricas](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/build/reports/ess-manage-data-filters.html) para obter instruções escritas.

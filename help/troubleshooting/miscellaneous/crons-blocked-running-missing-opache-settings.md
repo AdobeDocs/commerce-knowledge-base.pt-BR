@@ -4,9 +4,9 @@ description: Este artigo fornece uma solução para quando os crons param de fun
 exl-id: 30643ea9-969f-41c8-8e62-b24e56d690cf
 feature: Cache
 role: Developer
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 724a30310c3841f8280628436925f9a3e5933b14
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ O cron parou de funcionar.
 
 ## Causa
 
-O módulo [!DNL OpCache] foi atualizado para uma versão mais recente que introduziu um plug-in [!DNL GraphQL] que reescreve o `env.php` em tempo de execução e pode substituir a configuração cron, o que pode ter causado o problema. A configuração [!DNL OpCache] precisa ser atualizada para evitar problemas com o `env.php file`, e isso foi resolvido na [versão 2002.1.13](/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package.html?lang=en#v2002.1.13) do pacote [!DNL ECE Tools].
+O módulo [!DNL OpCache] foi atualizado para uma versão mais recente que introduziu um plug-in [!DNL GraphQL] que reescreve o `env.php` em tempo de execução e pode substituir a configuração cron, o que pode ter causado o problema. A configuração [!DNL OpCache] precisa ser atualizada para evitar problemas com o `env.php file`, e isso foi resolvido na [versão 2002.1.13](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package.html?lang=en#v2002.1.13) do pacote [!DNL ECE Tools].
 
 ## Solução
 
@@ -56,6 +56,6 @@ Se esse arquivo não estiver presente, adicione https://github.com/magento/magen
 
 ## Leitura relacionada
 
-* [Problemas de verificação de preparação do Cron](/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-readiness-check-issues.html)
-* [Propriedade Crons](/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html)
-* [A tarefa do Cron está paralisada no status &quot;em execução&quot;](/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html)
+* [Problemas de verificação de preparação do Cron](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-readiness-check-issues.html)
+* [Propriedade Crons](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html)
+* [O trabalho do Cron está preso no status &quot;em execução&quot;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html)

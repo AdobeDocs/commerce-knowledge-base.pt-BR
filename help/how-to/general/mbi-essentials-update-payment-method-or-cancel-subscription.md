@@ -3,9 +3,9 @@ title: 'Adobe Commerce Intelligence Essentials: atualizar a forma de pagamento o
 description: Como os clientes qualificados do Commerce Intelligence Essentials (independente, mês a mês, faturamento via account.magento.com) podem atualizar o método de pagamento ou cancelar. Não se aplica a assinaturas Pro, Cloud ou baseadas em contrato ou faturadas.
 exl-id: 45e95451-6d17-44c7-81d3-87f5876b5758
 feature: Commerce Intelligence
-source-git-commit: 7d304a492471168f456071a9a38134f465dbc88f
+source-git-commit: 724a30310c3841f8280628436925f9a3e5933b14
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -41,4 +41,4 @@ Para que os clientes do Commerce Intelligence Essentials cancelem suas assinatur
 
 ## Leitura relacionada
 
-* [Guia do usuário do Commerce Intelligence](/docs/commerce-business-intelligence/mbi/guide-overview.html)
+* [Guia do Usuário do Commerce Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html)
