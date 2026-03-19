@@ -41,4 +41,4 @@ Para que os clientes do Commerce Intelligence Essentials cancelem suas assinatur
 
 ## Leitura relacionada
 
-* [Guia do Usuário do Commerce Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html)
+* [Guia do Usuário do Commerce Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=pt-BR)

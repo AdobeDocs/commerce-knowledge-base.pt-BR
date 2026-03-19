@@ -73,7 +73,7 @@ Para adicionar o processo como um trabalho cron opcionalmente, você deve adicio
 
 #### Adicionar processo como um trabalho cron (opcional)
 
-1. Verifique se o cron está configurado e configurado. Consulte [Configurar trabalhos cron](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html) para obter detalhes.
+1. Verifique se o cron está configurado e configurado. Consulte [Configurar trabalhos cron](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=pt-BR) para obter detalhes.
 1. Execute o seguinte comando para retornar uma lista de consumidores da fila de mensagens:     `./bin/magento queue:consumers:list`
 1. Adicione o seguinte ao arquivo `.magento.env.yaml` no diretório raiz do aplicativo e inclua os consumidores que deseja adicionar. Por exemplo, este é o consumidor necessário para o processamento da exportação:
 
@@ -87,16 +87,16 @@ Para adicionar o processo como um trabalho cron opcionalmente, você deve adicio
                    - exportProcessor
    ```
 
-   Em seguida, envie esse arquivo atualizado e reimplante seu ambiente. Também consulte [Adicionar trabalhos cron personalizados ao seu projeto](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html#add-custom-cron-jobs-to-your-project) em nossa documentação do desenvolvedor.
+   Em seguida, envie esse arquivo atualizado e reimplante seu ambiente. Também consulte [Adicionar trabalhos cron personalizados ao seu projeto](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=pt-BR#add-custom-cron-jobs-to-your-project) em nossa documentação do desenvolvedor.
 
 >[!NOTE]
 >
->Se você não conseguir encontrar o arquivo `.magento.env.yaml` para seu ambiente e achar que ele foi excluído, precisará criar um novo `.magento.env.yaml`. Inicialmente, pode estar em branco. Você pode adicionar informações lá, conforme necessário. Consulte os seguintes artigos: [Configurar variáveis de ambiente para implantação](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) e [Variáveis de ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-intro.html) na documentação do desenvolvedor.
+>Se você não conseguir encontrar o arquivo `.magento.env.yaml` para seu ambiente e achar que ele foi excluído, precisará criar um novo `.magento.env.yaml`. Inicialmente, pode estar em branco. Você pode adicionar informações lá, conforme necessário. Consulte os seguintes artigos: [Configurar variáveis de ambiente para implantação](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=pt-BR) e [Variáveis de ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-intro.html?lang=pt-BR) na documentação do desenvolvedor.
 
 >[!TIP]
 >
->[Arquivos YAML](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) diferenciam maiúsculas de minúsculas e não permitem guias. Tenha cuidado para usar recuo consistente em todo o arquivo .magento.env.yaml ou sua configuração pode não funcionar como esperado. Os exemplos na documentação e no arquivo de amostra usam recuo de dois espaços. Use o comando ece-tools validate para verificar sua configuração.
+>[Arquivos YAML](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=pt-BR) diferenciam maiúsculas de minúsculas e não permitem guias. Tenha cuidado para usar recuo consistente em todo o arquivo .magento.env.yaml ou sua configuração pode não funcionar como esperado. Os exemplos na documentação e no arquivo de amostra usam recuo de dois espaços. Use o comando ece-tools validate para verificar sua configuração.
 
 >[!NOTE]
 >
->Nos projetos Pro do Adobe Commerce on cloud infrastructure, o [recurso de autocronagem](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=en#crontab) deve estar habilitado na infraestrutura do Adobe Commerce on cloud antes que você possa adicionar trabalhos cron personalizados aos ambientes de preparo e produção usando o `.magento.app.yaml`. Se este recurso não estiver habilitado, [crie um tíquete de suporte](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket), para que o trabalho seja adicionado para você.
+>Nos projetos Pro do Adobe Commerce on cloud infrastructure, o [recurso de autocronagem](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=pt-BR#crontab) deve estar habilitado na infraestrutura do Adobe Commerce on cloud antes que você possa adicionar trabalhos cron personalizados aos ambientes de preparo e produção usando o `.magento.app.yaml`. Se este recurso não estiver habilitado, [crie um tíquete de suporte](https://experienceleague.adobe.com/pt-br/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket), para que o trabalho seja adicionado para você.

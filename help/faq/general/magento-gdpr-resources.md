@@ -16,17 +16,17 @@ Este artigo lista os recursos de documentação oficial que discutem como o Adob
 
 ## O Adobe Commerce está pronto para o GDPR
 
-A [página inicial oficial](https://business.adobe.com/privacy/general-data-protection-regulation.html) de todos os recursos do GDPR da Adobe Commerce.
+A [página inicial oficial](https://business.adobe.com/br/privacy/general-data-protection-regulation.html) de todos os recursos do GDPR da Adobe Commerce.
 
 ## Declarações oficiais do Adobe Commerce
 
-* [GDPR do Regulamento Geral sobre a Proteção de Dados](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/privacy/gdpr.html)
-* [Conformidade com o GDPR](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-gdpr.html)
+* [GDPR do Regulamento Geral sobre a Proteção de Dados](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/privacy/gdpr.html?lang=pt-BR)
+* [Conformidade com o GDPR](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-gdpr.html?lang=pt-BR)
 
 ## Conformidade com o GDPR em nossa documentação do desenvolvedor: Adobe Commerce 2.X e 1.X
 
-* [Referência de informações pessoais do cliente (versão 2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html)
-* [Referência de informações pessoais do cliente (versão 1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html)
+* [Referência de informações pessoais do cliente (versão 2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=pt-BR)
+* [Referência de informações pessoais do cliente (versão 1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html?lang=pt-BR)
 
 Estes tópicos da documentação do desenvolvedor do Adobe Commerce fornecem diagramas de fluxo de dados e informações de banco de dados que ajudam os comerciantes e integradores de sistemas a resolver casos de uso semelhantes aos seguintes:
 

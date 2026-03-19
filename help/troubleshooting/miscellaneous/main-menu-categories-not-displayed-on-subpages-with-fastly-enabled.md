@@ -1,6 +1,6 @@
 ---
 title: O menu principal (Categorias) não é exibido em subpáginas com o recurso Fastly ativado
-description: Este artigo fornece uma correção para quando o Menu principal (ou o [menu de Navegação superior da categoria](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html) em nosso guia do usuário) não é exibido na loja para subpáginas (por exemplo, *blog/página*) quando o Fastly ou o Varnish está ativado.
+description: Este artigo fornece uma correção para quando o Menu principal (ou o [menu de Navegação superior da categoria](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html?lang=pt-BR) em nosso guia do usuário) não é exibido na loja para subpáginas (por exemplo, *blog/página*) quando o Fastly ou o Varnish está ativado.
 exl-id: 7c54791d-8aa6-4f01-a28b-a7aecdb8ff74
 feature: Categories, Marketing Tools
 role: Developer
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # O menu principal (Categorias) não é exibido em subpáginas com o recurso Fastly ativado
 
-Este artigo fornece uma correção para quando o Menu principal (ou o [menu de Navegação superior da categoria](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html) do guia do usuário) não é exibido na loja para subpáginas (por exemplo, *blog/página*) quando o Fastly ou o Varnish está habilitado.
+Este artigo fornece uma correção para quando o Menu principal (ou o [menu de Navegação superior da categoria](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html?lang=pt-BR) do guia do usuário) não é exibido na loja para subpáginas (por exemplo, *blog/página*) quando o Fastly ou o Varnish está habilitado.
 
 **Causa:** o caractere `/` não permitido (barra) no parâmetro *Chave de URL* da página (configurações de Otimização do Mecanismo de Pesquisa). O caractere geralmente é adicionado quando o *Caminho da URL* (com o local inteiro da página) é especificado por engano em vez da *Chave da URL*: por exemplo, *blog/página\_nome* em vez de apenas *página\_nome*.
 
@@ -27,7 +27,7 @@ Este artigo fornece uma correção para quando o Menu principal (ou o [menu de N
 
 ## Problema
 
-O menu principal (também conhecido como [menu de navegação superior da categoria](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html) em nosso guia do usuário) não é exibido na loja para subpáginas quando o Fastly ou outros serviços baseados em Verniz são habilitados.
+O menu principal (também conhecido como [menu de navegação superior da categoria](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html?lang=pt-BR) em nosso guia do usuário) não é exibido na loja para subpáginas quando o Fastly ou outros serviços baseados em Verniz são habilitados.
 
 ## Causa
 
@@ -57,10 +57,10 @@ Para fins de SEO em páginas de produtos, use Substituições de URL (**Marketin
 
 O parâmetro *Chave de URL* para SEO:
 
-* [Otimização do Mecanismo de Pesquisa](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/categories-search-engine-optimization.html)
-* [Adicionando uma nova página](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-add.html)
+* [Otimização do Mecanismo de Pesquisa](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/categories-search-engine-optimization.html?lang=pt-BR)
+* [Adicionando uma nova página](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-add.html?lang=pt-BR)
 
 Hierarquia da página:
 
-* [Visão geral](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-hierarchy.html)
-* [Adicionando um Nó](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-hierarchy.html#add-a-hierarchy-node)
+* [Visão geral](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-hierarchy.html?lang=pt-BR)
+* [Adicionando um Nó](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-hierarchy.html?lang=pt-BR#add-a-hierarchy-node)

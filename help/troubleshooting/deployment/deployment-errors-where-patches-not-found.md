@@ -36,10 +36,10 @@ Os patches aplicados anteriormente para suas versões mais antigas não se aplic
     - ACSD-XXXXX
    ```
 
-1. Pesquise as IDs de patch nas [Notas de versão de Patches de qualidade](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/release-notes.html) para verificar se cada uma pode ser aplicada à nova versão do Adobe Commerce para a qual você está atualizando.
+1. Pesquise as IDs de patch nas [Notas de versão de Patches de qualidade](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/release-notes.html?lang=pt-BR) para verificar se cada uma pode ser aplicada à nova versão do Adobe Commerce para a qual você está atualizando.
 1. Se o patch não se aplicar à nova versão do Adobe Commerce que você deseja atualizar, remova a ID do patch do arquivo `.magento.env.yaml`.
 1. Depois de ter revisado todas as IDs de patch indicadas pelo erro, envie as alterações para push e reimplante.
 
 ## Leitura relacionada
 
-* [Aplique patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html?lang=en#apply-a-patch-in-a-local-environment) no Guia de Infraestrutura do Commerce na Nuvem.
+* [Aplique patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html?lang=pt-BR#apply-a-patch-in-a-local-environment) no Guia de Infraestrutura do Commerce na Nuvem.

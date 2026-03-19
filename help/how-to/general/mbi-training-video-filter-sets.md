@@ -21,6 +21,6 @@ Neste vídeo, você aprenderá:
 * Como aplicar um conjunto de filtros a uma métrica
 * Como aplicar um conjunto de filtros a uma dimensão de dados calculada
 
-Para assistir ao vídeo, acesse [Commerce Intelligence - Conjuntos de Filtros](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/business-intelligence/filter-sets.html) na Adobe Experience League.
+Para assistir ao vídeo, acesse [Commerce Intelligence - Conjuntos de Filtros](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/business-intelligence/filter-sets.html?lang=pt-BR) na Adobe Experience League.
 
-**Deseja acompanhar?** Confira nosso [Tutorial de criação de conjuntos de filtros para métricas](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/build/reports/ess-manage-data-filters.html) para obter instruções escritas.
+**Deseja acompanhar?** Confira nosso [Tutorial de criação de conjuntos de filtros para métricas](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/build/reports/ess-manage-data-filters.html?lang=pt-BR) para obter instruções escritas.
