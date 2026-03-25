@@ -4,9 +4,9 @@ description: Este artigo fornece uma correção para o problema em que ocorre um
 feature: B2B, Upgrade
 role: Admin, Developer
 exl-id: c5fe316c-99e3-482e-80b5-25aaae371230
-source-git-commit: 04e17dfdf143e233eb2767064c1328990c899eda
+source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ A atualização para a versão 1.5.2 B2B falha com um erro de sintaxe SQL devido
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. Atribua uma empresa a uma empresa principal para estabelecer a hierarquia da empresa. Consulte [Gerenciar a Hierarquia da Empresa](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/b2b/company-management/manage-company-hierarchy) no guia B2B do Adobe Commerce para obter mais informações.
+1. Atribua uma empresa a uma empresa principal para estabelecer a hierarquia da empresa. Consulte [Gerenciar a Hierarquia da Empresa](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/company-management/manage-company-hierarchy) no guia B2B do Adobe Commerce para obter mais informações.
 1. Atualize o B2B para a versão 1.5.2.
 
 <u>Resultados esperados</u>:
@@ -64,7 +64,7 @@ Para resolver o problema, siga estas etapas:
    composer update magento/module-b2b
    ```
 
-1. Aplique o patch [ACSD-65540_B2B_1.5.2.zip](assets/ACSD-65540_B2B_1.5.2.zip) anexado. Consulte [Como aplicar um patch de compositor fornecido pelo Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) em nossa base de dados de suporte para obter instruções.
+1. Aplique o patch [ACSD-65540_B2B_1.5.2.zip](assets/ACSD-65540_B2B_1.5.2.zip) anexado. Consulte [Como aplicar um patch de compositor fornecido pelo Adobe](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento) em nossa base de dados de suporte para obter instruções.
 1. Executar `bin/magento setup:upgrade`.
 
 ### Aplicar um patch usando Patches na nuvem
@@ -78,4 +78,4 @@ Para a infraestrutura do Adobe Commerce na nuvem, siga as etapas abaixo:
    composer update magento/magento-cloud-patches
    ```
 
-1. Confirme e envie as alterações para iniciar a reimplantação. Consulte [Aplicar patches](https://experienceleague.adobe.com/pt-br/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches) em nosso guia do Adobe Commerce na nuvem para obter instruções.
+1. Confirme e envie as alterações para iniciar a reimplantação. Consulte [Aplicar patches](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches) em nosso guia do Adobe Commerce na nuvem para obter instruções.

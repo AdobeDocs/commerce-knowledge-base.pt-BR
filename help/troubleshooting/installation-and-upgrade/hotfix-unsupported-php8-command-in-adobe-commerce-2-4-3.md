@@ -1,10 +1,10 @@
 ---
 title: Hotfix de erro fatal do PHP 2.4.3, 2.3.7-p1 para Adobe Commerce
-description: 'Este artigo fornece uma correção para quando os comerciantes tentam atualizar para o Adobe Commerce (todos os métodos de implantação) ou para o Magento Open Source 2.4.3 ou 2.3.7-p1. O seguinte erro é exibido:'
+description: 'Este artigo fornece uma correção para quando os comerciantes tentam atualizar para o Adobe Commerce (todos os métodos de implantação) ou para o Magento Open Source 2.4.3 ou 2.3.7-p1; o seguinte erro é exibido:'
 exl-id: 1c472214-8387-403e-b2d2-d3f3c9e1da6a
 feature: Install, Upgrade
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Hotfix de erro fatal do PHP 2.4.3, 2.3.7-p1 para Adobe Commerce
 
-Este artigo fornece uma correção para quando os comerciantes tentam atualizar para o Adobe Commerce (todos os métodos de implantação) ou para o Magento Open Source 2.4.3 ou 2.3.7-p1. O seguinte erro é exibido:
+Este artigo fornece uma correção para quando os comerciantes tentam atualizar para o Adobe Commerce (todos os métodos de implantação) ou para o Magento Open Source 2.4.3 ou 2.3.7-p1; o seguinte erro é exibido:
 
 *Erro fatal de PHP: Erro não capturado: chamada para função indefinida Magento\Framework\Filesystem\Directory\str_contains() em &lt;...>/magento/vendor/magento/framework/Filesystem/Directory/DenyListPathValidator.php:74*
 
@@ -44,18 +44,18 @@ Erro fatal do PHP.
 
 Como solução alternativa, você executa o seguinte comando no CLI/Terminal: `composer require symfony/polyfill-php80` da pasta raiz do Magento ou instala um patch de compositor.
 
-Para corrigir o problema da versão 2.4.3, o Adobe Commerce (todos os métodos de implantação) e os comerciantes de Magento Open Source devem aplicar o patch:
+Para corrigir o problema da versão 2.4.3, o Adobe Commerce (todos os métodos de implantação) e os comerciantes do Magento Open Source devem aplicar o patch:
 
 [AC-384_Fix_Incompatible_PHP_Method__2.4.3_ce.patch](assets/AC-384__Fix_Incompatible_PHP_Method__2.4.3_ce.patch.zip)
 
-Para corrigir o problema da versão 2.3.7-p1, a Adobe Commerce (todos os métodos de implantação) e os comerciantes de Magento Open Source devem aplicar o patch:
+Para corrigir o problema da versão 2.3.7-p1, a Adobe Commerce (todos os métodos de implantação) e os comerciantes da Magento Open Source devem aplicar o patch:
 
 [AC-384_Fix_Incompatible_PHP_Method_2.3.7-p1_ce.patch](assets/AC-384__Fix_Incompatible_PHP_Method__2.3.7-p1_ce.patch.zip)
 
 ## Como aplicar o patch
 
-Consulte [Como aplicar um patch de compositor fornecido pelo Magento](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) para obter instruções.
+Consulte [Como aplicar um patch de compositor fornecido pelo Magento](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento) para obter instruções.
 
 ## Leitura relacionada
 
-GitHub [Comando PHP 8 sem suporte no Magento 2.4.3 EE #33680](https://github.com/magento/magento2/issues/33680)
+GitHub [Comando do PHP 8 sem suporte no Magento 2.4.3 EE #33680](https://github.com/magento/magento2/issues/33680)
