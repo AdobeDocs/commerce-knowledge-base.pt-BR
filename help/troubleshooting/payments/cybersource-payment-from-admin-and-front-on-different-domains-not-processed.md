@@ -69,6 +69,6 @@ Os patches também são compatíveis com as seguintes versões:
 
 ## Como aplicar um patch
 
-Para obter instruções, consulte [Como aplicar um patch de compositor fornecido pelo Adobe](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento) em nossa base de dados de conhecimento de suporte.
+Para obter instruções, consulte [Como aplicar um patch de compositor fornecido pelo Adobe](https://experienceleague.adobe.com/pt-br/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento) em nossa base de dados de conhecimento de suporte.
 
 ## Arquivos Anexados

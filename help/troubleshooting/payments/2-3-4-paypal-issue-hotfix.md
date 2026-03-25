@@ -49,11 +49,11 @@ Error 500: NOTICE: PHP message: PHP Fatal error: Uncaught Error: Call to a membe
 
 Para comerciantes locais do Adobe Commerce: aplique o [hotfix](https://magento.com/tech-resources/download#download2353), que está disponível na seção Downloads do portal [magento.com](https://magento.com) em Minha conta.
 
-Para o Adobe Commerce em comerciantes da infraestrutura em nuvem: a Adobe incluiu a correção nos Patches da nuvem para o Commerce v1.0.2. Consulte [Patches da nuvem para as notas de versão do Commerce](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches?itm_source=devdocs&itm_medium=quick_search&itm_campaign=federated_search&itm_term=cloud%20patche) em nossa documentação do desenvolvedor para encontrar instruções sobre como aplicar o pacote mais recente.
+Para o Adobe Commerce em comerciantes da infraestrutura em nuvem: a Adobe incluiu a correção nos Patches da nuvem para o Commerce v1.0.2. Consulte [Patches da nuvem para as notas de versão do Commerce](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches?itm_source=devdocs&itm_medium=quick_search&itm_campaign=federated_search&itm_term=cloud%20patche) em nossa documentação do desenvolvedor para encontrar instruções sobre como aplicar o pacote mais recente.
 
 ## Como aplicar o patch
 
-Para obter instruções, consulte [Como aplicar um patch de compositor fornecido pelo Adobe](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento) em nossa base de dados de conhecimento de suporte.
+Para obter instruções, consulte [Como aplicar um patch de compositor fornecido pelo Adobe](https://experienceleague.adobe.com/pt-br/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento) em nossa base de dados de conhecimento de suporte.
 
 ## Leitura relacionada
 

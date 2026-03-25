@@ -54,7 +54,7 @@ Para corrigir o problema da versão 2.3.7-p1, a Adobe Commerce (todos os método
 
 ## Como aplicar o patch
 
-Consulte [Como aplicar um patch de compositor fornecido pelo Magento](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento) para obter instruções.
+Consulte [Como aplicar um patch de compositor fornecido pelo Magento](https://experienceleague.adobe.com/pt-br/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento) para obter instruções.
 
 ## Leitura relacionada
 
