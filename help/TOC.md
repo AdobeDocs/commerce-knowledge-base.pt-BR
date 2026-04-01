@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 651620add857a2cf33c59fd0cd7972cb7c1e0cc3
+source-git-commit: 1502ee72f4421f8fdec5c0e780f1f56423a2cce8
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '1880'
 ht-degree: 1%
 
 ---
@@ -215,10 +215,8 @@ ht-degree: 1%
    * [Alterar ID de incremento de uma entidade do banco de dados (pedido, fatura, aviso de crédito etc.) em uma loja específica](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)
    * [Redefinir o ambiente no Adobe Commerce na infraestrutura em nuvem](/help/how-to/general/reset-environment-on-cloud.md)
    * [MBI: Reautenticação de integrações](/help/how-to/general/mbi-reauthenticating-integrations.md)
-   * [Locais de registro (diretórios) para plano Pro: integração, preparo, produção](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)
    * [Adobe Commerce na nuvem: verifique se o upsize das instâncias do host é necessário](/help/how-to/general/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.md)
    * [Bootstrap Adobe Commerce 2 em um script de sandbox](/help/how-to/general/bootstrap-magento-2-in-a-sandbox-script.md)
-   * [Vídeo de treinamento do Adobe Commerce Intelligence: conjuntos de filtros](/help/how-to/general/mbi-training-video-filter-sets.md)
    * [Bloquear tráfego mal-intencionado para o Adobe Commerce no nível Fastly](/help/how-to/general/block-malicious-traffic-for-magento-commerce-on-fastly-level.md)
    * [Alterar a senha do administrador no Adobe Commerce na infraestrutura em nuvem](/help/how-to/general/change-magento-admin-password-on-cloud.md)
    * [Exibir a camada de vCPU do ambiente em seu cluster no Adobe Commerce](/help/how-to/general/check-vcpu-using-observation-for-adobe-commerce.md)
