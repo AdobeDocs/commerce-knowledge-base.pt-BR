@@ -21,30 +21,30 @@ Se você perceber que há um problema com os recursos do módulo personalizado e
 
 ## Solução
 
-Verifique os logs para ver se há entradas com o nome do módulo personalizado no erro.  Dependendo dos erros envolvidos, a solução pode se apresentar ou talvez seja necessário incluir suas informações úteis de log do Adobe Commerce se você quiser abrir um [Tíquete de Suporte](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket). Consulte os parágrafos a seguir para obter informações sobre a localização dos logs e as possíveis soluções.
+Verifique os logs para ver se há entradas com o nome do módulo personalizado no erro.  Dependendo dos erros envolvidos, a solução pode se apresentar ou talvez seja necessário incluir suas informações úteis de log do Adobe Commerce se você quiser abrir um [Tíquete de Suporte](https://experienceleague.adobe.com/pt-br/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket). Consulte os parágrafos a seguir para obter informações sobre a localização dos logs e as possíveis soluções.
 
 ### Adobe Commerce (todos os métodos de implantação), Magento Open Source, todas as versões 2.X
 
 1. A localização dos registros é colocada na Adobe Commerce na infraestrutura em nuvem. A arquitetura do plano Pro registra em nossa base de conhecimento de suporte.
 1. Dependendo dos erros encontrados, se você quiser ativar, desativar ou desinstalar um módulo personalizado, estes artigos detalham essas ações:
-   * [Habilite ou desabilite os módulos](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/manage-modules) na documentação do desenvolvedor.
-   * [Desinstale os módulos](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/uninstall-modules) da documentação do desenvolvedor.
+   * [Habilite ou desabilite os módulos](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/tutorials/manage-modules) na documentação do desenvolvedor.
+   * [Desinstale os módulos](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/tutorials/uninstall-modules) da documentação do desenvolvedor.
 
 ### Adobe Commerce na infraestrutura em nuvem, todas as versões
 
-1. Locais dos logs: [logs do Adobe Commerce em infraestrutura na nuvem](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations) em nossa documentação do desenvolvedor.
+1. Locais dos logs: [logs do Adobe Commerce em infraestrutura na nuvem](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/test/log-locations) em nossa documentação do desenvolvedor.
 1. Dependendo dos erros encontrados, se você quiser ativar, desativar ou desinstalar um módulo personalizado, esses artigos em nossa documentação do desenvolvedor detalham essas ações:
-   * [Instalar, gerenciar e atualizar extensões](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions).
-   * [Falha na implantação do componente](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment).
+   * [Instalar, gerenciar e atualizar extensões](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/configure-store/extensions).
+   * [Falha na implantação do componente](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment).
 
 ## Leitura relacionada
 
 Em nossa documentação do desenvolvedor:
 
 * [Visão geral do módulo](https://developer.adobe.com/commerce/php/architecture/modules/overview/)
-* [Erros ao instalar dados de amostra opcionais](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/errors-installing-optional-sample-data)
+* [Erros ao instalar dados de amostra opcionais](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/errors-installing-optional-sample-data)
 * [Manipulação de exceções](https://developer.adobe.com/commerce/webapi/graphql/develop/exceptions/)
-* [Exceções durante a instalação](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/exceptions-during-installation)
-* [Executar o Gerenciador de Módulos](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/prerequisites)
-* [Arquivos de configuração de módulo](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/module-files)
-* [Erros de memória insuficiente](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/out-of-memory-error-during-install-or-upgrade)
+* [Exceções durante a instalação](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/exceptions-during-installation)
+* [Executar o Gerenciador de Módulos](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/upgrade-guide/prepare/prerequisites)
+* [Arquivos de configuração de módulo](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/files/module-files)
+* [Erros de memória insuficiente](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/out-of-memory-error-during-install-or-upgrade)
