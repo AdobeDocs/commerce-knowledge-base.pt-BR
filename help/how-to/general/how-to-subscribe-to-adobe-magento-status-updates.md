@@ -1,6 +1,6 @@
 ---
 title: Como se inscrever para obter atualizações de status do Adobe Commerce
-description: Este artigo explica como você pode assinar o status do Adobe Commerce em [Adobe status](https://status.adobe.com) para obter alertas de status, atualizações e informações sobre qualquer interrupção ou manutenção importante.
+description: Este artigo explica como você pode assinar o status do Adobe Commerce em [Adobe status](https://status.adobe.com/pt-br) para obter alertas de status, atualizações e informações sobre qualquer interrupção ou manutenção importante.
 exl-id: 17b39925-4726-45da-b55d-c04c9b782df1
 source-git-commit: c1c2bd29e14f4cbfffb235801e95ec7cbb7c7a55
 workflow-type: tm+mt
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ## Como se inscrever para obter atualizações de status do Adobe Magento
 
-1. Ir para [status do Adobe](https://status.adobe.com).
+1. Ir para [status do Adobe](https://status.adobe.com/pt-br).
 1. Clique em **Entrar**.
 1. Faça logon com as credenciais de Adobe.
 1. Selecione **Conta da Empresa ou da Escola** se a opção for apresentada.
