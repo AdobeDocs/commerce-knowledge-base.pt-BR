@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 308b24e3f88fd9e9aab1c3c2f572b627703bab4d
+source-git-commit: 620f4d9e2e070ea8009f2f16b106ddd63d23b1b6
 workflow-type: tm+mt
-source-wordcount: '1870'
+source-wordcount: '1864'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,6 @@ ht-degree: 1%
       * [O mecanismo de pesquisa do catálogo MySQL será removido no Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)
       * [Migração do processo de entrada de suporte do Adobe Commerce para o Experience League](/help/announcements/adobe-commerce-announcements/adobe-commerce-support-intake-process-migration.md)
    * Notícias da Central de Ajuda {#news}
-      * [Descontinuação do Centro de ajuda da Adobe Commerce](/help/announcements/help-center-news/decommissioning-of-adobe-commerce-help-center.md)
 * Solução de problemas {#troubleshooting}
    * [Visão geral da solução de problemas](/help/troubleshooting/overview.md)
    * Banco de dados {#database}
