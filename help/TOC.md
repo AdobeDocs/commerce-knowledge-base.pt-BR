@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: a54f3772949bca48018d1cfc97a25dbf93652a56
+source-git-commit: 992746d72bd6251d3a830f8bb03d7ed11e848b9b
 workflow-type: tm+mt
-source-wordcount: '1846'
+source-wordcount: '1837'
 ht-degree: 1%
 
 ---
@@ -238,7 +238,6 @@ ht-degree: 1%
    * [Atualização do MariaDB 10.4 para 10.5 para Adobe Commerce na nuvem](/help/how-to/general/upgrade-mariadb-10-4-to-10-5-for-magento-commerce-cloud.md)
 * Perguntas frequentes {#faq}
    * [Visão geral das perguntas frequentes](/help/faq/overview.md)
-   * [Firewall para aplicativos Web (WAF) ativado por Fastly: the FAQ](/help/faq/general/web-application-firewall-waf-powered-by-fastly-the-faq.md)
    * [Depreciação das integrações de pagamento principais do Adobe Commerce](/help/faq/general/depreciation-of-core-magento-payment-integrations.md)
    * [Posso instalar aplicativos de terceiros na minha instância da nuvem?](/help/faq/general/can-i-install-third-party-applications-on-my-cloud-instance.md)
    * [Link Magento.com e logons de conta do accounts.magento.cloud](/help/faq/general/linking-magento-com-and-accounts-magento-cloud-account-logins.md)
