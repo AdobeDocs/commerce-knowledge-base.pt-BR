@@ -3,9 +3,9 @@ title: Alterar endereço de email atual da conta do Adobe
 description: Saiba como alterar o endereço de email atual registrado na conta do Adobe para um novo endereço atualmente não registrado na conta do Adobe ou da Magento.
 exl-id: ca549d38-0d62-4206-9727-0ed85b733dc3
 feature: Communications
-source-git-commit: 2fc3353c7563cff6fb82236d40a91306523a579e
+source-git-commit: 8d91d4c21dc981accf25537cdb61e1271e17b78c
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Se você não tiver acesso ao endereço de email atual, configure o encaminhamen
 
 Siga estas etapas para alterar o endereço de email:
 
-1. Redefina a senha usada com o endereço de email antigo. Siga as instruções fornecidas em [Redefinir senha esquecida](https://helpx.adobe.com/br/manage-account/using/change-or-reset-password.html) na Adobe helpx.
+1. Redefina a senha usada com o endereço de email antigo. Siga as instruções fornecidas em [Redefinir senha esquecida](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) na Adobe helpx.
 1. O link de redefinição de senha é enviado para a caixa de correio do proprietário atual com instruções.
 1. Navegue até a [página da conta do Adobe](https://account.adobe.com) para fazer logon com o novo email e configurar a senha.
 
@@ -49,10 +49,10 @@ Depois de alterar o endereço de email da sua ID do MAGE, você também deve con
 
 ### Verificar email do Commerce Marketplace
 
-1. Faça logon em [https://commercemarketplace.com/customer/account](https://commercemarketplace.com/customer/account) e confirme se o email da sua conta foi atualizado para o novo endereço.
-1. Se o email não tiver sido atualizado, envie um [Tíquete de suporte](https://experienceleague.adobe.com/pt-br/support#home) solicitando que o email da conta Commerce Marketplace seja corrigido.
+1. Faça logon em sua conta da Commerce Marketplace e confirme se o email da conta foi atualizado para o novo endereço.
+1. Se o email não tiver sido atualizado, envie um [Tíquete de suporte](https://experienceleague.adobe.com/en/support#home) solicitando que o email da conta Commerce Marketplace seja corrigido.
 
 ### Peça ao suporte para finalizar as atualizações da conta interna
 
-1. Envie um [Tíquete de suporte](https://experienceleague.adobe.com/pt-br/support#home) solicitando a conclusão de todas as atualizações internas necessárias (por exemplo, atualização da vinculação entre as novas e antigas Adobe IDs e a sua MAGE ID).
+1. Envie um [Tíquete de suporte](https://experienceleague.adobe.com/en/support#home) solicitando a conclusão de todas as atualizações internas necessárias (por exemplo, atualização da vinculação entre as novas e antigas Adobe IDs e a sua MAGE ID).
 1. Se você já tiver aberto um tíquete de suporte porque o email do Commerce Marketplace não foi atualizado na seção anterior, poderá usar o mesmo tíquete para solicitar essas atualizações internas adicionais.
