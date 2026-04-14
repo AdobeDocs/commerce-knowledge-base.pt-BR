@@ -3,9 +3,9 @@ title: Alterar endereço de email atual da conta do Adobe
 description: Saiba como alterar o endereço de email atual registrado na conta do Adobe para um novo endereço atualmente não registrado na conta do Adobe ou da Magento.
 exl-id: ca549d38-0d62-4206-9727-0ed85b733dc3
 feature: Communications
-source-git-commit: 8d91d4c21dc981accf25537cdb61e1271e17b78c
+source-git-commit: 95d4507be9ac06a4cb3b1150000d7f9df30d35f8
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Depois de alterar o endereço de email da sua ID do MAGE, você também deve con
 
 ### Verificar email do Commerce Marketplace
 
-1. Faça logon em sua conta da Commerce Marketplace e confirme se o email da conta foi atualizado para o novo endereço.
+1. Faça logon em sua [conta do Commerce Marketplace](https://commercemarketplace.adobe.com/) e confirme se o email da sua conta foi atualizado para o novo endereço.
 1. Se o email não tiver sido atualizado, envie um [Tíquete de suporte](https://experienceleague.adobe.com/pt-br/support#home) solicitando que o email da conta Commerce Marketplace seja corrigido.
 
 ### Peça ao suporte para finalizar as atualizações da conta interna
