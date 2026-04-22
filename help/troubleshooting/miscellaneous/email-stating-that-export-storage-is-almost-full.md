@@ -4,9 +4,9 @@ description: Este artigo fornece uma solução para o problema em que você rece
 feature: Cloud, Storage, Media
 role: Developer
 exl-id: 7dae295c-919c-46c5-bf63-7d3467c2e07f
-source-git-commit: 89f985b832545f1fbccf94aac1d60f1e767b5bc4
+source-git-commit: 11cf981c7ebe813219a0cd311632eafce086bbf6
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -29,19 +29,53 @@ Você recebe um email com o seguinte conteúdo, mas não consegue localizar a pa
 
 ## Causa
 
-O email se refere ao armazenamento **exports**, que é a quantidade de disco alocada aos arquivos/mídia, e não a uma pasta específica chamada *exports*.
+O alerta se refere ao sistema de arquivos de armazenamento de exportações, que é o volume do disco onde a mídia e outros dados de arquivos são armazenados. Normalmente, este sistema de arquivos é montado em `/data/exports`. O alerta não indica a presença de um único diretório chamado literalmente exportações.
+
+Para confirmar a que o alerta se refere, verifique o uso do armazenamento de exportações:
+
+* Execute `df -h | grep exports` e o exemplo de saída a seguir será exibido:
+
+  ```
+  /dev/nvme1n1 50G 38G 12G 77% /data/exports
+  tmpfs         7.7G 4.0K 7.7G  1% /data/exports/shared
+  ```
+
+* Neste exemplo, `/data/exports` é o principal sistema de arquivos de exportações:
+
+   * 50 GB no total
+   * 38 GB usados
+   * 12 GB disponíveis (77% de utilização)
+
+* `/data/exports/shared` é uma montagem `tmpfs` (na memória) usada para dados compartilhados e não contribui significativamente para a pressão do disco.
+
+Isso confirma que o alerta é disparado pela utilização geral do disco de `/data/exports`, não por uma única pasta chamada Exportações.
+
+Se o `/data/exports` mostrar alta utilização, diretórios grandes nesse sistema de arquivos — como pub/mídia ou outros locais de arquivos personalizados — normalmente serão responsáveis pelo aumento no uso.
 
 ## Solução
 
-Você deve revisar o uso de arquivos no ambiente. Execute este comando para obter o uso existente:
+Siga estas etapas para revisar, limpar e validar o uso do armazenamento de exportações.
 
-`df -h |grep data`
+1. Execute o comando `df -h | grep exports` para verificar o uso atual do sistema de arquivos de armazenamento de exportações. Revise a coluna **Use%** para `/data/exports`:
 
-Os locais típicos onde o armazenamento de arquivos provavelmente será preenchido são as pastas *pub/media/catalog/product/cache* ou *var/log*. Para determinar o espaço em disco usado pelos arquivos, execute este comando com o caminho apropriado */caminho/para/pasta*:
+   * Se o uso for de 70 a 85%, comece a planejar a limpeza.
+   * Se o uso for superior a 90%, tome providências imediatamente para evitar falhas de gravação ou impacto no serviço.
 
-`du -shc` */caminho/para/pasta*
+1. Identifique diretórios que consomem espaço significativo em disco em `/data/exports` executando:
 
-Se o uso do disco de mídia constituir uma grande parte do espaço total em disco, considere a habilitação do [Fastly Deep Image Otimization](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization#deep-image-optimization) e, em seguida, exclua os arquivos na pasta *pub/media/catalog/product/cache* do servidor manualmente.
+   ```bash
+   du -sh /data/exports/* 2>/dev/null
+   ```
+
+   Os locais típicos onde o armazenamento de arquivos provavelmente será preenchido são `pub/media/catalog/product/cache` ou `var/log` pastas.
+
+1. Limpar arquivos com base no ambiente:
+
+   * Remova primeiro arquivos de exportação, logs ou dados temporários antigos ou não utilizados.
+   * Em ambientes não relacionados à produção, geralmente é possível remover mídias de teste ou artefatos antigos de forma mais agressiva.
+   * Em ambientes de produção, fale com a equipe antes de excluir qualquer mídia ou arquivo essencial aos negócios.
+
+1. Após a limpeza, execute o seguinte comando `df -h | grep exports` para confirmar se o valor **Use%** para `/data/exports` caiu para um nível operacional seguro.
 
 ## Leitura relacionada
 
