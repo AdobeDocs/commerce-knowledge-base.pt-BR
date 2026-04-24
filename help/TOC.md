@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 4a274957a88cfb40d318d898ca9870c29540f400
+source-git-commit: 3bec25fb1d0ade6c36c41135075edc4ba3610d30
 workflow-type: tm+mt
-source-wordcount: '1817'
+source-wordcount: '1801'
 ht-degree: 1%
 
 ---
@@ -37,31 +37,31 @@ ht-degree: 1%
       * [Problema conhecido do Adobe Commerce 2.4.1: erro ao sair com o PayPal Braintree](/help/troubleshooting/payments/magento-2-4-1-known-issue-error-popping-up-on-checkout-with-paypal-braintree.md)
       * [Página do Terminal virtual do Adobe Commerce 2.4.0 Braintree corrompida](/help/troubleshooting/payments/magento-2-4-0-known-issue-braintree-virtual-terminal-page-is-corrupted.md)
       * [Pagamento Cybersource de Admin e front em diferentes domínios não processado](/help/troubleshooting/payments/cybersource-payment-from-admin-and-front-on-different-domains-not-processed.md)
-      * [Problema conhecido do Adobe Commerce 2.4.0: pagamento do Amazon, sem métodos de pagamento](/help/troubleshooting/payments/magento-2-4-0-known-issue-amazon-pay-no-payment-methods.md)
-      * [Adobe Commerce 2.4.0: Erro de check-out ao selecionar pagamentos locais](/help/troubleshooting/payments/magento-2-4-0-checkout-error-selecting-local-payments.md)
-      * [Solução de problemas do PayPal no Adobe Commerce](/help/troubleshooting/payments/paypal-troubleshooting-on-magento.md)
-      * [Adobe Commerce 2.4.0, 2.4.1: Ativar fatura parcial do Braintree Venmo](/help/troubleshooting/payments/magento-2-4-0-2-4-1-enable-braintree-venmo-partial-invoice-issue.md)
-      * [Adobe Commerce 2.4.2 B2B: desconto permanece alteração do método de pagamento](/help/troubleshooting/payments/magento-2-4-2-b2b-discount-remains-pay-method-change.md)
-      * [Adobe Commerce 2.4.2: o pagamento do Braintree Venmo não funciona](/help/troubleshooting/payments/magento-2-4-2-braintree-venmo-payment-does-not-work.md)
-      * [Métodos de pagamento não exibidos no check-out com vários endereços](/help/troubleshooting/payments/payment-methods-not-displayed-on-checkout-with-multiple-addresses.md)
-      * [Problema conhecido do Adobe Commerce 2.4.0: páginas em branco de mensagens no site do Klarna](/help/troubleshooting/payments/magento-2-4-0-known-issue-klarna-on-site-messaging-blank-pages.md)
-   * Loja {#storefront}
-      * [O produto não é exibido na loja](/help/troubleshooting/storefront/product-is-not-displayed-on-storefront.md)
-      * [Imagens de armazenamento não exibidas após a implantação](/help/troubleshooting/storefront/store-images-not-displayed-after-deployment.md)
-      * [Os clientes são desconectados ou perdem conteúdo do carrinho na loja da Adobe Commerce](/help/troubleshooting/storefront/customers-get-logged-out-or-lose-cart-content-on-magento-storefront.md)
-      * [Não é possível salvar o contato como chave de URL](/help/troubleshooting/storefront/unable-to-save-contact-as-a-url-key.md)
-   * Instalação e atualização {#installation-and-upgrade}
-      * [[!UICONTROL Recommendations] [!DNL JS] erros após a atualização para o Adobe Commerce versão 2.4.5](/help/troubleshooting/installation-and-upgrade/recommendations-js-errors-after-upgrade-to-adobe-commerce-version-2-4-5.md)
-      * [Falha na instalação do [!DNL B2B] 1.4.0 no Adobe Commerce 2.4.6-p1 local](/help/troubleshooting/installation-and-upgrade/b2b-1-4-0-installation-fails-on-adobe-commerce-2-4-6-p1-on-premises.md)
-      * [Não é possível instalar usando nginx](/help/troubleshooting/installation-and-upgrade/cannot-install-using-nginx.md)
-      * [Erro de lista de desejos durante a atualização para o Adobe Commerce versões 2.3.4-p1 ou 2.3.5](/help/troubleshooting/installation-and-upgrade/wishlist-error-during-upgrade-to-magento-versions-2-3-4-p1-or-2-3-5.md)
-      * [Falha na instalação do Adobe Commerce 2.4.0 com cache de lojas desatualizado](/help/troubleshooting/installation-and-upgrade/magento-2-4-0-known-issue-2-4-0-installation-fails-with-outdated-stores-cache.md)
-      * [O comando de instalação do Composer substitui o arquivo .gitignore, Adobe Commerce](/help/troubleshooting/installation-and-upgrade/custom-gitignore-file-overridden.md)
-      * [Durante a instalação, o aviso de data do PHP](/help/troubleshooting/installation-and-upgrade/during-installation-php-date-warning.md)
-      * [Durante a instalação, erro de exceção de reflexão](/help/troubleshooting/installation-and-upgrade/during-installation-reflection-exception-error.md)
-      * [Erro de não definição de código de área ao executar a instalação](/help/troubleshooting/installation-and-upgrade/area-code-is-not-set-error-when-running-setup-upgrade.md)
-      * [Falha na instalação; não é possível criar o install.log](/help/troubleshooting/installation-and-upgrade/installation-fails-cannot-create-install-log.md)
-      * [Exceções durante a instalação](/help/troubleshooting/installation-and-upgrade/exceptions-during-installation.md)
+      * [Adobe Commerce 2.4.0 known issue: Amazon pay, no payment methods](/help/troubleshooting/payments/magento-2-4-0-known-issue-amazon-pay-no-payment-methods.md)
+      * [Adobe Commerce 2.4.0: Checkout error selecting local payments](/help/troubleshooting/payments/magento-2-4-0-checkout-error-selecting-local-payments.md)
+      * [PayPal troubleshooting on Adobe Commerce](/help/troubleshooting/payments/paypal-troubleshooting-on-magento.md)
+      * [Adobe Commerce 2.4.0, 2.4.1: Enable Braintree Venmo partial invoice](/help/troubleshooting/payments/magento-2-4-0-2-4-1-enable-braintree-venmo-partial-invoice-issue.md)
+      * [Adobe Commerce 2.4.2 B2B: discount remains pay method change](/help/troubleshooting/payments/magento-2-4-2-b2b-discount-remains-pay-method-change.md)
+      * [Adobe Commerce 2.4.2: Braintree Venmo payment does not work](/help/troubleshooting/payments/magento-2-4-2-braintree-venmo-payment-does-not-work.md)
+      * [Payment methods not displayed on checkout with multiple addresses](/help/troubleshooting/payments/payment-methods-not-displayed-on-checkout-with-multiple-addresses.md)
+      * [Adobe Commerce 2.4.0 known issue: Klarna On-Site Messaging blank pages](/help/troubleshooting/payments/magento-2-4-0-known-issue-klarna-on-site-messaging-blank-pages.md)
+   * Storefront {#storefront}
+      * [Product is not displayed on storefront](/help/troubleshooting/storefront/product-is-not-displayed-on-storefront.md)
+      * [Store images not displayed after deployment](/help/troubleshooting/storefront/store-images-not-displayed-after-deployment.md)
+      * [Customers get logged out or lose cart content on Adobe Commerce storefront](/help/troubleshooting/storefront/customers-get-logged-out-or-lose-cart-content-on-magento-storefront.md)
+      * [Cannot save contact as URL key](/help/troubleshooting/storefront/unable-to-save-contact-as-a-url-key.md)
+   * Installation and upgrade {#installation-and-upgrade}
+      * [[!UICONTROL Recommendations] [!DNL JS] errors after upgrade to Adobe Commerce version 2.4.5](/help/troubleshooting/installation-and-upgrade/recommendations-js-errors-after-upgrade-to-adobe-commerce-version-2-4-5.md)
+      * [[!DNL B2B] 1.4.0 installation fails on Adobe Commerce 2.4.6-p1 on-premises](/help/troubleshooting/installation-and-upgrade/b2b-1-4-0-installation-fails-on-adobe-commerce-2-4-6-p1-on-premises.md)
+      * [Cannot install using nginx](/help/troubleshooting/installation-and-upgrade/cannot-install-using-nginx.md)
+      * [Wishlist error during upgrade to Adobe Commerce versions 2.3.4-p1 or 2.3.5](/help/troubleshooting/installation-and-upgrade/wishlist-error-during-upgrade-to-magento-versions-2-3-4-p1-or-2-3-5.md)
+      * [Adobe Commerce 2.4.0 installation fails with outdated stores cache](/help/troubleshooting/installation-and-upgrade/magento-2-4-0-known-issue-2-4-0-installation-fails-with-outdated-stores-cache.md)
+      * [Composer install command overides .gitignore file, Adobe Commerce](/help/troubleshooting/installation-and-upgrade/custom-gitignore-file-overridden.md)
+      * [During installation, PHP date warning](/help/troubleshooting/installation-and-upgrade/during-installation-php-date-warning.md)
+      * [During installation, Reflection Exception error](/help/troubleshooting/installation-and-upgrade/during-installation-reflection-exception-error.md)
+      * [Area code is not set error when running setup:upgrade](/help/troubleshooting/installation-and-upgrade/area-code-is-not-set-error-when-running-setup-upgrade.md)
+      * [Installation fails; cannot create install.log](/help/troubleshooting/installation-and-upgrade/installation-fails-cannot-create-install-log.md)
+      * [Exceptions during installation](/help/troubleshooting/installation-and-upgrade/exceptions-during-installation.md)
       * [Erros ao instalar dados de amostra opcionais](/help/troubleshooting/installation-and-upgrade/errors-installing-optional-sample-data.md)
       * [Durante a instalação, um erro fatal de PDO é exibido](/help/troubleshooting/installation-and-upgrade/during-installation-fatal-pdo-error-displays.md)
       * [A instalação pára em cerca de 70%](/help/troubleshooting/installation-and-upgrade/installation-stops-at-about-70.md)
@@ -205,7 +205,7 @@ ht-degree: 1%
    * [Identificar e medir paralisações do Adobe Commerce na infraestrutura em nuvem](/help/how-to/general/how-to-identify-outages.md)
    * [Redirecionar HTTP para HTTPS para todas as páginas no Adobe Commerce na infraestrutura em nuvem (Forçar TLS)](/help/how-to/general/redirect-http-to-https-for-all-pages-on-cloud-force-tls.md)
    * [Alocar mais espaço para o MySQL no Adobe Commerce na nuvem](/help/how-to/general/allocate-more-space-for-mysql-in-magento-commerce-cloud.md)
-   * [Alterar ID de incremento de uma entidade do banco de dados (pedido, fatura, aviso de crédito etc.) em uma loja específica](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)
+   * [Alterar ID de incremento de uma entidade do BD (pedido, fatura, aviso de crédito etc.) em uma loja específica](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)
    * [Redefinir o ambiente no Adobe Commerce na infraestrutura em nuvem](/help/how-to/general/reset-environment-on-cloud.md)
    * [MBI: Reautenticação de integrações](/help/how-to/general/mbi-reauthenticating-integrations.md)
    * [Adobe Commerce na nuvem: verifique se o upsize das instâncias do host é necessário](/help/how-to/general/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.md)
@@ -235,7 +235,6 @@ ht-degree: 1%
    * [Atualização do MariaDB 10.4 para 10.5 para Adobe Commerce na nuvem](/help/how-to/general/upgrade-mariadb-10-4-to-10-5-for-magento-commerce-cloud.md)
 * Perguntas frequentes {#faq}
    * [Visão geral das perguntas frequentes](/help/faq/overview.md)
-   * [Depreciação das integrações de pagamento principais do Adobe Commerce](/help/faq/general/depreciation-of-core-magento-payment-integrations.md)
    * [Posso instalar aplicativos de terceiros na minha instância da nuvem?](/help/faq/general/can-i-install-third-party-applications-on-my-cloud-instance.md)
    * [Link Magento.com e logons de conta do accounts.magento.cloud](/help/faq/general/linking-magento-com-and-accounts-magento-cloud-account-logins.md)
    * [Variável de incremento de auto_incremento do banco de dados definida como &quot;3&quot; Adobe Commerce em nossa arquitetura Cloud Pro](/help/faq/general/database-auto-increment-increment-variable-set-to-3-magento-cloud-pro.md)
