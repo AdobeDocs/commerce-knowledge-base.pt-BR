@@ -3,9 +3,9 @@ title: 'Backup (instantâneo) na nuvem: Perguntas frequentes'
 description: Este artigo aborda os conceitos básicos para fazer backup de seus ambientes com snapshots no Adobe Commerce na infraestrutura em nuvem.
 exl-id: 0077db74-3e7e-4c98-b215-7f6c089f49e8
 feature: Cloud, Iaas
-source-git-commit: 79e7cd40665b1857a9c68916679f07b1c046028a
+source-git-commit: 878a49fd1bbfa98dd506f0e81008ebe3bf7ecaca
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,14 @@ Este artigo aborda o backup de seus ambientes com instantâneos no Adobe Commerc
 
 ## Instantâneo do ambiente, plano Pro
 
+### Preparando para uma atualização
+
+Se precisar fazer backup do banco de dados como preparação para uma atualização, você será responsável por criar e validar seu próprio backup antes de continuar. Os snapshots de recuperação de desastres se destinam apenas à restauração do banco de dados se o upgrade não for bem-sucedido, e não como um substituto dos backups de preparação de upgrade.
+
+Se um erro o impedir de criar seu próprio backup, [contate o Suporte](https://experienceleague.adobe.com/home?lang=pt-BR&support-tab=home#support) e inclua os detalhes do erro de backup no seu tíquete.
+
+Observação: um instantâneo da recuperação de desastres é um ponto de recuperação do sistema capturado anteriormente, não um backup criado manualmente para um upgrade planejado, e não pode ser gerado sob demanda. Se um instantâneo for solicitado, o ponto de recuperação mais recente disponível será fornecido, portanto, as alterações feitas após esse ponto podem não ser recuperáveis.
+
 ### Ambientes de preparo e produção
 
 * Os instantâneos manuais não estão disponíveis para ambientes de preparo e produção no plano Pro.
@@ -31,7 +39,7 @@ Você pode [enviar um tíquete de Suporte da Adobe Commerce](https://experiencel
 
   Exemplo de saída:
 
-  <strong>1-01-2025-13 08:42:17.123000+00:00</strong>
+  <strong>2025-01-13 08:42:17.123000+00:00</strong>
 
 * A montagem estará disponível por 7 dias e o período de retenção não poderá ser estendido. Se precisar preservar um snapshot além desse período, você deverá copiá-lo para uma pasta diferente ou servidor externo nesse período
 * O suporte não gera instantâneos manuais sob demanda. Além disso, observe que o suporte não executa a reversão ou restauração do banco de dados para você - eles recuperam o instantâneo, mas você mesmo deve restaurar o banco de dados.
