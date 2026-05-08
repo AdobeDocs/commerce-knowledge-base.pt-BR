@@ -3,9 +3,9 @@ title: Bloquear tráfego mal-intencionado para o Adobe Commerce no nível Fastly
 description: Este artigo fornece as etapas que você pode seguir para bloquear tráfego mal-intencionado quando suspeitar que o Adobe Commerce na loja de infraestrutura na nuvem está enfrentando um ataque de DDoS.
 exl-id: 1a834a0a-753b-432e-9c3b-ef8dd034d294
 feature: Cache, Marketing Tools
-source-git-commit: 2555fbdb8a7a53d41c746df6414a7b0bad2de5d9
+source-git-commit: 8bde15deccc24c548c20cf5955cbebc45ac1d9a1
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -49,27 +49,27 @@ Para estabelecer o bloqueio com base no agente do usuário, é necessário adici
 
 1. No Administrador do Commerce, navegue até **Lojas** > **Configuração** > **Avançado** > **Sistema** > **Cache de Página Inteira**.
 1. Então **Configuração Fastly** > **Snippets de VCL Personalizado**.
-1. Crie o novo trecho personalizado conforme descrito no guia [Trechos de VCL personalizados](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/CUSTOM-VCL-SNIPPETS.md) para o módulo Fastly\_Cdn. Você pode usar a amostra de código a seguir como exemplo. Este exemplo não permite o tráfego para os agentes de usuário `AhrefsBot` e `SemrushBot`.
+1. Crie o novo trecho personalizado conforme descrito no guia [Trechos de VCL personalizados](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/CUSTOM-VCL-SNIPPETS.md) para o módulo Fastly\_Cdn. Você pode usar a amostra de código a seguir como exemplo. Este exemplo não permite o tráfego para o agente de usuário `AhrefsBot`.
 
 ```php
 name: block_bad_useragents
   type: recv
   priority: 5
   VCL:
-  if ( req.http.User-Agent ~ "(AhrefsBot|SemrushBot)" ) {
+  if ( req.http.User-Agent ~ "(AhrefsBot)" ) {
       error 405 "Not allowed";
   }
 ```
 
 ## Limite de taxa (funcionalidade experimental Fastly)
 
-Há uma funcionalidade experimental do Fastly para o Adobe Commerce na infraestrutura da nuvem, que permite especificar o limite de taxa para caminhos e rastreadores específicos. Consulte a [documentação do módulo Fastly](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/RATE-LIMITING.md) para obter detalhes.
+Há uma funcionalidade experimental do Fastly para o Adobe Commerce na infraestrutura de nuvem, que permite especificar o limite de taxa para caminhos e rastreadores específicos. Consulte a [documentação do módulo Fastly](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/RATE-LIMITING.md) para obter detalhes.
 
 A funcionalidade deve ser amplamente testada no preparo, antes de ser usada na produção, pois pode bloquear o tráfego legítimo.
 
 ## Recomendado: considerar a atualização do robots.txt
 
-A atualização do arquivo `robots.txt` pode ajudar a impedir que determinados mecanismos de pesquisa, rastreadores e robôs rastreiem determinadas páginas. Exemplos de páginas que não devem ser rastreadas são páginas de resultados de pesquisa, check-out, informações do cliente e assim por diante. Impedir que os robôs rastreem essas páginas pode ajudar a diminuir o número de solicitações geradas por esses robôs.
+A atualização do arquivo `robots.txt` pode ajudar a impedir que determinados mecanismos de pesquisa, rastreadores e robôs rastreem determinadas páginas. Exemplos de páginas que não devem ser rastreadas são páginas de resultados de pesquisa, check-out, informações do cliente e assim por diante. Impedir que os robôs rastreem dessas páginas pode ajudar a diminuir o número de solicitações geradas por esses robôs.
 
 Há duas considerações importantes ao usar o `robots.txt`:
 
@@ -87,5 +87,5 @@ Trabalhe com seu desenvolvedor e/ou especialista em SEO para determinar quais Ag
 
 ## Leitura relacionada
 
-* [Termos de Licenciamento Específicos do Produto para o Adobe Commerce na Nuvem](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/PSLT-AdobeCommerceCloud-WW-2023v1.pdf)
+* [Termos de licenciamento específicos do produto para o Adobe Commerce na nuvem](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/PSLT-AdobeCommerceCloud-WW-2023v1.pdf)
 * [VCL personalizado para solicitações de bloqueio](https://experienceleague.adobe.com/pt-br/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking) no Guia do Commerce na Nuvem
