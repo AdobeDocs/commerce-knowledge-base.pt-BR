@@ -57,4 +57,4 @@ Os clientes do Magento Open Source que usam os Serviços de pagamento da Adobe t
 
 ## Leitura relacionada
 
-[Provisionamento de espaço de dados SaaS](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas?lang=en#saas-data-space-provisioning)
+[Provisionamento de espaço de dados SaaS](https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/integration-services/saas?lang=en#saas-data-space-provisioning)
