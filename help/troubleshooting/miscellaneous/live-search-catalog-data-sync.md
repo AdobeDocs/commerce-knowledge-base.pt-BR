@@ -4,9 +4,9 @@ description: Este artigo fornece soluções para o problema do Adobe Commerce em
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
 feature: Catalog Management, Search
 role: Developer
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+source-git-commit: beca5aa3fa796e4b12afc4882024db718b65ac0c
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '1001'
 ht-degree: 0%
 
 ---
@@ -158,5 +158,5 @@ bin/magento saas:resync --feed categoryPermissions --cleanup-feed
 ## Leitura relacionada
 
 * [Integrar o Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html?lang=pt-BR) na documentação do usuário
-* [Revise logs e solucione problemas na exportação e sincronização de dados SaaS do Adobe Commerce](https://experienceleague.adobe.com/pt-br/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging) no Guia de exportação de dados SaaS do Adobe Commerce
+* [Revise logs e solucione problemas na exportação e sincronização de dados SaaS do Adobe Commerce](https://experienceleague.adobe.com/pt-br/docs/commerce/saas-data-export/logs-troubleshooting/troubleshooting-logging) no Guia de exportação de dados SaaS do Adobe Commerce
 * [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce

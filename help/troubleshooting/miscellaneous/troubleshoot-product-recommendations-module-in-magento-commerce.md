@@ -4,9 +4,9 @@ description: Este artigo fala sobre sugestões de solução de problemas para o 
 exl-id: 431ee31e-eb5b-400c-9c99-cc86613453d7
 feature: Cache, Compliance, Extensions, Marketing Tools, Personalization, Products, Recommendations
 role: Developer
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+source-git-commit: beca5aa3fa796e4b12afc4882024db718b65ac0c
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Se você tiver configurado o
 magento/product-recommendations
 ```
 
-módulo corretamente, (Verifique [[!UICONTROL Product Recommendations - Install and Configure]](https://experienceleague.adobe.com/pt-br/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure) em nossa documentação do desenvolvedor.) mas você não está vendo nenhuma recomendação, tente o seguinte:
+módulo corretamente, (Verifique [[!UICONTROL Product Recommendations - Install and Configure]](https://experienceleague.adobe.com/pt-br/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure) em nossa documentação do desenvolvedor.) mas você não estiver vendo nenhuma recomendação, tente o seguinte:
 
 * É possível que o módulo não tenha tido tempo suficiente para coletar dados comportamentais. Deixe o sistema em execução por 24 horas para que ele possa começar a coletar dados. Considere a implantação de um tipo de recomendação que não exija dados comportamentais, como &quot;*Mais itens semelhantes*&quot;.
 
@@ -62,8 +62,8 @@ saas-export
 ) módulo:
 
 1. Confirme se os trabalhos do [[!DNL cron]](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) (na documentação do desenvolvedor) estão em execução.
-1. Confirme se o [[!UICONTROL indexers]](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/cli/manage-indexers) (na documentação do desenvolvedor) está em execução e se    ```php    Product Feed    ```    [!UICONTROL indexer] está definido como    ```php    Update by Schedule    ```    .
-1. Confirme se os módulos estão *habilitados*. A variável    ```php    saas-export    ```    o metapackage instala os seguintes módulos, que devem ser *habilitados*:    ```php    "magento/module-catalog-data-exporter"      "magento/module-catalog-inventory-data-exporter"      "magento/module-catalog-url-rewrite-data-exporter"      "magento/module-configurable-product-data-exporter"      "magento/module-data-exporter"      "magento/module-saas-catalog"    ```
+1. Confirme se o [[!UICONTROL indexers]](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/cli/manage-indexers) (na documentação do desenvolvedor) está em execução e se o ```php    Product Feed    ``` [!UICONTROL indexer] está definido como ```php    Update by Schedule    ```.
+1. Confirme se os módulos estão *habilitados*. O metapackage ```php    saas-export    ``` instala os seguintes módulos, que devem ser *habilitados*: ```php    "magento/module-catalog-data-exporter"      "magento/module-catalog-inventory-data-exporter"      "magento/module-catalog-url-rewrite-data-exporter"      "magento/module-configurable-product-data-exporter"      "magento/module-data-exporter"      "magento/module-saas-catalog"    ```
 1. Verifique os [logs](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/cli/enable-logging) (na documentação do desenvolvedor). Verifique se não há erros associados aos módulos acima.
 1. Atualize o [!UICONTROL Configuration cache]. Vá para **Sistema** > **Ferramentas** > **Gerenciamento de Cache** e limpe o [!UICONTROL Configuration cache].
 1. Confirme se há dados na tabela do banco de dados `cde_products_products_feed`.
@@ -81,7 +81,7 @@ saas-export
 * [Desenvolvimento de administradores de recomendações de produtos](https://experienceleague.adobe.com/pt-br/docs/commerce-merchant-services/product-recommendations/developer/development-overview) em nossa documentação do desenvolvedor
 * [Introdução às Recomendações de Produto](https://experienceleague.adobe.com/pt-br/docs/commerce-merchant-services/product-recommendations/overview) no Guia de Recomendações de Produto
 * [Criar Recomendações de Produto](https://experienceleague.adobe.com/pt-br/docs/commerce-merchant-services/product-recommendations/admin/create) no Guia de Recomendações de Produto
-* [Revisar logs e solucionar problemas](https://experienceleague.adobe.com/pt-br/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging) no Guia de Exportação de Dados do [!DNL SaaS]
+* [Revisar logs e solucionar problemas](https://experienceleague.adobe.com/pt-br/docs/commerce/saas-data-export/logs-troubleshooting/troubleshooting-logging) no Guia de Exportação de Dados do [!DNL SaaS]
 * [[!DNL SaaS] Notas de Versão da Extensão de Exportação de Dados](https://experienceleague.adobe.com/pt-br/docs/commerce-merchant-services/saas-data-export/release-notes) no Guia de Exportação de Dados Adobe Commerce para Serviços [!DNL SaaS]
 * [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce
 
