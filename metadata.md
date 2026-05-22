@@ -10,9 +10,9 @@ landing-page-breadcrumb-title: Commerce
 product: magento
 type: Troubleshooting
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/commerce-knowledge-base.en
+git-repo: https://github.com/AdobeDocs/commerce-knowledge-base.pt-BR
 index: true
-badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
+badgePaas: label="Somente PaaS" type="Informative" url="https://experienceleague.adobe.com/pt-br/docs/commerce/user-guides/product-solutions" tooltip="Aplica-se somente a projetos do Adobe Commerce na nuvem (infraestrutura do PaaS gerenciada pela Adobe) e a projetos locais."
 source-git-commit: be3af16156719ed47daf3fdaec1113663885a1a3
 workflow-type: tm+mt
 source-wordcount: 97
