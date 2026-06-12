@@ -4,9 +4,9 @@ description: Este artigo fornece uma correção para o problema em que você ten
 exl-id: 8e3bb65c-ea75-4af4-ad4b-4d94ab219bbb
 feature: Cache, Data Import/Export, Products, Variables
 role: Developer
-source-git-commit: 724a30310c3841f8280628436925f9a3e5933b14
+source-git-commit: 40766238a7ea748bff86decf75cddec28fe63bb9
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Veja detalhes para ambas as opções nos parágrafos a seguir.
 1. No Administrador, navegue até **Lojas** > **Configuração** > **Avançado** > **Administrador** > **Segurança**.
 1. Defina a opção **Adicionar Chave Secreta às URLs** como *Não.*
 1. Clique em **Salvar configuração**.
-1. Limpar cache em **Sistema** > **Ferramentas** > **Gerenciamento de Cache** ou executando    ```bash    bin/magento cache:clean``` ou no Administrador.
+1. Limpe o cache no **Sistema** > **Ferramentas** > **Gerenciamento de Cache** ou executando o `bin/magento cache:clean` ou no Administrador.
 
 ### Execute o comando de exportação manualmente e, opcionalmente, adicione-o como um trabalho cron
 
@@ -74,7 +74,7 @@ Para adicionar o processo como um trabalho cron opcionalmente, você deve adicio
 #### Adicionar processo como um trabalho cron (opcional)
 
 1. Verifique se o cron está configurado e configurado. Consulte [Configurar trabalhos cron](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=pt-BR) para obter detalhes.
-1. Execute o seguinte comando para retornar uma lista de consumidores da fila de mensagens:     `./bin/magento queue:consumers:list`
+1. Execute o seguinte comando para retornar uma lista de consumidores da fila de mensagens: `./bin/magento queue:consumers:list`
 1. Adicione o seguinte ao arquivo `.magento.env.yaml` no diretório raiz do aplicativo e inclua os consumidores que deseja adicionar. Por exemplo, este é o consumidor necessário para o processamento da exportação:
 
    ```yaml

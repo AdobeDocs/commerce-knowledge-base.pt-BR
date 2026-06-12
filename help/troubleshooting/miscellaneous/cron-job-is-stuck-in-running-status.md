@@ -4,7 +4,7 @@ description: Este artigo fornece soluções para quando os trabalhos do Adobe Co
 exl-id: 11e01a2b-2fcf-48c2-871c-08f29cd76250
 feature: Configuration
 role: Developer
-source-git-commit: 08a241131453725a86eda5f267a209e6705da2e3
+source-git-commit: 40766238a7ea748bff86decf75cddec28fe63bb9
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -38,19 +38,19 @@ Os sintomas de [!DNL cron] trabalhos que devem ser redefinidos incluem:
 Para resolver esse problema, você deve redefinir o(s) trabalho(s) [!DNL cron] usando o comando `cron:unlock`. Este comando altera o status do trabalho [!DNL cron] no banco de dados, encerrando o trabalho à força para permitir que outros trabalhos agendados continuem.
 
 1. Abra um terminal e use suas [chaves SSH](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/secure-connections) para se conectar ao ambiente afetado.
-1. Obtenha as credenciais do banco de dados MySQL:    ```shell    echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 -d | json_pp    ```
-1. Conectar ao banco de dados usando `mysql`:    ```shell    mysql -hdatabase.internal -uuser -ppassword main    ```
-1. Selecione o banco de dados `main`:    ```shell    use main    ```
-1. Localizar todos os [!DNL cron] trabalhos em execução:    ```shell    SELECT * FROM cron_schedule WHERE status = 'running';    ```
+1. Obter as credenciais do banco de dados MySQL: `echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 -d | json_pp`
+1. Conectar ao banco de dados usando `mysql`: `mysql -hdatabase.internal -uuser -ppassword main`
+1. Selecione o banco de dados `main`: `use main`
+1. Localizar todos os trabalhos [!DNL cron] em execução: `SELECT * FROM cron_schedule WHERE status = 'running';`
 1. Copie o `job_code` de qualquer trabalho que esteja sendo executado por mais tempo do que o normal.
-1. Use as IDs de agendamento da etapa anterior para desbloquear [!DNL cron] trabalhos específicos:    ```shell    ./vendor/bin/ece-tools cron:unlock --job-code=<job_code_1> [... --job-code=<job_code_x>]    ```
+1. Use as IDs de agendamento da etapa anterior para desbloquear [!DNL cron] trabalhos específicos: `./vendor/bin/ece-tools cron:unlock --job-code=<job_code_1> [... --job-code=<job_code_x>]`
 
 ### Solução para parar um único [!DNL cron] {#solution-stop-a-single-cron}
 
 1. Abra um terminal e use suas [chaves SSH](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/secure-connections) para se conectar ao ambiente afetado.
 1. Verifique as tarefas de longa duração usando o seguinte comando:
 
-   ```date; ps aux | grep '[%]CPU\|cron\|magento\|queue' | grep -v 'grep\|cron -f'```
+   `date; ps aux | grep '[%]CPU\|cron\|magento\|queue' | grep -v 'grep\|cron -f'`
 
 1. Na saída, como na saída de exemplo abaixo, você verá a data atual e a lista de processos. A coluna `START` mostra a hora ou a data de início do processo:
 
@@ -73,8 +73,8 @@ Para resolver esse problema, você deve redefinir o(s) trabalho(s) [!DNL cron] u
    ```
 
 1. Se você observar trabalhos [!DNL cron] de longa execução que possam bloquear o processo de implantação, é possível encerrar o processo usando o comando `kill`. Você pode identificar a **ID do Processo** (localizada a coluna `PID`) e colocar essa `PID` no comando para eliminar o processo.
-O comando **eliminar processo** é:
+O comando **kill process** é:
 
-   ```kill -9 <PID>```
+   `kill -9 <PID>`
 
 1. Em seguida, você pode reimplantar, se estava tentando reimplantar.

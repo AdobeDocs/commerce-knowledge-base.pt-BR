@@ -4,9 +4,9 @@ description: Este artigo fornece soluções para erros que podem ocorrer ao exec
 exl-id: 9beb31ae-ed3c-42e1-b0bf-33fb1c91e0ea
 feature: Data Import/Export
 role: Developer
-source-git-commit: 958067830d32b1f10ffa669307ec76d1e14b82a4
+source-git-commit: 40766238a7ea748bff86decf75cddec28fe63bb9
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,8 @@ Este artigo fornece soluções para erros que podem ocorrer ao executar a Ferram
 
 ### Mensagens de erro
 
-* ```bash    Source documents are not mapped: <EXTENSION_TABLE>    ```
-* ```bash    Source fields are not mapped. Document: <EXTENSION_TABLE>. Fields: <EXTENSION_FIELD>    ```
+* `Source documents are not mapped: <EXTENSION_TABLE>`
+* `Source fields are not mapped. Document: <EXTENSION_TABLE>. Fields: <EXTENSION_FIELD>`
 
 Em casos raros, a mensagem pode mencionar
 
@@ -44,7 +44,7 @@ Esta mensagem é exibida porque a Ferramenta de Migração de Dados executa test
 
 ### Possíveis soluções
 
-* Instale as extensões correspondentes do Adobe Commerce 2 de [Commerce Marketplace](https://marketplace.magento.com/).     Se os dados conflitantes forem originários de uma extensão que adiciona elementos de estrutura de banco de dados próprios, a versão Adobe Commerce 2 da mesma extensão poderá adicionar esses elementos ao banco de dados de destino (Adobe Commerce 2), corrigindo o problema.
+* Instale as extensões correspondentes do Adobe Commerce 2 do [Commerce Marketplace](https://marketplace.magento.com/).     Se os dados conflitantes forem originários de uma extensão que adiciona elementos de estrutura de banco de dados próprios, a versão Adobe Commerce 2 da mesma extensão poderá adicionar esses elementos ao banco de dados de destino (Adobe Commerce 2), corrigindo o problema.
 * Use o argumento `-a` ao executar a ferramenta para resolver erros automaticamente e impedir que a migração seja interrompida.
 * Configure a Ferramenta para ignorar os dados problemáticos.
 
@@ -166,4 +166,3 @@ Recomendamos testar o processo de migração de uma cópia do banco de dados do 
 ## Leitura relacionada
 
 [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce
-

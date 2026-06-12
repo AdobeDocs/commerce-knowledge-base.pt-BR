@@ -4,9 +4,9 @@ description: Este artigo fornece soluções para solucionar problemas de erro 50
 exl-id: 3f001cc9-b19a-4dee-bff0-fc8ba89e2646
 feature: Cache, Categories
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 40766238a7ea748bff86decf75cddec28fe63bb9
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Para resolver esse problema, aumente o valor padrão do parâmetro `http_resp_hd
    * Ubuntu: `/etc/default/varnish`
 1. Procure o parâmetro `http_resp_hdr_len`.
 1. Se o parâmetro não existir, adicione-o depois de `thread_pool_max` .
-1. Defina `http_resp_hdr_len` com um valor igual à contagem de produtos da sua maior categoria multiplicada por 21. (Cada tag do produto tem aproximadamente 21 caracteres.)    Por exemplo, definir o valor para 65536 bytes deve funcionar se sua maior categoria tiver 3.000 produtos.    Por exemplo:    ```conf    -p http_resp_hdr_len=65536 \    ```
+1. Defina `http_resp_hdr_len` com um valor igual à contagem de produtos da sua maior categoria multiplicada por 21. (Cada tag do produto tem aproximadamente 21 caracteres.) Por exemplo, definir o valor para 65536 bytes deve funcionar se sua maior categoria tiver 3.000 produtos. Por exemplo: `-p http_resp_hdr_len=65536 \`
 1. Defina `http_resp_size` com um valor que acomode o comprimento aumentado do cabeçalho de resposta.    Por exemplo, usar a soma do comprimento do cabeçalho aumentado e do tamanho de resposta padrão é um bom ponto de partida (por exemplo, 65536 + 32768 = 98304): `-p http_resp_size=98304`. Segue um trecho:
 
    ```
