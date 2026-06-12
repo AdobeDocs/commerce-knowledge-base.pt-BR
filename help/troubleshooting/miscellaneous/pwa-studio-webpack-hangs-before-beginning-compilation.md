@@ -4,9 +4,9 @@ description: Este artigo fala sobre uma solução sugerida para quando um javasc
 exl-id: 692eeafa-9289-4d66-9f2f-1e0fe36e681d
 feature: Configuration
 role: Developer
-source-git-commit: 032fe4d32921c63570672b9c68e8c03e00bd1077
+source-git-commit: 40766238a7ea748bff86decf75cddec28fe63bb9
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -53,8 +53,8 @@ comando.
 
 <u>Resultado esperado</u>:
 
-* Se estiver usando o    ```yaml    build    ```    normalmente, ele gera os artefatos de build para o Venia.
-* Se estiver usando o    ```yaml    watch    ```    inicia a loja Venia normalmente.
+* Se estiver usando o comando `build`, ele gera os artefatos de compilação para Venia normalmente.
+* Se estiver usando o comando `watch`, ele iniciará a loja Venia normalmente.
 
 <u>Resultado real</u>:
 
@@ -92,8 +92,8 @@ Você pode instalar versões superiores do OpenSSL com o [Homebrew](https://brew
 
 ## Leitura relacionada
 
-* [Webpack de Javascript: Conceitos](https://webpack.js.org/concepts/)
+* [Javascript Webpack: Conceitos](https://webpack.js.org/concepts/)
 * [Configuração da vitrine Venia](https://developer.adobe.com/commerce/pwa-studio/guides/packages/venia/)
-* [Pacote de compilação do PWA](https://developer.adobe.com/commerce/pwa-studio/guides/packages/buildpack/)
-* [Interface de Linha de Comando do buildpack](https://developer.adobe.com/commerce/pwa-studio/api/buildpack/cli/)
+* [PWA Builder Pack](https://developer.adobe.com/commerce/pwa-studio/guides/packages/buildpack/)
+* [Interface de linha de comando do buildpack](https://developer.adobe.com/commerce/pwa-studio/api/buildpack/cli/)
 * [Ferramentas e bibliotecas: buildpack](https://developer.adobe.com/commerce/pwa-studio/guides/project/tools-libraries/#webpack)

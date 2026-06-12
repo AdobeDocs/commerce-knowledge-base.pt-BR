@@ -4,9 +4,9 @@ description: Este artigo fornece uma solução para o problema de *Falling back 
 feature: Search
 role: Developer
 exl-id: 965d2929-5cf0-4e0a-9eed-6a656daaa120
-source-git-commit: d17af0f8f92726aa5a6914fc9e1ff13268256d04
+source-git-commit: 40766238a7ea748bff86decf75cddec28fe63bb9
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Adobe Commerce na infraestrutura em nuvem
 
 Você definiu o **mecanismo de pesquisa** como **[!DNL OpenSearch]**, mas este tipo de erro está presente no arquivo `var/log/support_report.log`:
 
-```[2024-04-04T00:27:41.212916+00:00] report.ERROR: opensearch search engine doesn't exist. Falling back to elasticsearch7 [] []```
+`[2024-04-04T00:27:41.212916+00:00] report.ERROR: opensearch search engine doesn't exist. Falling back to elasticsearch7 [] []`
 
 <u>Etapas a serem reproduzidas</u>:
 
@@ -43,7 +43,7 @@ Se ele indicar *1.2.4*, então [!DNL OpenSearch] já está instalado.
 Embora sua versão seja compatível com o [!DNL OpenSearch], o aplicativo somente reconhecerá/aceitará o [!DNL Elasticsearch7] como mecanismo de pesquisa.
 
 A partir do Adobe Commerce versão 2.4.6, o aplicativo foi atualizado para permitir que [!DNL OpenSearch] seja selecionado como mecanismo de pesquisa.
-Se você for para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Search]** em um ambiente que não seja de nuvem, poderá alterar essa opção, como mostrado na **Solução** abaixo.
+Se você for para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Search]** em um ambiente que não seja de nuvem, será possível alterar essa opção conforme mostrado na **Solução** abaixo.
 (Observação: em um ambiente de nuvem, este campo não pode ser alterado porque o mecanismo de pesquisa está bloqueado no arquivo `app/etc/env.php`.)
 
 ## Solução
@@ -52,4 +52,4 @@ Atualize a variável `SEARCH_CONFIGURATION` no arquivo `.magento.env.yaml` e ver
 
 ## Leitura relacionada
 
-[Configure o serviço OpenSearch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/opensearch.html?lang=pt-BR) no guia Commerce na Infraestrutura na Nuvem.
+[Configure o serviço OpenSearch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/opensearch.html) no guia Commerce na Infraestrutura na Nuvem.

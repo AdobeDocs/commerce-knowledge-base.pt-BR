@@ -4,9 +4,9 @@ description: Este artigo fornece soluções para erros que podem ocorrer ao exec
 exl-id: 9beb31ae-ed3c-42e1-b0bf-33fb1c91e0ea
 feature: Data Import/Export
 role: Developer
-source-git-commit: 958067830d32b1f10ffa669307ec76d1e14b82a4
+source-git-commit: 40766238a7ea748bff86decf75cddec28fe63bb9
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,8 @@ Este artigo fornece soluções para erros que podem ocorrer ao executar a Ferram
 
 ### Mensagens de erro
 
-* ```bash    Source documents are not mapped: <EXTENSION_TABLE>    ```
-* ```bash    Source fields are not mapped. Document: <EXTENSION_TABLE>. Fields: <EXTENSION_FIELD>    ```
+* `Source documents are not mapped: <EXTENSION_TABLE>`
+* `Source fields are not mapped. Document: <EXTENSION_TABLE>. Fields: <EXTENSION_FIELD>`
 
 Em casos raros, a mensagem pode mencionar
 
@@ -44,7 +44,7 @@ Esta mensagem é exibida porque a Ferramenta de Migração de Dados executa test
 
 ### Possíveis soluções
 
-* Instale as extensões correspondentes do Adobe Commerce 2 de [Commerce Marketplace](https://marketplace.magento.com/).     Se os dados conflitantes forem originários de uma extensão que adiciona elementos de estrutura de banco de dados próprios, a versão Adobe Commerce 2 da mesma extensão poderá adicionar esses elementos ao banco de dados de destino (Adobe Commerce 2), corrigindo o problema.
+* Instale as extensões correspondentes do Adobe Commerce 2 do [Commerce Marketplace](https://marketplace.magento.com/).     Se os dados conflitantes forem originários de uma extensão que adiciona elementos de estrutura de banco de dados próprios, a versão Adobe Commerce 2 da mesma extensão poderá adicionar esses elementos ao banco de dados de destino (Adobe Commerce 2), corrigindo o problema.
 * Use o argumento `-a` ao executar a ferramenta para resolver erros automaticamente e impedir que a migração seja interrompida.
 * Configure a Ferramenta para ignorar os dados problemáticos.
 
@@ -83,7 +83,7 @@ Class <extension/class_name> is not mapped in record <attribute_id=196>
 
 ### Causa
 
-Não foi possível encontrar uma classe da base de código do Adobe Commerce 1 na base de código do Adobe Commerce 2 durante a [etapa de migração do EAV](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/tools/data-migration/basics/technical-specification) da documentação do desenvolvedor. Na maioria dos casos, a classe ausente pertence a uma [extensão](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/implementation-playbook/glossary#extension).
+Não foi possível encontrar uma classe da base de código do Adobe Commerce 1 na base de código do Adobe Commerce 2 durante a [etapa de migração do EAV](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/data-migration/basics/technical-specification) da documentação do desenvolvedor. Na maioria dos casos, a classe ausente pertence a uma [extensão](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/glossary#extension).
 
 ### Possíveis soluções
 
@@ -155,7 +155,7 @@ Deltalog for <TABLE_NAME> is not installed
 
 ### Causa
 
-Este erro ocorre durante a [migração incremental](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/tools/data-migration/migrate-data/delta) (na documentação do desenvolvedor) de alterações nos dados. Isso significa que as tabelas de exclusão (com o prefixo `m2_cl_*`) não foram encontradas no banco de dados do Adobe Commerce 1. A ferramenta instala essas tabelas durante a [migração de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/tools/data-migration/migrate-data/data) (na documentação do desenvolvedor), bem como os disparadores de banco de dados que controlam alterações e preenchem tabelas de exclusão.
+Este erro ocorre durante a [migração incremental](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/data-migration/migrate-data/delta) (na documentação do desenvolvedor) de alterações nos dados. Isso significa que as tabelas de exclusão (com o prefixo `m2_cl_*`) não foram encontradas no banco de dados do Adobe Commerce 1. A ferramenta instala essas tabelas durante a [migração de dados](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/data-migration/migrate-data/data) (na documentação do desenvolvedor), bem como os disparadores de banco de dados que controlam alterações e preenchem tabelas de exclusão.
 
 Um motivo para o erro pode ser que você esteja tentando migrar de uma *cópia* do seu armazenamento do Live Adobe Commerce 1, não do próprio armazenamento do Live. Quando você faz uma cópia de um armazenamento Adobe Commerce 1 em tempo real que nunca foi migrado, a cópia não contém os acionadores e as tabelas deltalog adicionais necessárias para concluir uma migração delta. Portanto, a migração falha. A Ferramenta de migração de dados NÃO faz comparações entre o BD de AC1 e AC2 para migrar as diferenças. Em vez disso, a ferramenta usa os acionadores e as tabelas de exclusão instaladas durante a primeira migração para executar as migrações delta subsequentes. Nesse caso, sua cópia do banco de dados Adobe Commerce 1 ativo não conterá os acionadores e as tabelas de exclusão que a Ferramenta de migração de dados usa para executar uma migração.
 
@@ -165,5 +165,4 @@ Recomendamos testar o processo de migração de uma cópia do banco de dados do 
 
 ## Leitura relacionada
 
-[Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce
-
+[Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce

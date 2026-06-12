@@ -4,9 +4,9 @@ description: Este artigo fornece uma solução para corrigir problemas de sincro
 feature: Data Import/Export, Saas, Logs
 role: Developer
 exl-id: 50f2223b-bfcf-4c3c-b0f1-dbcc4365edc2
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 40766238a7ea748bff86decf75cddec28fe63bb9
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Este artigo fornece uma solução para corrigir problemas de sincronização de 
 
 ## Produtos e versões afetados
 
-Instâncias do Adobe Commerce em que o código personalizado foi aplicado à funcionalidade de exportação de dados (`commerce-data-exporter` ou `saas-exporter`). O erro ocorre se a versão instalada do [[!DNL SaaS] Data Export for 103.3.0](https://experienceleague.adobe.com/pt-br/docs/commerce-merchant-services/saas-data-export/release-notes#release-6) ou posterior e o código fizer referência direta ao índice `catalog_data_exporter_products`.
+Instâncias do Adobe Commerce em que o código personalizado foi aplicado à funcionalidade de exportação de dados (`commerce-data-exporter` ou `saas-exporter`). O erro ocorre se a versão instalada do [[!DNL SaaS] Data Export for 103.3.0](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/release-notes#release-6) ou posterior e o código fizer referência direta ao índice `catalog_data_exporter_products`.
 
 ## Problema
 
@@ -29,13 +29,13 @@ Os comerciantes podem descobrir que as atualizações de dados estão ausentes n
 
 ## Causa
 
-Devido a alterações de nome em tabelas de feed, índices e tabelas de log de alterações na versão [!DNL Commerce Data Export] [103.3.0](https://experienceleague.adobe.com/pt-br/docs/commerce-merchant-services/saas-data-export/release-notes#release-9), as assinaturas [!DNL Mview] em extensões personalizadas que usam extensões [!DNL Commerce Data Export] podem não funcionar corretamente.
+Devido a alterações de nome em tabelas de feed, índices e tabelas de log de alterações na versão [!DNL Commerce Data Export] [103.3.0](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/release-notes#release-9), as assinaturas [!DNL Mview] em extensões personalizadas que usam extensões [!DNL Commerce Data Export] podem não funcionar corretamente.
 
 Nesse caso, o erro *tabela não existe* ocorre porque o nome da tabela `catalog_data_exporter` foi alterado para `cde_products_feed` e você tem um código personalizado que faz referência ao nome antigo na assinatura [!DNL Data Exporter Mview].
 
 ## Solução
 
-Na extensão personalizada, edite o arquivo de configuração [!DNL Mview] (```./etc/mview.xml```) para alterar o nome da tabela `catalog_data_exporter_products` para *`cde_products_feed`*.
+Na extensão personalizada, edite o arquivo de configuração [!DNL Mview] (`./etc/mview.xml`) para alterar o nome da tabela `catalog_data_exporter_products` para *`cde_products_feed`*.
 
 O exemplo a seguir mostra o código que especifica as tabelas rastreadas pela assinatura [!DNL Mview]:
 
@@ -49,5 +49,5 @@ O exemplo a seguir mostra o código que especifica as tabelas rastreadas pela as
 
 ## Leitura relacionada
 
-* [[!DNL SaaS] Notas de Versão da Extensão de Exportação de Dados](https://experienceleague.adobe.com/pt-br/docs/commerce-merchant-services/saas-data-export/release-notes) no Guia de Exportação de Dados Adobe Commerce para Serviços [!DNL SaaS]
-* [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce
+* [[!DNL SaaS] Notas de Versão da Extensão de Exportação de Dados](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/release-notes) no Guia de Exportação de Dados Adobe Commerce para Serviços [!DNL SaaS]
+* [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce
