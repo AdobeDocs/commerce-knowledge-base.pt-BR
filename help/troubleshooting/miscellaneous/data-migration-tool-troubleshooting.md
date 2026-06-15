@@ -83,7 +83,7 @@ Class <extension/class_name> is not mapped in record <attribute_id=196>
 
 ### Causa
 
-Não foi possível encontrar uma classe da base de código do Adobe Commerce 1 na base de código do Adobe Commerce 2 durante a [etapa de migração do EAV](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/data-migration/basics/technical-specification) da documentação do desenvolvedor. Na maioria dos casos, a classe ausente pertence a uma [extensão](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/glossary#extension).
+Não foi possível encontrar uma classe da base de código do Adobe Commerce 1 na base de código do Adobe Commerce 2 durante a [etapa de migração do EAV](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/tools/data-migration/basics/technical-specification) da documentação do desenvolvedor. Na maioria dos casos, a classe ausente pertence a uma [extensão](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/implementation-playbook/glossary#extension).
 
 ### Possíveis soluções
 
@@ -155,7 +155,7 @@ Deltalog for <TABLE_NAME> is not installed
 
 ### Causa
 
-Este erro ocorre durante a [migração incremental](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/data-migration/migrate-data/delta) (na documentação do desenvolvedor) de alterações nos dados. Isso significa que as tabelas de exclusão (com o prefixo `m2_cl_*`) não foram encontradas no banco de dados do Adobe Commerce 1. A ferramenta instala essas tabelas durante a [migração de dados](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/data-migration/migrate-data/data) (na documentação do desenvolvedor), bem como os disparadores de banco de dados que controlam alterações e preenchem tabelas de exclusão.
+Este erro ocorre durante a [migração incremental](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/tools/data-migration/migrate-data/delta) (na documentação do desenvolvedor) de alterações nos dados. Isso significa que as tabelas de exclusão (com o prefixo `m2_cl_*`) não foram encontradas no banco de dados do Adobe Commerce 1. A ferramenta instala essas tabelas durante a [migração de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/tools/data-migration/migrate-data/data) (na documentação do desenvolvedor), bem como os disparadores de banco de dados que controlam alterações e preenchem tabelas de exclusão.
 
 Um motivo para o erro pode ser que você esteja tentando migrar de uma *cópia* do seu armazenamento do Live Adobe Commerce 1, não do próprio armazenamento do Live. Quando você faz uma cópia de um armazenamento Adobe Commerce 1 em tempo real que nunca foi migrado, a cópia não contém os acionadores e as tabelas deltalog adicionais necessárias para concluir uma migração delta. Portanto, a migração falha. A Ferramenta de migração de dados NÃO faz comparações entre o BD de AC1 e AC2 para migrar as diferenças. Em vez disso, a ferramenta usa os acionadores e as tabelas de exclusão instaladas durante a primeira migração para executar as migrações delta subsequentes. Nesse caso, sua cópia do banco de dados Adobe Commerce 1 ativo não conterá os acionadores e as tabelas de exclusão que a Ferramenta de migração de dados usa para executar uma migração.
 
@@ -165,5 +165,5 @@ Recomendamos testar o processo de migração de uma cópia do banco de dados do 
 
 ## Leitura relacionada
 
-[Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce
+[Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce
 
