@@ -4,7 +4,7 @@ description: Este artigo fornece soluções para quando os trabalhos do Adobe Co
 exl-id: 11e01a2b-2fcf-48c2-871c-08f29cd76250
 feature: Configuration
 role: Developer
-source-git-commit: 40766238a7ea748bff86decf75cddec28fe63bb9
+source-git-commit: be0c72a1759ba172666c7c9409c65a1a388e3f11
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -78,3 +78,4 @@ O comando **kill process** é:
    `kill -9 <PID>`
 
 1. Em seguida, você pode reimplantar, se estava tentando reimplantar.
+

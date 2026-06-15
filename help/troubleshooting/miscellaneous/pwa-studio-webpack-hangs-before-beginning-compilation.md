@@ -4,7 +4,7 @@ description: Este artigo fala sobre uma solução sugerida para quando um javasc
 exl-id: 692eeafa-9289-4d66-9f2f-1e0fe36e681d
 feature: Configuration
 role: Developer
-source-git-commit: 40766238a7ea748bff86decf75cddec28fe63bb9
+source-git-commit: be0c72a1759ba172666c7c9409c65a1a388e3f11
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
@@ -97,3 +97,4 @@ Você pode instalar versões superiores do OpenSSL com o [Homebrew](https://brew
 * [PWA Builder Pack](https://developer.adobe.com/commerce/pwa-studio/guides/packages/buildpack/)
 * [Interface de linha de comando do buildpack](https://developer.adobe.com/commerce/pwa-studio/api/buildpack/cli/)
 * [Ferramentas e bibliotecas: buildpack](https://developer.adobe.com/commerce/pwa-studio/guides/project/tools-libraries/#webpack)
+

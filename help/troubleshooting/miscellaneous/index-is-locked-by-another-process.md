@@ -4,7 +4,7 @@ description: Este artigo fala sobre um problema comum de indexação no Adobe Co
 exl-id: 542c714c-fad5-4f0e-9757-d90044c36bfc
 feature: Catalog Management, Categories
 role: Developer
-source-git-commit: 1536ad8672498cf36f3d28452762744e4ffcc5de
+source-git-commit: be0c72a1759ba172666c7c9409c65a1a388e3f11
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%
@@ -103,3 +103,4 @@ Em nossa documentação do desenvolvedor:
 * [Configurar E Executar O Cron](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)
 * [Gerenciar Os Indexadores](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/cli/manage-indexers)
 * [Otimização do Indexador](https://developer.adobe.com/commerce/php/development/components/indexing/optimization/)
+

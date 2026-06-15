@@ -4,7 +4,7 @@ description: Este artigo fornece uma correção para o problema em que você ten
 exl-id: 8e3bb65c-ea75-4af4-ad4b-4d94ab219bbb
 feature: Cache, Data Import/Export, Products, Variables
 role: Developer
-source-git-commit: 40766238a7ea748bff86decf75cddec28fe63bb9
+source-git-commit: be0c72a1759ba172666c7c9409c65a1a388e3f11
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -100,3 +100,4 @@ Para adicionar o processo como um trabalho cron opcionalmente, você deve adicio
 >[!NOTE]
 >
 >Nos projetos Pro do Adobe Commerce on cloud infrastructure, o [recurso de autocronagem](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=pt-BR#crontab) deve estar habilitado na infraestrutura do Adobe Commerce on cloud antes que você possa adicionar trabalhos cron personalizados aos ambientes de preparo e produção usando o `.magento.app.yaml`. Se este recurso não estiver habilitado, [crie um tíquete de suporte](https://experienceleague.adobe.com/pt-br/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket), para que o trabalho seja adicionado para você.
+

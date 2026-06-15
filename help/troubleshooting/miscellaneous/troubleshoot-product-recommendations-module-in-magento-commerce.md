@@ -4,7 +4,7 @@ description: Este artigo fala sobre sugestões de solução de problemas para o 
 exl-id: 431ee31e-eb5b-400c-9c99-cc86613453d7
 feature: Cache, Compliance, Extensions, Marketing Tools, Personalization, Products, Recommendations
 role: Developer
-source-git-commit: 48b929f6fdf0bf8745ec03c8faa8b07bf5b3e5c3
+source-git-commit: be0c72a1759ba172666c7c9409c65a1a388e3f11
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 0%
@@ -90,3 +90,4 @@ saas-export
 * [Revisar logs e solucionar problemas](https://experienceleague.adobe.com/pt-br/docs/commerce/saas-data-export/logs-troubleshooting/troubleshooting-logging) no Guia de Exportação de Dados do [!DNL SaaS]
 * [[!DNL SaaS] Notas de Versão da Extensão de Exportação de Dados](https://experienceleague.adobe.com/pt-br/docs/commerce-merchant-services/saas-data-export/release-notes) no Guia de Exportação de Dados Adobe Commerce para Serviços [!DNL SaaS]
 * [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce
+
