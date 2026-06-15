@@ -4,7 +4,7 @@ description: Este artigo fornece soluções para quando os trabalhos do Adobe Co
 exl-id: 11e01a2b-2fcf-48c2-871c-08f29cd76250
 feature: Configuration
 role: Developer
-source-git-commit: 40766238a7ea748bff86decf75cddec28fe63bb9
+source-git-commit: be0c72a1759ba172666c7c9409c65a1a388e3f11
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Os sintomas de [!DNL cron] trabalhos que devem ser redefinidos incluem:
 
 Para resolver esse problema, você deve redefinir o(s) trabalho(s) [!DNL cron] usando o comando `cron:unlock`. Este comando altera o status do trabalho [!DNL cron] no banco de dados, encerrando o trabalho à força para permitir que outros trabalhos agendados continuem.
 
-1. Abra um terminal e use suas [chaves SSH](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/secure-connections) para se conectar ao ambiente afetado.
+1. Abra um terminal e use suas [chaves SSH](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) para se conectar ao ambiente afetado.
 1. Obter as credenciais do banco de dados MySQL: `echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 -d | json_pp`
 1. Conectar ao banco de dados usando `mysql`: `mysql -hdatabase.internal -uuser -ppassword main`
 1. Selecione o banco de dados `main`: `use main`
@@ -47,7 +47,7 @@ Para resolver esse problema, você deve redefinir o(s) trabalho(s) [!DNL cron] u
 
 ### Solução para parar um único [!DNL cron] {#solution-stop-a-single-cron}
 
-1. Abra um terminal e use suas [chaves SSH](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/secure-connections) para se conectar ao ambiente afetado.
+1. Abra um terminal e use suas [chaves SSH](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) para se conectar ao ambiente afetado.
 1. Verifique as tarefas de longa duração usando o seguinte comando:
 
    `date; ps aux | grep '[%]CPU\|cron\|magento\|queue' | grep -v 'grep\|cron -f'`
@@ -78,3 +78,4 @@ O comando **kill process** é:
    `kill -9 <PID>`
 
 1. Em seguida, você pode reimplantar, se estava tentando reimplantar.
+

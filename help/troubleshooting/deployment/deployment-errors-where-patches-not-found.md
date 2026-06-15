@@ -2,7 +2,7 @@
 title: Erros de patch não encontrado durante implantação ou aplicação manual
 description: 'Este artigo fornece uma solução para o problema em que você vê um erro *Próximos patches não foram encontrados: MDVA-XXXXX, ACSD-XXXXX. Verifique a disponibilidade desses patches para a versão atual do Magento usando o comando ''status''*.'
 exl-id: 5a2fd35a-892a-48af-a41f-f275297b3e2e
-source-git-commit: 180f0e00ec1a2c6c3bd2ebca4dafe387c7bb3852
+source-git-commit: be0c72a1759ba172666c7c9409c65a1a388e3f11
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 0%
@@ -72,10 +72,11 @@ Nesse caso, o patch não está disponível para a versão do Adobe Commerce inst
     * ACSD-XXXXX
    ```
 
-1. Pesquise as IDs de patch nas [Notas de versão de Patches de qualidade](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/release-notes.html?lang=pt-BR) para verificar se cada uma pode ser aplicada à nova versão do Adobe Commerce para a qual você está atualizando.
+1. Pesquise as IDs de patch nas [Notas de versão de Patches de qualidade](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/release-notes.html) para verificar se cada uma pode ser aplicada à nova versão do Adobe Commerce para a qual você está atualizando.
 1. Se o patch não se aplicar à nova versão do Adobe Commerce que você deseja atualizar, remova a ID do patch do arquivo `.magento.env.yaml`.
 1. Depois de ter revisado todas as IDs de patch indicadas pelo erro, envie as alterações para push e reimplante.
 
 ## Leitura relacionada
 
-* [Aplique patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html?lang=pt-BR#apply-a-patch-in-a-local-environment) no Guia de Infraestrutura do Commerce na Nuvem.
+* [Aplique patches](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html?lang=en#apply-a-patch-in-a-local-environment) no Guia de Infraestrutura do Commerce na Nuvem.
+
