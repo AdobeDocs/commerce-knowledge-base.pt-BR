@@ -2,10 +2,10 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 5cb7550f95d48b89fc0d68c5e282bc3efe817f17
+source-git-commit: dd7e3fe0f0d7e65fefc20c46db52581b14986f64
 workflow-type: tm+mt
-source-wordcount: '1799'
-ht-degree: 1%
+source-wordcount: '1798'
+ht-degree: 0%
 
 ---
 
@@ -185,7 +185,6 @@ ht-degree: 1%
       * [Erro durante a implantação ao atualizar para a versão que suporta o PHP 8.1](/help/troubleshooting/deployment/error-during-deployment-when-upgrading-to-version-supporting-php-8-1.md)
       * [Erro de implantação: &quot;erro 7 ao baixar ... porta 443: conexão recusada&quot;](/help/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce.md)
       * [Erros de implantação ao confirmar arquivos incorretos](/help/troubleshooting/deployment/deployment-error-when-committing-incorrect-files.md)
-      * [Erros de patch não encontrado durante implantação ou aplicação manual](/help/troubleshooting/deployment/deployment-errors-where-patches-not-found.md)
       * [Falha na implantação na liberação de cache: erro &quot;Não há comandos definidos no namespace &#39;cache&#39;&quot;](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
    * Problemas conhecidos {#known-issues-patches-attached}
       * [Diretrizes sobre como proteger seu repositório e girar chaves de criptografia: [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
