@@ -1,7 +1,7 @@
 ---
 source-git-commit: c992521cae8c847adc0cc23d2323300e0ba69cdc
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ Escreva ambos os números em palavras ou ambos em numerais, se você tiver dois 
 
 <tr>
 
-<td>Faça login na página da conta do Magento.com </td>
+<td>Faça logon na página da conta do Magento.com </td>
 
 <td>Faça logon em sua conta da Adobe Commerce</td>
 
