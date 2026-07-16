@@ -65,7 +65,7 @@ Se a página de índice tiver uma taxa de ocorrência baixa, você poderá corri
 
 Para verificar a taxa geral de acertos do cache:
 
-1. [Obtenha credenciais do Fastly](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration) para seu Adobe Commerce no ambiente de infraestrutura na nuvem.
+1. [Obtenha credenciais do Fastly](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration) para seu Adobe Commerce no ambiente de infraestrutura na nuvem.
 1. Execute o seguinte comando cURL do Linux/macOS para verificar a taxa de ocorrência do site nos últimos 30 minutos, substituindo e pelos valores das credenciais do Fastly:
 
    `curl -H "Fastly-Key: " https://api.fastly.com/stats/service//field/hit_ratio?by=minute | json_pp`
@@ -82,8 +82,8 @@ Uma taxa de ocorrência abaixo de 0,85 ou 85% pode indicar um problema de config
 
 1. Usando as estatísticas de taxa de ocorrência por hora e por dia, identifique quando a taxa de ocorrência começou a diminuir. Se a taxa de ocorrência cair repentinamente ao mesmo tempo em que você implantou uma alteração no site, considere reverter a alteração até que o carregamento do site diminua.
 1. Verifique a configuração no Administrador do Commerce, em **Lojas** > **Configuração** > Avançado > **Sistema** > **Cache de Página Inteira**. Verifique se o valor de **TTL para conteúdo público** não está definido como muito baixo.
-1. Verifique se você [carregou os trechos de VCL](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#upload-vcl-snippets).
-1. Se você usar trechos de VCL personalizados, depure-os para o uso correto das ações &quot;passar&quot; ou &quot;pipe&quot;: eles devem ser usados com cuidado e, no mínimo, usados com algum tipo de condição. Para obter mais dicas, consulte [Custom Fastly VCL snippets](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets) na documentação do desenvolvedor.
+1. Verifique se você [carregou os trechos de VCL](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#upload-vcl-snippets).
+1. Se você usar trechos de VCL personalizados, depure-os para o uso correto das ações &quot;passar&quot; ou &quot;pipe&quot;: eles devem ser usados com cuidado e, no mínimo, usados com algum tipo de condição. Para obter mais dicas, consulte [Custom Fastly VCL snippets](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets) na documentação do desenvolvedor.
 
 ### Etapa 3: identificar os sites que causam a alta carga do servidor
 
