@@ -1,19 +1,19 @@
 ---
 title: Uso de Exportações de Dados para apontar discrepâncias
-description: Este artigo fornece soluções para discrepâncias de solução de problemas nos dados de Magento BI. As Exportações de dados são uma ferramenta útil para comparar seus dados do Magento BI com os dados de origem para apontar discrepâncias de dados em seus relatórios, especialmente se a [lista de verificação de diagnóstico de discrepância de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy) não ajudou a identificar o problema. Este artigo o guiará por um exemplo real de como as discrepâncias de dados podem ser identificadas usando as Exportações de dados.
+description: Este artigo fornece soluções para discrepâncias de solução de problemas nos dados do Magento BI. As Exportações de dados são uma ferramenta útil para comparar seus dados do Magento BI com seus dados de origem a fim de apontar discrepâncias de dados em seus relatórios, especialmente se a [lista de verificação de diagnóstico de discrepância de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy) não ajudou a identificar o problema. Este artigo o guiará por um exemplo real de como as discrepâncias de dados podem ser identificadas usando as Exportações de dados.
 exl-id: b42d585c-ad8c-4685-9ad4-a13686566f18
 feature: Commerce Intelligence, Data Import/Export
 role: Developer
 source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1401'
 ht-degree: 0%
 
 ---
 
 # Uso de Exportações de Dados para apontar discrepâncias
 
-Este artigo fornece soluções para discrepâncias de solução de problemas nos dados de Magento BI. As Exportações de Dados são uma ferramenta útil para comparar seus dados do Magento BI com seus dados de origem para apontar discrepâncias de dados em seus relatórios, especialmente se a [lista de verificação de diagnóstico de discrepância de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy) não ajudou a identificar o problema. Este artigo o guiará por um exemplo real de como as discrepâncias de dados podem ser identificadas usando as Exportações de dados.
+Este artigo fornece soluções para discrepâncias de solução de problemas nos dados do Magento BI. As Exportações de Dados são uma ferramenta útil para comparar seus dados do Magento BI com seus dados de origem, a fim de apontar discrepâncias de dados em seus relatórios, especialmente se a [lista de verificação de diagnóstico de discrepância de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy) não ajudou a identificar o problema. Este artigo o guiará por um exemplo real de como as discrepâncias de dados podem ser identificadas usando as Exportações de dados.
 
 Faça esta análise, por exemplo:
 
@@ -49,9 +49,9 @@ Agora que todos os dados estão em um só lugar, podemos procurar a fonte da dis
 
 ### Ambas as planilhas contêm o mesmo número de linhas
 
-Se ambos os sistemas tiverem a mesma contagem de linhas e a métrica **Receita** não corresponder aos dados de origem, a **ordem\_total** deverá estar desativada em algum lugar. É possível que o campo **ordem\_total** tenha sido atualizado no banco de dados de origem e o Magento BI não esteja coletando essas alterações.
+Se ambos os sistemas tiverem a mesma contagem de linhas e a métrica **Receita** não corresponder aos dados de origem, a **ordem\_total** deverá estar desativada em algum lugar. É possível que o campo **ordem\_total** tenha sido atualizado no banco de dados de origem e o Magento BI não esteja selecionando essas alterações.
 
-Para confirmar isso, verifique se a coluna **order\_total** está ou não sendo verificada novamente. Vá para o Gerenciador de Datas Warehouse e clique na tabela **`orders`**. Você verá a [frequência de reverificação](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks.html?lang=pt-BR) listada em &#39;Alterações?&#39; coluna. O campo **order\_total** deve ser definido para verificar novamente com a frequência esperada; caso contrário, vá em frente e defina-o com a frequência de verificação desejada.
+Para confirmar isso, verifique se a coluna **order\_total** está ou não sendo verificada novamente. Vá para o Gerenciador do Data Warehouse e clique na tabela **`orders`**. Você verá a [frequência de reverificação](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks.html?lang=pt-BR) listada na coluna &#39;Alterações?&#39;. O campo **order\_total** deve ser definido para verificar novamente com a frequência esperada; caso contrário, vá em frente e defina-o com a frequência de verificação desejada.
 
 ### ![](assets/Export_Discrepancies_4.gif)
 
@@ -59,12 +59,12 @@ Se a frequência de reverificação já estiver definida corretamente, algo mais
 
 ## O banco de dados de origem tem MAIS linhas do que o Magento BI {#morerows}
 
-Se o banco de dados de origem tiver mais linhas do que Magento BI e a lacuna for maior do que o número de pedidos que você pode esperar durante a duração de um ciclo de atualização, pode haver um problema de conexão. Isso significa que o Magento BI não pode extrair novos dados do banco de dados de origem, o que pode ocorrer por vários motivos.
+Se o banco de dados de origem tiver mais linhas que o Magento BI e a lacuna for maior que o número de pedidos que você pode esperar durante a duração de um ciclo de atualização, pode haver um problema de conexão. Isso significa que o Magento BI não pode extrair novos dados do banco de dados de origem, o que pode ocorrer por vários motivos.
 
 Navegue até a página Conexões e verifique o status da fonte de dados que contém a tabela `order`:
 
 1. **Se o status for Reautenticar**, a conexão não está usando as credenciais corretas. Clique na conexão, digite as credenciais corretas e tente novamente.
-1. **Se o status for Falha** , a conexão pode não ser configurada corretamente no lado do servidor. Conexões com falha geralmente surgem de um nome de host incorreto ou o servidor de destino não aceita conexões na porta especificada. Clique na conexão e verifique novamente a ortografia do nome do host e se a porta correta foi inserida. No lado do servidor, verifique se a porta pode aceitar conexões e se seu firewall tem o endereço IP de Magento BI (54.88.76.97/32) conforme permitido. **Se a conexão continuar a falhar** , consulte a [seção de Contato com o Suporte](#support) no final deste artigo para obter as próximas etapas.
+1. **Se o status for Falha** , a conexão pode não ser configurada corretamente no lado do servidor. Conexões com falha geralmente surgem de um nome de host incorreto ou o servidor de destino não aceita conexões na porta especificada.Clique na conexão e verifique novamente a ortografia do nome do host e se a porta correta foi inserida. No lado do servidor, verifique se a porta pode aceitar conexões e se seu firewall tem o endereço IP do Magento BI (54.88.76.97/32) conforme permitido. **Se a conexão continuar a falhar** , consulte a [seção de Contato com o Suporte](#support) no final deste artigo para obter as próximas etapas.
 1. **Se o status for Êxito**, a conexão não é o problema e o suporte a RJ precisa se envolver. Consulte a [seção Entrando em contato com o suporte](#support) no final deste artigo para obter as próximas etapas.
 
 ## O banco de dados de origem tem MENOS linhas do que o Magento BI {#lessrows}
@@ -73,7 +73,7 @@ Se o banco de dados de origem tiver menos linhas do que o Magento BI, é possív
 
 No entanto, se as linhas forem excluídas da tabela, verifique a frequência de reverificação na chave primária. Verificar novamente a chave primária significa que a tabela será verificada em busca de linhas excluídas.
 
-No Gerenciador de Datas Warehouse, as colunas de chave primária são marcadas com um símbolo de chave. No nosso exemplo, a chave primária é a coluna **order\_id**:
+No Data Warehouse Manager, as colunas de chave primária são marcadas com um símbolo de chave. No nosso exemplo, a chave primária é a coluna **order\_id**:
 
 ![](assets/Export_Discrepancies_3.png)
 
@@ -83,13 +83,13 @@ Se a chave primária já estiver definida para ser verificada novamente ou se as
 
 Se você não puder identificar a origem do problema, precisará executar um loop no Suporte RJ. Antes de enviar um tíquete, faça o seguinte:
 
-* **Se o banco de dados de origem e o Magento BI tiverem o mesmo número de linhas** e as frequências de reverificação estiverem definidas corretamente, execute um VLOOKUP na planilha **para descobrir quais valores order\_id têm um valor order\_total diferente entre o Magento BI e o banco de dados de origem.** Inclua esses valores ao enviar seu tíquete.
+* **Se o banco de dados de origem e o Magento BI tiverem o mesmo número de linhas** e as frequências de reverificação estiverem definidas corretamente, execute um VLOOKUP na planilha **para descobrir quais valores order\_id têm um valor order\_total diferente entre o Magento BI e o banco de dados de origem.** Inclua esses valores ao enviar o tíquete.
 * **Se o banco de dados de origem tiver MAIS linhas do que o Magento BI** e a conexão for exibida como Bem-sucedida ou continuar a falhar, precisaremos saber o nome da conexão e a mensagem de erro que você está vendo, se houver.
-* **Se o banco de dados de origem tiver MENOS linhas do que o Magento BI,** as linhas não serão excluídas da tabela e as frequências de reverificação estiverem definidas corretamente, execute um VLOOKUP na planilha **para descobrir quais valores de order\_id estão no Magento BI**, mas não no banco de dados de origem. Inclua esses valores ao enviar o tíquete.
+* **Se o banco de dados de origem tiver MENOS linhas do que o Magento BI,** as linhas não serão excluídas da tabela e as frequências de reverificação estiverem definidas corretamente, execute um VLOOKUP na planilha **para descobrir quais valores order\_id estão no Magento BI**, mas não no banco de dados de origem. Inclua esses valores ao enviar o tíquete.
 
 ## Leitura relacionada
 
 * [Lista de verificação de diagnóstico de discrepância de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)
-* [Políticas de Serviço do Adobe Commerce Intelligence](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies)
+* [Políticas de serviço do Adobe Commerce Intelligence](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies)
 * [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce
 
