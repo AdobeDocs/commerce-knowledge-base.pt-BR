@@ -6,7 +6,7 @@ role: Developer
 exl-id: ee2bddba-36f7-4aae-87a1-5dbeb80e654e
 source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Para resolver esse problema, identifique as linhas inválidas restantes dessas c
 
    `bin/magento`
 
-   Se você receber um erro como o abaixo, que indica que o site com a ID X solicitada não foi encontrado, você tem configurações restantes        no banco de dados a partir de site(s) e armazenamento(s) que foram excluídos.
+   Se você receber um erro como o abaixo, que indica que o site com a ID X solicitada não foi encontrado, você tem configurações restantes no banco de dados do(s) site(s), bem como lojas que foram excluídas.
 
    ```
    In WebsiteRepository.php line 110:
@@ -108,5 +108,5 @@ Para confirmar se a solução funcionou, execute o comando `bin/magento` novamen
 ## Leitura relacionada
 
 * [Solução de problemas de implantação do Adobe Commerce](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-deployment-troubleshooter)
-* [Verificando o log de implantação se a Interface de Usuário da Nuvem tem o erro &quot;log cortado&quot;](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error)
+* [Verificação do log de implantação se a interface do usuário da nuvem tiver um erro de &quot;log recortado&quot;](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error)
 * [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce
