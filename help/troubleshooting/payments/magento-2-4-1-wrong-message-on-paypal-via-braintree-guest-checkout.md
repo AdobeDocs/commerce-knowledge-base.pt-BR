@@ -1,17 +1,17 @@
 ---
-title: 'Adobe Commerce 2.4.1: mensagem incorreta na finalização de compra de convidado PayPal-Braintree'
+title: 'Adobe Commerce 2.4.1: mensagem incorreta na finalização de compra de convidado do PayPal-Braintree'
 description: Este artigo descreve um problema conhecido do Adobe Commerce 2.4.1 em que, se o check-out do convidado estiver desativado, um cliente convidado que tenta fazer um pedido no PayPal por meio do Braintree receberá uma mensagem de erro não informativa.
 exl-id: 758f5c57-997e-4aca-b299-9934c94fa121
 feature: Checkout, Orders, Payments
 role: Developer
 source-git-commit: 77f41d6034f985794e5c5b89cc007a69858683b9
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
 
-# Adobe Commerce 2.4.1: mensagem incorreta na finalização de compra de convidado PayPal-Braintree
+# Adobe Commerce 2.4.1: mensagem incorreta na finalização de compra de convidado do PayPal-Braintree
 
 Este artigo descreve um problema conhecido do Adobe Commerce 2.4.1 em que, se o check-out do convidado estiver desativado, um cliente convidado que tenta fazer um pedido no PayPal por meio do Braintree receberá uma mensagem de erro não informativa.
 
@@ -22,12 +22,12 @@ Este artigo descreve um problema conhecido do Adobe Commerce 2.4.1 em que, se o 
 
 ## Problema
 
-Um erro inespecífico é exibido quando o check-out do convidado é desativado no back-end e a opção PayPal por meio do Braintree de pagamento é selecionada no Minicarrinho ou no Carrinho de compras.
+Um erro inespecífico é exibido quando o check-out do convidado é desativado no back-end e a opção de pagamento PayPal via Braintree é selecionada no Minicarrinho ou no Carrinho de compras.
 
 <u>Pré-requisitos</u>:
 
 1. No Administrador do Commerce, em **Lojas** > **Configuração** > **Vendas** > **Check-out**, defina **Permitir Check-out de Convidado** = *Não*.
-1. Ative o PayPal por meio do Braintree, conforme descrito no [Braintree](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/payments/braintree?) em nosso guia do usuário.
+1. Habilite o PayPal por meio do Braintree conforme descrito na [Braintree](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/stores-sales/payments/braintree?) em nosso guia do usuário.
 
 <u>Etapas a serem reproduzidas</u>:
 
@@ -55,7 +55,7 @@ O cliente é redirecionado para a página Carrinho de compras e a seguinte mensa
 
 ## Solução alternativa
 
-A solução alternativa para esse problema é que o cliente pode fazer logon em uma loja (usuários conectados não usam o check-out de convidado) onde o check-out de convidado está desativado. Este problema foi corrigido no Adobe Commerce versão 2.4.2.
+A solução alternativa para esse problema é que o cliente pode fazer logon em uma loja (os usuários conectados não usam o check-out de convidado). onde o check-out do convidado está desativado. Este problema foi corrigido no Adobe Commerce versão 2.4.2.
 
 ## Leitura relacionada
 
