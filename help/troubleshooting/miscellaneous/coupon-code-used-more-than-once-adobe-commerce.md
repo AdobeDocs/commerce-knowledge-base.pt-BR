@@ -6,7 +6,7 @@ feature: Orders
 role: Developer
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,8 @@ Adicionar o consumidor `sales.rule.update.coupon.usage` ao arquivo `app/etc/env.
 ...
 ```
 
-Para obter etapas detalhadas, consulte [Gerenciar filas de mensagens > Configuração](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues#configuration) na documentação do desenvolvedor.
+Para obter etapas detalhadas, consulte [Gerenciar filas de mensagens > Configuração](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues#configuration) na documentação do desenvolvedor.
 
 ## Leitura relacionada
 
-[Visão geral das filas de mensagens](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/message-queues/message-queue-framework) na documentação do desenvolvedor.
+[Visão geral das filas de mensagens](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/message-queue-framework) na documentação do desenvolvedor.

@@ -6,7 +6,7 @@ feature: Orders, Payments
 role: Developer
 source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Este artigo descreve um problema conhecido do Adobe Commerce 2.4.2 em que os ped
 
 <u>Pré-condição</u> :
 
-Ativar pagamento Venmo na configuração Braintree.
+Ativar pagamento Venmo na configuração do Braintree.
 
 <u>Etapas a serem reproduzidas</u>:
 
@@ -36,7 +36,7 @@ Ativar pagamento Venmo na configuração Braintree.
 
 <u>Resultados reais</u>:
 
-O pedido não é criado no código Adobe Commerce depois que o cliente é redirecionado de volta para a loja a partir do aplicativo Venmo, e nenhuma mensagem de erro é exibida. A ordem é criada no Braintree.
+O pedido não é criado no código Adobe Commerce depois que o cliente é redirecionado de volta para a loja a partir do aplicativo Venmo, e nenhuma mensagem de erro é exibida. O pedido é criado no Braintree.
 
 <u>Resultados esperados</u>:
 

@@ -6,7 +6,7 @@ feature: Console, Install, Upgrade
 role: Developer
 source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,11 @@ Essas exceções resultam das configurações de permissões do sistema de arqui
 
 ### Solução
 
-[Defina novamente a propriedade e as permissões do sistema de arquivos](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/file-system-permissions.html?lang=pt-BR) como um usuário com `root` privilégios.
+[Defina novamente a propriedade e as permissões do sistema de arquivos](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/file-system-permissions.html) como um usuário com `root` privilégios.
 
 ## Sintoma (modo de produção)
 
-Se você estiver definido atualmente para [modo de produção](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=pt-BR), a instalação de dados de amostra falhará se você usar o comando [magento sampledata:deploy](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/composer-packages.html?lang=pt-BR):
+Se você estiver definido atualmente para [modo de produção](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html), a instalação de dados de amostra falhará se você usar o comando [magento sampledata:deploy](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/composer-packages.html):
 
 ```php
 PHP Fatal error: Uncaught TypeError: Argument 1 passed to Symfony\Component\Console\Input\ArrayInput::__construct() must be of the type array, object given, called in /<path>/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 97 and defined in /<path>/vendor/symfony/console/Symfony/Component/Console/Input/ArrayInput.php:37
@@ -48,7 +48,7 @@ PHP Fatal error: Uncaught TypeError: Argument 1 passed to Symfony\Component\Cons
 
 Não instale dados de amostra no modo de produção. Alterne para o modo de desenvolvedor, limpe alguns diretórios `var` e tente novamente.
 
-Digite os seguintes comandos na ordem mostrada como o [proprietário do sistema de arquivos do Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/overview.html?lang=pt-BR):
+Digite os seguintes comandos na ordem mostrada como o [proprietário do sistema de arquivos do Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/overview.html):
 
 ```php
 cd <magento_root>

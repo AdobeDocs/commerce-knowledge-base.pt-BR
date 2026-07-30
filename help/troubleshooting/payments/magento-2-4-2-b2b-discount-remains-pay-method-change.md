@@ -6,7 +6,7 @@ feature: B2B, Orders, Payments, Personalization
 role: Developer
 source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,9 @@ Este artigo descreve um problema B2B conhecido do Adobe Commerce 2.4.2 em que um
 
 <u>Resultados reais</u>:
 
-O desconto da forma de pagamento permanece aplicado ao total do pedido.  Nenhuma mensagem de erro é exibida. O proprietário da loja poderá ver isso ao verificar o histórico do pedido.
+O desconto da forma de pagamento permanece aplicado ao total do pedido.  Nenhuma mensagem de erro é exibida.O proprietário da loja poderá ver que isso ocorreu verificando o histórico do pedido.
 
-<u>Resultados esperados</u>: o desconto do método de pagamento foi removido do total do pedido, conforme esperado.
+<u>Resultados esperados</u> O desconto da forma de pagamento :The foi removido do total do pedido, conforme esperado.
 
 ## Solução
 
