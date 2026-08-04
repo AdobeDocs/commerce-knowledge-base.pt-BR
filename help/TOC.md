@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: b82083924e570e6a0bc004b47ab41f597836b3aa
+source-git-commit: 694ab6fe606195c40b15d2752c09dd380d3dcedb
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1771'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,6 @@ ht-degree: 1%
     * [A aplicação de um patch derruba o site](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
     * [Patches revisados para perda de acesso ao Google Maps em todas as versões do Adobe Commerce](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
   * Diversos {#miscellaneous}
-    * [Correção de dados não atualizados nos  [!DNL Commerce Data Exporter] feeds e [!DNL cron] logs de erro com a tabela changelog não existem](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
     * [Email informando que o armazenamento de exportação está quase cheio](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
     * [Arquivo de configuração ausente ou alterado](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
     * [Erro de cURL 60: certificado SSL expirado](/help/troubleshooting/miscellaneous/curl-error-60-ssl-certificate-expired.md)
