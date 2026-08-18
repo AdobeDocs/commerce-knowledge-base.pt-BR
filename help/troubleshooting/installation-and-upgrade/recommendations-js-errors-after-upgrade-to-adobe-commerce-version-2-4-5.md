@@ -6,7 +6,7 @@ role: Developer
 exl-id: 51d899eb-48f7-48c5-8bda-bd72a4d28945
 source-git-commit: a28257f55abf21cddec9b415e7e8858df33647be
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ O problema é causado porque a página da loja ainda se refere a alguns módulos
 
 1. Atualize para o Adobe Commerce 2.4.5.
 1. Acesse a página da loja na Web.
-1. Clique com o botão direito do mouse e selecione **Inspect** para abrir o Inspetor Web no seu navegador.
+1. Clique com o botão direito do mouse e selecione **Inspecionar** para abrir o Inspetor Web no navegador.
 1. Clique na guia **[!UICONTROL Console]**.
 1. Revise os erros [!DNL JS].
 
