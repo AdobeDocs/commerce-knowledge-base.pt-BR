@@ -32,10 +32,10 @@ Não há opção no Page Builder para adicionar Recomendações de produto. O Re
 1. Verifique se você instalou o módulo separadamente executando o comando: `composer show magento/module-page-builder-product-recommendations`
 1. Se retornar a seguinte mensagem: *Pacote magento/module-page-builder-product-recommendations não encontrado*, será necessário instalá-lo executando o comando: `composer require magento/module-page-builder-product-recommendations`
 
-Ao habilitar as Recomendações de produto no Page Builder, você poderá [adicionar uma unidade de recomendação](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html) a qualquer conteúdo criado no Page Builder.
+Ao habilitar as Recomendações de produto no Page Builder, você poderá [adicionar uma unidade de recomendação](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html?lang=pt-BR) a qualquer conteúdo criado no Page Builder.
 
 ## Leitura relacionada
 
-* [Adicionar conteúdo - Recomendações de produto](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html) em nosso guia do usuário.
-* [Instale e configure as Recomendações do Produto](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure) em nossa documentação do desenvolvedor.
-* [Guia do usuário do Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+* [Adicionar conteúdo - Recomendações de produto](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html?lang=pt-BR) em nosso guia do usuário.
+* [Instale e configure as Recomendações do Produto](https://experienceleague.adobe.com/pt-br/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure) em nossa documentação do desenvolvedor.
+* [Guia do usuário do Adobe Commerce](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/user-guides/home)
