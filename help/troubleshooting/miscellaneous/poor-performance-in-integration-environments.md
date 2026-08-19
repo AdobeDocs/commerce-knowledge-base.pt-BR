@@ -6,7 +6,7 @@ role: Developer
 exl-id: 46110dbc-2f54-4654-95e2-39e8ae1e6979
 source-git-commit: 139c2836ba36686357c7a5458a36550c7b1273c1
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Para resolver problemas de desempenho, siga as práticas recomendadas para melho
 Primeiro, determine se seu ambiente está na [configuração da Integração aprimorada](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-27242).
 
 * [Arquitetura Pro](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
-* [Arquitetura de Início](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment)
+* [Arquitetura inicial](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment)
 
 Verifique o log de implantação usando um desses métodos.
 
@@ -63,6 +63,6 @@ Se você não estiver na configuração da Integração aprimorada, poderá [sol
 Se você já estiver na configuração da Integração aprimorada ou ainda encontrar problemas de desempenho após a atualização, siga as práticas recomendadas para obter o desempenho ideal no ambiente de integração:
 
 * [Arquitetura Pro](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
-* [Arquitetura de Início](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment)
+* [Arquitetura inicial](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment)
 
 Se você atendeu às recomendações acima, [envie uma solicitação de suporte](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket) para obter assistência adicional.
