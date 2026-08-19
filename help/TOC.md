@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: a57fca068b8154dfa451b2ba76e297f57e7229eb
+source-git-commit: ae5cf17925a4b4c9ef5827345a471abd3a9728ce
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: '1683'
 ht-degree: 1%
 
 ---
@@ -82,7 +82,6 @@ ht-degree: 1%
     * [Resolução de erros UTF-8 para uploads de arquivo CSV](/help/troubleshooting/miscellaneous/resolving-utf-8-errors-for-csv-file-uploads.md)
     * [Verificando ataque de DDoS a partir da CLI](/help/troubleshooting/miscellaneous/checking-for-ddos-attack-from-cli.md)
     * [Redirecionamento de logon ao tentar fazer logon no Commerce Admin](/help/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin.md)
-    * [Resolver problemas com a chave de criptografia](/help/troubleshooting/miscellaneous/resolve-issues-with-encryption-key.md)
     * [Uso de Exportações de Dados para apontar discrepâncias](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
     * [Solução de problemas da Ferramenta de migração de dados](/help/troubleshooting/miscellaneous/data-migration-tool-troubleshooting.md)
     * [Problemas de verificação de preparação de dependência do componente](/help/troubleshooting/miscellaneous/component-dependency-readiness-check-issues.md)
