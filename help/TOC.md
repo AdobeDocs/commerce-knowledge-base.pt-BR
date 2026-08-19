@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 3873d836625af318fa62f66a8e5989805f59af2f
+source-git-commit: 2ae94bc621d0cc4b308fbf7d5c0f58a5284b6f4d
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: '1701'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,6 @@ ht-degree: 1%
     * [Aquecimento de cache e site indisponível no Adobe Commerce](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md)
     * [Resolução de erros UTF-8 para uploads de arquivo CSV](/help/troubleshooting/miscellaneous/resolving-utf-8-errors-for-csv-file-uploads.md)
     * [Verificando ataque de DDoS a partir da CLI](/help/troubleshooting/miscellaneous/checking-for-ddos-attack-from-cli.md)
-    * [Página em branco ou erro de loop de redirecionamento ao acessar a loja ou o administrador do Commerce](/help/troubleshooting/miscellaneous/blank-page-or-redirect-loop-error-when-accessing-storefront-or-magento-admin.md)
     * [Redirecionamento de logon ao tentar fazer logon no Commerce Admin](/help/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin.md)
     * [Resolver problemas com a chave de criptografia](/help/troubleshooting/miscellaneous/resolve-issues-with-encryption-key.md)
     * [Uso de Exportações de Dados para apontar discrepâncias](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
