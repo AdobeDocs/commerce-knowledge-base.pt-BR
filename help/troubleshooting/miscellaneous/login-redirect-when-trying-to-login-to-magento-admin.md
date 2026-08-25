@@ -4,9 +4,9 @@ description: Este artigo fornece as soluções possíveis para o problema de log
 exl-id: ff3114fd-8690-4983-8221-cf807f083b15
 feature: Admin Workspace, Cache
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: ec2111316458420c51a6b6f3b3881bd3f9d10c06
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -90,4 +90,4 @@ Para verificar os valores das configurações de cookies e limpá-los, siga esta
 ## Artigos relacionados
 
 * [Redirecione de volta para o formulário de logon do Administrador com o erro &quot;Sua conta está temporariamente desabilitada&quot;](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md) em nossa knowledge base de suporte.
-* [Redirecione de volta para o formulário de logon do Administrador com o erro &quot;Sua sessão atual expirou&quot;](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-current-session-has-been-expired-error.md) em nossa base de dados de conhecimento de suporte.
+* [Redirecione de volta para o formulário de logon do Administrador com o erro &quot;Sua sessão atual expirou&quot;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-41686) em nossa base de dados de conhecimento de suporte.
