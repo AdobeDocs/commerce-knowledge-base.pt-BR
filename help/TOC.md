@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: f0181656eb18a7d9e4b7a78639c9fadb130d74e6
+source-git-commit: ec2111316458420c51a6b6f3b3881bd3f9d10c06
 workflow-type: tm+mt
-source-wordcount: '1673'
+source-wordcount: '1657'
 ht-degree: 1%
 
 ---
@@ -97,7 +97,6 @@ ht-degree: 1%
     * [O índice está bloqueado por outro processo](/help/troubleshooting/miscellaneous/index-is-locked-by-another-process.md)
     * [Diagnosticando uma discrepância de dados](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
     * [Notificações por email de administrador 2FA não recebidas](/help/troubleshooting/miscellaneous/admin-2fa-email-notifications-not-being-received.md)
-    * [Redirecione de volta para o formulário de logon do Administrador do Commerce com o erro &quot;Sua sessão atual expirou&quot;](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-current-session-has-been-expired-error.md)
     * [Site em modo de manutenção, mas disponível para clientes](/help/troubleshooting/miscellaneous/site-in-maintenance-mode-but-available-to-customers.md)
     * [o desenvolvimento da origem de pull do git falha ao atualizar o software Adobe Commerce](/help/troubleshooting/miscellaneous/git-pull-origin-develop-fails-when-updating-the-magento-software.md)
     * [Bloqueadores iniciados no Adobe Commerce na infraestrutura em nuvem](/help/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.md)
