@@ -90,4 +90,4 @@ Para verificar os valores das configurações de cookies e limpá-los, siga esta
 ## Artigos relacionados
 
 * [Redirecione de volta para o formulário de logon do Administrador com o erro &quot;Sua conta está temporariamente desabilitada&quot;](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md) em nossa knowledge base de suporte.
-* [Redirecione de volta para o formulário de logon do Administrador com o erro &quot;Sua sessão atual expirou&quot;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-41686) em nossa base de dados de conhecimento de suporte.
+* [Redirecione de volta para o formulário de logon do Administrador com o erro &quot;Sua sessão atual expirou&quot;](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-41686) em nossa base de dados de conhecimento de suporte.
