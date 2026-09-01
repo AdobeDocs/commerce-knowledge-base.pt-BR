@@ -1,6 +1,6 @@
 ---
 title: Uso de Exportações de Dados para apontar discrepâncias
-description: Este artigo fornece soluções para discrepâncias de solução de problemas nos dados do Magento BI. As Exportações de dados são uma ferramenta útil para comparar seus dados do Magento BI com seus dados de origem a fim de apontar discrepâncias de dados em seus relatórios, especialmente se a [lista de verificação de diagnóstico de discrepância de dados](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-41479) não ajudou a identificar o problema. Este artigo o guiará por um exemplo real de como as discrepâncias de dados podem ser identificadas usando as Exportações de dados.
+description: Este artigo fornece soluções para discrepâncias de solução de problemas nos dados do Magento BI. As Exportações de dados são uma ferramenta útil para comparar seus dados do Magento BI com seus dados de origem a fim de apontar discrepâncias de dados em seus relatórios, especialmente se a [lista de verificação de diagnóstico de discrepância de dados](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-41479) não ajudou a identificar o problema. Este artigo o guiará por um exemplo real de como as discrepâncias de dados podem ser identificadas usando as Exportações de dados.
 exl-id: b42d585c-ad8c-4685-9ad4-a13686566f18
 feature: Commerce Intelligence, Data Import/Export
 role: Developer
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Uso de Exportações de Dados para apontar discrepâncias
 
-Este artigo fornece soluções para discrepâncias de solução de problemas nos dados do Magento BI. As Exportações de Dados são uma ferramenta útil para comparar seus dados do Magento BI com seus dados de origem, a fim de apontar discrepâncias de dados em seus relatórios, especialmente se a [lista de verificação de diagnóstico de discrepância de dados](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-41479) não ajudou a identificar o problema. Este artigo o guiará por um exemplo real de como as discrepâncias de dados podem ser identificadas usando as Exportações de dados.
+Este artigo fornece soluções para discrepâncias de solução de problemas nos dados do Magento BI. As Exportações de Dados são uma ferramenta útil para comparar seus dados do Magento BI com seus dados de origem, a fim de apontar discrepâncias de dados em seus relatórios, especialmente se a [lista de verificação de diagnóstico de discrepância de dados](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-41479) não ajudou a identificar o problema. Este artigo o guiará por um exemplo real de como as discrepâncias de dados podem ser identificadas usando as Exportações de dados.
 
 Faça esta análise, por exemplo:
 
@@ -89,7 +89,7 @@ Se você não puder identificar a origem do problema, precisará executar um loo
 
 ## Leitura relacionada
 
-* [Lista de verificação de diagnóstico de discrepância de dados](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-41479)
+* [Lista de verificação de diagnóstico de discrepância de dados](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-41479)
 * [Políticas de serviço do Adobe Commerce Intelligence](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies)
 * [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce
 
