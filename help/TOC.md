@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 9f4777deac8e9d367643158cf6947f4cb61e8fdd
+source-git-commit: 2c7e07dac7bb2c6d3ea5e4266511d519a60fbe8a
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1634'
 ht-degree: 1%
 
 ---
@@ -91,7 +91,8 @@ ht-degree: 1%
     * [Adobe Commerce 2.4.2-p1: nota de fatura com um valor incorreto](/help/troubleshooting/miscellaneous/adobe-commerce-2-4-2-p1-invoice-note-with-incorrect-value.md)
     * [Não é possível acessar o pré-lançamento mais recente do Adobe Commerce](/help/troubleshooting/miscellaneous/cannot-access-the-latest-magento-commerce-pre-release.md)
     * [O índice está bloqueado por outro processo](/help/troubleshooting/miscellaneous/index-is-locked-by-another-process.md)
-    * [Notificações por email de administrador 2FA não recebidas](/help/troubleshooting/miscellaneous/admin-2fa-email-notifications-not-being-received.md)
+    * [Diagnosticando uma discrepância de dados](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
+    * [Redirecione de volta para o formulário de logon do Administrador do Commerce com o erro &quot;Sua sessão atual expirou&quot;](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-current-session-has-been-expired-error.md)
     * [Site em modo de manutenção, mas disponível para clientes](/help/troubleshooting/miscellaneous/site-in-maintenance-mode-but-available-to-customers.md)
     * [o desenvolvimento da origem de pull do git falha ao atualizar o software Adobe Commerce](/help/troubleshooting/miscellaneous/git-pull-origin-develop-fails-when-updating-the-magento-software.md)
     * [Bloqueadores iniciados no Adobe Commerce na infraestrutura em nuvem](/help/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.md)
