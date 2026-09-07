@@ -3,17 +3,12 @@ title: Ação urgente Atualização de segurança crítica necessária disponív
 description: A Adobe lançou o Boletim de segurança APSB26-146 que aborda o CVE-2026-75650, uma vulnerabilidade de dia zero no Adobe Commerce. Saiba como aplicar o hotfix e girar credenciais.
 autotag-review: '2026-09-07T17:27:44.037Z'
 TQID: 'https://experienceleague.adobe.com/ADVRRn85--ZgWtPdi4qA49fsDPVW976N4MYWp26taho'
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: c32adafa-ed01-4b31-997e-2413013911b0
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: ed1b477ed153bdb91c828d051fd4eeb078fd33fa
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c32adafa-ed01-4b31-997e-2413013911b0
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: d0e075aabc24a1719098754b456b71a0025e47bf
 workflow-type: tm+mt
-source-wordcount: 841
+source-wordcount: 842
 ht-degree: 0%
 
 ---
@@ -101,7 +96,7 @@ Aplique o seguinte hotfix à versão de produto afetada:
 
 ### Como aplicar o hotfix
 
-Descompacte o arquivo e veja [Como aplicar um patch de compositor fornecido pelo Adobe](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento) em nossa base de dados de suporte para obter instruções.
+Descompacte o arquivo e veja [Como aplicar um patch de compositor fornecido pelo Adobe](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento) em nossa base de dados de suporte para obter instruções.
 
 ### Confirmar se a correção foi aplicada (somente Adobe Commerce em comerciantes da nuvem)
 
@@ -109,7 +104,7 @@ Considerando que não é possível determinar facilmente se o problema foi corri
 
 Você pode fazer isso seguindo as etapas abaixo, usando o arquivo `VULN-39341_Hotfix_COMPOSER.patch` como exemplo:
 
-1. [Instale a Ferramenta de Correções de Qualidade](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/tools/quality-patches-tool/usage).
+1. [Instale a Ferramenta de Correções de Qualidade](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage#install).
 1. Execute o comando: `vendor/bin/magento-patches -n status | grep "39341\|Status"`.
 1. Você deve ver uma saída semelhante a esta, em que este exemplo VULN-39341 retorna o status Aplicado:
 
@@ -130,7 +125,7 @@ Para girar as credenciais, siga estas etapas:
 1. Aplique o hotfix.
 1. Ativar modo de manutenção.
 1. Desabilite a execução do cron (comando Commerce on Cloud: `vendor/bin/ece-tools cron:disable`).
-1. [Girar suas chaves de criptografia](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/systems/security/encryption-key?lang=en).
+1. [Girar suas chaves de criptografia](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/encryption-key?lang=en).
 1. Girar todas as senhas de usuário do painel Administrador.
 1. Desativar e regenerar todos os tokens de integração REST/SOAP/GraphQL (**[!UICONTROL System]** > **[!UICONTROL Extensions]** > **[!UICONTROL Integrations]**).
 1. Gire os segredos do cliente OAuth para qualquer aplicativo de terceiros conectado.
@@ -151,4 +146,4 @@ Atualizações de segurança disponíveis para o Adobe Commerce:
 
 ### Leitura relacionada
 
-[Habilite ou desabilite o modo de manutenção](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/tutorials/maintenance-mode?lang=en) no Guia de Instalação do Adobe Commerce
+[Habilite ou desabilite o modo de manutenção](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode?lang=en) no Guia de Instalação do Adobe Commerce
