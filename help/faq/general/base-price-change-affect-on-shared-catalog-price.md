@@ -5,7 +5,7 @@ exl-id: 916678c1-ada6-4f23-af16-b107cb83ff16
 feature: Catalog Management
 source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -30,4 +30,4 @@ Se o preço base do produto mudar e se tornar menor que o preço correspondente 
 
 ## Leitura relacionada
 
-[Definir preços e estrutura para um catálogo compartilhado](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html?lang=pt-BR) em nosso guia do usuário.
+[Definir preços e estrutura para um catálogo compartilhado](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html) em nosso guia do usuário.
