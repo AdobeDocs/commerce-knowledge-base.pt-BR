@@ -11,9 +11,9 @@ feature_v2:
   - id: c32adafa-ed01-4b31-997e-2413013911b0
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d0e075aabc24a1719098754b456b71a0025e47bf
+source-git-commit: e95fb4ca696be9f6d348ff66196565797575f74a
 workflow-type: tm+mt
-source-wordcount: 842
+source-wordcount: 954
 ht-degree: 0%
 
 ---
@@ -65,39 +65,24 @@ Versões do Magento Open Source:
 
 ### Solução para Adobe Commerce na nuvem, Adobe Commerce no local e Magento Open Source
 
-Para ajudar a resolver a vulnerabilidade dos produtos e versões afetados, você deve aplicar o patch VULN-39341 (dependendo da sua versão) e girar as chaves de criptografia.
+>[!NOTE]
+>
+>O hotfix do CVE-2026-75650 agora é compatível com todas as versões de Adobe Commerce e Magento Open Source entre 2.4.4 e 2.4.7. Consulte a tabela abaixo e baixe o patch aplicável à sua versão.
 
-Nota de compatibilidade: observe que esse hotfix foi testado apenas para as versões listadas abaixo. Ela pode funcionar em outras versões compatíveis, mas isso não foi verificado oficialmente.
+Para ajudar a resolver a vulnerabilidade dos produtos e versões afetados, aplique o **patch abaixo** (dependendo da sua versão) e gire suas chaves de criptografia.
 
-Versões do Adobe Commerce:
+| Número da versão | Correção |
+|---|---|
+| 2.4.9-2026-ago, 2.4.8-2026-ago, 2.4.7-2026-ago, 2.4.6-2026-ago, 2.4.5-2026-ago, 2.4.4-2026-ago, 2.4.9-2026-jul, 2.4.8-2026-jul, 2.4.7-2026-jul, 2.4.6-2026-jul, 2.4.5-2026-jul, 2.4.4-2026-jul, 2.4.8-p5, 2.4.8-p4, 2.4.8-p3, 2.4.7-p10, 2.4.7-p9, 2.4.6-p15, 2.4.6-p14, 2.4.5-p17, 2.4.5-p16, 2.4.4-p18, 2.4.4-p17 | [Hotfix VULN-39341-composer-patches.zip](https://repo.magento.com/patch/VULN-39341-composer-patches.zip) |
+| 2.4.8-p3, 2.4.8-p2 | [VULN-39341_248-p3.patch.zip](https://repo.magento.com/patch/VULN-39341-248-p3-patch.zip) |
+| 2.4.8-p1, 2.4.8 | [VULN-39341_248-p1.patch.zip](https://repo.magento.com/patch/VULN-39341-248-p1-patch.zip) |
+| 2.4.7-p8, 2.4.7-p7 | [VULN-39341_247-p8.patch.zip](https://repo.magento.com/patch/VULN-39341-247-p8-patch.zip) |
+| 2.4.7 - 2.4.7-p6 | [VULN-39341_247-p5.patch.zip](https://repo.magento.com/patch/VULN-39341-247-p5-patch.zip) |
+| 2.4.6-p13, 2.4.6-p12, 2.4.5-p15, 2.4.5-p14, 2.4.4-p16, 2.4.4-p15 | [VULN-39341_246-p13.patch.zip](https://repo.magento.com/patch/VULN-39341-246-p13-patch.zip) |
+| 2.4.6 - 2.4.6-p11, 2.4.5 - 2.4.5-p13, 2.4.4 - 2.4.4-p14 | [VULN-39341_246-p11.patch.zip](https://repo.magento.com/patch/VULN-39341-246-p11-patch.zip) |
 
-* 2.4.9-2026-ago
-* 2.4.8-2026-ago
-* 2.4.7-2026-ago
-* 2.4.6-2026-ago
-* 2.4.5-2026-ago
-* 2.4.4-2026-ago
 
-Versões B2B do Adobe Commerce:
-
-* 1.5.3-2026-ago
-* 1.5.2-2026-ago
-* 1.4.2-2026-ago
-* 1.3.4-2026-ago
-* 1.3.3-2026-ago
-
-Versões do Magento Open Source:
-
-* 2.4.9-2026-ago
-* 2.4.8-2026-ago
-* 2.4.7-2026-ago
-* 2.4.6-2026-ago
-
-### Link de Hotfix
-
-Aplique o seguinte hotfix à versão de produto afetada:
-
-* [Baixe o Hotfix VULN-39341-composer-patches.zip](https://repo.magento.com/patch/VULN-39341-composer-patches.zip)
+{style="table-layout:auto"}
 
 ### Como aplicar o hotfix
 
@@ -141,6 +126,7 @@ Para girar as credenciais, siga estas etapas:
 1. Limpe o cache.
 1. Habilitar execução de cron (comando Commerce on Cloud: `vendor/bin/ece-tools cron:enable`).
 1. Desabilitar modo de manutenção.
+1. Somente Commerce na nuvem: reimplante para aplicar novas credenciais de banco de dados.
 
 ### Atualizações de segurança
 
