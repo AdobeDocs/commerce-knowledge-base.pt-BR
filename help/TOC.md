@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 16bf1de71bfc6ab2836cb2e98dd60fe191d942d1
+source-git-commit: b4a9384a0d72eec790e08382dd2e45d53cbb9831
 workflow-type: tm+mt
-source-wordcount: '1618'
+source-wordcount: '1610'
 ht-degree: 1%
 
 ---
@@ -86,7 +86,6 @@ ht-degree: 1%
     * [As imagens em cache não são carregadas após a atualização do 2.2.X para o 2.3.X](/help/troubleshooting/miscellaneous/cached-images-are-not-loaded-after-2-2-x-to-2-3-x-upgrade.md)
     * [Mensagem de erro ao adicionar sites à Verificação de segurança](/help/troubleshooting/miscellaneous/error-message-adding-site-into-security-scan.md)
     * [Solução de problemas de acesso compartilhado](/help/troubleshooting/miscellaneous/shared-access-troubleshooting.md)
-    * [Cores lentas, lentas e de longa duração](/help/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.md)
     * [Erro ao validar as credenciais do Fastly](/help/troubleshooting/miscellaneous/error-when-validating-fastly-credentials.md)
     * [O relatório da Ferramenta de verificação de segurança está em branco](/help/troubleshooting/miscellaneous/the-security-scan-tool-report-is-blank.md)
     * [Adobe Commerce 2.4.2-p1: nota de fatura com um valor incorreto](/help/troubleshooting/miscellaneous/adobe-commerce-2-4-2-p1-invoice-note-with-incorrect-value.md)
