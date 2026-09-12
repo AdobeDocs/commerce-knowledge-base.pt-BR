@@ -11,9 +11,9 @@ feature_v2:
   - id: c32adafa-ed01-4b31-997e-2413013911b0
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 7526f999381e9f117ea2d52dc59330b0d34cba62
+source-git-commit: 8a165b274bf508d849c60fd6768569af1885fdb7
 workflow-type: tm+mt
-source-wordcount: 952
+source-wordcount: 957
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Em 7 de setembro, a Adobe lançou uma atualização de segurança crítica que a
 
 A Adobe lançou o Boletim de segurança APSB26-146, que aborda essa vulnerabilidade. O boletim está disponível aqui:
 
-[Atualização de segurança disponível para o Adobe Commerce | APSB26-146](https://helpx.adobe.com/security/products/magento/apsb26-146.html)
+[Atualização de segurança disponível para o Adobe Commerce | APSB26-146](https://helpx.adobe.com/br/security/products/magento/apsb26-146.html)
 
 Este artigo explica como aplicar o hotfix das versões atuais e anteriores do Adobe Commerce e do Magento Open Source.
 
@@ -120,7 +120,7 @@ Para girar as credenciais, siga estas etapas:
 1. Desativar e regenerar todos os tokens de integração REST/SOAP/GraphQL (**[!UICONTROL System]** > **[!UICONTROL Extensions]** > **[!UICONTROL Integrations]**).
 1. Gire os segredos do cliente OAuth para qualquer aplicativo de terceiros conectado.
 1. Alterne as credenciais da API do gateway de pagamento no nível do provedor (Stripe, Braintree, Adyen, PayPal etc.).
-1. Girar credenciais do banco de dados.
+1. Girar credenciais de banco de dados e do Fastly (por meio do tíquete de suporte).
 1. Gire as chaves SSH/deploy e qualquer credencial de conta de serviço privilegiada do CRON ou do sistema.
 1. Alterne as chaves da API para envio, impostos e outras extensões integradas de terceiros.
 1. Limpe o cache.
@@ -132,8 +132,8 @@ Para girar as credenciais, siga estas etapas:
 
 Atualizações de segurança disponíveis para o Adobe Commerce:
 
-* [Boletim de segurança do Adobe (APSB26-146)](https://helpx.adobe.com/security/products/magento/apsb26-146.html)
-* [As atualizações de segurança mais recentes disponíveis para o Adobe Commerce](https://helpx.adobe.com/security/products/magento.html)
+* [Boletim de segurança do Adobe (APSB26-146)](https://helpx.adobe.com/br/security/products/magento/apsb26-146.html)
+* [As atualizações de segurança mais recentes disponíveis para o Adobe Commerce](https://helpx.adobe.com/br/security/products/magento.html)
 
 ### Leitura relacionada
 
