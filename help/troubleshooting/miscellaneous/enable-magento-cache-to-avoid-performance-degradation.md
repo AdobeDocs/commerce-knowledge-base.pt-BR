@@ -4,13 +4,11 @@ description: Este artigo explica como resolver um problema de site lento causado
 exl-id: e4e5a753-efa3-4552-aaf6-28e44efcfa5b
 feature: Cache, Observability
 role: Developer
-source-git-commit: 8be0c125bb0417e34e016656337506da88796630
+source-git-commit: 42aa1d4ef3540d4eb9682627dc5bf1dd14091dc3
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '366'
 ht-degree: 0%
-
 ---
-
 # Habilite o cache para evitar degradação de desempenho
 
 Este artigo explica como resolver um problema de site lento causado pela desativação de determinados tipos de cache do Adobe Commerce.
@@ -47,11 +45,11 @@ Se houver dúvidas e/ou se um determinado tipo de cache do Adobe Commerce pode o
 
 Documentação do cache do Adobe Commerce na documentação do desenvolvedor:
 
-* [visão geral do cache do Adobe Commerce](https://developer.adobe.com/commerce/frontend-core/guide/caching)
+* [Visão geral do cache do Adobe Commerce](https://developer.adobe.com/commerce/frontend-core/guide/caching)
 * [Gerenciar o cache](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/cli/manage-cache)
 
 Outros motivos possíveis para problemas de desempenho e as soluções para eles:
 
-* [Desabilitar a saída do banner do Adobe Commerce para melhorar o desempenho do site](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-26909)
-* [Tabelas MySQL são muito grandes](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-26945)
-* [Cores lentas, lentas e de longa duração](/help/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.md)
+* [Desative a saída do banner do Adobe Commerce para melhorar o desempenho do site](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-26909)
+* [As tabelas MySQL são muito grandes](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-26945)
+* [Cores lentas, lentas e de longa duração](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-42802)
