@@ -5,11 +5,9 @@ description: Este artigo explica como verificar a alocação de camada do vCPU u
 exl-id: a0332e7e-d38d-47d3-b3da-293902f45edc
 source-git-commit: ffb7b597d38eaed4b66e23ea533c275746e7181a
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '367'
 ht-degree: 0%
-
 ---
-
 # Exibir a camada de vCPU do ambiente em seu cluster no Adobe Commerce
 
 Este artigo explica como verificar a alocação de camada do vCPU usando a guia New Relic Infra em Observation for Adobe Commerce. Observação para Adobe Commerce é um nerdlet do New Relic que mostra o estado do site do Adobe Commerce, as visualizações de tempo atuais e anteriores.
