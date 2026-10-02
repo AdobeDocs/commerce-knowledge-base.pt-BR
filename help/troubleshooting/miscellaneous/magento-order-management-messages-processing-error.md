@@ -1,19 +1,17 @@
 ---
-title: Erro de processamento do Sistema Magento Order Management (OMS) para Adobe Commerce
-description: Este artigo fornece uma solução para o problema quando você recebe um erro "getMode()" na CLI que executa "bin/magento oms:messages:process" no Sistema de Magento Order Management (OMS) do Adobe Commerce.
+title: Erro de processamento do Magento Order Management System (OMS) para Adobe Commerce
+description: Este artigo fornece uma solução para o problema quando você recebe um erro "getMode()" na CLI que executa "bin/magento oms:messages:process" no Magento Order Management System (OMS) para Adobe Commerce.
 exl-id: 83089465-f810-4a3b-bdb6-4720b44f0b49
 feature: System
 role: Developer
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '242'
 ht-degree: 0%
-
 ---
+# Erro de processamento do Magento Order Management System (OMS) para Adobe Commerce
 
-# Erro de processamento do Sistema Magento Order Management (OMS) para Adobe Commerce
-
-Este artigo fornece uma solução para o problema que ocorre quando você recebe um erro `getMode()` na CLI que executa o `bin/magento oms:messages:process` no OMS (Magento Order Management System) para Adobe Commerce.
+Este artigo fornece uma solução para o problema de um erro `getMode()` na CLI que executa o `bin/magento oms:messages:process` no OMS (Order Management System) da Magento para Adobe Commerce.
 
 ## Produtos e versões afetados
 
@@ -68,4 +66,4 @@ Para resolver o problema, execute a seguinte instrução [!DNL SQL] na CLI, que 
 ## Leitura relacionada
 
 * Documentação do OMS [Tutorial de Instalação do Conector OMS](https://commerce-docs.github.io/oms-documentation-archive/integration/connector/setup-tutorial/)
-* [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce
+* [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce
