@@ -6,11 +6,9 @@ feature: Install, Upgrade
 role: Developer
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '200'
 ht-degree: 0%
-
 ---
-
 # A instalação pára em cerca de 70%
 
 Este artigo fornece uma correção para quando a instalação é interrompida em cerca de 70%.
@@ -32,7 +30,7 @@ Defina todos os itens a seguir conforme apropriado.
 
 ### Todos os servidores Web e Verniz {#all-web-servers-and-varnish}
 
-1. Localize seu `php.ini` usando um arquivo [`phpinfo.php`](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/prerequisites/optional-software).
+1. Localize seu `php.ini` usando um arquivo [`phpinfo.php`](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software).
 1. Como um usuário com privilégios `root`, abra o `php.ini` em um editor de texto.
 1. Localize a configuração `max_execution_time`.
 1. Altere seu valor para `18000`.
