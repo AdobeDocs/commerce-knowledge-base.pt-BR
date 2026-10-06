@@ -1,21 +1,19 @@
 ---
 title: Os índices de rastreamento do ElasticSuite causam problemas com o Elasticsearch
-description: Este artigo fala sobre a questão de problemas de memória de Elasticsearch causados por índices de rastreamento produzidos pelo plug-in ElasticSuite.
+description: Este artigo fala sobre a questão dos problemas de memória do Elasticsearch causados por índices de rastreamento produzidos pelo plug-in ElasticSuite.
 exl-id: 67bfd06a-c801-4306-8510-a84a6fe5351a
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '482'
 ht-degree: 0%
-
 ---
-
 # Os índices de rastreamento do ElasticSuite causam problemas com o Elasticsearch
 
 >[!NOTE]
 >
 >O ElasticSuite e seus aplicativos afiliados são ferramentas de terceiros atualmente não compatíveis com o Adobe. Esse conteúdo está sendo apresentado apenas como informação e não como uma indicação do que está habilitado para a cobertura de suporte.
 
-Este artigo fala sobre a questão de problemas de memória de Elasticsearch causados por índices de rastreamento produzidos pelo plug-in ElasticSuite.
+Este artigo fala sobre a questão dos problemas de memória do Elasticsearch causados por índices de rastreamento produzidos pelo plug-in ElasticSuite.
 
 ## Produtos e versões afetados
 
@@ -25,13 +23,13 @@ As versões do ElasticSuite anteriores à 2.9.8/2.10.7 estão armazenando índic
 
 ## Problema
 
-Se o plug-in de terceiros ElasticSuite estiver instalado, você pode ter problemas de memória de Elasticsearch e o serviço de Elasticsearch pode travar devido aos índices de rastreamento do ElasticSuite. Os sintomas incluem:
+Se o plug-in de terceiros ElasticSuite estiver instalado, você pode ter problemas de memória do Elasticsearch e o serviço Elasticsearch pode travar devido aos índices de rastreamento do ElasticSuite. Os sintomas incluem:
 
 * O Elasticsearch trava sem erros de memória.
 * Ao executar um comando de integridade `curl -m1 localhost:9200/_cluster/health?pretty` ou `curl -m1 elasticsearch.internal:9200/_cluster/health?pretty` (para contas iniciais) há centenas ou milhares de `unassigned_shards`
 * O desempenho do Elasticsearch ou do site foi gravemente degradado.
-* *&quot;Nenhum nó ativo encontrado no cluster&quot;* em erros de implantação ou log de Elasticsearch.
-* *&quot;Rejeitando atualização de mapeamento para [&lt;\*>_ tracking_log_event _&lt;\*>]&quot;* em erros de implantação ou log.
+* *&quot;Nenhum nó ativo encontrado no cluster&quot;* na implantação do Elasticsearch ou erros de log.
+* *&quot;Rejeitando atualização de mapeamento para [&lt;\*>_tracking_ log_event_&lt;\*>]&quot;* em erros de implantação ou log.
 
 ## Causa
 
@@ -68,5 +66,5 @@ Crie um trabalho cron para excluir os índices de rastreamento. Esse comando exc
 
 Se você deseja excluir índices em uma frequência de tempo definida, crie um trabalho cron referenciando os seguintes artigos em nossa documentação do desenvolvedor:
 
-* [Configurar um trabalho cron personalizado e um grupo cron (tutorial)](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/crons/custom-cron-tutorial)
-* [Configurar trabalhos cron](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property)
+* [Configurar um trabalho cron personalizado e um grupo cron (tutorial)](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/crons/custom-cron-tutorial)
+* [Configurar trabalhos cron](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property)
