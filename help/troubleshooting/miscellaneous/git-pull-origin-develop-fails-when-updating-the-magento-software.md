@@ -6,11 +6,9 @@ feature: Upgrade
 role: Developer
 source-git-commit: 35d4f2130d0ec71f71f5f20aa8a7c76207e7a35a
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '322'
 ht-degree: 0%
-
 ---
-
 # o desenvolvimento da origem de pull do git falha ao atualizar o software Adobe Commerce
 
 Este artigo fornece uma correção para quando não é possível atualizar o software Adobe Commerce ao executar `git pull origin develop`.
@@ -71,6 +69,6 @@ Tente qualquer um dos seguintes procedimentos:
 
   >[!NOTE]
   >
-  >O Adobe não recomenda ou endossa nenhuma configuração específica do GitHub. As anteriores são apenas sugestões. Para obter mais informações, consulte a [ajuda do GitHub](https://help.github.com/).
+  >A Adobe não recomenda ou endossa nenhuma configuração específica do GitHub. As anteriores são apenas sugestões. Para obter mais informações, consulte a [ajuda do GitHub](https://help.github.com/).
 
   Continue de onde parou com a atualização do Adobe Commerce.

@@ -1,15 +1,14 @@
 ---
 source-git-commit: c587986edc925c49bf95ab935888b59f265371af
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '611'
 ht-degree: 0%
-
 ---
 # Guia de Formatação KB
 
 ## Autor no Markdown
 
-Geralmente, usamos o [Guia de estilo da sintaxe do Adobe Experience League Markdown](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/markdown/syntax-style-guide.html?lang=pt-BR), mas há algumas diferenças e exceções. Além disso, certas tags HTML são necessárias em determinados casos.
+Geralmente, usamos o [Guia de estilo da sintaxe do Adobe Experience League Markdown](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/markdown/syntax-style-guide.html?lang=en), mas há algumas diferenças e exceções. Além disso, determinadas tags do HTML são necessárias em determinados casos.
 
 A seguir estão exemplos da formatação do Markdown usada com mais frequência em nosso repositório.
 
@@ -27,7 +26,7 @@ Para formatar o texto como sublinhado, use a marca `<ins>`:
 
 `<ins>This text will be underlined</ins>`
 
-Para adicionar uma quebra de linha, use a tag HTML `<br>`.
+Para adicionar uma quebra de linha, use a marca HTML `<br>`.
 
 
 ## Cabeçalhos
@@ -55,7 +54,7 @@ Para inserir um bloco de código, coloque o bloco de código entre três acentos
 \`\`\` sql
 
 SELECIONAR TABLE_NAME COMO `Table`,
-ROUND((DATA_LENGTH + INDEX_LENGTH) / 1024 / 1024) COMO `Size (MB)`
+ROUND((DATA_LENGTH + INDEX_LENGTH) / 1024 / 1024) AS `Size (MB)`
 DE information_schema.TABLES
 ONDE TABLE_SCHEMA = &quot;%project_id%&quot;
 ORDENAR POR (DATA_LENGTH + INDEX_LENGTH) DESC;
@@ -139,7 +138,7 @@ Para inserir uma imagem, coloque a imagem na subpasta *assets* na mesma pasta de
 ![alt text](assets/image.png)
 ```
 
-Se você quiser personalizar o tamanho da imagem, será necessário fazer isso usando a seguinte tag HTML:
+Se quiser personalizar o tamanho da imagem, será necessário fazer isso usando a seguinte tag do HTML:
 
 ```html
 <img src = "assets/image.png" alt = "your alt text" width="custom width, ex: 250px">
@@ -165,7 +164,7 @@ Este é um link para este cabeçalho:
 [this is link to the anchor in the same article](#this-is-header)
 ```
 
-Se você precisar referenciar um elemento diferente do cabeçalho, use HTML para definir o elemento a ser adicionado, use o [atributo id](https://www.w3schools.com/html/html_id.asp). Em seguida, você pode usar o Markdown ou o HTML para fazer referência a essa ID.
+Se você precisar referenciar um elemento diferente do cabeçalho, use o HTML para definir o elemento a ser adicionado, use o [atributo de id](https://www.w3schools.com/html/html_id.asp). Em seguida, você pode usar o Markdown ou o HTML para fazer referência a essa ID.
 
 ### Links e links relativos a outros artigos
 
