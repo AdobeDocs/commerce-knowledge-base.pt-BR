@@ -6,11 +6,9 @@ feature: Install, Upgrade
 role: Developer
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '60'
 ht-degree: 0%
-
 ---
-
 # Durante a instalação, um erro fatal de PDO é exibido
 
 Este artigo fornece uma correção para um erro fatal de PDO de exceção durante a instalação.

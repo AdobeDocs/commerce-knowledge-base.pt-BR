@@ -6,11 +6,9 @@ feature: Build, Deploy, Variables
 role: Developer
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '203'
 ht-degree: 0%
-
 ---
-
 # O Google Analytics é desativado após a implantação
 
 Este tópico discute uma solução para um problema típico que você pode ter com o Google Analytics durante a implantação.
@@ -25,11 +23,11 @@ Ao implantar seu código em ambientes, os scripts de compilação e implantaçã
 
 ## Causa
 
-Esse é um recurso destinado a garantir que os dados e as interações do desenvolvedor não sejam enviados para o ou rastreados pelo Google Analytics.
+Esse é um recurso destinado a garantir que os dados e as interações do desenvolvedor não sejam enviados para o Google Analytics, nem rastreados por ele.
 
 ## Solução
 
-Se quiser que o Google Analytics sempre esteja habilitado, defina a variável de implantação `ENABLE_GOOGLE_ANALYTICS = true`, conforme descrito em [Implantar variáveis](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy#enable_google_analytics) na documentação do desenvolvedor.
+Se você quiser que o Google Analytics sempre esteja habilitado, defina a variável de implantação `ENABLE_GOOGLE_ANALYTICS = true`, conforme descrito em [Implantar variáveis](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy#enable_google_analytics) na documentação do desenvolvedor.
 
 >[!NOTE]
 >

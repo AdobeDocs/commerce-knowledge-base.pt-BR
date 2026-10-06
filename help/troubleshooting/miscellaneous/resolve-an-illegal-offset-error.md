@@ -6,11 +6,9 @@ feature: Configuration
 role: Developer
 source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '324'
 ht-degree: 0%
-
 ---
-
 # Resolver um erro de deslocamento ilegal
 
 Este artigo fornece uma solução para quando, no Adobe Commerce 2.1 ou posterior, você recebe um erro Resolver um deslocamento ilegal ao criar um novo produto no Administrador do Commerce.
