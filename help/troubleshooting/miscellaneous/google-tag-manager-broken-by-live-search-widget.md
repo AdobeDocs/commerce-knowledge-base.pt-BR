@@ -1,16 +1,14 @@
 ---
-title: O Gerenciador de Marcas do Google foi desfeito pelo widget  [!DNL Live Search]
-description: Este artigo oferece uma solução para a [!DNL Live Search Product Listing Widget] causa [!DNL Google Tag Manager] parar de funcionar.
+title: O Gerenciador de Tags da Google foi desfeito pelo widget [!DNL Live Search]
+description: Este artigo oferece uma solução para o [!DNL Live Search Product Listing Widget], fazendo com que o [!DNL Google Tag Manager] pare de funcionar.
 feature: Install, Search, Best Practices
 role: Admin, Developer
 exl-id: 485f8ccb-cba2-4785-a8e1-a1e98c88b21e
 source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '116'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Tag Manager] foi interrompido pelo widget [!DNL Live Search]
 
 Este artigo oferece uma solução para o [!DNL Live Search Product Listing Widget], fazendo com que o [!DNL Google Tag Manager] pare de funcionar.

@@ -6,11 +6,9 @@ feature: Cloud, Communications, Paas
 role: Developer
 source-git-commit: bd199fac6d8f33491b9fa0f508b2bb52d56b46a5
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '336'
 ht-degree: 0%
-
 ---
-
 # Ex-membros da equipe recebem emails de notificação na nuvem do Adobe Commerce
 
 Este artigo fornece uma solução para remover usuários da lista de destinatários de emails de notificação que são:
@@ -37,5 +35,5 @@ Se isso já tiver sido feito e, ainda assim, as notificações por email continu
 
 ## Leitura relacionada
 
-* [Exiba a função de projeto de um usuário](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=pt-BR#view-a-user&?lang=pt-BR#39;s-project-role) no guia da infraestrutura do Commerce na nuvem.
+* [Exiba a função de projeto de um usuário](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=pt-BR#view-a-user's-project-role) no guia da infraestrutura do Commerce na nuvem.
 * [Como incluir um membro da equipe nas notificações de suporte](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-include-a-team-member-in-support-notifications.html?lang=pt-BR) na base de conhecimento da Commerce.

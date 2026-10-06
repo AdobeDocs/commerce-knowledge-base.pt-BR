@@ -1,18 +1,16 @@
 ---
-title: Alterar ID de incremento de uma entidade do banco de dados (pedido, fatura, aviso de crédito etc.) em uma loja específica
-description: Este artigo discute como alterar a ID de incremento de uma entidade de banco de dados (DB) do Adobe Commerce (pedido, fatura, memorando de crédito etc.) em uma loja Adobe Commerce específica usando a instrução SQL "ALTER TABLE".
+title: Alterar ID de incremento de uma entidade do BD (pedido, fatura, aviso de crédito etc.) em uma loja específica
+description: Este artigo discute como alterar a ID de incremento de uma entidade de banco de dados (BD) do Adobe Commerce (pedido, fatura, aviso de crédito etc.) em um armazenamento Adobe Commerce específico usando a instrução SQL "ALTER TABLE".
 exl-id: 3704dd97-3639-44dc-9b8b-cf09f0c04e6c
 feature: Invoices
 source-git-commit: e33d0bf6c857d0d54ec1373db79910d78296b054
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '617'
 ht-degree: 0%
-
 ---
+# Alterar ID de incremento de uma entidade do BD (pedido, fatura, aviso de crédito etc.) em uma loja específica
 
-# Alterar ID de incremento de uma entidade do banco de dados (pedido, fatura, aviso de crédito etc.) em uma loja específica
-
-Este artigo discute como alterar a ID de incremento de uma entidade de banco de dados (BD) do Adobe Commerce (pedido, fatura, memorando de crédito etc.) em um Adobe Commerce Store específico usando a instrução SQL `ALTER TABLE`.
+Este artigo discute como alterar a ID de incremento de uma entidade de banco de dados (BD) do Adobe Commerce (pedido, fatura, aviso de crédito etc.) em um repositório Adobe Commerce específico usando a instrução SQL `ALTER TABLE`.
 
 >[!NOTE]
 >

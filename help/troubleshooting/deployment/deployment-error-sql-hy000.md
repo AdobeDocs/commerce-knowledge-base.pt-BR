@@ -6,11 +6,9 @@ feature: Deploy
 role: Developer
 source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 0%
-
+source-wordcount: '94'
+ht-degree: 5%
 ---
-
 # Erro de implantação: SQLSTATE[HY000]
 
 Este artigo fornece uma solução para o problema em que a implantação falha devido ao erro SQLSTATE[HY000].
