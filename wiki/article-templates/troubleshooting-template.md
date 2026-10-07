@@ -1,13 +1,11 @@
 ---
-title: ..
+title: '...'
 labels: troubleshooting,...
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '365'
 ht-degree: 0%
-
 ---
-
 
 # Solução de problemas do modelo de artigo
 
@@ -44,7 +42,7 @@ Pré-requisitos: ... (se houver).
 
 1. Primeira etapa.
 1. Segunda etapa.
-1. ...
+1. ....
 
 <u>Resultado esperado</u>:
 

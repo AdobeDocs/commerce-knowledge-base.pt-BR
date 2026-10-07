@@ -5,11 +5,9 @@ exl-id: 5482326f-54c2-4efc-8e5e-6d075ee5be55
 feature: Catalog Management, Customer Service
 source-git-commit: c3120f7df24e105b082df6544ab82241d6b6851f
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '290'
 ht-degree: 0%
-
 ---
-
 # Posso programar atualizações de Armazenamento temporário de conteúdo para preços em um catálogo compartilhado?
 
 A Adobe Commerce não oferece a funcionalidade de agendar uma atualização de preço ([Preparo de Conteúdo](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html?lang=pt-BR)) para um ou mais produtos em um catálogo compartilhado.
