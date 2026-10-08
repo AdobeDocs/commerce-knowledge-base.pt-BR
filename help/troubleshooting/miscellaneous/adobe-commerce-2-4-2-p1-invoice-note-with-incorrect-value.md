@@ -6,11 +6,9 @@ feature: Customer Service, Invoices
 role: Developer
 source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '229'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce 2.4.2-p1: nota de fatura com um valor incorreto
 
 Este artigo descreve um problema conhecido do Adobe Commerce 2.4.2-p1 em que uma nota fiscal com valor incorreto é gerada quando o grupo de clientes é alterado ao criar o pedido. Este problema foi corrigido na versão 2.4.3.
@@ -29,7 +27,7 @@ Quando o grupo de clientes é alterado no momento da criação da ordem, a fatur
 1. Crie uma **Conta de Cliente de Teste** e adicione-a ao **Grupo de Clientes de Varejo**.
 1. Criar um **Novo Pedido** para o cliente de teste, adicionar **Produto** e **Endereço**.
 1. Selecione **Método de envio**.
-1. Na seção **Informações da Conta**, altere o grupo de clientes de **Varejista** para **Governo**.
+1. Na seção **Informações da Conta**, altere o grupo de clientes de **Retailer** para **Governo**.
 1. Clique em **Fazer pedido**.
 1. Clique em **Fatura** > **Enviar Fatura**.
 
