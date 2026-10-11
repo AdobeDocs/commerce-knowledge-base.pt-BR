@@ -1,16 +1,23 @@
 ---
 title: Os scripts personalizados do lado do servidor não são executados no diretório de mídia pub
-description: Este artigo fornece uma correção para quando os scripts personalizados do lado do servidor não são executados se colocados em &grave;.diretório /pub/media/&grave; do aplicativo do Adobe Commerce na infraestrutura em nuvem. Essa é uma limitação de segurança esperada, desde que o ".O diretório /pub/media/&grave; é gravável. Para tornar os scripts executáveis, coloque-os em diretórios não graváveis, como &grave;./app/code/&grave; ou &grave;./pub/&grave;.
+description: Este artigo fornece uma correção para quando os scripts personalizados do lado do servidor não são executados se colocados no diretório "./pub/media/" do aplicativo do Adobe Commerce na infraestrutura da nuvem. Essa é uma limitação de segurança esperada, pois o diretório "./pub/media/" é gravável. Para tornar os scripts executáveis, coloque-os em diretórios não graváveis, como "./app/code/" ou "./pub/".
 exl-id: fcad8a5d-47d6-4729-93a4-2410d7710d69
 feature: Media
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '284'
 ht-degree: 0%
-
 ---
-
 # Os scripts personalizados do lado do servidor não são executados no diretório de mídia pub
 
 Este artigo fornece uma correção para quando scripts personalizados do lado do servidor não são executados se forem colocados no diretório `./pub/media/` de seu aplicativo Adobe Commerce na infraestrutura da nuvem. Esta é uma limitação de segurança esperada, pois o diretório `./pub/media/` é gravável. Para tornar os scripts executáveis, coloque-os em diretórios não graváveis, como `./app/code/` ou `./pub/`.
