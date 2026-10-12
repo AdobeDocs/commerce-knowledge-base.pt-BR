@@ -1,19 +1,28 @@
 ---
 title: O relatório da Ferramenta de verificação de segurança está em branco
-description: Este artigo fornece uma correção para o problema em que a Ferramenta de verificação de segurança mostra uma página em branco em vez do relatório real. Para resolvê-lo, talvez seja necessário adicionar os IPs usados pela Ferramenta ao arquivo de Inclui na lista de permissões de firewall.
+description: Este artigo fornece uma correção para o problema em que a Ferramenta de verificação de segurança mostra uma página em branco em vez do relatório real. Para resolvê-lo, talvez seja necessário adicionar os IPs usados pela Ferramenta ao Incluo na lista de permissões de firewall.
 exl-id: e5f7f8c6-2dd3-44e3-8d19-f1f38d06dd6c
 feature: Compliance, Security
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
+    internal-label: Compliance
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '306'
 ht-degree: 0%
-
 ---
-
 # O relatório da Ferramenta de verificação de segurança está em branco
 
-Este artigo fornece uma correção para o problema em que a Ferramenta de verificação de segurança mostra uma página em branco em vez do relatório real. Para resolvê-lo, talvez seja necessário adicionar os IPs usados pela Ferramenta ao arquivo de Inclui na lista de permissões de firewall.
+Este artigo fornece uma correção para o problema em que a Ferramenta de verificação de segurança mostra uma página em branco em vez do relatório real. Para resolvê-lo, talvez seja necessário adicionar os IPs usados pela Ferramenta ao Incluo na lista de permissões de firewall.
 
 ## Produtos e versões afetados:
 
@@ -23,7 +32,7 @@ Este artigo fornece uma correção para o problema em que a Ferramenta de verifi
 
 <u>Etapas a serem reproduzidas</u>:
 
-1. Configure a Ferramenta de Verificação de Segurança para verificar seu site, conforme descrito em [Verificação de Segurança](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/systems/security/security-scan) em nosso guia do usuário.
+1. Configure a Ferramenta de Verificação de Segurança para verificar seu site, conforme descrito em [Verificação de Segurança](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan) em nosso guia do usuário.
 1. Na coluna Ações, selecione **Executar Verificação**.
 
 <u>Resultados esperados</u>:
@@ -42,10 +51,10 @@ Esse problema pode ocorrer porque a Ferramenta de verificação de segurança n�
 
 Tente abrir seu site.
 
-* Incluir na lista de permissões Se a página for carregada com sucesso, talvez seja necessário adicionar os IPs usados pelas Ferramentas de verificação de segurança ao arquivo de firewall. Os seguintes IPs são usados: 52.87.98.44, 34.196.167.176, 3.218.25.102 nas portas 80 e 443.
+* Se a página for carregada com êxito, talvez seja necessário adicionar os IPs usados pelas Ferramentas de verificação de segurança ao Incluo na lista de permissões de firewall. Os seguintes IPs são usados: 52.87.98.44, 34.196.167.176, 3.218.25.102 nas portas 80 e 443.
 * Se o site não carregar e retornar a mensagem *&quot;Houve um erro ao processar sua solicitação&quot;*, verifique se há possíveis erros no site.
 
 ## Leitura relacionada
 
-* [Ativar e iniciar](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/launch/overview) em nossa documentação de desenvolvedor.
-* [Verificação de segurança](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/systems/security/security-scan) em nosso guia do usuário.
+* [Ativar e iniciar](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/overview) em nossa documentação de desenvolvedor.
+* [Verificação de segurança](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan) em nosso guia do usuário.

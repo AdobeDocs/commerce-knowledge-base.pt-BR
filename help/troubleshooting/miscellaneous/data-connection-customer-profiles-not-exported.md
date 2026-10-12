@@ -1,17 +1,30 @@
 ---
-title: Os perfis do cliente não aparecem no Experience Platform
-description: Este artigo fornece etapas de solução de problemas se os dados de perfil do cliente não estiverem aparecendo no Experience Platform ao usar a extensão  [!DNL Data Connection] .
+title: Perfis de cliente que não aparecem no Experience Platform
+description: Este artigo fornece etapas de solução de problemas se os dados de perfil do cliente não estiverem aparecendo no Experience Platform ao usar a extensão [!DNL Data Connection].
 feature: Personalization, Integration, Configuration
 role: Admin, Developer
 exl-id: 4f12b032-0bee-47da-927a-8d4c2d8b8276
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: f37757d8-3174-5335-b977-1161792f965d
+    internal-label: Personalization
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '556'
 ht-degree: 0%
-
 ---
-
-# Os perfis do cliente não aparecem no Experience Platform
+# Perfis de cliente que não aparecem no Experience Platform
 
 Este artigo fornece etapas de solução de problemas se os dados de perfil do cliente não estiverem aparecendo no Experience Platform ao usar a extensão Conexão de dados.
 
@@ -21,7 +34,7 @@ Este artigo fornece etapas de solução de problemas se os dados de perfil do cl
 
 ## Problema
 
-Você instalou e configurou a extensão [[!DNL Data Connection]](https://experienceleague.adobe.com/pt-br/docs/commerce-merchant-services/data-connection/overview) e habilitou os dados de perfil do cliente para serem enviados ao Experience Platform, mas esses dados de perfil não estão aparecendo no Experience Platform.
+Você instalou e configurou a extensão [[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview) e habilitou os dados de perfil do cliente para serem enviados à Experience Platform, mas esses dados não estão aparecendo na Experience Platform.
 
 ## Solução
 
@@ -31,11 +44,11 @@ Se as informações de perfil do cliente não estiverem aparecendo no Experience
 
 Verifique se você instalou a versão mais recente da extensão `experience-platform-connector`.
 
-Consulte as [[!DNL Data Connection] notas de versão da extensão](https://experienceleague.adobe.com/pt-br/docs/commerce-merchant-services/data-connection/release-notes) para obter informações sobre a versão mais recente.
+Consulte as [[!DNL Data Connection] notas de versão da extensão](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/release-notes) para obter informações sobre a versão mais recente.
 
 >[!NOTE]
 >
->A versão mais recente da extensão [!DNL Data Connection] inclui o módulo `customers-connector`, que é responsável por enviar dados de perfil ao Experience Platform. O módulo `customers-connector` deve ser da versão `1.2.0` ou superior.
+>A versão mais recente da extensão [!DNL Data Connection] inclui o módulo `customers-connector`, que é responsável por enviar dados de perfil para a Experience Platform. O módulo `customers-connector` deve ser da versão `1.2.0` ou superior.
 
 ### Confirme se o módulo do conector do cliente está configurado
 
@@ -43,7 +56,7 @@ Confirme se o módulo `customers-connector` está configurado com base no seu ce
 
 #### Infraestrutura do Adobe Commerce na nuvem
 
-1. Habilitar a variável global `ENABLE_EVENTING` em `.magento.env.yaml`. [Saiba mais](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-global).
+1. Habilitar a variável global `ENABLE_EVENTING` em `.magento.env.yaml`. [Saiba mais](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-global).
 
    ```bash
        stage:
@@ -69,7 +82,7 @@ Execute os seguintes comandos para habilitar a geração de código e os Eventos
    bin/magento config:set adobe_io_events/eventing/enabled 1
 ```
 
-### Confirme se você ativou os dados do perfil para serem capturados e enviados para o Experience Platform
+### Confirme se você ativou a captura e o envio de dados de perfil para o Experience Platform
 
 No Administrador do Commerce, verifique se os seguintes campos estão definidos:
 
@@ -116,14 +129,14 @@ select * from event_data_saas;
    "error_code": "403003" } } }
    ```
 
-1. Vá para a página *[!UICONTROL Commerce Services Connector]* no Admin e verifique se as chaves [!UICONTROL sandbox/production] especificadas estão configuradas corretamente. Além disso, confirme se as configurações da conta do Commerce [!UICONTROL sandbox/production] correspondem às exibidas no [!UICONTROL Commerce Services Connector]. Saiba [mais](https://experienceleague.adobe.com/pt-br/docs/commerce-merchant-services/user-guides/integration-services/saas#apikey).
+1. Vá para a página *[!UICONTROL Commerce Services Connector]* no Admin e verifique se as chaves [!UICONTROL sandbox/production] especificadas estão configuradas corretamente. Além disso, confirme se as configurações da conta do Commerce [!UICONTROL sandbox/production] correspondem às exibidas no [!UICONTROL Commerce Services Connector]. Saiba [mais](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas#apikey).
 
-### Verifique se a ID de serviço está na inclui na lista de permissões e confirme com o suporte da Adobe Commerce
+### Verifique se a ID de serviço está no incluo na lista de permissões e confirme com o suporte da Adobe Commerce
 
-1. Verifique se [!UICONTROL Commerce Services Connector] `serviceId` aparece na inclui na lista de permissões no Adobe Commerce.
-1. Entre em contato com o [suporte da Adobe Commerce](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide) para confirmar o status da inclui na lista de permissões.
+1. Verifique se o [!UICONTROL Commerce Services Connector] `serviceId` aparece em incluo na lista de permissões no Adobe Commerce.
+1. Contate o [suporte da Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide) para confirmar o status do incluo na lista de permissões.
 
 ## Leitura relacionada
 
-* Extensão [[!DNL Data Connection]](https://experienceleague.adobe.com/pt-br/docs/commerce-merchant-services/data-connection/overview) no guia do usuário dos Serviços Commerce
-* [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce
+* Extensão [[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview) no guia do usuário dos Serviços Commerce
+* [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce

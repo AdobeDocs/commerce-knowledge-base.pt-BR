@@ -1,16 +1,23 @@
 ---
-title: Descarregar redirecionamentos não-[!DNL regex] para [!DNL Fastly]  em vez de [!DNL Nginx] (rotas)
+title: Descarregar redirecionamentos não-[!DNL regex] para [!DNL Fastly] em vez de [!DNL Nginx] (rotas)
 description: Este tópico sugere uma solução para um problema típico de desempenho de redirecionamentos que você pode ter ao descarregar redirecionamentos não-[!DNL regex] para [!DNL Fastly] em vez de [!DNL Nginx] no Adobe Commerce na infraestrutura em nuvem.
 exl-id: 8b22d25d-0865-4d21-b275-d344ba8748f2
 feature: Routes
 role: Developer
-source-git-commit: 724a30310c3841f8280628436925f9a3e5933b14
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 1783ae9f-7157-5aeb-a915-91e260301e46
+    internal-label: Routes
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '796'
 ht-degree: 0%
-
 ---
-
 # Descarregar redirecionamentos não-[!DNL regex] para [!DNL Fastly] em vez de [!DNL Nginx] (rotas)
 
 Este tópico sugere uma solução para um problema típico de desempenho de redirecionamentos que você pode ter ao descarregar redirecionamentos não-[!DNL regex] para [!DNL Fastly] em vez de [!DNL Nginx] no Adobe Commerce na infraestrutura em nuvem.
@@ -39,7 +46,7 @@ As etapas a seguir detalharão como colocar redirecionamentos em [!DNL Fastly] e
 
 1. Crie um dicionário do Edge.
 
-   Primeiro, você pode usar [[!DNL VCL] trechos no Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html?lang=pt-BR) para definir um dicionário de borda. Ele conterá os redirecionamentos.
+   Primeiro, você pode usar [[!DNL VCL] trechos no Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html) para definir um dicionário de borda. Ele conterá os redirecionamentos.
 
    Algumas limitações:
 
@@ -99,8 +106,8 @@ Se você não quiser executar um ambiente de preparo do Adobe Commerce, mas quis
 
 ## Leitura relacionada
 
-* [[!DNL Fastly VCL] referência](https://docs.fastly.com/vcl/)
-* [Configurar rotas](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml.html?lang=pt-BR) na documentação do desenvolvedor
-* [Configure [!DNL Fastly]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=pt-BR) em nossa documentação do desenvolvedor
+* [Referência de [!DNL Fastly VCL]](https://docs.fastly.com/vcl/)
+* [Configurar rotas](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml.html) na documentação do desenvolvedor
+* [Configure [!DNL Fastly]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) em nossa documentação do desenvolvedor
 * [[!DNL VCL] folha de características de expressão regular](https://docs.fastly.com/en/guides/vcl-regular-expression-cheat-sheet) em nossa documentação do desenvolvedor
-* [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce
+* [Práticas recomendadas para modificar tabelas de banco de dados](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) no Manual de implementação do Commerce

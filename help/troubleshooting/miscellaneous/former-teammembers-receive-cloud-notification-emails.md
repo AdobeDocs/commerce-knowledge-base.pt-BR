@@ -4,7 +4,20 @@ description: Este artigo fornece uma solução para o Adobe Commerce em emails d
 exl-id: b2535f66-8aec-4ddf-9a69-60879a0a1939
 feature: Cloud, Communications, Paas
 role: Developer
-source-git-commit: bd199fac6d8f33491b9fa0f508b2bb52d56b46a5
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
+  - id: 00451af3-7b97-5414-9992-3a6c269e413f
+    internal-label: Paas
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -28,12 +41,12 @@ Um aviso de interrupção detectada ou problema importante relacionado ao projet
 
 Há duas maneiras de interromper as notificações removendo o(s) usuário(s) do projeto:
 
-* Método 1: uso da nuvem [!DNL Project URL]. Consulte [Gerenciar o acesso do usuário](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=pt-BR) no guia de infraestrutura do Commerce na nuvem para ver as etapas.
-* Método 2: usar a magento-cloud [!DNL CLI]. Consulte [Gerenciar usuários com o  [!DNL CLI]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=pt-BR#manage-users-with-the-cli) no guia de infraestrutura do Commerce na nuvem para ver as etapas.
+* Método 1: uso da nuvem [!DNL Project URL]. Consulte [Gerenciar o acesso do usuário](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) no guia de infraestrutura do Commerce na nuvem para ver as etapas.
+* Método 2: usar a magento-cloud [!DNL CLI]. Consulte [Gerenciar usuários com o  [!DNL CLI]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#manage-users-with-the-cli) no guia de infraestrutura do Commerce na nuvem para ver as etapas.
 
 Se isso já tiver sido feito e, ainda assim, as notificações por email continuarem a incluir esses usuários, envie um tíquete de suporte para solicitar que eles sejam removidos da configuração *[!UICONTROL Always CC]* na conta.
 
 ## Leitura relacionada
 
-* [Exiba a função de projeto de um usuário](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=pt-BR#view-a-user's-project-role) no guia da infraestrutura do Commerce na nuvem.
-* [Como incluir um membro da equipe nas notificações de suporte](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-include-a-team-member-in-support-notifications.html?lang=pt-BR) na base de conhecimento da Commerce.
+* [Exiba a função de projeto de um usuário](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#view-a-user's-project-role) no guia da infraestrutura do Commerce na nuvem.
+* [Como incluir um membro da equipe nas notificações de suporte](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-include-a-team-member-in-support-notifications.html) na base de conhecimento da Commerce.

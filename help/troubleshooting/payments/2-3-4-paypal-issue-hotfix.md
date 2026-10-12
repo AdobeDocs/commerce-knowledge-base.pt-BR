@@ -4,13 +4,22 @@ description: Este artigo fornece uma correção para erros recebidos durante o p
 exl-id: 9f5ec100-49b0-4ac5-8951-32b5c4fe6bed
 feature: Orders, Payments
 role: Developer
-source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '442'
 ht-degree: 0%
-
 ---
-
 # 2.3.4 Hotfix de problemas do PayPal
 
 Este artigo fornece uma correção para erros recebidos durante o posicionamento do pedido ao selecionar uma região no Check-out expresso do PayPal. O problema é causado pelas alterações feitas na versão 2.3.4 do Adobe Commerce e está relacionado à forma como os campos de endereço de Finalização de compra do PayPal Express são analisados.
@@ -49,11 +58,11 @@ Error 500: NOTICE: PHP message: PHP Fatal error: Uncaught Error: Call to a membe
 
 Para comerciantes locais do Adobe Commerce: aplique o [hotfix](https://magento.com/tech-resources/download#download2353), que está disponível na seção Downloads do portal [magento.com](https://magento.com) em Minha conta.
 
-Para o Adobe Commerce em comerciantes da infraestrutura em nuvem: a Adobe incluiu a correção nos Patches da nuvem para o Commerce v1.0.2. Consulte [Patches da nuvem para as notas de versão do Commerce](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches?itm_source=devdocs&itm_medium=quick_search&itm_campaign=federated_search&itm_term=cloud%20patche) em nossa documentação do desenvolvedor para encontrar instruções sobre como aplicar o pacote mais recente.
+Para o Adobe Commerce em comerciantes da infraestrutura em nuvem: a Adobe incluiu a correção nos Patches da nuvem para o Commerce v1.0.2. Consulte [Patches da nuvem para as notas de versão do Commerce](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches?itm_source=devdocs&itm_medium=quick_search&itm_campaign=federated_search&itm_term=cloud%20patche) em nossa documentação do desenvolvedor para encontrar instruções sobre como aplicar o pacote mais recente.
 
 ## Como aplicar o patch
 
-Para obter instruções, consulte [Como aplicar um patch de compositor fornecido pelo Adobe](https://experienceleague.adobe.com/pt-br/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento) em nossa base de dados de conhecimento de suporte.
+Para obter instruções, consulte [Como aplicar um patch de compositor fornecido pelo Adobe](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento) em nossa base de dados de conhecimento de suporte.
 
 ## Leitura relacionada
 

@@ -2,13 +2,14 @@
 title: Acessar serviços da New Relic
 description: 'Este artigo explica como os clientes com autorização suficiente de licença/assinatura podem acessar determinados serviços da New Relic:'
 exl-id: c01af85e-0590-49e8-a1a0-b901f23c4431
-source-git-commit: 09777d70272bdb78a0bcf7566cc398a53c474f4c
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 0%
-
 ---
-
 # Acessar serviços da New Relic
 
 Este artigo explica como os clientes com autorização suficiente de licença/assinatura podem acessar determinados serviços da New Relic:
@@ -28,8 +29,8 @@ Se alguns clientes tiverem recebido do New Relic o email contendo um link de ati
 
 **Clientes da arquitetura de plano inicial do Adobe Commerce na infraestrutura em nuvem que desejam usar o New Relic:**
 
-Os clientes da arquitetura inicial não recebem o serviço New Relic Infrastructure como parte de sua assinatura. No entanto, eles poderão usar o New Relic Application Performance Monitoring (APM) se adicionarem uma licença seguindo as etapas [Conectar-se ao New Relic](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) da documentação do desenvolvedor.
+Os clientes da arquitetura inicial não recebem o serviço New Relic Infrastructure como parte de sua assinatura. No entanto, eles poderão usar o New Relic Application Performance Monitoring (APM) se adicionarem uma licença seguindo as etapas [Conectar-se ao New Relic](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) da documentação do desenvolvedor.
 
 ## Leitura relacionada
 
-Para saber mais sobre os serviços da New Relic, consulte [Investigar desempenho](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) na documentação do desenvolvedor. Você também pode revisar [Solucionar problemas de desempenho usando o New Relic na infraestrutura em nuvem do Adobe Commerce](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-kcs/kbarticles/ka-40830) em nossa base de conhecimento de suporte.
+Para saber mais sobre os serviços da New Relic, consulte [Investigar desempenho](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) na documentação do desenvolvedor. Você também pode revisar [Solucionar problemas de desempenho usando o New Relic na infraestrutura em nuvem do Adobe Commerce](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-40830) em nossa base de conhecimento de suporte.

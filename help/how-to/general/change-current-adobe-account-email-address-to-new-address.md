@@ -3,16 +3,20 @@ title: Alterar endereço de email atual da conta do Adobe
 description: Saiba como alterar o endereço de email atual registrado na conta do Adobe para um novo endereço atualmente não registrado na conta do Adobe ou da Magento.
 exl-id: ca549d38-0d62-4206-9727-0ed85b733dc3
 feature: Communications
-source-git-commit: 95d4507be9ac06a4cb3b1150000d7f9df30d35f8
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '487'
 ht-degree: 0%
-
 ---
-
 # Alterar endereço de email atual da conta do Adobe
 
-Este artigo explica como alterar o endereço de email atual registrado na [conta do Adobe](https://account.adobe.com/) para um novo endereço atualmente não registrado na [conta do Adobe](https://account.adobe.com/) ou na [conta do Magento](https://account.magento.com/).
+Este artigo explica como alterar o endereço de email atual registrado na [conta do Adobe](https://account.adobe.com/) para um novo endereço atualmente não registrado na [conta do Adobe](https://account.adobe.com/) ou na [conta da Magento](https://account.magento.com/).
 
 ## Produtos e versões afetados
 
@@ -28,7 +32,7 @@ Se você não tiver acesso ao endereço de email atual, configure o encaminhamen
 
 Siga estas etapas para alterar o endereço de email:
 
-1. Redefina a senha usada com o endereço de email antigo. Siga as instruções fornecidas em [Redefinir senha esquecida](https://helpx.adobe.com/br/manage-account/using/change-or-reset-password.html) na Adobe helpx.
+1. Redefina a senha usada com o endereço de email antigo. Siga as instruções fornecidas em [Redefinir senha esquecida](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) na Adobe helpx.
 1. O link de redefinição de senha é enviado para a caixa de correio do proprietário atual com instruções.
 1. Navegue até a [página da conta do Adobe](https://account.adobe.com) para fazer logon com o novo email e configurar a senha.
 
@@ -50,9 +54,9 @@ Depois de alterar o endereço de email da sua ID do MAGE, você também deve con
 ### Verificar email do Commerce Marketplace
 
 1. Faça logon em sua [conta do Commerce Marketplace](https://commercemarketplace.adobe.com/) e confirme se o email da sua conta foi atualizado para o novo endereço.
-1. Se o email não tiver sido atualizado, envie um [Tíquete de suporte](https://experienceleague.adobe.com/pt-br/support#home) solicitando que o email da conta Commerce Marketplace seja corrigido.
+1. Se o email não tiver sido atualizado, envie um [Tíquete de suporte](https://experienceleague.adobe.com/en/support#home) solicitando que o email da conta Commerce Marketplace seja corrigido.
 
 ### Peça ao suporte para finalizar as atualizações da conta interna
 
-1. Envie um [Tíquete de suporte](https://experienceleague.adobe.com/pt-br/support#home) solicitando a conclusão de todas as atualizações internas necessárias (por exemplo, atualização da vinculação entre as novas e antigas Adobe IDs e a sua MAGE ID).
+1. Envie um [Tíquete de suporte](https://experienceleague.adobe.com/en/support#home) solicitando a conclusão de todas as atualizações internas necessárias (por exemplo, atualização da vinculação entre as novas e antigas Adobe IDs e a sua MAGE ID).
 1. Se você já tiver aberto um tíquete de suporte porque o email do Commerce Marketplace não foi atualizado na seção anterior, poderá usar o mesmo tíquete para solicitar essas atualizações internas adicionais.

@@ -4,13 +4,24 @@ description: Este artigo fornece uma solução para o problema em que você rece
 feature: Cloud, Storage, Media
 role: Developer
 exl-id: 7dae295c-919c-46c5-bf63-7d3467c2e07f
-source-git-commit: 11cf981c7ebe813219a0cd311632eafce086bbf6
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: aa037b12-c774-5642-a947-459024feb1a2
+    internal-label: Storage
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '451'
 ht-degree: 0%
-
 ---
-
 # Email informando que o armazenamento de exportações está quase cheio
 
 Este artigo fornece uma solução para o problema em que você recebe um e-mail informando que o armazenamento de exportações está quase cheio.
@@ -42,9 +53,9 @@ Para confirmar a que o alerta se refere, verifique o uso do armazenamento de exp
 
 * Neste exemplo, `/data/exports` é o principal sistema de arquivos de exportações:
 
-   * 50 GB no total
-   * 38 GB usados
-   * 12 GB disponíveis (77% de utilização)
+  * 50 GB no total
+  * 38 GB usados
+  * 12 GB disponíveis (77% de utilização)
 
 * `/data/exports/shared` é uma montagem `tmpfs` (na memória) usada para dados compartilhados e não contribui significativamente para a pressão do disco.
 
@@ -79,4 +90,4 @@ Siga estas etapas para revisar, limpar e validar o uso do armazenamento de expor
 
 ## Leitura relacionada
 
-[Verifique os clusters dedicados](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#check-dedicated-clusters) em nossa base de dados de conhecimento de suporte.
+[Verifique os clusters dedicados](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#check-dedicated-clusters) em nossa base de dados de conhecimento de suporte.

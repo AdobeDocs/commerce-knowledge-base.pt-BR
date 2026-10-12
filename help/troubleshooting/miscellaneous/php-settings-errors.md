@@ -4,7 +4,16 @@ description: Este artigo fornece soluções para erros de configuração do PHP.
 exl-id: 51fb3c95-2e25-4d86-a6cf-e08e90d097ca
 feature: Configuration
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -46,7 +55,7 @@ Configurações com um alto número de lojas, produtos, atributos ou opções po
 PHP message: PHP Warning: Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini.
 ```
 
-Não há valor &#39;apropriado&#39; para `max-input-vars`; isso depende do tamanho e da complexidade da sua configuração. Modifique o valor no arquivo `php.ini` conforme necessário. Consulte [Configurações PHP necessárias](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/prerequisites/php-settings).
+Não há valor &#39;apropriado&#39; para `max-input-vars`; isso depende do tamanho e da complexidade da sua configuração. Modifique o valor no arquivo `php.ini` conforme necessário. Consulte [Configurações PHP necessárias](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings).
 
 ## erro de nível de aninhamento de função máxima xdebug
 
@@ -74,4 +83,4 @@ Vários modelos têm sintaxe para suporte de nível abstrato em modelos (use dif
 
 Mais informações sobre [asp\_tags](http://php.net/manual/en/ini.core.php#ini.asp-tags).
 
-Editar `php.ini` e definir `asp_tags = off`. Para obter mais informações, consulte [Configurações PHP necessárias](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/prerequisites/php-settings).
+Editar `php.ini` e definir `asp_tags = off`. Para obter mais informações, consulte [Configurações PHP necessárias](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings).

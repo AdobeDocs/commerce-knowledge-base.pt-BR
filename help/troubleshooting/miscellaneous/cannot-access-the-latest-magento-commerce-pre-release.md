@@ -4,13 +4,20 @@ description: Este artigo fornece soluções para problemas que ocorrem ao tentar
 exl-id: cbf54a15-b307-4bfc-90b7-cff98aeb4fce
 feature: Roles/Permissions
 role: Developer
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: e439352c-5b67-587d-b34e-d2a0aa5a0242
+    internal-label: Roles/Permissions
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '719'
 ht-degree: 0%
-
 ---
-
 # Não é possível acessar o pré-lançamento mais recente do Adobe Commerce
 
 Este artigo fornece soluções para problemas que ocorrem ao tentar utilizar o código de pré-lançamento mais recente do Adobe Commerce.
@@ -40,7 +47,7 @@ Estas são as causas mais comuns de problemas:
 
 Durante o pré-lançamento, os pacotes de versão estão disponíveis em dois locais:
 
-1. Através do Composer em [magento.com](https://repo.magento.com/) usando o MageID principal da conta. Para obter mais detalhes sobre como usar o Composer, consulte [Instalar o Adobe Commerce usando o Composer](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/composer) na documentação do desenvolvedor.
+1. Através do Composer em [magento.com](https://repo.magento.com/) usando o MageID principal da conta. Para obter mais detalhes sobre como usar o Composer, consulte [Instalar o Adobe Commerce usando o Composer](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer) na documentação do desenvolvedor.
 1. **Minha Conta** > **Downloads** em [account.magento.com](https://account.magento.com/customer/account/login).
 
 >[!NOTE]
@@ -61,7 +68,7 @@ Para descobrir se a MageID é primária, tente o seguinte:
    * Se você vir as informações de licença do Adobe Commerce, sua MageID é a principal.
    * Se você não vir as informações da licença do Adobe Commerce, sua ID de imagem terá somente acesso compartilhado. Para descobrir quem é o detentor da ID primária, vá para **Compartilhado(s) comigo** Observe o SHARENAME especificado. Clique em **Alternar contas** e selecione o valor anotado em SHARENAME. Na página de boas-vindas, você verá o email do titular da ID principal.
 1. Se, por qualquer motivo, você não conseguir encontrar essas informações em [magento.com](https://account.magento.com/customer/account/login), entre em contato com a equipe de conta da Adobe.
-1. Se nenhuma das situações acima funcionar, [contate o Suporte](https://experienceleague.adobe.com/pt-br/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide).
+1. Se nenhuma das situações acima funcionar, [contate o Suporte](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide).
 
 **Para parceiros**
 
@@ -71,8 +78,8 @@ Para descobrir se a MageID é primária, tente o seguinte:
    * Se você vir as informações ativas da licença do Partner, sua MageID é a principal. A licença do Parceiro estará ativa se o valor DATA FINAL for uma data futura.
    * Se você não vir as informações ativas da licença do Partner, sua MageID terá somente acesso compartilhado. Para descobrir quem é o detentor da ID primária, vá para **Compartilhado(s) comigo** Observe o SHARENAME especificado. Clique em **Alternar contas** e selecione o valor anotado em SHARENAME. Na página de boas-vindas, você verá o email do titular da ID principal.
 1. Se, por qualquer motivo, você não conseguir encontrar essas informações em [magento.com](https://account.magento.com/customer/account/login), entre em contato com seu Gerente de Parceiros.
-1. Se nenhuma das opções acima funcionar, [сentre em contato com o Suporte](https://experienceleague.adobe.com/pt-br/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide).
+1. Se nenhuma das opções acima funcionar, [сentre em contato com o Suporte](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide).
 
 ### Não faz parte do programa de pré-lançamento
 
-Para ser incluída no programa de acesso de pré-lançamento, sua organização deve ter uma conta ativa da Adobe Commerce ou de um parceiro em bom estado. Se você acha que atende a este critério e não pode acessar o código de pré-lançamento, [contate o Suporte](https://experienceleague.adobe.com/pt-br/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) com sua MageID.
+Para ser incluída no programa de acesso de pré-lançamento, sua organização deve ter uma conta ativa da Adobe Commerce ou de um parceiro em bom estado. Se você acha que atende a este critério e não pode acessar o código de pré-lançamento, [contate o Suporte](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) com sua MageID.

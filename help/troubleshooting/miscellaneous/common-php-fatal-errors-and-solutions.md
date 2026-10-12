@@ -4,13 +4,23 @@ description: Este artigo lista alguns exemplos rápidos comuns de erros fatais d
 exl-id: 3e42d38f-97bc-4d38-8e36-23b1453f81d9
 feature: Support
 role: Developer
-source-git-commit: 8be0c125bb0417e34e016656337506da88796630
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+subfeature_v2:
+  - id: a59f76dc-e003-5617-951e-dffa5bd3de81
+    internal-label: Support
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '381'
 ht-degree: 0%
-
 ---
-
 # Erros fatais comuns do PHP e suas soluções
 
 Este artigo lista alguns exemplos rápidos comuns de erros fatais do PHP que você pode encontrar ao procurar nos registros do Adobe Commerce e nas soluções para problemas que eles indicam.
@@ -27,7 +37,7 @@ Por exemplo:
 
 `max_execution_time = 120`
 
-Consulte o artigo [Personalizar configurações do php.ini](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/configure/app/php-settings).
+Consulte o artigo [Personalizar configurações do php.ini](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/php-settings).
 
 ## Exemplo
 
@@ -35,7 +45,7 @@ Erro fatal do PHP *: tamanho de memória permitido de 792723456 bytes esgotado&#
 
 ## Solução
 
-Personalize suas configurações do `php.ini`. Consulte este artigo [Personalizar configurações do php.ini](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/configure/app/php-settings).
+Personalize suas configurações do `php.ini`. Consulte este artigo [Personalizar configurações do php.ini](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/php-settings).
 
 ## Exemplo
 
@@ -65,9 +75,9 @@ Verifique o diretório `<root>/tmp` porque ele provavelmente está cheio. Se est
 
 Em nossa documentação do desenvolvedor:
 
-* [erros de configurações do PHP](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/overview)
-* [Configurações de PHP necessárias](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/prerequisites/php-settings)
-* [Verificação Redis](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/cache/redis/redis-session#verify-redis-connection)
-* [Configurar Redis](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/configuration-guide/cache/redis/config-redis)
-* [Erro de limite de memória do PHP](https://experienceleague.adobe.com/pt-br/docs/commerce-knowledge-base/kb/troubleshooting/overview)
+* [Erros de configurações de PHP](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/overview)
+* [Configurações necessárias do PHP](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings)
+* [Verificação Redis](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/redis-session#verify-redis-connection)
+* [Configurar Redis](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/config-redis)
+* [Erro de limite de memória do PHP](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/overview)
 * [Soluções para problemas comuns - Limite de memória](https://developer.adobe.com/commerce/testing/guide/unit/command-line#solutions-to-common-problems)

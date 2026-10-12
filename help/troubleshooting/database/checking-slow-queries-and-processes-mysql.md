@@ -4,13 +4,20 @@ description: Este artigo fala sobre alguns problemas comuns do MySQL (consultas 
 exl-id: cae02e4f-d8cb-4074-abac-24ead22bdc07
 feature: Services
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: da76473c-f99b-5ad0-9b14-896aed473f8a
+    internal-label: Services
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '547'
 ht-degree: 0%
-
 ---
-
 # Verificando consultas e processos lentos MySQL
 
 Este artigo fala sobre alguns problemas comuns do MySQL (consultas lentas, processos demorando muito) que podem afetar negativamente o site de um comerciante e as soluções que eles indicam.
@@ -21,9 +28,9 @@ Este artigo fala sobre alguns problemas comuns do MySQL (consultas lentas, proce
 
 Se você tiver uma interrupção possivelmente causada por um banco de dados sobrecarregado, essas etapas ajudarão a verificar o log de consultas lentas do seu banco de dados.
 
-### Analisar consultas usando a linha de comando MySQL (Adobe Commerce Cloud/on-premise/Magento Open Source)
+### Analisar consultas usando a linha de comando MySQL (Adobe Commerce Cloud/no local/Magento Open Source)
 
-1. Faça logon na linha de comando do MySQL (Adobe Commerce no local/Magento Open Source) ou no servidor de nuvem na linha de comando (Adobe Commerce na infraestrutura de nuvem).
+1. Faça logon na linha de comando do MySQL (Adobe Commerce no local/Magento Open Source) ou no servidor em nuvem pela linha de comando (Adobe Commerce na infraestrutura em nuvem).
 1. Examine o log de consulta lenta para consultas com mais de 50 segundos:
 
    ```bash
@@ -44,7 +51,7 @@ Se você tiver uma interrupção possivelmente causada por um banco de dados sob
 Se seu projeto do Adobe Commerce for implantado na arquitetura Pro, você poderá usar o [!DNL Percona Toolkit] para analisar consultas.
 
 1. Execute o comando `pt-query-digest --type=slowlog` nos logs de consulta lenta do MySQL.
-   * Para encontrar o local dos logs de consulta lenta, consulte **[[!UICONTROL Log locations > Service Logs]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=pt-BR)** em nossa documentação para desenvolvedores.
+   * Para encontrar o local dos logs de consulta lenta, consulte **[[!UICONTROL Log locations > Service Logs]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)** em nossa documentação para desenvolvedores.
    * Consulte a documentação [[!DNL Percona Toolkit] > pt-query-digest](https://www.percona.com/doc/percona-toolkit/LATEST/pt-query-digest.html#pt-query-digest).
 1. Com base nos problemas encontrados, siga as etapas para corrigir o query, para que ele seja executado mais rapidamente.
 
@@ -56,7 +63,7 @@ Isso ajudará a identificar se o servidor MySQL está ativo e se não há consul
 
 ### Etapas
 
-1. Faça logon na linha de comando do MySQL (Adobe Commerce no local/Magento Open Source) ou no servidor de nuvem na linha de comando (Adobe Commerce na infraestrutura de nuvem).
+1. Faça logon na linha de comando do MySQL (Adobe Commerce no local/Magento Open Source) ou no servidor em nuvem pela linha de comando (Adobe Commerce na infraestrutura em nuvem).
 1. Faça logon no MySQL usando o bloco de código abaixo. Isso automatizará o processo de logon.
 
    ```MySQL
@@ -81,4 +88,4 @@ Isso ajudará a identificar se o servidor MySQL está ativo e se não há consul
 * [Sintaxe MySQL Show Processlist](https://dev.mysql.com/doc/refman/8.0/en/show-processlist.html) em dev.mysql.com.
 * [Sintaxe de eliminação do MySQL](https://dev.mysql.com/doc/refman/8.0/en/kill.html) em dev.mysql.com.
 * [Segurança, desempenho e manuseio de dados](https://developer.adobe.com/commerce/php/best-practices/extensions/security/) na documentação do desenvolvedor.
-* [Ajuda do MySQL](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql) em nossa documentação para desenvolvedores.
+* [Ajuda do MySQL](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql) em nossa documentação para desenvolvedores.

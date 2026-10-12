@@ -4,13 +4,27 @@ description: Este artigo fornece uma correção para um problema conhecido do Ad
 exl-id: 2c1dadd9-7754-4b4c-8d37-b75c13beae5c
 feature: B2B, Install, Upgrade
 role: Developer
-source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 6388cf7b-8a81-5248-a1e4-7bb57bbe250f
+    internal-label: Install
+  - id: a8ae7a5a-6cdc-5922-bd0d-6feb44b04984
+    internal-label: Upgrade
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '334'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce 2.4.0: exceção durante a instalação do B2B 1.2.0
 
 Este artigo fornece uma correção para um problema conhecido do Adobe Commerce para uma exceção lançada durante `setup:upgrade` ao instalar o B2B 1.2.0.
@@ -65,12 +79,12 @@ Para baixá-lo, role para baixo até o final do artigo e clique no nome do arqui
 
 <u>Correção do compositor </u>
 
-Consulte [Como aplicar um patch de compositor fornecido pelo Adobe](https://experienceleague.adobe.com/pt-br/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento) para obter instruções de patch de compositor.
+Consulte [Como aplicar um patch de compositor fornecido pelo Adobe](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento) para obter instruções de patch de compositor.
 
 <u>Patch do Git </u>
 
-* Consulte [Aplicar patches](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) na documentação do desenvolvedor para obter instruções de patch do Git para o Adobe Commerce na infraestrutura em nuvem.
-* Consulte [Aplicação de patches: patches personalizados](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/upgrade-guide/patches/overview#custom-patches) na documentação do desenvolvedor para obter instruções sobre patch do Git para o Adobe Commerce.
+* Consulte [Aplicar patches](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) na documentação do desenvolvedor para obter instruções de patch do Git para o Adobe Commerce na infraestrutura em nuvem.
+* Consulte [Aplicação de patches: patches personalizados](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview#custom-patches) na documentação do desenvolvedor para obter instruções sobre patch do Git para o Adobe Commerce.
 
 ## Leitura relacionada
 

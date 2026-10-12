@@ -3,7 +3,18 @@ title: Bloquear tráfego mal-intencionado para o Adobe Commerce no nível Fastly
 description: Este artigo fornece as etapas que você pode seguir para bloquear tráfego mal-intencionado quando suspeitar que o Adobe Commerce na loja de infraestrutura na nuvem está enfrentando um ataque de DDoS.
 exl-id: 1a834a0a-753b-432e-9c3b-ef8dd034d294
 feature: Cache, Marketing Tools
-source-git-commit: 8e64b148938394e67265da543784b2769df56c58
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 0%
@@ -24,7 +35,7 @@ Neste artigo, pressupomos que você já tenha os IPs mal-intencionados e/ou seu 
 
 Se o seu site for sobrecarregado pelo DDoS, talvez você não consiga fazer logon no Commerce Admin (e executar todas as etapas descritas mais adiante neste artigo).
 
-Para obter acesso ao Administrador, coloque o site no modo de manutenção, conforme descrito em [Habilitar ou desabilitar o modo de manutenção](https://experienceleague.adobe.com/pt-br/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) e inclua o endereço IP na lista de permissões. Desative o modo de manutenção depois que isso for concluído.
+Para obter acesso ao Administrador, coloque o site no modo de manutenção, conforme descrito em [Habilitar ou desabilitar o modo de manutenção](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) e inclua o endereço IP na lista de permissões. Desative o modo de manutenção depois que isso for concluído.
 
 ## Bloquear tráfego por IP
 
@@ -132,7 +143,7 @@ Há duas considerações importantes ao usar o `robots.txt`:
 * Robôs podem ignorar seu `robots.txt`. Especialmente os robôs malware, que verificam a Web em busca de vulnerabilidades de segurança, e os coletores de endereços de email usados por remetentes de spam não prestam atenção.
 * O arquivo `robots.txt` é um arquivo disponível publicamente. Qualquer pessoa pode ver quais seções do servidor você não deseja que os robôs usem.
 
-As informações básicas e a configuração padrão do Adobe Commerce `robots.txt` podem ser encontradas no artigo [Robôs do Mecanismo de Pesquisa](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/marketing/seo/seo-overview#search-engine-robots) da documentação do desenvolvedor.
+As informações básicas e a configuração padrão do Adobe Commerce `robots.txt` podem ser encontradas no artigo [Robôs do Mecanismo de Pesquisa](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview#search-engine-robots) da documentação do desenvolvedor.
 
 Para obter informações gerais e recomendações sobre `robots.txt`, consulte:
 
@@ -144,4 +155,4 @@ Trabalhe com seu desenvolvedor e/ou especialista em SEO para determinar quais Ag
 ## Leitura relacionada
 
 * [Termos de licenciamento específicos do produto para o Adobe Commerce na nuvem](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/PSLT-AdobeCommerceCloud-WW-2023v1.pdf)
-* [VCL personalizado para solicitações de bloqueio](https://experienceleague.adobe.com/pt-br/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking) no Guia do Commerce na Nuvem
+* [VCL personalizado para solicitações de bloqueio](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking) no Guia do Commerce na Nuvem

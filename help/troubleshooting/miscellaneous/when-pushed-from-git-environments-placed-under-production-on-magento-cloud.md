@@ -4,13 +4,22 @@ description: Este artigo fornece uma solução para o problema em que novos ambi
 exl-id: 279cd6d8-fd45-45ba-8456-8b397a01976f
 feature: Cloud, Paas
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: 00451af3-7b97-5414-9992-3a6c269e413f
+    internal-label: Paas
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 0%
-
 ---
-
 # Novos ambientes colocados em produção quando enviados do Git
 
 Este artigo fornece uma solução para o problema em que novos ambientes são colocados no ambiente de produção no Adobe Commerce na infraestrutura em nuvem quando enviados do sistema de controle de versão Git.
@@ -47,7 +56,7 @@ Isso não é um erro. Para configurar uma filial principal para outra filial, o 
 
 ## Solução
 
-Uma ramificação pai só pode ser definida depois que o comerciante enviou uma ramificação recém-criada e a ativou. Consulte [Adobe Commerce na infraestrutura da nuvem > Integração do Bitbucket](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/dev-tools/integrations/bitbucket#create-a-cloud-branch) em nossa documentação de desenvolvedor.
+Uma ramificação pai só pode ser definida depois que o comerciante enviou uma ramificação recém-criada e a ativou. Consulte [Adobe Commerce na infraestrutura da nuvem > Integração do Bitbucket](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/integrations/bitbucket#create-a-cloud-branch) em nossa documentação de desenvolvedor.
 
 Para atualizar um pai para a ramificação existente no servidor, use o comando `magento-cloud environment:info` na CLI da magento-cloud.
 
@@ -59,4 +68,4 @@ Isso definirá a ramificação principal como &quot;Preparo&quot; para a ramific
 
 ## Leitura relacionada
 
-* [Adobe Commerce na infraestrutura da nuvem > magento-cloud CLI](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview) na documentação do desenvolvedor.
+* [Adobe Commerce na infraestrutura da nuvem > magento-cloud CLI](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview) na documentação do desenvolvedor.

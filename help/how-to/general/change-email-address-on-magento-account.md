@@ -3,7 +3,13 @@ title: Como alterar o endereço de email na conta magento.com quando o campo est
 description: Este artigo explica como alterar o endereço de email na sua conta [Magento.com](https://account.magento.com) quando o campo estiver esmaecido.
 exl-id: cd527203-345c-4318-8ca8-0063109b5f79
 feature: Communications
-source-git-commit: 123027ee291b44ad4b234e561b9c3f4156af7c90
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -32,7 +38,7 @@ Alterando o endereço de email de um usuário que tem sua própria conta em <htt
 
 <u>Solução</u>
 
-1. [Envie uma solicitação de suporte](https://experienceleague.adobe.com/home?lang=pt-BR#support) em https://experienceleague.adobe.com/home?lang=pt-BR#support informando o seguinte:
+1. [Envie uma solicitação de suporte](https://experienceleague.adobe.com/home#support) em https://experienceleague.adobe.com/home#support informando o seguinte:
 
    * Endereço de email existente a ser atualizado
    * Novo endereço de email
@@ -46,7 +52,7 @@ Alterando o endereço de email de um usuário que atualmente não tem sua própr
 
 <u>Solução</u>
 
-Se você tiver acesso à caixa de correio do [email do proprietário atual], redefina a senha do email do proprietário atual seguindo o guia [Redefinir ou alterar sua senha do Adobe](https://helpx.adobe.com/br/manage-account/using/change-or-reset-password.html) no Guia do Usuário do Creative Cloud.
+Se você tiver acesso à caixa de correio do [email do proprietário atual], redefina a senha do email do proprietário atual seguindo o guia [Redefinir ou alterar sua senha do Adobe](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) no Guia do Usuário do Creative Cloud.
 
 1. Localize o link de redefinição de senha enviado para a caixa de correio do proprietário atual com instruções.
 1. Defina uma nova senha e altere o email para [novo email de proprietário].
@@ -60,5 +66,5 @@ No entanto, se você não tiver acesso a emails enviados ao [email do proprietá
 
 ## Leitura relacionada
 
-[Redefinir senha esquecida](https://helpx.adobe.com/br/manage-account/using/change-or-reset-password.html) no Guia do Usuário do Creative Cloud.
-[Atualize seu perfil de conta](https://helpx.adobe.com/br/manage-account/using/edit-adobe-account-personal-profile.html) no Guia do Usuário do Creative Cloud.
+[Redefinir senha esquecida](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) no Guia do Usuário do Creative Cloud.
+[Atualize seu perfil de conta](https://helpx.adobe.com/manage-account/using/edit-adobe-account-personal-profile.html) no Guia do Usuário do Creative Cloud.

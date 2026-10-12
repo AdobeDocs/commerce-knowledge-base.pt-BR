@@ -4,13 +4,26 @@ description: Este artigo explica os erros que você pode experimentar ao visuali
 feature: Checkout,Security,Orders,Payments
 role: Developer
 exl-id: fb92b75d-c88b-4810-a309-d6ab38485e86
-source-git-commit: 6d0c4ea9576440d66be3b8053a6e362b8ac0ebcb
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 8cd50456-5eb0-5364-922a-f14161feb828
+    internal-label: Checkout
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '1065'
 ht-degree: 0%
-
 ---
-
 # Solucionar problemas da página de check-out da loja no modo restrito [!UICONTROL CSP]
 
 Este artigo fornece explicações e correções para os problemas do Adobe Commerce 2.4.7 ao visualizar a página de check-out em **[!UICONTROL CSP restricted mode]**, com o script &quot;*Recusado a executar script embutido porque viola a seguinte diretiva de Política de Segurança de Conteúdo: &quot;script-src ...*&quot; mensagem de erro no log do console do navegador.
@@ -56,7 +69,7 @@ Os usuários podem ver erros de navegador devido ao bloqueio de determinados scr
 
 1. [[!DNL Whitelist]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style) os scripts bloqueados usando a classe `SecureHtmlRenderer`.
 1. Use a classe `CSPNonceProvider` para permitir que scripts sejam executados.
-O Adobe Commerce e o Magento Open Source 2.4.7 e versões posteriores incluem um provedor **[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce] para facilitar a geração de cadeias de caracteres [!DNL nonce] exclusivas para cada solicitação. Essas [!DNL nonce] cadeias de caracteres são anexadas ao cabeçalho [!UICONTROL CSP].
+O Adobe Commerce e o Magento Open Source 2.4.7 e versões posteriores incluem um provedor **[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce] para facilitar a geração de cadeias de caracteres [!DNL nonce] exclusivas para cada solicitação. Essas cadeias de caracteres [!DNL nonce] são anexadas ao cabeçalho [!UICONTROL CSP].
 
    Use a função `generateNonce` em `Magento\Csp\Helper\CspNonceProvider` para obter uma cadeia de caracteres [!DNL nonce].
 
@@ -126,7 +139,7 @@ Os usuários podem ver erros de navegador devido ao bloqueio de determinados scr
 
 1. [[!DNL Whitelist]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style) os scripts bloqueados usando a classe `SecureHtmlRenderer`.
 1. Use a classe `CSPNonceProvider` para permitir que scripts sejam executados.
-O Adobe Commerce e o Magento Open Source 2.4.7 e versões posteriores incluem um provedor **[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce] para facilitar a geração de cadeias de caracteres [!DNL nonce] exclusivas para cada solicitação. Essas [!DNL nonce] cadeias de caracteres são anexadas ao cabeçalho [!UICONTROL CSP].
+O Adobe Commerce e o Magento Open Source 2.4.7 e versões posteriores incluem um provedor **[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce] para facilitar a geração de cadeias de caracteres [!DNL nonce] exclusivas para cada solicitação. Essas cadeias de caracteres [!DNL nonce] são anexadas ao cabeçalho [!UICONTROL CSP].
 
    Use a função `generateNonce` em `Magento\Csp\Helper\CspNonceProvider` para obter uma cadeia de caracteres [!DNL nonce].
 
@@ -197,7 +210,7 @@ Os usuários podem ver erros de navegador devido ao bloqueio de determinados scr
 
 1. [[!DNL Whitelist]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style) os scripts bloqueados usando a classe `SecureHtmlRenderer`.
 1. Use a classe `CSPNonceProvider` para permitir que scripts sejam executados.
-O Adobe Commerce e o Magento Open Source 2.4.7 e versões posteriores incluem um provedor **[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce] para facilitar a geração de cadeias de caracteres [!DNL nonce] exclusivas para cada solicitação. Essas [!DNL nonce] cadeias de caracteres são anexadas ao cabeçalho [!UICONTROL CSP].
+O Adobe Commerce e o Magento Open Source 2.4.7 e versões posteriores incluem um provedor **[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce] para facilitar a geração de cadeias de caracteres [!DNL nonce] exclusivas para cada solicitação. Essas cadeias de caracteres [!DNL nonce] são anexadas ao cabeçalho [!UICONTROL CSP].
 
    Use a função `generateNonce` em `Magento\Csp\Helper\CspNonceProvider` para obter uma cadeia de caracteres [!DNL nonce].
 

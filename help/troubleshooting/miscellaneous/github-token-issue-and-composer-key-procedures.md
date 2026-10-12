@@ -4,13 +4,23 @@ description: Este artigo fornece soluções para o problema de implantações co
 exl-id: 202cb936-f9ba-49ea-bf0a-6e6994d2337a
 feature: Identity Management
 role: Developer
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+subfeature_v2:
+  - id: 23bc8570-95c6-5ef5-a563-2e4a4e6b4853
+    internal-label: Identity Management
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '278'
 ht-degree: 0%
-
 ---
-
 # Problema no token do GitHub e procedimentos principais do Composer
 
 Este artigo fornece soluções para o problema de implantações com falha relacionadas a falhas de token Github causadas por chaves Composer desatualizadas.
@@ -42,9 +52,9 @@ Para resolver o problema, atualize sua versão do Composer para 1.10.22:
 1. Isso adiciona o requisito para a versão do pacote do Composer. Verificar o arquivo de bloqueio - a versão `composer/composer` deve ser 1.0.22 ou superior.
 1. Confirme `composer.json` e `composer.lock` e envie uma implantação por push.
 
-Se este método não funcionar, [envie um tíquete de suporte](https://experienceleague.adobe.com/pt-br/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket).
+Se este método não funcionar, [envie um tíquete de suporte](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket).
 
 ## Leitura relacionada
 
-* [Blog do Github: por trás dos novos formatos de token de autenticação do GitHub](https://github.blog/2021-04-05-behind-githubs-new-authentication-token-formats/)
-* [Artigo de notícias do InfoQ.com: O GitHub altera o formato do token para melhorar a identificação, a verificação secreta e a entropia](https://www.infoq.com/news/2021/04/github-new-token-format/)
+* [Blog do GitHub: por trás dos novos formatos de token de autenticação do GitHub](https://github.blog/2021-04-05-behind-githubs-new-authentication-token-formats/)
+* [InfoQ.com artigo de notícias: GitHub altera o formato do token para melhorar a identificação, a verificação secreta e a entropia](https://www.infoq.com/news/2021/04/github-new-token-format/)

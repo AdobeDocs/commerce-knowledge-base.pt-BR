@@ -4,13 +4,22 @@ description: Na Commerce Intelligence, nossa meta é fornecer um excelente atend
 exl-id: 2e1ef4b3-a77c-4281-8337-fb90574a44f7
 feature: Commerce Intelligence, User Account
 role: Developer
-source-git-commit: 724a30310c3841f8280628436925f9a3e5933b14
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 3cd14413-6539-5c64-b063-fdcabf03abff
+    internal-label: Commerce Intelligence
+  - id: 4560f5f5-d00c-5b5d-b61b-369d85ef7a26
+    internal-label: User Account
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '539'
 ht-degree: 0%
-
 ---
-
 # Políticas de serviço do Adobe Commerce Intelligence
 
 Na Commerce Intelligence, nossa meta é fornecer um excelente atendimento ao cliente, proteger seus dados e fornecer o know-how necessário para tomar decisões orientadas por dados.
@@ -34,20 +43,20 @@ Como queremos garantir que somente as pessoas autorizadas por você possam acess
 
 Embora não possamos executar essas ações em seu nome, estamos dispostos a orientá-lo:
 
-* [Criando e modificando informações da conta de usuário](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management.html?lang=pt-BR)
+* [Criando e modificando informações da conta do usuário](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management.html)
 * Especificando ou modificando informações sobre faturamento
-* [Compartilhando painéis com outros usuários](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/build/dashboards/share-dashboard-with-users.html?lang=pt-BR)
+* [Compartilhamento de painéis com outros usuários](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/build/dashboards/share-dashboard-with-users.html?lang=en)
 * Discutir, criar ou modificar conexões de dados e detalhes do servidor
-* Executando funções de nível administrativo para usuários padrão ou somente leitura (por exemplo, [adicionando/editando métricas](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/build/reports/ess-manage-data-metrics.html?lang=pt-BR))
+* Executando funções de nível administrativo para usuários padrão ou somente leitura (por exemplo, [adicionando/editando métricas](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/build/reports/ess-manage-data-metrics.html))
 * Divulgação de detalhes da conta - por exemplo, relatórios ou informações de faturamento - em chamadas telefônicas de entrada. Acompanharemos com um endereço de email registrado.
 
 Além das funções de segurança de dados listadas acima, há algumas solicitações relacionadas ao produto que nossa equipe de suporte não pode acomodar:
 
-* **SQL de Ensino** - Deseja usar o SQL Report Builder, mas você não sabe o SQL? Não se preocupe - preparamos um [tutorial](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html?lang=pt-BR) para ajudá-lo com as noções básicas.
+* **SQL de Ensino** - Deseja usar o SQL Report Builder, mas você não sabe o SQL? Não se preocupe - preparamos um [tutorial](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html) para ajudá-lo com as noções básicas.
 
-* **Problemas de visualização de SQL não causados por defeitos de produto** - Se um gráfico acabar parecendo um pouco estranho e **não for** causado por um defeito de produto, é provável que a causa seja a própria consulta. Veja nosso [Tutorial de criação de visualizações de consultas SQL](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/tutorials/create-visuals-from-sql.html?lang=pt-BR) em nosso guia do usuário para obter orientação sobre como estruturar suas consultas para visualização.
-* **Depurando consultas SQL** - Periodicamente, você pode encontrar erros não EXPLICAR que impedem a execução da consulta. Recomendamos consultar o [Guia do Usuário do Commerce Intelligence: usar o SQL Report Builder](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html?lang=pt-BR) e nosso tutorial SQL para ajudar a identificar onde a consulta deu errado.
+* **Problemas de visualização de SQL não causados por defeitos de produto** - Se um gráfico acabar parecendo um pouco estranho e **não for** causado por um defeito de produto, é provável que a causa seja a própria consulta. Veja nosso [Tutorial de criação de visualizações de consultas SQL](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/tutorials/create-visuals-from-sql.html) em nosso guia do usuário para obter orientação sobre como estruturar suas consultas para visualização.
+* **Depurando consultas SQL** - Periodicamente, você pode encontrar erros não EXPLICAR que impedem a execução da consulta. Recomendamos consultar o [Guia do Usuário do Commerce Intelligence: usar o SQL Report Builder](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html) e nosso tutorial SQL para ajudar a identificar onde a consulta deu errado.
 
 ## Como faço para enviar um tíquete?
 
-Você pode [enviar um tíquete](https://experienceleague.adobe.com/pt-br/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) para nossa equipe de suporte clicando no link **Enviar um tíquete** na parte superior da página. Recomendamos verificar as [Informações no seu tíquete de suporte](https://experienceleague.adobe.com/pt-br/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) antes de entrar em contato conosco para verificar se todas as informações necessárias estão no seu envio inicial.
+Você pode [enviar um tíquete](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) para nossa equipe de suporte clicando no link **Enviar um tíquete** na parte superior da página. Recomendamos verificar as [Informações no seu tíquete de suporte](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) antes de entrar em contato conosco para verificar se todas as informações necessárias estão no seu envio inicial.
