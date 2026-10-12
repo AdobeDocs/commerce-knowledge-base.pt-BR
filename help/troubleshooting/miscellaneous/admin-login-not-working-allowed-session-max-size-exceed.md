@@ -2,13 +2,14 @@
 title: O login do [!UICONTROL Admin] não está funcionando - tamanho máximo de sessão permitido excedido
 description: Resolva o problema ao tentar fazer logon no painel do [!UICONTROL Admin] e o formulário for atualizado e você não conseguir fazer logon.
 exl-id: 12789df0-6130-4e60-a92a-68ed329bd7fd
-source-git-commit: fe4a48581bdfe24da5082b69fb26a8032bd77334
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '413'
 ht-degree: 0%
-
 ---
-
 # O login do [!UICONTROL Admin] não está funcionando - tamanho máximo de sessão permitido excedido
 
 Este artigo fornece uma correção para quando você tenta fazer logon no painel [!UICONTROL Admin], mas o formulário é atualizado e você não pode fazer logon, ou está executando algumas ações no painel [!UICONTROL Admin] e é desconectado automaticamente.
@@ -35,7 +36,7 @@ O tamanho máximo de sessão permitido foi excedido.
 Verifique se há erros como estes no arquivo `var/log/support_report.log`:
 
 *[2023-07-13T04:26:09.792060+00:00] report.WARNING: o tamanho da sessão de 260572 excedeu o tamanho máximo de sessão permitido de 256000. [] []
-[2023-07-13T04:26:17.056714+00:00] report.WARNING: o tamanho da sessão de 260570 excedeu o tamanho máximo de sessão permitido de 256000. [][]*
+[2023-07-13T04:26:17.056714+00:00] report.WARNING: O tamanho da sessão de 260570 excedeu o tamanho máximo de sessão permitido de 256000. [][]*
 
 Se você vir esses erros, a solução será:
 

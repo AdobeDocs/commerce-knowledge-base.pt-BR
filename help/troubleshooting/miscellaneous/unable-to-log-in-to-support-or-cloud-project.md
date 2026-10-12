@@ -4,13 +4,22 @@ description: Este artigo fornece uma solução para quando você luta para fazer
 exl-id: 676b32d2-8197-4c60-a1b1-3c51b01dd3a3
 feature: Cloud, Paas
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: 00451af3-7b97-5414-9992-3a6c269e413f
+    internal-label: Paas
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '276'
 ht-degree: 0%
-
 ---
-
 # Não é possível fazer logon no suporte da Adobe Commerce ou na conta da nuvem
 
 Este artigo fornece uma solução para quando você luta para fazer logon no suporte da Adobe Commerce ou no seu projeto na nuvem.
@@ -35,23 +44,23 @@ Logon realizado com sucesso.
 
 <u>Resultado real</u>:
 
-Receba o redirecionamento para uma página para entrar com uma conta Adobe e as credenciais não funcionarão.
+Seja redirecionado para uma página para entrar com uma conta da Adobe e as credenciais não funcionarem.
 
 ![adobe-login-two](assets/adobe-login-two.png)
 
 
 ## Causa
 
-Como parte do nosso processo de integração do Adobe Commerce com outras soluções de Adobe, todos os usuários precisarão criar um logon de Adobe (caso ainda não tenham um) usando o mesmo endereço de email conectado à sua MageID.
+Como parte do nosso processo de integração do Adobe Commerce com outras soluções da Adobe, todos os usuários precisarão criar um logon do Adobe, caso ainda não tenham um, usando o mesmo endereço de email conectado à sua MageID.
 
 ## Solução
 
 Você pode fazer logon na conta com:
 
-- Uma conta Adobe existente corporativa/pessoal.
-- Se você não tiver uma conta Adobe, crie uma com o mesmo endereço de email.
+- Uma conta corporativa/pessoal existente da Adobe.
+- Se você não tiver uma conta do Adobe, crie uma com o mesmo endereço de email.
 
-Para ver as etapas, consulte o [Commerce Identity Manager](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-identity-manager.html?lang=pt-BR) no Adobe Experience League.
+Para ver as etapas, consulte o [Commerce Identity Manager](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-identity-manager.html?lang=pt-BR) na Adobe Experience League.
 
 ## Leitura relacionada
 

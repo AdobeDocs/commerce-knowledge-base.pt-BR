@@ -1,19 +1,26 @@
 ---
 title: 'PWA Studio: erros de validação ao executar o modo de desenvolvedor'
-description: Este tópico discute uma solução para quando ocorrem erros de validação ao executar o modo de desenvolvedor no Progressive Web App (PWA) Studio for Adobe Commerce como resultado da não criação anterior do arquivo de ambiente venia-concept (Venia é uma loja da PWA). Esse arquivo manterá as variáveis para o ambiente de desenvolvimento local.
+description: Este tópico discute uma solução para quando ocorrem erros de validação ao executar o modo de desenvolvedor no Progressive Web App (PWA) Studio for Adobe Commerce como resultado de não ter criado anteriormente o conceito venia (Venia é uma loja da PWA). arquivo de ambiente. Esse arquivo manterá as variáveis para o ambiente de desenvolvimento local.
 exl-id: 97d042ef-88e6-4eda-a834-2cff4de276e2
 feature: Configuration
 role: Developer
-source-git-commit: 9d32a5971341ed8dc46e0932c10eaac4d17ec299
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '239'
 ht-degree: 0%
-
 ---
-
 # PWA Studio: erros de validação ao executar o modo de desenvolvedor
 
-Este tópico discute uma solução para quando ocorrem erros de validação ao executar o modo de desenvolvedor no Progressive Web App (PWA) Studio for Adobe Commerce como resultado da não criação anterior do arquivo de ambiente venia-concept (Venia é uma loja da PWA). Esse arquivo manterá as variáveis para o ambiente de desenvolvimento local.
+Este tópico discute uma solução para quando ocorrem erros de validação ao executar o modo de desenvolvedor no Progressive Web App (PWA) Studio for Adobe Commerce como resultado de não ter criado anteriormente o conceito venia (Venia é uma loja da PWA). arquivo de ambiente. Esse arquivo manterá as variáveis para o ambiente de desenvolvimento local.
 
 ## Produtos e versões afetados
 

@@ -2,13 +2,14 @@
 title: Não é possível alterar o mecanismo de pesquisa em "app/etc/env.php"
 description: Este artigo fornece uma solução para o problema em que você tenta alterar o mecanismo de pesquisa no Administrador do Commerce, mas os campos estão bloqueados.
 exl-id: 61006ce7-34f9-4e4d-a197-f3d627dd277f
-source-git-commit: 129e24366aedb132adb84e1f0196d2536422180f
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '258'
 ht-degree: 0%
-
 ---
-
 # Não é possível alterar o mecanismo de pesquisa em `app/etc/env.php`
 
 Este artigo fornece uma solução para o problema em que você tenta remover a configuração do mecanismo de pesquisa do arquivo `app/etc/env.php`, mas após a reimplantação, a configuração é revertida para a configuração anterior ou alterada para [!DNL OpenSearch] por padrão.

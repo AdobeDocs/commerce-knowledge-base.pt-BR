@@ -1,10 +1,13 @@
 ---
-source-git-commit: c992521cae8c847adc0cc23d2323300e0ba69cdc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 0%
-
 ---
+
 # Guia de Estilo da Base de Dados de Suporte
 
 Siga estas recomendações de estilo e formatação ao contribuir com a Central de ajuda da Adobe Commerce.
@@ -30,12 +33,12 @@ Siga estas recomendações de estilo e formatação ao contribuir com a Central 
 
 * As listas com marcadores facilitam a digitalização.
 
-   * Use listas com marcadores para métodos, abordagens, opções e etapas de tarefas não consecutivas.
-   * Manter texto em marcadores curtos, de preferência não mais do que duas frases.
-   * Minimize o número de marcadores; sete ou menos é ideal.
-   * Evite colocar uma dica ou nota entre itens com marcadores.
-   * Use a estrutura de gramática paralela em listas, mas quebre essa regra se resultar em excesso de verbidades ou linguagem distorcida.
-   * Use letra maiúscula na primeira palavra de cada item em uma lista com marcadores, mesmo que seja um fragmento.
+  * Use listas com marcadores para métodos, abordagens, opções e etapas de tarefas não consecutivas.
+  * Manter texto em marcadores curtos, de preferência não mais do que duas frases.
+  * Minimize o número de marcadores; sete ou menos é ideal.
+  * Evite colocar uma dica ou nota entre itens com marcadores.
+  * Use a estrutura de gramática paralela em listas, mas quebre essa regra se resultar em excesso de verbidades ou linguagem distorcida.
+  * Use letra maiúscula na primeira palavra de cada item em uma lista com marcadores, mesmo que seja um fragmento.
 
 * Torne suas listas paralelas. Por exemplo, cada item deve ser um substantivo ou uma frase que começa com um verbo.
 
@@ -71,10 +74,10 @@ Escreva um número como um numeral, como &quot;42&quot; ou &quot;11&quot; quando
 
 * O número está acima de 9 (números dez e acima).
 * Você está especificando o número:
-   * Em uma linha de código ou trecho de código.
-   * Em um caminho de arquivo ou nome de diretório.
-   * Ao comunicar um intervalo, como &quot;entre 5 e 25&quot; ou &quot;números de revisão de 8 a 21&quot;.
-   * Os números foram medidos ou calculados como &quot;62 paicas&quot; ou &quot;830 MHz&quot;.
+  * Em uma linha de código ou trecho de código.
+  * Em um caminho de arquivo ou nome de diretório.
+  * Ao comunicar um intervalo, como &quot;entre 5 e 25&quot; ou &quot;números de revisão de 8 a 21&quot;.
+  * Os números foram medidos ou calculados como &quot;62 paicas&quot; ou &quot;830 MHz&quot;.
 
 Use uma mistura de números e numerais ao anotar uma quantidade de coisas numeradas, como &quot;uma coleção de quinze execuções de 1000 tentativas&quot;.
 
@@ -100,7 +103,7 @@ Escreva ambos os números em palavras ou ambos em numerais, se você tiver dois 
 
 <tr>
 
-<td>Faça logon na página da conta do Magento.com </td>
+<td>Faça logon na página da conta da Magento.com </td>
 
 <td>Faça logon em sua conta da Adobe Commerce</td>
 

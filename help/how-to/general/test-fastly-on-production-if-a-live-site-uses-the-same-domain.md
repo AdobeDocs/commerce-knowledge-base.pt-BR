@@ -3,13 +3,20 @@ title: Testar o Fastly na produção se um Site Ativo usar o mesmo domínio
 description: Se você tiver um site ativo em execução no domínio de produção ("example.com") e precisar testar sua nova loja no ambiente de produção do Adobe Commerce na infraestrutura em nuvem com o Fastly CDN habilitado, recomendamos usar o subdomínio (como "prod.example.com"), tendo adicionado anteriormente ao Fastly, para qualquer atividade de teste de pré-lançamento. Este artigo discute os detalhes e fornece links úteis para os recursos de documentação do Adobe Commerce relacionados.
 exl-id: bc9d11c8-ce47-461d-b5b8-c03494bc4ceb
 feature: Cache
-source-git-commit: 6651963ea5843283dee40a8ce58280baac79053a
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '640'
 ht-degree: 0%
-
 ---
-
 # Testar o Fastly na produção se um Site Ativo usar o mesmo domínio
 
 Se você tiver um site ativo em execução em seu domínio de produção (`example.com`) e precisar testar seu novo armazenamento no ambiente de Produção do Adobe Commerce na infraestrutura em nuvem com o CDN do Fastly habilitado, recomendamos usar o subdomínio (como `prod.example.com`), que já o adicionou ao Fastly, para qualquer atividade de teste de pré-lançamento. Este artigo discute os detalhes e fornece links úteis para os recursos de documentação do Adobe Commerce relacionados.
@@ -48,10 +55,10 @@ O uso do subdomínio permite executar uma &quot;inicialização suave&quot; do a
 
 Em nossa base de conhecimento de suporte:
 
-* [Definir as configurações do Fastly DNS nos ambientes de Preparo e Produção](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/configure-fastly-dns-settings-on-staging-and-production-environments.html?lang=pt-BR)
-* [Possíveis bloqueadores para inicialização no Adobe Commerce na infraestrutura de nuvem](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.html?lang=pt-BR)
+* [Definição das configurações de DNS do Fastly nos ambientes de Preparo e Produção](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/configure-fastly-dns-settings-on-staging-and-production-environments.html?lang=pt-BR)
+* [Possíveis bloqueadores para lançamento no Adobe Commerce na infraestrutura em nuvem](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.html?lang=pt-BR)
 
 Em nossa documentação do desenvolvedor:
 
 * [Visão geral do Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=pt-BR)
-* [Lista de verificação de ativação: configurações de DNS para o Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html?lang=pt-BR)
+* [Lista de verificação de ativação: configurações de DNS do Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html?lang=pt-BR)

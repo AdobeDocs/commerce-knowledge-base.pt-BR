@@ -2,13 +2,14 @@
 title: Restaurar um instantâneo do banco de dados de preparo ou produção
 description: Este artigo mostra como restaurar um instantâneo do banco de dados de Preparo ou Produção na Adobe Commerce na infraestrutura em nuvem.
 exl-id: 1026a1c9-0ca0-4823-8c07-ec4ff532606a
-source-git-commit: 62815213ce54f72d27812b9c2d7b3997f2e88897
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '548'
 ht-degree: 0%
-
 ---
-
 # Restaurar um instantâneo de BD de [!DNL Staging] ou [!DNL Production]
 
 Este artigo mostra como restaurar um banco de dados [!DNL snapshot] de [!DNL Staging] ou [!DNL Production] no Adobe Commerce na infraestrutura do Cloud Pro.
@@ -17,7 +18,7 @@ Este artigo mostra como restaurar um banco de dados [!DNL snapshot] de [!DNL Sta
 >[!NOTE]
 >
 >Estes métodos restaurarão o **instantâneo completo**.
->&#x200B;>Se você precisar restaurar o instantâneo **parcialmente**, por exemplo, restaurando apenas as tabelas de catálogo deixando as tabelas de ordem intactas, consulte seu desenvolvedor ou DBA.
+>Se você precisar restaurar o instantâneo **parcialmente**, por exemplo, restaurando apenas as tabelas de catálogo deixando as tabelas de ordem intactas, consulte seu desenvolvedor ou DBA.
 
 
 ## Produtos e versões afetados
@@ -44,12 +45,12 @@ Escolha o mais apropriado para seu caso:
 As etapas são:
 
 1. Usando o [!DNL SFTP], navegue até o local onde o banco de dados [!DNL snapshot] foi colocado, normalmente no primeiro servidor/nó do [!DNL cluster] (Por exemplo: `/mnt/recovery-<recovery_id>`).
-   > **Projetos baseados no Azure:**\
-   > Se seu projeto for baseado no Azure (ou seja, sua URL de projeto se parece com `https://us-a1.magento.cloud/projects/<cluster_id>`), o instantâneo será colocado em:
+   > **Projetos baseados em Azure:**\
+   > Se o seu projeto for baseado em Azure (isto é, a URL do projeto se parece com `https://us-a1.magento.cloud/projects/<cluster_id>`), o instantâneo será colocado em:
    > * `/mnt/shared/<cluster ID>/all-databases.sql.gz`
    > * `/mnt/shared/<cluster ID_stg>/all-databases.sql.gz`
 
-   **Etapas de extração específicas do Azure**
+   **etapas de extração específicas do Azure**
 
    **Para produção:**
 

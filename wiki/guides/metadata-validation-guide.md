@@ -1,10 +1,13 @@
 ---
-source-git-commit: 0cfb7dc0dce68bcb0933a5ae49b0cd5a8b5b5a39
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%
-
 ---
+
 # Guia de validação de metadados
 
 Para garantir a formatação correta dos metadados em arquivos MD, implementamos um teste de validação de metadados. Este documento fornece diretrizes para ajudar os colaboradores a evitar alguns dos erros mais comuns de validação de metadados.

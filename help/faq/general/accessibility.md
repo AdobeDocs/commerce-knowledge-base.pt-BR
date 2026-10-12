@@ -3,13 +3,17 @@ title: Acessibilidade de conteúdo da Web para o Adobe Commerce
 description: 'Entendemos a importância da acessibilidade no Adobe. Embora a responsabilidade pela acessibilidade seja do parceiro/comerciante, continuamos a melhorar nossa acessibilidade em cada versão que também será incluída em nossos planos de melhoria de acessibilidade para 2022.  '
 exl-id: f3b4025e-37ef-44fc-9a18-b0d159994062
 feature: Compliance
-source-git-commit: 48453c667e5cc022ad9a551a0ec0016ca06fda52
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
+    internal-label: Compliance
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '202'
 ht-degree: 0%
-
 ---
-
 # Acessibilidade de conteúdo da Web para o Adobe Commerce
 
 Entendemos a importância da acessibilidade no Adobe. Embora a responsabilidade pela acessibilidade seja do parceiro/comerciante, continuamos a melhorar nossa acessibilidade em cada versão que também será incluída em nossos planos de melhoria de acessibilidade para 2022.
@@ -24,4 +28,4 @@ Soluções podem ser encontradas na [Commerce Marketplace](https://marketplace.m
 
 ## Leitura relacionada
 
-* [Acessibilidade Adobe](https://www.adobe.com/trust/accessibility.html)
+* [Acessibilidade do Adobe](https://www.adobe.com/trust/accessibility.html)

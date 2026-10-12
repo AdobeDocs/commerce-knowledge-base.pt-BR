@@ -4,13 +4,20 @@ description: Este artigo fala sobre alguns problemas comuns do MySQL (consultas 
 exl-id: cae02e4f-d8cb-4074-abac-24ead22bdc07
 feature: Services
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: da76473c-f99b-5ad0-9b14-896aed473f8a
+    internal-label: Services
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '547'
 ht-degree: 0%
-
 ---
-
 # Verificando consultas e processos lentos MySQL
 
 Este artigo fala sobre alguns problemas comuns do MySQL (consultas lentas, processos demorando muito) que podem afetar negativamente o site de um comerciante e as soluções que eles indicam.
@@ -21,9 +28,9 @@ Este artigo fala sobre alguns problemas comuns do MySQL (consultas lentas, proce
 
 Se você tiver uma interrupção possivelmente causada por um banco de dados sobrecarregado, essas etapas ajudarão a verificar o log de consultas lentas do seu banco de dados.
 
-### Analisar consultas usando a linha de comando MySQL (Adobe Commerce Cloud/on-premise/Magento Open Source)
+### Analisar consultas usando a linha de comando MySQL (Adobe Commerce Cloud/no local/Magento Open Source)
 
-1. Faça logon na linha de comando do MySQL (Adobe Commerce no local/Magento Open Source) ou no servidor de nuvem na linha de comando (Adobe Commerce na infraestrutura de nuvem).
+1. Faça logon na linha de comando do MySQL (Adobe Commerce no local/Magento Open Source) ou no servidor em nuvem pela linha de comando (Adobe Commerce na infraestrutura em nuvem).
 1. Examine o log de consulta lenta para consultas com mais de 50 segundos:
 
    ```bash
@@ -56,7 +63,7 @@ Isso ajudará a identificar se o servidor MySQL está ativo e se não há consul
 
 ### Etapas
 
-1. Faça logon na linha de comando do MySQL (Adobe Commerce no local/Magento Open Source) ou no servidor de nuvem na linha de comando (Adobe Commerce na infraestrutura de nuvem).
+1. Faça logon na linha de comando do MySQL (Adobe Commerce no local/Magento Open Source) ou no servidor em nuvem pela linha de comando (Adobe Commerce na infraestrutura em nuvem).
 1. Faça logon no MySQL usando o bloco de código abaixo. Isso automatizará o processo de logon.
 
    ```MySQL

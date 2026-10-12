@@ -1,16 +1,23 @@
 ---
 title: '[!DNL Cron] tarefas bloqueiam tarefas de outros grupos'
-description: Este artigo fornece uma solução para o problema de infraestrutura na nuvem do Adobe Commerce relacionado a determinados trabalhos [!DNL cron] de longa duração que bloqueiam outros [!DNL cron] trabalhos.
+description: Este artigo fornece uma solução para o problema de infraestrutura na nuvem do Adobe Commerce relacionado a determinados trabalhos [!DNL cron] de longa duração que bloqueiam outros trabalhos [!DNL cron].
 exl-id: b5b9e8b3-373c-4f93-af9c-85da84dbc928
 feature: Configuration
 role: Developer
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '458'
 ht-degree: 0%
-
 ---
-
 # [!DNL Cron] tarefas bloqueiam tarefas de outros grupos
 
 Este artigo fornece uma solução para o problema de infraestrutura na nuvem do Adobe Commerce relacionado a determinados trabalhos [!DNL cron] de longa duração que bloqueiam outros trabalhos [!DNL cron].

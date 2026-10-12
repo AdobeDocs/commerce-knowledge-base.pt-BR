@@ -4,13 +4,23 @@ description: Este artigo fornece uma correção para, ao atualizar categorias de
 exl-id: d951205c-add9-478c-9c7d-2ba975d53b14
 feature: Categories
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+    internal-label: Categories
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '760'
 ht-degree: 0%
-
 ---
-
 # As alterações nas categorias não estão sendo salvas
 
 Este artigo fornece uma correção para, ao atualizar categorias de produto por meio do Administrador do Commerce, as alterações não são exibidas no Administrador e na loja. O problema é causado pelos dados corrompidos na tabela `catalog_category_entity`. Para resolver o problema, corrija ou remova os registros de atualização de categoria problemáticos na tabela. Depois disso, você poderá atualizar as categorias de produto usando o Administrador.

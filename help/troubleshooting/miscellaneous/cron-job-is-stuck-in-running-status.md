@@ -1,16 +1,23 @@
 ---
 title: O trabalho [!DNL Cron] está preso no status **em execução**
-description: Este artigo fornece soluções para quando os trabalhos do Adobe Commerce [!DNL cron]  não terminarem de ser executados e persistirem em um status "em execução", o que impede a execução de outros trabalhos do  [!DNL cron] . Isso pode acontecer por vários motivos, como problemas de rede, falhas em aplicativos e problemas de reimplantação.
+description: Este artigo fornece soluções para quando os trabalhos do Adobe Commerce [!DNL cron] não terminarem de ser executados e persistirem em um status "em execução", o que impede a execução de outros trabalhos do [!DNL cron]. Isso pode acontecer por vários motivos, como problemas de rede, falhas em aplicativos e problemas de reimplantação.
 exl-id: 11e01a2b-2fcf-48c2-871c-08f29cd76250
 feature: Configuration
 role: Developer
-source-git-commit: be0c72a1759ba172666c7c9409c65a1a388e3f11
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '429'
 ht-degree: 0%
-
 ---
-
 # O trabalho [!DNL Cron] está preso no status &quot;em execução&quot;
 
 Este artigo fornece soluções para quando os trabalhos do Adobe Commerce [!DNL cron] não terminarem de ser executados e persistirem em um status &quot;em execução&quot;, o que impede a execução de outros trabalhos do [!DNL cron]. Isso pode acontecer por vários motivos, como problemas de rede, falhas em aplicativos e problemas de reimplantação.
@@ -73,7 +80,7 @@ Para resolver esse problema, você deve redefinir o(s) trabalho(s) [!DNL cron] u
    ```
 
 1. Se você observar trabalhos [!DNL cron] de longa execução que possam bloquear o processo de implantação, é possível encerrar o processo usando o comando `kill`. Você pode identificar a **ID do Processo** (localizada a coluna `PID`) e colocar essa `PID` no comando para eliminar o processo.
-O comando **kill process** é:
+O comando **eliminar processo** é:
 
    `kill -9 <PID>`
 

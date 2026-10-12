@@ -4,13 +4,24 @@ description: Este artigo fornece uma solução para erros de conexão de banco d
 exl-id: e8932b72-91a3-43ea-800e-a6c7a5a17656
 feature: Best Practices, Observability, Services
 role: Developer
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: cdfd3bc1-dc23-5cf0-b965-d3c0c55cde67
+    internal-label: Best Practices
+  - id: 4239b8a6-e74f-567d-a7a5-b98b9ead0ea4
+    internal-label: Observability
+  - id: da76473c-f99b-5ad0-9b14-896aed473f8a
+    internal-label: Services
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '626'
 ht-degree: 0%
-
 ---
-
 # Erros de banco de dados relacionados a max_allowed_packet no Adobe Commerce
 
 Este artigo fornece uma solução para erros de conexão de banco de dados no `var/log/exception.log` que podem ocorrer durante a importação de um grande número de produtos ou a execução de outra tarefa que força o servidor a manipular pacotes maiores do que o configurado no `max_allowed_packet`, que é maior do que o padrão, 16MB.

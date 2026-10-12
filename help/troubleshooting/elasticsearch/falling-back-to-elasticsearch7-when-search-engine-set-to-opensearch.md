@@ -1,16 +1,26 @@
 ---
-title: Retornando para  [!DNL Elasticsearch7] quando o mecanismo de pesquisa estiver definido como [!DNL Opensearch]
-description: Este artigo fornece uma solução para o problema de *Falling back to [!DNL Elasticsearch7]* error occurs when the search engine is set to [!DNL OpenSearch] in Adobe Commerce.
+title: Retornando para [!DNL Elasticsearch7] quando o mecanismo de pesquisa estiver definido como [!DNL Opensearch]
+description: Este artigo fornece uma solução para o problema em que ocorre um erro *Fallback to [!DNL Elasticsearch7]* quando o mecanismo de pesquisa está definido como [!DNL OpenSearch] no Adobe Commerce.
 feature: Search
 role: Developer
 exl-id: 965d2929-5cf0-4e0a-9eed-6a656daaa120
-source-git-commit: 40766238a7ea748bff86decf75cddec28fe63bb9
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+subfeature_v2:
+  - id: a1d22079-48b9-5e69-9ee6-eb236068ef34
+    internal-label: Search
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '269'
 ht-degree: 0%
-
 ---
-
 # Retornando para [!DNL Elasticsearch7] quando o mecanismo de pesquisa estiver definido como [!DNL Opensearch]
 
 Este artigo fornece uma solução para o problema quando um erro *Falling back to[!DNL Elasticsearch7]* ocorre quando o mecanismo de pesquisa está definido como [!DNL OpenSearch] no Adobe Commerce.
@@ -43,7 +53,7 @@ Se ele indicar *1.2.4*, então [!DNL OpenSearch] já está instalado.
 Embora sua versão seja compatível com o [!DNL OpenSearch], o aplicativo somente reconhecerá/aceitará o [!DNL Elasticsearch7] como mecanismo de pesquisa.
 
 A partir do Adobe Commerce versão 2.4.6, o aplicativo foi atualizado para permitir que [!DNL OpenSearch] seja selecionado como mecanismo de pesquisa.
-Se você for para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Search]** em um ambiente que não seja de nuvem, será possível alterar essa opção conforme mostrado na **Solução** abaixo.
+Se você for para **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Search]** em um ambiente que não seja de nuvem, poderá alterar essa opção, como mostrado na **Solução** abaixo.
 (Observação: em um ambiente de nuvem, este campo não pode ser alterado porque o mecanismo de pesquisa está bloqueado no arquivo `app/etc/env.php`.)
 
 ## Solução

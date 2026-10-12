@@ -3,13 +3,17 @@ title: Variável de incremento de auto_incremento do banco de dados definida com
 description: Esse é o comportamento esperado para as soluções de arquitetura de plano Pro da infraestrutura em nuvem do Adobe Commerce devido à arquitetura de 3 nós e não pode ser modificado.
 exl-id: ea478cbc-2dc2-41c9-8ea7-7e2f308e5948
 feature: Cloud
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '309'
 ht-degree: 0%
-
 ---
-
 # Variável de incremento de auto_incremento do banco de dados definida como &quot;3&quot; Adobe Commerce em nossa arquitetura Cloud Pro
 
 Esse é o comportamento esperado para as soluções de arquitetura de plano Pro da infraestrutura em nuvem do Adobe Commerce devido à arquitetura de 3 nós e não pode ser modificado.
@@ -32,4 +36,4 @@ Por exemplo, se o principal selecionado for o nó 1, em que `auto_increment_offs
 Consulte na documentação do desenvolvedor:
 
 * [Nuvem para Adobe Commerce > Arquitetura Pro > Backup e recuperação de desastres](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#backup-and-disaster-recovery)
-* [Nuvem para Adobe Commerce > Instalar pré-requisitos: banco de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/overview)
+* [Cloud para Adobe Commerce > Instalar pré-requisitos: banco de dados](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/overview)

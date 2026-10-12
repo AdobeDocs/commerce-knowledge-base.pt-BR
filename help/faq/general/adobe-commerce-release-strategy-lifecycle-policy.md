@@ -3,13 +3,17 @@ title: Perguntas frequentes sobre a Estratégia e a Política de ciclo de vida d
 description: Para atender às necessidades críticas dos clientes do Adobe Commerce, estamos expandindo nossa janela de suporte para o Adobe Commerce 2.4.4 e versões posteriores para **3 anos a partir da versão [!DNL GA] data**. O suporte inclui **patches de segurança e qualidade**. Consulte nosso novo [calendário de lançamento](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=pt-BR) para obter detalhes sobre tempo.
 exl-id: f2bfd79c-9766-4a82-a65c-bf66b80bd34a
 feature: Compliance
-source-git-commit: 68587ca3e861ef326e006a7ab086d197f37ae9b3
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
+    internal-label: Compliance
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1293'
 ht-degree: 1%
-
 ---
-
 # Perguntas frequentes sobre a Estratégia e a Política de ciclo de vida das versões de 2024 e 2023 do Adobe Commerce
 
 ## Estratégia de lançamento de 2024 e 2023 e política de ciclo de vida atualizada

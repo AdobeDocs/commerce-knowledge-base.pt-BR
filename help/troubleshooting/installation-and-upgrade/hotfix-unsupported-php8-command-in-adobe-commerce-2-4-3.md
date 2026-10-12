@@ -4,13 +4,22 @@ description: 'Este artigo fornece uma correção para quando os comerciantes ten
 exl-id: 1c472214-8387-403e-b2d2-d3f3c9e1da6a
 feature: Install, Upgrade
 role: Developer
-source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 6388cf7b-8a81-5248-a1e4-7bb57bbe250f
+    internal-label: Install
+  - id: a8ae7a5a-6cdc-5922-bd0d-6feb44b04984
+    internal-label: Upgrade
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '333'
 ht-degree: 0%
-
 ---
-
 # Hotfix de erro fatal do PHP 2.4.3, 2.3.7-p1 para Adobe Commerce
 
 Este artigo fornece uma correção para quando os comerciantes tentam atualizar para o Adobe Commerce (todos os métodos de implantação) ou para o Magento Open Source 2.4.3 ou 2.3.7-p1; o seguinte erro é exibido:
@@ -42,7 +51,7 @@ Erro fatal do PHP.
 
 ## Solução
 
-Como solução alternativa, você executa o seguinte comando no CLI/Terminal: `composer require symfony/polyfill-php80` da pasta raiz do Magento ou instala um patch de compositor.
+Como solução alternativa, você executa o seguinte comando no CLI/Terminal: `composer require symfony/polyfill-php80` da pasta raiz da Magento ou instala um patch de compositor.
 
 Para corrigir o problema da versão 2.4.3, o Adobe Commerce (todos os métodos de implantação) e os comerciantes do Magento Open Source devem aplicar o patch:
 
@@ -54,8 +63,8 @@ Para corrigir o problema da versão 2.3.7-p1, a Adobe Commerce (todos os método
 
 ## Como aplicar o patch
 
-Consulte [Como aplicar um patch de compositor fornecido pelo Magento](https://experienceleague.adobe.com/pt-br/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento) para obter instruções.
+Consulte [Como aplicar um patch de compositor fornecido pela Magento](https://experienceleague.adobe.com/pt-br/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento) para obter instruções.
 
 ## Leitura relacionada
 
-GitHub [Comando do PHP 8 sem suporte no Magento 2.4.3 EE #33680](https://github.com/magento/magento2/issues/33680)
+GitHub [Comando do PHP 8 sem suporte na Magento 2.4.3 EE #33680](https://github.com/magento/magento2/issues/33680)

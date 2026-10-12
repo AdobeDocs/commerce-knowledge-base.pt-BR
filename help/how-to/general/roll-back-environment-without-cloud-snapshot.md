@@ -3,13 +3,26 @@ title: Reverter ambiente sem instantâneo da nuvem
 description: Este artigo mostra duas soluções para reverter um ambiente sem ter um instantâneo do seu ambiente no Adobe Commerce na infraestrutura em nuvem.
 exl-id: 834d13a7-3b1a-460c-9ed0-9d560105f436
 feature: Build, Cloud, Console
-source-git-commit: d7c714cf5b2f9db139440d814af26c12001bb4d9
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+subfeature_v2:
+  - id: adedf3b3-e153-47a3-ae73-b5d65067b544
+    internal-label: Build system
+  - id: c4af0798-d497-5e6b-8380-19812c26d00a
+    internal-label: Console
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '949'
 ht-degree: 0%
-
 ---
-
 # Reverter ambiente sem instantâneo da nuvem
 
 Este artigo mostra duas soluções para reverter um ambiente sem ter um instantâneo do seu ambiente no Adobe Commerce na infraestrutura em nuvem.
@@ -94,7 +107,7 @@ Isso significa que revertemos nossa instalação do Adobe Commerce (incluindo o 
 
 Com a redefinição do Git, revertemos o código para o estado desejado no passado.
 
-1. Clonar o ambiente no ambiente de desenvolvimento local. Você pode copiar o comando no Cloud Console:    ![copy_git_clone.png](assets/copy_git_clone.png)
+1. Clonar o ambiente no ambiente de desenvolvimento local. Você pode copiar o comando no Cloud Console: ![copy_git_clone.png](assets/copy_git_clone.png)
 1. Acesse o histórico de confirmações. Use `--reverse` para exibir o histórico na ordem inversa para maior comodidade:
 
    ```git
@@ -128,7 +141,7 @@ Nesse cenário, primeiro você deve restaurar o estado de trabalho do aplicativo
 
 [&#x200B;3. Desinstale o software Adobe Commerce.](/help/how-to/general/reset-environment-on-cloud.md#setup-uninstall)
 
-4&ponto; Forçar reimplantação.
+4&amp;período; Forçar reimplantação.
 
 Depois de executar essas etapas, você terá os mesmos resultados do Cenário 1.
 
@@ -173,7 +186,7 @@ Em nossa documentação do desenvolvedor:
 
 * [Restaurar um instantâneo na Nuvem](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup)
 * [Criar um instantâneo](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#create-a-manual-backup)
-* [Gerenciamento de instantâneos e backup](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
+* [Gerenciamento de snapshots e backup](https://experienceleague.adobe.com/pt-br/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
 * [Gerenciar ramificações com o Cloud Console - Exibir logs](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html?lang=pt-BR#view-logs)
 * [Falha na implantação do componente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment.html?lang=pt-BR)
-* [Gerenciar seu projeto](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html?lang=pt-BR#configure-the-project)
+* [Gerencie seu projeto](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html?lang=pt-BR#configure-the-project)

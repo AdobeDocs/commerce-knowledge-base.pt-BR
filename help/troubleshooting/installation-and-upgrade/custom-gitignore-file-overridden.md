@@ -4,13 +4,22 @@ description: Este artigo fornece uma solução para quando um arquivo '.gitignor
 exl-id: b0604bae-d630-4292-88d7-6945db30fcf4
 feature: Install, Upgrade
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 6388cf7b-8a81-5248-a1e4-7bb57bbe250f
+    internal-label: Install
+  - id: a8ae7a5a-6cdc-5922-bd0d-6feb44b04984
+    internal-label: Upgrade
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '163'
 ht-degree: 0%
-
 ---
-
 # O comando de instalação do Composer substitui o arquivo .gitignore, Adobe Commerce
 
 Este artigo fornece uma solução para quando um arquivo `.gitignore` rastreado é substituído pelo compositor no Adobe Commerce na infraestrutura de nuvem 2.4.2-p1 e 2.3.7.
@@ -84,4 +93,4 @@ Para manter seu `.gitignore file` personalizado, você precisa ignorá-lo na se�
 
 ## Leitura relacionada
 
-* [O arquivo .gitignore rastreado foi substituído pelo compositor!](https://github.com/magento/magento2/issues/32888) no GitHub Magento2.
+* [O arquivo .gitignore rastreado foi substituído pelo compositor!](https://github.com/magento/magento2/issues/32888) no GitHub do Magento2.

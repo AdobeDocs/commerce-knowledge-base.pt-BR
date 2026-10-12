@@ -4,13 +4,20 @@ description: Este artigo fornece uma solução para o problema que ocorre quando
 exl-id: 9c81de40-65a3-422d-9053-3c894b863a0a
 feature: Orders
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
-
 ---
-
 # O cupom para uso único é usado várias vezes, Adobe Commerce
 
 Este artigo fornece uma solução para o problema que ocorre quando os cupons da regra de preço do carrinho não estão funcionando corretamente. Os comerciantes configuram um cupom para uso único e os clientes podem usá-lo várias vezes.

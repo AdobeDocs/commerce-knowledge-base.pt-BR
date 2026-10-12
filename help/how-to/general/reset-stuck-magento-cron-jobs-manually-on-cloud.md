@@ -3,7 +3,13 @@ title: Redefinir trabalhos cron travados do Adobe Commerce na infraestrutura em 
 description: os trabalhos cron do Adobe Commerce na infraestrutura em nuvem não terminam de ser executados, ficam presos e impedem que outros trabalhos cron sejam executados. Este artigo mostra como redefinir os trabalhos cron travados manualmente.
 exl-id: aec6de8e-c3a9-4a6d-8ecd-a213e77c97a1
 feature: Cloud
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 0%
