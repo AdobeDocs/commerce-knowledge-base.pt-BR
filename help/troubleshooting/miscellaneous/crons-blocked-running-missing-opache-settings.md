@@ -35,7 +35,7 @@ O cron parou de funcionar.
 
 ## Causa
 
-O módulo [!DNL OpCache] foi atualizado para uma versão mais recente que introduziu um plug-in [!DNL GraphQL] que reescreve o `env.php` em tempo de execução e pode substituir a configuração cron, o que pode ter causado o problema. A configuração [!DNL OpCache] precisa ser atualizada para evitar problemas com o `env.php file`, e isso foi resolvido na [versão 2002.1.13](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package.html?lang=en#v2002.1.13) do pacote [!DNL ECE Tools].
+O módulo [!DNL OpCache] foi atualizado para uma versão mais recente que introduziu um plug-in [!DNL GraphQL] que reescreve o `env.php` em tempo de execução e pode substituir a configuração cron, o que pode ter causado o problema. A configuração [!DNL OpCache] precisa ser atualizada para evitar problemas com o `env.php file`, e isso foi resolvido na [versão 2002.1.13](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package.html?lang=pt-BR#v2002.1.13) do pacote [!DNL ECE Tools].
 
 ## Solução
 
@@ -66,6 +66,6 @@ Opção 2: Abrir o arquivo `app/etc/env.php` - se você vir o arquivo abaixo, o 
 
 ## Leitura relacionada
 
-* [Problemas de verificação de preparação do Cron](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-readiness-check-issues.html)
-* [Propriedade Crons](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html)
-* [A tarefa do Cron está paralisada no status &quot;em execução&quot;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html)
+* [Problemas de verificação de preparação do Cron](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-readiness-check-issues.html?lang=pt-BR)
+* [Propriedade Crons](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=pt-BR)
+* [A tarefa do Cron está paralisada no status &quot;em execução&quot;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html?lang=pt-BR)
