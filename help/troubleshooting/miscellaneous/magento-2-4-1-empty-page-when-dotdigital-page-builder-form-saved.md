@@ -6,11 +6,9 @@ feature: Page Builder
 role: Developer
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '273'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce 2.4.1: página vazia quando o formulário dotdigital Page Builder é salvo
 
 Este artigo fornece uma solução alternativa para um problema conhecido no Adobe Commerce 2.4.1 para mostrar uma página da Web vazia após salvar um formulário dotdigital do Page Builder no Painel de administração ao usar o navegador Safari.
@@ -45,6 +43,6 @@ A solução alternativa é usar um navegador alternativo para o Safari. O proble
 ## Leitura relacionada
 
 * [O que é o Page Builder?](https://developer.adobe.com/commerce/frontend-core/page-builder/) na documentação do desenvolvedor.
-* [Configuração do Page Builder](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/setup.html?lang=pt-BR) em nossa documentação do desenvolvedor.
-* [Page Builder](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/page-builder/introduction) em nosso guia do usuário.
-* [Page Builder - Elementos](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/page-builder/workspace#elements) no nosso guia do usuário.
+* [Configuração do Page Builder](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/setup.html) em nossa documentação do desenvolvedor.
+* [Page Builder](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/introduction) em nosso guia do usuário.
+* [Page Builder - Elementos](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/workspace#elements) no nosso guia do usuário.
