@@ -20,9 +20,9 @@ subfeature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
+source-git-commit: a5bb7b49f18f098b8706ba8b3187a7ae81059940
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '199'
 ht-degree: 0%
 ---
 # ERRO: falha no aquecimento do Adobe Commerce na infraestrutura de nuvem
@@ -61,5 +61,4 @@ Verifique se o controle de acesso está habilitado: vá para a ramificação/amb
 
 ## Leitura relacionada
 
-* [Guia do Usuário do Adobe Commerce > Cache de Página Inteira](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/systems/tools/cache-management#full-page-caching) em nosso guia do usuário.
-* [Aquecimento de cache e site não disponível no Adobe Commerce](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md) em nossa base de dados de conhecimento de suporte.
+* [Guia do Usuário do Adobe Commerce > Cache de Página Inteira](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management#full-page-caching) em nosso guia do usuário.

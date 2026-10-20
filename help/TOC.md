@@ -2,9 +2,9 @@
 user-guide-title: Knowledge base do Adobe Commerce
 user-guide-description: Tudo o que você precisa para solucionar problemas e manter sua loja do Commerce.
 breadcrumb-title: KB do Commerce
-source-git-commit: 152df0a44bb16aae19cd84c6d79b891da7365565
+source-git-commit: a5bb7b49f18f098b8706ba8b3187a7ae81059940
 workflow-type: tm+mt
-source-wordcount: '1573'
+source-wordcount: '1564'
 ht-degree: 1%
 ---
 # Knowledge base do Adobe Commerce {#kb}
@@ -73,7 +73,6 @@ ht-degree: 1%
   * Diversos {#miscellaneous}
     * [Eu configurei as chaves de API para o Adobe AI, mas vejo apenas um espaço de dados SaaS](/help/troubleshooting/miscellaneous/i-have-configured-api-keys-for-sensei-but-only-seeing-1-saas-data-space.md)
     * [Ajuda geral para a solução de problemas do módulo personalizado](/help/troubleshooting/miscellaneous/general-custom-module-troubleshooting-help.md)
-    * [Aquecimento de cache e site indisponível no Adobe Commerce](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md)
     * [Uso de Exportações de Dados para apontar discrepâncias](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
     * [Problemas de verificação de preparação de dependência do componente](/help/troubleshooting/miscellaneous/component-dependency-readiness-check-issues.md)
     * [Não é possível acessar o Adobe Commerce na interface do usuário da infraestrutura em nuvem](/help/troubleshooting/miscellaneous/cannot-access-magento-commerce-cloud-ui.md)
