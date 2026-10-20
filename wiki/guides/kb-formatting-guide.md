@@ -129,7 +129,7 @@ Também é possível incorporar listas desse modo.
 Os links externos são diretos:
 
 ```markdown
-[Adobe](https://www.adobe.com)
+[Adobe](https://www.adobe.com/br)
 ```
 
 ### Links para anexos
