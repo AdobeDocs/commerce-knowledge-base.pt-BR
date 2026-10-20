@@ -28,4 +28,4 @@ Soluções podem ser encontradas na [Commerce Marketplace](https://marketplace.m
 
 ## Leitura relacionada
 
-* [Acessibilidade do Adobe](https://www.adobe.com/trust/accessibility.html)
+* [Acessibilidade do Adobe](https://www.adobe.com/br/trust/accessibility.html)

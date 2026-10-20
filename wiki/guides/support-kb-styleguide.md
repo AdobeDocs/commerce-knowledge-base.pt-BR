@@ -256,7 +256,7 @@ Uma lista de links especializada, chamada de lista &quot;consulte também&quot;,
 
 ### Links para sites externos
 
-Use URLs comuns em vez de goURLs para vincular a páginas fora do [Adobe.com](http://Adobe.com).
+Use URLs comuns em vez de goURLs para vincular a páginas fora do [Adobe.com](http://Adobe.com/br).
 
 
 ## Vírgulas
