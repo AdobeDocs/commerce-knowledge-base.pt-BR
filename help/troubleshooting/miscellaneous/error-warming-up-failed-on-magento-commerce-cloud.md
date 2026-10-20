@@ -61,4 +61,4 @@ Verifique se o controle de acesso está habilitado: vá para a ramificação/amb
 
 ## Leitura relacionada
 
-* [Guia do Usuário do Adobe Commerce > Cache de Página Inteira](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management#full-page-caching) em nosso guia do usuário.
+* [Guia do Usuário do Adobe Commerce > Cache de Página Inteira](https://experienceleague.adobe.com/pt-br/docs/commerce-admin/systems/tools/cache-management#full-page-caching) em nosso guia do usuário.
